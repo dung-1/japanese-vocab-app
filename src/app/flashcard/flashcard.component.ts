@@ -28,31 +28,31 @@ export class FlashcardComponent implements OnInit {
     }
   }
   ngOnChanges() {
-    if (this.vocabData && this.vocabData.length > 0) {
-      this.loadImagesForVocab();
-    }
+    // if (this.vocabData && this.vocabData.length > 0) {
+    //   this.loadImagesForVocab();
+    // }
   }
 
-  loadImagesForVocab() {
-    this.vocabData.forEach(vocab => {
-      if (!vocab.imageUrl) {
-        this.fetchImage(vocab.meaning).subscribe((imageUrl: string) => {
-          vocab.imageUrl = imageUrl;
-        });
-      }
-    });
-  }
+  // loadImagesForVocab() {
+  //   this.vocabData.forEach(vocab => {
+  //     if (!vocab.imageUrl) {
+  //       this.fetchImage(vocab.meaning).subscribe((imageUrl: string) => {
+  //         vocab.imageUrl = imageUrl;
+  //       });
+  //     }
+  //   });
+  // }
 
-  fetchImage(meaning: string) {
-    // Lấy toàn bộ meaning làm từ khóa để tìm kiếm chính xác hơn
-    const query = encodeURIComponent(meaning);
-    const url = `https://api.pexels.com/v1/search?query=${query}&per_page=1`;
-    return this.http.get<any>(url, {
-      headers: { Authorization: this.pexelsApiKey }
-    }).pipe(
-      map(response => response.photos[0]?.src?.medium || 'https://via.placeholder.com/150') // Ảnh medium hoặc mặc định
-    );
-  }
+  // fetchImage(meaning: string) {
+  //   // Lấy toàn bộ meaning làm từ khóa để tìm kiếm chính xác hơn
+  //   const query = encodeURIComponent(meaning);
+  //   const url = `https://api.pexels.com/v1/search?query=${query}&per_page=1`;
+  //   return this.http.get<any>(url, {
+  //     headers: { Authorization: this.pexelsApiKey }
+  //   }).pipe(
+  //     map(response => response.photos[0]?.src?.medium || 'https://via.placeholder.com/150') // Ảnh medium hoặc mặc định
+  //   );
+  // }
 
   flipCard() {
     this.isFlipped = !this.isFlipped;
