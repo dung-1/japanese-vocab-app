@@ -22,8 +22,6 @@ export class VocabTestComponent implements OnInit {
   answerHistory: { question: string, userAnswer: string, correctAnswer: string, isCorrect: boolean }[] = []; // Thêm biến này
 
   ngOnInit() {
-    const storedHighScore = localStorage.getItem('highScore');
-    this.highScore = storedHighScore ? Number(storedHighScore) : 0;
   }
 
   startTest() {
