@@ -1,0 +1,45 @@
+<div class="vocab-test" *ngIf="vocabData && vocabData.length > 0">
+    <h2>Kiểm tra từ vựng</h2>
+  
+    <!-- Chọn số lượng câu hỏi -->
+    <div class="question-count" *ngIf="!testStarted">
+      <label for="questionCount">Số câu hỏi:</label>
+      <select id="questionCount" [(ngModel)]="questionCount">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        
+        <option value="all">Tất cả</option>
+      </select>
+      <button (click)="startTest()">Bắt đầu kiểm tra</button>
+    </div>
+  
+    <!-- Bài kiểm tra -->
+    <div class="test-container" *ngIf="testStarted && !testFinished">
+      <p>Thời gian còn lại: {{ timeLeft }}s</p>
+      <p>Câu {{ currentQuestionIndex + 1 }}/{{ questions.length }}</p>
+      <p>{{ currentQuestion.question }}</p>
+      <input type="text" [(ngModel)]="userAnswer" placeholder="Nhập đáp án" />
+      <button (click)="submitAnswer()">Gửi</button>
+    </div>
+  
+    <div class="result" *ngIf="testFinished">
+      <h3>Kết quả</h3>
+      <p>Số câu đúng: {{ correctAnswers }} / {{ questions.length }}</p>
+      <p>Điểm: {{ (correctAnswers / questions.length * 100).toFixed(2) }}%</p>
+      <p>Điểm cao nhất: {{ highScore }}%</p>
+      <h4>Lịch sử trả lời:</h4>
+      <ul>
+        <li *ngFor="let answer of answerHistory" [ngClass]="{'correct': answer.isCorrect, 'incorrect': !answer.isCorrect}">
+          {{ answer.question }} <br>
+          Bạn nhập: {{ answer.userAnswer }} <br>
+          Đáp án đúng: {{ answer.correctAnswer }} <br>
+          Kết quả: {{ answer.isCorrect ? 'Đúng' : 'Sai' }}
+        </li>
+      </ul>
+      <button (click)="resetTest()">Làm lại</button>
+    </div>
+  </div>
+  <div *ngIf="!vocabData || vocabData.length === 0">
+    <p>Vui lòng chọn một bài học để kiểm tra!</p>
+  </div>
