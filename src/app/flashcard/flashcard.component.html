@@ -1,1 +1,19 @@
-<p>flashcard works!</p>
+<div class="flashcard-container" *ngIf="vocabData && vocabData.length > 0">
+    <div class="flashcard" [class.flipped]="isFlipped" (click)="flipCard()">
+      <div class="front">
+        <h2>{{ vocabData[currentIndex].word }}</h2>
+        <button (click)="speak($event)">Phát âm</button>
+      </div>
+      <div class="back">
+        <h3>{{ vocabData[currentIndex].reading }}</h3>
+        <p>{{ vocabData[currentIndex].meaning }}</p>
+      </div>
+    </div>
+    <div class="navigation">
+      <button (click)="prevCard()" [disabled]="currentIndex === 0">Trước</button>
+      <button (click)="nextCard()" [disabled]="currentIndex === vocabData.length - 1">Tiếp</button>
+    </div>
+  </div>
+  <div *ngIf="!vocabData || vocabData.length === 0">
+    <p>Vui lòng chọn một bài học để bắt đầu!</p>
+  </div>

@@ -3,6 +3,11 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+
+import { LessonSelectorComponentModule } from './lesson-selector/lesson-selector.component.module';
+import { FlashcardComponent } from './flashcard/flashcard.component';
+import { FlashcardComponentModule } from './flashcard/flashcard.component.module';
 
 @NgModule({
   declarations: [
@@ -10,8 +15,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+    HttpClientModule,
+    LessonSelectorComponentModule,
+    FlashcardComponentModule
+],
   providers: [
     provideClientHydration(withEventReplay())
   ],
