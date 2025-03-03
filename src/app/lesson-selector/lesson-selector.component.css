@@ -1,0 +1,8 @@
+.lesson-selector {
+    margin: 20px 0;
+  }
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
