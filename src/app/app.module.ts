@@ -6,19 +6,19 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { LessonSelectorComponentModule } from './lesson-selector/lesson-selector.component.module';
-import { FlashcardComponent } from './flashcard/flashcard.component';
 import { FlashcardComponentModule } from './flashcard/flashcard.component.module';
-
+import { VocabTestComponentModule } from './vocab-test/vocab-test.component.module';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     LessonSelectorComponentModule,
-    FlashcardComponentModule
+    FlashcardComponentModule,
+    VocabTestComponentModule
 ],
   providers: [
     provideClientHydration(withEventReplay())
