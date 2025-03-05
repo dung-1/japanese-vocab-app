@@ -35,7 +35,7 @@ export class FlashcardComponent implements OnInit {
 
   nextCard() {
     if (this.vocabData.length > 0) {
-      this.currentIndex = Math.floor(Math.random() * this.vocabData.length); // Chọn ngẫu nhiên
+      this.currentIndex = Math.floor(Math.random() * this.vocabData.length); 
       this.isFlipped = false;
       this.pronunciationScore = null;
     }
@@ -43,18 +43,18 @@ export class FlashcardComponent implements OnInit {
 
   prevCard() {
     if (this.vocabData.length > 0) {
-      this.currentIndex = Math.floor(Math.random() * this.vocabData.length); // Chọn ngẫu nhiên
+      this.currentIndex = Math.floor(Math.random() * this.vocabData.length); 
       this.isFlipped = false;
       this.pronunciationScore = null;
     }
   }
 
   speak(event: Event) {
-    event.stopPropagation(); // Ngăn click vào nút làm lật flashcard
+    event.stopPropagation(); 
     const utterance = new SpeechSynthesisUtterance(
       this.vocabData[this.currentIndex].word
     );
-    utterance.lang = 'ja-JP'; // Phát âm tiếng Nhật
+    utterance.lang = 'ja-JP'; 
     speechSynthesis.speak(utterance);
   }
 }

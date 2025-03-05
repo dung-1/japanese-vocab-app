@@ -1,0 +1,7 @@
+<div class="lesson-selector">
+    <h2>Chọn bài học</h2>
+    <select (change)="selectLesson($event)">
+      <option value="">Chọn bài</option>
+      <option *ngFor="let lesson of lessons" [value]="lesson">{{ lesson }}</option>
+    </select>
+  </div>

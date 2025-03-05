@@ -1,1 +1,40 @@
-<p>flashcard works!</p>
+<div 
+  class="flashcard-container"
+  [class.flipped]="isFlipped"
+  (click)="toggleFlip()"
+>
+  <div class="flashcard" *ngIf="vocabData.length">
+    <!-- Mặt trước -->
+    <div class="front">
+      <div class="radical-character">{{ vocabData[currentIndex].radical }}</div>
+      <div class="stroke-count">{{ vocabData[currentIndex].meaning }}</div>
+    </div>
+
+    <!-- Mặt sau -->
+    <div class="back">
+      <!-- <div class="section meaning">
+        <h3>Ý nghĩa</h3>
+        <p>{{ vocabData[currentIndex].memoryTrick }}</p>
+      </div> -->
+
+      <div class="section memory-trick">
+        <h3>Mẹo nhớ</h3>
+        <p>{{ vocabData[currentIndex].explanation }}</p>
+      </div>
+
+      <div class="section examples">
+        <!-- <h3>Ví dụ</h3>
+        <div class="example-kanji">
+          <span *ngFor="let kanji of vocabData[currentIndex].exampleKanji">{{ kanji }}</span>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</div>
+<div class="navigation" *ngIf="vocabData.length">
+  <button (click)="prevCard()" [disabled]="vocabData.length <= 1">Trước</button>
+  <button (click)="nextCard()" [disabled]="vocabData.length <= 1">Tiếp</button>
+</div>
+<div *ngIf="!vocabData || vocabData.length === 0">
+  <p>Vui lòng chọn một bài học để bắt đầu!</p>
+</div>

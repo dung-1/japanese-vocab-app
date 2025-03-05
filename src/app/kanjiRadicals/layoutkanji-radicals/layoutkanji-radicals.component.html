@@ -1,3 +1,6 @@
 <div class="container">
-    <h1>Học 214 bộ thủ Kanji tiếng Nhật - Minna no Nihongo</h1>
+  <button><a href="/">Trang chủ</a></button>
+  <h1>Học 214 bộ thủ tiếng Nhật - Minna no Nihongo</h1>
+  <app-lesson-selector (lessonSelected)="onLessonSelected($event)"></app-lesson-selector>
+  <app-flashcard [vocabData]="selectedLessonVocab"></app-flashcard>
   </div>

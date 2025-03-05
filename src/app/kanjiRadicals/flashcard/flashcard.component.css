@@ -1,0 +1,170 @@
+.flashcard-container {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.flashcard {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 12px ;
+  background: white;
+}
+
+.front {
+  /* background: #f9f9f9; */
+  text-align: center;
+}
+
+.radical-character {
+  font-size: 7rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.stroke-count {
+  font-size: 1.4rem;
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background: #ffffff;
+  text-align: left;
+}
+
+.section {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.section h3 {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.section p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.memory-trick {
+  background: #fde3a7;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+
+.example-kanji span {
+  display: inline-block;
+  margin: 0 0.3rem;
+  padding: 0.4rem 0.8rem;
+  background: #3498db;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+
+.flipped .flashcard {
+  transform: rotateY(180deg);
+}
+
+/* Nút điều hướng */
+.navigation {
+  display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.navigation button {
+  margin: 10px;
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navigation button:disabled {
+  background: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.navigation button:hover:not(:disabled) {
+  background: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .flashcard-container {
+    max-width: 350px;
+  }
+  .flashcard {
+    height: 320px;
+  }
+  .radical-character {
+    font-size: 6rem;
+  }
+  .stroke-count {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .flashcard-container {
+    max-width: 300px;
+  }
+  .flashcard {
+    height: 280px;
+  }
+  .radical-character {
+    font-size: 5rem;
+  }
+  .stroke-count {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .flashcard-container {
+    max-width: 260px;
+  }
+  .flashcard {
+    height: 250px;
+  }
+  .radical-character {
+    font-size: 4.5rem;
+  }
+  .stroke-count {
+    font-size: 0.9rem;
+  }
+  .navigation button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}

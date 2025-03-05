@@ -7,7 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrl: './lesson-selector.component.css'
 })
 export class LessonSelectorComponent {
-  lessons = Array.from({ length: 50 }, (_, i) => i + 1); 
+  lessons = Array.from({ length: 17 }, (_, i) => i + 1); 
   @Output() lessonSelected = new EventEmitter<number>();
 
   selectLesson(event: Event) {

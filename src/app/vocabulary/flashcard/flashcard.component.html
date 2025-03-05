@@ -2,7 +2,6 @@
   <div class="flashcard" [class.flipped]="isFlipped" (click)="flipCard()">
     <div class="front">
       <h2>{{ vocabData[currentIndex].word }}</h2>
-      <!-- <img [src]="vocabData[currentIndex].imageUrl" alt="{{ vocabData[currentIndex].meaning }}" class="vocab-image" *ngIf="vocabData[currentIndex].imageUrl"> -->
       <button (click)="speak($event)">Phát âm</button>
     </div>
     <div class="back">

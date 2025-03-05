@@ -12,15 +12,15 @@ export class LayoutVocabularyComponent {
 
   constructor(
     private http: HttpClient,
-    @Inject(PLATFORM_ID) private platformId: Object // Thêm để kiểm tra môi trường
+    @Inject(PLATFORM_ID) private platformId: Object 
   ) {
     if (isPlatformBrowser(this.platformId)) {
-      this.preloadVocabData(); // Chỉ gọi preloadVocabData trên trình duyệt
+      this.preloadVocabData(); 
     }
   }
   preloadVocabData() {
     if (!isPlatformBrowser(this.platformId)) {
-      return; // Thoát nếu không phải trình duyệt
+      return; 
     }
     for (let i = 1; i <= 50; i++) {
       const cachedData = localStorage.getItem(`lesson${i}`);
@@ -47,12 +47,12 @@ export class LayoutVocabularyComponent {
             localStorage.setItem(`lesson${lessonNumber}`, JSON.stringify(data));
           },
           error: () => {
-            this.selectedLessonVocab = []; // Dữ liệu mặc định nếu lỗi
+            this.selectedLessonVocab = []; 
           }
         });
       }
     } else {
-      this.selectedLessonVocab = []; // Dữ liệu mặc định nếu không phải trình duyệt
+      this.selectedLessonVocab = []; 
     }
   }
 
