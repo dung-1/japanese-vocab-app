@@ -1,9 +1,9 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { FlashcardComponent } from './flashcard.component';
 import { NgIf } from '@angular/common';
+import { HomeComponent } from './home.component';
 
 @NgModule({
-  declarations: [FlashcardComponent],
+  declarations: [HomeComponent],
   imports: [
     NgIf
 
@@ -12,6 +12,6 @@ import { NgIf } from '@angular/common';
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ],
-  exports: [FlashcardComponent],
+  exports: [HomeComponent],
 })
-export class FlashcardComponentModule {}
+export class HomeModule {}

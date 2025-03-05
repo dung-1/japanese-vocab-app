@@ -1,0 +1,56 @@
+[
+    {
+      "radical": "魚",
+      "meaning": "Ngư",
+      "strokeCount": 11,
+      "exampleKanji": ["鮮", "鯉", "鯨"],
+      "memoryTrick": "Cá",
+      "pronunciations": ["gyo"],
+      "explanation": "Bộ thủ này biểu thị 'cá'. Nó thường xuất hiện trong các chữ Kanji liên quan đến cá, thủy sản, hoặc các loài sinh vật biển."
+    },
+    {
+      "radical": "鳥",
+      "meaning": "Điểu",
+      "strokeCount": 11,
+      "exampleKanji": ["鳴", "鶏", "鳩"],
+      "memoryTrick": "Chim",
+      "pronunciations": ["chou"],
+      "explanation": "Bộ thủ này biểu thị 'chim'. Nó thường xuất hiện trong các chữ Kanji liên quan đến chim, các loài bay lượn, hoặc sự tự do."
+    },
+    {
+      "radical": "鹵",
+      "meaning": "Lỗ",
+      "strokeCount": 11,
+      "exampleKanji": ["鹹", "鹺"],
+      "memoryTrick": "Đất mặn",
+      "pronunciations": ["ro"],
+      "explanation": "Bộ thủ này biểu thị 'đất mặn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến muối, sự mặn mà, hoặc các chất khoáng."
+    },
+    {
+      "radical": "鹿",
+      "meaning": "Lộc",
+      "strokeCount": 11,
+      "exampleKanji": ["麗", "麟", "麝"],
+      "memoryTrick": "Con hươu",
+      "pronunciations": ["roku"],
+      "explanation": "Bộ thủ này biểu thị 'con hươu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hươu, nai, hoặc các loài động vật hoang dã."
+    },
+    {
+      "radical": "麥",
+      "meaning": "Mạch",
+      "strokeCount": 11,
+      "exampleKanji": ["麺", "麩", "麹"],
+      "memoryTrick": "Lúa mạch",
+      "pronunciations": ["baku"],
+      "explanation": "Bộ thủ này biểu thị 'lúa mạch'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lúa mạch, ngũ cốc, hoặc các sản phẩm từ lúa mạch."
+    },
+    {
+      "radical": "麻",
+      "meaning": "Ma",
+      "strokeCount": 11,
+      "exampleKanji": ["摩", "磨", "魔"],
+      "memoryTrick": "Cây gai",
+      "pronunciations": ["ma"],
+      "explanation": "Bộ thủ này biểu thị 'cây gai'. Nó thường xuất hiện trong các chữ Kanji liên quan đến cây gai, sợi gai, hoặc các sản phẩm từ cây gai."
+    }
+  ]

@@ -1,18 +1,16 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { NgClass, NgFor, NgIf } from '@angular/common';
 import { VocabTestComponent } from './vocab-test.component';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common'; 
 @NgModule({
   declarations: [VocabTestComponent],
   imports: [
-    NgFor,
-    NgIf,
-    NgClass,
-    FormsModule
+    CommonModule,
+    FormsModule,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ],
   exports: [VocabTestComponent],
 })
-export class  VocabTestComponentModule {}
+export class  VocabTestModule {}

@@ -1,0 +1,83 @@
+[
+    {
+      "radical": "金",
+      "meaning": "Kim",
+      "strokeCount": 8,
+      "exampleKanji": ["銀", "銅", "鉄"],
+      "memoryTrick": "Kim loại, vàng",
+      "pronunciations": ["kin", "kon"],
+      "explanation": "Bộ thủ này biểu thị 'kim loại' hoặc 'vàng'. Nó thường xuất hiện trong các chữ Kanji liên quan đến kim loại, tiền bạc, hoặc sự quý giá."
+    },
+    {
+      "radical": "長",
+      "meaning": "Trường",
+      "strokeCount": 8,
+      "exampleKanji": ["帳", "張", "髪"],
+      "memoryTrick": "Dài; lớn (trưởng)",
+      "pronunciations": ["chou"],
+      "explanation": "Bộ thủ này biểu thị 'dài' hoặc 'lớn (trưởng)'. Nó thường xuất hiện trong các chữ Kanji liên quan đến chiều dài, sự lớn lao, hoặc sự trưởng thành."
+    },
+    {
+      "radical": "門",
+      "meaning": "Môn",
+      "strokeCount": 8,
+      "exampleKanji": ["間", "閉", "問"],
+      "memoryTrick": "Cửa hai cánh",
+      "pronunciations": ["mon"],
+      "explanation": "Bộ thủ này biểu thị 'cửa hai cánh'. Nó thường xuất hiện trong các chữ Kanji liên quan đến cửa, lối vào, hoặc sự ngăn cách."
+    },
+    {
+      "radical": "阜",
+      "meaning": "Phụ",
+      "strokeCount": 8,
+      "exampleKanji": ["院", "防", "降"],
+      "memoryTrick": "Đống đất, gò đất",
+      "pronunciations": ["fu"],
+      "explanation": "Bộ thủ này biểu thị 'đống đất' hoặc 'gò đất'. Nó thường xuất hiện trong các chữ Kanji liên quan đến địa hình, sự cao ráo, hoặc sự bảo vệ."
+    },
+    {
+      "radical": "隶",
+      "meaning": "Đãi",
+      "strokeCount": 8,
+      "exampleKanji": ["逮", "隷"],
+      "memoryTrick": "Kịp, kịp đến",
+      "pronunciations": ["tai"],
+      "explanation": "Bộ thủ này biểu thị 'kịp' hoặc 'kịp đến'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự bắt kịp, sự đạt được, hoặc sự thuộc về."
+    },
+    {
+      "radical": "隹",
+      "meaning": "Truy",
+      "strokeCount": 8,
+      "exampleKanji": ["集", "難", "雑"],
+      "memoryTrick": "Chim đuôi ngắn",
+      "pronunciations": ["sui"],
+      "explanation": "Bộ thủ này biểu thị 'chim đuôi ngắn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến chim, động vật, hoặc sự tập hợp."
+    },
+    {
+      "radical": "雨",
+      "meaning": "Vũ",
+      "strokeCount": 8,
+      "exampleKanji": ["雪", "雲", "雷"],
+      "memoryTrick": "Mưa",
+      "pronunciations": ["u"],
+      "explanation": "Bộ thủ này biểu thị 'mưa'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thời tiết, nước, hoặc các hiện tượng tự nhiên."
+    },
+    {
+      "radical": "青",
+      "meaning": "Thanh",
+      "strokeCount": 8,
+      "exampleKanji": ["静", "精", "清"],
+      "memoryTrick": "Màu xanh",
+      "pronunciations": ["sei", "shou"],
+      "explanation": "Bộ thủ này biểu thị 'màu xanh'. Nó thường xuất hiện trong các chữ Kanji liên quan đến màu sắc, sự tươi mát, hoặc sự trẻ trung."
+    },
+    {
+      "radical": "非",
+      "meaning": "Phi",
+      "strokeCount": 8,
+      "exampleKanji": ["悲", "俳", "罪"],
+      "memoryTrick": "Không",
+      "pronunciations": ["hi"],
+      "explanation": "Bộ thủ này biểu thị 'không'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự phủ định, sự sai trái, hoặc sự bất thường."
+    }
+  ]

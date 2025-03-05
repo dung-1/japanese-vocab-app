@@ -1,0 +1,182 @@
+[
+    {
+      "radical": "見",
+      "meaning": "Kiến",
+      "strokeCount": 7,
+      "exampleKanji": ["規", "視", "覚"],
+      "memoryTrick": "Nhìn thấy",
+      "pronunciations": ["ken"],
+      "explanation": "Bộ thủ này biểu thị 'nhìn thấy'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự nhìn nhận, sự quan sát, hoặc sự nhận thức."
+    },
+    {
+      "radical": "角",
+      "meaning": "Giác",
+      "strokeCount": 7,
+      "exampleKanji": ["解", "触", "嘴"],
+      "memoryTrick": "Góc, sừng",
+      "pronunciations": ["kaku"],
+      "explanation": "Bộ thủ này biểu thị 'góc' hoặc 'sừng'. Nó thường xuất hiện trong các chữ Kanji liên quan đến góc độ, hình dạng, hoặc các bộ phận của động vật."
+    },
+    {
+      "radical": "言",
+      "meaning": "Ngôn",
+      "strokeCount": 7,
+      "exampleKanji": ["語", "記", "訳"],
+      "memoryTrick": "Nói",
+      "pronunciations": ["gen", "gon"],
+      "explanation": "Bộ thủ này biểu thị 'nói'. Nó thường xuất hiện trong các chữ Kanji liên quan đến ngôn ngữ, lời nói, hoặc sự giao tiếp."
+    },
+    {
+      "radical": "谷",
+      "meaning": "Cốc",
+      "strokeCount": 7,
+      "exampleKanji": ["浴", "俗", "欲"],
+      "memoryTrick": "Thung lũng",
+      "pronunciations": ["koku"],
+      "explanation": "Bộ thủ này biểu thị 'thung lũng'. Nó thường xuất hiện trong các chữ Kanji liên quan đến địa hình, sự trũng thấp, hoặc sự mong muốn."
+    },
+    {
+      "radical": "豆",
+      "meaning": "Đậu",
+      "strokeCount": 7,
+      "exampleKanji": ["頭", "短", "逗"],
+      "memoryTrick": "Hạt đậu, cây đậu",
+      "pronunciations": ["tou", "zu"],
+      "explanation": "Bộ thủ này biểu thị 'hạt đậu' hoặc 'cây đậu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thực vật, hạt, hoặc sự ngắn gọn."
+    },
+    {
+      "radical": "豕",
+      "meaning": "Thỉ",
+      "strokeCount": 7,
+      "exampleKanji": ["豚", "象", "家"],
+      "memoryTrick": "Con lợn",
+      "pronunciations": ["shi"],
+      "explanation": "Bộ thủ này biểu thị 'con lợn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lợn, động vật, hoặc gia đình."
+    },
+    {
+      "radical": "豸",
+      "meaning": "Trãi",
+      "strokeCount": 7,
+      "exampleKanji": ["貌", "豹", "貂"],
+      "memoryTrick": "Loài sâu không chân",
+      "pronunciations": ["chi"],
+      "explanation": "Bộ thủ này biểu thị 'loài sâu không chân'. Nó thường xuất hiện trong các chữ Kanji liên quan đến động vật, loài vật, hoặc hình dáng."
+    },
+    {
+      "radical": "貝",
+      "meaning": "Bối",
+      "strokeCount": 7,
+      "exampleKanji": ["財", "貨", "買"],
+      "memoryTrick": "Vật báu",
+      "pronunciations": ["bai"],
+      "explanation": "Bộ thủ này biểu thị 'vật báu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến tiền bạc, tài sản, hoặc giá trị."
+    },
+    {
+      "radical": "赤",
+      "meaning": "Xích",
+      "strokeCount": 7,
+      "exampleKanji": ["跡", "赦", "赫"],
+      "memoryTrick": "Màu đỏ",
+      "pronunciations": ["seki", "shaku"],
+      "explanation": "Bộ thủ này biểu thị 'màu đỏ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến màu sắc, sự đỏ tươi, hoặc sự chân thành."
+    },
+    {
+      "radical": "走",
+      "meaning": "Tẩu",
+      "strokeCount": 7,
+      "exampleKanji": ["起", "越", "超"],
+      "memoryTrick": "Đi, chạy",
+      "pronunciations": ["sou"],
+      "explanation": "Bộ thủ này biểu thị 'đi' hoặc 'chạy'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự di chuyển, sự nhanh chóng, hoặc sự vượt qua."
+    },
+    {
+      "radical": "足",
+      "meaning": "Túc",
+      "strokeCount": 7,
+      "exampleKanji": ["路", "跳", "距"],
+      "memoryTrick": "Chân, đầy đủ",
+      "pronunciations": ["soku"],
+      "explanation": "Bộ thủ này biểu thị 'chân' hoặc 'đầy đủ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến chân, sự di chuyển, hoặc sự đầy đủ."
+    },
+    {
+      "radical": "身",
+      "meaning": "Thân",
+      "strokeCount": 7,
+      "exampleKanji": ["射", "躲", "躺"],
+      "memoryTrick": "Thân thể",
+      "pronunciations": ["shin"],
+      "explanation": "Bộ thủ này biểu thị 'thân thể'. Nó thường xuất hiện trong các chữ Kanji liên quan đến cơ thể, sự cá nhân, hoặc sự thân thiết."
+    },
+    {
+      "radical": "車",
+      "meaning": "Xa",
+      "strokeCount": 7,
+      "exampleKanji": ["転", "輪", "軽"],
+      "memoryTrick": "Chiếc xe",
+      "pronunciations": ["sha"],
+      "explanation": "Bộ thủ này biểu thị 'chiếc xe'. Nó thường xuất hiện trong các chữ Kanji liên quan đến xe cộ, phương tiện, hoặc sự vận chuyển."
+    },
+    {
+      "radical": "辛",
+      "meaning": "Tân",
+      "strokeCount": 7,
+      "exampleKanji": ["辞", "辣", "辨"],
+      "memoryTrick": "Cay",
+      "pronunciations": ["shin"],
+      "explanation": "Bộ thủ này biểu thị 'cay'. Nó thường xuất hiện trong các chữ Kanji liên quan đến vị giác, sự cay đắng, hoặc sự khó khăn."
+    },
+    {
+      "radical": "辰",
+      "meaning": "Thần",
+      "strokeCount": 7,
+      "exampleKanji": ["辱", "唇", "蜃"],
+      "memoryTrick": "Nhật, nguyệt, tinh; thìn (12 chi)",
+      "pronunciations": ["shin"],
+      "explanation": "Bộ thủ này biểu thị 'nhật, nguyệt, tinh' hoặc 'thìn (12 chi)'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thời gian, thiên văn, hoặc hệ thống 12 chi."
+    },
+    {
+      "radical": "辵",
+      "meaning": "Sước",
+      "strokeCount": 7,
+      "exampleKanji": ["道", "通", "進"],
+      "memoryTrick": "Chợt bước đi, chợt dừng lại",
+      "pronunciations": ["chaku"],
+      "explanation": "Bộ thủ này biểu thị 'chợt bước đi, chợt dừng lại'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự di chuyển, sự tiến triển, hoặc sự thay đổi."
+    },
+    {
+      "radical": "邑",
+      "meaning": "Ấp",
+      "strokeCount": 7,
+      "exampleKanji": ["都", "郡", "部"],
+      "memoryTrick": "Vùng đất, đất phong cho quan",
+      "pronunciations": ["yuu"],
+      "explanation": "Bộ thủ này biểu thị 'vùng đất' hoặc 'đất phong cho quan'. Nó thường xuất hiện trong các chữ Kanji liên quan đến địa điểm, thành phố, hoặc các tổ chức hành chính."
+    },
+    {
+      "radical": "酉",
+      "meaning": "Dậu",
+      "strokeCount": 7,
+      "exampleKanji": ["酒", "配", "酸"],
+      "memoryTrick": "Rượu (trong bát quái: Tí, Ngọ, Mão, Dậu)",
+      "pronunciations": ["yuu"],
+    "explanation": "Bộ thủ này biểu thị 'rượu' (trong bát quái: Tí, Ngọ, Mão, Dậu). Nó thường xuất hiện trong các chữ Kanji liên quan đến rượu, đồ uống, hoặc sự lên men."
+  },
+  {
+    "radical": "釆",
+    "meaning": "Biện",
+    "strokeCount": 7,
+    "exampleKanji": ["釈", "釉", "悉"],
+    "memoryTrick": "Phân biệt",
+    "pronunciations": ["ben"],
+    "explanation": "Bộ thủ này biểu thị 'phân biệt'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự phân loại, sự lựa chọn, hoặc sự giải thích."
+  },
+  {
+    "radical": "里",
+    "meaning": "Lý",
+    "strokeCount": 7,
+    "exampleKanji": ["野", "重", "量"],
+    "memoryTrick": "Dặm, làng xóm",
+    "pronunciations": ["ri"],
+    "explanation": "Bộ thủ này biểu thị 'dặm' hoặc 'làng xóm'. Nó thường xuất hiện trong các chữ Kanji liên quan đến khoảng cách, địa điểm, hoặc sự đo lường."
+  }
+]

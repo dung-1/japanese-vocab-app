@@ -1,0 +1,263 @@
+[
+    {
+      "radical": "竹",
+      "meaning": "Trúc",
+      "strokeCount": 6,
+      "exampleKanji": ["笑", "筆", "笛"],
+      "memoryTrick": "Cây tre trúc",
+      "pronunciations": ["chiku"],
+      "explanation": "Bộ thủ này biểu thị 'tre trúc'. Nó thường xuất hiện trong các chữ Kanji liên quan đến tre, trúc, hoặc các vật liệu làm từ tre."
+    },
+    {
+      "radical": "米",
+      "meaning": "Mễ",
+      "strokeCount": 6,
+      "exampleKanji": ["粉", "粒", "糖"],
+      "memoryTrick": "Gạo",
+      "pronunciations": ["bei", "mai"],
+      "explanation": "Bộ thủ này biểu thị 'gạo'. Nó thường xuất hiện trong các chữ Kanji liên quan đến gạo, ngũ cốc, hoặc thực phẩm."
+    },
+    {
+      "radical": "糸",
+      "meaning": "Mịch",
+      "strokeCount": 6,
+      "exampleKanji": ["紙", "組", "線"],
+      "memoryTrick": "Sợi tơ nhỏ",
+      "pronunciations": ["shi"],
+      "explanation": "Bộ thủ này biểu thị 'sợi tơ nhỏ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sợi chỉ, vải vóc, hoặc sự kết nối."
+    },
+    {
+      "radical": "缶",
+      "meaning": "Phẫu",
+      "strokeCount": 6,
+      "exampleKanji": ["缸", "罐", "缺"],
+      "memoryTrick": "Đồ sành",
+      "pronunciations": ["fu"],
+      "explanation": "Bộ thủ này biểu thị 'đồ sành'. Nó thường xuất hiện trong các chữ Kanji liên quan đến đồ đựng, bình gốm, hoặc vật liệu sành sứ."
+    },
+    {
+      "radical": "网",
+      "meaning": "Võng",
+      "strokeCount": 6,
+      "exampleKanji": ["罪", "署", "羅"],
+      "memoryTrick": "Cái lưới",
+      "pronunciations": ["mou"],
+      "explanation": "Bộ thủ này biểu thị 'cái lưới'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lưới, sự bao vây, hoặc sự ràng buộc."
+    },
+    {
+      "radical": "羊",
+      "meaning": "Dương",
+      "strokeCount": 6,
+      "exampleKanji": ["美", "群", "洋"],
+      "memoryTrick": "Con dê",
+      "pronunciations": ["you"],
+      "explanation": "Bộ thủ này biểu thị 'con dê'. Nó thường xuất hiện trong các chữ Kanji liên quan đến dê, cừu, hoặc sự tốt lành."
+    },
+    {
+      "radical": "羽",
+      "meaning": "Vũ",
+      "strokeCount": 6,
+      "exampleKanji": ["習", "翼", "翻"],
+      "memoryTrick": "Lông vũ",
+      "pronunciations": ["u"],
+      "explanation": "Bộ thủ này biểu thị 'lông vũ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lông, cánh, hoặc sự bay lượn."
+    },
+    {
+      "radical": "老",
+      "meaning": "Lão",
+      "strokeCount": 6,
+      "exampleKanji": ["考", "者", "耆"],
+      "memoryTrick": "Già",
+      "pronunciations": ["rou"],
+      "explanation": "Bộ thủ này biểu thị 'già'. Nó thường xuất hiện trong các chữ Kanji liên quan đến tuổi già, sự kinh nghiệm, hoặc sự tôn trọng."
+    },
+    {
+      "radical": "而",
+      "meaning": "Nhi",
+      "strokeCount": 6,
+      "exampleKanji": ["耐", "需", "耍"],
+      "memoryTrick": "Mà, và",
+      "pronunciations": ["ji"],
+      "explanation": "Bộ thủ này biểu thị 'mà' hoặc 'và'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự kết nối, sự tiếp diễn, hoặc sự so sánh."
+    },
+    {
+      "radical": "耒",
+      "meaning": "Lỗi",
+      "strokeCount": 6,
+      "exampleKanji": ["耕", "耗", "耙"],
+      "memoryTrick": "Cái cày",
+      "pronunciations": ["rai"],
+      "explanation": "Bộ thủ này biểu thị 'cái cày'. Nó thường xuất hiện trong các chữ Kanji liên quan đến nông nghiệp, công cụ, hoặc sự lao động."
+    },
+    {
+      "radical": "耳",
+      "meaning": "Nhĩ",
+      "strokeCount": 6,
+      "exampleKanji": ["聞", "職", "聖"],
+      "memoryTrick": "Tai (lỗ tai)",
+      "pronunciations": ["ji"],
+      "explanation": "Bộ thủ này biểu thị 'tai' (lỗ tai). Nó thường xuất hiện trong các chữ Kanji liên quan đến âm thanh, sự lắng nghe, hoặc sự thông tin."
+    },
+    {
+      "radical": "聿",
+      "meaning": "Duật",
+      "strokeCount": 6,
+      "exampleKanji": ["律", "建", "筆"],
+      "memoryTrick": "Cây bút",
+      "pronunciations": ["itsu"],
+      "explanation": "Bộ thủ này biểu thị 'cây bút'. Nó thường xuất hiện trong các chữ Kanji liên quan đến viết lách, văn chương, hoặc luật pháp."
+    },
+    {
+      "radical": "肉",
+      "meaning": "Nhục",
+      "strokeCount": 6,
+      "exampleKanji": ["腸", "肝", "肌"],
+      "memoryTrick": "Thịt",
+      "pronunciations": ["niku"],
+      "explanation": "Bộ thủ này biểu thị 'thịt'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thịt, cơ thể, hoặc các bộ phận cơ thể."
+    },
+    {
+      "radical": "臣",
+      "meaning": "Thần",
+      "strokeCount": 6,
+      "exampleKanji": ["臨", "臥", "臧"],
+      "memoryTrick": "Bề tôi",
+      "pronunciations": ["shin"],
+      "explanation": "Bộ thủ này biểu thị 'bề tôi'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự phục tùng, sự trung thành, hoặc các quan hệ chính trị."
+    },
+    {
+      "radical": "自",
+      "meaning": "Tự",
+      "strokeCount": 6,
+      "exampleKanji": ["息", "臭", "咱"],
+      "memoryTrick": "Tự bản thân, kể từ",
+      "pronunciations": ["ji"],
+      "explanation": "Bộ thủ này biểu thị 'tự bản thân' hoặc 'kể từ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến bản thân, sự tự nhiên, hoặc nguồn gốc."
+    },
+    {
+      "radical": "至",
+      "meaning": "Chí",
+      "strokeCount": 6,
+      "exampleKanji": ["到", "屋", "室"],
+      "memoryTrick": "Đến",
+      "pronunciations": ["shi"],
+      "explanation": "Bộ thủ này biểu thị 'đến'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự đến, sự đạt được, hoặc mục tiêu."
+    },
+    {
+      "radical": "臼",
+      "meaning": "Cữu",
+      "strokeCount": 6,
+      "exampleKanji": ["舅", "舀", "舂"],
+      "memoryTrick": "Cái cối giã gạo",
+      "pronunciations": ["kyuu"],
+      "explanation": "Bộ thủ này biểu thị 'cái cối giã gạo'. Nó thường xuất hiện trong các chữ Kanji liên quan đến công cụ, sự giã nghiền, hoặc sự chế biến."
+    },
+    {
+      "radical": "舌",
+      "meaning": "Thiệt",
+      "strokeCount": 6,
+      "exampleKanji": ["話", "辞", "乱"],
+      "memoryTrick": "Cái lưỡi",
+      "pronunciations": ["zetsu"],
+      "explanation": "Bộ thủ này biểu thị 'cái lưỡi'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lời nói, ngôn ngữ, hoặc sự giao tiếp."
+    },
+    {
+      "radical": "舛",
+      "meaning": "Suyễn",
+      "strokeCount": 6,
+      "exampleKanji": ["舞", "舜"],
+    "memoryTrick": "Sai suyễn, sai lầm",
+    "pronunciations": ["sen"],
+    "explanation": "Bộ thủ này biểu thị 'sai suyễn' hoặc 'sai lầm'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự sai lệch, sự không đúng, hoặc sự không đồng đều."
+  },
+  {
+    "radical": "舟",
+    "meaning": "Chu",
+    "strokeCount": 6,
+    "exampleKanji": ["船", "航", "般"],
+    "memoryTrick": "Cái thuyền",
+    "pronunciations": ["shuu"],
+    "explanation": "Bộ thủ này biểu thị 'cái thuyền'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thuyền, tàu, hoặc sự di chuyển bằng đường thủy."
+  },
+  {
+    "radical": "艮",
+    "meaning": "Cấn",
+    "strokeCount": 6,
+    "exampleKanji": ["限", "根", "跟"],
+    "memoryTrick": "Quẻ cấn (Kinh dịch); dừng, bền",
+    "pronunciations": ["kon"],
+    "explanation": "Bộ thủ này biểu thị 'quẻ cấn' (Kinh dịch) hoặc 'dừng, bền'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự dừng lại, sự bền vững, hoặc sự giới hạn."
+  },
+  {
+    "radical": "色",
+    "meaning": "Sắc",
+    "strokeCount": 6,
+    "exampleKanji": ["絶", "艷", "飽"],
+    "memoryTrick": "Màu, dáng vẻ, nữ sắc",
+    "pronunciations": ["shoku", "shiki"],
+    "explanation": "Bộ thủ này biểu thị 'màu', 'dáng vẻ', hoặc 'nữ sắc'. Nó thường xuất hiện trong các chữ Kanji liên quan đến màu sắc, vẻ đẹp, hoặc sự quyến rũ."
+  },
+  {
+    "radical": "艸",
+    "meaning": "Thảo",
+    "strokeCount": 6,
+    "exampleKanji": ["花", "葉", "薬"],
+    "memoryTrick": "Cỏ",
+    "pronunciations": ["sou"],
+    "explanation": "Bộ thủ này biểu thị 'cỏ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thực vật, cây cỏ, hoặc thuốc men."
+  },
+  {
+    "radical": "虍",
+    "meaning": "Hô",
+    "strokeCount": 6,
+    "exampleKanji": ["虎", "慮", "虚"],
+    "memoryTrick": "Vằn vện của con hổ",
+    "pronunciations": ["ko"],
+    "explanation": "Bộ thủ này biểu thị 'vằn vện của con hổ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hổ, sự mạnh mẽ, hoặc sự uy nghiêm."
+  },
+  {
+    "radical": "虫",
+    "meaning": "Trùng",
+    "strokeCount": 6,
+    "exampleKanji": ["蚊", "蛇", "蟻"],
+    "memoryTrick": "Sâu bọ",
+    "pronunciations": ["chuu", "ki"],
+    "explanation": "Bộ thủ này biểu thị 'sâu bọ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến côn trùng, động vật nhỏ, hoặc các loài bò sát."
+  },
+  {
+    "radical": "血",
+    "meaning": "Huyết",
+    "strokeCount": 6,
+    "exampleKanji": ["衆", "衄", "衅"],
+    "memoryTrick": "Máu",
+    "pronunciations": ["ketsu"],
+    "explanation": "Bộ thủ này biểu thị 'máu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến máu, sự đổ máu, hoặc các vấn đề y tế."
+  },
+  {
+    "radical": "行",
+    "meaning": "Hành",
+    "strokeCount": 6,
+    "exampleKanji": ["街", "術", "衝"],
+    "memoryTrick": "Đi, thi hành, làm được",
+    "pronunciations": ["kou", "gyou", "an"],
+    "explanation": "Bộ thủ này biểu thị 'đi', 'thi hành', hoặc 'làm được'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hành động, sự di chuyển, hoặc sự thực hiện."
+  },
+  {
+    "radical": "衣",
+    "meaning": "Y",
+    "strokeCount": 6,
+    "exampleKanji": ["装", "袋", "被"],
+    "memoryTrick": "Áo",
+    "pronunciations": ["i", "e"],
+    "explanation": "Bộ thủ này biểu thị 'áo'. Nó thường xuất hiện trong các chữ Kanji liên quan đến quần áo, trang phục, hoặc sự che phủ."
+  },
+  {
+    "radical": "襾",
+    "meaning": "Á",
+    "strokeCount": 6,
+    "exampleKanji": ["要", "覆", "覇"],
+    "memoryTrick": "Che đậy, úp lên",
+    "pronunciations": ["a"],
+    "explanation": "Bộ thủ này biểu thị 'che đậy' hoặc 'úp lên'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự che phủ, sự bao bọc, hoặc sự áp đảo."
+  }
+]

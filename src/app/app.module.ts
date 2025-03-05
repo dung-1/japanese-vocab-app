@@ -4,11 +4,9 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-
-import { LessonSelectorComponentModule } from './lesson-selector/lesson-selector.component.module';
-import { FlashcardComponentModule } from './flashcard/flashcard.component.module';
-import { VocabTestComponentModule } from './vocab-test/vocab-test.component.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,10 +14,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
+    CommonModule,
     HttpClientModule,
-    LessonSelectorComponentModule,
-    FlashcardComponentModule,
-    VocabTestComponentModule,
+
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

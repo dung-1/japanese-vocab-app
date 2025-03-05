@@ -1,0 +1,56 @@
+[
+    {
+      "radical": "一",
+      "meaning": "Nhất",
+      "strokeCount": 1,
+      "exampleKanji": ["二", "三", "十"],
+      "memoryTrick": "Gạch ngang tượng trưng cho số một",
+      "pronunciations": ["ichi", "itsu"],
+      "explanation": "Bộ thủ này biểu thị số lượng 'một'. Nó thường xuất hiện trong các chữ Kanji liên quan đến số đếm, sự đơn độc hoặc sự khởi đầu."
+    },
+    {
+      "radical": "丨",
+      "meaning": "Cổn",
+      "strokeCount": 1,
+      "exampleKanji": ["中", "上", "下"],
+      "memoryTrick": "Một đường thẳng đứng",
+      "pronunciations": ["kon"],
+      "explanation": "Bộ thủ này biểu thị một đường thẳng đứng. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự thẳng đứng, sự kết nối hoặc sự xuyên suốt."
+    },
+    {
+      "radical": "丶",
+      "meaning": "Chủ",
+      "strokeCount": 1,
+      "exampleKanji": ["丸", "主", "点"],
+      "memoryTrick": "Một chấm nhỏ",
+      "pronunciations": ["ten"],
+      "explanation": "Bộ thủ này biểu thị một điểm hoặc dấu chấm. Nó thường xuất hiện trong các chữ Kanji liên quan đến điểm, dấu hiệu hoặc sự tập trung."
+    },
+    {
+      "radical": "丿",
+      "meaning": "Phiệt",
+      "strokeCount": 1,
+      "exampleKanji": ["乃", "久", "之"],
+      "memoryTrick": "Nét sổ xiên qua trái",
+      "pronunciations": ["hetsu"],
+      "explanation": "Bộ thủ này biểu thị một nét sổ xiên từ trên xuống dưới và từ phải sang trái. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự di chuyển, sự phân tách hoặc sự phủ nhận."
+    },
+    {
+      "radical": "乙",
+      "meaning": "Ất",
+      "strokeCount": 1,
+      "exampleKanji": ["九", "乞", "也"],
+      "memoryTrick": "Vị trí thứ 2 trong thiên can",
+      "pronunciations": ["otsu"],
+      "explanation": "Bộ thủ này biểu thị vị trí thứ hai trong hệ thống thiên can (một hệ thống đếm thời gian cổ đại). Nó thường xuất hiện trong các chữ Kanji liên quan đến thứ tự, sự tuần hoàn hoặc sự kết thúc."
+    },
+    {
+      "radical": "亅",
+      "meaning": "Quyết",
+      "strokeCount": 1,
+      "exampleKanji": ["了", "事", "予"],
+      "memoryTrick": "Nét sổ có móc",
+      "pronunciations": ["ketsu"],
+      "explanation": "Bộ thủ này biểu thị một nét sổ có móc ở cuối. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự kết thúc, sự hoàn thành hoặc sự quyết định."
+    }
+  ]

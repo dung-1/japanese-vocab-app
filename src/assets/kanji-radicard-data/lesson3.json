@@ -1,0 +1,281 @@
+[
+    {
+      "radical": "口",
+      "meaning": "Khẩu",
+      "strokeCount": 3,
+      "exampleKanji": ["名", "古", "可"],
+      "memoryTrick": "Hình dáng như cái miệng",
+      "pronunciations": ["kou", "ku"],
+      "explanation": "Bộ thủ này biểu thị 'cái miệng'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lời nói, thức ăn hoặc âm thanh."
+    },
+    {
+      "radical": "囗",
+      "meaning": "Vi",
+      "strokeCount": 3,
+      "exampleKanji": ["国", "回", "図"],
+      "memoryTrick": "Hình dáng như vùng đất bị vây quanh",
+      "pronunciations": ["i"],
+      "explanation": "Bộ thủ này biểu thị 'vây quanh' hoặc 'bao bọc'. Nó thường xuất hiện trong các chữ Kanji liên quan đến biên giới, sự giới hạn hoặc sự bao trùm."
+    },
+    {
+      "radical": "土",
+      "meaning": "Thổ",
+      "strokeCount": 3,
+      "exampleKanji": ["地", "場", "型"],
+      "memoryTrick": "Hình dáng như đất đai",
+      "pronunciations": ["to", "do"],
+      "explanation": "Bộ thủ này biểu thị 'đất'. Nó thường xuất hiện trong các chữ Kanji liên quan đến đất đai, địa điểm hoặc sự xây dựng."
+    },
+    {
+      "radical": "士",
+      "meaning": "Sĩ",
+      "strokeCount": 3,
+      "exampleKanji": ["声", "売", "志"],
+      "memoryTrick": "Hình dáng như người đàn ông có học thức",
+      "pronunciations": ["shi"],
+      "explanation": "Bộ thủ này biểu thị 'kẻ sĩ' hoặc 'người đàn ông'. Nó thường xuất hiện trong các chữ Kanji liên quan đến học vấn, địa vị hoặc sự mạnh mẽ."
+    },
+    {
+      "radical": "夂",
+      "meaning": "Trĩ",
+      "strokeCount": 3,
+      "exampleKanji": ["冬", "各", "終"],
+      "memoryTrick": "Hình dáng như bước chân đến sau",
+      "pronunciations": ["chi"],
+      "explanation": "Bộ thủ này biểu thị hành động 'đến ở phía sau'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự chậm trễ, sự kết thúc hoặc sự theo sau."
+    },
+    {
+      "radical": "夊",
+      "meaning": "Truy",
+      "strokeCount": 3,
+      "exampleKanji": ["夏", "変", "復"],
+      "memoryTrick": "Hình dáng như bước chân đi chậm",
+      "pronunciations": ["sui"],
+      "explanation": "Bộ thủ này biểu thị hành động 'đi chậm'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự di chuyển chậm rãi, sự phục hồi hoặc sự thay đổi."
+    },
+    {
+      "radical": "夕",
+      "meaning": "Tịch",
+      "strokeCount": 3,
+      "exampleKanji": ["夜", "多", "外"],
+      "memoryTrick": "Hình dáng như mặt trăng khuyết vào ban đêm",
+      "pronunciations": ["seki"],
+      "explanation": "Bộ thủ này biểu thị 'đêm tối'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thời gian buổi tối, sự tối tăm hoặc sự yên tĩnh."
+    },
+    {
+      "radical": "大",
+      "meaning": "Đại",
+      "strokeCount": 3,
+      "exampleKanji": ["夫", "天", "太"],
+      "memoryTrick": "Hình dáng như người đàn ông dang rộng tay chân",
+      "pronunciations": ["dai", "tai"],
+      "explanation": "Bộ thủ này biểu thị 'to lớn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến kích thước, sự quan trọng hoặc sự vĩ đại."
+    },
+    {
+      "radical": "女",
+      "meaning": "Nữ",
+      "strokeCount": 3,
+      "exampleKanji": ["好", "妹", "始"],
+      "memoryTrick": "Hình dáng như người phụ nữ đang quỳ",
+      "pronunciations": ["jo", "nyo"],
+      "explanation": "Bộ thủ này biểu thị 'nữ giới' hoặc 'con gái'. Nó thường xuất hiện trong các chữ Kanji liên quan đến phụ nữ, gia đình hoặc tình yêu."
+    },
+    {
+      "radical": "子",
+      "meaning": "Tử",
+      "strokeCount": 3,
+      "exampleKanji": ["学", "字", "存"],
+      "memoryTrick": "Hình dáng như đứa trẻ sơ sinh",
+      "pronunciations": ["shi", "su"],
+      "explanation": "Bộ thủ này biểu thị 'con' hoặc 'đứa trẻ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến con cái, sự học hành hoặc sự tồn tại."
+    },
+    {
+      "radical": "宀",
+      "meaning": "Miên",
+      "strokeCount": 3,
+      "exampleKanji": ["家", "安", "室"],
+      "memoryTrick": "Hình dáng như mái nhà",
+      "pronunciations": ["ben"],
+      "explanation": "Bộ thủ này biểu thị 'mái nhà' hoặc 'mái che'. Nó thường xuất hiện trong các chữ Kanji liên quan đến nhà cửa, sự an toàn hoặc sự bảo vệ."
+    },
+    {
+      "radical": "寸",
+      "meaning": "Thốn",
+      "strokeCount": 3,
+      "exampleKanji": ["寺", "対", "専"],
+      "memoryTrick": "Hình dáng như đơn vị đo chiều dài ngắn",
+      "pronunciations": ["sun"],
+      "explanation": "Bộ thủ này biểu thị 'tấc' (đơn vị đo chiều dài). Nó thường xuất hiện trong các chữ Kanji liên quan đến kích thước, sự đo lường hoặc sự chuyên môn."
+    },
+    {
+      "radical": "小",
+      "meaning": "Tiểu",
+      "strokeCount": 3,
+      "exampleKanji": ["少", "尓", "県"],
+      "memoryTrick": "Hình dáng như vật nhỏ bé",
+      "pronunciations": ["shou"],
+      "explanation": "Bộ thủ này biểu thị 'nhỏ bé'. Nó thường xuất hiện trong các chữ Kanji liên quan đến kích thước nhỏ, số lượng ít hoặc sự không quan trọng."
+    },
+    {
+      "radical": "尢",
+      "meaning": "Uông",
+      "strokeCount": 3,
+      "exampleKanji": ["就", "尤"],
+      "memoryTrick": "Hình dáng như người bị tật",
+      "pronunciations": ["ou"],
+      "explanation": "Bộ thủ này biểu thị 'yếu đuối' hoặc 'khuyết tật'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự bất thường, sự đặc biệt hoặc sự nổi bật."
+    },
+    {
+      "radical": "尸",
+      "meaning": "Thi",
+      "strokeCount": 3,
+      "exampleKanji": ["屋", "居", "届"],
+      "memoryTrick": "Hình dáng như thây ma nằm",
+      "pronunciations": ["shi"],
+      "explanation": "Bộ thủ này biểu thị 'thây ma' hoặc 'xác chết'. Nó thường xuất hiện trong các chữ Kanji liên quan đến nhà cửa, sự cư trú hoặc sự kết thúc."
+    },
+    {
+      "radical": "屮",
+      "meaning": "Triệt",
+      "strokeCount": 3,
+      "exampleKanji": ["屯", "蚩"],
+      "memoryTrick": "Hình dáng như mầm non mới mọc",
+      "pronunciations": ["tetsu"],
+      "explanation": "Bộ thủ này biểu thị 'mầm non' hoặc 'cỏ non mới mọc'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự sinh trưởng, sự khởi đầu hoặc sự non trẻ."
+    },
+    {
+      "radical": "山",
+      "meaning": "Sơn",
+      "strokeCount": 3,
+      "exampleKanji": ["岩", "岸", "島"],
+      "memoryTrick": "Hình dáng như núi non",
+      "pronunciations": ["san"],
+      "explanation": "Bộ thủ này biểu thị 'núi non'. Nó thường xuất hiện trong các chữ Kanji liên quan đến địa hình, sự cao lớn hoặc sự vững chãi."
+    },
+    {
+      "radical": "巛",
+      "meaning": "Xuyên",
+      "strokeCount": 3,
+      "exampleKanji": ["川", "州", "巡"],
+    "memoryTrick": "Hình dáng như dòng sông",
+    "pronunciations": ["sen"],
+    "explanation": "Bộ thủ này biểu thị 'sông'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sông ngòi, sự lưu thông hoặc sự liên tục."
+  },
+  {
+    "radical": "工",
+    "meaning": "Công",
+    "strokeCount": 3,
+    "exampleKanji": ["紅", "功", "巧"],
+    "memoryTrick": "Hình dáng như dụng cụ làm việc",
+    "pronunciations": ["kou", "ku"],
+    "explanation": "Bộ thủ này biểu thị 'công việc' hoặc 'người thợ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến công việc, kỹ thuật hoặc sự khéo léo."
+  },
+  {
+    "radical": "己",
+    "meaning": "Kỷ",
+    "strokeCount": 3,
+    "exampleKanji": ["記", "改", "起"],
+    "memoryTrick": "Hình dáng như bản thân mình",
+    "pronunciations": ["ki"],
+    "explanation": "Bộ thủ này biểu thị 'bản thân mình'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự tự thân, sự thay đổi hoặc sự khởi đầu."
+  },
+  {
+    "radical": "巾",
+    "meaning": "Cân",
+    "strokeCount": 3,
+    "exampleKanji": ["帽", "布", "帯"],
+    "memoryTrick": "Hình dáng như cái khăn",
+    "pronunciations": ["kin"],
+    "explanation": "Bộ thủ này biểu thị 'cái khăn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến vải vóc, đồ dùng hoặc sự che đậy."
+  },
+  {
+    "radical": "干",
+    "meaning": "Can",
+    "strokeCount": 3,
+    "exampleKanji": ["幹", "刊", "平"],
+    "memoryTrick": "Hình dáng như sự can dự hoặc thiên can",
+    "pronunciations": ["kan"],
+    "explanation": "Bộ thủ này biểu thị 'can dự' hoặc 'thiên can'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự can thiệp, sự liên quan hoặc hệ thống đếm thời gian cổ đại."
+  },
+  {
+    "radical": "幺",
+    "meaning": "Yêu",
+    "strokeCount": 3,
+    "exampleKanji": ["幼", "幻", "幾"],
+    "memoryTrick": "Hình dáng như vật nhỏ nhắn",
+    "pronunciations": ["you"],
+    "explanation": "Bộ thủ này biểu thị 'nhỏ nhắn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự nhỏ bé, sự tinh tế hoặc sự huyền ảo."
+  },
+  {
+    "radical": "广",
+    "meaning": "Nghiễm",
+    "strokeCount": 3,
+    "exampleKanji": ["店", "府", "庭"],
+    "memoryTrick": "Hình dáng như mái nhà",
+    "pronunciations": ["gen"],
+    "explanation": "Bộ thủ này biểu thị 'mái nhà'. Nó thường xuất hiện trong các chữ Kanji liên quan đến nhà cửa, địa điểm hoặc sự rộng lớn."
+  },
+  {
+    "radical": "廴",
+    "meaning": "Dẫn",
+    "strokeCount": 3,
+    "exampleKanji": ["建", "廷", "延"],
+    "memoryTrick": "Hình dáng như bước chân dài",
+    "pronunciations": ["in"],
+    "explanation": "Bộ thủ này biểu thị 'bước dài'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự kéo dài, sự xây dựng hoặc sự tiến lên."
+  },
+  {
+    "radical": "廾",
+    "meaning": "Củng",
+    "strokeCount": 3,
+    "exampleKanji": ["弁", "弄", "弊"],
+    "memoryTrick": "Hình dáng như hai tay chắp lại",
+    "pronunciations": ["kyou"],
+    "explanation": "Bộ thủ này biểu thị 'chắp tay'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hành động của tay, sự cung kính hoặc sự thao tác."
+  },
+  {
+    "radical": "弋",
+    "meaning": "Dặc",
+    "strokeCount": 3,
+    "exampleKanji": ["式", "弑"],
+    "memoryTrick": "Hình dáng như chiếm lấy hoặc bắn",
+    "pronunciations": ["shiki"],
+    "explanation": "Bộ thủ này biểu thị 'chiếm lấy' hoặc 'bắn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hành động, sự kiểm soát hoặc sự tấn công."
+  },
+  {
+    "radical": "弓",
+    "meaning": "Cung",
+    "strokeCount": 3,
+    "exampleKanji": ["引", "弱", "張"],
+    "memoryTrick": "Hình dáng như cái cung",
+    "pronunciations": ["kyuu"],
+    "explanation": "Bộ thủ này biểu thị 'cái cung'. Nó thường xuất hiện trong các chữ Kanji liên quan đến vũ khí, sự kéo dài hoặc sự căng thẳng."
+  },
+  {
+    "radical": "彐",
+    "meaning": "Kệ",
+    "strokeCount": 3,
+    "exampleKanji": ["彙", "彖"],
+    "memoryTrick": "Hình dáng như đầu con nhím",
+    "pronunciations": ["kei"],
+    "explanation": "Bộ thủ này biểu thị 'đầu con nhím'. Nó thường xuất hiện trong các chữ Kanji liên quan đến động vật, sự thu thập hoặc sự tổng hợp."
+  },
+  {
+    "radical": "彡",
+    "meaning": "Sam",
+    "strokeCount": 3,
+    "exampleKanji": ["形", "彦", "彩"],
+    "memoryTrick": "Hình dáng như lông dài hoặc đuôi sam",
+    "pronunciations": ["san"],
+    "explanation": "Bộ thủ này biểu thị 'lông dài' hoặc 'đuôi sam'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hình dáng, sự trang trí hoặc sự màu sắc."
+  },
+  {
+    "radical": "彳",
+    "meaning": "Xích",
+    "strokeCount": 3,
+    "exampleKanji": ["行", "役", "彼"],
+    "memoryTrick": "Hình dáng như bước chân ngắn hoặc bước chân trái",
+    "pronunciations": ["teki"],
+    "explanation": "Bộ thủ này biểu thị 'bước ngắn' hoặc 'bước chân trái'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự di chuyển, hành động hoặc sự đối đãi."
+  }
+]

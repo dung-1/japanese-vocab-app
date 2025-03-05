@@ -1,0 +1,38 @@
+[
+    {
+      "radical": "黃",
+      "meaning": "Hoàng",
+      "strokeCount": 12,
+      "exampleKanji": ["横", "廣", "黌"],
+      "memoryTrick": "Màu vàng",
+      "pronunciations": ["kou", "ou"],
+      "explanation": "Bộ thủ này biểu thị 'màu vàng'. Nó thường xuất hiện trong các chữ Kanji liên quan đến màu sắc, sự quý phái, hoặc sự giàu có."
+    },
+    {
+      "radical": "黍",
+      "meaning": "Thử",
+      "strokeCount": 12,
+      "exampleKanji": ["黏", "黎"],
+      "memoryTrick": "Lúa nếp",
+      "pronunciations": ["sho"],
+      "explanation": "Bộ thủ này biểu thị 'lúa nếp'. Nó thường xuất hiện trong các chữ Kanji liên quan đến ngũ cốc, thực phẩm, hoặc các sản phẩm từ lúa nếp."
+    },
+    {
+      "radical": "黑",
+      "meaning": "Hắc",
+      "strokeCount": 12,
+      "exampleKanji": ["墨", "點", "黛"],
+      "memoryTrick": "Màu đen",
+      "pronunciations": ["koku"],
+      "explanation": "Bộ thủ này biểu thị 'màu đen'. Nó thường xuất hiện trong các chữ Kanji liên quan đến màu sắc, sự tối tăm, hoặc sự bí ẩn."
+    },
+    {
+      "radical": "黹",
+      "meaning": "Chỉ",
+      "strokeCount": 12,
+      "exampleKanji": ["黼"],
+      "memoryTrick": "Khâu, may vá",
+      "pronunciations": ["chi"],
+      "explanation": "Bộ thủ này biểu thị 'khâu' hoặc 'may vá'. Nó thường xuất hiện trong các chữ Kanji liên quan đến may mặc, thêu thùa, hoặc các công việc thủ công."
+    }
+  ]

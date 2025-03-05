@@ -1,0 +1,101 @@
+[
+    {
+      "radical": "面",
+      "meaning": "Diện",
+      "strokeCount": 9,
+      "exampleKanji": ["麺", "靦", "靨"],
+      "memoryTrick": "Mặt, bề mặt",
+      "pronunciations": ["men"],
+      "explanation": "Bộ thủ này biểu thị 'mặt' hoặc 'bề mặt'. Nó thường xuất hiện trong các chữ Kanji liên quan đến khuôn mặt, bề mặt, hoặc khía cạnh."
+    },
+    {
+      "radical": "革",
+      "meaning": "Cách",
+      "strokeCount": 9,
+      "exampleKanji": ["靴", "鞄", "鞭"],
+      "memoryTrick": "Da thú; thay đổi, cải cách",
+      "pronunciations": ["kaku"],
+      "explanation": "Bộ thủ này biểu thị 'da thú' hoặc 'thay đổi, cải cách'. Nó thường xuất hiện trong các chữ Kanji liên quan đến da, đồ da, hoặc sự thay đổi."
+    },
+    {
+      "radical": "韋",
+      "meaning": "Vi",
+      "strokeCount": 9,
+      "exampleKanji": ["偉", "違", "圍"],
+      "memoryTrick": "Da thuộc, trái ngược nhau",
+      "pronunciations": ["i"],
+      "explanation": "Bộ thủ này biểu thị 'da thuộc' hoặc 'trái ngược nhau'. Nó thường xuất hiện trong các chữ Kanji liên quan đến da, sự trái ngược, hoặc sự bảo vệ."
+    },
+    {
+      "radical": "韭",
+      "meaning": "Cửu",
+      "strokeCount": 9,
+      "exampleKanji": ["韮"],
+      "memoryTrick": "Cây hẹ",
+      "pronunciations": ["kyuu"],
+      "explanation": "Bộ thủ này biểu thị 'cây hẹ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thực vật, rau, hoặc gia vị."
+    },
+    {
+      "radical": "音",
+      "meaning": "Âm",
+      "strokeCount": 9,
+      "exampleKanji": ["暗", "韻", "響"],
+      "memoryTrick": "Âm thanh, tiếng",
+      "pronunciations": ["on", "in"],
+      "explanation": "Bộ thủ này biểu thị 'âm thanh' hoặc 'tiếng'. Nó thường xuất hiện trong các chữ Kanji liên quan đến âm nhạc, âm thanh, hoặc tiếng động."
+    },
+    {
+      "radical": "頁",
+      "meaning": "Hiệt",
+      "strokeCount": 9,
+      "exampleKanji": ["頂", "順", "領"],
+      "memoryTrick": "Cái đầu",
+      "pronunciations": ["ketsu"],
+      "explanation": "Bộ thủ này biểu thị 'cái đầu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến đầu, trang giấy, hoặc thứ tự."
+    },
+    {
+      "radical": "風",
+      "meaning": "Phong",
+      "strokeCount": 9,
+      "exampleKanji": ["颱", "颯", "飄"],
+      "memoryTrick": "Gió",
+      "pronunciations": ["fuu", "fu"],
+      "explanation": "Bộ thủ này biểu thị 'gió'. Nó thường xuất hiện trong các chữ Kanji liên quan đến gió, thời tiết, hoặc phong cách."
+    },
+    {
+      "radical": "飛",
+      "meaning": "Phi",
+      "strokeCount": 9,
+      "exampleKanji": ["飜", "飝"],
+      "memoryTrick": "Bay",
+      "pronunciations": ["hi"],
+      "explanation": "Bộ thủ này biểu thị 'bay'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự bay lượn, sự nhanh chóng, hoặc sự tự do."
+    },
+    {
+      "radical": "食",
+      "meaning": "Thực",
+      "strokeCount": 9,
+      "exampleKanji": ["飲", "飯", "養"],
+      "memoryTrick": "Ăn",
+      "pronunciations": ["shoku", "jiki"],
+      "explanation": "Bộ thủ này biểu thị 'ăn'. Nó thường xuất hiện trong các chữ Kanji liên quan đến thức ăn, sự ăn uống, hoặc sự nuôi dưỡng."
+    },
+    {
+      "radical": "首",
+      "meaning": "Thủ",
+      "strokeCount": 9,
+      "exampleKanji": ["道", "導", "首"],
+      "memoryTrick": "Đầu",
+      "pronunciations": ["shu"],
+      "explanation": "Bộ thủ này biểu thị 'đầu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến đầu, sự lãnh đạo, hoặc sự bắt đầu."
+    },
+    {
+      "radical": "香",
+      "meaning": "Hương",
+      "strokeCount": 9,
+      "exampleKanji": ["馨", "馥", "馞"],
+      "memoryTrick": "Mùi hương, hương thơm",
+      "pronunciations": ["kou", "kyou"],
+      "explanation": "Bộ thủ này biểu thị 'mùi hương' hoặc 'hương thơm'. Nó thường xuất hiện trong các chữ Kanji liên quan đến mùi hương, sự thơm tho, hoặc sự hấp dẫn."
+    }
+  ]

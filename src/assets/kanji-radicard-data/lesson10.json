@@ -1,0 +1,74 @@
+[
+    {
+      "radical": "馬",
+      "meaning": "Mã",
+      "strokeCount": 10,
+      "exampleKanji": ["駅", "騎", "驚"],
+      "memoryTrick": "Con ngựa",
+      "pronunciations": ["ba", "ma"],
+      "explanation": "Bộ thủ này biểu thị 'con ngựa'. Nó thường xuất hiện trong các chữ Kanji liên quan đến ngựa, sự di chuyển, hoặc sự nhanh nhẹn."
+    },
+    {
+      "radical": "骨",
+      "meaning": "Cốt",
+      "strokeCount": 10,
+      "exampleKanji": ["滑", "髄", "骼"],
+      "memoryTrick": "Xương",
+      "pronunciations": ["kotsu"],
+      "explanation": "Bộ thủ này biểu thị 'xương'. Nó thường xuất hiện trong các chữ Kanji liên quan đến xương, cơ thể, hoặc cấu trúc."
+    },
+    {
+      "radical": "高",
+      "meaning": "Cao",
+      "strokeCount": 10,
+      "exampleKanji": ["橋", "稿", "敲"],
+      "memoryTrick": "Cao",
+      "pronunciations": ["kou"],
+      "explanation": "Bộ thủ này biểu thị 'cao'. Nó thường xuất hiện trong các chữ Kanji liên quan đến chiều cao, sự cao quý, hoặc sự vượt trội."
+    },
+    {
+      "radical": "髟",
+      "meaning": "Tiêu",
+      "strokeCount": 10,
+      "exampleKanji": ["髪", "髭", "鬆"],
+      "memoryTrick": "Tóc dài",
+      "pronunciations": ["hyou"],
+      "explanation": "Bộ thủ này biểu thị 'tóc dài'. Nó thường xuất hiện trong các chữ Kanji liên quan đến tóc, kiểu tóc, hoặc sự trang trí."
+    },
+    {
+      "radical": "鬥",
+      "meaning": "Đấu",
+      "strokeCount": 10,
+      "exampleKanji": ["闘", "鬧", "鬨"],
+      "memoryTrick": "Chiến đấu, chống lại",
+      "pronunciations": ["tou"],
+      "explanation": "Bộ thủ này biểu thị 'chiến đấu' hoặc 'chống lại'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự xung đột, sự cạnh tranh, hoặc sự tranh giành."
+    },
+    {
+      "radical": "鬯",
+      "meaning": "Sưởng",
+      "strokeCount": 10,
+      "exampleKanji": ["鬰"],
+      "memoryTrick": "Bao đựng cung, rượu nếp",
+      "pronunciations": ["chou"],
+      "explanation": "Bộ thủ này biểu thị 'bao đựng cung' hoặc 'rượu nếp'. Nó thường xuất hiện trong các chữ Kanji liên quan đến đồ đựng, rượu, hoặc các vật phẩm cổ xưa."
+    },
+    {
+      "radical": "鬲",
+      "meaning": "Cách",
+      "strokeCount": 10,
+      "exampleKanji": ["隔", "融", "鬮"],
+      "memoryTrick": "Cái đỉnh",
+      "pronunciations": ["reki"],
+      "explanation": "Bộ thủ này biểu thị 'cái đỉnh'. Nó thường xuất hiện trong các chữ Kanji liên quan đến đồ đựng, nồi, hoặc các vật dụng nấu nướng."
+    },
+    {
+      "radical": "鬼",
+      "meaning": "Quỷ",
+      "strokeCount": 10,
+      "exampleKanji": ["魂", "魅", "魔"],
+      "memoryTrick": "Con quỷ",
+      "pronunciations": ["ki"],
+      "explanation": "Bộ thủ này biểu thị 'con quỷ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến ma quỷ, linh hồn, hoặc các hiện tượng siêu nhiên."
+    }
+  ]
