@@ -5,29 +5,18 @@
 >
   <div class="flashcard" *ngIf="vocabData.length">
     <!-- Mặt trước -->
-    <div class="front">
+    <div class="back">
       <div class="radical-character">{{ vocabData[currentIndex].radical }}</div>
       <div class="stroke-count">{{ vocabData[currentIndex].meaning }}</div>
     </div>
 
     <!-- Mặt sau -->
-    <div class="back">
-      <!-- <div class="section meaning">
-        <h3>Ý nghĩa</h3>
-        <p>{{ vocabData[currentIndex].memoryTrick }}</p>
-      </div> -->
-
+    <div class="front">
       <div class="section memory-trick">
         <h3>Mẹo nhớ</h3>
         <p>{{ vocabData[currentIndex].explanation }}</p>
       </div>
-
       <div class="section examples">
-        <!-- <h3>Ví dụ</h3>
-        <div class="example-kanji">
-          <span *ngFor="let kanji of vocabData[currentIndex].exampleKanji">{{ kanji }}</span>
-        </div>
-      </div> -->
     </div>
   </div>
 </div>
