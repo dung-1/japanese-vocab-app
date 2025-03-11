@@ -10,7 +10,7 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class LayoutkanjiRadicalsComponent {
   selectedLessonVocab: any[] = [];
-  
+  studyMode: 'flashcard' | 'quiz' = 'flashcard'; 
     constructor(
       private http: HttpClient,
       @Inject(PLATFORM_ID) private platformId: Object 
@@ -35,7 +35,9 @@ export class LayoutkanjiRadicalsComponent {
         }
       }
     }
-  
+    setStudyMode(mode: 'flashcard' | 'quiz') {
+      this.studyMode = mode;
+    }
     onLessonSelected(lessonNumber: number) {
       if (isPlatformBrowser(this.platformId)) {
         const cachedData = localStorage.getItem(`lesson${lessonNumber}`);

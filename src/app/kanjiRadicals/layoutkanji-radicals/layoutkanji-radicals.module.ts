@@ -4,6 +4,7 @@ import { LayoutkanjiRadicalsComponent } from './layoutkanji-radicals.component';
 import { FlashcardModule } from '../flashcard/flashcard.module';
 import { LayoutkanjiRadicalsRoutingModule } from './layoutkanji-radicals.routing.module';
 import { LessonSelectorModule } from '../lesson-selector/lesson-selector.component.module';
+import { KanjiQuizModule } from '../kanji-quiz/kanji-quiz.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { LessonSelectorModule } from '../lesson-selector/lesson-selector.compone
     CommonModule,
     FlashcardModule,
     LayoutkanjiRadicalsRoutingModule,
-    LessonSelectorModule
+    LessonSelectorModule,
+    KanjiQuizModule
 ],
   exports: [LayoutkanjiRadicalsComponent],
 })

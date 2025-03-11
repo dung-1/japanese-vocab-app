@@ -1,6 +1,19 @@
 <div class="container">
   <button><a href="/">Trang chủ</a></button>
   <h1>Học 214 bộ thủ tiếng Nhật - Minna no Nihongo</h1>
-  <app-lesson-selector (lessonSelected)="onLessonSelected($event)"></app-lesson-selector>
-  <app-flashcard [vocabData]="selectedLessonVocab"></app-flashcard>
+  
+  <div class="study-mode-selector">
+    <button [class.active]="studyMode === 'flashcard'" (click)="setStudyMode('flashcard')">Thẻ học</button>
+    <button [class.active]="studyMode === 'quiz'" (click)="setStudyMode('quiz')">Kiểm tra</button>
   </div>
+  
+  <app-lesson-selector (lessonSelected)="onLessonSelected($event)"></app-lesson-selector>
+  
+  <div *ngIf="studyMode === 'flashcard'">
+    <app-flashcard [vocabData]="selectedLessonVocab"></app-flashcard>
+  </div>
+  
+  <div *ngIf="studyMode === 'quiz'">
+    <app-kanji-quiz [vocabData]="selectedLessonVocab"></app-kanji-quiz>
+  </div>
+</div>
