@@ -5,13 +5,13 @@
 >
   <div class="flashcard" *ngIf="vocabData.length">
     <!-- Mặt trước -->
-    <div class="front">
+    <div class="back">
       <div class="radical-character">{{ vocabData[currentIndex].radical }}</div>
       <!-- <div class="stroke-count">{{ vocabData[currentIndex].meaning }}</div> -->
     </div>
 
     <!-- Mặt sau -->
-    <div class="back">
+    <div class="front">
       <div class="section memory-trick">
         <div class="stroke-count">{{ vocabData[currentIndex].meaning }}</div>
         <h3>Mẹo nhớ</h3>
