@@ -19,7 +19,7 @@
     },
     {
       "radical": "亻",
-      "meaning": "Nhân",
+      "meaning": "Nhân(đứng)",
       "strokeCount": 2,
       "exampleKanji": ["休", "位", "他"],
       "memoryTrick": "Hình dáng như người đang đi bộ",
@@ -28,10 +28,10 @@
     },
     {
       "radical": "儿",
-      "meaning": "Nhi",
+      "meaning": "Nhân (đi)",
       "strokeCount": 2,
       "exampleKanji": ["兄", "元", "先"],
-      "memoryTrick": "Hình dáng như đứa trẻ đang bò",
+      "memoryTrick": "Người, có hai chân, là sinh vật đứng thẳng, còn có dạng nhân đứng 仁",
       "pronunciations": ["ji", "ni"],
       "explanation": "Bộ thủ này biểu thị 'trẻ con' hoặc 'người'. Nó thường xuất hiện trong các chữ Kanji liên quan đến con người, sự non trẻ hoặc sự khởi đầu."
     },
@@ -99,11 +99,11 @@
       "explanation": "Bộ thủ này biểu thị 'há miệng' hoặc 'hố sâu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự lõm vào, sự nguy hiểm hoặc sự bao bọc."
     },
     {
-      "radical": "刂",
+      "radical": "刀",
       "meaning": "Đao",
       "strokeCount": 2,
       "exampleKanji": ["列", "別", "利"],
-      "memoryTrick": "Hình dáng như con dao",
+      "memoryTrick": "con dao hoặc hình thức khác.刂thường đứng bên phải các bộ khác",
       "pronunciations": ["tou"],
       "explanation": "Bộ thủ này biểu thị 'dao' hoặc 'cắt'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự cắt, sự phân chia hoặc sự sắc bén."
     },

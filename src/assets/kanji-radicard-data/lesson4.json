@@ -4,7 +4,7 @@
       "meaning": "Tâm",
       "strokeCount": 4,
       "exampleKanji": ["情", "忙", "快"],
-      "memoryTrick": "Hình dáng như trái tim",
+      "memoryTrick": "Tim(hình quả tim) cách viết khác:忄Hoặc chữ tiểu thêm nét phảy bên phải (小丶)",
       "pronunciations": ["shin"],
       "explanation": "Bộ thủ này biểu thị 'quả tim' hoặc 'tâm trí'. Nó thường xuất hiện trong các chữ Kanji liên quan đến cảm xúc, suy nghĩ hoặc tính cách."
     },
@@ -31,7 +31,7 @@
       "meaning": "Thủ",
       "strokeCount": 4,
       "exampleKanji": ["持", "打", "指"],
-      "memoryTrick": "Hình dáng như bàn tay",
+      "memoryTrick": "Hình dáng như bàn tay. Cách viết khác: 扌, 才",
       "pronunciations": ["shu"],
       "explanation": "Bộ thủ này biểu thị 'tay'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hành động của tay, sự thao tác hoặc sự sở hữu."
     },
@@ -49,7 +49,7 @@
       "meaning": "Phộc",
       "strokeCount": 4,
       "exampleKanji": ["数", "改", "攻"],
-      "memoryTrick": "Hình dáng như hành động đánh khẽ",
+      "memoryTrick": "Đánh nhẹ, cách viết khác 攵",
       "pronunciations": ["boku"],
       "explanation": "Bộ thủ này biểu thị 'đánh khẽ'. Nó thường xuất hiện trong các chữ Kanji liên quan đến hành động đánh, sự sửa đổi hoặc sự tấn công."
     },
@@ -94,7 +94,7 @@
       "meaning": "Vô",
       "strokeCount": 4,
       "exampleKanji": ["無", "既", "元"],
-      "memoryTrick": "Hình dáng như sự không có",
+      "memoryTrick": "Không, chữ: Không無 xưa cũng viết như chữ旡 kiểu như chữ Kí旡",
       "pronunciations": ["bu", "mu"],
       "explanation": "Bộ thủ này biểu thị 'không'. Nó thường xuất hiện trong các chữ Kanji liên quan đến sự phủ định, sự không tồn tại hoặc sự không cần thiết."
     },
@@ -220,7 +220,7 @@
         "meaning": "Thủy",
         "strokeCount": 4,
         "exampleKanji": ["海", "湖", "泳"],
-        "memoryTrick": "Hình dáng như nước",
+         "memoryTrick": "Hình dáng như hơi Nước, hình dòng nước chảy, cách viết khác: 氵",
         "pronunciations": ["sui"],
         "explanation": "Bộ thủ này biểu thị 'nước'. Nó thường xuất hiện trong các chữ Kanji liên quan đến nước, chất lỏng hoặc dòng chảy."
       },
@@ -229,7 +229,7 @@
         "meaning": "Hỏa",
         "strokeCount": 4,
         "exampleKanji": ["燃", "灯", "災"],
-        "memoryTrick": "Hình dáng như lửa",
+        "memoryTrick": "Hình dáng như Lửa giốn như ngọn lửa bố cao, cách viết khác:灬",
         "pronunciations": ["ka"],
         "explanation": "Bộ thủ này biểu thị 'lửa'. Nó thường xuất hiện trong các chữ Kanji liên quan đến lửa, nhiệt hoặc năng lượng."
       },
@@ -238,7 +238,7 @@
         "meaning": "Trảo",
         "strokeCount": 4,
         "exampleKanji": ["爬", "爭", "爰"],
-        "memoryTrick": "Hình dáng như móng vuốt cầm thú",
+        "memoryTrick": "Hình dáng như Móng vuốt, Cách viết khác:爪,爫.",
         "pronunciations": ["sou"],
         "explanation": "Bộ thủ này biểu thị 'móng vuốt cầm thú'. Nó thường xuất hiện trong các chữ Kanji liên quan đến động vật, sự cào xé hoặc sự tranh giành."
       },
@@ -292,7 +292,7 @@
         "meaning": "Ngưu",
         "strokeCount": 4,
         "exampleKanji": ["物", "特", "牧"],
-        "memoryTrick": "Hình dáng như trâu",
+        "memoryTrick": "Con bò. Cách viết khác: 牜",
         "pronunciations": ["gyuu"],
         "explanation": "Bộ thủ này biểu thị 'trâu'. Nó thường xuất hiện trong các chữ Kanji liên quan đến gia súc, sự mạnh mẽ hoặc sự lao động."
       },
@@ -301,7 +301,7 @@
         "meaning": "Khuyển",
         "strokeCount": 4,
         "exampleKanji": ["独", "犯", "状"],
-        "memoryTrick": "Hình dáng như con chó",
+        "memoryTrick": "Hình dáng như Con chó. Cách viết khác;犭",
         "pronunciations": ["ken"],
         "explanation": "Bộ thủ này biểu thị 'con chó'. Nó thường xuất hiện trong các chữ Kanji liên quan đến động vật, sự bảo vệ hoặc sự trung thành."
       }
