@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:japanese-vocab-app": "node dist/japanese-vocab-app/server/server.mjs"
+    "serve:ssr:japanese-vocab-app": "node dist/japanese-vocab-app/server/server.mjs",
+    "rename-index": "cp dist/japanese-vocab-app/index.csr.html dist/japanese-vocab-app/index.html"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,9 @@
     "@angular/router": "^19.0.0",
     "@angular/service-worker": "^19.0.0",
     "@angular/ssr": "^19.0.6",
+    "@capacitor/android": "^7.1.0",
+    "@capacitor/cli": "^7.1.0",
+    "@capacitor/core": "^7.1.0",
     "express": "^4.18.2",
     "japanese-vocab-app": "file:",
     "openai": "^4.86.1",
