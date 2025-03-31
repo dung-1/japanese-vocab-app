@@ -1,0 +1,272 @@
+[
+    {
+        "word": "つつみ ます",
+        "reading": "包み ます",
+        "meaning": "gói"
+    },
+    {
+        "word": "わかし ます",
+        "reading": "沸かし ます",
+        "meaning": "đun sôi"
+    },
+    {
+        "word": "まぜ ます",
+        "reading": "混ぜ ます",
+        "meaning": "trộn"
+    },
+    {
+        "word": "けいさん し ます",
+        "reading": "計算 し ます",
+        "meaning": "tính, tính toán"
+    },
+    {
+        "word": "ならび ます",
+        "reading": "並び ます",
+        "meaning": "xếp hàng"
+    },
+    {
+        "word": "じょうぶ [な]",
+        "reading": "丈夫 [な]",
+        "meaning": "chắc chắn"
+    },
+    {
+        "word": "アパート",
+        "reading": "アパート",
+        "meaning": "phòng trọ"
+    },
+    {
+        "word": "べんごし",
+        "reading": "弁護士",
+        "meaning": "luật sư"
+    },
+    {
+        "word": "おんがくか",
+        "reading": "音楽家",
+        "meaning": "nhạc sĩ, người hoạt động trong lĩnh vực âm nhạc"
+    },
+    {
+        "word": "こども たち",
+        "reading": "子ども たち",
+        "meaning": "những đứa trẻ, bọn trẻ"
+    },
+    {
+        "word": "しぜん",
+        "reading": "自然",
+        "meaning": "tự nhiên"
+    },
+    {
+        "word": "きょういく",
+        "reading": "教育",
+        "meaning": "giáo dục"
+    },
+    {
+        "word": "ぶんか",
+        "reading": "文化",
+        "meaning": "văn hóa"
+    },
+    {
+        "word": "しゃかい",
+        "reading": "社会",
+        "meaning": "xã hội"
+    },
+    {
+        "word": "せいじ",
+        "reading": "政治",
+        "meaning": "chính trị"
+    },
+    {
+        "word": "ほうりつ",
+        "reading": "法律",
+        "meaning": "pháp luật"
+    },
+    {
+        "word": "せんそう",
+        "reading": "戦争",
+        "meaning": "chiến tranh"
+    },
+    {
+        "word": "へいわ",
+        "reading": "平和",
+        "meaning": "hòa bình"
+    },
+    {
+        "word": "もくてき",
+        "reading": "目的",
+        "meaning": "mục đích"
+    },
+    {
+        "word": "ろんぶん",
+        "reading": "論文",
+        "meaning": "luận văn"
+    },
+    {
+        "word": "たのしみ",
+        "reading": "楽しみ",
+        "meaning": "niềm vui"
+    },
+    {
+        "word": "ミキサー",
+        "reading": "ミキサー",
+        "meaning": "máy xay"
+    },
+    {
+        "word": "やかん",
+        "reading": "やかん",
+        "meaning": "ấm đun nước"
+    },
+    {
+        "word": "ふた",
+        "reading": "ふた",
+        "meaning": "nắp"
+    },
+    {
+        "word": "せんぬき",
+        "reading": "栓抜き",
+        "meaning": "cái bật nắp chai"
+    },
+    {
+        "word": "かんきり",
+        "reading": "缶切り",
+        "meaning": "cái mở nắp hộp"
+    },
+    {
+        "word": "かんづめ",
+        "reading": "缶詰",
+        "meaning": "đồ hộp, thực phẩm đóng hộp"
+    },
+    {
+        "word": "のしぶくろ",
+        "reading": "のし袋",
+        "meaning": "phong bì dùng để bỏ tiền mừng"
+    },
+    {
+        "word": "ふろしき",
+        "reading": "ふろしき",
+        "meaning": "khăn vuông để gói đồ kiểu Nhật"
+    },
+    {
+        "word": "そろばん",
+        "reading": "そろばん",
+        "meaning": "bàn tính"
+    },
+    {
+        "word": "たいおんけい",
+        "reading": "体温計",
+        "meaning": "nhiệt kế"
+    },
+    {
+        "word": "ざいりょう",
+        "reading": "材料",
+        "meaning": "nguyên liệu"
+    },
+    {
+        "word": "ある",
+        "reading": "ある ~",
+        "meaning": "một ~ nọ"
+    },
+    {
+        "word": "いっしょう けんめい",
+        "reading": "一生 懸命",
+        "meaning": "chăm chỉ, gắng hết sức"
+    },
+    {
+        "word": "なぜ",
+        "reading": "なぜ",
+        "meaning": "tại sao"
+    },
+    {
+        "word": "どの くらい",
+        "reading": "どの くらい",
+        "meaning": "bao nhiêu"
+    },
+    {
+        "word": "こくれん",
+        "reading": "国連",
+        "meaning": "Liên Hợp Quốc"
+    },
+    {
+        "word": "エリーゼ の ため に",
+        "reading": "エリーゼ の ため に",
+        "meaning": "Dành cho Elise (tên bản nhạc)"
+    },
+    {
+        "word": "ベートーベン",
+        "reading": "ベートーベン",
+        "meaning": "Beethoven, nhà soạn nhạc người Đức (1770-1827)"
+    },
+    {
+        "word": "こども ニュース",
+        "reading": "こども ニュース",
+        "meaning": "Bản tin thiếu nhi (chương trình tin tức giả định)"
+    },
+    {
+        "word": "で ます",
+        "reading": "出 ます [ボーナス が ~]",
+        "meaning": "có [thưởng]"
+    },
+    {
+        "word": "はんぶん",
+        "reading": "半分",
+        "meaning": "một nửa"
+    },
+    {
+        "word": "ローン",
+        "reading": "ローン",
+        "meaning": "khoản vay ngân hàng"
+    },
+    {
+        "word": "カップ めん",
+        "reading": "カップ めん",
+        "meaning": "mì ly (mì ăn liền để ở trong ly dùng một lần)"
+    },
+    {
+        "word": "せかい はつ",
+        "reading": "世界 初",
+        "meaning": "đầu tiên trên thế giới"
+    },
+    {
+        "word": "に よっ て",
+        "reading": "に よっ て",
+        "meaning": "bởi ~"
+    },
+    {
+        "word": "どんぶり",
+        "reading": "どんぶり",
+        "meaning": "bát tô lớn"
+    },
+    {
+        "word": "めん",
+        "reading": "めん",
+        "meaning": "mì sợi"
+    },
+    {
+        "word": "ひろめ ます",
+        "reading": "広め ます",
+        "meaning": "phổ cập, nhân rộng, mở rộng"
+    },
+    {
+        "word": "しじょう ちょう さ",
+        "reading": "市場 調査",
+        "meaning": "điều tra thị trường"
+    },
+    {
+        "word": "わり ます",
+        "reading": "割り ます",
+        "meaning": "bẻ ra, chia nhỏ ra"
+    },
+    {
+        "word": "そそぎ ます",
+        "reading": "注ぎ ます",
+        "meaning": "đổ vào"
+    },
+    {
+        "word": "チキン ラーメン",
+        "reading": "チキン ラーメン",
+        "meaning": "tên của một loại mì ăn liền"
+    },
+    {
+        "word": "あんどう もも ふく",
+        "reading": "安藤 百福",
+        "meaning": "nhà kinh doanh, nhà phát minh người Nhật (1910-2007)"
+    }
+]
