@@ -7,9 +7,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { AdverbComponent } from './adverb/adverb.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AdverbComponent,
   ],
   imports: [
     BrowserModule,
