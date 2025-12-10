@@ -8,6 +8,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { AdverbComponent } from './adverb/adverb.component';
+import { MusicPlayerComponent } from './music-player/music-player.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { AdverbComponent } from './adverb/adverb.component';
     RouterModule,
     CommonModule,
     HttpClientModule,
+    MusicPlayerComponent,
 
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),

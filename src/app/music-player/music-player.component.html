@@ -1,0 +1,32 @@
+<div class="music-widget" [class.expanded]="isExpanded()">
+  <button class="music-button" (click)="onMainClick()" >
+    <span class="icon">♫</span>
+    <span class="state">{{ music.isPlaying() ? 'Đang phát' : 'Phát nhạc' }}</span>
+  </button>
+
+  <div class="music-panel" *ngIf="isExpanded()">
+    <div class="panel-header">
+      <span class="title">Nhạc nền</span>
+      <button class="collapse" type="button" (click)="toggleExpand()">✕</button>
+    </div>
+
+    <div class="track">
+          {{ music.currentTrack().title || 'Chưa có bài hát nào' }}
+          <audio
+            *ngIf="music.currentTrack()"
+            [src]="music.currentTrack().src"
+            controls
+            style="display:none"
+          ></audio>
+    </div>
+
+    <div class="controls">
+      <button type="button" (click)="music.prev()" >⏮</button>
+      <button type="button" (click)="music.playPause()" >
+        {{ music.isPlaying() ? '⏸ Tạm dừng' : '▶ Phát' }}
+      </button>
+      <button type="button" (click)="music.next()" >⏭</button>
+    </div>
+  </div>
+</div>
+
