@@ -1,0 +1,20 @@
+<div class="container">
+  <button><a href="/">Trang chủ</a></button>
+  <h1>Học từ láy trong tiếng Nhật</h1>
+  
+  <div class="study-mode-selector">
+    <button [class.active]="studyMode === 'flashcard'" (click)="setStudyMode('flashcard')">Thẻ học</button>
+    <button [class.active]="studyMode === 'quiz'" (click)="setStudyMode('quiz')">Kiểm tra</button>
+  </div>
+  
+  <app-reduplicative-lesson-selector (lessonSelected)="onLessonSelected($event)"></app-reduplicative-lesson-selector>
+  
+  <div *ngIf="studyMode === 'flashcard'">
+    <app-reduplicative-flashcard [wordData]="selectedLessonData"></app-reduplicative-flashcard>
+  </div>
+  
+  <div *ngIf="studyMode === 'quiz'">
+    <app-reduplicative-quiz [wordData]="selectedLessonData"></app-reduplicative-quiz>
+  </div>
+</div>
+

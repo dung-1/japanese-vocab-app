@@ -1,0 +1,16 @@
+.lesson-selector {
+  margin: 20px 0;
+}
+
+.lesson-selector h2 {
+  margin-bottom: 10px;
+}
+
+.lesson-selector select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-width: 200px;
+}
+

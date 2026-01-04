@@ -1,0 +1,22 @@
+<div class="flashcard-container" *ngIf="wordData && wordData.length > 0">
+  <div class="flashcard" [class.flipped]="isFlipped" (click)="toggleFlip()">
+    <div class="front">
+      <h2>{{ wordData[currentIndex].japanese }}</h2>
+      <p class="romaji">{{ wordData[currentIndex].romaji }}</p>
+      <button (click)="speak($event)">Phát âm</button>
+    </div>
+    <div class="back">
+      <h3>{{ wordData[currentIndex].japanese }}</h3>
+      <p class="romaji">{{ wordData[currentIndex].romaji }}</p>
+      <p class="meaning">{{ wordData[currentIndex].vietnamese }}</p>
+    </div>
+  </div>
+  <div class="navigation">
+    <button (click)="prevCard()" [disabled]="wordData.length <= 1">Trước</button>
+    <button (click)="nextCard()" [disabled]="wordData.length <= 1">Tiếp</button>
+  </div>
+</div>
+<div *ngIf="!wordData || wordData.length === 0">
+  <p>Vui lòng chọn một bài học để bắt đầu!</p>
+</div>
+
