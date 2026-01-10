@@ -1,13 +1,56 @@
 [
-  { "japanese": "とことん", "romaji": "tokoton", "vietnamese": "đến cùng, triệt để" },
-  { "japanese": "とんとん", "romaji": "tonton", "vietnamese": "đều đều, ổn định" },
-  { "japanese": "とろとろ", "romaji": "torotoro", "vietnamese": "nhão, mềm nhũn" },
-  { "japanese": "とぼとぼ", "romaji": "tobotobo", "vietnamese": "lững thững, chậm chạp" },
-  { "japanese": "とんでもない", "romaji": "tondemonai", "vietnamese": "không thể tin được, vô lý" },
-  { "japanese": "とっくに", "romaji": "tokkuni", "vietnamese": "từ lâu, đã lâu" },
-  { "japanese": "とにかく", "romaji": "tonikaku", "vietnamese": "dù sao đi nữa, bất kể" },
-  { "japanese": "とことん", "romaji": "tokoton", "vietnamese": "đến cùng, triệt để" },
-  { "japanese": "とんとん", "romaji": "tonton", "vietnamese": "đều đều, ổn định" },
-  { "japanese": "とろとろ", "romaji": "torotoro", "vietnamese": "nhão, mềm nhũn" }
+  {
+    "japanese": "わいわい",
+    "romaji": "waiwai",
+    "vietnamese": "ồn ào, huyên náo (tiếng nhiều người, đặc biệt là trẻ con đang vui đùa, náo nhiệt)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "こんこん",
+    "romaji": "konkon",
+    "vietnamese": "liên miên, liên tục (thường dùng cho tuyết rơi dày hoặc tiếng ho khụ khụ)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ぼーっ",
+    "romaji": "bo-tto",
+    "vietnamese": "ngây người, lờ đờ (trạng thái đầu óc trống rỗng, không tập trung)",
+    "category": "Cảm xúc & Tâm trạng"
+  },
+  {
+    "japanese": "ちらちら",
+    "romaji": "chirachira",
+    "vietnamese": "thấp thoáng, loáng thoáng (nhìn lén hoặc tuyết rơi lất phất, âm thanh nghe không rõ)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ころころ",
+    "romaji": "korokoro",
+    "vietnamese": "lông lốc (vật tròn nhỏ lăn; hoặc dùng để chỉ sự thay đổi ý kiến xoành xoạch)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ぺりっと",
+    "romaji": "peritto",
+    "vietnamese": "rắc, xoẹt (âm thanh dứt khoát khi bóc một lớp màng, nhãn dán)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "べったり",
+    "romaji": "bettari",
+    "vietnamese": "dính bết, dính chặt (vật dính sát vào nhau không rời, hoặc người bám dính lấy nhau)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "べたべた",
+    "romaji": "betabeta",
+    "vietnamese": "dinh dính (cảm giác tay dính kẹo, hồ dán; hoặc cặp đôi thể hiện tình cảm quá mức)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぽきぽき",
+    "romaji": "pokipoki",
+    "vietnamese": "rắc rắc (tiếng bẻ các vật giòn, khô hoặc bẻ khớp ngón tay)",
+    "category": "Âm thanh & Tự nhiên"
+  }
 ]
-

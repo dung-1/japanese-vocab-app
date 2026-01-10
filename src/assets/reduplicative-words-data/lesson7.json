@@ -1,13 +1,69 @@
 [
-  { "japanese": "ちかちか", "romaji": "chikachika", "vietnamese": "lấp lánh, nhấp nháy" },
-  { "japanese": "ちらちら", "romaji": "chirachira", "vietnamese": "lác đác, rải rác" },
-  { "japanese": "ちりちり", "romaji": "chirichiri", "vietnamese": "nhỏ nhặt, lặt vặt" },
-  { "japanese": "ちんまり", "romaji": "chinmari", "vietnamese": "nhỏ gọn, gọn gàng" },
-  { "japanese": "ちやほや", "romaji": "chiyahoya", "vietnamese": "chiều chuộng, nâng niu" },
-  { "japanese": "ちやちや", "romaji": "chiyachiya", "vietnamese": "nhanh nhảu, lanh lợi" },
-  { "japanese": "ちくちく", "romaji": "chikuchiku", "vietnamese": "châm chích, đau nhói" },
-  { "japanese": "ちよちよ", "romaji": "chiyochiyo", "vietnamese": "nhỏ nhắn, xinh xắn" },
-  { "japanese": "ちんぷんかんぷん", "romaji": "chinpunkanpun", "vietnamese": "không hiểu gì cả" },
-  { "japanese": "ちやほや", "romaji": "chiyahoya", "vietnamese": "chiều chuộng, nâng niu" }
-]
+  {
+    "japanese": "まるまる",
+    "romaji": "marumaru",
+    "vietnamese": "tròn xoe (chỉ hình dạng rất tròn của vật hoặc sự đầy đặn của cơ thể)",
+    "category": "Hình dạng & Trạng thái"
+  },
+  {
+    "japanese": "ひとびと",
+    "romaji": "hitobito",
+    "vietnamese": "mọi người (nhiều người, quần chúng)",
+    "category": "Số lượng & Con người"
+  },
+  {
+    "japanese": "だいだい",
+    "romaji": "daidai",
+    "vietnamese": "đời đời (cha truyền con nối, từ thế hệ này sang thế hệ khác)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "ここ",
+    "romaji": "koko",
+    "vietnamese": "từng cái một (riêng biệt, cá nhân từng thực thể)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "もともと",
+    "romaji": "motomoto",
+    "vietnamese": "vốn dĩ (bản chất từ đầu đã như vậy, không thay đổi)",
+    "category": "Tính chất & Trạng thái"
+  },
+  {
+    "japanese": "べつべつ",
+    "romaji": "betsubetsu",
+    "vietnamese": "riêng biệt (tách rời nhau, không làm chung)",
+    "category": "Tính chất & Trạng thái"
+  },
+  {
+    "japanese": "おのおの",
+    "romaji": "onoono",
+    "vietnamese": "mỗi người/mỗi thứ (tương tự từng cái một nhưng trang trọng hơn)",
+    "category": "Số lượng & Con người"
+  },
+  {
+    "japanese": "ずうずうしい",
+    "romaji": "zuuzuushii",
+    "vietnamese": "trơ trẽn (vô liêm sỉ, thản nhiên làm phiền người khác)",
+    "category": "Tính cách & Thái độ"
+  },
+  {
+    "japanese": "くにぐに",
+    "romaji": "kuniguni",
+    "vietnamese": "các nước (nhiều quốc gia khác nhau)",
+    "category": "Số lượng & Địa điểm"
+  },
+  {
+    "japanese": "しょうしょう",
+    "romaji": "shoushou",
+    "vietnamese": "một chút (dùng trong văn phong lịch sự, trang trọng)",
+    "category": "Số lượng & Mức độ"
+  }
 
+
+
+
+
+
+  
+]

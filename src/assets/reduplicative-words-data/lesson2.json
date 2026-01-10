@@ -1,13 +1,117 @@
 [
-  { "japanese": "すらすら", "romaji": "surasura", "vietnamese": "trôi chảy, mượt mà" },
-  { "japanese": "すくすく", "romaji": "sukusuku", "vietnamese": "lớn nhanh, phát triển tốt" },
-  { "japanese": "にこにこ", "romaji": "nikoniko", "vietnamese": "cười tươi, vui vẻ" },
-  { "japanese": "にやにや", "romaji": "niyaniya", "vietnamese": "cười khẩy, cười mỉm" },
-  { "japanese": "くよくよ", "romaji": "kuyokuyo", "vietnamese": "lo lắng, băn khoăn" },
-  { "japanese": "はきはき", "romaji": "hakihaki", "vietnamese": "nhanh nhẹn, hoạt bát" },
-  { "japanese": "きちんと", "romaji": "kichinto", "vietnamese": "gọn gàng, ngăn nắp" },
-  { "japanese": "しっかり", "romaji": "shikkari", "vietnamese": "chắc chắn, vững vàng" },
-  { "japanese": "ゆっくり", "romaji": "yukkuri", "vietnamese": "từ từ, chậm rãi" },
-  { "japanese": "のんびり", "romaji": "nonbiri", "vietnamese": "thong thả, nhàn nhã" }
+  {
+    "japanese": "すたすた",
+    "romaji": "sutasuta",
+    "vietnamese": "đi bộ nhanh nhẹn (đi dứt khoát, không nhìn ngó xung quanh)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "のろのろ",
+    "romaji": "noronoro",
+    "vietnamese": "chậm chạp (di chuyển lề mề, chậm như rùa bò)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "するする",
+    "romaji": "surusuru",
+    "vietnamese": "trôi chảy (di chuyển nhanh chóng, mượt mà không bị cản trở)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "すらすら",
+    "romaji": "surasura",
+    "vietnamese": "trơn tru (thường dùng cho việc đọc, viết hoặc trả lời câu hỏi một cách lưu loát)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ぺらぺら",
+    "romaji": "perapera",
+    "vietnamese": "lưu loát (nói ngoại ngữ trôi chảy; hoặc chỉ sự mỏng manh của vật chất)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ぞろぞろ",
+    "romaji": "zorozoro",
+    "vietnamese": "nườm nượp (dòng người hoặc vật nối đuôi nhau di chuyển liên tục)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ぴょんぴょn",
+    "romaji": "pyonpyon",
+    "vietnamese": "nhảy lên nhảy xuống (như thỏ hoặc trẻ con nhảy nhót)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ふらふら",
+    "romaji": "furafura",
+    "vietnamese": "chao đảo (đi đứng loạng choạng do say rượu hoặc mệt mỏi)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ゆらゆら",
+    "romaji": "yurayura",
+    "vietnamese": "đung đưa (rung rinh, chuyển động chậm nhẹ nhàng)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "ぶらぶら",
+    "romaji": "burabura",
+    "vietnamese": "đong đưa (hoặc đi dạo thong dong, không mục đích)",
+    "category": "Hành động & Di chuyển"
+  },
+  {
+    "japanese": "うとうと",
+    "romaji": "utouto",
+    "vietnamese": "ngủ gật (ngủ thiếp đi trong thời gian ngắn khi đang làm việc gì đó)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "こっくり",
+    "romaji": "kokkuri",
+    "vietnamese": "ngủ gà ngủ gật (đầu gục lên gục xuống khi ngủ)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "ぐうぐう",
+    "romaji": "guuguu",
+    "vietnamese": "ngủ say (ngủ sâu, thường kèm tiếng ngáy)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "すやすや",
+    "romaji": "suyasuya",
+    "vietnamese": "ngủ ngon (ngủ một cách êm đềm, thường dùng cho trẻ em)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "ぺこぺこ",
+    "romaji": "pekopeko",
+    "vietnamese": "đói meo (bụng đói cồn cào; hoặc nghĩa khác là khúm núm trước ai đó)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "くらくら",
+    "romaji": "kurakura",
+    "vietnamese": "hoa mắt (chóng mặt, xây xẩm mặt mày)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "ずきずき",
+    "romaji": "zukizuki",
+    "vietnamese": "đau nhức nhối (cảm giác đau theo nhịp đập của mạch máu)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "ひりひり",
+    "romaji": "hirihiri",
+    "vietnamese": "đau rát (cảm giác đau trên bề mặt da như bị bỏng hoặc xát muối)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "はきはき",
+    "romaji": "hakihaki",
+    "vietnamese": "minh mẫn, rõ ràng (cách trả lời hoặc thái độ dứt khoát, minh bạch)",
+    "category": "Trạng thái cơ thể"
+  }
 ]
 

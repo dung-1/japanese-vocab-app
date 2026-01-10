@@ -1,13 +1,58 @@
 [
-  { "japanese": "たっぷり", "romaji": "tappuri", "vietnamese": "đầy đủ, dư dả" },
-  { "japanese": "たんたん", "romaji": "tantan", "vietnamese": "bình thản, đều đều" },
-  { "japanese": "たらたら", "romaji": "taratara", "vietnamese": "chảy nhỏ giọt, rỉ ra" },
-  { "japanese": "たまたま", "romaji": "tamatama", "vietnamese": "tình cờ, ngẫu nhiên" },
-  { "japanese": "たびたび", "romaji": "tabitabi", "vietnamese": "thường xuyên, nhiều lần" },
-  { "japanese": "たどたど", "romaji": "tadotado", "vietnamese": "lúng túng, vụng về" },
-  { "japanese": "たんまり", "romaji": "tanmari", "vietnamese": "nhiều, đầy đủ" },
-  { "japanese": "たっぷり", "romaji": "tappuri", "vietnamese": "đầy đủ, dư dả" },
-  { "japanese": "たやすく", "romaji": "tayasuku", "vietnamese": "dễ dàng, đơn giản" },
-  { "japanese": "たまに", "romaji": "tamani", "vietnamese": "thỉnh thoảng, đôi khi" }
+  {
+    "japanese": "くるくる",
+    "romaji": "kurukuru",
+    "vietnamese": "cuộn tròn (trạng thái quay vòng vòng hoặc quấn quanh vật gì)",
+    "category": "Hình dạng & Cách thức"
+  },
+  {
+    "japanese": "まるまる",
+    "romaji": "marumaru",
+    "vietnamese": "tròn xoe (hình dạng rất tròn; hoặc hoàn toàn toàn bộ)",
+    "category": "Hình dạng & Cách thức"
+  },
+  {
+    "japanese": "ずけずけ",
+    "romaji": "zukezuke",
+    "vietnamese": "thẳng thừng (nói những lời khó nghe một cách huỵch toẹt, không nể nang)",
+    "category": "Hình dạng & Cách thức"
+  },
+  {
+    "japanese": "こっそり",
+    "romaji": "kossori",
+    "vietnamese": "len lén (làm việc gì đó bí mật để không bị phát hiện)",
+    "category": "Hình dạng & Cách thức"
+  },
+  {
+    "japanese": "じっと",
+    "romaji": "jitto",
+    "vietnamese": "chằm chằm (nhìn tập trung không rời mắt hoặc ngồi yên không cử động)",
+    "category": "Hình dạng & Cách thức"
+  },
+
+  {
+    "japanese": "ぐらぐら",
+    "romaji": "guragura",
+    "vietnamese": "lỏng lẻo (vật bị lung lay, không vững chãi như răng hoặc bàn ghế)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "いろいろ",
+    "romaji": "iroiro",
+    "vietnamese": "đa dạng (nhiều loại, nhiều thứ khác nhau)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "さまっざま",
+    "romaji": "samazama",
+    "vietnamese": "nhiều dạng khác nhau (trang trọng hơn iroiro)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "ところどころ",
+    "romaji": "tokorodokoro",
+    "vietnamese": "chỗ này chỗ kia (rải rác ở một vài nơi)",
+    "category": "Số lượng & Mức độ"
+  }
 ]
 

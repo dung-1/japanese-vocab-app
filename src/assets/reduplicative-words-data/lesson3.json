@@ -1,13 +1,105 @@
 [
-  { "japanese": "ばらばら", "romaji": "barabara", "vietnamese": "rải rác, tản mạn" },
-  { "japanese": "ぱらぱら", "romaji": "parapara", "vietnamese": "lác đác, rải rác" },
-  { "japanese": "ざらざら", "romaji": "zarazara", "vietnamese": "sần sùi, thô ráp" },
-  { "japanese": "さらさら", "romaji": "sarasara", "vietnamese": "mượt mà, trơn tru" },
-  { "japanese": "ごろごろ", "romaji": "gorogoro", "vietnamese": "lăn lộn, nằm dài" },
-  { "japanese": "ころころ", "romaji": "korokoro", "vietnamese": "lăn tròn, tròn xoe" },
-  { "japanese": "ふわふわ", "romaji": "fuwafuwa", "vietnamese": "mềm mại, nhẹ nhàng" },
-  { "japanese": "もふもふ", "romaji": "mofumofu", "vietnamese": "mềm mại, xù xì" },
-  { "japanese": "ぷかぷか", "romaji": "pukapuka", "vietnamese": "nổi lềnh bềnh" },
-  { "japanese": "ぽかぽか", "romaji": "pokapoka", "vietnamese": "ấm áp, dễ chịu" }
+  {
+    "japanese": "ぐいぐい",
+    "romaji": "guigui",
+    "vietnamese": "uống ừng ực (uống mạnh, liên tục; hoặc đẩy mạnh vật gì đó)",
+    "category": "Ăn uống & Sinh hoạt"
+  },
+  {
+    "japanese": "ごくごく",
+    "romaji": "gokugoku",
+    "vietnamese": "ực ực (tiếng uống nước liên tục)",
+    "category": "Ăn uống & Sinh hoạt"
+  },
+  {
+    "japanese": "ちびちび",
+    "romaji": "chibichibi",
+    "vietnamese": "nhấm nháp (uống từng chút một, nhâm nhi rượu)",
+    "category": "Ăn uống & Sinh hoạt"
+  },
+  {
+    "japanese": "ぱくぱく",
+    "romaji": "pakupaku",
+    "vietnamese": "ăn liên hồi (há miệng ăn ngon lành; hoặc cử động đóng mở liên tục)",
+    "category": "Ăn uống & Sinh hoạt"
+  },
+  {
+    "japanese": "ごろごろ",
+    "romaji": "gorogoro",
+    "vietnamese": "ăn không ngồi rồi (lười nhác, nằm lăn lóc ở nhà; hoặc tiếng sấm rền)",
+    "category": "Ăn uống & Sinh hoạt"
+  },
+  {
+    "japanese": "きらきら",
+    "romaji": "kirakira",
+    "vietnamese": "lấp lánh (phản chiếu ánh sáng đẹp mắt như ngôi sao, kim cương)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぴかぴか",
+    "romaji": "pikapika",
+    "vietnamese": "sáng loáng (bề mặt được đánh bóng, sạch bong kin kít)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぎらぎら",
+    "romaji": "giragira",
+    "vietnamese": "chói chang (ánh sáng mạnh gây khó chịu như mặt trời trưa hè)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ちかちか",
+    "romaji": "chikachika",
+    "vietnamese": "le lói (ánh sáng nhấp nháy liên tục gây đau mắt)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "びしょびしょ",
+    "romaji": "bishobisho",
+    "vietnamese": "ướt sũng (quần áo, cơ thể bị ướt hoàn toàn)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぐちゃぐちゃ",
+    "romaji": "guchagucha",
+    "vietnamese": "nhão nhẹt (tình trạng hỗn độn, bừa bãi hoặc vật mềm nhũn)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "べとべと",
+    "romaji": "betobeto",
+    "vietnamese": "dính dính (cảm giác khó chịu của mồ hôi hoặc keo)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぬるぬる",
+    "romaji": "nurunuru",
+    "vietnamese": "trơn nhớt (như lươn hoặc xà phòng)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ふわふわ",
+    "romaji": "fuwafuwa",
+    "vietnamese": "mềm mại (nhẹ và xốp như bông mây hoặc lông thú)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぼろぼろ",
+    "romaji": "boroboro",
+    "vietnamese": "rách tơi tả (quần áo cũ nát; hoặc tình trạng kiệt sức, tan nát)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "くしゃくしゃ",
+    "romaji": "kushakusha",
+    "vietnamese": "nhàu nát (giấy hoặc quần áo bị vò nát)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぼさぼさ",
+    "romaji": "bosabosa",
+    "vietnamese": "đầu như tổ quạ (tóc tai bù xù, không chải chuốt)",
+    "category": "Tính chất & Bề mặt"
+  }
 ]
 
