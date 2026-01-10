@@ -1,13 +1,81 @@
 [
-  { "japanese": "ぴょんぴょん", "romaji": "pyonpyon", "vietnamese": "nhảy nhót, nhảy lên" },
-  { "japanese": "ぴんぴん", "romaji": "pinpin", "vietnamese": "khỏe mạnh, sống động" },
-  { "japanese": "ぱんぱん", "romaji": "panpan", "vietnamese": "đầy ắp, căng phồng" },
-  { "japanese": "ぽんぽん", "romaji": "ponpon", "vietnamese": "nhẹ nhàng, dễ dàng" },
-  { "japanese": "ぺこぺこ", "romaji": "pekopeko", "vietnamese": "đói bụng, đói meo" },
-  { "japanese": "ぺらぺら", "romaji": "perapera", "vietnamese": "lưu loát, trôi chảy" },
-  { "japanese": "ぽろぽろ", "romaji": "poroporo", "vietnamese": "rơi lã chã, nhỏ giọt" },
-  { "japanese": "ぽたぽた", "romaji": "potapota", "vietnamese": "nhỏ giọt, rơi từng giọt" },
-  { "japanese": "ぴたぴた", "romaji": "pitapita", "vietnamese": "dính chặt, khít nhau" },
-  { "japanese": "ぴしぴし", "romaji": "pishipishi", "vietnamese": "nghiêm khắc, chặt chẽ" }
+  {
+    "japanese": "ぎゅうぎゅう",
+    "romaji": "gyuugyuu",
+    "vietnamese": "chật ních (nhồi nhét quá mức vào không gian hẹp)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "ばらばら",
+    "romaji": "barabara",
+    "vietnamese": "rời rạc (mỗi thứ một nơi, không thống nhất)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "ますます",
+    "romaji": "masumasu",
+    "vietnamese": "ngày càng (mức độ tăng dần lên so với trước)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "だんだん",
+    "romaji": "dandan",
+    "vietnamese": "dần dần (biến đổi theo từng bước)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "ぎりぎり",
+    "romaji": "girigiri",
+    "vietnamese": "sát nút (vừa vặn ở giới hạn cuối cùng, suýt soát)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "めちゃめちゃ",
+    "romaji": "mechamecha",
+    "vietnamese": "quá mức (nhấn mạnh mức độ rất lớn; hoặc nghĩa là tan tành, rối loạn)",
+    "category": "Số lượng & Mức độ"
+  },
+  {
+    "japanese": "とうとう",
+    "romaji": "toutou",
+    "vietnamese": "cuối cùng (sau một quá trình dài, kết quả thường là tiêu cực)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "たびたび",
+    "romaji": "tabitabi",
+    "vietnamese": "thường xuyên (lặp lại nhiều lần)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "たまたま",
+    "romaji": "tamatama",
+    "vietnamese": "ngẫu nhiên (tình cờ xảy ra, không dự tính trước)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "なかなか",
+    "romaji": "nakanaka",
+    "vietnamese": "mãi mà không (đi với thể phủ định; hoặc nghĩa là khá/rất)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "ずるずる",
+    "romaji": "zuruzuru",
+    "vietnamese": "dùng dằng (kéo dài lê thê không kết thúc; hoặc tiếng húp mì)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "つぎつぎ",
+    "romaji": "tsugitsugi",
+    "vietnamese": "liên tiếp (hết cái này đến cái khác)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "ぞくぞく",
+    "romaji": "zokuzoku",
+    "vietnamese": "liên tục (nối đuôi nhau xuất hiện; hoặc nghĩa là run cầm cập do lạnh/sợ)",
+    "category": "Thời gian & Tần suất"
+  }
 ]
 

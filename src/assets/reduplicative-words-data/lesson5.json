@@ -1,13 +1,58 @@
 [
-  { "japanese": "だらだら", "romaji": "daradara", "vietnamese": "lười biếng, uể oải" },
-  { "japanese": "だぶだぶ", "romaji": "dabudabu", "vietnamese": "rộng thùng thình, lỏng lẻo" },
-  { "japanese": "どきどき", "romaji": "dokidoki", "vietnamese": "hồi hộp, đập thình thịch" },
-  { "japanese": "どんどん", "romaji": "dondon", "vietnamese": "nhanh chóng, liên tục" },
-  { "japanese": "どさどさ", "romaji": "dosadosa", "vietnamese": "ồ ạt, ập đến" },
-  { "japanese": "どしどし", "romaji": "doshidoshi", "vietnamese": "mạnh mẽ, quyết liệt" },
-  { "japanese": "どやどや", "romaji": "doyadoya", "vietnamese": "ồ ạt, tràn vào" },
-  { "japanese": "どかどか", "romaji": "dokadoka", "vietnamese": "ồ ạt, nhiều" },
-  { "japanese": "どんより", "romaji": "donyori", "vietnamese": "âm u, u ám" },
-  { "japanese": "どっさり", "romaji": "dossari", "vietnamese": "nhiều, đầy ắp" }
+  {
+    "japanese": "ざあざあ",
+    "romaji": "zaazaa",
+    "vietnamese": "ào ào (tiếng mưa rơi nặng hạt)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "びりびり",
+    "romaji": "biribiri",
+    "vietnamese": "xoẹt xoẹt (tiếng xé giấy; hoặc cảm giác bị điện giật, tê rần)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "たらたら",
+    "romaji": "taratara",
+    "vietnamese": "tòng tòng (chất lỏng như mồ hôi, máu chảy nhỏ giọt liên tục)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ぽたぽた",
+    "romaji": "potapota",
+    "vietnamese": "tí tách (giọt nước rơi xuống bề mặt)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ひらひら",
+    "romaji": "hirahira",
+    "vietnamese": "phấp phới (lá cây, cánh hoa hoặc vải mỏng bay trong gió)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ぶつぶつ",
+    "romaji": "butsubutsu",
+    "vietnamese": "lầm bầm (nói nhỏ trong miệng thể hiện sự bất mãn; hoặc mụn sần sùi)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "がらがら",
+    "romaji": "garagara",
+    "vietnamese": "ọc ọc (tiếng súc miệng; hoặc tình trạng vắng tanh vắng ngắt)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ぺりぺり",
+    "romaji": "periperi",
+    "vietnamese": "rắc rắc (âm thanh bóc nhãn dán hoặc vật mỏng bị xé)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ぱたぱた",
+    "romaji": "patapata",
+    "vietnamese": "vèo vèo (âm thanh cánh chim đập hoặc tiếng bước chân chạy nhanh trên sàn)",
+    "category": "Âm thanh & Tự nhiên"
+  }
+
 ]
 

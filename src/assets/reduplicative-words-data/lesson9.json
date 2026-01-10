@@ -1,13 +1,75 @@
 [
-  { "japanese": "てきぱき", "romaji": "tekipaki", "vietnamese": "nhanh nhẹn, gọn gàng" },
-  { "japanese": "てんてん", "romaji": "tenten", "vietnamese": "chấm chấm, lốm đốm" },
-  { "japanese": "てらてら", "romaji": "teratera", "vietnamese": "bóng loáng, sáng bóng" },
-  { "japanese": "てかてか", "romaji": "tekateka", "vietnamese": "bóng loáng, sáng bóng" },
-  { "japanese": "てれくさい", "romaji": "terekusai", "vietnamese": "ngượng ngùng, xấu hổ" },
-  { "japanese": "てんで", "romaji": "tende", "vietnamese": "hoàn toàn, tuyệt đối" },
-  { "japanese": "てきとう", "romaji": "tekitou", "vietnamese": "thích hợp, phù hợp" },
-  { "japanese": "てきぱき", "romaji": "tekipaki", "vietnamese": "nhanh nhẹn, gọn gàng" },
-  { "japanese": "てんてん", "romaji": "tenten", "vietnamese": "chấm chấm, lốm đốm" },
-  { "japanese": "てらてら", "romaji": "teratera", "vietnamese": "bóng loáng, sáng bóng" }
+  {
+    "japanese": "てんてん",
+    "romaji": "tenten",
+    "vietnamese": "lốm đốm (nằm rải rác đây đó thành từng điểm nhỏ)",
+    "category": "Hình dạng & Trạng thái"
+  },
+  {
+    "japanese": "ちかぢか",
+    "romaji": "chikajika",
+    "vietnamese": "sớm thôi (một sự việc sắp xảy ra trong tương lai gần)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "はるばる",
+    "romaji": "harubaru",
+    "vietnamese": "xa xôi (vượt qua một quãng đường dài để đến nơi)",
+    "category": "Tính chất & Không gian"
+  },
+  {
+    "japanese": "じूंじゅん",
+    "romaji": "junjun",
+    "vietnamese": "lần lượt (theo đúng thứ tự trước sau)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "そうぞうしい",
+    "romaji": "souzoushii",
+    "vietnamese": "ồn ào (âm thanh gây náo động, khó chịu cho người xung quanh)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "こうこうと",
+    "romaji": "koukou to",
+    "vietnamese": "rực rỡ (ánh sáng đèn điện chiếu sáng rực cả một vùng)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぼきぼき",
+    "romaji": "bokiboki",
+    "vietnamese": "rắc rắc (tiếng bẻ khớp tay hoặc vật cứng bị gãy liên tục)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ごしごし",
+    "romaji": "goshigoshi",
+    "vietnamese": "cọ xát (hành động chà rửa mạnh tay để làm sạch vết bẩn)",
+    "category": "Hành động & Sinh hoạt"
+  },
+  {
+    "japanese": "さっぱり",
+    "romaji": "sappari",
+    "vietnamese": "sảng khoái (cảm giác sau khi tắm hoặc ăn món ăn thanh đạm)",
+    "category": "Cảm xúc & Tâm trạng"
+  },
+  {
+    "japanese": "ぬるぬる",
+    "romaji": "nurunuru",
+    "vietnamese": "trơn tuột (cảm giác nhờn dính như dầu mỡ hoặc da lươn)",
+    "category": "Tính chất & Bề mặt"
+  },
+  {
+    "japanese": "ぷかぷか",
+    "romaji": "pukapuka",
+    "vietnamese": "lềnh bềnh (vật nổi trên mặt nước hoặc khói thuốc lá bay lơ lửng)",
+    "category": "Âm thanh & Tự nhiên"
+  },
+  {
+    "japanese": "ぶくぶく",
+    "romaji": "bukubuku",
+    "vietnamese": "phì phò (tiếng thổi bong bóng dưới nước hoặc chỉ sự béo phì)",
+    "category": "Âm thanh & Tự nhiên"
+  }
 ]
 

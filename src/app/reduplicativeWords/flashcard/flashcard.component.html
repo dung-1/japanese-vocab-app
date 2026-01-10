@@ -9,6 +9,8 @@
       <h3>{{ wordData[currentIndex].japanese }}</h3>
       <p class="romaji">{{ wordData[currentIndex].romaji }}</p>
       <p class="meaning">{{ wordData[currentIndex].vietnamese }}</p>
+      <p class="meaning">{{ wordData[currentIndex].category}}</p>
+
     </div>
   </div>
   <div class="navigation">
@@ -19,4 +21,3 @@
 <div *ngIf="!wordData || wordData.length === 0">
   <p>Vui lòng chọn một bài học để bắt đầu!</p>
 </div>
-

@@ -4,6 +4,7 @@ interface ReduplicativeWord {
   japanese: string;
   romaji: string;
   vietnamese: string;
+  category: string;
 }
 
 interface QuizQuestion {

@@ -1,13 +1,78 @@
 [
-  { "japanese": "つるつる", "romaji": "tsurutsuru", "vietnamese": "trơn tru, mượt mà" },
-  { "japanese": "つやつや", "romaji": "tsuyatsuya", "vietnamese": "bóng loáng, sáng bóng" },
-  { "japanese": "つらつら", "romaji": "tsuratsura", "vietnamese": "kỹ lưỡng, cẩn thận" },
-  { "japanese": "つくづく", "romaji": "tsukuzuku", "vietnamese": "sâu sắc, thấm thía" },
-  { "japanese": "ついについに", "romaji": "tsuinitsuini", "vietnamese": "cuối cùng, rốt cuộc" },
-  { "japanese": "つぎつぎ", "romaji": "tsugitsugi", "vietnamese": "lần lượt, từng cái một" },
-  { "japanese": "つややか", "romaji": "tsuyayaka", "vietnamese": "bóng loáng, sáng bóng" },
-  { "japanese": "つやつや", "romaji": "tsuyatsuya", "vietnamese": "bóng loáng, sáng bóng" },
-  { "japanese": "つるりと", "romaji": "tsururito", "vietnamese": "trơn tru, mượt mà" },
-  { "japanese": "つやめく", "romaji": "tsuyameku", "vietnamese": "lấp lánh, sáng bóng" }
+
+
+  {
+    "japanese": "ねんねん",
+    "romaji": "nennen",
+    "vietnamese": "hàng năm (sự thay đổi diễn ra qua từng năm)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "ひろびろ",
+    "romaji": "hirobiro",
+    "vietnamese": "rộng thênh thang (cảm giác không gian cực kỳ thoáng đạt)",
+    "category": "Tính chất & Không gian"
+  },
+  {
+    "japanese": "よわよわしい",
+    "romaji": "yowayowashii",
+    "vietnamese": "yếu ớt (vẻ bề ngoài có vẻ mỏng manh, dễ vỡ, thiếu sức sống)",
+    "category": "Trạng thái cơ thể"
+  },
+  {
+    "japanese": "じょじょに",
+    "romaji": "jojoni",
+    "vietnamese": "từ từ (dần dần biến đổi theo trình tự thời gian)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "われわれ",
+    "romaji": "wareware",
+    "vietnamese": "chúng tôi (cách xưng hô tập thể trang trọng, thường dùng trong công việc)",
+    "category": "Số lượng & Con người"
+  },
+  {
+    "japanese": "かたがた",
+    "romaji": "katagata",
+    "vietnamese": "các vị (cách gọi lịch sự khi nhắc đến nhiều người)",
+    "category": "Số lượng & Con người"
+  },
+  {
+    "japanese": "ひび",
+    "romaji": "hibi",
+    "vietnamese": "hàng ngày (những việc diễn ra lặp đi lặp lại mỗi ngày)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "そうそう",
+    "romaji": "sousou",
+    "vietnamese": "sớm (ngay sau khi một việc gì đó vừa kết thúc)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "ときどき",
+    "romaji": "tokidoki",
+    "vietnamese": "thỉnh thoảng (tần suất không thường xuyên)",
+    "category": "Thời gian & Tần suất"
+  },
+  {
+    "japanese": "きぎ",
+    "romaji": "kigi",
+    "vietnamese": "các loại cây (tập hợp nhiều cây cối)",
+    "category": "Số lượng & Tự nhiên"
+  },
+  {
+    "japanese": "ちゃくちゃく",
+    "romaji": "chakuchaku",
+    "vietnamese": "vững chắc (tiến triển một cách ổn định, không nôn nóng)",
+    "category": "Tính chất & Trạng thái"
+  },
+  {
+    "japanese": "わかわかしい",
+    "romaji": "wakawakashii",
+    "vietnamese": "trẻ trung (vẻ ngoài hoặc tâm hồn tươi trẻ so với tuổi thật)",
+    "category": "Trạng thái cơ thể"
+  }
+
 ]
 
