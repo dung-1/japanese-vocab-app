@@ -1,0 +1,538 @@
+[
+  {
+    "kanji": "判",
+    "amHan": "PHÁN",
+    "nghia": "Phán quyết, phân chia",
+    "onyomi": "ハン、バン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng con DAO (Đao 刂) để chia NỬA (Bán 半) sự việc nhằm PHÁN quyết đúng sai."
+    },
+    "examples": [
+      {
+        "word": "判断",
+        "reading": "はんだん",
+        "meaning": "phán đoán, đánh giá"
+      },
+      {
+        "word": "判決",
+        "reading": "はんけつ",
+        "meaning": "phán quyết (tòa án)"
+      },
+      {
+        "word": "評判",
+        "reading": "ひょうばん",
+        "meaning": "bình luận, tiếng tăm"
+      },
+      {
+        "word": "審判",
+        "reading": "しんぱん",
+        "meaning": "trọng tài, thẩm phán"
+      },
+      {
+        "word": "印判",
+        "reading": "いんばん",
+        "meaning": "con dấu"
+      },
+      {
+        "word": "判明する",
+        "reading": "はんめいする",
+        "meaning": "trở nên rõ ràng"
+      }
+    ]
+  },
+  {
+    "kanji": "未",
+    "amHan": "VỊ",
+    "nghia": "Chưa, tương lai",
+    "onyomi": "ミ",
+    "kunyomi": "いま-だ、ま-だ、ひつじ",
+    "mnemonic": {
+      "text": "Cây (Mộc 木) có thêm một cành nhỏ ở trên cùng nhưng VỊ (chưa) lớn hẳn."
+    },
+    "examples": [
+      {
+        "word": "未来",
+        "reading": "みらい",
+        "meaning": "tương lai"
+      },
+      {
+        "word": "未満",
+        "reading": "みまん",
+        "meaning": "ít hơn, chưa đầy"
+      },
+      {
+        "word": "未定",
+        "reading": "みてい",
+        "meaning": "chưa quyết định"
+      },
+      {
+        "word": "未知",
+        "reading": "みち",
+        "meaning": "chưa biết"
+      },
+      {
+        "word": "未だに",
+        "reading": "いまだに",
+        "meaning": "cho đến bây giờ vẫn (chưa)"
+      },
+      {
+        "word": "未婚",
+        "reading": "みこん",
+        "meaning": "chưa kết hôn"
+      }
+    ]
+  },
+  {
+    "kanji": "味",
+    "amHan": "VỊ",
+    "nghia": "Hương vị, nếm",
+    "onyomi": "ミ",
+    "kunyomi": "あじ、あじ-わう",
+    "mnemonic": {
+      "text": "Cái MIỆNG (Khẩu 口) nếm trải thứ gì đó còn MỚI (Vị 未) để cảm nhận hương VỊ."
+    },
+    "examples": [
+      {
+        "word": "味",
+        "reading": "あじ",
+        "meaning": "mùi vị, hương vị"
+      },
+      {
+        "word": "味わう",
+        "reading": "あじわう",
+        "meaning": "thưởng thức, nếm"
+      },
+      {
+        "word": "意味",
+        "reading": "いみ",
+        "meaning": "ý nghĩa"
+      },
+      {
+        "word": "趣味",
+        "reading": "しゅみ",
+        "meaning": "sở thích"
+      },
+      {
+        "word": "調味料",
+        "reading": "ちょうみりょう",
+        "meaning": "gia vị"
+      },
+      {
+        "word": "興味",
+        "reading": "きょうみ",
+        "meaning": "hứng thú"
+      }
+    ]
+  },
+  {
+    "kanji": "妹",
+    "amHan": "MUỘI",
+    "nghia": "Em gái",
+    "onyomi": "マイ",
+    "kunyomi": "いもうと",
+    "mnemonic": {
+      "text": "Người CON GÁI (Nữ 女) mà tuổi đời còn MỚI (Vị 未) thì là em gái (MUỘI)."
+    },
+    "examples": [
+      {
+        "word": "妹",
+        "reading": "いもうto",
+        "meaning": "em gái"
+      },
+      {
+        "word": "姉妹",
+        "reading": "しまい",
+        "meaning": "chị em gái"
+      },
+      {
+        "word": "従妹",
+        "reading": "じゅうまい",
+        "meaning": "em gái họ"
+      },
+      {
+        "word": "義妹",
+        "reading": "ぎまい",
+        "meaning": "em gái nuôi/em vợ/em dâu"
+      },
+      {
+        "word": "妹分",
+        "reading": "いもうとぶん",
+        "meaning": "người dưới (coi như em gái)"
+      }
+    ]
+  },
+  {
+    "kanji": "勉",
+    "amHan": "MIỄN",
+    "nghia": "Cố gắng, nỗ lực",
+    "onyomi": "ベン",
+    "kunyomi": "つと-める",
+    "mnemonic": {
+      "text": "Để được MIỄN (免) làm việc nặng, phải dùng SỨC LỰC (Lực 力) để MIỄN cưỡng học tập."
+    },
+    "examples": [
+      {
+        "word": "勉強",
+        "reading": "べんきょう",
+        "meaning": "việc học tập"
+      },
+      {
+        "word": "勤勉",
+        "reading": "きんべん",
+        "meaning": "chăm chỉ, cần cù"
+      },
+      {
+        "word": "勉励",
+        "reading": "べんれい",
+        "meaning": "siêng năng, cố gắng"
+      },
+      {
+        "word": "ガリ勉",
+        "reading": "がりべん",
+        "meaning": "mọt sách"
+      },
+      {
+        "word": "勉める",
+        "reading": "つとめる",
+        "meaning": "cố gắng, nỗ lực"
+      }
+    ]
+  },
+  {
+    "kanji": "晩",
+    "amHan": "VÃN",
+    "nghia": "Buổi tối, muộn",
+    "onyomi": "バン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MẶT TRỜI (Nhật 日) lặn xuống sau khi được MIỄN (免) làm việc là lúc chiều VÃN."
+    },
+    "examples": [
+      {
+        "word": "毎晩",
+        "reading": "まいばん",
+        "meaning": "hàng tối"
+      },
+      {
+        "word": "今晩",
+        "reading": "こんばん",
+        "meaning": "tối nay"
+      },
+      {
+        "word": "晩御飯",
+        "reading": "ばんごはん",
+        "meaning": "cơm tối"
+      },
+      {
+        "word": "晩年",
+        "reading": "ばんねん",
+        "meaning": "những năm cuối đời"
+      },
+      {
+        "word": "一晩",
+        "reading": "ひとばん",
+        "meaning": "một đêm"
+      },
+      {
+        "word": "晩春",
+        "reading": "ばんしゅん",
+        "meaning": "cuối xuân"
+      }
+    ]
+  },
+  {
+    "kanji": "替",
+    "amHan": "THẾ",
+    "nghia": "Thay thế, đổi",
+    "onyomi": "タイ",
+    "kunyomi": "か-える、か-わる",
+    "mnemonic": {
+      "text": "Hai ông CHỒNG (Phu 夫) nói (Viết 曰) chuyện về việc THAY THẾ vị trí cho nhau."
+    },
+    "examples": [
+      {
+        "word": "入れ替える",
+        "reading": "いれかえる",
+        "meaning": "thay đổi, tráo đổi"
+      },
+      {
+        "word": "替わる",
+        "reading": "かわる",
+        "meaning": "đổi, thay thế"
+      },
+      {
+        "word": "交替",
+        "reading": "こうたい",
+        "meaning": "thay phiên nhau"
+      },
+      {
+        "word": "振替",
+        "reading": "ふりかえ",
+        "meaning": "chuyển khoản, thay thế"
+      },
+      {
+        "word": "着替え",
+        "reading": "きがえ",
+        "meaning": "thay quần áo"
+      },
+      {
+        "word": "両替",
+        "reading": "りょうがえ",
+        "meaning": "đổi tiền"
+      }
+    ]
+  },
+  {
+    "kanji": "更",
+    "amHan": "CANH",
+    "nghia": "Thay đổi, khuya",
+    "onyomi": "コウ",
+    "kunyomi": "さら、さら-に、ふ-ける、ふ-かす",
+    "mnemonic": {
+      "text": "Một NGƯỜI nằm trên GIƯỜNG (nhìn giống bộ Xa) nói (Viết 曰) lúc đêm CANH khuya."
+    },
+    "examples": [
+      {
+        "word": "今更",
+        "reading": "いまさら",
+        "meaning": "đến lúc này (đã muộn)"
+      },
+      {
+        "word": "更に",
+        "reading": "さらに",
+        "meaning": "hơn nữa, ngoài ra"
+      },
+      {
+        "word": "更ける",
+        "reading": "ふける",
+        "meaning": "khuya khoắt"
+      },
+      {
+        "word": "変更",
+        "reading": "へんこう",
+        "meaning": "thay đổi, biến đổi"
+      },
+      {
+        "word": "更新",
+        "reading": "こうしん",
+        "meaning": "đổi mới, cập nhật"
+      },
+      {
+        "word": "夜更かし",
+        "reading": "よふかし",
+        "meaning": "thức khuya"
+      }
+    ]
+  },
+  {
+    "kanji": "豆",
+    "amHan": "ĐẬU",
+    "nghia": "Hạt đậu",
+    "onyomi": "トウ、ズ",
+    "kunyomi": "まめ",
+    "mnemonic": {
+      "text": "Hình ảnh cái giá đựng thức ăn có nắp, bên trong đựng hạt ĐẬU."
+    },
+    "examples": [
+      {
+        "word": "豆",
+        "reading": "まめ",
+        "meaning": "hạt đậu"
+      },
+      {
+        "word": "豆腐",
+        "reading": "とうふ",
+        "meaning": "đậu phụ"
+      },
+      {
+        "word": "大豆",
+        "reading": "だいず",
+        "meaning": "đậu nành"
+      },
+      {
+        "word": "納豆",
+        "reading": "なっとう",
+        "meaning": "đậu nành lên men"
+      },
+      {
+        "word": "コーヒー豆",
+        "reading": "コーヒーまめ",
+        "meaning": "hạt cà phê"
+      },
+      {
+        "word": "小豆",
+        "reading": "あずき",
+        "meaning": "đậu đỏ"
+      }
+    ]
+  },
+  {
+    "kanji": "頭",
+    "amHan": "ĐẦU",
+    "nghia": "Cái đầu",
+    "onyomi": "トウ、ズ",
+    "kunyomi": "あたま、かしら",
+    "mnemonic": {
+      "text": "Hạt ĐẬU (豆) để trên TRANG giấy (Hiệp 頁) chính là cái ĐẦU."
+    },
+    "examples": [
+      {
+        "word": "頭",
+        "reading": "あたま",
+        "meaning": "cái đầu"
+      },
+      {
+        "word": "頭痛",
+        "reading": "ずつう",
+        "meaning": "đau đầu"
+      },
+      {
+        "word": "年頭",
+        "reading": "ねんとう",
+        "meaning": "đầu năm"
+      },
+      {
+        "word": "出頭",
+        "reading": "しゅっとう",
+        "meaning": "xuất hiện, trình diện"
+      },
+      {
+        "word": "先頭",
+        "reading": "せんとう",
+        "meaning": "dẫn đầu"
+      },
+      {
+        "word": "頭金",
+        "reading": "あたまきん",
+        "meaning": "tiền đặt cọc"
+      }
+    ]
+  },
+  {
+    "kanji": "短",
+    "amHan": "ĐOẢN",
+    "nghia": "Ngắn",
+    "onyomi": "タン",
+    "kunyomi": "みじか-い",
+    "mnemonic": {
+      "text": "Dùng MŨI TÊN (Thỉ 矢) để đo hạt ĐẬU (豆) thấy nó rất ĐOẢN (ngắn)."
+    },
+    "examples": [
+      {
+        "word": "短い",
+        "reading": "みじかい",
+        "meaning": "ngắn"
+      },
+      {
+        "word": "短期",
+        "reading": "たんき",
+        "meaning": "ngắn hạn"
+      },
+      {
+        "word": "短所",
+        "reading": "たんしょ",
+        "meaning": "nhược điểm"
+      },
+      {
+        "word": "短縮",
+        "reading": "たんしゅく",
+        "meaning": "rút ngắn"
+      },
+      {
+        "word": "短気",
+        "reading": "たんき",
+        "meaning": "nóng tính, thiếu kiên nhẫn"
+      },
+      {
+        "word": "短編",
+        "reading": "たんぺん",
+        "meaning": "truyện ngắn"
+      }
+    ]
+  },
+  {
+    "kanji": "登",
+    "amHan": "ĐĂNG",
+    "nghia": "Leo lên",
+    "onyomi": "トウ、ト",
+    "kunyomi": "のぼ-る",
+    "mnemonic": {
+      "text": "Hai BÀN CHÂN (Bát 癶) dẫm lên bát ĐẬU (豆) để leo ĐĂNG lên cao."
+    },
+    "examples": [
+      {
+        "word": "登る",
+        "reading": "のぼる",
+        "meaning": "leo, trèo"
+      },
+      {
+        "word": "登山",
+        "reading": "とざん",
+        "meaning": "leo núi"
+      },
+      {
+        "word": "登録",
+        "reading": "とうろく",
+        "meaning": "đăng ký"
+      },
+      {
+        "word": "登校",
+        "reading": "とうこう",
+        "meaning": "đến trường"
+      },
+      {
+        "word": "登場",
+        "reading": "とうじょう",
+        "meaning": "xuất hiện (trên màn ảnh)"
+      },
+      {
+        "word": "登板",
+        "reading": "とうばん",
+        "meaning": "lên ném bóng (bóng chày)"
+      }
+    ]
+  },
+  {
+    "kanji": "喜",
+    "amHan": "HỈ",
+    "nghia": "Vui mừng",
+    "onyomi": "キ",
+    "kunyomi": "よろこ-ぶ",
+    "mnemonic": {
+      "text": "SĨ tử (Sĩ 士) ăn hạt ĐẬU (豆) rồi dùng MIỆNG (Khẩu 口) cười HỈ hả."
+    },
+    "examples": [
+      {
+        "word": "喜ぶ",
+        "reading": "よろこぶ",
+        "meaning": "vui vẻ, sẵn lòng"
+      },
+      {
+        "word": "喜劇",
+        "reading": "きげき",
+        "meaning": "vở kịch vui, hài kịch"
+      },
+      {
+        "word": "大喜び",
+        "reading": "おおよろこび",
+        "meaning": "rất vui sướng"
+      },
+      {
+        "word": "歓喜",
+        "reading": "かんき",
+        "meaning": "hoan hỉ, vui mừng"
+      },
+      {
+        "word": "喜ばす",
+        "reading": "よろこばす",
+        "meaning": "làm cho người khác vui"
+      },
+      {
+        "word": "一喜一憂",
+        "reading": "いっきいちゆう",
+        "meaning": "lúc vui lúc buồn"
+      }
+    ]
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "kanji": "専",
+    "amHan": "CHUYÊN",
+    "nghia": "Chuyên môn, tập trung",
+    "onyomi": "セン",
+    "kunyomi": "もっぱ_ら",
+    "mnemonic": {
+      "text": "Một người chỉ tập trung (CHUYÊN) vào việc quay cái TRỤC và cái RUỘNG (Điền) của mình."
+    },
+    "examples": [
+      { "word": "専門", "reading": "せんもん", "meaning": "Chuyên môn" },
+      { "word": "専攻", "reading": "せんこう", "meaning": "Chuyên ngành" },
+      { "word": "専用", "reading": "せんよう", "meaning": "Chuyên dụng" },
+      { "word": "専念", "reading": "せんねん", "meaning": "Say mê, miệt mài" },
+      { "word": "専ら", "reading": "もっぱら", "meaning": "Hầu hết, chủ yếu" }
+    ]
+  },
+  {
+    "kanji": "博",
+    "amHan": "BÁC",
+    "nghia": "Rộng lớn, uyên bác",
+    "onyomi": "ハク、バク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người Thập (十) toàn, dùng tay (thốn - 寸) cầm kim khâu chuyên tâm (chuyên - 専) học hỏi nên rất uyên BÁC."
+    },
+    "examples": [
+      { "word": "博士", "reading": "はくし", "meaning": "Tiến sĩ" },
+      { "word": "博物館", "reading": "はくぶつかん", "meaning": "Bảo tàng" },
+      { "word": "博覧会", "reading": "はくらんかい", "meaning": "Hội chợ triển lãm" },
+      { "word": "博学", "reading": "はくがく", "meaning": "Bác học, học rộng" },
+      { "word": "賭博", "reading": "とばく", "meaning": "Cờ bạc" }
+    ]
+  },
+  {
+    "kanji": "薄",
+    "amHan": "BẠC",
+    "nghia": "Mỏng, nhạt",
+    "onyomi": "ハク",
+    "kunyomi": "うす_い、うす_める、うす_まる、うす_ら、うす_れる",
+    "mnemonic": {
+      "text": "Trên cây CỎ (thảo - 艹), NƯỚC (thủy - 氵) đọng lại ở cái ao (chuyên - 専) trông thật mong manh (BẠC)."
+    },
+    "examples": [
+      { "word": "薄い", "reading": "うすい", "meaning": "Mỏng, nhạt" },
+      { "word": "薄める", "reading": "うすめる", "meaning": "Làm cho nhạt đi" },
+      { "word": "薄っぺら", "reading": "うすっぺら", "meaning": "Nông cạn, mỏng manh" },
+      { "word": "軽薄", "reading": "けいはく", "meaning": "Khinh bạc, nông nổi" },
+      { "word": "薄弱", "reading": "はくじゃく", "meaning": "Mỏng manh, yếu ớt" }
+    ]
+  },
+  {
+    "kanji": "筆",
+    "amHan": "BÚT",
+    "nghia": "Cái bút",
+    "onyomi": "ヒツ",
+    "kunyomi": "ふで",
+    "mnemonic": {
+      "text": "Cái BÚT ngày xưa làm từ TRE (trúc - 竹) và dùng tay (duật - 聿) để cầm viết."
+    },
+    "examples": [
+      { "word": "筆", "reading": "ふで", "meaning": "Bút lông" },
+      { "word": "鉛筆", "reading": "えんぴつ", "meaning": "Bút chì" },
+      { "word": "筆者", "reading": "ひっしゃ", "meaning": "Tác giả" },
+      { "word": "万年筆", "reading": "まんねんひつ", "meaning": "Bút máy" },
+      { "word": "筆記", "reading": "ひっき", "meaning": "Ghi chép" },
+      { "word": "筆順", "reading": "ひつじゅn", "meaning": "Thứ tự nét viết" }
+    ]
+  },
+  {
+    "kanji": "津",
+    "amHan": "TÂN",
+    "nghia": "Bến tàu, cảng",
+    "onyomi": "シン",
+    "kunyomi": "つ",
+    "mnemonic": {
+      "text": "NƯỚC (thủy - 氵) ở bến cảng nơi có tay cầm BÚT (duật - 聿) ghi chép hàng hóa."
+    },
+    "examples": [
+      { "word": "津波", "reading": "つなみ", "meaning": "Sóng thần" },
+      { "word": "津々浦々", "reading": "つつうらうら", "meaning": "Khắp mọi nơi" },
+      { "word": "唐津焼", "reading": "からつやき", "meaning": "Gốm Karatsu" },
+      { "word": "興味津々", "reading": "きょうみしんしん", "meaning": "Rất quan tâm, đầy hào hứng" }
+    ]
+  },
+  {
+    "kanji": "建",
+    "amHan": "KIẾN",
+    "nghia": "Xây dựng",
+    "onyomi": "ケン、コン",
+    "kunyomi": "た_てる、た_つ",
+    "mnemonic": {
+      "text": "Tay cầm BÚT (duật - 聿) vẽ sơ đồ để BƯỚC ĐI (dẫn - 廴) xây dựng KIẾN trúc."
+    },
+    "examples": [
+      { "word": "建てる", "reading": "たてる", "meaning": "Xây dựng" },
+      { "word": "建物", "reading": "たてもの", "meaning": "Tòa nhà" },
+      { "word": "建設", "reading": "けんせつ", "meaning": "Kiến thiết, xây dựng" },
+      { "word": "建築", "reading": "けんちく", "meaning": "Kiến trúc" },
+      { "word": "建国", "reading": "けんこく", "meaning": "Gây dựng đất nước" }
+    ]
+  },
+  {
+    "kanji": "健",
+    "amHan": "KIỆN",
+    "nghia": "Khỏe mạnh",
+    "onyomi": "ケン",
+    "kunyomi": "すこ_やか",
+    "mnemonic": {
+      "text": "NGƯỜI (nhân - 亻) đi xây dựng (kiến - 建) công trình phải là người rất tráng KIỆN."
+    },
+    "examples": [
+      { "word": "健康", "reading": "けんこう", "meaning": "Sức khỏe" },
+      { "word": "保健", "reading": "ほけん", "meaning": "Bảo vệ sức khỏe, bảo hiểm" },
+      { "word": "健全", "reading": "けんぜん", "meaning": "Lành mạnh, khỏe khoắn" },
+      { "word": "健やか", "reading": "すこやか", "meaning": "Khỏe mạnh, tươi tắn" },
+      { "word": "健闘", "reading": "けんとう", "meaning": "Nỗ lực, đấu tranh kiên cường" }
+    ]
+  },
+  {
+    "kanji": "争",
+    "amHan": "TRANH",
+    "nghia": "Cạnh tranh, đấu tranh",
+    "onyomi": "ソウ",
+    "kunyomi": "あらそ_う",
+    "mnemonic": {
+      "text": "Dùng tay (trảo - 爫) giằng co cái GẬY (quyết - 亅) để TRANH giành với nhau."
+    },
+    "examples": [
+      { "word": "争う", "reading": "あらそう", "meaning": "Tranh chấp, cạnh tranh" },
+      { "word": "戦争", "reading": "せんそう", "meaning": "Chiến tranh" },
+      { "word": "論争", "reading": "ろんそう", "meaning": "Tranh luận" },
+      { "word": "競争", "reading": "きょうそう", "meaning": "Cạnh tranh" },
+      { "word": "紛争", "reading": "ふんそう", "meaning": "Phân tranh, rắc rối" }
+    ]
+  },
+  {
+    "kanji": "浄",
+    "amHan": "TỊNH",
+    "nghia": "Sạch sẽ, thanh khiết",
+    "onyomi": "ジョウ",
+    "kunyomi": "きよ_める",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (thủy - 氵) để gột rửa sự TRANH (争) giành, làm cho tâm thanh TỊNH."
+    },
+    "examples": [
+      { "word": "浄化", "reading": "じょうか", "meaning": "Làm sạch, thanh lọc" },
+      { "word": "清浄", "reading": "せいじょう", "meaning": "Thanh tịnh, tinh khiết" },
+      { "word": "洗浄", "reading": "せんじょう", "meaning": "Rửa, làm sạch" },
+      { "word": "浄水器", "reading": "じょうすいき", "meaning": "Máy lọc nước" }
+    ]
+  },
+  {
+    "kanji": "静",
+    "amHan": "TĨNH",
+    "nghia": "Yên tĩnh",
+    "onyomi": "ジョウ、セイ",
+    "kunyomi": "しず_か、しず_まる、しず_める",
+    "mnemonic": {
+      "text": "Khi màu XANH (thanh - 青) xuất hiện và không còn TRANH (争) giành nữa thì không gian thật yên TĨNH."
+    },
+    "examples": [
+      { "word": "静か", "reading": "しずか", "meaning": "Yên tĩnh" },
+      { "word": "静物", "reading": "せいぶつ", "meaning": "Tĩnh vật" },
+      { "word": "静止", "reading": "せいし", "meaning": "Đứng yên, tĩnh lặng" },
+      { "word": "冷静", "reading": "れいせい", "meaning": "Bình tĩnh" },
+      { "word": "安静", "reading": "あんせい", "meaning": "Nghỉ ngơi, tĩnh dưỡng" }
+    ]
+  },
+  {
+    "kanji": "顔",
+    "amHan": "NHAN",
+    "nghia": "Khuôn mặt",
+    "onyomi": "ガン",
+    "kunyomi": "かお",
+    "mnemonic": {
+      "text": "Khuôn mặt (hiệt - 頁) có màu sắc của những sợi lông ngắn (nhạn - 彦) gọi là NHAN sắc."
+    },
+    "examples": [
+      { "word": "顔", "reading": "かお", "meaning": "Mặt" },
+      { "word": "笑顔", "reading": "えがお", "meaning": "Gương mặt mỉm cười" },
+      { "word": "洗顔", "reading": "せんがん", "meaning": "Sự rửa mặt" },
+      { "word": "顔色", "reading": "かおいろ", "meaning": "Sắc mặt" },
+      { "word": "顔面", "reading": "がんめん", "meaning": "Nét mặt, bề mặt khuôn mặt" }
+    ]
+  },
+  {
+    "kanji": "参",
+    "amHan": "THAM",
+    "nghia": "Tham gia, đi",
+    "onyomi": "サン、シン",
+    "kunyomi": "まい_る",
+    "mnemonic": {
+      "text": "Ba (tam - 三) người cùng đội nón (khư - 厶) đi dẫm lên CỎ (sam - 彡) để THAM gia lễ hội."
+    },
+    "examples": [
+      { "word": "参る", "reading": "まいる", "meaning": "Đi, đến (khiêm nhường ngữ)" },
+      { "word": "参考", "reading": "さんこう", "meaning": "Tham khảo" },
+      { "word": "参加", "reading": "さんか", "meaning": "Tham gia" },
+      { "word": "参戦", "reading": "さんせん", "meaning": "Tham chiến" },
+      { "word": "参政", "reading": "さんせい", "meaning": "Tham chính" }
+    ]
+  },
+  {
+    "kanji": "診",
+    "amHan": "CHẨN",
+    "nghia": "Khám bệnh, chẩn đoán",
+    "onyomi": "シン",
+    "kunyomi": "み_る",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (ngôn - 言) để hỏi han người đi THAM gia (tham - 参) khám bệnh để CHẨN đoán."
+    },
+    "examples": [
+      { "word": "診る", "reading": "みる", "meaning": "Xem, chẩn đoán bệnh" },
+      { "word": "診察", "reading": "しんさつ", "meaning": "Sự khám bệnh" },
+      { "word": "診断", "reading": "しんだん", "meaning": "Chẩn đoán" },
+      { "word": "診療", "reading": "しんりょう", "meaning": "Khám và điều trị" },
+      { "word": "定期健診", "reading": "ていきけんしん", "meaning": "Khám sức khỏe định kỳ" },
+      { "word": "初診", "reading": "しょしん", "meaning": "Khám lần đầu" }
+    ]
+  },
+  {
+    "kanji": "珍",
+    "amHan": "TRÂN",
+    "nghia": "Quý hiếm, trân quý",
+    "onyomi": "チン",
+    "kunyomi": "めずら_しい",
+    "mnemonic": {
+      "text": "VỊ VUA (vương - 王) thấy người THAM gia (tham - 参) mang đến một món đồ TRÂN quý."
+    },
+    "examples": [
+      { "word": "珍しい", "reading": "めずらしい", "meaning": "Hiếm, lạ" },
+      { "word": "珍重", "reading": "ちんちょう", "meaning": "Trân trọng, quý trọng" },
+      { "word": "珍品", "reading": "ちんぴん", "meaning": "Đồ hiếm, vật quý" },
+      { "word": "珍客", "reading": "ちんきゃく", "meaning": "Khách quý" },
+      { "word": "珍味", "reading": "ちんみ", "meaning": "Đồ ăn ngon hiếm có" },
+      { "word": "珍聞", "reading": "ちんぶん", "meaning": "Tin lạ" }
+    ]
+  },
+  {
+    "kanji": "丈",
+    "amHan": "TRƯỢNG",
+    "nghia": "Độ dài, bền vững",
+    "onyomi": "ジョウ",
+    "kunyomi": "たけ",
+    "mnemonic": {
+      "text": "Một người cầm cái gậy cao một TRƯỢNG (hình ảnh người cầm gậy đo chiều cao)."
+    },
+    "examples": [
+      { "word": "丈夫", "reading": "じょうぶ", "meaning": "Bền, chắc, khỏe mạnh" },
+      { "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "Không sao, ổn" },
+      { "word": "背丈", "reading": "せたけ", "meaning": "Chiều cao cơ thể" },
+      { "word": "気丈", "reading": "kiじょう", "meaning": "Cứng cỏi, nghị lực" },
+      { "word": "着丈", "reading": "きたけ", "meaning": "Chiều dài áo" },
+      { "word": "一丈", "reading": "いちじょう", "meaning": "Một trượng (đơn vị đo)" }
+    ]
+  },
+  {
+    "kanji": "史",
+    "amHan": "SỬ",
+    "nghia": "Lịch sử",
+    "onyomi": "シ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng MIỆNG (khẩu - 口) truyền lại và tay cầm bút ghi chép (phiệt - 丿) tạo thành SỬ sách."
+    },
+    "examples": [
+      { "word": "歴史", "reading": "れきし", "meaning": "Lịch sử" },
+      { "word": "史上", "reading": "しじょう", "meaning": "Trên phương diện lịch sử, trong lịch sử" },
+      { "word": "史学", "reading": "しがく", "meaning": "Sử học" },
+      { "word": "日本史", "reading": "にほんし", "meaning": "Lịch sử Nhật Bản" },
+      { "word": "近代史", "reading": "きんだいし", "meaning": "Lịch sử cận đại" },
+      { "word": "史実", "reading": "しじつ", "meaning": "Sự thật lịch sử" }
+    ]
+  },
+  {
+    "kanji": "吏",
+    "amHan": "LẠI",
+    "nghia": "Quan lại, viên chức",
+    "onyomi": "リ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người đứng trên (nhất - 一) phụ trách việc ghi chép SỬ (史) chính là quan LẠI."
+    },
+    "examples": [
+      { "word": "官吏", "reading": "かんり", "meaning": "Quan chức chính phủ" },
+      { "word": "公吏", "reading": "こうり", "meaning": "Viên chức nhà nước" },
+      { "word": "吏員", "reading": "りいん", "meaning": "Nhân viên chính phủ" },
+      { "word": "能吏", "reading": "のうり", "meaning": "Quan lại có tài năng" },
+      { "word": "汚吏", "reading": "おり", "meaning": "Quan lại tham nhũng" }
+    ]
+  },
+  {
+    "kanji": "使",
+    "amHan": "SỬ / SỨ",
+    "nghia": "Sử dụng, sứ giả",
+    "onyomi": "シ",
+    "kunyomi": "つか_う",
+    "mnemonic": {
+      "text": "NGƯỜI (nhân - 亻) đi thực hiện nhiệm vụ cho quan LẠI (吏) là người đang được sai SỬ."
+    },
+    "examples": [
+      { "word": "使う", "reading": "つかう", "meaning": "Sử dụng" },
+      { "word": "使用", "reading": "しよう", "meaning": "Sự sử dụng" },
+      { "word": "大使館", "reading": "たいしかん", "meaning": "Đại sứ quán" },
+      { "word": "使い方", "reading": "つかいかた", "meaning": "Cách dùng" },
+      { "word": "使い捨て", "reading": "つかいすて", "meaning": "Dùng một lần rồi vứt" },
+      { "word": "使者", "reading": "ししゃ", "meaning": "Sứ giả" }
+    ]
+  }
+]

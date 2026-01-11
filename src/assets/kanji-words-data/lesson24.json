@@ -1,0 +1,273 @@
+[
+  {
+    "kanji": "映",
+    "amHan": "ÁNH",
+    "nghia": "Phản chiếu, soi sáng",
+    "onyomi": "エイ",
+    "kunyomi": "は_える、うつ_る、うつ_す",
+    "mnemonic": {
+      "text": "Dưới ánh mặt trời (NHẬT), hình ảnh trung tâm (ƯƠNG) được phản CHIẾU lên."
+    },
+    "examples": [
+      { "word": "映画", "reading": "えいが", "meaning": "Phim" },
+      { "word": "映画館", "reading": "えいがかん", "meaning": "Rạp chiếu phim" },
+      { "word": "映る", "reading": "うつる", "meaning": "Được chiếu lên, soi bóng" },
+      { "word": "映す", "reading": "うつす", "meaning": "Chiếu, phản chiếu" },
+      { "word": "反映する", "reading": "はんえいする", "meaning": "Phản ánh" },
+      { "word": "上映", "reading": "じょうえい", "meaning": "Trình chiếu (phim)" }
+    ]
+  },
+  {
+    "kanji": "決",
+    "amHan": "QUYẾT",
+    "nghia": "Quyết định",
+    "onyomi": "ケツ",
+    "kunyomi": "き_める、き_まる",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (thủy) rửa sạch cái MÁNG cỏ (quyết) để QUYẾT định làm mới."
+    },
+    "examples": [
+      { "word": "決める", "reading": "きめる", "meaning": "Quyết định" },
+      { "word": "決まる", "reading": "きまる", "meaning": "Được quyết định" },
+      { "word": "決定", "reading": "けってい", "meaning": "Quyết định (danh từ)" },
+      { "word": "解決", "reading": "かいけつ", "meaning": "Giải quyết" },
+      { "word": "決心", "reading": "けっしん", "meaning": "Quyết tâm" },
+      { "word": "決して", "reading": "けっして", "meaning": "Tuyệt đối không" }
+    ]
+  },
+  {
+    "kanji": "天",
+    "amHan": "THIÊN",
+    "nghia": "Trời",
+    "onyomi": "テン",
+    "kunyomi": "あめ、あま",
+    "mnemonic": {
+      "text": "Một (NHẤT) người ĐẠI diện đứng dưới bầu TRỜI."
+    },
+    "examples": [
+      { "word": "天の川", "reading": "あまのがわ", "meaning": "Ngân hà" },
+      { "word": "天気", "reading": "てんき", "meaning": "Thời tiết" },
+      { "word": "天皇", "reading": "てんのう", "meaning": "Thiên hoàng" },
+      { "word": "天才", "reading": "てんさい", "meaning": "Thiên tài" },
+      { "word": "天国", "reading": "てんごく", "meaning": "Thiên đường" },
+      { "word": "天然", "reading": "てんねん", "meaning": "Tự nhiên" }
+    ]
+  },
+  {
+    "kanji": "笑",
+    "amHan": "TIẾU",
+    "nghia": "Cười",
+    "onyomi": "ショウ",
+    "kunyomi": "わら_う、え_む",
+    "mnemonic": {
+      "text": "Dưới rặng TRE (trúc), người ta TRẺ TRUNG (yêu) tươi cười rạng rỡ."
+    },
+    "examples": [
+      { "word": "笑う", "reading": "わらう", "meaning": "Cười" },
+      { "word": "微笑む", "reading": "ほほえむ", "meaning": "Mỉm cười" },
+      { "word": "笑み", "reading": "えみ", "meaning": "Điệu cười" },
+      { "word": "笑い声", "reading": "わらいごえ", "meaning": "Tiếng cười" },
+      { "word": "笑顔", "reading": "えがお", "meaning": "Gương mặt tươi cười" },
+      { "word": "爆笑", "reading": "ばくしょう", "meaning": "Cười phá lên" }
+    ]
+  },
+  {
+    "kanji": "送",
+    "amHan": "TỐNG",
+    "nghia": "Gửi đi, tiễn biệt",
+    "onyomi": "ソウ",
+    "kunyomi": "おく_る",
+    "mnemonic": {
+      "text": "Bê vật PHẨM đi bộ trên ĐƯỜNG để GỬI tặng."
+    },
+    "examples": [
+      { "word": "送る", "reading": "おくる", "meaning": "Gửi đi" },
+      { "word": "見送る", "reading": "みおくる", "meaning": "Tiễn biệt" },
+      { "word": "放送", "reading": "ほうそう", "meaning": "Phát thanh, truyền hình" },
+      { "word": "輸送", "reading": "ゆそう", "meaning": "Vận chuyển" },
+      { "word": "送信", "reading": "そうしん", "meaning": "Truyền tin, gửi mail" },
+      { "word": "転送", "reading": "てんそう", "meaning": "Chuyển tiếp" }
+    ]
+  },
+  {
+    "kanji": "吐",
+    "amHan": "THỔ",
+    "nghia": "Nôn, nhổ ra",
+    "onyomi": "ト",
+    "kunyomi": "は_く",
+    "mnemonic": {
+      "text": "MỞ MIỆNG (khẩu) ra nôn xuống ĐẤT (thổ)."
+    },
+    "examples": [
+      { "word": "吐く", "reading": "はく", "meaning": "Nôn, khạc nhổ" },
+      { "word": "吐き気", "reading": "はきけ", "meaning": "Buồn nôn" },
+      { "word": "吐血", "reading": "とけつ", "meaning": "Thổ huyết" },
+      { "word": "吐露", "reading": "とろ", "meaning": "Thổ lộ" }
+    ]
+  },
+  {
+    "kanji": "圧",
+    "amHan": "ÁP",
+    "nghia": "Áp lực, sức ép",
+    "onyomi": "アツ",
+    "kunyomi": "お_す",
+    "mnemonic": {
+      "text": "Một vách NÚI (hán) đè lên sườn ĐẤT (thổ) tạo ra ÁP lực."
+    },
+    "examples": [
+      { "word": "圧力", "reading": "あつりょく", "meaning": "Áp lực" },
+      { "word": "血圧", "reading": "けつあつ", "meaning": "Huyết áp" },
+      { "word": "気圧", "reading": "きあつ", "meaning": "Áp suất khí quyển" },
+      { "word": "圧倒的", "reading": "あっとうてき", "meaning": "Áp đảo" },
+      { "word": "圧勝", "reading": "あっしょう", "meaning": "Thắng lợi áp đảo" }
+    ]
+  },
+  {
+    "kanji": "少",
+    "amHan": "THIẾU/THIỂU",
+    "nghia": "Ít, thiếu",
+    "onyomi": "ショウ",
+    "kunyomi": "すく_ない、すこ_し",
+    "mnemonic": {
+      "text": "Cái gì NHỎ (tiểu) mà còn bị PHẨY một nét thì lại càng ÍT."
+    },
+    "examples": [
+      { "word": "少ない", "reading": "すくない", "meaning": "Ít" },
+      { "word": "少し", "reading": "すこし", "meaning": "Một chút" },
+      { "word": "少数", "reading": "しょうすう", "meaning": "Thiểu số" },
+      { "word": "少年", "reading": "しょうねん", "meaning": "Thiếu niên" },
+      { "word": "減少", "reading": "げんしょう", "meaning": "Giảm bớt" }
+    ]
+  },
+  {
+    "kanji": "秒",
+    "amHan": "MIỂU",
+    "nghia": "Giây",
+    "onyomi": "ビョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Lúa (HÒA) đã ÍT (thiểu) thì tính từng GIÂY để gặt."
+    },
+    "examples": [
+      { "word": "秒", "reading": "びょう", "meaning": "Giây" },
+      { "word": "毎秒", "reading": "まいびょう", "meaning": "Mỗi giây" },
+      { "word": "秒針", "reading": "びょうしん", "meaning": "Kim giây" },
+      { "word": "数秒", "reading": "すうびょう", "meaning": "Vài giây" }
+    ]
+  },
+  {
+    "kanji": "省",
+    "amHan": "TỈNH",
+    "nghia": "Xem xét, lược bớt, bộ (ngành)",
+    "onyomi": "ショウ、セイ",
+    "kunyomi": "かえり_みる、はぶ_く",
+    "mnemonic": {
+      "text": "Dùng MẮT (mục) nhìn những thứ ÍT (thiểu) để XEM XÉT lại mình."
+    },
+    "examples": [
+      { "word": "各省", "reading": "かくしょう", "meaning": "Các bộ" },
+      { "word": "外務省", "reading": "がいむしょう", "meaning": "Bộ ngoại giao" },
+      { "word": "反省", "reading": "はんせい", "meaning": "Sự xem xét lại mình" },
+      { "word": "省略", "reading": "しょうりゃく", "meaning": "Lược bớt" },
+      { "word": "帰省", "reading": "きせい", "meaning": "Về quê" }
+    ]
+  },
+  {
+    "kanji": "必",
+    "amHan": "TẤT",
+    "nghia": "Nhất định, cần thiết",
+    "onyomi": "ヒツ",
+    "kunyomi": "かなら_ず",
+    "mnemonic": {
+      "text": "Dùng một nhát CHÉM xuyên qua TRÁI TIM (tâm) thì NHẤT ĐỊNH chết."
+    },
+    "examples": [
+      { "word": "必ず", "reading": "かならず", "meaning": "Nhất định" },
+      { "word": "必要", "reading": "ひつよう", "meaning": "Cần thiết" },
+      { "word": "必死", "reading": "ひっし", "meaning": "Quyết tâm (đến chết)" },
+      { "word": "必勝", "reading": "ひっしょう", "meaning": "Quyết thắng" },
+      { "word": "必然", "reading": "ひつぜん", "meaning": "Tất nhiên" }
+    ]
+  },
+  {
+    "kanji": "秘",
+    "amHan": "BÍ",
+    "nghia": "Bí mật",
+    "onyomi": "ヒ",
+    "kunyomi": "ひ_める、ひそ_か",
+    "mnemonic": {
+      "text": "Cây LÚA (hòa) mà được giấu NHẤT ĐỊNH (tất) là một BÍ mật."
+    },
+    "examples": [
+      { "word": "秘書", "reading": "ひしょ", "meaning": "Thư ký riêng" },
+      { "word": "秘密", "reading": "ひみつ", "meaning": "Bí mật" },
+      { "word": "秘訣", "reading": "ひけつ", "meaning": "Bí quyết" },
+      { "word": "神秘", "reading": "しんぴ", "meaning": "Thần bí" }
+    ]
+  },
+  {
+    "kanji": "恋",
+    "amHan": "LUYẾN",
+    "nghia": "Yêu, thương nhớ",
+    "onyomi": "レン",
+    "kunyomi": "こい、こい_する、こい_しい",
+    "mnemonic": {
+      "text": "Phần TRÊN (biến thể của LUYẾN) gắn với TRÁI TIM (tâm) là tình yêu nam nữ."
+    },
+    "examples": [
+      { "word": "恋", "reading": "こい", "meaning": "Tình yêu" },
+      { "word": "恋人", "reading": "こいびと", "meaning": "Người yêu" },
+      { "word": "恋愛", "reading": "れんあい", "meaning": "Tình yêu nam nữ" },
+      { "word": "失恋", "reading": "しつれん", "meaning": "Thất tình" },
+      { "word": "恋しい", "reading": "こいしい", "meaning": "Nhung nhớ" }
+    ]
+  },
+  {
+    "kanji": "密",
+    "amHan": "MẬT",
+    "nghia": "Bí mật, mật độ",
+    "onyomi": "ミツ",
+    "kunyomi": "ひそ_か",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (miển) trên NÚI (sơn) có điều BÍ mật (phần dưới)."
+    },
+    "examples": [
+      { "word": "秘密", "reading": "ひみつ", "meaning": "Bí mật" },
+      { "word": "密度", "reading": "みつど", "meaning": "Mật độ" },
+      { "word": "密接", "reading": "みっせつ", "meaning": "Mật thiết" },
+      { "word": "密林", "reading": "みつりん", "meaning": "Rừng rậm" }
+    ]
+  },
+  {
+    "kanji": "央",
+    "amHan": "ƯƠNG",
+    "nghia": "Trung ương, ở giữa",
+    "onyomi": "オウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Một người ĐẠI diện đứng chính GIỮA (khung bao quanh)."
+    },
+    "examples": [
+      { "word": "中央", "reading": "ちゅうおう", "meaning": "Trung ương, trung tâm" },
+      { "word": "中央改札", "reading": "ちゅうおうかいさつ", "meaning": "Cổng soát vé trung tâm" },
+      { "word": "中央政府", "reading": "ちゅうおうせいふ", "meaning": "Chính phủ trung ương" }
+    ]
+  },
+  {
+    "kanji": "英",
+    "amHan": "ANH",
+    "nghia": "Anh (nước Anh), anh hùng",
+    "onyomi": "エイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Loài CỎ (thảo) mọc ở trung ƯƠNG (ương) là loài hoa ANH thảo."
+    },
+    "examples": [
+      { "word": "英語", "reading": "えいご", "meaning": "Tiếng Anh" },
+      { "word": "英文", "reading": "えいぶん", "meaning": "Câu văn bằng tiếng Anh" },
+      { "word": "英国", "reading": "えいこく", "meaning": "Nước Anh" },
+      { "word": "英才", "reading": "えいさい", "meaning": "Anh tài" },
+      { "word": "英雄", "reading": "えいゆう", "meaning": "Anh hùng" }
+    ]
+  }
+]

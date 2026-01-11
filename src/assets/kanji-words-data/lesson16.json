@@ -1,0 +1,301 @@
+[
+  {
+    "kanji": "泊",
+    "amHan": "BẠC",
+    "nghia": "Trọ lại, đậu lại",
+    "onyomi": "ハク",
+    "kunyomi": "と_まる、と_める",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (氵) tẩy rửa cho TRẮNG (白) sạch trước khi TRỌ lại"
+    },
+    "examples": [
+      { "word": "泊まる", "reading": "とまる", "meaning": "trọ lại, ở lại" },
+      { "word": "宿泊", "reading": "しゅくはく", "meaning": "sự trọ lại, tá túc" },
+      { "word": "一泊二日", "reading": "いっぱくふつか", "meaning": "2 ngày 1 đêm" },
+      { "word": "漂泊", "reading": "ひょうはく", "meaning": "phiêu bạt" }
+    ]
+  },
+  {
+    "kanji": "拍",
+    "amHan": "PHÁCH",
+    "nghia": "Vỗ tay, nhịp phách",
+    "onyomi": "ハク、ヒョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng TAY (扌) tạo ra âm thanh TRẮNG (白 - sạch/rõ) gọi là nhịp PHÁCH"
+    },
+    "examples": [
+      { "word": "拍手", "reading": "はくしゅ", "meaning": "vỗ tay" },
+      { "word": "拍子", "reading": "ひょうし", "meaning": "nhịp, phách" },
+      { "word": "拍打", "reading": "はくだ", "meaning": "vỗ, đập" },
+      { "word": "心拍", "reading": "しんぱく", "meaning": "nhịp tim" }
+    ]
+  },
+  {
+    "kanji": "宿",
+    "amHan": "TÚC",
+    "nghia": "Nhà trọ, chỗ ở, bài tập",
+    "onyomi": "シュク",
+    "kunyomi": "やど、やど_る",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (宀), có một TRĂM (百) NGƯỜI (亻) cùng tá TÚC"
+    },
+    "examples": [
+      { "word": "宿", "reading": "やど", "meaning": "nhà trọ, khách sạn" },
+      { "word": "宿題", "reading": "しゅくだい", "meaning": "bài tập về nhà" },
+      { "word": "宿泊", "reading": "しゅくはく", "meaning": "sự ngủ trọ" },
+      { "word": "新宿", "reading": "しんじゅく", "meaning": "Shinjuku (Địa danh)" },
+      { "word": "下宿", "reading": "げしゅく", "meaning": "nhà trọ rẻ tiền" }
+    ]
+  },
+  {
+    "kanji": "皆",
+    "amHan": "GIAI",
+    "nghia": "Mọi người, tất cả",
+    "onyomi": "カイ",
+    "kunyomi": "みな",
+    "mnemonic": {
+      "text": "TẤT CẢ (比 - so sánh/hàng hàng) mọi người đều có tâm hồn TRẮNG (白) sáng"
+    },
+    "examples": [
+      { "word": "皆さん", "reading": "みなさん", "meaning": "mọi người" },
+      { "word": "皆様", "reading": "みなさま", "meaning": "quý vị, các vị" },
+      { "word": "皆勤", "reading": "かいきん", "meaning": "đi học/làm đầy đủ (không nghỉ buổi nào)" },
+      { "word": "皆無", "reading": "かいむ", "meaning": "hoàn toàn không có gì" }
+    ]
+  },
+  {
+    "kanji": "兆",
+    "amHan": "TRIỆU",
+    "nghia": "Triệu (con số), dấu hiệu",
+    "onyomi": "チョウ",
+    "kunyomi": "きざ_し、きざ_す",
+    "mnemonic": {
+      "text": "Hình ảnh vết nứt trên mai rùa dùng để bói toán, dự BÁO điềm TRIỆU"
+    },
+    "examples": [
+      { "word": "兆し", "reading": "きざし", "meaning": "dấu hiệu, điềm báo" },
+      { "word": "一兆", "reading": "いっちょう", "meaning": "một nghìn tỷ (số triệu trong Hán Việt)" },
+      { "word": "前兆", "reading": "ぜんちょう", "meaning": "triệu chứng, điềm báo trước" },
+      { "word": "兆候", "reading": "ちょうこう", "meaning": "triệu khoán, dấu hiệu" }
+    ]
+  },
+  {
+    "kanji": "逃",
+    "amHan": "ĐÀO",
+    "nghia": "Chạy trốn",
+    "onyomi": "トウ",
+    "kunyomi": "に_げる、に_がす、のが_す、のが_れる",
+    "mnemonic": {
+      "text": "Thấy điềm TRIỆU (兆) xấu thì phải đi BỘ (辶) để ĐÀO tẩu (chạy trốn)"
+    },
+    "examples": [
+      { "word": "逃げる", "reading": "にげる", "meaning": "chạy trốn" },
+      { "word": "逃がす", "reading": "にがす", "meaning": "để mất, thả cho đi" },
+      { "word": "逃走", "reading": "とうそう", "meaning": "sự đào tẩu, bỏ chạy" },
+      { "word": "逃亡", "reading": "とうぼう", "meaning": "chạy trốn, lưu vong" }
+    ]
+  },
+  {
+    "kanji": "桃",
+    "amHan": "ĐÀO",
+    "nghia": "Quả đào, cây đào",
+    "onyomi": "トウ",
+    "kunyomi": "もも",
+    "mnemonic": {
+      "text": "Cây (木) cho quả có hình giống vết nứt của điềm TRIỆU (兆) là cây ĐÀO"
+    },
+    "examples": [
+      { "word": "桃", "reading": "もも", "meaning": "quả đào" },
+      { "word": "桃色", "reading": "ももいろ", "meaning": "màu hồng đào" },
+      { "word": "桜桃", "reading": "おうとう", "meaning": "quả anh đào" },
+      { "word": "桃源郷", "reading": "とうげんきょう", "meaning": "đào nguyên khánh (nơi tiên cảnh)" }
+    ]
+  },
+  {
+    "kanji": "原",
+    "amHan": "NGUYÊN",
+    "nghia": "Cánh đồng, nguyên nhân, nguồn gốc",
+    "onyomi": "ゲン",
+    "kunyomi": "はら",
+    "mnemonic": {
+      "text": "Dưới VÁCH ĐÁ (厂), con SUỐI (白 - biến thể của 泉) chảy ra làm NGUYÊN nhân hình thành cánh đồng"
+    },
+    "examples": [
+      { "word": "原", "reading": "はら", "meaning": "cánh đồng, thảo nguyên" },
+      { "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" },
+      { "word": "原則", "reading": "げんそく", "meaning": "nguyên tắc" },
+      { "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
+      { "word": "原告", "reading": "げんこく", "meaning": "nguyên cáo (người kiện)" }
+    ]
+  },
+  {
+    "kanji": "源",
+    "amHan": "NGUYÊN",
+    "nghia": "Nguồn điện, nguồn tài chính",
+    "onyomi": "ゲン",
+    "kunyomi": "みなもと",
+    "mnemonic": {
+      "text": "Dòng NƯỚC (氵) từ NGUYÊN (原) sơ chảy ra tạo thành NGUỒN"
+    },
+    "examples": [
+      { "word": "資源", "reading": "しげん", "meaning": "tài nguyên" },
+      { "word": "電源", "reading": "でんげん", "meaning": "nguồn điện" },
+      { "word": "財源", "reading": "ざいげん", "meaning": "nguồn tài chính" },
+      { "word": "水源", "reading": "すいげん", "meaning": "nguồn nước" },
+      { "word": "起源", "reading": "きげん", "meaning": "nguồn gốc, khởi nguyên" }
+    ]
+  },
+  {
+    "kanji": "願",
+    "amHan": "NGUYỆN",
+    "nghia": "Cầu nguyện, mong muốn",
+    "onyomi": "ガン",
+    "kunyomi": "ねが_う",
+    "mnemonic": {
+      "text": "Dùng cái ĐẦU (頁) để suy nghĩ về NGUYÊN (原) do và cầu NGUYỆN"
+    },
+    "examples": [
+      { "word": "願う", "reading": "ねがう", "meaning": "cầu mong, xin" },
+      { "word": "願望", "reading": "がんぼう", "meaning": "nguyện vọng, mong muốn" },
+      { "word": "願書", "reading": "がんしょ", "meaning": "đơn xin, đơn nguyện vọng" },
+      { "word": "念願", "reading": "ねんがん", "meaning": "tâm nguyện" }
+    ]
+  },
+  {
+    "kanji": "古",
+    "amHan": "CỔ",
+    "nghia": "Cũ, cổ xưa",
+    "onyomi": "コ",
+    "kunyomi": "ふる_い、ふる_す",
+    "mnemonic": {
+      "text": "Lời nói qua mười (十) cái MIỆNG (口) thì trở nên CỔ xưa"
+    },
+    "examples": [
+      { "word": "古い", "reading": "ふるい", "meaning": "cũ, cổ" },
+      { "word": "古代", "reading": "こだい", "meaning": "thời cổ đại" },
+      { "word": "古典", "reading": "こてん", "meaning": "cổ điển" },
+      { "word": "中古", "reading": "ちゅうこ", "meaning": "đồ cũ, đồ second-hand" },
+      { "word": "古本", "reading": "ふるほん", "meaning": "sách cũ" }
+    ]
+  },
+  {
+    "kanji": "故",
+    "amHan": "CỐ",
+    "nghia": "Biến cố, tai nạn, lý do",
+    "onyomi": "コ",
+    "kunyomi": "ゆえ",
+    "mnemonic": {
+      "text": "Dùng ROI (攵) đánh vào những thứ CỔ (古) hủ gây ra biến CỐ"
+    },
+    "examples": [
+      { "word": "故に", "reading": "ゆえに", "meaning": "do đó, vì lý do đó" },
+      { "word": "事故", "reading": "じこ", "meaning": "tai nạn, sự cố" },
+      { "word": "故障", "reading": "こしょう", "meaning": "hư hỏng, trục trặc" },
+      { "word": "交通事故", "reading": "こうつうじこ", "meaning": "tai nạn giao thông" },
+      { "word": "故郷", "reading": "こきょう", "meaning": "cố hương, quê hương" }
+    ]
+  },
+  {
+    "kanji": "固",
+    "amHan": "CỐ",
+    "nghia": "Cứng, đông lại, cố định",
+    "onyomi": "コ",
+    "kunyomi": "かた_める、かた_まる、かた_い",
+    "mnemonic": {
+      "text": "Những thứ CỔ (古) được bao quanh bởi VI (囗 - vây quanh) thì rất kiên CỐ"
+    },
+    "examples": [
+      { "word": "固まる", "reading": "かたまる", "meaning": "đông lại, cứng lại" },
+      { "word": "固める", "reading": "かためる", "meaning": "làm cứng, củng cố" },
+      { "word": "固定", "reading": "こてい", "meaning": "cố định" },
+      { "word": "強固", "reading": "きょうこ", "meaning": "ngoan cố, vững chắc" },
+      { "word": "固形", "reading": "こけい", "meaning": "thể rắn" }
+    ]
+  },
+  {
+    "kanji": "個",
+    "amHan": "CÁ",
+    "nghia": "Cá nhân, đơn vị đếm vật nhỏ",
+    "onyomi": "コ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) sống kiên CỐ (固) với bản sắc CÁ nhân"
+    },
+    "examples": [
+      { "word": "個人", "reading": "こじん", "meaning": "cá nhân" },
+      { "word": "個性", "reading": "こせい", "meaning": "cá tính" },
+      { "word": "個別", "reading": "こべつ", "meaning": "riêng biệt, từng cái một" },
+      { "word": "一個", "reading": "いっこ", "meaning": "một cái (vật nhỏ)" },
+      { "word": "個数", "reading": "こすう", "meaning": "số lượng vật" }
+    ]
+  },
+  {
+    "kanji": "苦",
+    "amHan": "KHỔ",
+    "nghia": "Đắng, đau khổ, vất vả",
+    "onyomi": "ク",
+    "kunyomi": "くる_しい、くる_しむ、にが_い、にが_る",
+    "mnemonic": {
+      "text": "Ăn CỎ (艹) CỔ (古) xưa thì vị rất ĐẮNG và KHỔ"
+    },
+    "examples": [
+      { "word": "苦い", "reading": "にがい", "meaning": "đắng" },
+      { "word": "苦しい", "reading": "くるしい", "meaning": "đau đớn, khổ cực" },
+      { "word": "苦労", "reading": "くろう", "meaning": "vất vả, gian khổ" },
+      { "word": "苦情", "reading": "くじょう", "meaning": "than phiền, phàn nàn" },
+      { "word": "苦手", "reading": "にがて", "meaning": "yếu, không giỏi" }
+    ]
+  },
+  {
+    "kanji": "居",
+    "amHan": "CƯ",
+    "nghia": "Ở, cư trú",
+    "onyomi": "キョ",
+    "kunyomi": "い_る",
+    "mnemonic": {
+      "text": "Người ngồi (thi thể - 尸) trên cái ghế CỔ (古) để ĐỊNH CƯ"
+    },
+    "examples": [
+      { "word": "居る", "reading": "いる", "meaning": "có, ở (người/động vật)" },
+      { "word": "住居", "reading": "じゅうきょ", "meaning": "chỗ ở, địa chỉ cư trú" },
+      { "word": "居眠り", "reading": "いねむり", "meaning": "ngủ gật khi đang ngồi" },
+      { "word": "居酒屋", "reading": "いざかや", "meaning": "quán rượu" },
+      { "word": "同居", "reading": "どうきょ", "meaning": "sống chung" }
+    ]
+  },
+  {
+    "kanji": "羽",
+    "amHan": "VŨ",
+    "nghia": "Lông vũ, cánh, đơn vị đếm chim/thỏ",
+    "onyomi": "ウ",
+    "kunyomi": "は、はね、わ",
+    "mnemonic": {
+      "text": "Hình ảnh hai cái cánh chim với các sợi lông VŨ"
+    },
+    "examples": [
+      { "word": "羽", "reading": "はね", "meaning": "cánh, lông vũ" },
+      { "word": "一羽", "reading": "いちわ", "meaning": "1 con (chim/thỏ)" },
+      { "word": "羽毛", "reading": "うもう", "meaning": "lông vũ" },
+      { "word": "合羽", "reading": "かっぱ", "meaning": "áo mưa" }
+    ]
+  },
+  {
+    "kanji": "習",
+    "amHan": "TẬP",
+    "nghia": "Học tập, luyện tập",
+    "onyomi": "シュウ",
+    "kunyomi": "なら_う",
+    "mnemonic": {
+      "text": "Chim non dùng VŨ (羽) cánh TRẮNG (白) để tập bay mỗi ngày"
+    },
+    "examples": [
+      { "word": "習う", "reading": "ならう", "meaning": "học tập (có người dạy)" },
+      { "word": "学習", "reading": "がくしゅう", "meaning": "học tập" },
+      { "word": "練習", "reading": "れんしゅう", "meaning": "luyện tập" },
+      { "word": "習慣", "reading": "しゅうかん", "meaning": "thói quen, tập quán" },
+      { "word": "復習", "reading": "ふくしゅう", "meaning": "ôn tập" },
+      { "word": "予習", "reading": "よしゅう", "meaning": "chuẩn bị bài mới" }
+    ]
+  }
+]

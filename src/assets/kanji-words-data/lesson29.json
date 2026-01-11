@@ -1,0 +1,292 @@
+[
+  {
+    "kanji": "止",
+    "amHan": "CHỈ",
+    "nghia": "Dừng lại, đình chỉ",
+    "onyomi": "シ",
+    "kunyomi": "と_まる、と_める、や_める",
+    "mnemonic": {
+      "text": "Hình dáng một bàn chân đang dẫm xuống đất để DỪNG LẠI."
+    },
+    "examples": [
+      { "word": "止まる", "reading": "とまる", "meaning": "dừng lại (tự động từ)" },
+      { "word": "止める", "reading": "とめめる", "meaning": "dừng lại (tha động từ)" },
+      { "word": "中止", "reading": "ちゅうし", "meaning": "hoãn, dừng giữa chừng" },
+      { "word": "禁止", "reading": "きんし", "meaning": "cấm chỉ" },
+      { "word": "通行止め", "reading": "つうこうどめ", "meaning": "cấm đường/ngõ cụt" },
+      { "word": "波止場", "reading": "はとば", "meaning": "bến tàu" }
+    ]
+  },
+  {
+    "kanji": "企",
+    "amHan": "XÍ",
+    "nghia": "Xí nghiệp, dự định",
+    "onyomi": "キ",
+    "kunyomi": "くわだ_てる、たくら_む",
+    "mnemonic": {
+      "text": "Người (bộ NHÂN 人) đang đứng trên vùng ĐẤT (chữ CHỈ 止 - dừng chân) để bắt đầu một XÍ nghiệp."
+    },
+    "examples": [
+      { "word": "企業", "reading": "きぎょう", "meaning": "xí nghiệp, doanh nghiệp" },
+      { "word": "企画", "reading": "きかく", "meaning": "kế hoạch, dự án" },
+      { "word": "企てる", "reading": "くわだてる", "meaning": "dự tính, lên kế hoạch" },
+      { "word": "企む", "reading": "たくらむ", "meaning": "âm mưu, mưu đồ" },
+      { "word": "大企業", "reading": "だいきぎょう", "meaning": "doanh nghiệp lớn" },
+      { "word": "民間企業", "reading": "みんかんきぎょう", "meaning": "doanh nghiệp tư nhân" }
+    ]
+  },
+  {
+    "kanji": "渋",
+    "amHan": "SÁP",
+    "nghia": "Chát, tắc nghẽn",
+    "onyomi": "ジュウ、シュウ",
+    "kunyomi": "しぶ_る、しぶ_い、しぶ",
+    "mnemonic": {
+      "text": "NƯỚC (bộ THỦY 氵) chảy qua vùng đất có nhiều GỐC CÂY (chữ CHỈ 止 lặp lại bên phải) nên bị SÁP (tắc nghẽn)."
+    },
+    "examples": [
+      { "word": "渋滞", "reading": "じゅうたい", "meaning": "tắc nghẽn giao thông" },
+      { "word": "渋い", "reading": "しぶい", "meaning": "chát, đắng, nhã nhặn" },
+      { "word": "渋る", "reading": "しぶる", "meaning": "chần chừ, do dự" },
+      { "word": "苦渋", "reading": "くじゅう", "meaning": "khổ sở, đắng cay" },
+      { "word": "渋谷", "reading": "しぶや", "meaning": "Shibuya (tên riêng)" },
+      { "word": "渋柿", "reading": "しぶがき", "meaning": "quả hồng chát" }
+    ]
+  },
+  {
+    "kanji": "正",
+    "amHan": "CHÍNH",
+    "nghia": "Đúng, chính xác",
+    "onyomi": "セイ、ショウ",
+    "kunyomi": "ただ_しい、ただ_す、まさ_に",
+    "mnemonic": {
+      "text": "Một (NHẤT 一) lần DỪNG (CHỈ 止) lại để xem xét cái gì là CHÍNH xác."
+    },
+    "examples": [
+      { "word": "正しい", "reading": "ただしい", "meaning": "đúng, chính xác" },
+      { "word": "正直", "reading": "しょうじき", "meaning": "thành thật, chính trực" },
+      { "word": "正月", "reading": "しょうがつ", "meaning": "Tết" },
+      { "word": "正確", "reading": "せいかく", "meaning": "chính xác" },
+      { "word": "正解", "reading": "せいかい", "meaning": "đáp án đúng" },
+      { "word": "改正", "reading": "かいせい", "meaning": "cải chính, sửa đổi" }
+    ]
+  },
+  {
+    "kanji": "政",
+    "amHan": "CHÍNH",
+    "nghia": "Chính trị, chính sách",
+    "onyomi": "セイ、ショウ",
+    "kunyomi": "まつりごと",
+    "mnemonic": {
+      "text": "Dùng ROI (bộ PHẢN 攵) để giữ cho đất nước luôn ĐÚNG (CHÍNH 正) đắn là làm CHÍNH trị."
+    },
+    "examples": [
+      { "word": "政治", "reading": "せいじ", "meaning": "chính trị" },
+      { "word": "政策", "reading": "せいさく", "meaning": "chính sách" },
+      { "word": "政府", "reading": "せいふ", "meaning": "chính phủ" },
+      { "word": "政党", "reading": "せいとう", "meaning": "đảng phái" },
+      { "word": "行政", "reading": "ぎょうせい", "meaning": "hành chính" },
+      { "word": "家政", "reading": "かせい", "meaning": "nội trợ, gia chính" }
+    ]
+  },
+  {
+    "kanji": "証",
+    "amHan": "CHỨNG",
+    "nghia": "Chứng minh, bằng chứng",
+    "onyomi": "ショウ",
+    "kunyomi": "あかし",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (bộ NGÔN 言) ĐÚNG (CHÍNH 正) đắn để làm bằng CHỨNG."
+    },
+    "examples": [
+      { "word": "証拠", "reading": "しょうこ", "meaning": "chứng cứ" },
+      { "word": "証明", "reading": "しょうめい", "meaning": "chứng minh" },
+      { "word": "証言", "reading": "しょうげん", "meaning": "lời khai, nhân chứng" },
+      { "word": "免許証", "reading": "めんきょしょう", "meaning": "giấy phép lái xe" },
+      { "word": "保証", "reading": "ほしょう", "meaning": "bảo hành, bảo đảm" },
+      { "word": "身分証", "reading": "みぶんしょう", "meaning": "chứng minh thư" }
+    ]
+  }
+,
+  {
+    "kanji": "症",
+    "amHan": "CHỨNG",
+    "nghia": "Triệu chứng, bệnh tật",
+    "onyomi": "ショウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong nhà BỆNH (bộ NẰM 疒), bác sĩ xác định bệnh ĐÚNG (CHÍNH 正) qua các triệu CHỨNG."
+    },
+    "examples": [
+      { "word": "症状", "reading": "しょうじょう", "meaning": "triệu chứng" },
+      { "word": "後遺症", "reading": "こういしょう", "meaning": "di chứng" },
+      { "word": "炎症", "reading": "えんしょう", "meaning": "viêm nhiễm" },
+      { "word": "重症", "reading": "じゅうしょう", "meaning": "bệnh nặng" },
+      { "word": "軽症", "reading": "けいしょう", "meaning": "bệnh nhẹ" },
+      { "word": "不眠症", "reading": "ふみんしょう", "meaning": "chứng mất ngủ" }
+    ]
+  },
+  {
+    "kanji": "延",
+    "amHan": "DUYÊN",
+    "nghia": "Kéo dài, trì hoãn",
+    "onyomi": "エン",
+    "kunyomi": "のび_る、のべ_る、のば_す",
+    "mnemonic": {
+      "text": "Vừa ĐI (bộ DẪN 廴 - bước đi dài) vừa CHỈNH (chữ CHÍNH 正 biến thể) lại tư thế khiến thời gian bị kéo DUYÊN (kéo dài)."
+    },
+    "examples": [
+      { "word": "延びる", "reading": "のびる", "meaning": "giãn ra, kéo dài" },
+      { "word": "延長", "reading": "えんちょう", "meaning": "kéo dài (thời gian)" },
+      { "word": "遅延", "reading": "ちえん", "meaning": "trì hoãn, chậm trễ" },
+      { "word": "延期", "reading": "えんき", "meaning": "hoãn lại" },
+      { "word": "延べ", "reading": "のべ", "meaning": "tổng cộng" },
+      { "word": "先延ばし", "reading": "さきのばし", "meaning": "trì hoãn, khất" }
+    ]
+  },
+  {
+    "kanji": "誕",
+    "amHan": "ĐẢN",
+    "nghia": "Ra đời, sinh ra",
+    "onyomi": "タン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (bộ NGÔN 言) để chúc mừng sự kéo DUYÊN (延) của sự sống khi một đứa trẻ ra ĐỜI."
+    },
+    "examples": [
+      { "word": "誕生日", "reading": "たんじょうび", "meaning": "ngày sinh nhật" },
+      { "word": "誕生", "reading": "たんじょう", "meaning": "ra đời, khai sinh" },
+      { "word": "生誕", "reading": "せいたん", "meaning": "sự sinh thành" },
+      { "word": "降誕", "reading": "こうたん", "meaning": "giáng sinh" },
+      { "word": "誕辰", "reading": "たんしん", "meaning": "ngày sinh (kính ngữ)" },
+      { "word": "聖誕祭", "reading": "せいたんさい", "meaning": "lễ Giáng sinh" }
+    ]
+  },
+  {
+    "kanji": "品",
+    "amHan": "PHẨM",
+    "nghia": "Sản phẩm, vật phẩm",
+    "onyomi": "ヒン、ホン",
+    "kunyomi": "しな",
+    "mnemonic": {
+      "text": "Có 3 cái MIỆNG (bộ KHẨU 口) cùng đánh giá chất lượng của sản PHẨM."
+    },
+    "examples": [
+      { "word": "品物", "reading": "しなもの", "meaning": "vật phẩm, hàng hóa" },
+      { "word": "品質", "reading": "ひんしつ", "meaning": "chất lượng" },
+      { "word": "商品", "reading": "しょうひん", "meaning": "thương phẩm, hàng hóa" },
+      { "word": "作品", "reading": "さくひん", "meaning": "tác phẩm" },
+      { "word": "食品", "reading": "しょくひん", "meaning": "thực phẩm" },
+      { "word": "上品", "reading": "じょうひん", "meaning": "thanh lịch, cao quý" }
+    ]
+  },
+  {
+    "kanji": "器",
+    "amHan": "KHÍ",
+    "nghia": "Dụng cụ, đồ dùng, khí chất",
+    "onyomi": "キ",
+    "kunyomi": "うつわ",
+    "mnemonic": {
+      "text": "Bốn cái MIỆNG (bộ KHẨU 口) vây quanh con CHÓ (bộ KHUYỂN 犬) để bảo vệ các món đồ KHÍ (dụng cụ)."
+    },
+    "examples": [
+      { "word": "食器", "reading": "しょっき", "meaning": "bát đĩa, bộ đồ ăn" },
+      { "word": "器用", "reading": "きよう", "meaning": "khéo léo" },
+      { "word": "武器", "reading": "ぶき", "meaning": "vũ khí" },
+      { "word": "楽器", "reading": "がっき", "meaning": "nhạc cụ" },
+      { "word": "容器", "reading": "ようき", "meaning": "đồ đựng, container" },
+      { "word": "器", "reading": "うつわ", "meaning": "chậu, bát, khả năng/tầm vóc" }
+    ]
+  },
+  {
+    "kanji": "操",
+    "amHan": "THAO",
+    "nghia": "Thao tác, vận hành",
+    "onyomi": "ソウ、サン",
+    "kunyomi": "みさお、あやつ_る",
+    "mnemonic": {
+      "text": "Dùng TAY (bộ THỦ 扌) để điều khiển (THAO tác) bầy chim đang kêu trên CÂY (bộ MỘC 木)."
+    },
+    "examples": [
+      { "word": "操作", "reading": "そうさ", "meaning": "thao tác, điều khiển" },
+      { "word": "操る", "reading": "あやつる", "meaning": "vận hành, thao túng" },
+      { "word": "体操", "reading": "たいそう", "meaning": "thể dục" },
+      { "word": "操縦", "reading": "そうじゅう", "meaning": "điều khiển (máy bay, tàu)" },
+      { "word": "貞操", "reading": "ていそう", "meaning": "trinh tiết, đức hạnh" },
+      { "word": "操る", "reading": "あやつる", "meaning": "thông thạo (ngôn ngữ)" }
+    ]
+  }
+,
+  {
+    "kanji": "求",
+    "amHan": "CẦU",
+    "nghia": "Yêu cầu, tìm kiếm",
+    "onyomi": "キュウ",
+    "kunyomi": "もと_める",
+    "mnemonic": {
+      "text": "Dùng tay (bộ THỦ 扌 biến thể) tìm kiếm những giọt NƯỚC (bộ THỦY 水) rơi vãi để YÊU CẦU sự sống."
+    },
+    "examples": [
+      { "word": "求める", "reading": "もとめる", "meaning": "yêu cầu, tìm kiếm" },
+      { "word": "要求", "reading": "ようきゅう", "meaning": "yêu cầu, đòi hỏi" },
+      { "word": "求人", "reading": "きゅうじん", "meaning": "tuyển dụng (tìm người)" },
+      { "word": "追求", "reading": "ついきゅう", "meaning": "mưu cầu, theo đuổi" },
+      { "word": "求婚", "reading": "きゅうこん", "meaning": "cầu hôn" },
+      { "word": "探求", "reading": "たんきゅう", "meaning": "nghiên cứu, tìm tòi" }
+    ]
+  },
+  {
+    "kanji": "球",
+    "amHan": "CẦU",
+    "nghia": "Hình cầu, quả bóng",
+    "onyomi": "キュウ",
+    "kunyomi": "たま",
+    "mnemonic": {
+      "text": "Vị VUA (bộ VƯƠNG 王) đang tìm kiếm (CẦU 求) viên ngọc hình CẦU."
+    },
+    "examples": [
+      { "word": "地球", "reading": "ちきゅう", "meaning": "địa cầu, trái đất" },
+      { "word": "野球", "reading": "やきゅう", "meaning": "bóng chày" },
+      { "word": "電球", "reading": "でんきゅう", "meaning": "bóng đèn điện" },
+      { "word": "球根", "reading": "きゅうこん", "meaning": "củ giống (hình cầu)" },
+      { "word": "卓球", "reading": "たっきゅう", "meaning": "bóng bàn" },
+      { "word": "球体", "reading": "きゅうたい", "meaning": "hình cầu" }
+    ]
+  },
+  {
+    "kanji": "救",
+    "amHan": "CỨU",
+    "nghia": "Cứu giúp, giúp đỡ",
+    "onyomi": "キュウ",
+    "kunyomi": "すく_う",
+    "mnemonic": {
+      "text": "Dùng roi (bộ PHẢN 攵) đánh đuổi kẻ xấu để đáp lại lời YÊU CẦU (CẦU 求) được giải CỨU."
+    },
+    "examples": [
+      { "word": "救う", "reading": "すくう", "meaning": "cứu, giúp đỡ" },
+      { "word": "救急", "reading": "きゅうきゅう", "meaning": "cấp cứu" },
+      { "word": "救助", "reading": "きゅうじょ", "meaning": "cứu viện, trợ giúp" },
+      { "word": "救世主", "reading": "きゅうせいしゅ", "meaning": "đấng cứu thế" },
+      { "word": "救済", "reading": "きゅうさい", "meaning": "cứu tế, viện trợ" },
+      { "word": "救い", "reading": "すくい", "meaning": "sự cứu giúp" }
+    ]
+  },
+  {
+    "kanji": "教",
+    "amHan": "GIÁO",
+    "nghia": "Dạy dỗ, tôn giáo",
+    "onyomi": "キョウ",
+    "kunyomi": "おし_える、おそ_わる",
+    "mnemonic": {
+      "text": "Đứa TRẺ (bộ TỬ 子) cầm cây ROI (bộ PHẢN 攵) đang học ĐẠO (chữ Hiếu 孝 phía trên) để được GIÁO dục."
+    },
+    "examples": [
+      { "word": "教える", "reading": "おしえる", "meaning": "dạy, chỉ bảo" },
+      { "word": "教わる", "reading": "おそわる", "meaning": "được dạy, học" },
+      { "word": "教師", "reading": "きょうし", "meaning": "giáo viên" },
+      { "word": "教育", "reading": "きょういく", "meaning": "giáo dục" },
+      { "word": "教室", "reading": "きょうしつ", "meaning": "phòng học" },
+      { "word": "宗教", "reading": "しゅうきょう", "meaning": "tôn giáo" }
+    ]
+  }
+]

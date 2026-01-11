@@ -1,0 +1,260 @@
+[
+  {
+    "kanji": "交",
+    "amHan": "GIAO",
+    "nghia": "Giao nhau, trao đổi",
+    "onyomi": "コウ",
+    "kunyomi": "ま_じる、ま_ざる、ま_じえる、ま_ぜる",
+    "mnemonic": {
+      "text": "Một NGƯỜI (亠 + 父 - biến thể) đang bắt chéo chân để GIAO lưu"
+    },
+    "examples": [
+      { "word": "交ざる", "reading": "まざる", "meaning": "trộn vào, lẫn vào" },
+      { "word": "交換", "reading": "こうかん", "meaning": "trao đổi, thay thế" },
+      { "word": "交流", "reading": "こうりゅう", "meaning": "giao lưu" },
+      { "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
+      { "word": "交通", "reading": "こうつう", "meaning": "giao thông" },
+      { "word": "外交", "reading": "がいこう", "meaning": "ngoại giao" }
+    ]
+  },
+  {
+    "kanji": "郊",
+    "amHan": "GIAO",
+    "nghia": "Ngoại ô",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Vùng GIAO (交) thoa ở phía vùng ĐẤT (阝- bộ ấp) bên ngoài là vùng NGOẠI Ô"
+    },
+    "examples": [
+      { "word": "郊外", "reading": "こうがい", "meaning": "ngoại ô" },
+      { "word": "近郊", "reading": "きんこう", "meaning": "vùng lân cận" },
+      { "word": "郊外電車", "reading": "こうがいでんしゃ", "meaning": "tàu điện ngoại ô" },
+      { "word": "近郊農業", "reading": "きんこうのうぎょう", "meaning": "nông nghiệp vùng lân cận" }
+    ]
+  },
+  {
+    "kanji": "校",
+    "amHan": "HIỆU",
+    "nghia": "Trường học",
+    "onyomi": "コウ、キョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cây CỔ THỤ (木) ở nơi GIAO (交) lưu tri thức chính là TRƯỜNG HỌC"
+    },
+    "examples": [
+      { "word": "学校", "reading": "がっこう", "meaning": "trường học" },
+      { "word": "校長", "reading": "こうちょう", "meaning": "hiệu trưởng" },
+      { "word": "高校", "reading": "こうこう", "meaning": "trường cấp 3" },
+      { "word": "校舎", "reading": "こうしゃ", "meaning": "khu nhà trường" },
+      { "word": "登校", "reading": "とうこう", "meaning": "đến trường" }
+    ]
+  },
+  {
+    "kanji": "効",
+    "amHan": "HIỆU",
+    "nghia": "Hiệu quả",
+    "onyomi": "コウ",
+    "kunyomi": "き_く",
+    "mnemonic": {
+      "text": "Dùng SỨC LỰC (力) để GIAO (交) tiếp tạo ra HIỆU QUẢ"
+    },
+    "examples": [
+      { "word": "効く", "reading": "きく", "meaning": "có tác dụng, có hiệu quả" },
+      { "word": "効果", "reading": "こうか", "meaning": "hiệu quả" },
+      { "word": "有効", "reading": "ゆうこう", "meaning": "hữu hiệu, có hiệu lực" },
+      { "word": "効率", "reading": "こうりつ", "meaning": "hiệu suất" },
+      { "word": "効能", "reading": "こうのう", "meaning": "công năng, tác dụng" }
+    ]
+  },
+  {
+    "kanji": "取",
+    "amHan": "THỦ",
+    "nghia": "Lấy, cầm, nắm",
+    "onyomi": "シュ",
+    "kunyomi": "と_る",
+    "mnemonic": {
+      "text": "Dùng TAY (又) túm lấy TAI (耳) để THỦ (lấy) được mục tiêu"
+    },
+    "examples": [
+      { "word": "取る", "reading": "とる", "meaning": "nhận, lấy" },
+      { "word": "取得", "reading": "しゅとく", "meaning": "giành được, thu được" },
+      { "word": "取り消す", "reading": "とりけす", "meaning": "hủy bỏ" },
+      { "word": "受取", "reading": "うけとり", "meaning": "biên nhận, hóa đơn" },
+      { "word": "取材", "reading": "しゅざい", "meaning": "thu thập tài liệu, lấy tin" },
+      { "word": "摂取", "reading": "せっしゅ", "meaning": "hấp thụ" }
+    ]
+  },
+  {
+    "kanji": "最",
+    "amHan": "TỐI",
+    "nghia": "Nhất, tột cùng",
+    "onyomi": "サイ、シュ",
+    "kunyomi": "もっと_も",
+    "mnemonic": {
+      "text": "Trong một NGÀY (日), việc dùng TAY (又) lấy cái MŨ (冖) đội lên đầu là quan trọng NHẤT"
+    },
+    "examples": [
+      { "word": "最も", "reading": "もっとも", "meaning": "cực kỳ, nhất" },
+      { "word": "最近", "reading": "さいきん", "meaning": "gần đây" },
+      { "word": "最高", "reading": "さいこう", "meaning": "tốt nhất, cao nhất" },
+      { "word": "最後", "reading": "さいご", "meaning": "cuối cùng" },
+      { "word": "最大", "reading": "さいだい", "meaning": "lớn nhất" },
+      { "word": "最初", "reading": "さいしょ", "meaning": "đầu tiên" }
+    ]
+  },
+  {
+    "kanji": "験",
+    "amHan": "NGHIỆM",
+    "nghia": "Kiểm tra, kinh nghiệm",
+    "onyomi": "ケン、ゲン",
+    "kunyomi": "ため_す、ため_し",
+    "mnemonic": {
+      "text": "Con NGỰA (馬) muốn lên được CHÙA (thành phần bên phải giống chữ 寺) thì phải trải qua KIỂM NGHIỆM"
+    },
+    "examples": [
+      { "word": "験す", "reading": "ためす", "meaning": "kiểm tra, thử nghiệm" },
+      { "word": "試験", "reading": "しけん", "meaning": "kỳ thi, kiểm tra" },
+      { "word": "経験", "reading": "けいけん", "meaning": "kinh nghiệm" },
+      { "word": "受験", "reading": "じゅけん", "meaning": "dự thi" },
+      { "word": "実験", "reading": "じっけん", "meaning": "thí nghiệm" }
+    ]
+  },
+  {
+    "kanji": "検",
+    "amHan": "KIỂM",
+    "nghia": "Kiểm tra",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng cái que GỖ (木) để KIỂM tra những người đang đứng dưới MÁI NHÀ (thành phần bên phải)"
+    },
+    "examples": [
+      { "word": "検査", "reading": "けんさ", "meaning": "kiểm tra" },
+      { "word": "検索", "reading": "けんさく", "meaning": "tìm kiếm" },
+      { "word": "検討", "reading": "けんとう", "meaning": "thảo luận, xem xét" },
+      { "word": "検問", "reading": "けんもん", "meaning": "kiểm tra, thẩm vấn" },
+      { "word": "点検", "reading": "てんけん", "meaning": "kiểm điểm, bảo trì" }
+    ]
+  },
+  {
+    "kanji": "剣",
+    "amHan": "KIẾM",
+    "nghia": "Cây kiếm, đao",
+    "onyomi": "ケン",
+    "kunyomi": "つるぎ",
+    "mnemonic": {
+      "text": "Dùng ĐAO (刂) để rèn ra thanh KIẾM sắc bén cho mọi người (thành phần bên trái)"
+    },
+    "examples": [
+      { "word": "剣道", "reading": "けんどう", "meaning": "kiếm đạo" },
+      { "word": "真剣", "reading": "しんけん", "meaning": "nghiêm túc" },
+      { "word": "名剣", "reading": "めいけん", "meaning": "thanh kiếm nổi tiếng" },
+      { "word": "木剣", "reading": "ぼっけん", "meaning": "kiếm gỗ" },
+      { "word": "剣術", "reading": "けんじゅつ", "meaning": "kiếm thuật" }
+    ]
+  },
+  {
+    "kanji": "険",
+    "amHan": "HIỂM",
+    "nghia": "Nguy hiểm, hiểm trở",
+    "onyomi": "ケン",
+    "kunyomi": "けわ_しい",
+    "mnemonic": {
+      "text": "Vùng ĐẤT (阝) có nhiều người tụ tập dưới MÁI NHÀ hẹp thì rất HIỂM trở"
+    },
+    "examples": [
+      { "word": "険しい", "reading": "けわしい", "meaning": "dốc, hiểm trở, khắt khe" },
+      { "word": "危険", "reading": "きけん", "meaning": "sự nguy hiểm" },
+      { "word": "保険", "reading": "ほけん", "meaning": "bảo hiểm" },
+      { "word": "冒険", "reading": "ぼうけん", "meaning": "mạo hiểm" },
+      { "word": "険悪", "reading": "けんあく", "meaning": "hiểm ác, tồi tệ" }
+    ]
+  },
+  {
+    "kanji": "者",
+    "amHan": "GIẢ",
+    "nghia": "Người, kẻ",
+    "onyomi": "シャ",
+    "kunyomi": "もの",
+    "mnemonic": {
+      "text": "NGƯỜI (者) già chống GẬY (thành phần trên) đi trên ĐẤT (土) dưới ánh MẶT TRỜI (日)"
+    },
+    "examples": [
+      { "word": "若者", "reading": "わかもの", "meaning": "người trẻ" },
+      { "word": "医者", "reading": "いしゃ", "meaning": "bác sĩ" },
+      { "word": "読者", "reading": "どくしゃ", "meaning": "người đọc" },
+      { "word": "作者", "reading": "さくしゃ", "meaning": "tác giả" },
+      { "word": "学者", "reading": "がくしゃ", "meaning": "học giả" },
+      { "word": "忍者", "reading": "にんじゃ", "meaning": "ninja" }
+    ]
+  },
+  {
+    "kanji": "暑",
+    "amHan": "THỬ",
+    "nghia": "Nóng (thời tiết)",
+    "onyomi": "ショ",
+    "kunyomi": "あつ_い",
+    "mnemonic": {
+      "text": "MẶT TRỜI (日) chiếu vào NGƯỜI (者) thì thấy NÓNG"
+    },
+    "examples": [
+      { "word": "暑い", "reading": "あつい", "meaning": "nóng" },
+      { "word": "暑気", "reading": "しょき", "meaning": "cảm nắng" },
+      { "word": "残暑", "reading": "ざんしょ", "meaning": "cái nóng còn sót lại" },
+      { "word": "猛暑", "reading": "もうしょ", "meaning": "nóng gay gắt" },
+      { "word": "暑中見舞い", "reading": "しょちゅうみまい", "meaning": "thăm hỏi mùa hè" }
+    ]
+  },
+  {
+    "kanji": "緒",
+    "amHan": "TỰ",
+    "nghia": "Cùng nhau, sợi dây",
+    "onyomi": "ショ、チョ",
+    "kunyomi": "お",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸) để nối những NGƯỜI (者) lại CÙNG NHAU"
+    },
+    "examples": [
+      { "word": "一緒", "reading": "いっしょ", "meaning": "cùng nhau" },
+      { "word": "内緒", "reading": "ないしょ", "meaning": "bí mật" },
+      { "word": "情緒", "reading": "じょうちょ", "meaning": "cảm xúc, tâm trạng" },
+      { "word": "由緒", "reading": "ゆいしょ", "meaning": "phả hệ, dòng dõi" }
+    ]
+  },
+  {
+    "kanji": "煮",
+    "amHan": "CHỬ",
+    "nghia": "Nấu, ninh",
+    "onyomi": "シャ",
+    "kunyomi": "に_る、に_える、に_やす、に_たつ",
+    "mnemonic": {
+      "text": "Dùng LỬA (灬) để NẤU thức ăn cho NGƯỜI (者) ăn"
+    },
+    "examples": [
+      { "word": "煮る", "reading": "にる", "meaning": "nấu, ninh" },
+      { "word": "煮える", "reading": "にえる", "meaning": "chín nhừ" },
+      { "word": "煮物", "reading": "にもの", "meaning": "món kho, món hầm" },
+      { "word": "煮沸", "reading": "しゃふつ", "meaning": "đun sôi" },
+      { "word": "煮込む", "reading": "にこむ", "meaning": "nấu kỹ, ninh kỹ" }
+    ]
+  },
+  {
+    "kanji": "都",
+    "amHan": "ĐÔ",
+    "nghia": "Thủ đô, đô thị",
+    "onyomi": "ト、ツ",
+    "kunyomi": "みやこ",
+    "mnemonic": {
+      "text": "Ở vùng ĐẤT (阝) nơi có nhiều NGƯỜI (者) sinh sống thì gọi là ĐÔ thị"
+    },
+    "examples": [
+      { "word": "都", "reading": "みやこ", "meaning": "thủ đô" },
+      { "word": "首都", "reading": "しゅと", "meaning": "thủ đô" },
+      { "word": "都合", "reading": "つごう", "meaning": "thuận tiện, hoàn cảnh" },
+      { "word": "都会", "reading": "とかい", "meaning": "thành thị" },
+      { "word": "京都", "reading": "きょうと", "meaning": "Kyoto" },
+      { "word": "東京都", "reading": "とうきょうと", "meaning": "Thủ đô Tokyo" }
+    ]
+  }
+]

@@ -1,0 +1,299 @@
+[
+  {
+    "kanji": "信",
+    "amHan": "TÍN",
+    "nghia": "Tin tưởng, tín hiệu",
+    "onyomi": "シン",
+    "kunyomi": "しん_じる",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) nói lời NÓI (言) thật lòng thì sẽ tạo được lòng TÍN"
+    },
+    "examples": [
+      { "word": "信じる", "reading": "しんじる", "meaning": "tin tưởng" },
+      { "word": "信号", "reading": "しんごう", "meaning": "đèn giao thông" },
+      { "word": "信頼", "reading": "しんらい", "meaning": "sự tin cậy" },
+      { "word": "自信", "reading": "じしん", "meaning": "tự tin" },
+      { "word": "信用", "reading": "しんよう", "meaning": "tín dụng, lòng tin" },
+      { "word": "送信", "reading": "そうしん", "meaning": "gửi đi (tin nhắn)" }
+    ]
+  },
+  {
+    "kanji": "語",
+    "amHan": "NGỮ",
+    "nghia": "Ngôn ngữ, kể chuyện",
+    "onyomi": "ゴ",
+    "kunyomi": "かた_る、かた_らう",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) để kể về NĂM (五) cái MIỆNG (口) đang dùng chung một NGỮ tộc"
+    },
+    "examples": [
+      { "word": "語る", "reading": "かたる", "meaning": "kể chuyện" },
+      { "word": "外国語", "reading": "がいこくご", "meaning": "tiếng nước ngoài" },
+      { "word": "言語", "reading": "げんご", "meaning": "ngôn ngữ" },
+      { "word": "日本語", "reading": "にほんご", "meaning": "tiếng Nhật" },
+      { "word": "単語", "reading": "たんご", "meaning": "từ vựng" },
+      { "word": "物語", "reading": "ものがたり", "meaning": "truyện kể" }
+    ]
+  },
+  {
+    "kanji": "認",
+    "amHan": "NHẬN",
+    "nghia": "Thừa nhận, xác nhận",
+    "onyomi": "ニン",
+    "kunyomi": "みと_める、したた_める",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) để kìm nén sự NHẪN (忍) nại và thừa NHẬN sai lầm"
+    },
+    "examples": [
+      { "word": "認める", "reading": "みとめる", "meaning": "thừa nhận" },
+      { "word": "確認", "reading": "かくにん", "meaning": "xác nhận" },
+      { "word": "公認", "reading": "こうにん", "meaning": "công nhận" },
+      { "word": "認定", "reading": "にんてい", "meaning": "chứng nhận" },
+      { "word": "否認", "reading": "ひにん", "meaning": "phủ nhận" }
+    ]
+  },
+  {
+    "kanji": "談",
+    "amHan": "ĐÀM",
+    "nghia": "Bàn bạc, nói chuyện",
+    "onyomi": "ダン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) dưới sức nóng của hai ngọn LỬA (炎) để đàm ĐẠO"
+    },
+    "examples": [
+      { "word": "相談", "reading": "そうだん", "meaning": "trao đổi, thảo luận" },
+      { "word": "談話", "reading": "だんわ", "meaning": "buổi nói chuyện" },
+      { "word": "対談", "reading": "たいだん", "meaning": "đối thoại" },
+      { "word": "談笑", "reading": "だんしょう", "meaning": "nói chuyện vui vẻ" },
+      { "word": "冗談", "reading": "じょうだん", "meaning": "nói đùa" }
+    ]
+  },
+  {
+    "kanji": "訪",
+    "amHan": "PHÓNG",
+    "nghia": "Ghé thăm, viếng thăm",
+    "onyomi": "ホウ",
+    "kunyomi": "おとず_れる、たず_ねる",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) theo PHƯƠNG (方) hướng để đến PHÓNG (ghé) thăm người thân"
+    },
+    "examples": [
+      { "word": "訪れる", "reading": "おとずれる", "meaning": "ghé thăm, chơi (không dùng cho người)" },
+      { "word": "訪ねる", "reading": "たずねる", "meaning": "ghé thăm, viếng thăm" },
+      { "word": "訪問", "reading": "ほうもん", "meaning": "sự thăm viếng" },
+      { "word": "訪日", "reading": "ほうにち", "meaning": "chuyến thăm Nhật Bản" },
+      { "word": "歴訪", "reading": "れきほう", "meaning": "đi thăm các nơi" }
+    ]
+  },
+  {
+    "kanji": "羊",
+    "amHan": "DƯƠNG",
+    "nghia": "Con cừu",
+    "onyomi": "ヨウ",
+    "kunyomi": "ひつじ",
+    "mnemonic": {
+      "text": "Hình ảnh con DƯƠNG (cừu) có sừng và chân"
+    },
+    "examples": [
+      { "word": "羊", "reading": "ひつじ", "meaning": "con cừu" },
+      { "word": "子羊", "reading": "こひつじ", "meaning": "cừu non" },
+      { "word": "羊毛", "reading": "ようもう", "meaning": "lông cừu" },
+      { "word": "山羊", "reading": "やぎ", "meaning": "con dê" },
+      { "word": "群羊", "reading": "ぐんよう", "meaning": "đàn cừu" }
+    ]
+  },
+  {
+    "kanji": "洋",
+    "amHan": "DƯƠNG",
+    "nghia": "Đại dương, phương Tây",
+    "onyomi": "ヨウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "NƯỚC (氵) mênh mông nuôi sống đàn DƯƠNG (羊) ở bên kia đại DƯƠNG"
+    },
+    "examples": [
+      { "word": "洋服", "reading": "ようふく", "meaning": "quần áo, âu phục" },
+      { "word": "洋式", "reading": "ようしき", "meaning": "kiểu Tây" },
+      { "word": "洋食", "reading": "ようしょく", "meaning": "bữa ăn kiểu Tây" },
+      { "word": "太平洋", "reading": "たいへいよう", "meaning": "Thái Bình Dương" },
+      { "word": "西洋", "reading": "せいよう", "meaning": "phương Tây" },
+      { "word": "海洋", "reading": "かいよう", "meaning": "hải dương" }
+    ]
+  },
+  {
+    "kanji": "詳",
+    "amHan": "TƯỜNG",
+    "nghia": "Rõ ràng, tường tận",
+    "onyomi": "ショウ",
+    "kunyomi": "くわ_しい",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) để giải thích rõ về con DƯƠNG (羊) một cách TƯỜNG tận"
+    },
+    "examples": [
+      { "word": "詳しい", "reading": "くわしい", "meaning": "rõ ràng, tường tận" },
+      { "word": "詳細", "reading": "しょうさい", "meaning": "chi tiết" },
+      { "word": "不詳", "reading": "ふしょう", "meaning": "không rõ ràng" },
+      { "word": "詳解", "reading": "しょうかい", "meaning": "giải thích chi tiết" },
+      { "word": "詳述", "reading": "しょうじゅつ", "meaning": "tường thuật chi tiết" }
+    ]
+  },
+  {
+    "kanji": "美",
+    "amHan": "MỸ",
+    "nghia": "Xinh đẹp, mỹ lệ",
+    "onyomi": "ビ、ミ",
+    "kunyomi": "うつく_しい",
+    "mnemonic": {
+      "text": "Con DƯƠNG (羊) mà TO (大) lớn thì trông rất MỸ lệ"
+    },
+    "examples": [
+      { "word": "美しい", "reading": "うつくしい", "meaning": "xinh đẹp, mỹ miều" },
+      { "word": "美術館", "reading": "びじゅつかん", "meaning": "bảo tàng mỹ thuật" },
+      { "word": "美人", "reading": "びじん", "meaning": "người đẹp" },
+      { "word": "美容院", "reading": "びよういん", "meaning": "thẩm mỹ viện" },
+      { "word": "美化", "reading": "びか", "meaning": "mỹ hóa, làm đẹp" },
+      { "word": "美辞麗句", "reading": "びじれいく", "meaning": "lời hoa mỹ" }
+    ]
+  },
+  {
+    "kanji": "遅",
+    "amHan": "TRÌ",
+    "nghia": "Chậm, muộn",
+    "onyomi": "チ",
+    "kunyomi": "おそ_い、おく_れる、おく_らす",
+    "mnemonic": {
+      "text": "Dẫn con TÊ NGƯU (thành phần giữa) đi bộ (辶) thì rất TRÌ trệ và CHẬM"
+    },
+    "examples": [
+      { "word": "遅い", "reading": "おそい", "meaning": "chậm, muộn" },
+      { "word": "遅刻", "reading": "ちこく", "meaning": "sự đến muộn" },
+      { "word": "遅れる", "reading": "おくれる", "meaning": "muộn" },
+      { "word": "遅延", "reading": "ちえん", "meaning": "trì hoãn" },
+      { "word": "遅らす", "reading": "おくらす", "meaning": "làm cho muộn" }
+    ]
+  },
+  {
+    "kanji": "差",
+    "amHan": "SAI",
+    "nghia": "Khác biệt, giương (ô)",
+    "onyomi": "サ",
+    "kunyomi": "さ_す",
+    "mnemonic": {
+      "text": "Con DƯƠNG (羊) đi trên ĐẤT (工 - biến thể) bị SAI lệch phương hướng"
+    },
+    "examples": [
+      { "word": "差す", "reading": "さす", "meaning": "giương (ô)" },
+      { "word": "格差", "reading": "かくさ", "meaning": "độ chênh, sự khác nhau" },
+      { "word": "差別", "reading": "さべつ", "meaning": "sự phân biệt" },
+      { "word": "時差", "reading": "じさ", "meaning": "chênh lệch múi giờ" },
+      { "word": "交差点", "reading": "こうさてん", "meaning": "ngã tư" },
+      { "word": "大差", "reading": "たいさ", "meaning": "cách biệt lớn" }
+    ]
+  },
+  {
+    "kanji": "周",
+    "amHan": "CHU",
+    "nghia": "Xung quanh, chu vi",
+    "onyomi": "シュウ",
+    "kunyomi": "まわ_り",
+    "mnemonic": {
+      "text": "Dùng cái MIỆNG (口) để nói về ruộng ĐIỀN (田 - biến thể) bao quanh CHU vi"
+    },
+    "examples": [
+      { "word": "周り", "reading": "まわり", "meaning": "xung quanh" },
+      { "word": "周囲", "reading": "しゅうい", "meaning": "khu vực xung quanh" },
+      { "word": "周期", "reading": "しゅうき", "meaning": "chu kỳ" },
+      { "word": "円周", "reading": "えんしゅう", "meaning": "chu vi hình tròn" },
+      { "word": "一周", "reading": "いっしゅう", "meaning": "một vòng" }
+    ]
+  },
+  {
+    "kanji": "週",
+    "amHan": "CHU",
+    "nghia": "Tuần",
+    "onyomi": "シュウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Đi bộ (辶) hết một CHU (周) vi thời gian là một TUẦN"
+    },
+    "examples": [
+      { "word": "週末", "reading": "しゅうまつ", "meaning": "cuối tuần" },
+      { "word": "先週", "reading": "せんしゅう", "meaning": "tuần trước" },
+      { "word": "今週", "reading": "こんしゅう", "meaning": "tuần này" },
+      { "word": "来週", "reading": "らいしゅう", "meaning": "tuần tới" },
+      { "word": "毎週", "reading": "まいしゅう", "meaning": "hàng tuần" },
+      { "word": "週間", "reading": "しゅうかん", "meaning": "số tuần" }
+    ]
+  },
+  {
+    "kanji": "調",
+    "amHan": "ĐIỀU",
+    "nghia": "Tìm hiểu, điều tra, gia vị",
+    "onyomi": "チョウ",
+    "kunyomi": "しら_べる",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) chu (周) toàn để ĐIỀU tra sự việc"
+    },
+    "examples": [
+      { "word": "調べる", "reading": "しらべる", "meaning": "tìm hiểu, điều tra" },
+      { "word": "調子", "reading": "ちょうし", "meaning": "tình trạng" },
+      { "word": "調査", "reading": "ちょうさ", "meaning": "sự điều tra" },
+      { "word": "調味料", "reading": "ちょうみりょう", "meaning": "gia vị" },
+      { "word": "体調", "reading": "たいちょう", "meaning": "tình trạng cơ thể" },
+      { "word": "強調", "reading": "きょうちょう", "meaning": "nhấn mạnh" }
+    ]
+  },
+  {
+    "kanji": "及",
+    "amHan": "CẬP",
+    "nghia": "Ảnh hưởng, phổ cập",
+    "onyomi": "キュウ",
+    "kunyomi": "およ_ぶ、およ_ぼす、およ_び",
+    "mnemonic": {
+      "text": "Một NGƯỜI (亻- biến thể) vươn TAY (又- biến thể) ra để phổ CẬP"
+    },
+    "examples": [
+      { "word": "及ぼす", "reading": "およぼす", "meaning": "gây (ảnh hưởng, thiệt hại)" },
+      { "word": "普及", "reading": "ふきゅう", "meaning": "phổ cập" },
+      { "word": "及び", "reading": "および", "meaning": "và" },
+      { "word": "追及", "reading": "ついきゅう", "meaning": "truy cứu" },
+      { "word": "言及", "reading": "げんきゅう", "meaning": "đề cập" }
+    ]
+  },
+  {
+    "kanji": "級",
+    "amHan": "CẤP",
+    "nghia": "Bậc, cấp độ",
+    "onyomi": "キュウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Sợi CHỈ (糸) được phổ CẬP (及) theo từng CẤP bậc"
+    },
+    "examples": [
+      { "word": "級友", "reading": "きゅうゆう", "meaning": "bạn cùng lớp" },
+      { "word": "高級", "reading": "こうきゅう", "meaning": "cao cấp" },
+      { "word": "一級", "reading": "いっきゅう", "meaning": "bậc nhất" },
+      { "word": "初級", "reading": "しょきゅう", "meaning": "sơ cấp" },
+      { "word": "中級", "reading": "ちゅうきゅう", "meaning": "trung cấp" },
+      { "word": "上級", "reading": "じょうきゅう", "meaning": "thượng cấp" }
+    ]
+  },
+  {
+    "kanji": "吸",
+    "amHan": "HẤP",
+    "nghia": "Hít, hút",
+    "onyomi": "キュウ",
+    "kunyomi": "す_う",
+    "mnemonic": {
+      "text": "Cái MIỆNG (口) phổ CẬP (及) hành động HẤP (hút) không khí"
+    },
+    "examples": [
+      { "word": "吸う", "reading": "すう", "meaning": "hít, hút" },
+      { "word": "呼吸", "reading": "こきゅう", "meaning": "sự hít thở" },
+      { "word": "吸収", "reading": "きゅうしゅう", "meaning": "hấp thụ" },
+      { "word": "吸引", "reading": "きゅういん", "meaning": "hút, lôi cuốn" },
+      { "word": "吸い殻", "reading": "すいがら", "meaning": "tàn thuốc" }
+    ]
+  }
+]

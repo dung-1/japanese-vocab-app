@@ -1,0 +1,256 @@
+[
+  {
+    "kanji": "園",
+    "amHan": "Viên",
+    "nghia": "Vườn",
+    "onyomi": "エン",
+    "kunyomi": "その",
+    "mnemonic": {
+      "text": "Trong VI (囗 - vây quanh) có Thổ (土), Khẩu (口) và Y (衣) tạo thành một cái VƯỜN (VIÊN) đầy hoa lá."
+    },
+    "examples": [
+      { "word": "公園", "reading": "こうえん", "meaning": "Công viên" },
+      { "word": "動物園", "reading": "どうぶつえん", "meaning": "Sở thú" },
+      { "word": "遊園地", "reading": "ゆうえんち", "meaning": "Khu vui chơi giải trí" },
+      { "word": "園芸", "reading": "えんげい", "meaning": "Nghệ thuật làm vườn" },
+      { "word": "幼稚園", "reading": "ようちえん", "meaning": "Trường mẫu giáo" }
+    ]
+  },
+  {
+    "kanji": "遠",
+    "amHan": "Viễn",
+    "nghia": "Xa",
+    "onyomi": "エン、オン",
+    "kunyomi": "とお_い",
+    "mnemonic": {
+      "text": "Đi bộ (Sước 辶) trên đường dài để mang quần áo (Y 衣) đi thật XA (VIỄN)."
+    },
+    "examples": [
+      { "word": "遠い", "reading": "とおい", "meaning": "Xa" },
+      { "word": "永遠", "reading": "えいえん", "meaning": "Vĩnh viễn" },
+      { "word": "遠足", "reading": "えんそく", "meaning": "Dã ngoại" },
+      { "word": "遠慮", "reading": "えんりょ", "meaning": "Ngần ngại, khách sáo" },
+      { "word": "遠距離", "reading": "えんきょり", "meaning": "Khoảng cách xa" }
+    ]
+  },
+  {
+    "kanji": "別",
+    "amHan": "Biệt",
+    "nghia": "Khác, chia tay",
+    "onyomi": "ベツ",
+    "kunyomi": "わ_ける、わ_かれる",
+    "mnemonic": {
+      "text": "Dùng Đao (⺉) để chia tách khẩu (口) hình lực (力) ra riêng BIỆT."
+    },
+    "examples": [
+      { "word": "別れる", "reading": "わかれる", "meaning": "Chia tay, ly biệt" },
+      { "word": "別に", "reading": "べつに", "meaning": "Không có gì, riêng biệt" },
+      { "word": "特別", "reading": "とくべつ", "meaning": "Đặc biệt" },
+      { "word": "個別", "reading": "こべつ", "meaning": "Riêng biệt" },
+      { "word": "差別", "reading": "さべつ", "meaning": "Phân biệt đối xử" },
+      { "word": "区別", "reading": "くべつ", "meaning": "Phân biệt (loại hình)" }
+    ]
+  },
+  {
+    "kanji": "昔",
+    "amHan": "Tích",
+    "nghia": "Ngày xưa",
+    "onyomi": "セキ、シャク",
+    "kunyomi": "むかし",
+    "mnemonic": {
+      "text": "Ngày xưa thì Nhật (日) hay có 20 (廿) lớp cỏ chồng lên nhau tạo thành ký ức CỔ TÍCH."
+    },
+    "examples": [
+      { "word": "昔", "reading": "むかし", "meaning": "Ngày xưa" },
+      { "word": "昔話", "reading": "むかしばなし", "meaning": "Truyện cổ tích" },
+      { "word": "大昔", "reading": "おおむかし", "meaning": "Thời xa xưa" },
+      { "word": "今昔", "reading": "こんじゃく", "meaning": "Nay và xưa" }
+    ]
+  },
+  {
+    "kanji": "借",
+    "amHan": "Tá",
+    "nghia": "Mượn",
+    "onyomi": "シャク",
+    "kunyomi": "か_りる",
+    "mnemonic": {
+      "text": "Người (亻) đi mượn lại những món đồ của ngày xưa (Tích 昔)."
+    },
+    "examples": [
+      { "word": "借りる", "reading": "かりる", "meaning": "Vay, mượn" },
+      { "word": "借金", "reading": "しゃっきん", "meaning": "Khoản nợ, tiền vay" },
+      { "word": "借用書", "reading": "しゃくようしょ", "meaning": "Giấy vay nợ" },
+      { "word": "貸借", "reading": "たいしゃく", "meaning": "Cho vay và mượn" },
+      { "word": "借家", "reading": "しゃくや", "meaning": "Nhà thuê" }
+    ]
+  },
+  {
+    "kanji": "経",
+    "amHan": "Kinh",
+    "nghia": "Kinh tế, trải qua",
+    "onyomi": "ケイ、キョウ",
+    "kunyomi": "へ_る、た_つ",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (Mịch 糸) kết nối các vùng đất Thánh (⺢) để viết KINH văn."
+    },
+    "examples": [
+      { "word": "経つ", "reading": "たつ", "meaning": "Trôi qua (thời gian)" },
+      { "word": "経営する", "reading": "けいえいする", "meaning": "Kinh doanh" },
+      { "word": "経済", "reading": "けいざい", "meaning": "Kinh tế" },
+      { "word": "経験", "reading": "けいけん", "meaning": "Kinh nghiệm" },
+      { "word": "経由", "reading": "けいゆ", "meaning": "Thông qua, quá cảnh" }
+    ]
+  },
+  {
+    "kanji": "軽",
+    "amHan": "Khinh",
+    "nghia": "Nhẹ",
+    "onyomi": "ケイ",
+    "kunyomi": "かる_い",
+    "mnemonic": {
+      "text": "Chiếc xe (Xa 車) chạy trên đường thẳng (Thánh ⺢) rất NHẸ (KHINH)."
+    },
+    "examples": [
+      { "word": "軽い", "reading": "かるい", "meaning": "Nhẹ" },
+      { "word": "軽食", "reading": "けいしょく", "meaning": "Bữa ăn nhẹ" },
+      { "word": "軽傷", "reading": "けいしょう", "meaning": "Vết thương nhẹ" },
+      { "word": "軽視", "reading": "けいし", "meaning": "Coi nhẹ, xem thường" },
+      { "word": "軽自動車", "reading": "けいじどうしゃ", "meaning": "Xe ô tô cỡ nhỏ" }
+    ]
+  },
+  {
+    "kanji": "男",
+    "amHan": "Nam",
+    "nghia": "Đàn ông",
+    "onyomi": "ダン、ナン",
+    "kunyomi": "おとこ",
+    "mnemonic": {
+      "text": "Người dùng Lực (力) làm việc trên Ruộng (Điền 田) là người đàn ông (NAM)."
+    },
+    "examples": [
+      { "word": "男", "reading": "おとこ", "meaning": "Đàn ông, con trai" },
+      { "word": "男女", "reading": "だんじょ", "meaning": "Nam nữ" },
+      { "word": "長男", "reading": "ちょうなん", "meaning": "Trưởng nam" },
+      { "word": "男性", "reading": "だんせい", "meaning": "Giới tính nam" },
+      { "word": "男の子", "reading": "おとこのこ", "meaning": "Bé trai" }
+    ]
+  },
+  {
+    "kanji": "加",
+    "amHan": "Gia",
+    "nghia": "Thêm vào",
+    "onyomi": "カ",
+    "kunyomi": "くわ_える、くわ_わる",
+    "mnemonic": {
+      "text": "Dùng miệng (Khẩu 口) để ra lệnh dùng Sức lực (力) THÊM (GIA) vào."
+    },
+    "examples": [
+      { "word": "加える", "reading": "くわえる", "meaning": "Thêm vào" },
+      { "word": "参加", "reading": "さんか", "meaning": "Tham gia" },
+      { "word": "加わる", "reading": "くわわる", "meaning": "Gia nhập" },
+      { "word": "追加", "reading": "ついか", "meaning": "Thêm vào, bổ sung" },
+      { "word": "増加", "reading": "ぞうか", "meaning": "Tăng thêm" }
+    ]
+  },
+  {
+    "kanji": "労",
+    "amHan": "Lao",
+    "nghia": "Lao động",
+    "onyomi": "ロウ",
+    "kunyomi": "いたわ_る、ねぎら_う",
+    "mnemonic": {
+      "text": "Dưới ánh sáng lấp lánh (vương miện ⺍) dùng Lực (力) để LAO động."
+    },
+    "examples": [
+      { "word": "労働", "reading": "ろうどう", "meaning": "Lao động" },
+      { "word": "苦労", "reading": "くろう", "meaning": "Vất vả, gian khổ" },
+      { "word": "疲労", "reading": "ひろう", "meaning": "Mệt mỏi" },
+      { "word": "労働者", "reading": "ろうどうしゃ", "meaning": "Người lao động" },
+      { "word": "労力", "reading": "ろうりょく", "meaning": "Sức lao động" }
+    ]
+  },
+  {
+    "kanji": "協",
+    "amHan": "Hiệp",
+    "nghia": "Hợp sức",
+    "onyomi": "キョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Ba người cùng dùng Lực (力) dưới một mái nhà (Thập 十) để HIỆP lực."
+    },
+    "examples": [
+      { "word": "協力", "reading": "きょうりょく", "meaning": "Hợp tác" },
+      { "word": "協会", "reading": "きょうかい", "meaning": "Hiệp hội" },
+      { "word": "協定", "reading": "きょうてい", "meaning": "Hiệp định" },
+      { "word": "妥協", "reading": "だきょう", "meaning": "Thỏa hiệp" },
+      { "word": "共同", "reading": "きょうどう", "meaning": "Cộng đồng, cùng nhau" }
+    ]
+  },
+  {
+    "kanji": "勤",
+    "amHan": "Cần",
+    "nghia": "Chăm chỉ, làm việc",
+    "onyomi": "キン",
+    "kunyomi": "つと_める、つと_まる",
+    "mnemonic": {
+      "text": "Người làm việc ở Cung (廿 + 口) dùng Lực (力) rất CẦN cù."
+    },
+    "examples": [
+      { "word": "勤める", "reading": "つとめる", "meaning": "Làm việc" },
+      { "word": "通勤する", "reading": "つうきんする", "meaning": "Đi làm" },
+      { "word": "勤勉", "reading": "きんべん", "meaning": "Cần cù, siêng năng" },
+      { "word": "転勤", "reading": "てんきん", "meaning": "Chuyển công tác" },
+      { "word": "夜勤", "reading": "やきん", "meaning": "Làm ca đêm" }
+    ]
+  },
+  {
+    "kanji": "勢",
+    "amHan": "Thế",
+    "nghia": "Thế lực, sức mạnh",
+    "onyomi": "セイ、ゼイ",
+    "kunyomi": "いきお_い、はずみ",
+    "mnemonic": {
+      "text": "Trồng cây trên đất (Chấp 執) rồi dùng Lực (力) để tạo ra THẾ mạnh."
+    },
+    "examples": [
+      { "word": "勢い", "reading": "いきおい", "meaning": "Sức mạnh" },
+      { "word": "姿勢", "reading": "しせい", "meaning": "Tác phong, phong cách" },
+      { "word": "大勢", "reading": "おおぜい", "meaning": "Nhiều người" },
+      { "word": "情勢", "reading": "じょうせい", "meaning": "Tình thế, tình hình" },
+      { "word": "勢力", "reading": "せいりょく", "meaning": "Thế lực" }
+    ]
+  },
+  {
+    "kanji": "区",
+    "amHan": "Khu",
+    "nghia": "Khu vực",
+    "onyomi": "ク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Vẽ dấu X vào trong hộp (Hệ 匚) để chia thành từng KHU vực."
+    },
+    "examples": [
+      { "word": "地区", "reading": "ちく", "meaning": "Khu, vùng, quận" },
+      { "word": "区役所", "reading": "くやくしょ", "meaning": "Ủy ban quận" },
+      { "word": "区別", "reading": "くべつ", "meaning": "Phân biệt" },
+      { "word": "区域", "reading": "くいき", "meaning": "Khu vực" },
+      { "word": "区分", "reading": "くぶん", "meaning": "Phân chia" }
+    ]
+  },
+  {
+    "kanji": "欧",
+    "amHan": "Âu",
+    "nghia": "Châu Âu",
+    "onyomi": "オウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người ở KHU (区) đó đang thiếu thốn (Khiếm 欠) là người Châu ÂU."
+    },
+    "examples": [
+      { "word": "欧州", "reading": "おうしゅう", "meaning": "Châu Âu" },
+      { "word": "北欧", "reading": "ほくおう", "meaning": "Bắc Âu" },
+      { "word": "西欧", "reading": "せいおう", "meaning": "Tây Âu" },
+      { "word": "欧米", "reading": "おうべい", "meaning": "Âu Mỹ" }
+    ]
+  }
+]

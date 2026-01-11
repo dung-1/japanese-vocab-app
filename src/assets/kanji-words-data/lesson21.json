@@ -1,0 +1,313 @@
+[
+  {
+    "kanji": "欠",
+    "amHan": "KHIẾM",
+    "nghia": "Thiếu, khiếm khuyết",
+    "onyomi": "ケン、ケツ",
+    "kunyomi": "か_ける、か_く",
+    "mnemonic": {
+      "text": "Hình ảnh một người đang há MIỆNG ngáp vì THIẾU ngủ (KHIẾM khuyết)."
+    },
+    "examples": [
+      { "word": "欠ける", "reading": "かける", "meaning": "thiếu, sót" },
+      { "word": "欠く", "reading": "かく", "meaning": "thiếu" },
+      { "word": "欠点", "reading": "けってん", "meaning": "khuyết điểm" },
+      { "word": "欠席", "reading": "けっせき", "meaning": "vắng mặt" },
+      { "word": "欠伸", "reading": "あくび", "meaning": "ngáp" },
+      { "word": "不可欠", "reading": "ふかけつ", "meaning": "không thể thiếu" }
+    ]
+  },
+  {
+    "kanji": "飲",
+    "amHan": "ẨM",
+    "nghia": "Uống",
+    "onyomi": "イン、オン",
+    "kunyomi": "の_む",
+    "mnemonic": {
+      "text": "Muốn THỰC (ăn) hay ẨM (uống) thì đều phải há MIỆNG (KHIẾM) ra."
+    },
+    "examples": [
+      { "word": "飲む", "reading": "のむ", "meaning": "uống" },
+      { "word": "飲み物", "reading": "のみもの", "meaning": "đồ uống" },
+      { "word": "飲食", "reading": "いんしょく", "meaning": "ăn uống" },
+      { "word": "飲料水", "reading": "いんりょうすい", "meaning": "nước uống" },
+      { "word": "飲み薬", "reading": "のみぐすり", "meaning": "thuốc uống" },
+      { "word": "飲み会", "reading": "のみかい", "meaning": "tiệc rượu, buổi nhậu" }
+    ]
+  },
+  {
+    "kanji": "吹",
+    "amHan": "XUY",
+    "nghia": "Thổi",
+    "onyomi": "スイ",
+    "kunyomi": "ふ_く",
+    "mnemonic": {
+      "text": "Dùng MIỆNG (KHẨU) há ra (KHIẾM) để THỔI lửa."
+    },
+    "examples": [
+      { "word": "吹く", "reading": "ふく", "meaning": "thổi (gió, sáo...)" },
+      { "word": "吹奏楽", "reading": "すいそうがく", "meaning": "nhạc cụ khí (thổi)" },
+      { "word": "吹き出し", "reading": "ふきだし", "meaning": "bong bóng lời thoại" },
+      { "word": "吹雪", "reading": "ふぶき", "meaning": "bão tuyết" },
+      { "word": "息を吹きかける", "reading": "いきをふきかける", "meaning": "hà hơi, thổi hơi" }
+    ]
+  },
+  {
+    "kanji": "姿",
+    "amHan": "TƯ",
+    "nghia": "Dáng điệu, tư thế",
+    "onyomi": "シ",
+    "kunyomi": "すがた",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (NỮ) có dáng vẻ (TƯ) THỨ (lần lượt) rất đẹp."
+    },
+    "examples": [
+      { "word": "姿", "reading": "すがた", "meaning": "bóng dáng, dáng hình" },
+      { "word": "姿勢", "reading": "しせい", "meaning": "tư thế, thái độ" },
+      { "word": "似姿", "reading": "にすがた", "meaning": "mô phỏng, hình dáng giống" },
+      { "word": "後ろ姿", "reading": "うしろすがた", "meaning": "dáng vẻ từ phía sau" },
+      { "word": "容姿", "reading": "ようし", "meaning": "dung mạo, vẻ bề ngoài" }
+    ]
+  },
+  {
+    "kanji": "盗",
+    "amHan": "ĐẠO",
+    "nghia": "Ăn trộm, ăn cắp",
+    "onyomi": "トウ",
+    "kunyomi": "ぬす_む",
+    "mnemonic": {
+      "text": "Kẻ trộm thèm thuồng chảy NƯỚC MIẾNG (KHIẾM) nhìn vào cái ĐĨA (MÃNH) để ăn ĐẠO (trộm)."
+    },
+    "examples": [
+      { "word": "盗む", "reading": "ぬすむ", "meaning": "lấy trộm" },
+      { "word": "盗作", "reading": "とうさく", "meaning": "đạo văn" },
+      { "word": "強盗", "reading": "ごうとう", "meaning": "tên trộm, vụ ăn trộm" },
+      { "word": "盗聴", "reading": "とうちょう", "meaning": "nghe lén" },
+      { "word": "盗難", "reading": "とうなん", "meaning": "vụ trộm" },
+      { "word": "盗撮", "reading": "とうさつ", "meaning": "quay lén, chụp lén" }
+    ]
+  },
+  {
+    "kanji": "歌",
+    "amHan": "CA",
+    "nghia": "Hát, bài hát",
+    "onyomi": "カ",
+    "kunyomi": "うたう、うた",
+    "mnemonic": {
+      "text": "Khả năng (KHẢ) lặp lại nhiều lần bằng MIỆNG (KHIẾM) chính là hát CA."
+    },
+    "examples": [
+      { "word": "歌う", "reading": "うたう", "meaning": "hát" },
+      { "word": "歌", "reading": "うた", "meaning": "bài hát" },
+      { "word": "歌手", "reading": "かしゅ", "meaning": "ca sĩ" },
+      { "word": "歌詞", "reading": "かし", "meaning": "lời bài hát" },
+      { "word": "国歌", "reading": "こっか", "meaning": "quốc ca" },
+      { "word": "和歌", "reading": "わか", "meaning": "thơ Waka Nhật Bản" }
+    ]
+  },
+  {
+    "kanji": "各",
+    "amHan": "CÁC",
+    "nghia": "Mỗi, các, mọi",
+    "onyomi": "カク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới chân (CHI) của CÁC người đều có một cái MIỆNG (KHẨU)."
+    },
+    "examples": [
+      { "word": "各位", "reading": "かくい", "meaning": "các vị" },
+      { "word": "各地", "reading": "かくち", "meaning": "các vùng, khắp nơi" },
+      { "word": "各国", "reading": "かっこく", "meaning": "các nước" },
+      { "word": "各々", "reading": "おのおの", "meaning": "từng người một, mỗi" },
+      { "word": "各種", "reading": "かくしゅ", "meaning": "các loại" }
+    ]
+  },
+  {
+    "kanji": "客",
+    "amHan": "KHÁCH",
+    "nghia": "Khách hàng, khách khứa",
+    "onyomi": "キャク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "CÁC vị khách đang đứng dưới MÁI NHÀ (MIÊN)."
+    },
+    "examples": [
+      { "word": "お客", "reading": "おきゃく", "meaning": "khách" },
+      { "word": "客席", "reading": "きゃくせき", "meaning": "ghế khán giả" },
+      { "word": "観客", "reading": "かんきゃく", "meaning": "quan khách, khán giả" },
+      { "word": "乗客", "reading": "じょうきゃく", "meaning": "hành khách" },
+      { "word": "来客", "reading": "らいきゃく", "meaning": "khách đến chơi" }
+    ]
+  },
+  {
+    "kanji": "額",
+    "amHan": "NGẠCH",
+    "nghia": "Cái trán, hạn mức, số tiền",
+    "onyomi": "ガク",
+    "kunyomi": "ひたい",
+    "mnemonic": {
+      "text": "Khách (KHÁCH) đến chơi thường để lộ cái ĐẦU (HIỆT) và cái TRÁN (NGẠCH)."
+    },
+    "examples": [
+      { "word": "額", "reading": "ひたい", "meaning": "cái trán" },
+      { "word": "金額", "reading": "きんがく", "meaning": "số tiền" },
+      { "word": "全額", "reading": "ぜんがく", "meaning": "toàn bộ số tiền" },
+      { "word": "額縁", "reading": "がくぶち", "meaning": "khung tranh" },
+      { "word": "少額", "reading": "しょうがく", "meaning": "số tiền nhỏ" }
+    ]
+  },
+  {
+    "kanji": "格",
+    "amHan": "CÁCH",
+    "nghia": "Tư cách, kiểu cách",
+    "onyomi": "カク、コウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "CÁC loại CÂY (MỘC) đều có tiêu chuẩn (CÁCH) riêng."
+    },
+    "examples": [
+      { "word": "資格", "reading": "しかく", "meaning": "tư cách, bằng cấp" },
+      { "word": "格式", "reading": "かくしき", "meaning": "kiểu cách, nghi thức" },
+      { "word": "格好", "reading": "かっこう", "meaning": "ngoại hình, vẻ ngoài" },
+      { "word": "合格", "reading": "ごうかく", "meaning": "thi đỗ, trúng tuyển" },
+      { "word": "性格", "reading": "せいかく", "meaning": "tính cách" },
+      { "word": "格安", "reading": "かくやす", "meaning": "giá rẻ bất ngờ" }
+    ]
+  },
+  {
+    "kanji": "落",
+    "amHan": "LẠC",
+    "nghia": "Rơi, rụng",
+    "onyomi": "ラク",
+    "kunyomi": "お_ちる、お_ち、お_とす",
+    "mnemonic": {
+      "text": "CỎ (THẢO) và NƯỚC (THỦY) chảy xuống CÁC vùng khác nhau (LẠC)."
+    },
+    "examples": [
+      { "word": "落ちる", "reading": "おちる", "meaning": "rơi, rụng" },
+      { "word": "落ち着く", "reading": "おちつく", "meaning": "bình tĩnh" },
+      { "word": "落とす", "reading": "おとす", "meaning": "làm rơi" },
+      { "word": "落石", "reading": "らくせき", "meaning": "đá rơi" },
+      { "word": "落下", "reading": "らっか", "meaning": "rơi xuống" },
+      { "word": "落選", "reading": "らくせん", "meaning": "đắc cử thất bại (trượt)" }
+    ]
+  },
+  {
+    "kanji": "絡",
+    "amHan": "LẠC",
+    "nghia": "Liên lạc, quấn quýt",
+    "onyomi": "ラク",
+    "kunyomi": "から_む、から_まる",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (MỊCH) để LIÊN LẠC với CÁC nơi."
+    },
+    "examples": [
+      { "word": "連絡", "reading": "れんらく", "meaning": "liên lạc" },
+      { "word": "絡む", "reading": "からむ", "meaning": "rối rắm, liên quan" },
+      { "word": "絡まる", "reading": "からまる", "meaning": "bị vướng vào" },
+      { "word": "脈絡", "reading": "みゃくらく", "meaning": "mạch lạc" }
+    ]
+  }
+,
+  {
+    "kanji": "几",
+    "amHan": "KỶ",
+    "nghia": "Cái bàn nhỏ, ghế tựa",
+    "onyomi": "キ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình ảnh cái GHẾ gỗ đơn sơ thời xưa (bộ KỶ)."
+    },
+    "examples": [
+      { "word": "几帳面", "reading": "きちょうめん", "meaning": "cẩn thận, ngăn nắp" },
+      { "word": "几", "reading": "つくえ", "meaning": "cái bàn (cách đọc hiếm của bộ thủ)" },
+      { "word": "几案", "reading": "きあん", "meaning": "mặt bàn" }
+    ]
+  },
+  {
+    "kanji": "机",
+    "amHan": "KỶ",
+    "nghia": "Cái bàn",
+    "onyomi": "キ",
+    "kunyomi": "つくえ",
+    "mnemonic": {
+      "text": "Cái BÀN (KỶ) thường được làm bằng GỖ (MỘC)."
+    },
+    "examples": [
+      { "word": "机", "reading": "つくえ", "meaning": "cái bàn" },
+      { "word": "机上の空論", "reading": "きじょうのくうろん", "meaning": "lý thuyết suông (trên bàn giấy)" },
+      { "word": "学習机", "reading": "がくしゅうづくえ", "meaning": "bàn học" },
+      { "word": "机下", "reading": "きか", "meaning": "dưới bàn (cách viết kính ngữ trong thư từ)" }
+    ]
+  },
+  {
+    "kanji": "肌",
+    "amHan": "CƠ",
+    "nghia": "Da, bề mặt",
+    "onyomi": "キ",
+    "kunyomi": "はだ",
+    "mnemonic": {
+      "text": "Bề mặt của CƠ thể (NGUYỆT/NHỤC - thịt) thường nhẵn như mặt BÀN (KỶ)."
+    },
+    "examples": [
+      { "word": "肌", "reading": "はだ", "meaning": "da" },
+      { "word": "肌着", "reading": "はだぎ", "meaning": "quần áo lót (mặc sát da)" },
+      { "word": "地肌", "reading": "じはだ", "meaning": "bề mặt đất, da đầu" },
+      { "word": "素肌", "reading": "すはだ", "meaning": "da trần, da tự nhiên" },
+      { "word": "肌寒い", "reading": "はだざむい", "meaning": "lạnh thấu da" },
+      { "word": "美肌", "reading": "びはだ", "meaning": "làn da đẹp" }
+    ]
+  },
+  {
+    "kanji": "処",
+    "amHan": "XỬ",
+    "nghia": "Xử lý, nơi chốn",
+    "onyomi": "ショ",
+    "kunyomi": "ところ、お_る、-こ",
+    "mnemonic": {
+      "text": "Cứ đi bộ (TRUY) một lúc rồi lại dừng lại ngồi lên GHẾ (KỶ) để XỬ lý công việc."
+    },
+    "examples": [
+      { "word": "処理", "reading": "しょり", "meaning": "xử lý, giải quyết" },
+      { "word": "処分", "reading": "しょぶん", "meaning": "vứt bỏ, xử phạt" },
+      { "word": "処置", "reading": "しょち", "meaning": "biện pháp xử lý" },
+      { "word": "処方箋", "reading": "しょほうせん", "meaning": "đơn thuốc" },
+      { "word": "対処", "reading": "たいしょ", "meaning": "đối phó, ứng phó" },
+      { "word": "あちこち", "reading": "あちこち", "meaning": "đây đó, khắp nơi (Hán tự là 処処)" }
+    ]
+  },
+  {
+    "kanji": "冗",
+    "amHan": "NHŨNG",
+    "nghia": "Thừa, rườm rà, nhàn rỗi",
+    "onyomi": "ジョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong NHÀ (MIÊN) mà chỉ toàn đặt GHẾ (KỶ) để ngồi không thì thật là NHŨNG (dư thừa, lười biếng)."
+    },
+    "examples": [
+      { "word": "冗談", "reading": "じょうだん", "meaning": "nói đùa" },
+      { "word": "冗長", "reading": "じょうちょう", "meaning": "dài dòng, rườm rà" },
+      { "word": "冗費", "reading": "じょうひ", "meaning": "chi phí dư thừa" },
+      { "word": "冗文", "reading": "じょうぶん", "meaning": "văn chương dài dòng" }
+    ]
+  },
+  {
+    "kanji": "恐",
+    "amHan": "KHỦNG",
+    "nghia": "Sợ hãi, kinh khủng",
+    "onyomi": "キョウ",
+    "kunyomi": "おそ_れる、おそ_ろしい",
+    "mnemonic": {
+      "text": "Tâm (TÂM) lo sợ rằng CÔNG (CÔNG) việc sẽ bị đổ vỡ dưới bàn tay (PHÀN - phía trên) thì thật là KHỦNG khiếp."
+    },
+    "examples": [
+      { "word": "恐れる", "reading": "おそれる", "meaning": "sợ, lo sợ" },
+      { "word": "恐ろしい", "reading": "おそろしい", "meaning": "đáng sợ, kinh khủng" },
+      { "word": "恐縮", "reading": "きょうしゅく", "meaning": "xin lỗi, làm phiền (thấy ngại)" },
+      { "word": "恐怖", "reading": "きょうふ", "meaning": "khủng bố, sợ hãi" },
+      { "word": "恐竜", "reading": "きょうりゅう", "meaning": "khủng long" },
+      { "word": "恐れ入ります", "reading": "おそれいります", "meaning": "xin lỗi (kính ngữ dùng khi làm phiền ai đó)" }
+    ]
+  }
+]

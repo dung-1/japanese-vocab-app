@@ -1,0 +1,228 @@
+[
+  {
+    "kanji": "自",
+    "amHan": "Tự",
+    "nghia": "Tự thân, tự mình",
+    "onyomi": "ジ、シ",
+    "kunyomi": "みずか_ら",
+    "mnemonic": {
+      "text": "Hình ảnh cái MŨI (tự chỉ vào mũi mình để nói về BẢN THÂN)"
+    },
+    "examples": [
+      { "word": "自分", "reading": "じぶん", "meaning": "Bản thân" },
+      { "word": "自由", "reading": "じゆう", "meaning": "Tự do" },
+      { "word": "自動車", "reading": "じどうしゃ", "meaning": "Xe ô tô" },
+      { "word": "自信", "reading": "じしん", "meaning": "Tự tin" },
+      { "word": "自然", "reading": "しぜん", "meaning": "Tự nhiên" },
+      { "word": "自ら", "reading": "みずから", "meaning": "Đích thân" }
+    ]
+  },
+  {
+    "kanji": "息",
+    "amHan": "Tức",
+    "nghia": "Hơi thở, con trai",
+    "onyomi": "ソク",
+    "kunyomi": "いき",
+    "mnemonic": {
+      "text": "TỰ (自) mình cảm nhận hơi thở từ trong TÂM (心)"
+    },
+    "examples": [
+      { "word": "息子", "reading": "むすこ", "meaning": "Con trai" },
+      { "word": "息", "reading": "いき", "meaning": "Hơi thở" },
+      { "word": "消息", "reading": "しょうそく", "meaning": "Tin tức, tình hình" },
+      { "word": "溜息", "reading": "ためいき", "meaning": "Tiếng thở dài" },
+      { "word": "息切れ", "reading": "いきぎれ", "meaning": "Hụt hơi" },
+      { "word": "利息", "reading": "りそく", "meaning": "Lãi suất" }
+    ]
+  },
+  {
+    "kanji": "塩",
+    "amHan": "Diêm",
+    "nghia": "Muối",
+    "onyomi": "エン",
+    "kunyomi": "しお",
+    "mnemonic": {
+      "text": "Trên THỔ (土), người ta dùng GIÁM (cái chậu) để phơi nước biển thành MUỐI"
+    },
+    "examples": [
+      { "word": "塩", "reading": "しお", "meaning": "Muối" },
+      { "word": "塩水", "reading": "しおみず", "meaning": "Nước muối" },
+      { "word": "食塩", "reading": "しょくえん", "meaning": "Muối ăn" },
+      { "word": "塩分", "reading": "えんぶん", "meaning": "Lượng muối" },
+      { "word": "塩素", "reading": "えんそ", "meaning": "Clo" }
+    ]
+  },
+  {
+    "kanji": "温",
+    "amHan": "Ôn",
+    "nghia": "Ấm áp",
+    "onyomi": "オン",
+    "kunyomi": "あたた_か、あたた_まる、あたた_める",
+    "mnemonic": {
+      "text": "NƯỚC (氵) trong NHẬT (日) mờ mờ dưới cái ĐĨA (皿) thì rất ẤM"
+    },
+    "examples": [
+      { "word": "温度", "reading": "おんど", "meaning": "Nhiệt độ" },
+      { "word": "気温", "reading": "きおん", "meaning": "Nhiệt độ không khí" },
+      { "word": "温泉", "reading": "おんせん", "meaning": "Suối nước nóng" },
+      { "word": "温かい", "reading": "あたたかい", "meaning": "Ấm áp (cảm giác)" },
+      { "word": "温暖化", "reading": "おんだんか", "meaning": "Nóng lên toàn cầu" },
+      { "word": "温める", "reading": "あたためる", "meaning": "Làm nóng, hâm nóng" }
+    ]
+  },
+  {
+    "kanji": "貧",
+    "amHan": "Bần",
+    "nghia": "Nghèo",
+    "onyomi": "ヒン、ビン",
+    "kunyomi": "まず_しい",
+    "mnemonic": {
+      "text": "CHIA (分) hết TIỀN (貝) đi thì sẽ trở nên NGHÈO"
+    },
+    "examples": [
+      { "word": "貧しい", "reading": "まずしい", "meaning": "Nghèo đói" },
+      { "word": "貧乏", "reading": "びんぼう", "meaning": "Bần cùng, nghèo khổ" },
+      { "word": "貧困", "reading": "ひんこん", "meaning": "Nghèo túng" },
+      { "word": "貧血", "reading": "ひんけつ", "meaning": "Thiếu máu" },
+      { "word": "貧富", "reading": "ひんぷ", "meaning": "Giàu nghèo" }
+    ]
+  },
+  {
+    "kanji": "含",
+    "amHan": "Hàm",
+    "nghia": "Bao gồm, ngậm",
+    "onyomi": "ガン",
+    "kunyomi": "ふく_む、ふく_める",
+    "mnemonic": {
+      "text": "NAY (今) trong MIỆNG (口) đang NGẬM (Hàm) cái gì đó"
+    },
+    "examples": [
+      { "word": "含む", "reading": "ふくむ", "meaning": "Bao gồm" },
+      { "word": "含める", "reading": "ふくめる", "meaning": "Gộp vào, tính vào" },
+      { "word": "含意", "reading": "がんい", "meaning": "Hàm ý" },
+      { "word": "含有", "reading": "がんゆう", "meaning": "Chứa đựng" },
+      { "word": "含嗽", "reading": "がんそう", "meaning": "Súc miệng" }
+    ]
+  },
+  {
+    "kanji": "是",
+    "amHan": "Thị",
+    "nghia": "Đúng, thị phi",
+    "onyomi": "ゼ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Mỗi NGÀY (日) đều đi THẲNG (疋 - biến thể) là điều ĐÚNG"
+    },
+    "examples": [
+      { "word": "是非", "reading": "ぜひ", "meaning": "Nhất định, đúng sai" },
+      { "word": "是認", "reading": "ぜにん", "meaning": "Tán thành, chấp nhận" },
+      { "word": "是正", "reading": "ぜせい", "meaning": "Chỉnh đốn, sửa cho đúng" },
+      { "word": "国是", "reading": "こくぜ", "meaning": "Quốc sách" }
+    ]
+  },
+  {
+    "kanji": "堤",
+    "amHan": "Đê",
+    "nghia": "Con đê",
+    "onyomi": "テイ",
+    "kunyomi": "つつみ",
+    "mnemonic": {
+      "text": "Đất (土) được đắp ĐÚNG (是) chỗ để làm con ĐÊ"
+    },
+    "examples": [
+      { "word": "堤", "reading": "つつみ", "meaning": "Bờ đê" },
+      { "word": "堤防", "reading": "ていぼう", "meaning": "Đê điều, phòng vệ" },
+      { "word": "防波堤", "reading": "ぼうはてい", "meaning": "Đê chắn sóng" },
+      { "word": "築堤", "reading": "ちくてい", "meaning": "Xây đê" }
+    ]
+  },
+  {
+    "kanji": "題",
+    "amHan": "Đề",
+    "nghia": "Chủ đề, vấn đề",
+    "onyomi": "ダイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Điều ĐÚNG (是) đắn cần giữ trong ĐẦU (頁) chính là CHỦ ĐỀ"
+    },
+    "examples": [
+      { "word": "宿題", "reading": "しゅくだい", "meaning": "Bài tập về nhà" },
+      { "word": "問題", "reading": "もんだい", "meaning": "Vấn đề" },
+      { "word": "話題", "reading": "わだい", "meaning": "Chủ đề nói chuyện" },
+      { "word": "題名", "reading": "だいめい", "meaning": "Nhan đề, tên" },
+      { "word": "主題", "reading": "しゅだい", "meaning": "Chủ đề chính" },
+      { "word": "提出", "reading": "ていしゅつ", "meaning": "Nộp (bài)" }
+    ]
+  },
+  {
+    "kanji": "提",
+    "amHan": "Đề",
+    "nghia": "Đưa ra, đề nghị",
+    "onyomi": "テイ、チョウ、ダイ",
+    "kunyomi": "さ_げる",
+    "mnemonic": {
+      "text": "Dùng TAY (扌) đưa ra những điều ĐÚNG (是) để ĐỀ NGHỊ"
+    },
+    "examples": [
+      { "word": "提案", "reading": "ていあん", "meaning": "Đề án, đề nghị" },
+      { "word": "提供", "reading": "ていきょう", "meaning": "Cung cấp" },
+      { "word": "提灯", "reading": "ちょうちん", "meaning": "Đèn lồng" },
+      { "word": "前提", "reading": "ぜんてい", "meaning": "Tiền đề" },
+      { "word": "提携", "reading": "ていけい", "meaning": "Hợp tác" },
+      { "word": "手提げ", "reading": "てさげ", "meaning": "Túi xách tay" }
+    ]
+  },
+  {
+    "kanji": "作",
+    "amHan": "Tác",
+    "nghia": "Chế tác, làm ra",
+    "onyomi": "サク、サ",
+    "kunyomi": "つく_る",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) dùng dao (phần bên phải) để SÁNG TÁC"
+    },
+    "examples": [
+      { "word": "作る", "reading": "つくる", "meaning": "Làm, tạo ra" },
+      { "word": "作品", "reading": "さくひん", "meaning": "Tác phẩm" },
+      { "word": "作文", "reading": "さくぶん", "meaning": "Bài văn xuôi" },
+      { "word": "動作", "reading": "どうさ", "meaning": "Động tác" },
+      { "word": "手作り", "reading": "てづくり", "meaning": "Làm bằng tay" },
+      { "word": "作り方", "reading": "つくりかた", "meaning": "Cách làm" }
+    ]
+  },
+  {
+    "kanji": "昨",
+    "amHan": "Tạc",
+    "nghia": "Hôm qua, trước",
+    "onyomi": "サク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MẶT TRỜI (日) của NGÀY HÔM QUA (Tạc) đã cũ rồi"
+    },
+    "examples": [
+      { "word": "昨日", "reading": "きのう/さくじつ", "meaning": "Hôm qua" },
+      { "word": "昨年", "reading": "さくねん", "meaning": "Năm ngoái" },
+      { "word": "昨晩", "reading": "さくばん", "meaning": "Tối qua" },
+      { "word": "昨夜", "reading": "さくや", "meaning": "Đêm qua" },
+      { "word": "一昨日", "reading": "おととい", "meaning": "Hôm kia" }
+    ]
+  },
+  {
+    "kanji": "草",
+    "amHan": "Thảo",
+    "nghia": "Cỏ",
+    "onyomi": "ソウ",
+    "kunyomi": "くさ",
+    "mnemonic": {
+      "text": "CỎ (艹) mọc sớm dưới ánh mặt TRỜI (日) của buổi SỚM (早)"
+    },
+    "examples": [
+      { "word": "草", "reading": "くさ", "meaning": "Cỏ" },
+      { "word": "野草", "reading": "やそう", "meaning": "Cỏ dại" },
+      { "word": "海草", "reading": "かいそう", "meaning": "Tảo biển" },
+      { "word": "草原", "reading": "そうげん", "meaning": "Thảo nguyên" },
+      { "word": "雑草", "reading": "ざっそう", "meaning": "Cỏ dại (nghĩa tiêu cực)" },
+      { "word": "草履", "reading": "ぞうり", "meaning": "Dép cỏ" }
+    ]
+  }
+]

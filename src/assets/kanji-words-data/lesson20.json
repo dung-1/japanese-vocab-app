@@ -1,0 +1,307 @@
+[
+  {
+    "kanji": "工",
+    "amHan": "CÔNG",
+    "nghia": "Công việc, thợ",
+    "onyomi": "コウ、ク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình ảnh cái thước thợ của người nhân CÔNG đang làm việc."
+    },
+    "examples": [
+      { "word": "工場", "reading": "こうじょう", "meaning": "Nhà máy, công xưởng" },
+      { "word": "工事", "reading": "こうじ", "meaning": "Công trường, thi công" },
+      { "word": "工業", "reading": "こうぎょう", "meaning": "Công nghiệp" },
+      { "word": "工夫", "reading": "くふう", "meaning": "Công phu, tìm tòi" },
+      { "word": "大工", "reading": "だいく", "meaning": "Thợ mộc" },
+      { "word": "工程", "reading": "こうてい", "meaning": "Trình tự làm việc, công đoạn" }
+    ]
+  },
+  {
+    "kanji": "攻",
+    "amHan": "CÔNG",
+    "nghia": "Tấn công, công kích",
+    "onyomi": "コウ",
+    "kunyomi": "せめる",
+    "mnemonic": {
+      "text": "Người nhân CÔNG (工) dùng tay cầm roi (Phục 攵) để TẤN CÔNG."
+    },
+    "examples": [
+      { "word": "攻撃", "reading": "こうげき", "meaning": "Công kích, tấn công" },
+      { "word": "専攻", "reading": "せんこう", "meaning": "Chuyên ngành" },
+      { "word": "攻勢", "reading": "こうせい", "meaning": "Thế công, tấn công" },
+      { "word": "攻める", "reading": "せめる", "meaning": "Tấn công, công kích (v)" },
+      { "word": "攻防", "reading": "こうぼう", "meaning": "Công và thủ" },
+      { "word": "速攻", "reading": "そっこう", "meaning": "Tấn công nhanh" }
+    ]
+  },
+  {
+    "kanji": "功",
+    "amHan": "CÔNG",
+    "nghia": "Công lao, thành tựu",
+    "onyomi": "コウ、ク",
+    "kunyomi": "いさお",
+    "mnemonic": {
+      "text": "Dùng sức LỰC (力) làm CÔNG (工) việc thì sẽ đạt được THÀNH CÔNG."
+    },
+    "examples": [
+      { "word": "成功", "reading": "せいこう", "meaning": "Thành công" },
+      { "word": "功績", "reading": "こうせき", "meaning": "Thành tích, công lao" },
+      { "word": "功労", "reading": "こうろう", "meaning": "Công lao" },
+      { "word": "功徳", "reading": "くどく", "meaning": "Công đức" },
+      { "word": "不成功", "reading": "ふせいこう", "meaning": "Thất bại" },
+      { "word": "年功", "reading": "ねんこう", "meaning": "Thâm niên công tác" }
+    ]
+  },
+  {
+    "kanji": "貢",
+    "amHan": "CỐNG",
+    "nghia": "Cống nạp, đóng góp",
+    "onyomi": "コウ、ク",
+    "kunyomi": "みつぐ",
+    "mnemonic": {
+      "text": "Người nhân CÔNG (工) đem TIỀN/BỎA (貝) đi CỐNG nạp."
+    },
+    "examples": [
+      { "word": "貢献", "reading": "こうけん", "meaning": "Cống hiến" },
+      { "word": "貢ぐ", "reading": "みつぐ", "meaning": "Chu cấp, dâng nạp" },
+      { "word": "貢物", "reading": "みつぎもの", "meaning": "Vật phẩm cống nạp" },
+      { "word": "朝貢", "reading": "ちょうこう", "meaning": "Triều cống" },
+      { "word": "年貢", "reading": "ねんぐ", "meaning": "Thuế địa bạ thời xưa" }
+    ]
+  },
+  {
+    "kanji": "虹",
+    "amHan": "HỒNG",
+    "nghia": "Cầu vồng",
+    "onyomi": "コウ",
+    "kunyomi": "にじ",
+    "mnemonic": {
+      "text": "Con CÔN TRÙNG (虫) bò trên công việc (工) nhìn thấy CẦU VỒNG."
+    },
+    "examples": [
+      { "word": "虹", "reading": "にじ", "meaning": "Cầu vồng" },
+      { "word": "虹色", "reading": "にじいろ", "meaning": "Màu cầu vồng" },
+      { "word": "虹彩", "reading": "こうさい", "meaning": "Mống mắt (y học)" },
+      { "word": "初虹", "reading": "はつにじ", "meaning": "Cầu vồng đầu mùa" }
+    ]
+  },
+  {
+    "kanji": "項",
+    "amHan": "HẠNG",
+    "nghia": "Mục, điều khoản, cái gáy",
+    "onyomi": "コウ",
+    "kunyomi": "うなじ",
+    "mnemonic": {
+      "text": "Ghi chép công việc (工) lên ĐẦU (頁) từng HẠNG mục."
+    },
+    "examples": [
+      { "word": "項目", "reading": "こうもく", "meaning": "Hạng mục" },
+      { "word": "事項", "reading": "じこう", "meaning": "Điều khoản, sự việc" },
+      { "word": "要項", "reading": "ようこう", "meaning": "Các mục quan trọng" },
+      { "word": "多項式", "reading": "たこうしき", "meaning": "Đa thức (toán học)" },
+      { "word": "うなじ", "reading": "うなじ", "meaning": "Cái gáy" },
+      { "word": "条項", "reading": "じょうこう", "meaning": "Điều khoản (hợp đồng)" }
+    ]
+  },
+  
+  {
+    "kanji": "空",
+    "amHan": "KHÔNG",
+    "nghia": "Bầu trời, trống rỗng",
+    "onyomi": "クウ",
+    "kunyomi": "そら、から、あ_く、あ_ける",
+    "mnemonic": {
+      "text": "Dưới mái nhà (Miên 宀) có cái hang (Huyệt 穴) làm việc (Công 工) tạo ra khoảng KHÔNG."
+    },
+    "examples": [
+      { "word": "空気", "reading": "くうき", "meaning": "Không khí" },
+      { "word": "空港", "reading": "くうこう", "meaning": "Sân bay" },
+      { "word": "航空", "reading": "こうくu", "meaning": "Hàng không" },
+      { "word": "空手", "reading": "からて", "meaning": "Võ Karate (Không thủ)" },
+      { "word": "空く", "reading": "あく", "meaning": "Trống, rỗng" },
+      { "word": "空", "reading": "そら", "meaning": "Bầu trời" }
+    ]
+  },
+  {
+    "kanji": "合",
+    "amHan": "HỢP",
+    "nghia": "Phù hợp, kết hợp",
+    "onyomi": "ゴウ、カッ、ガッ",
+    "kunyomi": "あ_u、あ_わせる",
+    "mnemonic": {
+      "text": "MỘT (Nhất 一) NGƯỜI (Nhân 人) mở MIỆNG (Khẩu 口) nói lời phù HỢP."
+    },
+    "examples": [
+      { "word": "合格", "reading": "ごうかく", "meaning": "Thi đỗ, trúng tuyển" },
+      { "word": "場合", "reading": "ばあい", "meaning": "Trường hợp" },
+      { "word": "具合", "reading": "ぐあい", "meaning": "Trạng thái, tình trạng" },
+      { "word": "試合", "reading": "しあい", "meaning": "Trận đấu" },
+      { "word": "間に合う", "reading": "まにあう", "meaning": "Kịp thời" },
+      { "word": "組合", "reading": "くみあい", "meaning": "Nghiệp đoàn, hiệp hội" }
+    ]
+  },
+  {
+    "kanji": "給",
+    "amHan": "CẤP",
+    "nghia": "Cung cấp, lương",
+    "onyomi": "キュウ",
+    "kunyomi": "たま_う",
+    "mnemonic": {
+      "text": "Dùng SỢI CHỈ (Mịch 糸) kết HỢP (合) lại để CUNG CẤP cho mọi người."
+    },
+    "examples": [
+      { "word": "給料", "reading": "きゅうりょう", "meaning": "Tiền lương" },
+      { "word": "供給", "reading": "きょうきゅう", "meaning": "Cung cấp" },
+      { "word": "支給", "reading": "しきゅう", "meaning": "Chi trả, cung cấp" },
+      { "word": "給食", "reading": "きゅうしょく", "meaning": "Cơm hộp học đường/công ty" },
+      { "word": "給与", "reading": "きゅうよ", "meaning": "Tiền công, lương bổng" },
+      { "word": "昇給", "reading": "しょうきゅう", "meaning": "Tăng lương" }
+    ]
+  },
+  {
+    "kanji": "答",
+    "amHan": "ĐÁP",
+    "nghia": "Trả lời",
+    "onyomi": "トウ",
+    "kunyomi": "こた_え、こた_える",
+    "mnemonic": {
+      "text": "Viết lời ĐÁP án lên thẻ TRE (Trúc ⺮) cho phù HỢP (合)."
+    },
+    "examples": [
+      { "word": "答え", "reading": "こたえ", "meaning": "Câu trả lời" },
+      { "word": "回答", "reading": "かいとう", "meaning": "Hồi đáp, đáp án" },
+      { "word": "応答", "reading": "おうとう", "meaning": "Ứng đáp, phản hồi" },
+      { "word": "答案", "reading": "とう안", "meaning": "Bản trả lời (bài thi)" },
+      { "word": "口答", "reading": "こうとう", "meaning": "Trả lời bằng miệng" },
+      { "word": "解答", "reading": "かいとう", "meaning": "Giải đáp" }
+    ]
+  },
+  {
+    "kanji": "外",
+    "amHan": "NGOẠI",
+    "nghia": "Bên ngoài",
+    "onyomi": "ガイ",
+    "kunyomi": "そと、はず_す、はず_れる",
+    "mnemonic": {
+      "text": "Buổi TỐI (Tịch 夕) dùng CÂY GẬY (Bốc 卜) đi ra NGOÀI đường."
+    },
+    "examples": [
+      { "word": "外国", "reading": "がいこく", "meaning": "Nước ngoài" },
+      { "word": "外出", "reading": "がいしゅつ", "meaning": "Đi ra ngoài" },
+      { "word": "意外", "reading": "いがい", "meaning": "Ngoài dự tính" },
+      { "word": "外食", "reading": "がいしょく", "meaning": "Ăn ngoài" },
+      { "word": "外科", "reading": "げか", "meaning": "Ngoại khoa" },
+      { "word": "外す", "reading": "はずす", "meaning": "Tháo ra, sai lệch" }
+    ]
+  }
+,
+  {
+    "kanji": "夢",
+    "amHan": "MỘNG",
+    "nghia": "Giấc mơ, chiêm bao",
+    "onyomi": "ム",
+    "kunyomi": "ゆめ",
+    "mnemonic": {
+      "text": "Dưới lớp CỎ (Thảo 艹), giữa ĐÊM (Tịch 夕), đôi MẮT (Mục 目) nằm bất động (Mành 罒) tạo nên giấc MỘNG."
+    },
+    "examples": [
+      { "word": "夢", "reading": "ゆめ", "meaning": "Giấc mơ" },
+      { "word": "夢中", "reading": "むちゅう", "meaning": "Say sưa, miệt mài" },
+      { "word": "悪夢", "reading": "あくむ", "meaning": "Ác mộng" },
+      { "word": "初夢", "reading": "はつゆめ", "meaning": "Giấc mơ đầu năm mới" },
+      { "word": "正夢", "reading": "まさゆめ", "meaning": "Giấc mơ thành sự thật" },
+      { "word": "夢見る", "reading": "ゆめみる", "meaning": "Mơ mộng" }
+    ]
+  },
+  {
+    "kanji": "多",
+    "amHan": "ĐA",
+    "nghia": "Nhiều",
+    "onyomi": "タ",
+    "kunyomi": "おお_い",
+    "mnemonic": {
+      "text": "Nhiều buổi TỐI (Tịch 夕) xếp chồng lên nhau gọi là ĐA."
+    },
+    "examples": [
+      { "word": "多い", "reading": "おおい", "meaning": "Nhiều" },
+      { "word": "多少", "reading": "たしょう", "meaning": "Ít nhiều, một chút" },
+      { "word": "多分", "reading": "たぶん", "meaning": "Có lẽ" },
+      { "word": "多数", "reading": "たすう", "meaning": "Đa số" },
+      { "word": "多忙", "reading": "たぼう", "meaning": "Rất bận rộn" },
+      { "word": "多様", "reading": "たよう", "meaning": "Đa dạng" }
+    ]
+  },
+  {
+    "kanji": "移",
+    "amHan": "DI",
+    "nghia": "Di chuyển, thay đổi",
+    "onyomi": "イ",
+    "kunyomi": "うつ_る、うつ_す",
+    "mnemonic": {
+      "text": "Đem cây LÚA (Hòa 禾) ra ngoài vào buổi TỐI (Đa 多) để DI chuyển sang ruộng khác."
+    },
+    "examples": [
+      { "word": "移る", "reading": "うつる", "meaning": "Di chuyển, lây nhiễm" },
+      { "word": "移す", "reading": "うつす", "meaning": "Làm di chuyển, làm lây" },
+      { "word": "移動", "reading": "いどう", "meaning": "Di động, di chuyển" },
+      { "word": "移転", "reading": "いてん", "meaning": "Di chuyển chỗ ở, chuyển nhượng" },
+      { "word": "移民", "reading": "いみん", "meaning": "Di dân" },
+      { "word": "移り変わり", "reading": "うつりかわり", "meaning": "Sự biến đổi, chuyển tiếp" }
+    ]
+  },
+  {
+    "kanji": "名",
+    "amHan": "DANH",
+    "nghia": "Tên, danh tiếng",
+    "onyomi": "メイ、ミョウ",
+    "kunyomi": "な",
+    "mnemonic": {
+      "text": "Buổi TỐI (Tịch 夕) dùng MIỆNG (Khẩu 口) gọi TÊN (DANH) nhau."
+    },
+    "examples": [
+      { "word": "名前", "reading": "なまえ", "meaning": "Tên" },
+      { "word": "有名", "reading": "ゆうめい", "meaning": "Nổi tiếng" },
+      { "word": "氏名", "reading": "しめい", "meaning": "Họ tên" },
+      { "word": "名誉", "reading": "めいよ", "meaning": "Danh dự" },
+      { "word": "名刺", "reading": "めいし", "meaning": "Danh thiếp" },
+      { "word": "名字", "reading": "みょうじ", "meaning": "Họ" }
+    ]
+  },
+  {
+    "kanji": "夜",
+    "amHan": "DẠ",
+    "nghia": "Ban đêm",
+    "onyomi": "ヤ",
+    "kunyomi": "よ、よる",
+    "mnemonic": {
+      "text": "Đội MŨ (Đầu 亠) đi chơi buổi TỐI (Tịch 夕) chống GẬY (Phách 夂) trong đêm DẠ."
+    },
+    "examples": [
+      { "word": "夜", "reading": "よる", "meaning": "Buổi đêm" },
+      { "word": "今夜", "reading": "こんや", "meaning": "Đêm nay" },
+      { "word": "深夜", "reading": "しんや", "meaning": "Đêm khuya" },
+      { "word": "夜中", "reading": "よなか", "meaning": "Nửa đêm" },
+      { "word": "夜食", "reading": "やしょく", "meaning": "Ăn đêm" },
+      { "word": "夜景", "reading": "やけい", "meaning": "Cảnh đêm" }
+    ]
+  },
+  {
+    "kanji": "液",
+    "amHan": "DỊCH",
+    "nghia": "Chất lỏng, dung dịch",
+    "onyomi": "エキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "NƯỚC (Thủy 氵) chảy trong đêm DẠ (夜) tạo thành dung DỊCH."
+    },
+    "examples": [
+      { "word": "血液", "reading": "けつえき", "meaning": "Máu" },
+      { "word": "液体", "reading": "えきたい", "meaning": "Thể lỏng" },
+      { "word": "液晶", "reading": "えきしょう", "meaning": "Tinh thể lỏng (LCD)" },
+      { "word": "液状", "reading": "えきじょう", "meaning": "Trạng thái lỏng" },
+      { "word": "溶液", "reading": "ようえき", "meaning": "Dung dịch" },
+      { "word": "血液型", "reading": "けつえきがた", "meaning": "Nhóm máu" }
+    ]
+  }
+]

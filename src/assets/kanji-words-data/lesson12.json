@@ -1,0 +1,262 @@
+[
+  {
+    "kanji": "伝",
+    "amHan": "TRUYỀN",
+    "nghia": "Truyền đạt, truyền bá",
+    "onyomi": "テン、デン",
+    "kunyomi": "つた_える、つた_わる",
+    "mnemonic": {
+      "text": "Một NGƯỜI (亻) đứng bên cạnh ĐIỀN (đã biến thể thành 云) để TRUYỀN đạt tin tức"
+    },
+    "examples": [
+      { "word": "伝える", "reading": "つたえる", "meaning": "truyền đạt" },
+      { "word": "伝わる", "reading": "つたわる", "meaning": "được truyền bá" },
+      { "word": "伝説", "reading": "でんせつ", "meaning": "truyền thuyết" },
+      { "word": "伝統", "reading": "でんとう", "meaning": "truyền thống" },
+      { "word": "伝言", "reading": "でんごん", "meaning": "tin nhắn để lại" },
+      { "word": "手伝う", "reading": "てつだう", "meaning": "giúp đỡ" }
+    ]
+  },
+  {
+    "kanji": "転",
+    "amHan": "CHUYỂN",
+    "nghia": "Lăn, chuyển động",
+    "onyomi": "テン",
+    "kunyomi": "ころ_ぶ、ころ_がる",
+    "mnemonic": {
+      "text": "Chiếc XE (車) đang di chuyển qua những đám MÂY (云) để dịch CHUYỂN"
+    },
+    "examples": [
+      { "word": "転ぶ", "reading": "ころぶ", "meaning": "ngã" },
+      { "word": "転がる", "reading": "ころがる", "meaning": "lăn lóc" },
+      { "word": "運転", "reading": "うんてん", "meaning": "lái xe" },
+      { "word": "自転車", "reading": "じてんしゃ", "meaning": "xe đạp" },
+      { "word": "回転", "reading": "かいてん", "meaning": "xoay chuyển, xoay vòng" },
+      { "word": "転職", "reading": "てんしょく", "meaning": "chuyển việc" }
+    ]
+  },
+  {
+    "kanji": "絵",
+    "amHan": "HỘI",
+    "nghia": "Bức tranh",
+    "onyomi": "カイ",
+    "kunyomi": "え",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸) thêu nên cảnh mọi người tụ HỘI (会) thành một bức TRANH"
+    },
+    "examples": [
+      { "word": "絵", "reading": "え", "meaning": "bức tranh" },
+      { "word": "絵本", "reading": "えほん", "meaning": "sách tranh" },
+      { "word": "絵画", "reading": "かいが", "meaning": "hội họa" },
+      { "word": "油絵", "reading": "あぶらえ", "meaning": "tranh sơn dầu" },
+      { "word": "浮世絵", "reading": "うきよえ", "meaning": "tranh Ukiyoe" }
+    ]
+  },
+  {
+    "kanji": "兄",
+    "amHan": "HUYNH",
+    "nghia": "Anh trai",
+    "onyomi": "キョウ、ケイ",
+    "kunyomi": "あに",
+    "mnemonic": {
+      "text": "Người có cái MIỆNG (口) to và đôi CHÂN (儿) dài chính là anh HUYNH"
+    },
+    "examples": [
+      { "word": "兄", "reading": "あni", "meaning": "anh trai" },
+      { "word": "兄弟", "reading": "きょうだい", "meaning": "anh em" },
+      { "word": "お兄さん", "reading": "おにいさん", "meaning": "anh trai (của người khác)" },
+      { "word": "義兄", "reading": "ぎけい", "meaning": "anh rể/anh nuôi" },
+      { "word": "父兄", "reading": "ふけい", "meaning": "phụ huynh" }
+    ]
+  },
+  {
+    "kanji": "況",
+    "amHan": "HUỐNG",
+    "nghia": "Tình huống, tình hình",
+    "onyomi": "キョウ",
+    "kunyomi": "まし_て",
+    "mnemonic": {
+      "text": "NƯỚC (氵) chảy qua nơi anh HUYNH (兄) đứng tạo ra tình HUỐNG khó khăn"
+    },
+    "examples": [
+      { "word": "近況", "reading": "きんきょう", "meaning": "tình hình gần đây" },
+      { "word": "不況", "reading": "ふきょう", "meaning": "khủng hoảng kinh tế, suy thoái" },
+      { "word": "状況", "reading": "じょうきょう", "meaning": "tình huống, trạng thái" },
+      { "word": "実況", "reading": "じっきょう", "meaning": "truyền hình trực tiếp, thực huống" },
+      { "word": "景況", "reading": "けいきょう", "meaning": "tình hình kinh doanh" }
+    ]
+  },
+  {
+    "kanji": "祝",
+    "amHan": "CHÚC",
+    "nghia": "Chúc mừng, lễ hội",
+    "onyomi": "シュウ、シュク",
+    "kunyomi": "いわ_う",
+    "mnemonic": {
+      "text": "Đứng trước bàn THỜ (礻) anh HUYNH (兄) nói lời CHÚC mừng"
+    },
+    "examples": [
+      { "word": "祝う", "reading": "いわう", "meaning": "chúc mừng" },
+      { "word": "祝日", "reading": "しゅくじつ", "meaning": "ngày lễ" },
+      { "word": "お祝い", "reading": "おいわい", "meaning": "việc chúc mừng, quà tặng" },
+      { "word": "祝儀", "reading": "しゅうぎ", "meaning": "quà mừng, tiền mừng" },
+      { "word": "祝賀会", "reading": "しゅくがかい", "meaning": "tiệc chúc mừng" }
+    ]
+  },
+  {
+    "kanji": "党",
+    "amHan": "ĐẢNG",
+    "nghia": "Đảng phái, phe nhóm",
+    "onyomi": "トウ",
+    "kunyomi": "なかま、むら",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (冖), những người có tư tưởng như ánh SÁNG (biến thể phía trên) tụ họp thành ĐẢNG"
+    },
+    "examples": [
+      { "word": "与党", "reading": "よとう", "meaning": "đảng cầm quyền" },
+      { "word": "野党", "reading": "やとう", "meaning": "đảng đối lập" },
+      { "word": "政党", "reading": "せいとう", "meaning": "chính đảng" },
+      { "word": "党員", "reading": "とういん", "meaning": "đảng viên" },
+      { "word": "甘党", "reading": "あまとう", "meaning": "người thích đồ ngọt" }
+    ]
+  },
+  {
+    "kanji": "税",
+    "amHan": "THUẾ",
+    "nghia": "Tiền thuế",
+    "onyomi": "ゼイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Nộp LÚA (禾) cho ĐẢNG (bên phải chữ 党) để đóng THUẾ"
+    },
+    "examples": [
+      { "word": "免税", "reading": "めんぜい", "meaning": "miễn thuế" },
+      { "word": "税金", "reading": "ぜいきん", "meaning": "tiền thuế" },
+      { "word": "消費税", "reading": "しょうひぜい", "meaning": "thuế tiêu thụ" },
+      { "word": "税関", "reading": "ぜいかん", "meaning": "hải quan" },
+      { "word": "所得税", "reading": "しょとくぜい", "meaning": "thuế thu nhập" }
+    ]
+  },
+  {
+    "kanji": "鋭",
+    "amHan": "NHUỆ",
+    "nghia": "Sắc bén, tinh nhuệ",
+    "onyomi": "エイ",
+    "kunyomi": "するど_い",
+    "mnemonic": {
+      "text": "Thanh kiếm bằng VÀNG (金) của quân tinh NHUỆ thì rất sắc bén"
+    },
+    "examples": [
+      { "word": "鋭い", "reading": "するどい", "meaning": "mạnh, sắc, bén nhọn" },
+      { "word": "鋭気", "reading": "えいき", "meaning": "nhuệ khí" },
+      { "word": "鋭角", "reading": "えいかく", "meaning": "góc nhọn" },
+      { "word": "精鋭", "reading": "せいえい", "meaning": "tinh nhuệ" },
+      { "word": "鋭敏", "reading": "えいびん", "meaning": "nhạy bén, sắc sảo" }
+    ]
+  },
+  {
+    "kanji": "脱",
+    "amHan": "THOÁT",
+    "nghia": "Cởi ra, thoát khỏi",
+    "onyomi": "ダツ",
+    "kunyomi": "ぬ_ぐ、ぬ_げる",
+    "mnemonic": {
+      "text": "THÂN THỂ (月) cởi bỏ xiêm y để giải THOÁT"
+    },
+    "examples": [
+      { "word": "脱ぐ", "reading": "ぬぐ", "meaning": "cởi (quần áo, giày dép)" },
+      { "word": "脱衣", "reading": "だつい", "meaning": "thoát y, cởi quần áo" },
+      { "word": "脱出", "reading": "だっしゅつ", "meaning": "thoát khỏi" },
+      { "word": "脱水", "reading": "だっすい", "meaning": "thoát nước, mất nước" },
+      { "word": "脱落", "reading": "だつらく", "meaning": "tụt lại phía sau, rơi rụng" },
+      { "word": "脱税", "reading": "だつぜい", "meaning": "trốn thuế" }
+    ]
+  },
+  {
+    "kanji": "説",
+    "amHan": "THUYẾT",
+    "nghia": "Giải thích, học thuyết",
+    "onyomi": "セツ、ゼイ",
+    "kunyomi": "と_く",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) để giải THUYẾT cho mọi người hiểu"
+    },
+    "examples": [
+      { "word": "説く", "reading": "とく", "meaning": "giải thích, thuyết giáo" },
+      { "word": "説明", "reading": "せつめい", "meaning": "giải thích" },
+      { "word": "仮説", "reading": "かせつ", "meaning": "giả thuyết" },
+      { "word": "小説", "reading": "しょうせつ", "meaning": "tiểu thuyết" },
+      { "word": "演説", "reading": "えんぜつ", "meaning": "diễn thuyết" },
+      { "word": "説得", "reading": "せっとく", "meaning": "thuyết phục" }
+    ]
+  },
+  {
+    "kanji": "傷",
+    "amHan": "THƯƠNG",
+    "nghia": "Vết thương, làm đau",
+    "onyomi": "ショウ",
+    "kunyomi": "きず、いた_む、いた_める",
+    "mnemonic": {
+      "text": "Một NGƯỜI (亻) bị trúng TÊN (thành phần bên phải giống hình cung tên) nên bị THƯƠNG"
+    },
+    "examples": [
+      { "word": "傷", "reading": "きず", "meaning": "vết thương" },
+      { "word": "傷む", "reading": "いたむ", "meaning": "bị thương, bị hỏng (đồ ăn)" },
+      { "word": "傷める", "reading": "いためる", "meaning": "làm cho bị thương, làm hỏng" },
+      { "word": "負傷", "reading": "ふしょう", "meaning": "bị thương" },
+      { "word": "重傷", "reading": "じゅうしょう", "meaning": "vết thương nặng" },
+      { "word": "傷口", "reading": "きずぐち", "meaning": "miệng vết thương" }
+    ]
+  },
+  {
+    "kanji": "湯",
+    "amHan": "THANG",
+    "nghia": "Nước nóng",
+    "onyomi": "トウ",
+    "kunyomi": "ゆ",
+    "mnemonic": {
+      "text": "NƯỚC (氵) đun dưới ánh MẶT TRỜI (日) sẽ trở thành nước nóng (THANG)"
+    },
+    "examples": [
+      { "word": "湯", "reading": "ゆ", "meaning": "nước nóng" },
+      { "word": "お湯", "reading": "おゆ", "meaning": "nước nóng (kính ngữ)" },
+      { "word": "湯気", "reading": "ゆげ", "meaning": "hơi nước" },
+      { "word": "銭湯", "reading": "せんとう", "meaning": "nhà tắm công cộng" },
+      { "word": "湯飲み", "reading": "ゆのみ", "meaning": "chén trà" }
+    ]
+  },
+  {
+    "kanji": "陽",
+    "amHan": "DƯƠNG",
+    "nghia": "Mặt trời, phía dương",
+    "onyomi": "ヨウ",
+    "kunyomi": "ひ",
+    "mnemonic": {
+      "text": "Vùng ĐẤT (阝) dưới ánh MẶT TRỜI (DƯƠNG) tỏa sáng"
+    },
+    "examples": [
+      { "word": "太陽", "reading": "たいよう", "meaning": "mặt trời" },
+      { "word": "陽気", "reading": "ようき", "meaning": "thời tiết/vui vẻ, cởi mở" },
+      { "word": "陽光", "reading": "ようこう", "meaning": "ánh sáng mặt trời" },
+      { "word": "陰陽", "reading": "いんよう", "meaning": "âm dương" }
+    ]
+  },
+  {
+    "kanji": "場",
+    "amHan": "TRƯỜNG",
+    "nghia": "Địa điểm, nơi chốn",
+    "onyomi": "ジョウ",
+    "kunyomi": "ば",
+    "mnemonic": {
+      "text": "Vùng ĐẤT (土) dưới ánh MẶT TRỜI (日) là nơi (TRƯỜNG) tập trung đông người"
+    },
+    "examples": [
+      { "word": "場所", "reading": "ばしょ", "meaning": "địa điểm" },
+      { "word": "市場", "reading": "いちば/しじょう", "meaning": "thị trường, chợ" },
+      { "word": "会場", "reading": "かいじょう", "meaning": "hội trường" },
+      { "word": "工場", "reading": "こうじょう", "meaning": "nhà máy" },
+      { "word": "場合", "reading": "ばあい", "meaning": "trường hợp" },
+      { "word": "広場", "reading": "ひろば", "meaning": "quảng trường" }
+    ]
+  }
+]

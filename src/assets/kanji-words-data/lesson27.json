@@ -1,0 +1,176 @@
+[
+  {
+    "kanji": "注",
+    "amHan": "Chú",
+    "nghia": "Rót, tập trung, chú ý",
+    "onyomi": "チュウ",
+    "kunyomi": "そそ_ぐ、さ_す、つ_ぐ",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (Thủy) tưới cho ông CHỦ (Chủ) để ông ấy CHÚ ý"
+    },
+    "examples": [
+      { "word": "注ぐ", "reading": "そそぐ", "meaning": "rót, đổ, dội" },
+      { "word": "注意", "reading": "ちゅうい", "meaning": "chú ý" },
+      { "word": "注文", "reading": "ちゅうもん", "meaning": "gọi món, đặt hàng" },
+      { "word": "注目", "reading": "ちゅうもく", "meaning": "sự tập trung chú ý" },
+      { "word": "注射", "reading": "ちゅうしゃ", "meaning": "tiêm thuốc" },
+      { "word": "注釈", "reading": "ちゅうしゃく", "meaning": "chú thích" }
+    ]
+  },
+  {
+    "kanji": "住",
+    "amHan": "Trú",
+    "nghia": "Cư trú, ở",
+    "onyomi": "ジュウ、チュウ",
+    "kunyomi": "す_む、す_まう",
+    "mnemonic": {
+      "text": "NGƯỜI (Nhân) đứng cạnh ông CHỦ (Chủ) để xin được cư TRÚ"
+    },
+    "examples": [
+      { "word": "住む", "reading": "すむ", "meaning": "sống, sinh sống" },
+      { "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" },
+      { "word": "住宅", "reading": "じゅうたく", "meaning": "nhà ở, nơi sống" },
+      { "word": "住まい", "reading": "すまい", "meaning": "chỗ ở" },
+      { "word": "居住", "reading": "きょじゅう", "meaning": "cư trú" },
+      { "word": "住民", "reading": "じゅうみん", "meaning": "người dân, dân cư" }
+    ]
+  },
+  {
+    "kanji": "駐",
+    "amHan": "Trú",
+    "nghia": "Đỗ (xe), dừng lại",
+    "onyomi": "チュウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cho NGỰA (Mã) đứng cạnh ông CHỦ (Chủ) để TRÚ xe"
+    },
+    "examples": [
+      { "word": "駐車", "reading": "ちゅうしゃ", "meaning": "sự đậu xe" },
+      { "word": "駐車場", "reading": "ちゅうしゃじょう", "meaning": "bãi đỗ xe" },
+      { "word": "駐日", "reading": "ちゅうにち", "meaning": "trú tại Nhật Bản" },
+      { "word": "駐輪場", "reading": "ちゅうりんじょう", "meaning": "bãi đỗ xe đạp" },
+      { "word": "進駐", "reading": "しんちゅう", "meaning": "đóng quân" }
+    ]
+  },
+  {
+    "kanji": "柱",
+    "amHan": "Trụ",
+    "nghia": "Cái cột, trụ cột",
+    "onyomi": "チュウ",
+    "kunyomi": "はしら",
+    "mnemonic": {
+      "text": "Cái CÂY (Mộc) của ông CHỦ (Chủ) làm thành cái TRỤ cột"
+    },
+    "examples": [
+      { "word": "柱", "reading": "はしら", "meaning": "cái cột" },
+      { "word": "電柱", "reading": "でんちゅう", "meaning": "cột điện" },
+      { "word": "円柱", "reading": "えんちゅう", "meaning": "hình trụ" },
+      { "word": "大黒柱", "reading": "だいこくばしら", "meaning": "trụ cột gia đình" },
+      { "word": "支柱", "reading": "しちゅう", "meaning": "cột chống, giá đỡ" }
+    ]
+  },
+  {
+    "kanji": "由",
+    "amHan": "Do",
+    "nghia": "Nguyên nhân, lý do",
+    "onyomi": "ユ、ユウ",
+    "kunyomi": "よる",
+    "mnemonic": {
+      "text": "Cái Ruộng (Điền) có cái mầm mọc xuyên lên là DO tự nhiên"
+    },
+    "examples": [
+      { "word": "理由", "reading": "りゆう", "meaning": "lý do" },
+      { "word": "自由", "reading": "じゆう", "meaning": "tự do" },
+      { "word": "経由", "reading": "けいゆ", "meaning": "thông qua, đường vòng" },
+      { "word": "由来", "reading": "ゆらい", "meaning": "nguồn gốc, lai lịch" },
+      { "word": "不自由", "reading": "ふじゆう", "meaning": "không tự do, tàn tật" }
+    ]
+  },
+  {
+    "kanji": "油",
+    "amHan": "Du",
+    "nghia": "Dầu",
+    "onyomi": "ユ",
+    "kunyomi": "あぶら",
+    "mnemonic": {
+      "text": "NƯỚC (Thủy) chảy ra từ lý DO (Do) chính là dầu DU"
+    },
+    "examples": [
+      { "word": "油", "reading": "あぶら", "meaning": "dầu" },
+      { "word": "石油", "reading": "せきゆ", "meaning": "dầu mỏ" },
+      { "word": "油断", "reading": "ゆだん", "meaning": "lơ là, chủ quan" },
+      { "word": "醤油", "reading": "しょうゆ", "meaning": "nước tương" },
+      { "word": "脂油", "reading": "しゆ", "meaning": "mỡ" }
+    ]
+  },
+  {
+    "kanji": "清",
+    "amHan": "Thanh",
+    "nghia": "Thanh khiết, trong sạch",
+    "onyomi": "セイ、ショウ",
+    "kunyomi": "きよ_い",
+    "mnemonic": {
+      "text": "NƯỚC (Thủy) có màu XANH (Thanh) thì thật THANH khiết"
+    },
+    "examples": [
+      { "word": "清潔", "reading": "せいけつ", "meaning": "thanh khiết, sạch sẽ" },
+      { "word": "清流", "reading": "せいりゅう", "meaning": "dòng nước trong" },
+      { "word": "清書", "reading": "せいしょ", "meaning": "viết bản sạch, bản cuối" },
+      { "word": "清純", "reading": "せいじゅん", "meaning": "trong sáng, thuần khiết" },
+      { "word": "清掃", "reading": "せいそう", "meaning": "quét dọn, vệ sinh" }
+    ]
+  },
+  {
+    "kanji": "晴",
+    "amHan": "Tình",
+    "nghia": "Nắng, trời quang",
+    "onyomi": "セイ",
+    "kunyomi": "は_れる",
+    "mnemonic": {
+      "text": "MẶT TRỜI (Nhật) chiếu vào màu XANH (Thanh) là trời TÌNH (nắng)"
+    },
+    "examples": [
+      { "word": "晴れる", "reading": "はれる", "meaning": "nắng, quang đãng" },
+      { "word": "晴天", "reading": "せいてん", "meaning": "trời nắng đẹp" },
+      { "word": "素晴らしい", "reading": "すばらしい", "meaning": "tuyệt vời" },
+      { "word": "晴らし", "reading": "はらし", "meaning": "làm tan đi, giải tỏa" },
+      { "word": "見晴らし", "reading": "みはらし", "meaning": "tầm nhìn, phong cảnh" }
+    ]
+  },
+  {
+    "kanji": "情",
+    "amHan": "Tình",
+    "nghia": "Tình cảm, cảm xúc",
+    "onyomi": "ジョウ",
+    "kunyomi": "なさ_け",
+    "mnemonic": {
+      "text": "TRÁI TIM (Tâm) hướng về màu XANH (Thanh) là người có TÌNH"
+    },
+    "examples": [
+      { "word": "情報", "reading": "じょうほう", "meaning": "thông tin" },
+      { "word": "表情", "reading": "ひょうじょう", "meaning": "biểu cảm khuôn mặt" },
+      { "word": "友情", "reading": "ゆうじょう", "meaning": "tình bạn" },
+      { "word": "感情", "reading": "かんじょう", "meaning": "cảm xúc" },
+      { "word": "情け", "reading": "なさけ", "meaning": "lòng trắc ẩn, sự cảm thông" },
+      { "word": "同情", "reading": "どうじょう", "meaning": "đồng cảm" }
+    ]
+  },
+  {
+    "kanji": "主",
+    "amHan": "Chủ",
+    "nghia": "Chủ nhân, chính yếu",
+    "onyomi": "シュ、ス",
+    "kunyomi": "ぬし、おも",
+    "mnemonic": {
+      "text": "Cái ngọn đèn đang cháy tỏa sáng, đó là ông CHỦ"
+    },
+    "examples": [
+      { "word": "主人", "reading": "しゅじん", "meaning": "chồng, chủ nhân" },
+      { "word": "主な", "reading": "おもな", "meaning": "chính, chủ yếu" },
+      { "word": "主語", "reading": "しゅご", "meaning": "chủ ngữ" },
+      { "word": "主要", "reading": "しゅよう", "meaning": "chủ chốt" },
+      { "word": "持ち主", "reading": "もちぬし", "meaning": "người sở hữu" },
+      { "word": "主義", "reading": "しゅぎ", "meaning": "chủ nghĩa" }
+    ]
+  }
+]

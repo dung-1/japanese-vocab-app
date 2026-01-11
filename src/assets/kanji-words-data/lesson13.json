@@ -1,0 +1,323 @@
+[
+  {
+    "kanji": "浴",
+    "amHan": "DỤC",
+    "nghia": "Tắm, dội",
+    "onyomi": "ヨク",
+    "kunyomi": "あ_びる、あ_びせる",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (氵) ở thung LŨNG (谷) để TẮM (DỤC)"
+    },
+    "examples": [
+      { "word": "浴びる", "reading": "あびる", "meaning": "tắm, dội" },
+      { "word": "浴場", "reading": "よくじょう", "meaning": "nhà tắm công cộng" },
+      { "word": "海水浴", "reading": "かいすいよく", "meaning": "tắm biển" },
+      { "word": "浴室", "reading": "よくしつ", "meaning": "phòng tắm" },
+      { "word": "入浴", "reading": "にゅうよく", "meaning": "việc tắm rửa" }
+    ]
+  },
+  {
+    "kanji": "容",
+    "amHan": "DUNG",
+    "nghia": "Nội dung, bao hàm, hình dáng",
+    "onyomi": "ヨウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (宀), thung LŨNG (谷) rộng lớn có thể DUNG chứa mọi thứ"
+    },
+    "examples": [
+      { "word": "内容", "reading": "ないよう", "meaning": "nội dung" },
+      { "word": "美容院", "reading": "びよういん", "meaning": "thẩm mỹ viện" },
+      { "word": "容器", "reading": "ようき", "meaning": "đồ đựng, bình chứa" },
+      { "word": "容易", "reading": "ようい", "meaning": "dễ dàng" },
+      { "word": "容姿", "reading": "ようし", "meaning": "vẻ bề ngoài, diện mạo" }
+    ]
+  },
+  {
+    "kanji": "紀",
+    "amHan": "KỶ",
+    "nghia": "Kỷ nguyên, thế kỷ",
+    "onyomi": "キ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸) để ghi chép lại cái CÁI TÔI (己) qua các thế KỶ"
+    },
+    "examples": [
+      { "word": "世紀", "reading": "せいき", "meaning": "thế kỷ" },
+      { "word": "紀元前", "reading": "きげんぜん", "meaning": "trước công nguyên" },
+      { "word": "紀行", "reading": "きこう", "meaning": "ghi chép hành trình, du ký" },
+      { "word": "風紀", "reading": "ふうき", "meaning": "kỷ luật, nề nếp" }
+    ]
+  },
+  {
+    "kanji": "記",
+    "amHan": "KÝ",
+    "nghia": "Ghi chép, ký ức",
+    "onyomi": "キ",
+    "kunyomi": "しる_す",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) để khắc ghi cái CÁI TÔI (己) vào nhật KÝ"
+    },
+    "examples": [
+      { "word": "記す", "reading": "しるす", "meaning": "đánh dấu, ghi lại" },
+      { "word": "日記", "reading": "にっき", "meaning": "nhật ký" },
+      { "word": "記録", "reading": "きろく", "meaning": "ghi chép, kỷ lục" },
+      { "word": "記事", "reading": "きじ", "meaning": "bài báo, ký sự" },
+      { "word": "記憶", "reading": "きおく", "meaning": "ký ức" },
+      { "word": "記者", "reading": "きしゃ", "meaning": "ký giả, phóng viên" }
+    ]
+  },
+  {
+    "kanji": "起",
+    "amHan": "KHỞI",
+    "nghia": "Thức dậy, khởi đầu",
+    "onyomi": "キ",
+    "kunyomi": "お_きる、お_こす",
+    "mnemonic": {
+      "text": "Tự bản thân (己) phải CHẠY (走) để KHỞI đầu ngày mới"
+    },
+    "examples": [
+      { "word": "起きる", "reading": "おきる", "meaning": "thức dậy" },
+      { "word": "起こす", "reading": "おこす", "meaning": "đánh thức, gây ra" },
+      { "word": "起動", "reading": "きどう", "meaning": "khởi động" },
+      { "word": "起立", "reading": "きりつ", "meaning": "đứng dậy" },
+      { "word": "起源", "reading": "きげん", "meaning": "nguồn gốc" },
+      { "word": "起点", "reading": "きてん", "meaning": "điểm xuất phát" }
+    ]
+  },
+  {
+    "kanji": "改",
+    "amHan": "CẢI",
+    "nghia": "Cải cách, sửa đổi",
+    "onyomi": "カイ",
+    "kunyomi": "あらた_める、あらた_まる",
+    "mnemonic": {
+      "text": "Tự bản thân (己) dùng Roi (攵 - bộ phu) đánh vào mình để CẢI tà quy chính"
+    },
+    "examples": [
+      { "word": "改める", "reading": "あらためる", "meaning": "cải thiện, sửa đổi" },
+      { "word": "改善", "reading": "かいぜん", "meaning": "cải tiến" },
+      { "word": "改正", "reading": "かいせい", "meaning": "cải chính, sửa đổi luật" },
+      { "word": "改革", "reading": "かいかく", "meaning": "cải cách" },
+      { "word": "改札", "reading": "かいさつ", "meaning": "soát vé" }
+    ]
+  },
+  {
+    "kanji": "配",
+    "amHan": "PHỐI",
+    "nghia": "Phân phối, lo lắng",
+    "onyomi": "ハイ",
+    "kunyomi": "くば_る",
+    "mnemonic": {
+      "text": "Người quỳ (己) bên hũ RƯỢU (酉) để PHÂN PHỐI cho mọi người"
+    },
+    "examples": [
+      { "word": "配る", "reading": "くばる", "meaning": "phân phát" },
+      { "word": "配布", "reading": "はいふ", "meaning": "sự phân phát" },
+      { "word": "心配", "reading": "しんぱい", "meaning": "lo lắng" },
+      { "word": "配達", "reading": "はいたつ", "meaning": "chuyển phát" },
+      { "word": "配置", "reading": "はいち", "meaning": "bố trí" }
+    ]
+  },
+  {
+    "kanji": "責",
+    "amHan": "TRÁCH",
+    "nghia": "Trách nhiệm, kết tội",
+    "onyomi": "セキ",
+    "kunyomi": "せ_める",
+    "mnemonic": {
+      "text": "Chủ (主) nợ đòi TIỀN (貝) tạo nên áp lực và TRÁCH nhiệm"
+    },
+    "examples": [
+      { "word": "責める", "reading": "せめる", "meaning": "kết tội, đổ lỗi" },
+      { "word": "責任", "reading": "せきにん", "meaning": "trách nhiệm" },
+      { "word": "自責", "reading": "じせき", "meaning": "tự trách mình" },
+      { "word": "責務", "reading": "せきむ", "meaning": "nghĩa vụ, bổn phận" }
+    ]
+  },
+  {
+    "kanji": "績",
+    "amHan": "TÍCH",
+    "nghia": "Thành tích",
+    "onyomi": "セキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸) để thêu dệt nên TRÁCH nhiệm (責) tạo thành THÀNH TÍCH"
+    },
+    "examples": [
+      { "word": "成績", "reading": "せいせき", "meaning": "thành tích" },
+      { "word": "学績", "reading": "がくせき", "meaning": "thành tích học tập" },
+      { "word": "功績", "reading": "こうせき", "meaning": "công tích, công lao" },
+      { "word": "実績", "reading": "じっせき", "meaning": "thành tích thực tế" }
+    ]
+  },
+  {
+    "kanji": "積",
+    "amHan": "TÍCH",
+    "nghia": "Tích trữ, chất đống",
+    "onyomi": "セキ",
+    "kunyomi": "つ_む、つ_もる",
+    "mnemonic": {
+      "text": "LÚA (禾) thu hoạch về có TRÁCH (責) nhiệm phải TÍCH trữ chất đống"
+    },
+    "examples": [
+      { "word": "積む", "reading": "つむ", "meaning": "chất đống, tích lũy" },
+      { "word": "積もる", "reading": "つもる", "meaning": "tích tụ (tuyết)" },
+      { "word": "体積", "reading": "たいせき", "meaning": "thể tích" },
+      { "word": "面積", "reading": "めんせき", "meaning": "diện tích" },
+      { "word": "見積書", "reading": "みつもりしょ", "meaning": "bản báo giá" },
+      { "word": "積極的", "reading": "せっきょくてき", "meaning": "tích cực" }
+    ]
+  },
+  {
+    "kanji": "重",
+    "amHan": "TRỌNG",
+    "nghia": "Nặng, coi trọng, xếp chồng",
+    "onyomi": "ジュウ、チョウ",
+    "kunyomi": "おも_い、かさ_ねる、かさ_なる",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) đứng trên DẶM (里) đường dài thì hành lý rất NẶNG (TRỌNG)"
+    },
+    "examples": [
+      { "word": "重い", "reading": "おもい", "meaning": "nặng" },
+      { "word": "重ねる", "reading": "かさねる", "meaning": "chồng lên, xếp lên" },
+      { "word": "体重", "reading": "たいじゅう", "meaning": "cân nặng" },
+      { "word": "貴重", "reading": "きちょう", "meaning": "quý trọng" },
+      { "word": "重要", "reading": "じゅうよう", "meaning": "quan trọng" },
+      { "word": "重大", "reading": "じゅうだい", "meaning": "trọng đại" }
+    ]
+  },
+  {
+    "kanji": "種",
+    "amHan": "CHỦNG",
+    "nghia": "Hạt giống, chủng loại",
+    "onyomi": "シュ",
+    "kunyomi": "たね",
+    "mnemonic": {
+      "text": "LÚA (禾) được coi TRỌNG (重) nhất là ở HẠT GIỐNG"
+    },
+    "examples": [
+      { "word": "種", "reading": "たね", "meaning": "hạt giống" },
+      { "word": "種類", "reading": "しゅるい", "meaning": "chủng loại" },
+      { "word": "多種", "reading": "たしゅ", "meaning": "nhiều loại khác nhau" },
+      { "word": "人種", "reading": "じんしゅ", "meaning": "nhân chủng, sắc tộc" },
+      { "word": "各種", "reading": "かくしゅ", "meaning": "các loại" }
+    ]
+  },
+  {
+    "kanji": "動",
+    "amHan": "ĐỘNG",
+    "nghia": "Chuyển động",
+    "onyomi": "ドウ",
+    "kunyomi": "うご_く、うご_かす",
+    "mnemonic": {
+      "text": "Dùng SỨC LỰC (力) để di chuyển vật NẶNG (重) gọi là biến ĐỘNG"
+    },
+    "examples": [
+      { "word": "動く", "reading": "うごく", "meaning": "chuyển động" },
+      { "word": "動物", "reading": "どうぶつ", "meaning": "động vật" },
+      { "word": "動作", "reading": "どうさ", "meaning": "động tác" },
+      { "word": "運動", "reading": "うんどう", "meaning": "vận động" },
+      { "word": "感動", "reading": "かんどう", "meaning": "cảm động" },
+      { "word": "活動", "reading": "かつどう", "meaning": "hoạt động" }
+    ]
+  },
+  {
+    "kanji": "働",
+    "amHan": "ĐỘNG",
+    "nghia": "Lao động, làm việc",
+    "onyomi": "ドウ",
+    "kunyomi": "はたら_く",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) tạo ra chuyển ĐỘNG (動) gọi là LAO ĐỘNG"
+    },
+    "examples": [
+      { "word": "働く", "reading": "はたらく", "meaning": "làm việc" },
+      { "word": "労働", "reading": "ろうどう", "meaning": "lao động" },
+      { "word": "共働き", "reading": "ともばたらき", "meaning": "vợ chồng cùng làm việc" },
+      { "word": "労働者", "reading": "ろうどうしゃ", "meaning": "người lao động" }
+    ]
+  },
+  {
+    "kanji": "果",
+    "amHan": "QUẢ",
+    "nghia": "Hoa quả, thành quả",
+    "onyomi": "カ",
+    "kunyomi": "は_たす、は_てる、は_て",
+    "mnemonic": {
+      "text": "Cái CÂY (木) mọc trên ĐIỀN (田) sẽ cho ra hoa QUẢ"
+    },
+    "examples": [
+      { "word": "果たす", "reading": "はたす", "meaning": "hoàn thành" },
+      { "word": "結果", "reading": "けっか", "meaning": "kết quả" },
+      { "word": "成果", "reading": "せいか", "meaning": "thành quả" },
+      { "word": "くだもの", "reading": "果物", "meaning": "trái cây" },
+      { "word": "効果", "reading": "こうか", "meaning": "hiệu quả" }
+    ]
+  },
+  {
+    "kanji": "菓",
+    "amHan": "QUẢ",
+    "nghia": "Bánh kẹo",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "CỎ (艹) và hoa QUẢ (果) là nguyên liệu làm BÁNH KẸO"
+    },
+    "examples": [
+      { "word": "お菓子", "reading": "おかし", "meaning": "bánh kẹo" },
+      { "word": "和菓子", "reading": "わがし", "meaning": "bánh kẹo Nhật" },
+      { "word": "洋菓子", "reading": "ようがし", "meaning": "bánh kẹo Tây" },
+      { "word": "製菓", "reading": "せいか", "meaning": "sản xuất bánh kẹo" }
+    ]
+  },
+  {
+    "kanji": "課",
+    "amHan": "KHÓA",
+    "nghia": "Chương bài, bài học, bộ phận",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng lời NÓI (言) để giảng về các thành QUẢ (果) trong từng bài KHÓA"
+    },
+    "examples": [
+      { "word": "第二課", "reading": "だいにか", "meaning": "bài 2" },
+      { "word": "課題", "reading": "かだい", "meaning": "chủ đề, đề tài" },
+      { "word": "課長", "reading": "かちょう", "meaning": "trưởng nhóm, trưởng phòng" },
+      { "word": "日課", "reading": "にっか", "meaning": "công việc hàng ngày" }
+    ]
+  },
+  {
+    "kanji": "谷",
+    "amHan": "CỐC",
+    "nghia": "Thung lũng",
+    "onyomi": "コク",
+    "kunyomi": "たに",
+    "mnemonic": {
+      "text": "Tám (八) người mở MIỆNG (口) hét vang ở thung LŨNG"
+    },
+    "examples": [
+      { "word": "谷", "reading": "たに", "meaning": "thung lũng" },
+      { "word": "谷水", "reading": "たにみず", "meaning": "dòng suối nhỏ" },
+      { "word": "渓谷", "reading": "けいこく", "meaning": "khe cốc, thung lũng có suối" },
+      { "word": "谷間", "reading": "たにま", "meaning": "khe núi, thung lũng" }
+    ]
+  },
+  {
+    "kanji": "欲",
+    "amHan": "DỤC",
+    "nghia": "Ham muốn",
+    "onyomi": "ヨク",
+    "kunyomi": "ほ_しい、ほっ_する",
+    "mnemonic": {
+      "text": "Ở thung LŨNG (谷) mà THIẾU (欠) thốn thì con người sinh lòng ham DỤC"
+    },
+    "examples": [
+      { "word": "欲しい", "reading": "ほしい", "meaning": "muốn" },
+      { "word": "意欲", "reading": "いよく", "meaning": "sự mong muốn, ý muốn" },
+      { "word": "欲張り", "reading": "よくばり", "meaning": "tham lam" },
+      { "word": "食欲", "reading": "しょくよく", "meaning": "sự thèm ăn" },
+      { "word": "強欲", "reading": "ごうよく", "meaning": "tham lam, hám lợi" }
+    ]
+  }
+]

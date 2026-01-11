@@ -1,0 +1,304 @@
+[
+  {
+    "kanji": "典",
+    "amHan": "Điển",
+    "nghia": "Sách vở, tiêu chuẩn, điển tích",
+    "onyomi": "テン、デン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trên là bộ KHÚC (cong), dưới là bộ BÁT (số 8), những cuốn sách cổ uốn cong đặt trên giá gỗ là từ ĐIỂN"
+    },
+    "examples": [
+      { "word": "古典", "reading": "こてん", "meaning": "cổ điển" },
+      { "word": "辞典", "reading": "じてん", "meaning": "từ điển" },
+      { "word": "典型", "reading": "てんけい", "meaning": "điển hình" },
+      { "word": "特典", "reading": "とくてん", "meaning": "đặc quyền, ưu đãi" },
+      { "word": "百科事典", "reading": "ひゃっかじてん", "meaning": "bách khoa toàn thư" },
+      { "word": "出典", "reading": "しゅってん", "meaning": "nguồn gốc (trích dẫn)" }
+    ]
+  },
+  {
+    "kanji": "農",
+    "amHan": "Nông",
+    "nghia": "Nông nghiệp, làm ruộng",
+    "onyomi": "ノウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bộ KHÚC (cong) trên bộ THẦN (sớm), người nông dân cúi lưng làm việc từ sáng sớm"
+    },
+    "examples": [
+      { "word": "農業", "reading": "のうぎょう", "meaning": "nông nghiệp" },
+      { "word": "農村", "reading": "のうそん", "meaning": "nông thôn" },
+      { "word": "農家", "reading": "のうか", "meaning": "nhà nông" },
+      { "word": "農薬", "reading": "のうやく", "meaning": "thuốc trừ sâu" },
+      { "word": "農園", "reading": "のうえん", "meaning": "trang trại" },
+      { "word": "農民", "reading": "のうみん", "meaning": "nông dân" }
+    ]
+  },
+  {
+    "kanji": "濃",
+    "amHan": "Nồng",
+    "nghia": "Đậm, đặc, dày",
+    "onyomi": "ノウ",
+    "kunyomi": "こ_い",
+    "mnemonic": {
+      "text": "NƯỚC (Thủy) ở vùng NÔNG thôn thường rất ĐẬM đà"
+    },
+    "examples": [
+      { "word": "濃い", "reading": "こい", "meaning": "đậm, đặc, dày" },
+      { "word": "濃厚", "reading": "のうこう", "meaning": "đậm đà, nồng hậu" },
+      { "word": "濃度", "reading": "のうど", "meaning": "nồng độ" },
+      { "word": "濃淡", "reading": "のうたん", "meaning": "độ đậm nhạt" },
+      { "word": "濃縮", "reading": "のうしゅく", "meaning": "cô đặc" },
+      { "word": "濃緑", "reading": "のうりょく", "meaning": "xanh đậm" }
+    ]
+  },
+  {
+    "kanji": "豊",
+    "amHan": "Phong",
+    "nghia": "Phong phú, giàu có",
+    "onyomi": "ホウ",
+    "kunyomi": "ゆた_か",
+    "mnemonic": {
+      "text": "Hạt ĐẬU (Đậu) được trồng trên núi (KHÚC) cao tạo nên sự PHONG phú"
+    },
+    "examples": [
+      { "word": "豊か", "reading": "ゆたか", "meaning": "giàu có, phong phú" },
+      { "word": "豊富", "reading": "ほうふ", "meaning": "phong phú, dồi dào" },
+      { "word": "豊作", "reading": "ほうさく", "meaning": "mùa màng bội thu" },
+      { "word": "豊穣", "reading": "ほうじょう", "meaning": "ngũ cốc dồi dào" },
+      { "word": "豊かな国", "reading": "ゆたかなくに", "meaning": "quốc gia giàu có" },
+      { "word": "豊満", "reading": "ほうまん", "meaning": "đầy đặn, nảy nở" }
+    ]
+  },
+  {
+    "kanji": "残",
+    "amHan": "Tàn",
+    "nghia": "Còn lại, sót lại, tàn nhẫn",
+    "onyomi": "ザン",
+    "kunyomi": "のこ_る、のこ_す",
+    "mnemonic": {
+      "text": "Bộ NGẠT (xương người chết) và 2 thanh KIẾM (Qua), sau cuộc chiến tranh tàn khốc chỉ còn sót lại xương cốt"
+    },
+    "examples": [
+      { "word": "残る", "reading": "のこる", "meaning": "còn lại, sót lại" },
+      { "word": "残す", "reading": "のこす", "meaning": "bỏ lại, để thừa lại" },
+      { "word": "残念", "reading": "ざんねん", "meaning": "đáng tiếc" },
+      { "word": "残業", "reading": "ざんぎょう", "meaning": "làm thêm giờ" },
+      { "word": "残り", "reading": "のこり", "meaning": "phần còn lại" },
+      { "word": "残酷", "reading": "ざんこく", "meaning": "tàn khốc, tàn nhẫn" }
+    ]
+  },
+  {
+    "kanji": "巾",
+    "amHan": "Cân",
+    "nghia": "Cái khăn",
+    "onyomi": "キン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình dáng một cái KHĂN treo trên giá"
+    },
+    "examples": [
+      { "word": "雑巾", "reading": "ぞうきん", "meaning": "giẻ lau" },
+      { "word": "布巾", "reading": "ふきん", "meaning": "khăn lau chén bát" },
+      { "word": "頭巾", "reading": "ずきん", "meaning": "khăn trùm đầu" },
+      { "word": "巾着", "reading": "きんちゃく", "meaning": "túi xách tay nhỏ bằng vải" },
+      { "word": "手巾", "reading": "しゅきん", "meaning": "khăn tay" }
+    ]
+  },
+  {
+    "kanji": "布",
+    "amHan": "Bố",
+    "nghia": "Vải, tuyên bố",
+    "onyomi": "フ",
+    "kunyomi": "ぬの",
+    "mnemonic": {
+      "text": "Bộ TẢ (bên trái) kết hợp với bộ CÂN (cái khăn), tay trái cầm KHĂN bằng VẢI"
+    },
+    "examples": [
+      { "word": "布", "reading": "ぬの", "meaning": "vải" },
+      { "word": "布団", "reading": "ふとん", "meaning": "chăn, nệm" },
+      { "word": "財布", "reading": "さいふ", "meaning": "ví tiền" },
+      { "word": "分布", "reading": "ぶんぷ", "meaning": "phân bố" },
+      { "word": "毛布", "reading": "もうふ", "meaning": "chăn lông" },
+      { "word": "配布", "reading": "はいふ", "meaning": "phân phát" }
+    ]
+  },
+  {
+    "kanji": "希",
+    "amHan": "Hy",
+    "nghia": "Hy vọng, hiếm có",
+    "onyomi": "キ、ケ",
+    "kunyomi": "まれ",
+    "mnemonic": {
+      "text": "Ở dưới có bộ CÂN (khăn), ở trên là sự giao thoa, hy vọng có được chiếc khăn ĐẸP hiếm thấy"
+    },
+    "examples": [
+      { "word": "希望", "reading": "きぼう", "meaning": "hy vọng" },
+      { "word": "希", "reading": "まれ", "meaning": "hiếm có, ít thấy" },
+      { "word": "希少", "reading": "きしょう", "meaning": "hiếm có, quý hiếm" },
+      { "word": "希釈", "reading": "きしゃく", "meaning": "pha loãng" },
+      { "word": "希求", "reading": "ききゅう", "meaning": "khao khát" }
+    ]
+  },
+  {
+    "kanji": "集",
+    "amHan": "Tập",
+    "nghia": "Tập trung, thu thập",
+    "onyomi": "シュウ",
+    "kunyomi": "あつ_まる、あつ_める、つど_う",
+    "mnemonic": {
+      "text": "Có 1 con CHIM (Chuy) đậu trên cái CÂY (Mộc) để TẬP trung đàn"
+    },
+    "examples": [
+      { "word": "集める", "reading": "あつめる", "meaning": "thu thập, gom lại" },
+      { "word": "集団", "reading": "しゅうだん", "meaning": "nhóm, tập thể" },
+      { "word": "募集", "reading": "ぼしゅう", "meaning": "tuyển dụng" },
+      { "word": "集中", "reading": "しゅうちゅう", "meaning": "tập trung" },
+      { "word": "集合", "reading": "しゅうごう", "meaning": "tập hợp" },
+      { "word": "編集", "reading": "へんしゅう", "meaning": "biên tập" }
+    ]
+  },
+  {
+    "kanji": "雑",
+    "amHan": "Tạp",
+    "nghia": "Phức tạp, tạp nham",
+    "onyomi": "ザツ、ゾウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trên CÂY (Mộc) có CHIM (Chuy) và nhiều thứ TẠP nham bao quanh"
+    },
+    "examples": [
+      { "word": "雑誌", "reading": "ざっし", "meaning": "tạp chí" },
+      { "word": "複雑", "reading": "ふくざつ", "meaning": "phức tạp" },
+      { "word": "雑巾", "reading": "ぞうきん", "meaning": "giẻ lau" },
+      { "word": "混雑", "reading": "こんざつ", "meaning": "đông đúc, hỗn loạn" },
+      { "word": "雑音", "reading": "ざつおん", "meaning": "tạp âm" },
+      { "word": "雑談", "reading": "ざつだん", "meaning": "nói chuyện phiếm" }
+    ]
+  },
+  {
+    "kanji": "誰",
+    "amHan": "Thùy",
+    "nghia": "Ai (hỏi người)",
+    "onyomi": "スイ",
+    "kunyomi": "だれ",
+    "mnemonic": {
+      "text": "Dùng NGÔN ngữ (Ngôn) để hỏi con CHIM (Chuy) kia là AI"
+    },
+    "examples": [
+      { "word": "誰", "reading": "だれ", "meaning": "ai" },
+      { "word": "誰か", "reading": "だれか", "meaning": "ai đó" },
+      { "word": "誰でも", "reading": "だれでも", "meaning": "bất cứ ai" },
+      { "word": "誰彼", "reading": "だれかれ", "meaning": "người này hay người kia" }
+    ]
+  },
+  {
+    "kanji": "進",
+    "amHan": "Tiến",
+    "nghia": "Tiến lên, tiến bộ",
+    "onyomi": "シン",
+    "kunyomi": "すす_む、すす_める",
+    "mnemonic": {
+      "text": "Con CHIM (Chuy) đang đi bộ (Sước) TIẾN lên phía trước"
+    },
+    "examples": [
+      { "word": "進む", "reading": "すすむ", "meaning": "tiến lên, tiến triển" },
+      { "word": "促進", "reading": "そくしん", "meaning": "thúc đẩy" },
+      { "word": "進歩", "reading": "しんぽ", "meaning": "tiến bộ" },
+      { "word": "進行", "reading": "しんこう", "meaning": "tiến hành" },
+      { "word": "進化", "reading": "しんか", "meaning": "tiến hóa" },
+      { "word": "進学", "reading": "しんがく", "meaning": "học lên cao" }
+    ]
+  },
+  {
+    "kanji": "準",
+    "amHan": "Chuẩn",
+    "nghia": "Tiêu chuẩn, chuẩn bị",
+    "onyomi": "ジュン",
+    "kunyomi": "なぞら_える",
+    "mnemonic": {
+      "text": "Để đạt CHUẨN phải có NƯỚC (Thủy) sạch cho CHIM (Chuy) đậu trên THẬP (số 10)"
+    },
+    "examples": [
+      { "word": "準備", "reading": "じゅんび", "meaning": "chuẩn bị" },
+      { "word": "基準", "reading": "きじゅん", "meaning": "tiêu chuẩn" },
+      { "word": "水準", "reading": "すいじゅん", "meaning": "mức độ, trình độ" },
+      { "word": "準急", "reading": "じゅんきゅう", "meaning": "tàu nhanh (sau tốc hành)" },
+      { "word": "決勝", "reading": "けっしょう", "meaning": "chung kết" },
+      { "word": "準優勝", "reading": "じゅんゆうしょう", "meaning": "á quân" }
+    ]
+  },
+  {
+    "kanji": "曜",
+    "amHan": "Diệu",
+    "nghia": "Ngày trong tuần",
+    "onyomi": "ヨウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MẶT TRỜI (Nhật) chiếu sáng cho con CHIM (Chuy) trên đôi CÁNH vào các ngày DIỆU"
+    },
+    "examples": [
+      { "word": "曜日", "reading": "ようび", "meaning": "thứ trong tuần" },
+      { "word": "日曜日", "reading": "にちようび", "meaning": "chủ nhật" },
+      { "word": "土曜日", "reading": "どようび", "meaning": "thứ bảy" },
+      { "word": "月曜日", "reading": "げつようび", "meaning": "thứ hai" },
+      { "word": "火曜日", "reading": "かようび", "meaning": "thứ ba" },
+      { "word": "金曜日", "reading": "きんようび", "meaning": "thứ sáu" }
+    ]
+  },
+  {
+    "kanji": "確",
+    "amHan": "Xác",
+    "nghia": "Xác thực, chính xác",
+    "onyomi": "カク",
+    "kunyomi": "たし_か、たし_かめる",
+    "mnemonic": {
+      "text": "Dùng ĐÁ (Thạch) ném con CHIM (Chuy) trên vách ĐÁ (Hán) để XÁC nhận"
+    },
+    "examples": [
+      { "word": "確かめる", "reading": "たしかめる", "meaning": "xác nhận" },
+      { "word": "確実", "reading": "かくじつ", "meaning": "chắc chắn, chính xác" },
+      { "word": "明確", "reading": "めいかく", "meaning": "rõ ràng" },
+      { "word": "確保", "reading": "かくほ", "meaning": "bảo đảm" },
+      { "word": "確率", "reading": "かくりつ", "meaning": "xác suất" },
+      { "word": "確信", "reading": "かくしん", "meaning": "tin tưởng tuyệt đối" }
+    ]
+  },
+  {
+    "kanji": "観",
+    "amHan": "Quan",
+    "nghia": "Quan sát, tham quan",
+    "onyomi": "カン",
+    "kunyomi": "み_る",
+    "mnemonic": {
+      "text": "Con CHIM (Chuy) đang dùng MẮT (Kiến) để QUAN sát vạn vật"
+    },
+    "examples": [
+      { "word": "観光", "reading": "かんこう", "meaning": "tham quan, du lịch" },
+      { "word": "観客", "reading": "かんきゃく", "meaning": "khán giả" },
+      { "word": "観る", "reading": "みる", "meaning": "xem, nhìn, ngắm" },
+      { "word": "観察", "reading": "かんさつ", "meaning": "quan sát" },
+      { "word": "観点", "reading": "かんてん", "meaning": "quan điểm" },
+      { "word": "楽観", "reading": "らっかん", "meaning": "lạc quan" }
+    ]
+  },
+  {
+    "kanji": "曲",
+    "amHan": "Khúc",
+    "nghia": "Cong, ca khúc",
+    "onyomi": "キョク",
+    "kunyomi": "ま_がる、ま_げる",
+    "mnemonic": {
+      "text": "Hình ảnh những thanh gỗ uốn CONG thành một khúc nhạc"
+    },
+    "examples": [
+      { "word": "曲がる", "reading": "まがる", "meaning": "rẽ, quẹo, cong" },
+      { "word": "曲げる", "reading": "まげる", "meaning": "uốn cong, bẻ cong" },
+      { "word": "作曲", "reading": "さっきょく", "meaning": "sáng tác nhạc" },
+      { "word": "曲線", "reading": "きょくせん", "meaning": "đường cong" },
+      { "word": "名曲", "reading": "めいきょく", "meaning": "ca khúc nổi tiếng" },
+      { "word": "曲名", "reading": "きょくめい", "meaning": "tên bài hát" }
+    ]
+  }
+]

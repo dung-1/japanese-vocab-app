@@ -27,7 +27,7 @@ export class LayoutKanjiWordsComponent {
     }
     // Preload data for lessons in background (only if not cached)
     // Note: This is for initial load optimization, actual lesson selection always fetches fresh data
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 30; i++) {
       const cachedData = localStorage.getItem(`kanji-words-lesson${i}`);
       if (!cachedData) {
         const cacheBuster = `?t=${Date.now()}`;

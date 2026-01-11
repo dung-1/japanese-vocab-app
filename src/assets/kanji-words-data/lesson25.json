@@ -1,0 +1,343 @@
+[
+  {
+    "kanji": "紙",
+    "amHan": "Chỉ",
+    "nghia": "Giấy",
+    "onyomi": "シ",
+    "kunyomi": "かみ",
+    "mnemonic": {
+      "text": "Dùng sợi TƠ (Mịch) kết hợp với Họ THỊ để làm ra GIẤY"
+    },
+    "examples": [
+      { "word": "紙袋", "reading": "かみぶくろ", "meaning": "Túi giấy" },
+      { "word": "古紙", "reading": "こし", "meaning": "Giấy cũ, giấy đã dùng" },
+      { "word": "手紙", "reading": "てがみ", "meaning": "Bức thư" },
+      { "word": "用紙", "reading": "ようし", "meaning": "Mẫu giấy, form" },
+      { "word": "新聞紙", "reading": "しんぶんし", "meaning": "Giấy báo" }
+    ]
+  },
+  {
+    "kanji": "婚",
+    "amHan": "Hôn",
+    "nghia": "Kết hôn",
+    "onyomi": "コン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (Nữ) đi dưới ánh mặt trời buổi CHIỀU TÀ (Hôn) để về nhà chồng làm lễ KẾT HÔN"
+    },
+    "examples": [
+      { "word": "未婚", "reading": "みこん", "meaning": "Chưa lập gia đình" },
+      { "word": "結婚", "reading": "けっこん", "meaning": "Sự kết hôn" },
+      { "word": "新婚", "reading": "しんこん", "meaning": "Mới cưới" },
+      { "word": "婚約", "reading": "こんやく", "meaning": "Hứa hôn, đính hôn" },
+      { "word": "離婚", "reading": "りこん", "meaning": "Ly hôn" }
+    ]
+  },
+  {
+    "kanji": "民",
+    "amHan": "Dân",
+    "nghia": "Dân chúng",
+    "onyomi": "ミン",
+    "kunyomi": "たみ",
+    "mnemonic": {
+      "text": "Hình ảnh một người đang cầm gậy đứng trên mảnh ĐẤT, đại diện cho những người DÂN"
+    },
+    "examples": [
+      { "word": "国民", "reading": "こくみん", "meaning": "Quốc dân" },
+      { "word": "民族", "reading": "みんぞく", "meaning": "Dân tộc" },
+      { "word": "市民", "reading": "しみん", "meaning": "Thị dân, người dân thành phố" },
+      { "word": "住民", "reading": "じゅうみん", "meaning": "Dân cư" },
+      { "word": "民主", "reading": "みんしゅ", "meaning": "Dân chủ" }
+    ]
+  },
+  {
+    "kanji": "眠",
+    "amHan": "Miên",
+    "nghia": "Ngủ",
+    "onyomi": "ミン",
+    "kunyomi": "ねむ_る、ねむ_い",
+    "mnemonic": {
+      "text": "Khi con MẮT (Mục) của người DÂN (Dân) nhắm lại là đang NGỦ"
+    },
+    "examples": [
+      { "word": "眠い", "reading": "ねむい", "meaning": "Buồn ngủ" },
+      { "word": "不眠", "reading": "ふみん", "meaning": "Khó ngủ, mất ngủ" },
+      { "word": "眠る", "reading": "ねむる", "meaning": "Ngủ" },
+      { "word": "睡眠", "reading": "すいみん", "meaning": "Giấc ngủ" },
+      { "word": "冬眠", "reading": "とうみん", "meaning": "Ngủ đông" }
+    ]
+  },
+  {
+    "kanji": "低",
+    "amHan": "Đê",
+    "nghia": "Thấp",
+    "onyomi": "テイ",
+    "kunyomi": "ひく_い、ひく_める、ひく_まる",
+    "mnemonic": {
+      "text": "Người (Nhân) đứng cạnh cái móng nhà để đo xem độ THẤP"
+    },
+    "examples": [
+      { "word": "低い", "reading": "ひくい", "meaning": "Thấp" },
+      { "word": "低下", "reading": "ていか", "meaning": "Sự giảm xuống" },
+      { "word": "低位", "reading": "ていい", "meaning": "Vị trí thấp" },
+      { "word": "最低", "reading": "さいてい", "meaning": "Thấp nhất, tồi tệ nhất" },
+      { "word": "低音", "reading": "ていおん", "meaning": "Giọng thấp, âm trầm" }
+    ]
+  },
+  {
+    "kanji": "受",
+    "amHan": "Thụ",
+    "nghia": "Nhận",
+    "onyomi": "ジュ",
+    "kunyomi": "う_ける、う_かる",
+    "mnemonic": {
+      "text": "Dùng tay MÓNG (Trảo) đưa một vật vào khay để người kia NHẬN (Thụ) lấy"
+    },
+    "examples": [
+      { "word": "受ける", "reading": "うける", "meaning": "Nhận" },
+      { "word": "受験", "reading": "じゅけん", "meaning": "Sự đi thi, dự thi" },
+      { "word": "受付", "reading": "うけつけ", "meaning": "Quầy tiếp tân" },
+      { "word": "受け取る", "reading": "うけとる", "meaning": "Tiếp nhận" },
+      { "word": "受話器", "reading": "じゅわき", "meaning": "Ống nghe điện thoại" }
+    ]
+  },
+  {
+    "kanji": "授",
+    "amHan": "Thụ",
+    "nghia": "Trao cho, truyền thụ",
+    "onyomi": "ジュ",
+    "kunyomi": "さず_ける、さず_かる",
+    "mnemonic": {
+      "text": "Dùng TAY (Thủ) để TRUYỀN THỤ (Thụ) lại những gì mình đã NHẬN (Thụ) được"
+    },
+    "examples": [
+      { "word": "伝授", "reading": "でんじゅ", "meaning": "Sự truyền thụ, truyền đạt" },
+      { "word": "授業", "reading": "じゅぎょう", "meaning": "Buổi học, tiết học" },
+      { "word": "教授", "reading": "きょうじゅ", "meaning": "Giáo sư" },
+      { "word": "授与", "reading": "じゅよ", "meaning": "Trao tặng, ban thưởng" },
+      { "word": "授かる", "reading": "さずかる", "meaning": "Được ban cho, nhận được" }
+    ]
+  },
+  {
+    "kanji": "愛",
+    "amHan": "Ái",
+    "nghia": "Yêu",
+    "onyomi": "アイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Khi YÊU (Ái) thì TÂM (Tâm) luôn đặt ở giữa, từng bước chân (Truy) đều đi về phía người đó"
+    },
+    "examples": [
+      { "word": "愛する", "reading": "あいする", "meaning": "Yêu" },
+      { "word": "恋愛", "reading": "れんあい", "meaning": "Tình yêu" },
+      { "word": "愛用", "reading": "あいよう", "meaning": "Thích dùng, tin dùng" },
+      { "word": "愛犬", "reading": "あいけん", "meaning": "Chó cưng" },
+      { "word": "愛情", "reading": "あいじょう", "meaning": "Ái tình, tình cảm" }
+    ]
+  },
+  {
+    "kanji": "夏",
+    "amHan": "Hạ",
+    "nghia": "Mùa hè",
+    "onyomi": "カ",
+    "kunyomi": "なつ",
+    "mnemonic": {
+      "text": "Mùa HÈ nóng bức nên cái đầu (Mục) và đôi chân (Truy) đều cảm thấy mệt mỏi"
+    },
+    "examples": [
+      { "word": "夏祭り", "reading": "なつまつり", "meaning": "Lễ hội mùa hè" },
+      { "word": "今夏", "reading": "こんか", "meaning": "Mùa hè này" },
+      { "word": "夏休み", "reading": "なつやすみ", "meaning": "Kỳ nghỉ hè" },
+      { "word": "初夏", "reading": "しょか", "meaning": "Đầu hè" },
+      { "word": "真夏", "reading": "まなつ", "meaning": "Giữa hè" }
+    ]
+  },
+  {
+    "kanji": "憂",
+    "amHan": "Ưu",
+    "nghia": "Lo lắng, buồn rầu",
+    "onyomi": "ユウ",
+    "kunyomi": "うれ_える、うれ_い",
+    "mnemonic": {
+      "text": "Cái ĐẦU suy nghĩ, trái TÂM lo âu, đôi chân (Truy) bước đi nặng nề trong nỗi BUỒN (Ưu)"
+    },
+    "examples": [
+      { "word": "憂える", "reading": "うれえる", "meaning": "Buồn, đau lòng" },
+      { "word": "憂思", "reading": "ゆうし", "meaning": "Sự ưu tư, trầm ngâm" },
+      { "word": "憂鬱", "reading": "ゆううつ", "meaning": "U sầu, u uất" },
+      { "word": "憂慮", "reading": "ゆうりょ", "meaning": "Lo lắng, lo ngại" },
+      { "word": "憂い", "reading": "うれい", "meaning": "Nỗi buồn, lo lắng" }
+    ]
+  },
+  {
+    "kanji": "復",
+    "amHan": "Phục",
+    "nghia": "Quay lại, lặp lại",
+    "onyomi": "フク",
+    "kunyomi": "また",
+    "mnemonic": {
+      "text": "BƯỚC CHÂN (Xích) quay lại CHỐN CŨ (Phục) để HỒI PHỤC sức mạnh"
+    },
+    "examples": [
+      { "word": "回復", "reading": "かいふく", "meaning": "Sự hồi phục" },
+      { "word": "復習", "reading": "ふくしゅう", "meaning": "Ôn tập" },
+      { "word": "復活", "reading": "ふっかつ", "meaning": "Sống lại, tái sinh" },
+      { "word": "往復", "reading": "おうふく", "meaning": "Khứ hồi, đi và về" },
+      { "word": "復帰", "reading": "ふっき", "meaning": "Quay lại làm việc, trở lại" }
+    ]
+  },
+  {
+    "kanji": "複",
+    "amHan": "Phức",
+    "nghia": "Phức tạp, nhiều",
+    "onyomi": "フク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người giàu mặc nhiều lớp ÁO (Y) chồng lên nhau tạo nên sự PHỨC tạp"
+    },
+    "examples": [
+      { "word": "複雑", "reading": "ふくざつ", "meaning": "Phức tạp" },
+      { "word": "複数", "reading": "ふくすう", "meaning": "Phức số, số nhiều" },
+      { "word": "複製", "reading": "ふくせい", "meaning": "Phục chế, copy" },
+      { "word": "複合", "reading": "ふくごう", "meaning": "Phức hợp" },
+      { "word": "複写", "reading": "ふくしゃ", "meaning": "Bản sao, photocopy" }
+    ]
+  }
+,
+  {
+    "kanji": "腹",
+    "amHan": "Phúc",
+    "nghia": "Bụng",
+    "onyomi": "フク",
+    "kunyomi": "はら",
+    "mnemonic": {
+      "text": "Phần cơ thể (Nguyệt/Nhục) mà khi no hay đói đều lặp đi lặp lại (Phục) là cái BỤNG"
+    },
+    "examples": [
+      { "word": "腹", "reading": "はら", "meaning": "Bụng" },
+      { "word": "腹を立てる", "reading": "はらをたてる", "meaning": "Tức giận" },
+      { "word": "空腹", "reading": "くうふく", "meaning": "Đói bụng" },
+      { "word": "腹痛", "reading": "ふくつう", "meaning": "Đau bụng" },
+      { "word": "満腹", "reading": "まんぷく", "meaning": "No bụng" }
+    ]
+  },
+  {
+    "kanji": "麦",
+    "amHan": "Mạch",
+    "nghia": "Lúa mạch",
+    "onyomi": "バク",
+    "kunyomi": "むぎ",
+    "mnemonic": {
+      "text": "Cây lúa (Truy - chân đi) mọc trên cánh đồng cho ra hạt LÚA MẠCH"
+    },
+    "examples": [
+      { "word": "麦", "reading": "むぎ", "meaning": "Lúa mạch" },
+      { "word": "小麦", "reading": "こむぎ", "meaning": "Lúa mì" },
+      { "word": "麦茶", "reading": "むぎちゃ", "meaning": "Trà lúa mạch" },
+      { "word": "蕎麦", "reading": "そば", "meaning": "Mì Soba" },
+      { "word": "麦芽", "reading": "ばくが", "meaning": "Mạch nha" }
+    ]
+  },
+  {
+    "kanji": "元",
+    "amHan": "Nguyên",
+    "nghia": "Gốc, khỏe mạnh",
+    "onyomi": "ゲン、ガン",
+    "kunyomi": "もと",
+    "mnemonic": {
+      "text": "Hai (Nhị) người (Nhi) đứng vững chãi tạo nên NGUYÊN khí khỏe mạnh"
+    },
+    "examples": [
+      { "word": "元々", "reading": "もともと", "meaning": "Vốn dĩ, ngay từ đầu" },
+      { "word": "元気", "reading": "げんき", "meaning": "Khỏe mạnh, phấn chấn" },
+      { "word": "元始", "reading": "げんし", "meaning": "Nguồn gốc, căn nguyên" },
+      { "word": "地元", "reading": "じもと", "meaning": "Địa phương" },
+      { "word": "元日", "reading": "がんじつ", "meaning": "Ngày đầu năm mới" }
+    ]
+  },
+  {
+    "kanji": "完",
+    "amHan": "Hoàn",
+    "nghia": "Hoàn thành",
+    "onyomi": "カン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (Miên), mọi thứ đều NGUYÊN (Nguyên) vẹn là sự HOÀN tất"
+    },
+    "examples": [
+      { "word": "完全", "reading": "かんぜん", "meaning": "Hoàn toàn, hoàn chỉnh" },
+      { "word": "未完", "reading": "みかん", "meaning": "Chưa hoàn thành" },
+      { "word": "完成", "reading": "かんせい", "meaning": "Hoàn thành" },
+      { "word": "完了", "reading": "かんりょう", "meaning": "Kết thúc, xong xuôi" },
+      { "word": "完璧", "reading": "かんぺき", "meaning": "Hoàn hảo" }
+    ]
+  },
+  {
+    "kanji": "院",
+    "amHan": "Viện",
+    "nghia": "Tòa nhà, viện",
+    "onyomi": "イン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dựa vào sườn NÚI (Phụ), xây cái NHÀ (Miên) cho mọi thứ HOÀN (Hoàn) hảo để làm học VIỆN"
+    },
+    "examples": [
+      { "word": "病院", "reading": "びょういん", "meaning": "Bệnh viện" },
+      { "word": "議院", "reading": "ぎいん", "meaning": "Nghị viện" },
+      { "word": "大学院", "reading": "だいがくいん", "meaning": "Cao học" },
+      { "word": "入院", "reading": "にゅういん", "meaning": "Nhập viện" },
+      { "word": "院長", "reading": "いんちょう", "meaning": "Viện trưởng" }
+    ]
+  },
+  {
+    "kanji": "売",
+    "amHan": "Mại",
+    "nghia": "Bán",
+    "onyomi": "バイ",
+    "kunyomi": "う_る、う_れる",
+    "mnemonic": {
+      "text": "Sĩ (Sĩ) tử đội mũ (Mịch) đi bộ (Nhi) ra chợ để BÁN hàng"
+    },
+    "examples": [
+      { "word": "売り場", "reading": "うりば", "meaning": "Chỗ bán, quầy hàng" },
+      { "word": "売買", "reading": "ばいばい", "meaning": "Sự mua bán" },
+      { "word": "売る", "reading": "うる", "meaning": "Bán" },
+      { "word": "売店", "reading": "ばいてん", "meaning": "Cửa hàng bán lẻ" },
+      { "word": "売り切れ", "reading": "うりきれ", "meaning": "Bán hết hàng" }
+    ]
+  },
+  {
+    "kanji": "読",
+    "amHan": "Độc",
+    "nghia": "Đọc",
+    "onyomi": "ドク、トク",
+    "kunyomi": "よ_む、よ_み",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (Ngôn) để ĐỌC (Độc) các món hàng đang BÁN (Mại)"
+    },
+    "examples": [
+      { "word": "読む", "reading": "よむ", "meaning": "Đọc" },
+      { "word": "読み方", "reading": "よみかた", "meaning": "Cách đọc" },
+      { "word": "読書", "reading": "どくしょ", "meaning": "Đọc sách" },
+      { "word": "読者", "reading": "どくしゃ", "meaning": "Độc giả" },
+      { "word": "句読点", "reading": "くとうてん", "meaning": "Dấu chấm câu" }
+    ]
+  },
+  {
+    "kanji": "続",
+    "amHan": "Tục",
+    "nghia": "Tiếp tục",
+    "onyomi": "ゾク",
+    "kunyomi": "つづ_く、つづ_ける",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (Mịch) nối các món đồ BÁN (Mại) lại để TIẾP TỤC chuỗi hàng"
+    },
+    "examples": [
+      { "word": "続ける", "reading": "つづける", "meaning": "Tiếp tục (tha động từ)" },
+      { "word": "続く", "reading": "つづく", "meaning": "Tiếp tục (tự động từ)" },
+      { "word": "接続", "reading": "せつぞく", "meaning": "Kết nối" },
+      { "word": "連続", "reading": "れんぞく", "meaning": "Liên tục" },
+      { "word": "手続き", "reading": "てつづき", "meaning": "Thủ tục" }
+    ]
+  }
+]

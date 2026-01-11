@@ -1,0 +1,223 @@
+[
+  {
+    "kanji": "線",
+    "amHan": "TUYẾN",
+    "nghia": "Tuyến đường, sợi dây",
+    "onyomi": "セン",
+    "kunyomi": "すじ",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (MỊCH) kết hợp với nước (THỦY) chảy qua các hốc ĐÁ (BẠCH) tạo thành một con đường TUYẾN thẳng"
+    },
+    "examples": [
+      { "word": "電線", "reading": "でんせん", "meaning": "Đường dây điện" },
+      { "word": "緯線", "reading": "いせん", "meaning": "Vĩ tuyến" },
+      { "word": "線路", "reading": "せんろ", "meaning": "Đường ray, đường sắt" },
+      { "word": "直線", "reading": "ちょくせん", "meaning": "Đường thẳng" },
+      { "word": "下線", "reading": "かせん", "meaning": "Gạch chân" },
+      { "word": "境界線", "reading": "きょうかいせん", "meaning": "Đường biên giới" }
+    ]
+  },
+  {
+    "kanji": "突",
+    "amHan": "ĐỘT",
+    "nghia": "Đâm thủng, đột nhiên",
+    "onyomi": "トツ",
+    "kunyomi": "つ.く",
+    "mnemonic": {
+      "text": "Trong hang (HUYỆT) bỗng nhiên có con CHÓ (KHUYỂN) xông ra ĐỘT ngột"
+    },
+    "examples": [
+      { "word": "突然", "reading": "とつぜん", "meaning": "Đột nhiên" },
+      { "word": "突く", "reading": "つく", "meaning": "Đâm, chọc" },
+      { "word": "衝突", "reading": "しょうとつ", "meaning": "Xung đột, va chạm" },
+      { "word": "突き当たり", "reading": "つきあたり", "meaning": "Cuối đường" },
+      { "word": "突破", "reading": "とっぱ", "meaning": "Đột phá" }
+    ]
+  },
+  {
+    "kanji": "戻",
+    "amHan": "LỆ",
+    "nghia": "Quay lại",
+    "onyomi": "レイ",
+    "kunyomi": "もど.る、もど.す",
+    "mnemonic": {
+      "text": "Con CHÓ (KHUYỂN) đang ở dưới CỬA (HỘ) thì quay LỆ (quay lại)"
+    },
+    "examples": [
+      { "word": "戻る", "reading": "もどる", "meaning": "Quay lại" },
+      { "word": "戻す", "reading": "もどす", "meaning": "Trả lại" },
+      { "word": "払い戻す", "reading": "はらいもどす", "meaning": "Hoàn tiền" },
+      { "word": "後戻り", "reading": "あともどり", "meaning": "Quay lui, rút lui" },
+      { "word": "戻り道", "reading": "もどりみち", "meaning": "Đường về" }
+    ]
+  },
+  {
+    "kanji": "涙",
+    "amHan": "LỆ",
+    "nghia": "Nước mắt",
+    "onyomi": "レイ",
+    "kunyomi": "なみだ",
+    "mnemonic": {
+      "text": "NƯỚC (THỦY) chảy ra từ dưới CÁNH CỬA (HỘ) của con CHÓ (KHUYỂN) là nước mắt lệ"
+    },
+    "examples": [
+      { "word": "涙", "reading": "なみだ", "meaning": "Nước mắt" },
+      { "word": "涙声", "reading": "なみだごえ", "meaning": "Giọng nói nghẹn ngào" },
+      { "word": "うれし涙", "reading": "うれしなみだ", "meaning": "Nước mắt hạnh phúc" },
+      { "word": "涙ぐむ", "reading": "なみだぐむ", "meaning": "Rơm rớm nước mắt" },
+      { "word": "涙腺", "reading": "るいせん", "meaning": "Tuyến lệ" }
+    ]
+  },
+  {
+    "kanji": "因",
+    "amHan": "NHÂN",
+    "nghia": "Nguyên nhân",
+    "onyomi": "イン",
+    "kunyomi": "よ.る、ちな.む",
+    "mnemonic": {
+      "text": "Một NGƯỜI (NHÂN) nằm trong KHUNG (VI) để tìm NHÂN quả"
+    },
+    "examples": [
+      { "word": "原因", "reading": "げんいん", "meaning": "Nguyên nhân" },
+      { "word": "因果", "reading": "いんが", "meaning": "Nhân quả" },
+      { "word": "要因", "reading": "よういん", "meaning": "Yếu tố chính" },
+      { "word": "因る", "reading": "よる", "meaning": "Do bởi, căn cứ vào" },
+      { "word": "死因", "reading": "しいん", "meaning": "Nguyên nhân cái chết" }
+    ]
+  },
+  {
+    "kanji": "状",
+    "amHan": "TRẠNG",
+    "nghia": "Tình trạng, hình dạng",
+    "onyomi": "ジョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MẢNH GỖ (TƯỜNG) và con CHÓ (KHUYỂN) mô tả tình TRẠNG của sự việc"
+    },
+    "examples": [
+      { "word": "状況", "reading": "じょうきょう", "meaning": "Tình hình" },
+      { "word": "状態", "reading": "じょうたい", "meaning": "Trạng thái" },
+      { "word": "年賀状", "reading": "ねんがじょう", "meaning": "Thiệp chúc tết" },
+      { "word": "症状", "reading": "しょうじょう", "meaning": "Triệu chứng" },
+      { "word": "礼状", "reading": "れいじょう", "meaning": "Thư cảm ơn" }
+    ]
+  },
+  {
+    "kanji": "然",
+    "amHan": "NHIÊN",
+    "nghia": "Tự nhiên, thiên nhiên",
+    "onyomi": "ゼン、ネン",
+    "kunyomi": "しか、しか.し",
+    "mnemonic": {
+      "text": "Thịt CHÓ (KHUYỂN/NGUYỆT) nướng trên LỬA (HỎA) bốc khói tự NHIÊN"
+    },
+    "examples": [
+      { "word": "自然", "reading": "しぜん", "meaning": "Tự nhiên" },
+      { "word": "天然", "reading": "てんねん", "meaning": "Thiên nhiên" },
+      { "word": "偶然", "reading": "ぐうぜん", "meaning": "Ngẫu nhiên" },
+      { "word": "全然", "reading": "ぜんぜん", "meaning": "Hoàn toàn (không)" },
+      { "word": "当然", "reading": "とうぜん", "meaning": "Đương nhiên" },
+      { "word": "突然", "reading": "とつぜん", "meaning": "Đột nhiên" }
+    ]
+  },
+  {
+    "kanji": "燃",
+    "amHan": "NHIÊN",
+    "nghia": "Đốt cháy",
+    "onyomi": "ネン",
+    "kunyomi": "も.える、も.やす、も.す",
+    "mnemonic": {
+      "text": "Thêm bộ LỬA (HỎA) vào chữ NHIÊN để chỉ việc đốt NHIÊN liệu"
+    },
+    "examples": [
+      { "word": "燃えるゴミ", "reading": "もえるごみ", "meaning": "Rác cháy được" },
+      { "word": "燃料", "reading": "ねんりょう", "meaning": "Nhiên liệu" },
+      { "word": "燃やす", "reading": "もやす", "meaning": "Đốt cháy" },
+      { "word": "燃焼", "reading": "ねんしょう", "meaning": "Sự đốt cháy" },
+      { "word": "可燃", "reading": "かねん", "meaning": "Dễ cháy" }
+    ]
+  },
+  {
+    "kanji": "矢",
+    "amHan": "THỈ",
+    "nghia": "Mũi tên",
+    "onyomi": "シ",
+    "kunyomi": "や",
+    "mnemonic": {
+      "text": "Hình ảnh một NGƯỜI đang bắn một mũi THỈ (mũi tên)"
+    },
+    "examples": [
+      { "word": "矢印", "reading": "やじるし", "meaning": "Dấu mũi tên" },
+      { "word": "矢", "reading": "や", "meaning": "Mũi tên" },
+      { "word": "弓矢", "reading": "ゆみや", "meaning": "Cung tên" },
+      { "word": "一矢報いる", "reading": "いっしむくいる", "meaning": "Trả đũa" }
+    ]
+  },
+  {
+    "kanji": "忘",
+    "amHan": "VONG",
+    "nghia": "Quên",
+    "onyomi": "ボウ",
+    "kunyomi": "わす.れる",
+    "mnemonic": {
+      "text": "Khi TÂM (TIM) bị mất (VONG) đi thì ta sẽ VONG (QUÊN)"
+    },
+    "examples": [
+      { "word": "忘れる", "reading": "わすれる", "meaning": "Quên" },
+      { "word": "忘年会", "reading": "ぼうねんかい", "meaning": "Tiệc tất niên" },
+      { "word": "忘れ物", "reading": "わすれもの", "meaning": "Vật bị bỏ quên" },
+      { "word": "忘れがたい", "reading": "わすれがたい", "meaning": "Khó quên" },
+      { "word": "忘恩", "reading": "ぼうおん", "meaning": "Vong ơn" }
+    ]
+  },
+  {
+    "kanji": "望",
+    "amHan": "VỌNG",
+    "nghia": "Hy vọng, kỳ vọng",
+    "onyomi": "ボウ、モウ",
+    "kunyomi": "のぞ.む、もち",
+    "mnemonic": {
+      "text": "Kẻ SĨ đứng trên ĐẤT (THỔ) dưới ánh TRĂNG (NGUYỆT) ôm VONG (mất mát) để hy VỌNG"
+    },
+    "examples": [
+      { "word": "望む", "reading": "のぞむ", "meaning": "Ước muốn, hy vọng" },
+      { "word": "希望", "reading": "きぼう", "meaning": "Kỳ vọng" },
+      { "word": "有望", "reading": "ゆうぼう", "meaning": "Có triển vọng" },
+      { "word": "志望", "reading": "しぼう", "meaning": "Nguyện vọng" },
+      { "word": "絶望", "reading": "ぜつぼう", "meaning": "Thất vọng, tuyệt vọng" }
+    ]
+  },
+  {
+    "kanji": "忙",
+    "amHan": "MANG",
+    "nghia": "Bận rộn",
+    "onyomi": "ボウ、モウ",
+    "kunyomi": "いそが.しい、せわ.しい",
+    "mnemonic": {
+      "text": "TÂM (TIM) bận rộn đến mức sắp tan biến (VONG) là đang MANG (bận)"
+    },
+    "examples": [
+      { "word": "忙しい", "reading": "いそがしい", "meaning": "Bận rộn" },
+      { "word": "多忙", "reading": "たぼう", "meaning": "Rất bận rộn" },
+      { "word": "忙殺", "reading": "ぼうさつ", "meaning": "Bận túi bụi" },
+      { "word": "繁忙期", "reading": "はんぼうき", "meaning": "Mùa cao điểm" }
+    ]
+  },
+  {
+    "kanji": "泉",
+    "amHan": "TUYỀN",
+    "nghia": "Suối",
+    "onyomi": "セン",
+    "kunyomi": "いずみ",
+    "mnemonic": {
+      "text": "NƯỚC (THỦY) chảy từ hốc đá TRẮNG (BẠCH) ra tạo thành suối TUYỀN"
+    },
+    "examples": [
+      { "word": "泉", "reading": "いずみ", "meaning": "Suối" },
+      { "word": "温泉", "reading": "おんせん", "meaning": "Suối nước nóng Onsen" },
+      { "word": "源泉", "reading": "げんせん", "meaning": "Nguồn suối" },
+      { "word": "噴水", "reading": "ふんすい", "meaning": "Vòi phun nước (liên quan nguồn nước)" },
+      { "word": "泉水", "reading": "せんすい", "meaning": "Nước suối" }
+    ]
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "kanji": "殺",
+    "amHan": "Sát",
+    "nghia": "Giết, sát hại",
+    "onyomi": "サツ、サイ",
+    "kunyomi": "ころ_す",
+    "mnemonic": {
+      "text": "Dùng binh KHÍ (殳) tác động lên cây GẬY (木) và đầu (メ) để SÁT hại"
+    },
+    "examples": [
+      { "word": "殺す", "reading": "ころす", "meaning": "giết" },
+      { "word": "殺人", "reading": "さつじん", "meaning": "giết người" },
+      { "word": "殺害", "reading": "さつがい", "meaning": "sát hại" },
+      { "word": "自殺", "reading": "じさつ", "meaning": "tự sát" },
+      { "word": "忙殺", "reading": "ぼうさつ", "meaning": "bận rộn tối mắt tối mũi" },
+      { "word": "殺到", "reading": "さっとう", "meaning": "đổ xô đến, chen lấn" }
+    ]
+  },
+  {
+    "kanji": "投",
+    "amHan": "Đầu",
+    "nghia": "Ném, quăng, đầu tư",
+    "onyomi": "トウ",
+    "kunyomi": "な_げる",
+    "mnemonic": {
+      "text": "Dùng TAY (扌) cầm binh KHÍ (殳) ĐẦU hàng hoặc ném đi"
+    },
+    "examples": [
+      { "word": "投げる", "reading": "なげる", "meaning": "ném" },
+      { "word": "投資", "reading": "とうし", "meaning": "đầu tư" },
+      { "word": "投票", "reading": "とうひょう", "meaning": "bỏ phiếu" },
+      { "word": "投手", "reading": "とうしゅ", "meaning": "người ném bóng (pitcher)" },
+      { "word": "投書", "reading": "とうしょ", "meaning": "thư bạn đọc, gửi bài" },
+      { "word": "投薬", "reading": "とうやく", "meaning": "phát thuốc, dùng thuốc" }
+    ]
+  },
+  {
+    "kanji": "役",
+    "amHan": "Dịch",
+    "nghia": "Chức vụ, vai trò, phục dịch",
+    "onyomi": "ヤク、エキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bước CHÂN (彳) cầm binh KHÍ (殳) đi làm nhiệm vụ quân DỊCH"
+    },
+    "examples": [
+      { "word": "役割", "reading": "やくわり", "meaning": "vai trò" },
+      { "word": "役員", "reading": "やくいん", "meaning": "ủy viên, cán bộ" },
+      { "word": "役所", "reading": "やくしょ", "meaning": "công sở, cơ quan nhà nước" },
+      { "word": "使役", "reading": "しえき", "meaning": "sai khiến, thể sai khiến" },
+      { "word": "取締役", "reading": "とりしまりやく", "meaning": "giám đốc điều hành" },
+      { "word": "役に立つ", "reading": "やくにたつ", "meaning": "có ích" }
+    ]
+  },
+  {
+    "kanji": "段",
+    "amHan": "Đoạn",
+    "nghia": "Giai đoạn, bước, cầu thang",
+    "onyomi": "ダン、タン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cầm binh KHÍ (殳) chặt từng ĐOẠN trên vách ĐÁ (厂)"
+    },
+    "examples": [
+      { "word": "階段", "reading": "かいだん", "meaning": "cầu thang" },
+      { "word": "手段", "reading": "しゅだん", "meaning": "phương pháp, cách thức" },
+      { "word": "値段", "reading": "ねだん", "meaning": "giá cả" },
+      { "word": "段階", "reading": "だんかい", "meaning": "giai đoạn" },
+      { "word": "一段と", "reading": "いちだんと", "meaning": "hơn hẳn một bậc" },
+      { "word": "段ボール", "reading": "だんボール", "meaning": "thùng carton" }
+    ]
+  },
+  {
+    "kanji": "駅",
+    "amHan": "Dịch",
+    "nghia": "Nhà ga",
+    "onyomi": "エキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Ngày xưa dùng NGỰA (馬) để di chuyển giữa các trạm DỊCH (尺)"
+    },
+    "examples": [
+      { "word": "駅", "reading": "えき", "meaning": "nhà ga" },
+      { "word": "駅長", "reading": "えきちょう", "meaning": "trưởng nhà ga" },
+      { "word": "駅前", "reading": "えきまえ", "meaning": "trước nhà ga" },
+      { "word": "駅弁", "reading": "えきべん", "meaning": "cơm hộp nhà ga" },
+      { "word": "各駅停車", "reading": "かくえきていしゃ", "meaning": "tàu dừng mọi ga" },
+      { "word": "駅員", "reading": "えきいん", "meaning": "nhân viên nhà ga" }
+    ]
+  },
+  {
+    "kanji": "訳",
+    "amHan": "Dịch",
+    "nghia": "Thông dịch, lý do",
+    "onyomi": "ヤク",
+    "kunyomi": "わけ",
+    "mnemonic": {
+      "text": "Dùng NGÔN (言) ngữ để giải thích quy tắc của thước DỊCH (尺)"
+    },
+    "examples": [
+      { "word": "翻訳", "reading": "ほんやく", "meaning": "biên dịch (văn bản)" },
+      { "word": "通訳", "reading": "つうやく", "meaning": "thông dịch (nói)" },
+      { "word": "言い訳", "reading": "いいわけ", "meaning": "phân trần, lý do lý trấu" },
+      { "word": "申し訳ない", "reading": "もうしわけない", "meaning": "xin lỗi, không bào chữa được" },
+      { "word": "内訳", "reading": "うちわけ", "meaning": "diễn giải chi tiết, khoản chi" },
+      { "word": "和訳", "reading": "わやく", "meaning": "dịch sang tiếng Nhật" }
+    ]
+  }
+,
+  {
+    "kanji": "座",
+    "amHan": "Tọa",
+    "nghia": "Ngồi, chỗ ngồi",
+    "onyomi": "ザ",
+    "kunyomi": "すわ_る",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (广), hai NGƯỜI (人人) ngồi trên ĐẤT (土) đàm đạo gọi là TỌA"
+    },
+    "examples": [
+      { "word": "座る", "reading": "すわる", "meaning": "ngồi" },
+      { "word": "口座", "reading": "こうざ", "meaning": "tài khoản ngân hàng" },
+      { "word": "銀座", "reading": "ぎんざ", "meaning": "khu phố Ginza" },
+      { "word": "座席", "reading": "ざせき", "meaning": "chỗ ngồi" },
+      { "word": "正座", "reading": "せいざ", "meaning": "ngồi kiểu Nhật" },
+      { "word": "星座", "reading": "せいざ", "meaning": "chòm sao" }
+    ]
+  },
+  {
+    "kanji": "可",
+    "amHan": "Khả",
+    "nghia": "Có thể, cho phép",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cái MIỆNG (口) có ĐINH (丁) thì mới KHẢ thi để nói"
+    },
+    "examples": [
+      { "word": "可能", "reading": "かのう", "meaning": "khả năng" },
+      { "word": "許可", "reading": "きょか", "meaning": "cho phép" },
+      { "word": "不可", "reading": "ふか", "meaning": "không thể" },
+      { "word": "可愛い", "reading": "かわいい", "meaning": "đáng yêu" },
+      { "word": "可決", "reading": "かけつ", "meaning": "phê chuẩn, thông qua" },
+      { "word": "可哀想", "reading": "かわいそう", "meaning": "đáng thương" }
+    ]
+  },
+  {
+    "kanji": "河",
+    "amHan": "Hà",
+    "nghia": "Sông lớn",
+    "onyomi": "カ",
+    "kunyomi": "かわ",
+    "mnemonic": {
+      "text": "NƯỚC (氵) chảy qua những nơi KHẢ (可) thi tạo thành dòng sông HÀ"
+    },
+    "examples": [
+      { "word": "河", "reading": "かわ", "meaning": "sông" },
+      { "word": "大河", "reading": "たいが", "meaning": "sông lớn" },
+      { "word": "河川", "reading": "かせん", "meaning": "sông ngòi" },
+      { "word": "運河", "reading": "うんが", "meaning": "kênh đào" },
+      { "word": "銀河", "reading": "ぎんが", "meaning": "ngân hà" },
+      { "word": "河原", "reading": "かわら", "meaning": "bãi sông" }
+    ]
+  },
+  {
+    "kanji": "何",
+    "amHan": "Hà",
+    "nghia": "Cái gì",
+    "onyomi": "カ",
+    "kunyomi": "なに、なん",
+    "mnemonic": {
+      "text": "CON NGƯỜI (亻) có KHẢ (可) năng làm cái gì (HÀ)?"
+    },
+    "examples": [
+      { "word": "何", "reading": "なに", "meaning": "cái gì" },
+      { "word": "何人", "reading": "なんにん", "meaning": "mấy người" },
+      { "word": "何度", "reading": "なんど", "meaning": "mấy lần, bao nhiêu độ" },
+      { "word": "何か", "reading": "なにか", "meaning": "cái gì đó" },
+      { "word": "何でも", "reading": "なんでも", "meaning": "bất cứ cái gì" },
+      { "word": "幾何学", "reading": "きかがく", "meaning": "hình học" }
+    ]
+  },
+  {
+    "kanji": "荷",
+    "amHan": "Hà",
+    "nghia": "Hàng hóa, hành lý",
+    "onyomi": "カ",
+    "kunyomi": "に",
+    "mnemonic": {
+      "text": "CỎ (艹) là loại HÀNG (Hà) mà con NGƯỜI (亻) có KHẢ (可) năng gánh được"
+    },
+    "examples": [
+      { "word": "荷物", "reading": "にもつ", "meaning": "hàng hóa, hành lý" },
+      { "word": "出荷", "reading": "しゅっか", "meaning": "xuất hàng" },
+      { "word": "入荷", "reading": "にゅうか", "meaning": "nhập hàng" },
+      { "word": "重荷", "reading": "おもに", "meaning": "gánh nặng" },
+      { "word": "手荷物", "reading": "てにもつ", "meaning": "hành lý xách tay" },
+      { "word": "負荷", "reading": "ふか", "meaning": "trọng tải, phụ tải" }
+    ]
+  }
+,
+  {
+    "kanji": "座",
+    "amHan": "Tọa",
+    "nghia": "Chỗ ngồi, ngồi",
+    "onyomi": "ザ",
+    "kunyomi": "すわ_る",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (广), hai NGƯỜI (人人) ngồi trên ĐẤT (土) đàm đạo gọi là TỌA"
+    },
+    "examples": [
+      { "word": "座る", "reading": "すわる", "meaning": "ngồi" },
+      { "word": "口座", "reading": "こうざ", "meaning": "tài khoản ngân hàng" },
+      { "word": "銀座", "reading": "ぎんざ", "meaning": "khu phố Ginza" },
+      { "word": "座席", "reading": "ざせき", "meaning": "chỗ ngồi" },
+      { "word": "星座", "reading": "せいざ", "meaning": "chòm sao" },
+      { "word": "正座", "reading": "せいざ", "meaning": "ngồi quỳ kiểu Nhật" }
+    ]
+  },
+  {
+    "kanji": "可",
+    "amHan": "Khả",
+    "nghia": "Có thể, cho phép",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng MIỆNG (口) nói lời đóng ĐINH (丁) thì mọi việc đều KHẢ thi"
+    },
+    "examples": [
+      { "word": "可能", "reading": "かのう", "meaning": "khả năng" },
+      { "word": "許可", "reading": "きょか", "meaning": "cho phép, phê duyệt" },
+      { "word": "不可", "reading": "ふか", "meaning": "không thể, không cho phép" },
+      { "word": "可愛い", "reading": "かわいい", "meaning": "đáng yêu" },
+      { "word": "可決", "reading": "かけつ", "meaning": "thông qua, phê chuẩn" },
+      { "word": "可能性", "reading": "かのうせい", "meaning": "tính khả thi" }
+    ]
+  },
+  {
+    "kanji": "河",
+    "amHan": "Hà",
+    "nghia": "Sông lớn, dòng sông",
+    "onyomi": "カ",
+    "kunyomi": "かわ",
+    "mnemonic": {
+      "text": "Dòng NƯỚC (氵) chảy qua những nơi KHẢ (可) thi tạo thành sông HÀ"
+    },
+    "examples": [
+      { "word": "河", "reading": "かわ", "meaning": "dòng sông" },
+      { "word": "大河", "reading": "たいが", "meaning": "sông lớn" },
+      { "word": "河川", "reading": "かせん", "meaning": "sông ngòi" },
+      { "word": "運河", "reading": "うんが", "meaning": "kênh đào" },
+      { "word": "銀河", "reading": "ぎんが", "meaning": "ngân hà" },
+      { "word": "河原", "reading": "かわら", "meaning": "bãi sông" }
+    ]
+  },
+  {
+    "kanji": "何",
+    "amHan": "Hà",
+    "nghia": "Cái gì",
+    "onyomi": "カ",
+    "kunyomi": "なに、なん",
+    "mnemonic": {
+      "text": "Con NGƯỜI (亻) có KHẢ (可) năng làm cái gì (HÀ)?"
+    },
+    "examples": [
+      { "word": "何", "reading": "なに", "meaning": "cái gì" },
+      { "word": "何人", "reading": "なんにん", "meaning": "mấy người" },
+      { "word": "何か", "reading": "なにか", "meaning": "cái gì đó" },
+      { "word": "何度", "reading": "なんど", "meaning": "bao nhiêu lần / bao nhiêu độ" },
+      { "word": "何でも", "reading": "なんでも", "meaning": "bất cứ thứ gì" },
+      { "word": "幾何学", "reading": "きかがく", "meaning": "hình học" }
+    ]
+  },
+  {
+    "kanji": "荷",
+    "amHan": "Hà",
+    "nghia": "Hàng hóa, hành lý, gánh vác",
+    "onyomi": "カ",
+    "kunyomi": "に",
+    "mnemonic": {
+      "text": "Ngày xưa HÀNG hóa là CỎ (艹) được con NGƯỜI (亻) gánh vác"
+    },
+    "examples": [
+      { "word": "荷物", "reading": "にもつ", "meaning": "hàng hóa, hành lý" },
+      { "word": "出荷", "reading": "しゅっか", "meaning": "xuất hàng" },
+      { "word": "入荷", "reading": "にゅうか", "meaning": "nhập hàng" },
+      { "word": "重荷", "reading": "おもに", "meaning": "gánh nặng" },
+      { "word": "手荷物", "reading": "てにもつ", "meaning": "hành lý xách tay" },
+      { "word": "負荷", "reading": "ふか", "meaning": "tải trọng, áp lực" }
+    ]
+  }
+]

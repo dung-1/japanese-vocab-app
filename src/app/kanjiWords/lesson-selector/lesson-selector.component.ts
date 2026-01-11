@@ -7,7 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrl: './lesson-selector.component.css'
 })
 export class KanjiWordsLessonSelectorComponent {
-  lessons = Array.from({ length: 10 }, (_, i) => i + 1);
+  lessons = Array.from({ length: 30 }, (_, i) => i + 1);
   @Output() lessonSelected = new EventEmitter<number>();
 
   selectLesson(event: Event) {
