@@ -3,11 +3,10 @@
     <p>Chọn phương pháp học phù hợp với bạn:</p>
     
     <div class="learning-options">
-      <a (click)="navigateTo('/')" [class.active]="isActive('/')" class="option-card">
+      <a (click)="navigateTo('/kanji-words')" [class.active]="isActive('/kanji-words')" class="option-card">
         <h2>Học theo Kanji</h2>
         <p>Tìm hiểu và luyện tập các chữ Kanji cơ bản đến nâng cao.</p>
       </a>
-      
       <a (click)="navigateTo('/vocabulary')" [class.active]="isActive('/vocabulary')" class="option-card">
         <h2>Học từ vựng</h2>
         <p>Mở rộng vốn từ vựng tiếng Nhật hàng ngày.</p>

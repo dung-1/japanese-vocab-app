@@ -1,0 +1,315 @@
+[
+  {
+    "kanji": "米",
+    "amHan": "Mễ",
+    "nghia": "Gạo, nước Mỹ",
+    "onyomi": "ベイ、マイ",
+    "kunyomi": "こめ",
+    "mnemonic": {
+      "text": "Hình ảnh những hạt GẠO văng ra bốn hướng từ một tâm điểm."
+    },
+    "examples": [
+      { "word": "米", "reading": "こめ", "meaning": "gạo" },
+      { "word": "米国", "reading": "べいこく", "meaning": "nước Mỹ" },
+      { "word": "欧米", "reading": "おうべい", "meaning": "Âu Mỹ" },
+      { "word": "新米", "reading": "しんまい", "meaning": "gạo mới, người mới (nông nghiệp)" },
+      { "word": "玄米", "reading": "げんまい", "meaning": "gạo lứt" }
+    ]
+  },
+  {
+    "kanji": "来",
+    "amHan": "Lai",
+    "nghia": "Đến, tương lai",
+    "onyomi": "ライ",
+    "kunyomi": "く_る、きた_る、きた_す",
+    "mnemonic": {
+      "text": "Trên cây MÔN (gần giống chữ 木) có những hạt lúa (giống chữ 米) đang ĐẾN kỳ thu hoạch."
+    },
+    "examples": [
+      { "word": "来る", "reading": "くる", "meaning": "đến" },
+      { "word": "来年", "reading": "らいねん", "meaning": "sang năm" },
+      { "word": "来日", "reading": "らいにち", "meaning": "đến Nhật Bản" },
+      { "word": "未来", "reading": "みらい", "meaning": "vị lai, tương lai xa" },
+      { "word": "将来", "reading": "しょうらい", "meaning": "tương lai gần" },
+      { "word": "本来", "reading": "ほんらい", "meaning": "vốn dĩ, bản chất" }
+    ]
+  },
+  {
+    "kanji": "迷",
+    "amHan": "Mê",
+    "nghia": "Lạc lối, mê muội",
+    "onyomi": "メイ",
+    "kunyomi": "まよ_う",
+    "mnemonic": {
+      "text": "Mải mê nhìn hạt GẠO (米 - MỄ) trên ĐƯỜNG (辶 - SỨC) nên bị LẠC ĐƯỜNG."
+    },
+    "examples": [
+      { "word": "迷う", "reading": "まよう", "meaning": "lạc đường, phân vân" },
+      { "word": "迷惑", "reading": "めいわく", "meaning": "phiền phức" },
+      { "word": "迷子", "reading": "まいご", "meaning": "trẻ lạc" },
+      { "word": "迷信", "reading": "めいしん", "meaning": "mê tín" },
+      { "word": "迷宮", "reading": "めいきゅう", "meaning": "mê cung" }
+    ]
+  },
+  {
+    "kanji": "料",
+    "amHan": "Liệu",
+    "nghia": "Nguyên liệu, phí",
+    "onyomi": "リョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng cái ĐẤU (斗) để đong GẠO (米 - MỄ) làm nguyên LIỆU nấu ăn."
+    },
+    "examples": [
+      { "word": "料理", "reading": "りょうり", "meaning": "món ăn, nấu ăn" },
+      { "word": "給料", "reading": "きゅうりょう", "meaning": "lương" },
+      { "word": "資料", "reading": "しりょう", "meaning": "tài liệu" },
+      { "word": "料金", "reading": "りょうきん", "meaning": "phí, giá cước" },
+      { "word": "無料", "reading": "むりょう", "meaning": "miễn phí" },
+      { "word": "材料", "reading": "ざいりょう", "meaning": "nguyên vật liệu" }
+    ]
+  },
+  {
+    "kanji": "番",
+    "amHan": "Phiên",
+    "nghia": "Thứ tự, lượt",
+    "onyomi": "バン",
+    "kunyomi": "つが_い",
+    "mnemonic": {
+      "text": "Hạt GẠO (米 - MỄ) được trồng trên RUỘNG (田 - ĐIỀN) theo từng PHIÊN, từng lượt."
+    },
+    "examples": [
+      { "word": "一番", "reading": "いちばん", "meaning": "số 1, nhất" },
+      { "word": "番号", "reading": "ばんごう", "meaning": "số hiệu" },
+      { "word": "順番", "reading": "じゅんばんばん", "meaning": "thứ tự, lần lượt" },
+      { "word": "留守番", "reading": "るすばん", "meaning": "trông nhà" },
+      { "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
+      { "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình tivi" }
+    ]
+  },
+  {
+    "kanji": "断",
+    "amHan": "Đoạn, Đoán",
+    "nghia": "Cắt, từ chối, quyết định",
+    "onyomi": "ダン",
+    "kunyomi": "た_つ、ことわ_る",
+    "mnemonic": {
+      "text": "Cầm cái RÌU (斤 - CÂN) chặt hạt GẠO (米 - MỄ) ra từng ĐOẠN."
+    },
+    "examples": [
+      { "word": "断つ", "reading": "たつ", "meaning": "cắt, chấm dứt" },
+      { "word": "断る", "reading": "ことわる", "meaning": "từ chối" },
+      { "word": "判断", "reading": "はんだん", "meaning": "phán đoán" },
+      { "word": "決断", "reading": "けつだん", "meaning": "quyết đoán" },
+      { "word": "禁断", "reading": "きんだん", "meaning": "cấm đoán" },
+      { "word": "断水", "reading": "だんすい", "meaning": "cắt nước" }
+    ]
+  },
+  {
+    "kanji": "歯",
+    "amHan": "Xỉ",
+    "nghia": "Răng",
+    "onyomi": "シ",
+    "kunyomi": "は",
+    "mnemonic": {
+      "text": "Dưới DỪNG (止 - CHỈ) là cái MIỆNG có những hàng RĂNG đều tăm tắp."
+    },
+    "examples": [
+      { "word": "歯", "reading": "は", "meaning": "răng" },
+      { "word": "虫歯", "reading": "むしば", "meaning": "răng sâu" },
+      { "word": "歯科", "reading": "しか", "meaning": "nha khoa" },
+      { "word": "歯車", "reading": "はぐるま", "meaning": "bánh răng" },
+      { "word": "乳歯", "reading": "にゅうし", "meaning": "răng sữa" },
+      { "word": "切歯", "reading": "せっし", "meaning": "răng cửa" }
+    ]
+  },
+  {
+    "kanji": "見",
+    "amHan": "Kiến",
+    "nghia": "Nhìn, ý kiến",
+    "onyomi": "ケン",
+    "kunyomi": "み_る、み_える、み_せる",
+    "mnemonic": {
+      "text": "MẮT (目 - MỤC) đi trên ĐÔI CHÂN (儿 - NHÂN) để KIẾN tập, nhìn ngắm."
+    },
+    "examples": [
+      { "word": "見る", "reading": "みる", "meaning": "nhìn, xem" },
+      { "word": "意見", "reading": "いけん", "meaning": "ý kiến" },
+      { "word": "見物", "reading": "けんぶつ", "meaning": "tham quan" },
+      { "word": "見事", "reading": "みごと", "meaning": "tuyệt vời, đẹp đẽ" },
+      { "word": "発見", "reading": "はっけん", "meaning": "phát hiện" },
+      { "word": "見本", "reading": "みほん", "meaning": "hàng mẫu" }
+    ]
+  },
+  {
+    "kanji": "覚",
+    "amHan": "Giác",
+    "nghia": "Nhớ, tỉnh giấc",
+    "onyomi": "カク",
+    "kunyomi": "おぼ_える、さ_める、さ_ます",
+    "mnemonic": {
+      "text": "Dưới mái nhà (giống bộ Mịch) có việc KIẾN (見) tạo nên nhận GIÁC."
+    },
+    "examples": [
+      { "word": "覚える", "reading": "おぼえる", "meaning": "nhớ, học thuộc" },
+      { "word": "目覚める", "reading": "めざめる", "meaning": "thức tỉnh, mở mắt" },
+      { "word": "自覚", "reading": "じかく", "meaning": "tự giác, tự ý thức" },
+      { "word": "感覚", "reading": "かんかく", "meaning": "cảm giác" },
+      { "word": "覚悟", "reading": "かくご", "meaning": "quyết tâm, chuẩn bị tâm lý" }
+    ]
+  },
+  {
+    "kanji": "視",
+    "amHan": "Thị",
+    "nghia": "Thị giác, nhìn",
+    "onyomi": "シ",
+    "kunyomi": "み_る",
+    "mnemonic": {
+      "text": "LỄ nghi (示 - THỊ) cần phải được KIẾN (見 - KIẾN) chứng bằng THỊ giác."
+    },
+    "examples": [
+      { "word": "視力", "reading": "しりょく", "meaning": "thị lực" },
+      { "word": "近視", "reading": "きんし", "meaning": "cận thị" },
+      { "word": "視界", "reading": "しかい", "meaning": "tầm nhìn" },
+      { "word": "無視", "reading": "むし", "meaning": "phớt lờ, coi thường" },
+      { "word": "監視", "reading": "かんし", "meaning": "giám sát" },
+      { "word": "視野", "reading": "しや", "meaning": "tầm mắt, hiểu biết" }
+    ]
+  },
+  {
+    "kanji": "親",
+    "amHan": "Thân",
+    "nghia": "Bố mẹ, thân thiết",
+    "onyomi": "シン",
+    "kunyomi": "おや、した_しい、した_しむ",
+    "mnemonic": {
+      "text": "Cha mẹ ĐỨNG (立 - LẬP) trên CÂY (木 - MỘC) dõi mắt KIẾN (見 - KIẾN) theo con cái một cách THÂN thương."
+    },
+    "examples": [
+      { "word": "親", "reading": "おや", "meaning": "bố mẹ" },
+      { "word": "親しい", "reading": "したしい", "meaning": "thân thiết" },
+      { "word": "両親", "reading": "りょうしん", "meaning": "bố mẹ (cả hai)" },
+      { "word": "親切", "reading": "しんせつ", "meaning": "tốt bụng, thân thiện" },
+      { "word": "親友", "reading": "しんゆう", "meaning": "bạn thân" },
+      { "word": "父親", "reading": "ちちおや", "meaning": "người cha" }
+    ]
+  },
+  {
+    "kanji": "現",
+    "amHan": "Hiện",
+    "nghia": "Xuất hiện, hiện tại",
+    "onyomi": "ゲン",
+    "kunyomi": "あらわ_れる、あらわ_す",
+    "mnemonic": {
+      "text": "Viên NGỌC (王 - VƯƠNG) khi được KIẾN (見 - KIẾN) chứng sẽ lộ HIỆN vẻ đẹp."
+    },
+    "examples": [
+      { "word": "現れる", "reading": "あらわれる", "meaning": "xuất hiện" },
+      { "word": "現在", "reading": "げんざい", "meaning": "hiện tại" },
+      { "word": "表現", "reading": "ひょうげん", "meaning": "biểu hiện" },
+      { "word": "実現", "reading": "じつげん", "meaning": "thực hiện" },
+      { "word": "現場", "reading": "げんば", "meaning": "hiện trường" },
+      { "word": "現金", "reading": "げんきん", "meaning": "tiền mặt" }
+    ]
+  },
+  {
+    "kanji": "規",
+    "amHan": "Quy",
+    "nghia": "Quy tắc, quy mô",
+    "onyomi": "キ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Chồng (夫 - PHU) phải có cái nhìn KIẾN (見 - KIẾN) để lập ra QUY tắc."
+    },
+    "examples": [
+      { "word": "規則", "reading": "きそく", "meaning": "quy tắc" },
+      { "word": "規模", "reading": "きぼ", "meaning": "quy mô" },
+      { "word": "規定", "reading": "きてい", "meaning": "quy định" },
+      { "word": "定規", "reading": "じょうぎ", "meaning": "thước kẻ" },
+      { "word": "正規", "reading": "せいき", "meaning": "chính quy" }
+    ]
+  },
+  {
+    "kanji": "案",
+    "amHan": "Án",
+    "nghia": "Đề án, phương án",
+    "onyomi": "アン",
+    "kunyomi": "つくえ",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (女) ngồi dưới mái nhà (宀) bên cái bàn GỖ (木) để viết đề ÁN."
+    },
+    "examples": [
+      { "word": "案内", "reading": "あんない", "meaning": "hướng dẫn" },
+      { "word": "提案", "reading": "ていあん", "meaning": "đề án, đề xuất" },
+      { "word": "方案", "reading": "ほうあん", "meaning": "phương án" },
+      { "word": "答案", "reading": "とうあん", "meaning": "bản trả lời, bài thi" },
+      { "word": "図案", "reading": "ずあん", "meaning": "đồ án, thiết kế" }
+    ]
+  },
+  {
+    "kanji": "桜",
+    "amHan": "Anh",
+    "nghia": "Hoa anh đào",
+    "onyomi": "オウ",
+    "kunyomi": "さくら",
+    "mnemonic": {
+      "text": "Cây (木) có những bông hoa rụng như những người PHỤ NỮ (女) đội mũ (爫) đi ngắm ANH đào."
+    },
+    "examples": [
+      { "word": "桜", "reading": "さくら", "meaning": "hoa anh đào" },
+      { "word": "観桜", "reading": "かんおう", "meaning": "ngắm hoa anh đào" },
+      { "word": "桜前線", "reading": "さくらぜんせん", "meaning": "biểu đồ hoa anh đào nở" },
+      { "word": "桜色", "reading": "さくらいろ", "meaning": "màu hồng anh đào" }
+    ]
+  },
+  {
+    "kanji": "接",
+    "amHan": "Tiếp",
+    "nghia": "Tiếp xúc, kết nối",
+    "onyomi": "セツ",
+    "kunyomi": "つ_ぐ",
+    "mnemonic": {
+      "text": "Dùng TAY (扌- THỦ) dẫn người PHỤ NỮ (女) đang đội mũ (立) đến để TIẾP đón."
+    },
+    "examples": [
+      { "word": "直接", "reading": "ちょくせつ", "meaning": "trực tiếp" },
+      { "word": "面接", "reading": "めんせつ", "meaning": "phỏng vấn" },
+      { "word": "接触", "reading": "せっしょく", "meaning": "tiếp xúc" },
+      { "word": "接続", "reading": "せつぞく", "meaning": "kết nối" },
+      { "word": "近接", "reading": "きんせつ", "meaning": "tiếp cận" },
+      { "word": "接近", "reading": "せっきん", "meaning": "đến gần" }
+    ]
+  },
+  {
+    "kanji": "努",
+    "amHan": "Nỗ",
+    "nghia": "Cố gắng, nỗ lực",
+    "onyomi": "ド",
+    "kunyomi": "つと_める",
+    "mnemonic": {
+      "text": "Người NÔ lệ (奴) phải dùng SỨC LỰC (力) để NỖ lực làm việc."
+    },
+    "examples": [
+      { "word": "努める", "reading": "つとめる", "meaning": "cố gắng, nỗ lực" },
+      { "word": "努力", "reading": "どりょく", "meaning": "sự nỗ lực" },
+      { "word": "努力家", "reading": "どりょくか", "meaning": "người làm việc chăm chỉ" }
+    ]
+  },
+  {
+    "kanji": "怒",
+    "amHan": "Nộ",
+    "nghia": "Tức giận",
+    "onyomi": "ド",
+    "kunyomi": "いか_る、おこ_る",
+    "mnemonic": {
+      "text": "Người NÔ lệ (奴) trong LÒNG (心 - TÂM) luôn cảm thấy phẫn NỘ."
+    },
+    "examples": [
+      { "word": "怒る", "reading": "おこる", "meaning": "tức giận" },
+      { "word": "怒鳴る", "reading": "どなる", "meaning": "gào thét, hét lên" },
+      { "word": "憤怒", "reading": "ふんど", "meaning": "phẫn nộ" },
+      { "word": "怒気", "reading": "どき", "meaning": "cơn giận" },
+      { "word": "喜怒哀楽", "reading": "きどあいらく", "meaning": "hỷ nộ ái lạc (cảm xúc)" }
+    ]
+  }
+]

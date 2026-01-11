@@ -1,0 +1,244 @@
+[
+  {
+    "kanji": "氷",
+    "amHan": "Băng",
+    "nghia": "Nước đá, đóng băng",
+    "onyomi": "ヒョウ",
+    "kunyomi": "こおり、ひ、こお_る",
+    "mnemonic": {
+      "text": "NƯỚC (水) khi gặp một dấu chấm lạnh giá sẽ biến thành BĂNG."
+    },
+    "examples": [
+      { "word": "氷", "reading": "こおり", "meaning": "nước đá" },
+      { "word": "氷る", "reading": "こおる", "meaning": "đóng băng" },
+      { "word": "かき氷", "reading": "かきごおり", "meaning": "đá bào" },
+      { "word": "氷山", "reading": "ひょうざん", "meaning": "núi băng" },
+      { "word": "氷河", "reading": "ひょうが", "meaning": "sông băng" },
+      { "word": "結氷", "reading": "けっぴょう", "meaning": "sự đóng băng" }
+    ]
+  },
+  {
+    "kanji": "永",
+    "amHan": "Vĩnh",
+    "nghia": "Vĩnh cửu, lâu dài",
+    "onyomi": "エイ",
+    "kunyomi": "なが_い",
+    "mnemonic": {
+      "text": "Dòng NƯỚC (水) chảy dài mãi không dứt chính là sự VĨNH hằng."
+    },
+    "examples": [
+      { "word": "永い", "reading": "ながい", "meaning": "dài lâu" },
+      { "word": " vĩnh cửu", "reading": "えいきゅう", "meaning": "vĩnh cửu" },
+      { "word": "永住", "reading": "えいじゅう", "meaning": "định cư vĩnh viễn" },
+      { "word": "永遠", "reading": "えいえん", "meaning": "vĩnh viễn, mãi mãi" },
+      { "word": "永続", "reading": "えいぞく", "meaning": "vĩnh tục, kéo dài" }
+    ]
+  },
+  {
+    "kanji": "泳",
+    "amHan": "Vịnh",
+    "nghia": "Bơi lội",
+    "onyomi": "エイ",
+    "kunyomi": "およ_ぐ",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (氵) để duy trì sự lâu dài (永) trong môn BƠI LỘI."
+    },
+    "examples": [
+      { "word": "泳ぐ", "reading": "およぐ", "meaning": "bơi" },
+      { "word": "水泳", "reading": "すいえい", "meaning": "môn bơi lội" },
+      { "word": "平泳ぎ", "reading": "ひらおよぎ", "meaning": "bơi ếch" },
+      { "word": "競泳", "reading": "きょうえい", "meaning": "bơi thi đấu" },
+      { "word": "遠泳", "reading": "えんえい", "meaning": "bơi đường dài" }
+    ]
+  },
+  {
+    "kanji": "申",
+    "amHan": "Thân",
+    "nghia": "Xác nhận, nói, trình bày",
+    "onyomi": "シン",
+    "kunyomi": "もう_す",
+    "mnemonic": {
+      "text": "Hình ảnh tia sét hoặc một người đang nói năng thông suốt từ trên xuống dưới."
+    },
+    "examples": [
+      { "word": "申す", "reading": "もうす", "meaning": "nói, gọi là (khiêm nhường ngữ)" },
+      { "word": "申し込む", "reading": "もうしこむ", "meaning": "đăng ký" },
+      { "word": "申告", "reading": "しんこく", "meaning": "khai báo, kê khai" },
+      { "word": "申請", "reading": "しんせい", "meaning": "yêu cầu, thỉnh nguyện" },
+      { "word": "申し上げる", "reading": "もうしあげる", "meaning": "nói, trình bày (kính ngữ)" }
+    ]
+  },
+  {
+    "kanji": "伸",
+    "amHan": "Thân",
+    "nghia": "Kéo dài, mở rộng",
+    "onyomi": "シン",
+    "kunyomi": "の_びる、の_ばす",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) đang trình bày (申) để mở rộng (THÂN) tầm ảnh hưởng."
+    },
+    "examples": [
+      { "word": "伸びる", "reading": "のびる", "meaning": "phát triển, kéo dài" },
+      { "word": "伸ばす", "reading": "のばす", "meaning": "làm thẳng, kéo dài ra" },
+      { "word": "伸長", "reading": "しんちょう", "meaning": "kéo dài, tăng trưởng" },
+      { "word": "追伸", "reading": "ついしん", "meaning": "tái bút" },
+      { "word": "伸縮", "reading": "しんしゅく", "meaning": "co giãn" }
+    ]
+  },
+  {
+    "kanji": "神",
+    "amHan": "Thần",
+    "nghia": "Thần thánh",
+    "onyomi": "シン、ジン",
+    "kunyomi": "かみ、かん、こう",
+    "mnemonic": {
+      "text": "Trước bàn THỜ (礻) con người cầu xin các vị THẦN (申) linh."
+    },
+    "examples": [
+      { "word": "神", "reading": "かみ", "meaning": "Chúa, thần" },
+      { "word": "神社", "reading": "じんじゃ", "meaning": "đền thờ Thần đạo" },
+      { "word": "精神", "reading": "せいしん", "meaning": "tinh thần" },
+      { "word": "神経", "reading": "しんけい", "meaning": "thần kinh" },
+      { "word": "神秘", "reading": "しんぴ", "meaning": "thần bí" },
+      { "word": "神様", "reading": "かみさま", "meaning": "Thần thánh" }
+    ]
+  },
+  {
+    "kanji": "家",
+    "amHan": "Gia",
+    "nghia": "Nhà, gia đình",
+    "onyomi": "カ、ケ",
+    "kunyomi": "いえ、や、うち",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (宀) nuôi một con lợn (豕 - THỈ) là biểu tượng của GIA đình xưa."
+    },
+    "examples": [
+      { "word": "家", "reading": "いえ", "meaning": "nhà ở" },
+      { "word": "家族", "reading": "かぞく", "meaning": "gia đình" },
+      { "word": "家事", "reading": "かじ", "meaning": "việc nhà" },
+      { "word": "家具", "reading": "かぐ", "meaning": "nội thất, đồ đạc" },
+      { "word": "大家", "reading": "おおや", "meaning": "chủ nhà" },
+      { "word": "家計", "reading": "かけい", "meaning": "kinh tế gia đình" }
+    ]
+  },
+  {
+    "kanji": "象",
+    "amHan": "Tượng",
+    "nghia": "Con voi, hiện tượng",
+    "onyomi": "ゾウ、ショウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình vẽ phác họa hình dáng của một CON VOI (TƯỢNG)."
+    },
+    "examples": [
+      { "word": "象", "reading": "ぞう", "meaning": "con voi" },
+      { "word": "印象", "reading": "いんしょう", "meaning": "ấn tượng" },
+      { "word": "気象", "reading": "きしょう", "meaning": "khí tượng" },
+      { "word": "対象", "reading": "たいしょう", "meaning": "đối tượng" },
+      { "word": "現象", "reading": "げんしょう", "meaning": "hiện tượng" },
+      { "word": "象徴", "reading": "しょうちょう", "meaning": "biểu tượng" }
+    ]
+  },
+  {
+    "kanji": "像",
+    "amHan": "Tượng",
+    "nghia": "Hình ảnh, bức tượng",
+    "onyomi": "ゾウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) tạc lại hình dáng CON VOI (象) thành một bức TƯỢNG."
+    },
+    "examples": [
+      { "word": "画像", "reading": "がぞう", "meaning": "hình ảnh" },
+      { "word": "想像", "reading": "そうぞう", "meaning": "tưởng tượng" },
+      { "word": "仏像", "reading": "ぶつぞう", "meaning": "tượng Phật" },
+      { "word": "映像", "reading": "えいぞう", "meaning": "video, hình ảnh phản chiếu" },
+      { "word": "自画像", "reading": "じがぞう", "meaning": "tranh tự họa" }
+    ]
+  },
+  {
+    "kanji": "録",
+    "amHan": "Lục",
+    "nghia": "Ghi chép, kỷ lục",
+    "onyomi": "ロク",
+    "kunyomi": "しる_す、と_る",
+    "mnemonic": {
+      "text": "Dùng KIM loại (金) khắc lên vật có hình cái lược (彔) để ghi LỤC lại thông tin."
+    },
+    "examples": [
+      { "word": "記録", "reading": "きろく", "meaning": "kỷ lục, ghi chép" },
+      { "word": "録音", "reading": "ろくおん", "meaning": "ghi âm" },
+      { "word": "録画", "reading": "ろくが", "meaning": "ghi hình" },
+      { "word": "登録", "reading": "とうろく", "meaning": "đăng ký" },
+      { "word": "付録", "reading": "ふろく", "meaning": "phụ lục" }
+    ]
+  },
+  {
+    "kanji": "梅",
+    "amHan": "Mai",
+    "nghia": "Cây mơ, hoa mai",
+    "onyomi": "バイ",
+    "kunyomi": "うめ",
+    "mnemonic": {
+      "text": "CÂY (木) mà NGƯỜI MẸ (母) thường trồng là cây MAI (mơ)."
+    },
+    "examples": [
+      { "word": "梅", "reading": "うめ", "meaning": "cây mơ" },
+      { "word": "梅雨", "reading": "つゆ", "meaning": "mùa mưa" },
+      { "word": "梅干し", "reading": "うめぼし", "meaning": "mơ muối" },
+      { "word": "梅酒", "reading": "うめしゅ", "meaning": "rượu mơ" },
+      { "word": "白梅", "reading": "はくばい", "meaning": "hoa mai trắng" }
+    ]
+  },
+  {
+    "kanji": "毒",
+    "amHan": "Độc",
+    "nghia": "Chất độc, có hại",
+    "onyomi": "ドク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người MẸ (母) đứng trên mảnh đất có cỏ lạ (bộ chủ ở trên) có thể gặp phải chất ĐỘC."
+    },
+    "examples": [
+      { "word": "毒", "reading": "どく", "meaning": "độc, chất độc" },
+      { "word": "中毒", "reading": "ちゅうどく", "meaning": "ngộ độc, nghiện" },
+      { "word": "消毒", "reading": "しょうどく", "meaning": "tiêu độc, khử trùng" },
+      { "word": "毒薬", "reading": "どくやく", "meaning": "thuốc độc" },
+      { "word": "気の毒", "reading": "きのどく", "meaning": "đáng thương" }
+    ]
+  },
+  {
+    "kanji": "魚",
+    "amHan": "Ngư",
+    "nghia": "Con cá",
+    "onyomi": "ギョ",
+    "kunyomi": "さかな、うお",
+    "mnemonic": {
+      "text": "Hình vẽ CON CÁ với đầu, thân và đuôi (bộ hỏa 灬 bên dưới tượng trưng cho vây cá)."
+    },
+    "examples": [
+      { "word": "魚", "reading": "さかな", "meaning": "con cá" },
+      { "word": "金魚", "reading": "きんぎょ", "meaning": "cá vàng" },
+      { "word": "人魚", "reading": "にんぎょ", "meaning": "người cá" },
+      { "word": "鮮魚", "reading": "せんぎょ", "meaning": "cá tươi" },
+      { "word": "魚屋", "reading": "さかなや", "meaning": "cửa hàng bán cá" }
+    ]
+  },
+  {
+    "kanji": "漁",
+    "amHan": "Ngư",
+    "nghia": "Đánh cá, ngư nghiệp",
+    "onyomi": "ギョ、リョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng NƯỚC (氵) để bắt con CÁ (魚) gọi là nghề NGƯ."
+    },
+    "examples": [
+      { "word": "漁業", "reading": "ぎょぎょう", "meaning": "ngư nghiệp" },
+      { "word": "漁具", "reading": "ぎょぐ", "meaning": "dụng cụ đánh cá" },
+      { "word": "漁師", "reading": "りょうし", "meaning": "ngư dân" },
+      { "word": "漁船", "reading": "ぎょせん", "meaning": "thuyền đánh cá" },
+      { "word": "漁村", "reading": "ぎょそん", "meaning": "làng chài" }
+    ]
+  }
+]

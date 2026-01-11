@@ -1,0 +1,101 @@
+<div class="flashcard-wrapper" *ngIf="vocabData && vocabData.length > 0">
+  <div 
+    class="flashcard-container"
+    [class.flipped]="isFlipped"
+    (click)="toggleFlip()"
+  >
+    <div class="flashcard">
+      <!-- Mặt trước: Hiển thị Kanji lớn -->
+      <div class="front">
+        <button class="shuffle-btn" (click)="nextCard(); $event.stopPropagation()" title="Thẻ tiếp theo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6 4.03-6 9-6 9 4.8 9 6z"></path>
+            <path d="M3 5v14c0 1.2 4.03 6 9 6s9-4.8 9-6V5"></path>
+            <path d="M3 12c0 1.2 4.03 6 9 6s9-4.8 9-6"></path>
+            <path d="M3 12c0-1.2 4.03-6 9-6s9 4.8 9 6"></path>
+          </svg>
+        </button>
+        <div class="kanji-character">{{ vocabData[currentIndex].kanji }}</div>
+      </div>
+
+      <!-- Mặt sau: Hiển thị thông tin chi tiết -->
+      <div class="back">
+        <div class="back-content">
+          <!-- Section Ghi nhớ -->
+          <div class="mnemonic-section">
+            <div class="section-label">Ghi nhớ</div>
+            <div class="mnemonic-content">
+              <div class="mnemonic-text" *ngIf="vocabData[currentIndex].mnemonic?.text">
+                {{ vocabData[currentIndex].mnemonic?.text }}
+              </div>
+            </div>
+            <div class="user-action" *ngIf="vocabData[currentIndex].mnemonic">
+              Tôi đã đóng dấu
+            </div>
+          </div>
+
+          <!-- Grid 2x2: Âm hán, Nghĩa, Onyomi, Kunyomi -->
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">Âm hán</div>
+              <div class="info-value">{{ vocabData[currentIndex].amHan }}</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Nghĩa</div>
+              <div class="info-value">{{ vocabData[currentIndex].nghia }}</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Onyomi</div>
+              <div class="info-value">{{ vocabData[currentIndex].onyomi }}</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Kunyomi</div>
+              <div class="info-value">{{ vocabData[currentIndex].kunyomi }}</div>
+            </div>
+          </div>
+
+          <!-- Button Xem ví dụ -->
+          <button class="examples-btn" (click)="toggleExamples($event)">
+            Xem ví Dụ
+          </button>
+
+          <!-- Examples section - Inline trên PC -->
+          <div class="examples-section" *ngIf="showExamples && !isMobile">
+            <div class="examples-list">
+              <div class="example-item" *ngFor="let example of vocabData[currentIndex].examples">
+                <div class="example-kanji">{{ example.word }}</div>
+                <div class="example-reading">{{ example.reading }}</div>
+                <div class="example-meaning">{{ example.meaning }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation buttons -->
+  <div class="navigation">
+    <button (click)="prevCard()" [disabled]="vocabData.length <= 1">Trước</button>
+    <button (click)="nextCard()" [disabled]="vocabData.length <= 1">Tiếp</button>
+  </div>
+</div>
+
+<!-- Modal cho Examples trên Mobile -->
+<div class="modal-overlay" *ngIf="showExamples && isMobile" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <button class="modal-close" (click)="closeModal()">×</button>
+    <h3>Ví Dụ</h3>
+    <div class="examples-list">
+      <div class="example-item" *ngFor="let example of vocabData[currentIndex].examples">
+        <div class="example-kanji">{{ example.word }}</div>
+        <div class="example-reading">{{ example.reading }}</div>
+        <div class="example-meaning">{{ example.meaning }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!vocabData || vocabData.length === 0" class="empty-message">
+  <p>Vui lòng chọn một bài học để bắt đầu!</p>
+</div>

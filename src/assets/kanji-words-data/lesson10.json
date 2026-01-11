@@ -1,0 +1,138 @@
+[
+  {
+    "kanji": "村",
+    "amHan": "Thôn",
+    "nghia": "Làng mạc",
+    "onyomi": "ソン",
+    "kunyomi": "むら",
+    "mnemonic": {
+      "text": "Những CÁI CÂY (木) bao quanh một đơn vị ĐO LƯỜNG (寸 - thốn) diện tích nhỏ tạo thành NGÔI LÀNG."
+    },
+    "examples": [
+      { "word": "村", "reading": "むら", "meaning": "làng" },
+      { "word": "漁村", "reading": "ぎょそん", "meaning": "làng chài" },
+      { "word": "村長", "reading": "そんちょう", "meaning": "trưởng thôn" }
+    ]
+  },
+  {
+    "kanji": "連",
+    "amHan": "Liên",
+    "nghia": "Liên lạc, kết nối",
+    "onyomi": "レン",
+    "kunyomi": "つら_なる、つら_ねる、つ_れる",
+    "mnemonic": {
+      "text": "Xe (車) nối đuôi nhau ĐI (辶) trên đường một cách LIÊN tục."
+    },
+    "examples": [
+      { "word": "連れて来る", "reading": "つれてくる", "meaning": "dẫn đến" },
+      { "word": "連絡", "reading": "れんらく", "meaning": "liên lạc" },
+      { "word": "連合", "reading": "れんごう", "meaning": "liên hiệp" },
+      { "word": "連休", "reading": "れんきゅう", "meaning": "kỳ nghỉ dài" }
+    ]
+  },
+  {
+    "kanji": "軍",
+    "amHan": "Quân",
+    "nghia": "Quân đội",
+    "onyomi": "グン",
+    "kunyomi": "いくさ",
+    "mnemonic": {
+      "text": "Hình ảnh chiếc XE (車) được bao phủ (冖) bảo vệ chính là lực lượng QUÂN đội."
+    },
+    "examples": [
+      { "word": "軍人", "reading": "ぐんじん", "meaning": "bộ đội, lính" },
+      { "word": "軍隊", "reading": "ぐんたい", "meaning": "quân đội" },
+      { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" },
+      { "word": "空軍", "reading": "くうぐん", "meaning": "không quân" }
+    ]
+  },
+  {
+    "kanji": "運",
+    "amHan": "Vận",
+    "nghia": "Vận chuyển, vận may",
+    "onyomi": "ウン",
+    "kunyomi": "はこ_ぶ",
+    "mnemonic": {
+      "text": "QUÂN đội (軍) di chuyển (辶) để VẬN chuyển lương thực."
+    },
+    "examples": [
+      { "word": "運ぶ", "reading": "はこぶ", "meaning": "chở, vận chuyển" },
+      { "word": "運動", "reading": "うんどう", "meaning": "vận động" },
+      { "word": "運転者", "reading": "うんてんしゃ", "meaning": "người lái xe" },
+      { "word": "運がいい", "reading": "うんがいい", "meaning": "may mắn" }
+    ]
+  },
+  {
+    "kanji": "条",
+    "amHan": "Điều",
+    "nghia": "Điều khoản, cành cây",
+    "onyomi": "ジョウ",
+    "kunyomi": "えだ",
+    "mnemonic": {
+      "text": "Dùng tay thu gom các cành CÂY (木) rơi vãi (夊) theo từng ĐIỀU mục."
+    },
+    "examples": [
+      { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện" },
+      { "word": "条約", "reading": "じょうやく", "meaning": "điều ước, hiệp ước" },
+      { "word": "第一条", "reading": "だいいちじょう", "meaning": "điều thứ nhất" }
+    ]
+  },
+  {
+    "kanji": "困",
+    "amHan": "Khốn",
+    "nghia": "Khó khăn, rắc rối",
+    "onyomi": "コン",
+    "kunyomi": "こま_る",
+    "mnemonic": {
+      "text": "Cái CÂY (木) bị nhốt trong Khung (囗) thì thật là KHỐN đốn, khó phát triển."
+    },
+    "examples": [
+      { "word": "困る", "reading": "こまる", "meaning": "rắc rối, khó khăn" },
+      { "word": "困難", "reading": "こんなん", "meaning": "khó khăn" }
+    ]
+  },
+  {
+    "kanji": "守",
+    "amHan": "Thụ",
+    "nghia": "Gìn giữ, bảo vệ",
+    "onyomi": "シュ、ス",
+    "kunyomi": "まも_る、まも_り",
+    "mnemonic": {
+      "text": "Trong NHÀ (宀), dùng tay (寸) để trông coi và BẢO VỆ."
+    },
+    "examples": [
+      { "word": "守る", "reading": "まもる", "meaning": "phòng thủ, bảo vệ" },
+      { "word": "保守", "reading": "ほしゅ", "meaning": "bảo trì, bảo thủ" },
+      { "word": "留守", "reading": "るす", "meaning": "vắng nhà" }
+    ]
+  },
+  {
+    "kanji": "将",
+    "amHan": "Tướng",
+    "nghia": "Tướng quân, tương lai",
+    "onyomi": "ショウ、ソウ",
+    "kunyomi": "まさ_に",
+    "mnemonic": {
+      "text": "Người cầm gậy điều khiển (寸) thịt cúng trên bàn là vị TƯỚNG dẫn dắt tương lai."
+    },
+    "examples": [
+      { "word": "将来", "reading": "しょうらい", "meaning": "tương lai" },
+      { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" }
+    ]
+  },
+  {
+    "kanji": "得",
+    "amHan": "Đắc",
+    "nghia": "Đạt được, có được",
+    "onyomi": "トク",
+    "kunyomi": "え_る、う_る",
+    "mnemonic": {
+      "text": "ĐI bộ (彳) cả NGÀY (日) cuối cùng cũng dùng TAY (寸) ĐẠT ĐƯỢC kết quả."
+    },
+    "examples": [
+      { "word": "得る", "reading": "える", "meaning": "có được, có thể" },
+      { "word": "納得", "reading": "なっとく", "meaning": "tiếp thu, lĩnh hội, nắm bắt" },
+      { "word": "得意", "reading": "とくい", "meaning": "đắc ý, giỏi về" }
+    ]
+  }
+]
