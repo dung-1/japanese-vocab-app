@@ -1,0 +1,233 @@
+[
+  {
+    "kanji": "畑",
+    "amHan": "Điền",
+    "nghia": "Ruộng, cánh đồng (ruộng khô)",
+    "onyomi": "",
+    "kunyomi": "はた、はたけ",
+    "mnemonic": {
+      "text": "Đây là chữ Kokuji của Nhật: Kết hợp giữa LỬA (火) và RUỘNG (田), ý chỉ việc đốt nương rẫy để làm ruộng khô."
+    },
+    "examples": [
+      { "word": "畑", "reading": "はたけ", "meaning": "ruộng nương, cánh đồng" },
+      { "word": "田畑", "reading": "たはた", "meaning": "ruộng đồng nói chung" },
+      { "word": "花畑", "reading": "はなばたけ", "meaning": "cánh đồng hoa" },
+      { "word": "麦畑", "reading": "むぎばたけ", "meaning": "cánh đồng lúa mạch" }
+    ]
+  },
+  {
+    "kanji": "思",
+    "amHan": "Tư",
+    "nghia": "Suy nghĩ, nhớ lại",
+    "onyomi": "シ",
+    "kunyomi": "おも_う",
+    "mnemonic": {
+      "text": "Dùng TRÁI TIM (心) để suy nghĩ về việc trên RUỘNG (田) vườn."
+    },
+    "examples": [
+      { "word": "思う", "reading": "おもう", "meaning": "suy nghĩ, tin rằng" },
+      { "word": "思考", "reading": "しこう", "meaning": "tư duy, suy nghĩ" },
+      { "word": "不思議", "reading": "ふしぎ", "meaning": "kỳ lạ, không thể tin được" },
+      { "word": "思い出す", "reading": "おもいだす", "meaning": "nhớ lại" },
+      { "word": "意思", "reading": "いし", "meaning": "ý chí" }
+    ]
+  },
+  {
+    "kanji": "恵",
+    "amHan": "Huệ",
+    "nghia": "Ân huệ, ban cho",
+    "onyomi": "ケイ、エ",
+    "kunyomi": "めぐ_む",
+    "mnemonic": {
+      "text": "Lòng tốt (心) lan tỏa khắp 10 (十) mảnh ruộng (田) là ân HUỆ."
+    },
+    "examples": [
+      { "word": "恵む", "reading": "めぐむ", "meaning": "cứu trợ, ban cho" },
+      { "word": "恩恵", "reading": "おんけい", "meaning": "ân huệ" },
+      { "word": "知恵", "reading": "ちえ", "meaning": "trí tuệ" },
+      { "word": "恵比寿", "reading": "えびす", "meaning": "Thần tài Ebisu" }
+    ]
+  },
+  {
+    "kanji": "猫",
+    "amHan": "Miêu",
+    "nghia": "Con mèo",
+    "onyomi": "ビョウ",
+    "kunyomi": "ねこ",
+    "mnemonic": {
+      "text": "Loài thú (犭- bộ KHUYỂN) hay xuất hiện ở các ruộng (田) lúa (艹) chính là con MÈO."
+    },
+    "examples": [
+      { "word": "猫", "reading": "ねこ", "meaning": "con mèo" },
+      { "word": "子猫", "reading": "こねこ", "meaning": "mèo con" },
+      { "word": "野良猫", "reading": "のらねこ", "meaning": "mèo hoang" },
+      { "word": "愛猫", "reading": "あいびょう", "meaning": "mèo cưng" }
+    ]
+  },
+  {
+    "kanji": "細",
+    "amHan": "Tế",
+    "nghia": "Gầy, nhỏ, chi tiết",
+    "onyomi": "サイ",
+    "kunyomi": "ほそ_い、ほそ_る、こま_かい",
+    "mnemonic": {
+      "text": "Sợi CHỈ (糸) mà nhỏ như rãnh RUỘNG (田) thì rất tinh TẾ và nhỏ bé."
+    },
+    "examples": [
+      { "word": "細い", "reading": "ほそい", "meaning": "gầy, mảnh" },
+      { "word": "細かい", "reading": "こまかい", "meaning": "nhỏ nhặt, chi tiết" },
+      { "word": "細部", "reading": "さいぶ", "meaning": "chi tiết bộ phận" },
+      { "word": "細胞", "reading": "さいぼう", "meaning": "tế bào" },
+      { "word": "詳細", "reading": "しょうさい", "meaning": "chi tiết" }
+    ]
+  },
+  {
+    "kanji": "界",
+    "amHan": "Giới",
+    "nghia": "Thế giới, ranh giới",
+    "onyomi": "カイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Phần trung gian (介) phân chia các mảnh RUỘNG (田) là ranh GIỚI."
+    },
+    "examples": [
+      { "word": "世界", "reading": "せかい", "meaning": "thế giới" },
+      { "word": "限界", "reading": "げんかい", "meaning": "giới hạn" },
+      { "word": "視界", "reading": "しかい", "meaning": "tầm nhìn" },
+      { "word": "境界", "reading": "きょうかい", "meaning": "biên giới, ranh giới" },
+      { "word": "新聞界", "reading": "しんぶんかい", "meaning": "giới báo chí" }
+    ]
+  },
+  {
+    "kanji": "福",
+    "amHan": "Phúc",
+    "nghia": "Hạnh phúc, phước lành",
+    "onyomi": "フク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Thần linh (礻) ban cho một (一) miệng ăn (口) một mảnh ruộng (田) là HẠNH PHÚC."
+    },
+    "examples": [
+      { "word": "幸福", "reading": "こうふく", "meaning": "hạnh phúc" },
+      { "word": "福祉", "reading": "ふくし", "meaning": "phúc lợi" },
+      { "word": "福袋", "reading": "ふくぶくろ", "meaning": "túi may mắn" },
+      { "word": "祝福", "reading": "しゅくふく", "meaning": "chúc phúc" }
+    ]
+  },
+  {
+    "kanji": "富",
+    "amHan": "Phú",
+    "nghia": "Giàu có, phong phú",
+    "onyomi": "フ、フウ",
+    "kunyomi": "と_む、とみ",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (宀) có miệng ăn (口) và ruộng (田) là sự giàu PHÚ."
+    },
+    "examples": [
+      { "word": "富む", "reading": "とむ", "meaning": "giàu có, phong phú" },
+      { "word": "豊富", "reading": "ほうふ", "meaning": "phong phú, đa dạng" },
+      { "word": "富士山", "reading": "ふじさん", "meaning": "núi Phú Sĩ" },
+      { "word": "富豪", "reading": "ふごう", "meaning": "phú hào, đại gia" }
+    ]
+  },
+  {
+    "kanji": "道",
+    "amHan": "Đạo",
+    "nghia": "Con đường, đạo đức",
+    "onyomi": "ドウ、トウ",
+    "kunyomi": "みち",
+    "mnemonic": {
+      "text": "Vừa ĐI (辶) vừa dùng ĐẦU (首) để suy nghĩ về con ĐƯỜNG."
+    },
+    "examples": [
+      { "word": "道", "reading": "みち", "meaning": "con đường" },
+      { "word": "道路", "reading": "どうろ", "meaning": "đường sá" },
+      { "word": "書道", "reading": "しょどう", "meaning": "thư pháp" },
+      { "word": "歩道", "reading": "ほどう", "meaning": "vỉa hè" },
+      { "word": "水道", "reading": "すいどう", "meaning": "nước máy" }
+    ]
+  },
+  {
+    "kanji": "相",
+    "amHan": "Tương, Tướng",
+    "nghia": "Cùng nhau, hình dáng, thủ tướng",
+    "onyomi": "ソウ、ショウ",
+    "kunyomi": "あい",
+    "mnemonic": {
+      "text": "MẮT (目) nhìn vào CÂY (木) để xem xét hình TƯỚNG hoặc hỗ trợ TƯƠNG tác."
+    },
+    "examples": [
+      { "word": "相談", "reading": "そうだん", "meaning": "trao đổi, thảo luận" },
+      { "word": "首相", "reading": "しゅしょう", "meaning": "thủ tướng" },
+      { "word": "相手", "reading": "あいて", "meaning": "đối phương" },
+      { "word": "相互", "reading": "そうご", "meaning": "tương hỗ, lẫn nhau" },
+      { "word": "相当", "reading": "そうとう", "meaning": "tương đương, khá là" }
+    ]
+  },
+  {
+    "kanji": "箱",
+    "amHan": "Tương",
+    "nghia": "Cái hộp, cái thùng",
+    "onyomi": "ソウ",
+    "kunyomi": "はこ",
+    "mnemonic": {
+      "text": "Cái HỘP làm bằng TRE (竹) có hình dáng (相) vuông vức."
+    },
+    "examples": [
+      { "word": "箱", "reading": "はこ", "meaning": "cái hộp" },
+      { "word": "ゴミ箱", "reading": "ごみばこ", "meaning": "thùng rác" },
+      { "word": "重箱", "reading": "じゅうばこ", "meaning": "hộp chồng nhiều tầng" },
+      { "word": "箱入り娘", "reading": "はこいりむすめ", "meaning": "con gái rượu" }
+    ]
+  },
+  {
+    "kanji": "想",
+    "amHan": "Tưởng",
+    "nghia": "Tưởng tượng, tư tưởng",
+    "onyomi": "ソウ、ソ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng TRÁI TIM (心) để hình dung lại hình TƯỚNG (相) là sự TƯỞNG tượng."
+    },
+    "examples": [
+      { "word": "思想", "reading": "しそう", "meaning": "tư tưởng" },
+      { "word": "想像", "reading": "そうぞう", "meaning": "tưởng tượng" },
+      { "word": "理想", "reading": "りそう", "meaning": "lý tưởng" },
+      { "word": "感想", "reading": "かんそう", "meaning": "cảm tưởng" },
+      { "word": "予想", "reading": "よそう", "meaning": "dự báo, tiên đoán" }
+    ]
+  },
+  {
+    "kanji": "老",
+    "amHan": "Lão",
+    "nghia": "Già",
+    "onyomi": "ロウ",
+    "kunyomi": "お_いる、ふ_ける",
+    "mnemonic": {
+      "text": "Hình ảnh người già chống gậy đi trên đất."
+    },
+    "examples": [
+      { "word": "老化", "reading": "ろうか", "meaning": "lão hóa" },
+      { "word": "老人", "reading": "ろうじん", "meaning": "người già" },
+      { "word": "老後", "reading": "ろうご", "meaning": "tuổi già (sau khi nghỉ hưu)" },
+      { "word": "敬老", "reading": "けいろう", "meaning": "kính lão" }
+    ]
+  },
+  {
+    "kanji": "考",
+    "amHan": "Khảo",
+    "nghia": "Suy nghĩ, khảo sát",
+    "onyomi": "コウ",
+    "kunyomi": "かんが_える",
+    "mnemonic": {
+      "text": "Người GIÀ (老) thường ngồi suy NGẪM (KHẢO) về cuộc đời."
+    },
+    "examples": [
+      { "word": "考える", "reading": "かんがえる", "meaning": "suy nghĩ" },
+      { "word": "思考", "reading": "しこう", "meaning": "tư duy" },
+      { "word": "参考", "reading": "さんこう", "meaning": "tham khảo" },
+      { "word": "考慮", "reading": "こうりょ", "meaning": "xem xét, cân nhắc" },
+      { "word": "考古学", "reading": "こうこがく", "meaning": "khảo cổ học" }
+    ]
+  }
+]

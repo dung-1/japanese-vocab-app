@@ -1,135 +1,270 @@
 [
   {
-    "kanji": "断",
-    "amHan": "Đoạn",
-    "nghia": "Áp",
-    "onyomi": "オウ",
-    "kunyomi": "お_す、お_さえる",
+    "kanji": "条",
+    "amHan": "Điều",
+    "nghia": "Điều khoản, nhành cây",
+    "onyomi": "ジョウ",
+    "kunyomi": "えだ",
     "mnemonic": {
-      "text": "Tay đẩy một vật STOP"
+      "text": "Dưới mái nhà (giống chữ 夂 - truy) có cái CÂY (木), mỗi nhành cây là một ĐIỀU khoản."
     },
     "examples": [
-      {
-        "word": "押す",
-        "reading": "おす",
-        "meaning": "đẩy, ấn"
-      },
-      {
-        "word": "押入れ",
-        "reading": "おしいれ",
-        "meaning": "tủ âm tường"
-      },
-      {
-        "word": "押さえる",
-        "reading": "おさえる",
-        "meaning": "giữ, nắm bắt"
-      },
-      {
-        "word": "押し出す",
-        "reading": "おしだす",
-        "meaning": "nặn"
-      },
-      {
-        "word": "押収する",
-        "reading": "おうしゅうする",
-        "meaning": "tịch thu, tước đoạt, sung công"
-      }
+      { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện" },
+      { "word": "条約", "reading": "じょうやく", "meaning": "điều ước, hiệp ước" },
+      { "word": "第一条", "reading": "だいいちじょう", "meaning": "điều thứ nhất (trong luật)" },
+      { "word": "信条", "reading": "しんじょう", "meaning": "tín điều, niềm tin" },
+      { "word": "箇条書き", "reading": "かじょうがき", "meaning": "viết theo từng mục" }
     ]
   },
   {
-    "kanji": "断",
-    "amHan": "Đoạn",
-    "nghia": "Đoạn, cắt đứt",
-    "onyomi": "ダン",
-    "kunyomi": "た_つ、ことわ_る",
+    "kanji": "困",
+    "amHan": "Khốn",
+    "nghia": "Khó khăn, khốn cùng",
+    "onyomi": "コン",
+    "kunyomi": "こま_る",
     "mnemonic": {
-      "text": "Dùng rìu để cắt đứt"
+      "text": "Cái CÂY (木) bị nhốt trong Khung bao quanh (囗 - VI), thật là KHỐN đốn, khó khăn."
     },
     "examples": [
-      {
-        "word": "断つ",
-        "reading": "たつ",
-        "meaning": "cắt đứt"
-      },
-      {
-        "word": "断る",
-        "reading": "ことわる",
-        "meaning": "từ chối"
-      },
-      {
-        "word": "判断",
-        "reading": "はんだん",
-        "meaning": "phán đoán"
-      },
-      {
-        "word": "断絶",
-        "reading": "だんぜつ",
-        "meaning": "cắt đứt hoàn toàn"
-      }
+      { "word": "困る", "reading": "こまる", "meaning": "khó khăn, bối rối" },
+      { "word": "困難", "reading": "こんなん", "meaning": "khó khăn, gian khổ" },
+      { "word": "貧困", "reading": "ひんこん", "meaning": "nghèo khốn, bần cùng" },
+      { "word": "困窮", "reading": "こんきゅう", "meaning": "khốn cùng, túng quẫn" }
     ]
   },
   {
-    "kanji": "決",
-    "amHan": "Quyết",
-    "nghia": "Quyết định",
-    "onyomi": "ケツ",
-    "kunyomi": "き_める、き_まる",
+    "kanji": "深",
+    "amHan": "Thâm",
+    "nghia": "Sâu, thâm sâu",
+    "onyomi": "シン",
+    "kunyomi": "ふか_い、ふか_まる、ふか_める",
     "mnemonic": {
-      "text": "Nước quyết định chảy về đâu"
+      "text": "NƯỚC (氵- THỦY) chảy qua hang sâu (宀 - MIÊN) nơi có cây CÂY (木) tạo nên sự THÂM sâu."
     },
     "examples": [
-      {
-        "word": "決める",
-        "reading": "きめる",
-        "meaning": "quyết định"
-      },
-      {
-        "word": "決まる",
-        "reading": "きまる",
-        "meaning": "được quyết định"
-      },
-      {
-        "word": "決定",
-        "reading": "けってい",
-        "meaning": "quyết định"
-      },
-      {
-        "word": "解決",
-        "reading": "かいけつ",
-        "meaning": "giải quyết"
-      }
+      { "word": "深い", "reading": "ふかい", "meaning": "sâu" },
+      { "word": "深まる", "reading": "ふかまる", "meaning": "trở nên sâu hơn" },
+      { "word": "深める", "reading": "ふかめる", "meaning": "làm sâu sắc thêm" },
+      { "word": "深夜", "reading": "しんや", "meaning": "đêm khuya" },
+      { "word": "深刻", "reading": "しんこく", "meaning": "nghiêm trọng" },
+      { "word": "水深", "reading": "すいしん", "meaning": "độ sâu của nước" }
     ]
   },
   {
-    "kanji": "続",
-    "amHan": "Tục",
-    "nghia": "Tiếp tục",
-    "onyomi": "ゾク",
-    "kunyomi": "つづ_く、つづ_ける",
+    "kanji": "探",
+    "amHan": "Thám",
+    "nghia": "Tìm kiếm, thăm dò",
+    "onyomi": "タン",
+    "kunyomi": "さが_す、さぐ_る",
     "mnemonic": {
-      "text": "Tiếp tục bán hàng"
+      "text": "Dùng TAY (扌- THỦ) để THÁM hiểm hang sâu (bộ lồng phía trên chữ 木) tìm cái CÂY."
     },
     "examples": [
-      {
-        "word": "続く",
-        "reading": "つづく",
-        "meaning": "tiếp tục"
-      },
-      {
-        "word": "続ける",
-        "reading": "つづける",
-        "meaning": "tiếp tục làm"
-      },
-      {
-        "word": "続行",
-        "reading": "ぞっこう",
-        "meaning": "tiếp tục"
-      },
-      {
-        "word": "連続",
-        "reading": "れんぞく",
-        "meaning": "liên tục"
-      }
+      { "word": "探す", "reading": "さがす", "meaning": "tìm kiếm (thứ mình muốn)" },
+      { "word": "探る", "reading": "さぐる", "meaning": "thăm dò, mò mẫm" },
+      { "word": "探査", "reading": "たんさ", "meaning": "sự điều tra, thăm dò" },
+      { "word": "探険", "reading": "たんけん", "meaning": "thám hiểm" },
+      { "word": "探偵", "reading": "たんてい", "meaning": "thám tử" }
+    ]
+  },
+  {
+    "kanji": "様",
+    "amHan": "Dạng",
+    "nghia": "Hình dạng, quý ngài",
+    "onyomi": "ヨウ、ショウ",
+    "kunyomi": "さま",
+    "mnemonic": {
+      "text": "Dưới CÂY (木) con CỪU (羊) uống NƯỚC (氺 - THỦY) tạo nên hình DẠNG đẹp."
+    },
+    "examples": [
+      { "word": "様々", "reading": "さまざま", "meaning": "đa dạng, nhiều loại" },
+      { "word": "多様", "reading": "たよう", "meaning": "đa dạng" },
+      { "word": "様子", "reading": "ようす", "meaning": "tình hình, dáng vẻ" },
+      { "word": "様式", "reading": "ようしき", "meaning": "dạng thức, kiểu cách" },
+      { "word": "お客様", "reading": "おきゃくさま", "meaning": "quý khách" }
+    ]
+  },
+  {
+    "kanji": "葉",
+    "amHan": "Diệp",
+    "nghia": "Lá cây",
+    "onyomi": "ヨウ",
+    "kunyomi": "は",
+    "mnemonic": {
+      "text": "CỎ (艹 - THẢO) mọc trên Thế giới (世) của CÂY (木) chính là LÁ (DIỆP)."
+    },
+    "examples": [
+      { "word": "葉", "reading": "は", "meaning": "lá cây" },
+      { "word": "言葉", "reading": "ことば", "meaning": "từ vựng, lời nói" },
+      { "word": "紅葉", "reading": "こうよう", "meaning": "lá đỏ" },
+      { "word": "落ち葉", "reading": "おちば", "meaning": "lá rụng" },
+      { "word": "葉書", "reading": "はがき", "meaning": "bưu thiếp" }
+    ]
+  },
+  {
+    "kanji": "機",
+    "amHan": "Cơ",
+    "nghia": "Cơ khí, cơ hội",
+    "onyomi": "キ",
+    "kunyomi": "はた",
+    "mnemonic": {
+      "text": "Cái CÂY (木) làm nên bộ khung, thêm chút MƯU (幾 - CƠ) mẹo để tạo ra CƠ khí."
+    },
+    "examples": [
+      { "word": "飛行機", "reading": "ひこうき", "meaning": "máy bay" },
+      { "word": "危機", "reading": "きき", "meaning": "khủng hoảng, nguy kịch" },
+      { "word": "機械", "reading": "きかい", "meaning": "máy móc" },
+      { "word": "機会", "reading": "きかい", "meaning": "cơ hội" },
+      { "word": "機能", "reading": "きのう", "meaning": "tính năng, chức năng" }
+    ]
+  },
+  {
+    "kanji": "票",
+    "amHan": "Phiếu",
+    "nghia": "Lá phiếu",
+    "onyomi": "ヒョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Phương TÂY (西) tế LỄ (示 - THỊ) bằng những lá PHIẾU."
+    },
+    "examples": [
+      { "word": "投票", "reading": "とうひょう", "meaning": "bầu cử, bỏ phiếu" },
+      { "word": "伝票", "reading": "でんぴょう", "meaning": "hóa đơn, phiếu" },
+      { "word": "目標", "reading": "もくひょう", "meaning": "mục tiêu" },
+      { "word": "標準", "reading": "ひょうじゅん", "meaning": "tiêu chuẩn" }
+    ]
+  },
+  {
+    "kanji": "府",
+    "amHan": "Phủ",
+    "nghia": "Chính phủ, phủ huyện",
+    "onyomi": "フ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong một mái nhà lớn (广 - NGHIÊM), người có TAY (付 - PHÓ) nắm quyền quản lý chính PHỦ."
+    },
+    "examples": [
+      { "word": "政府", "reading": "せいふ", "meaning": "chính phủ" },
+      { "word": "都道府県", "reading": "とどうふけん", "meaning": "các đơn vị hành chính của Nhật" },
+      { "word": "京都府", "reading": "きょうとふ", "meaning": "Phủ Kyoto" },
+      { "word": "幕府", "reading": "ばくふ", "meaning": "Mạc phủ" }
+    ]
+  },
+  {
+    "kanji": "守",
+    "amHan": "Thủ",
+    "nghia": "Bảo vệ, gìn giữ",
+    "onyomi": "シュ、ス",
+    "kunyomi": "まも_る、まもり",
+    "mnemonic": {
+      "text": "Ở trong NHÀ (宀 - MIÊN) cầm Tấc (寸 - THỐN) đất để canh THỦ, bảo vệ."
+    },
+    "examples": [
+      { "word": "守る", "reading": "まもる", "meaning": "bảo vệ, tuân thủ" },
+      { "word": "保守", "reading": "ほしゅ", "meaning": "bảo thủ, bảo trì" },
+      { "word": "留守", "reading": "るす", "meaning": "vắng nhà" },
+      { "word": "お守り", "reading": "おまもり", "meaning": "bùa hộ mệnh" },
+      { "word": "見守る", "reading": "みまもる", "meaning": "dõi theo, trông chừng" }
+    ]
+  },
+  {
+    "kanji": "将",
+    "amHan": "Tương",
+    "nghia": "Tương lai, tướng quân",
+    "onyomi": "ショウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong tương lai, người cầm Tấc (寸 - THỐN) đất đứng trên Bục (爿) sẽ là TƯƠNG lai của đất nước."
+    },
+    "examples": [
+      { "word": "将来", "reading": "しょうらい", "meaning": "tương lai" },
+      { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" },
+      { "word": "主将", "reading": "しゅしょう", "meaning": "đội trưởng" },
+      { "word": "将棋", "reading": "しょうぎ", "meaning": "cờ vây (Nhật)" }
+    ]
+  },
+  {
+    "kanji": "得",
+    "amHan": "Đắc",
+    "nghia": "Đạt được",
+    "onyomi": "トク",
+    "kunyomi": "え_る、う_る",
+    "mnemonic": {
+      "text": "ĐI BỘ (彳- XÍCH) cả NGÀY (日) ròng rã trên đường (寸 - THỐN) cuối cùng cũng ĐẮC đạo, đạt được kết quả."
+    },
+    "examples": [
+      { "word": "得る", "reading": "える", "meaning": "có được, đạt được" },
+      { "word": "納得", "reading": "なっとく", "meaning": "tiếp thu, lý giải, đồng ý" },
+      { "word": "得意", "reading": "とくい", "meaning": "giỏi, sở trường" },
+      { "word": "所得", "reading": "しょとく", "meaning": "thu nhập" },
+      { "word": "損得", "reading": "そんとく", "meaning": "lỗ lãi" }
+    ]
+  },
+  {
+    "kanji": "村",
+    "amHan": "Thôn",
+    "nghia": "Ngôi làng",
+    "onyomi": "ソン",
+    "kunyomi": "むら",
+    "mnemonic": {
+      "text": "Nơi có CÂY (木) và những Tấc (寸 - THỐN) đất nhỏ chính là THÔN làng."
+    },
+    "examples": [
+      { "word": "村", "reading": "むら", "meaning": "làng" },
+      { "word": "漁村", "reading": "ぎょそん", "meaning": "làng chài" },
+      { "word": "村長", "reading": "そんちょう", "meaning": "trưởng thôn" },
+      { "word": "農村", "reading": "のうそん", "meaning": "nông thôn" }
+    ]
+  },
+  {
+    "kanji": "連",
+    "amHan": "Liên",
+    "nghia": "Liên lạc, kết nối",
+    "onyomi": "レン",
+    "kunyomi": "つら_なる、つ_れる",
+    "mnemonic": {
+      "text": "XE (車) chạy liên tục trên ĐƯỜNG (辶 - SỨC) tạo nên sự LIÊN kết."
+    },
+    "examples": [
+      { "word": "連れて来る", "reading": "つれてくる", "meaning": "dẫn đến" },
+      { "word": "連絡", "reading": "れんらく", "meaning": "liên lạc" },
+      { "word": "連合", "reading": "れんごう", "meaning": "liên minh, liên hiệp" },
+      { "word": "連続", "reading": "れんぞく", "meaning": "liên tiếp" },
+      { "word": "連休", "reading": "れんきゅう", "meaning": "kỳ nghỉ dài" }
+    ]
+  },
+  {
+    "kanji": "軍",
+    "amHan": "Quân",
+    "nghia": "Quân đội",
+    "onyomi": "グン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "XE (車) được bao phủ (冖 - MỊCH) bảo vệ dùng trong QUÂN đội."
+    },
+    "examples": [
+      { "word": "軍人", "reading": "ぐんじん", "meaning": "bộ đội, lính" },
+      { "word": "軍隊", "reading": "ぐんたい", "meaning": "quân đội" },
+      { "word": "米軍", "reading": "べいぐん", "meaning": "quân đội Mỹ" },
+      { "word": "海軍", "reading": "かいぐん", "meaning": "hải quân" },
+      { "word": "空軍", "reading": "くうぐん", "meaning": "không quân" }
+    ]
+  },
+  {
+    "kanji": "運",
+    "amHan": "Vận",
+    "nghia": "Vận chuyển, vận may",
+    "onyomi": "ウン",
+    "kunyomi": "はこ_ぶ",
+    "mnemonic": {
+      "text": "QUÂN (軍) đội đi trên ĐƯỜNG (辶 - SỨC) để VẬN chuyển lương thực."
+    },
+    "examples": [
+      { "word": "運ぶ", "reading": "はこぶ", "meaning": "chở, vận chuyển" },
+      { "word": "運動", "reading": "うんどう", "meaning": "vận động, thể dục" },
+      { "word": "運転者", "reading": "うんてんしゃ", "meaning": "người lái xe" },
+      { "word": "運命", "reading": "うんめい", "meaning": "vận mệnh" },
+      { "word": "幸運", "reading": "こううん", "meaning": "may mắn" }
     ]
   }
 ]

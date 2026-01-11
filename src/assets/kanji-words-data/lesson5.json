@@ -1,0 +1,243 @@
+[
+  {
+    "kanji": "宝",
+    "amHan": "Bảo",
+    "nghia": "Bảo vật, quý giá",
+    "onyomi": "ホウ",
+    "kunyomi": "たから",
+    "mnemonic": {
+      "text": "Trong NHÀ (宀 - MIÊN) có NGỌC (玉) thì đó chính là BẢO vật."
+    },
+    "examples": [
+      { "word": "宝", "reading": "たから", "meaning": "kho báu, vật quý" },
+      { "word": "宝石", "reading": "ほうせき", "meaning": "đá quý" },
+      { "word": "宝物", "reading": "たからもの", "meaning": "báu vật" },
+      { "word": "宝くじ", "reading": "たからくじ", "meaning": "vé số" },
+      { "word": "国宝", "reading": "こくほう", "meaning": "quốc bảo" }
+    ]
+  },
+  {
+    "kanji": "全",
+    "amHan": "Toàn",
+    "nghia": "Toàn bộ, hoàn toàn",
+    "onyomi": "ゼン",
+    "kunyomi": "まった_く、すべ_て",
+    "mnemonic": {
+      "text": "NGƯỜI (人 - NHÂN) nắm giữ viên NGỌC (王 - VƯƠNG) thì sẽ có TOÀN bộ quyền lực."
+    },
+    "examples": [
+      { "word": "全て", "reading": "すべて", "meaning": "tất cả" },
+      { "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn (không)" },
+      { "word": "全部", "reading": "ぜんぶ", "meaning": "toàn bộ" },
+      { "word": "全国", "reading": "ぜんこく", "meaning": "toàn quốc" },
+      { "word": "安全", "reading": "あんぜん", "meaning": "an toàn" },
+      { "word": "完全", "reading": "かんぜん", "meaning": "hoàn hảo, hoàn toàn" }
+    ]
+  },
+  {
+    "kanji": "程",
+    "amHan": "Trình",
+    "nghia": "Lộ trình, mức độ",
+    "onyomi": "テイ",
+    "kunyomi": "ほど",
+    "mnemonic": {
+      "text": "LÚA (禾 - HÒA) mọc trên đất (口 - khẩu + 王 - vương) theo từng lộ TRÌNH phát triển."
+    },
+    "examples": [
+      { "word": "程度", "reading": "ていど", "meaning": "mức độ" },
+      { "word": "日程", "reading": "にってい", "meaning": "lịch trình" },
+      { "word": "過程", "reading": "かてい", "meaning": "quá trình" },
+      { "word": "方程式", "reading": "ほうていしき", "meaning": "phương trình" },
+      { "word": "ほど", "reading": "ほど", "meaning": "khoảng, mức" }
+    ]
+  },
+  {
+    "kanji": "意",
+    "amHan": "Ý",
+    "nghia": "Ý chí, ý nghĩa",
+    "onyomi": "イ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "ÂM thanh (音) phát ra từ trái TIM (心 - TÂM) chính là Ý muốn."
+    },
+    "examples": [
+      { "word": "意味", "reading": "いみ", "meaning": "ý nghĩa" },
+      { "word": "意見", "reading": "いけん", "meaning": "ý kiến" },
+      { "word": "注意", "reading": "ちゅうい", "meaning": "chú ý" },
+      { "word": "意外", "reading": "いがい", "meaning": "ngoài ý muốn, ngạc nhiên" },
+      { "word": "意識", "reading": "いしき", "meaning": "ý thức" },
+      { "word": "意志", "reading": "いし", "meaning": "ý chí" }
+    ]
+  },
+  {
+    "kanji": "職",
+    "amHan": "Chức",
+    "nghia": "Chức vụ, nghề nghiệp",
+    "onyomi": "ショク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng TAI (耳 - NHĨ) nghe lời phát ra (音) khi cầm vũ khí (戈 - QUA) làm CHỨC trách."
+    },
+    "examples": [
+      { "word": "職業", "reading": "しょくぎょう", "meaning": "nghề nghiệp" },
+      { "word": "職場", "reading": "しょくば", "meaning": "nơi làm việc" },
+      { "word": "職員", "reading": "しょくいん", "meaning": "nhân viên, viên chức" },
+      { "word": "退職", "reading": "たいしょく", "meaning": "nghỉ việc" },
+      { "word": "就職", "reading": "しゅうしょく", "meaning": "tìm việc" }
+    ]
+  },
+  {
+    "kanji": "識",
+    "amHan": "Thức",
+    "nghia": "Kiến thức, tri thức",
+    "onyomi": "シキ",
+    "kunyomi": "し_る",
+    "mnemonic": {
+      "text": "Dùng NGÔN từ (言) để diễn tả ÂM thanh (音) và vũ khí (戈) giúp mở mang tri THỨC."
+    },
+    "examples": [
+      { "word": "知識", "reading": "ちしき", "meaning": "kiến thức" },
+      { "word": "常識", "reading": "じょうしき", "meaning": "kiến thức thông thường, lẽ thường" },
+      { "word": "意識", "reading": "いしき", "meaning": "ý thức" },
+      { "word": "標識", "reading": "ひょうしき", "meaning": "biển báo, dấu hiệu" },
+      { "word": "認識", "reading": "にんしき", "meaning": "nhận thức" }
+    ]
+  },
+  {
+    "kanji": "直",
+    "amHan": "Trực",
+    "nghia": "Thẳng, sửa chữa",
+    "onyomi": "チョク、ジキ",
+    "kunyomi": "なお_す、なお_る、ただ_ちに",
+    "mnemonic": {
+      "text": "MẮT (目 - MỤC) nhìn THẲNG (TRỰC) dưới một góc vuông."
+    },
+    "examples": [
+      { "word": "直す", "reading": "なおす", "meaning": "sửa chữa" },
+      { "word": "直接", "reading": "ちょくせつ", "meaning": "trực tiếp" },
+      { "word": "正直", "reading": "しょうじき", "meaning": "thành thật" },
+      { "word": "直後に", "reading": "ちょくごに", "meaning": "ngay sau khi" },
+      { "word": "直角", "reading": "ちょっかく", "meaning": "góc vuông" },
+      { "word": "見直す", "reading": "みなおす", "meaning": "xem xét lại" }
+    ]
+  },
+  {
+    "kanji": "値",
+    "amHan": "Trị",
+    "nghia": "Giá trị, giá cả",
+    "onyomi": "チ",
+    "kunyomi": "ね、あたい",
+    "mnemonic": {
+      "text": "NGƯỜI (亻- NHÂN) nhìn THẲNG (直 - TRỰC) để định giá TRỊ."
+    },
+    "examples": [
+      { "word": "値段", "reading": "ねだん", "meaning": "giá cả" },
+      { "word": "価値", "reading": "かち", "meaning": "giá trị" },
+      { "word": "数値", "reading": "すうち", "meaning": "giá trị bằng số" },
+      { "word": "値上げ", "reading": "ねあげ", "meaning": "tăng giá" },
+      { "word": "値引き", "reading": "ねびき", "meaning": "giảm giá" }
+    ]
+  },
+  {
+    "kanji": "置",
+    "amHan": "Trí",
+    "nghia": "Đặt, để",
+    "onyomi": "チ",
+    "kunyomi": "お_く",
+    "mnemonic": {
+      "text": "Dùng MẮT (罒 - MỤC nằm ngang) nhìn THẲNG (直) để BỐ TRÍ, đặt để vật dụng."
+    },
+    "examples": [
+      { "word": "置く", "reading": "おく", "meaning": "đặt, để" },
+      { "word": "位置", "reading": "いち", "meaning": "vị trí" },
+      { "word": "装置", "reading": "そうち", "meaning": "thiết bị, lắp đặt" },
+      { "word": "設置", "reading": "せっち", "meaning": "thiết lập, lắp đặt" },
+      { "word": "物置", "reading": "ものおき", "meaning": "kho chứa đồ" }
+    ]
+  },
+  {
+    "kanji": "系",
+    "amHan": "Hệ",
+    "nghia": "Hệ thống, dòng dõi",
+    "onyomi": "ケイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Sợi CHỈ (糸 - MỊCH) kết nối phía trên tạo thành một HỆ thống."
+    },
+    "examples": [
+      { "word": "系統", "reading": "けいとう", "meaning": "hệ thống" },
+      { "word": "体系", "reading": "たいけい", "meaning": "thể hệ, cấu trúc" },
+      { "word": "家系", "reading": "かけい", "meaning": "gia phả, dòng họ" },
+      { "word": "太陽系", "reading": "たいようけい", "meaning": "hệ mặt trời" },
+      { "word": "日系", "reading": "にっけい", "meaning": "gốc Nhật" }
+    ]
+  },
+  {
+    "kanji": "係",
+    "amHan": "Hệ",
+    "nghia": "Liên quan, người phụ trách",
+    "onyomi": "ケイ",
+    "kunyomi": "かか_る、かかり",
+    "mnemonic": {
+      "text": "NGƯỜI (亻- NHÂN) nằm trong một HỆ (系) thống liên quan."
+    },
+    "examples": [
+      { "word": "係員", "reading": "かかりいん", "meaning": "người phụ trách" },
+      { "word": "関係", "reading": "かんけい", "meaning": "quan hệ" },
+      { "word": "係長", "reading": "かかりちょう", "meaning": "quản lý, trưởng nhóm" },
+      { "word": "連係", "reading": "れんけい", "meaning": "liên kết" },
+      { "word": "係る", "reading": "かかる", "meaning": "liên quan đến" }
+    ]
+  },
+  {
+    "kanji": "孫",
+    "amHan": "Tôn",
+    "nghia": "Cháu",
+    "onyomi": "ソン",
+    "kunyomi": "まご",
+    "mnemonic": {
+      "text": "ĐỨA TRẺ (子 - TỬ) được nối kết bằng sợi CHỈ (系 - HỆ) huyết thống là ĐỨA CHÁU."
+    },
+    "examples": [
+      { "word": "孫", "reading": "まご", "meaning": "cháu nội/ngoại" },
+      { "word": "子孫", "reading": "しそん", "meaning": "con cháu, hậu duệ" },
+      { "word": "初孫", "reading": "ういまご", "meaning": "cháu đầu lòng" },
+      { "word": "曾孫", "reading": "ひまご", "meaning": "chắt" }
+    ]
+  },
+  {
+    "kanji": "産",
+    "amHan": "Sản",
+    "nghia": "Sinh sản, sản xuất",
+    "onyomi": "サン",
+    "kunyomi": "う_む、う_まれる",
+    "mnemonic": {
+      "text": "ĐỨNG (立 - LẬP) trên sườn núi (厂) để SẢN xuất ra đồ vật (giống chữ 生)."
+    },
+    "examples": [
+      { "word": "産む", "reading": "うむ", "meaning": "sinh đẻ" },
+      { "word": "産業", "reading": "さんぎょう", "meaning": "công nghiệp" },
+      { "word": "生産", "reading": "せいさん", "meaning": "sản xuất" },
+      { "word": "土産", "reading": "みやげ", "meaning": "quà lưu niệm" },
+      { "word": "不動産", "reading": "ふどうさん", "meaning": "bất động sản" },
+      { "word": "産婦人科", "reading": "さんふじんか", "meaning": "khoa sản" }
+    ]
+  },
+  {
+    "kanji": "玉",
+    "amHan": "Ngọc",
+    "nghia": "Viên ngọc, hình tròn",
+    "onyomi": "ギョク",
+    "kunyomi": "たま",
+    "mnemonic": {
+      "text": "VUA (王 - VƯƠNG) đeo thêm một hạt nhỏ bên mình chính là viên NGỌC."
+    },
+    "examples": [
+      { "word": "玉", "reading": "たま", "meaning": "viên ngọc, quả bóng" },
+      { "word": "玉ねぎ", "reading": "たまねぎ", "meaning": "hành tây" },
+      { "word": "目玉", "reading": "めだま", "meaning": "nhãn cầu, điểm nổi bật" },
+      { "word": "年玉", "reading": "としだま", "meaning": "tiền lì xì" },
+      { "word": "十円玉", "reading": "じゅうえんだま", "meaning": "đồng 10 yên" }
+    ]
+  }
+]

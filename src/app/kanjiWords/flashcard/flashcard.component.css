@@ -24,6 +24,8 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   background: white;
+    display: flex;
+  justify-content: center;
 }
 
 .front, .back {
@@ -247,7 +249,6 @@
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  padding: 1rem;
 }
 
 .modal-content {
@@ -259,6 +260,7 @@
   max-height: 80vh;
   overflow-y: auto;
   position: relative;
+  margin: 0px 15px;
 }
 
 .modal-close {
@@ -302,7 +304,7 @@
 
 @media (max-width: 768px) {
   .flashcard-wrapper {
-    padding: 10px;
+    padding-left: 0px;
   }
 
   .flashcard-container {

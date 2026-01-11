@@ -1,0 +1,277 @@
+[
+  {
+    "kanji": "辞",
+    "amHan": "Từ",
+    "nghia": "Từ bỏ, từ điển",
+    "onyomi": "ジ",
+    "kunyomi": "や_める",
+    "mnemonic": {
+      "text": "Dùng LƯỠI (舌) nói ra những lời cay đắng (Tân - 辛) để TỪ biệt hoặc TỪ bỏ."
+    },
+    "examples": [
+      { "word": "辞める", "reading": "やめる", "meaning": "nghỉ việc, từ bỏ" },
+      { "word": "辞書", "reading": "じしょ", "meaning": "từ điển" },
+      { "word": "お世辞", "reading": "おせじ", "meaning": "lời nịnh hót, khen ngợi" },
+      { "word": "祝辞", "reading": "しゅくじ", "meaning": "lời chúc mừng" },
+      { "word": "辞職", "reading": "じしょく", "meaning": "từ chức" }
+    ]
+  },
+  {
+    "kanji": "持",
+    "amHan": "Trì",
+    "nghia": "Cầm, duy trì",
+    "onyomi": "ジ",
+    "kunyomi": "も_つ",
+    "mnemonic": {
+      "text": "Dùng TAY (扌) để TRÌ giữ mọi thứ ở CHÙA (寺)."
+    },
+    "examples": [
+      { "word": "持つ", "reading": "まつ", "meaning": "cầm, nắm, có" },
+      { "word": "気持ち", "reading": "きもち", "meaning": "cảm giác, tâm trạng" },
+      { "word": "支持", "reading": "しじ", "meaning": "ủng hộ, duy trì" },
+      { "word": "維持", "reading": "いじ", "meaning": "duy trì" },
+      { "word": "持ち物", "reading": "もちもの", "meaning": "đồ mang theo" },
+      { "word": "保持", "reading": "ほうじ", "meaning": "bảo trì, giữ gìn" }
+    ]
+  },
+  {
+    "kanji": "待",
+    "amHan": "Đãi",
+    "nghia": "Đợi chờ, đối đãi",
+    "onyomi": "タイ",
+    "kunyomi": "ま_つ",
+    "mnemonic": {
+      "text": "Đi trên ĐƯỜNG (彳) dừng lại ở CHÙA (寺) để ĐỢI (ĐÃI) ai đó."
+    },
+    "examples": [
+      { "word": "待つ", "reading": "まつ", "meaning": "đợi chờ" },
+      { "word": "期待", "reading": "きたい", "meaning": "kỳ vọng" },
+      { "word": "接待", "reading": "せったい", "meaning": "tiếp đãi" },
+      { "word": "招待", "reading": "しょうたい", "meaning": "mời, chiêu đãi" },
+      { "word": "待ち合わせ", "reading": "まちあわせ", "meaning": "hẹn gặp" }
+    ]
+  },
+  {
+    "kanji": "字",
+    "amHan": "Tự",
+    "nghia": "Chữ, ký tự",
+    "onyomi": "ジ",
+    "kunyomi": "あざ",
+    "mnemonic": {
+      "text": "Dưới mái NHÀ (宀), trẻ CON (子) đang học CHỮ (TỰ)."
+    },
+    "examples": [
+      { "word": "漢字", "reading": "かんじ", "meaning": "chữ Hán" },
+      { "word": "文字", "reading": "もじ", "meaning": "chữ cái, văn bản" },
+      { "word": "数字", "reading": "すうじ", "meaning": "chữ số" },
+      { "word": "名字", "reading": "みょうじ", "meaning": "họ" },
+      { "word": "習字", "reading": "しゅうじ", "meaning": "luyện chữ, thư pháp" }
+    ]
+  },
+  {
+    "kanji": "索",
+    "amHan": "Tác",
+    "nghia": "Tìm kiếm, dây thừng",
+    "onyomi": "サク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới mái nhà (giống bộ Mịch), dùng sợi CHỈ (糸) để TÌM kiếm (TÁC) dấu vết."
+    },
+    "examples": [
+      { "word": "検索", "reading": "けんさく", "meaning": "tìm kiếm, tra cứu" },
+      { "word": "模索", "reading": "もさく", "meaning": "tìm kiếm, dò dẫm" },
+      { "word": "捜索", "reading": "そうさく", "meaning": "tìm kiếm, điều tra" },
+      { "word": "索引", "reading": "さくいん", "meaning": "mục lục tra cứu" }
+    ]
+  },
+  {
+    "kanji": "素",
+    "amHan": "Tố",
+    "nghia": "Nguyên tố, mộc mạc",
+    "onyomi": "ソ、ス",
+    "kunyomi": "もと",
+    "mnemonic": {
+      "text": "Sợi CHỈ (糸) treo trên CÂY (giống bộ chủ) là thành phần nguyên TỐ cơ bản."
+    },
+    "examples": [
+      { "word": "素敵", "reading": "すてき", "meaning": "tuyệt vời" },
+      { "word": "素直", "reading": "すなお", "meaning": "ngoan ngoãn, chân thành" },
+      { "word": "素質", "reading": "そしつ", "meaning": "tố chất" },
+      { "word": "素材", "reading": "そざい", "meaning": "nguyên liệu, chất liệu" },
+      { "word": "要素", "reading": "ようそ", "meaning": "yếu tố" },
+      { "word": "素人", "reading": "しろうと", "meaning": "người nghiệp dư" }
+    ]
+  },
+  {
+    "kanji": "緑",
+    "amHan": "Lục",
+    "nghia": "Màu xanh lá cây",
+    "onyomi": "リョク、ロク",
+    "kunyomi": "みどり",
+    "mnemonic": {
+      "text": "Sợi CHỈ (糸) được nhuộm bằng loại cây có hình cái lược (彔) thành màu XANH LỤC."
+    },
+    "examples": [
+      { "word": "緑", "reading": "みどり", "meaning": "màu xanh lá" },
+      { "word": "緑茶", "reading": "りょくちゃ", "meaning": "trà xanh" },
+      { "word": "新緑", "reading": "しんりょく", "meaning": "màu xanh tươi của lá mới" },
+      { "word": "緑地", "reading": "りょくち", "meaning": "vùng đất xanh, công viên" },
+      { "word": "緑青", "reading": "ろくしょう", "meaning": "gỉ đồng (màu xanh)" }
+    ]
+  },
+  {
+    "kanji": "結",
+    "amHan": "Kết",
+    "nghia": "Kết thúc, thắt nút",
+    "onyomi": "ケツ、ケチ",
+    "kunyomi": "むす_ぶ、ゆ_う",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸) thắt nút lại cho CÁI MIỆNG (口) để KẾT thúc vấn đề."
+    },
+    "examples": [
+      { "word": "結ぶ", "reading": "むすぶ", "meaning": "nối, buộc, kết" },
+      { "word": "結婚", "reading": "けっこん", "meaning": "kết hôn" },
+      { "word": "結論", "reading": "けつろん", "meaning": "kết luận" },
+      { "word": "結果", "reading": "けっか", "meaning": "kết quả" },
+      { "word": "結末", "reading": "けまつ", "meaning": "kết cục" },
+      { "word": "結局", "reading": "けっきょく", "meaning": "rốt cuộc" }
+    ]
+  },
+  {
+    "kanji": "組",
+    "amHan": "Tổ",
+    "nghia": "Tổ chức, nhóm",
+    "onyomi": "ソ",
+    "kunyomi": "く_む、くみ",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸) để liên kết những người trên bàn THỜ (且) thành một TỔ chức."
+    },
+    "examples": [
+      { "word": "組む", "reading": "くむ", "meaning": "lắp ghép, khoanh tay, lập nhóm" },
+      { "word": "組合", "reading": "くみあい", "meaning": "nghiệp đoàn, hiệp hội" },
+      { "word": "組織", "reading": "そしき", "meaning": "tổ chức" },
+      { "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình tivi" },
+      { "word": "組み立てる", "reading": "くみたてる", "meaning": "xây dựng, lắp ráp" }
+    ]
+  },
+  {
+    "kanji": "雷",
+    "amHan": "Lôi",
+    "nghia": "Sấm sét",
+    "onyomi": "ライ",
+    "kunyomi": "かみなり",
+    "mnemonic": {
+      "text": "MƯA (雨) rơi xuống đồng RUỘNG (田) kèm theo sấm LÔI."
+    },
+    "examples": [
+      { "word": "雷", "reading": "かみなり", "meaning": "sấm sét" },
+      { "word": "雷雨", "reading": "らいう", "meaning": "bão tố, mưa rào kèm sấm" },
+      { "word": "落雷", "reading": "らくらい", "meaning": "sét đánh" },
+      { "word": "雷鳴", "reading": "らいめい", "meaning": "tiếng sấm" },
+      { "word": "雷光", "reading": "らいこう", "meaning": "tia chớp" }
+    ]
+  },
+  {
+    "kanji": "電",
+    "amHan": "Điện",
+    "nghia": "Điện năng",
+    "onyomi": "デン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MƯA (雨) kéo dài (giống bộ Thân) tạo ra tia ĐIỆN."
+    },
+    "examples": [
+      { "word": "電気", "reading": "でんき", "meaning": "điện, đèn điện" },
+      { "word": "電車", "reading": "でんしゃ", "meaning": "tàu điện" },
+      { "word": "電話", "reading": "でんわ", "meaning": "điện thoại" },
+      { "word": "電力", "reading": "でんりょく", "meaning": "điện lực" },
+      { "word": "電子", "reading": "でんし", "meaning": "điện tử" },
+      { "word": "停電", "reading": "ていでん", "meaning": "mất điện" }
+    ]
+  },
+  {
+    "kanji": "雪",
+    "amHan": "Tuyết",
+    "nghia": "Tuyết rơi",
+    "onyomi": "セツ",
+    "kunyomi": "ゆき",
+    "mnemonic": {
+      "text": "MƯA (雨) rơi xuống, dùng chổi (bộ kệ ở dưới) quét đi được chính là TUYẾT."
+    },
+    "examples": [
+      { "word": "雪", "reading": "ゆき", "meaning": "tuyết" },
+      { "word": "大雪", "reading": "おおゆき", "meaning": "tuyết rơi dày" },
+      { "word": "新雪", "reading": "しんせつ", "meaning": "tuyết mới" },
+      { "word": "積雪", "reading": "せきせつ", "meaning": "tuyết phủ" },
+      { "word": "雪解け", "reading": "ゆきどけ", "meaning": "tuyết tan" }
+    ]
+  },
+  {
+    "kanji": "震",
+    "amHan": "Chấn",
+    "nghia": "Chấn động, rung",
+    "onyomi": "シン",
+    "kunyomi": "ふる_う、ふる_える",
+    "mnemonic": {
+      "text": "MƯA (雨) kèm theo sấm (THẦN - 辰) làm mặt đất CHẤN động."
+    },
+    "examples": [
+      { "word": "震える", "reading": "ふるえる", "meaning": "run rẩy, rung động" },
+      { "word": "地震", "reading": "じしん", "meaning": "động đất" },
+      { "word": "震度", "reading": "しんど", "meaning": "độ chấn động" },
+      { "word": "震災", "reading": "しんさい", "meaning": "thảm họa động đất" },
+      { "word": "震源", "reading": "しんげん", "meaning": "tâm chấn" }
+    ]
+  },
+  {
+    "kanji": "雲",
+    "amHan": "Vân",
+    "nghia": "Mây",
+    "onyomi": "ウン",
+    "kunyomi": "くも",
+    "mnemonic": {
+      "text": "MƯA (雨) đọng lại trên cao nói (VÂN - 云) lời của gió chính là MÂY."
+    },
+    "examples": [
+      { "word": "雲", "reading": "くも", "meaning": "mây" },
+      { "word": "雨雲", "reading": "あまぐも", "meaning": "mây mưa" },
+      { "word": "雲海", "reading": "うんかい", "meaning": "biển mây" },
+      { "word": "暗雲", "reading": "あんうん", "meaning": "mây đen" },
+      { "word": "雲気", "reading": "うんき", "meaning": "trời u ám" }
+    ]
+  },
+  {
+    "kanji": "曇",
+    "amHan": "Đàm",
+    "nghia": "Trời mây u ám",
+    "onyomi": "ドン",
+    "kunyomi": "くも_る",
+    "mnemonic": {
+      "text": "Mặt TRỜI (日) bị MÂY (雲) che khuất nên trời u ĐÀM."
+    },
+    "examples": [
+      { "word": "曇る", "reading": "くもる", "meaning": "mờ, u ám, che khuất" },
+      { "word": "曇り", "reading": "くもり", "meaning": "trời nhiều mây" },
+      { "word": "曇天", "reading": "どんてん", "meaning": "trời âm u" },
+      { "word": "曇り空", "reading": "くもりぞら", "meaning": "bầu trời đầy mây" }
+    ]
+  },
+  {
+    "kanji": "活",
+    "amHan": "Hoạt",
+    "nghia": "Hoạt động, sinh hoạt",
+    "onyomi": "カツ",
+    "kunyomi": "い_かす、い_ける",
+    "mnemonic": {
+      "text": "NƯỚC (氵) chảy qua LƯỠI (舌) làm cơ thể linh HOẠT hơn."
+    },
+    "examples": [
+      { "word": "活動", "reading": "かつどう", "meaning": "hoạt động" },
+      { "word": "生活", "reading": "せいかつ", "meaning": "sinh hoạt, cuộc sống" },
+      { "word": "活用", "reading": "かつよう", "meaning": "tận dụng, sử dụng" },
+      { "word": "活気", "reading": "かっき", "meaning": "sôi nổi, sức sống" },
+      { "word": "活発", "reading": "かっぱつ", "meaning": "hoạt bát" },
+      { "word": "復活", "reading": "ふっかつ", "meaning": "phục hồi, sống lại" }
+    ]
+  }
+]

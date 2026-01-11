@@ -1,0 +1,307 @@
+[
+  {
+    "kanji": "聞",
+    "amHan": "Văn",
+    "nghia": "Nghe, hỏi",
+    "onyomi": "ブン、モン",
+    "kunyomi": "き_く、き_こえる",
+    "mnemonic": {
+      "text": "Đứng ở CỬA (門 - MÔN) ghé TAI (耳 - NHĨ) vào để NGHE ngóng tình hình."
+    },
+    "examples": [
+      { "word": "聞く", "reading": "きく", "meaning": "nghe, hỏi" },
+      { "word": "聞こえる", "reading": "きこえる", "meaning": "có thể nghe thấy" },
+      { "word": "新聞社", "reading": "しんぶんしゃ", "meaning": "tòa soạn báo" },
+      { "word": "聞き取る", "reading": "ききとる", "meaning": "nghe hiểu" },
+      { "word": "前代未聞", "reading": "ぜんだいみもん", "meaning": "chưa từng nghe thấy bao giờ" }
+    ]
+  },
+  {
+    "kanji": "問",
+    "amHan": "Vấn",
+    "nghia": "Hỏi, vấn đề",
+    "onyomi": "モン",
+    "kunyomi": "と_う、と_い",
+    "mnemonic": {
+      "text": "Đứng trước CỬA (門 - MÔN) mở MIỆNG (口 - KHẨU) ra để HỎI."
+    },
+    "examples": [
+      { "word": "問う", "reading": "とう", "meaning": "hỏi, yêu cầu" },
+      { "word": "問い", "reading": "とい", "meaning": "câu hỏi" },
+      { "word": "問題", "reading": "もんだい", "meaning": "vấn đề, câu hỏi" },
+      { "word": "問屋", "reading": "とんや", "meaning": "kho bán buôn" },
+      { "word": "訪問", "reading": "ほうもん", "meaning": "thăm hỏi, ghé thăm" },
+      { "word": "学問", "reading": "がくもん", "meaning": "học vấn" }
+    ]
+  },
+  {
+    "kanji": "開",
+    "amHan": "Khai",
+    "nghia": "Mở ra, bắt đầu",
+    "onyomi": "カイ",
+    "kunyomi": "ひら_く、あ_く、あ_ける",
+    "mnemonic": {
+      "text": "Dùng hai tay nhấc thanh cài (chữ ⺕ phía trong) để MỞ CỬA (門 - MÔN)."
+    },
+    "examples": [
+      { "word": "開く", "reading": "ひらく", "meaning": "mở (sách, hội nghị), nở (hoa)" },
+      { "word": "開ける", "reading": "あける", "meaning": "mở (cửa, hộp)" },
+      { "word": "開発", "reading": "かいはつ", "meaning": "sự phát triển, khai thác" },
+      { "word": "開始", "reading": "かいし", "meaning": "bắt đầu" },
+      { "word": "公開", "reading": "こうかい", "meaning": "công khai" }
+    ]
+  },
+  {
+    "kanji": "閉",
+    "amHan": "Bế",
+    "nghia": "Đóng, bế mạc",
+    "onyomi": "ヘイ",
+    "kunyomi": "と_じる、し_める、し_まる",
+    "mnemonic": {
+      "text": "Dùng một thanh gỗ (tượng trưng bởi Tài - 才) chặn CỬA (門 - MÔN) lại để ĐÓNG."
+    },
+    "examples": [
+      { "word": "閉める", "reading": "しめる", "meaning": "đóng (cửa, tủ)" },
+      { "word": "閉じる", "reading": "とじる", "meaning": "đóng (mắt, sách, ứng dụng)" },
+      { "word": "閉会", "reading": "へいかい", "meaning": "bế mạc" },
+      { "word": "閉店", "reading": "へいてん", "meaning": "đóng cửa hàng" },
+      { "word": "閉鎖", "reading": "へいさ", "meaning": "phong tỏa, đóng cửa" }
+    ]
+  },
+  {
+    "kanji": "間",
+    "amHan": "Gian",
+    "nghia": "Khoảng trống, thời gian",
+    "onyomi": "カン、ケン",
+    "kunyomi": "あいだ、ま",
+    "mnemonic": {
+      "text": "Ánh MẶT TRỜI (日 - NHẬT) rọi qua khe CỬA (門 - MÔN) tạo ra khoảng GIAN."
+    },
+    "examples": [
+      { "word": "時間", "reading": "じかん", "meaning": "thời gian" },
+      { "word": "この間", "reading": "このあいだ", "meaning": "gần đây, hôm nọ" },
+      { "word": "昼間", "reading": "ひるま", "meaning": "ban ngày" },
+      { "word": "世間", "reading": "せけん", "meaning": "thế gian, xã hội" },
+      { "word": "間違い", "reading": "まちがい", "meaning": "nhầm lẫn, sai sót" },
+      { "word": "間に合う", "reading": "まにあう", "meaning": "kịp lúc" }
+    ]
+  },
+  {
+    "kanji": "簡",
+    "amHan": "Giản",
+    "nghia": "Đơn giản",
+    "onyomi": "カン、ケン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Viết chữ lên thẻ TRE (⺮ - TRÚC) để trong GIAN (間) nhà một cách ĐƠN GIẢN."
+    },
+    "examples": [
+      { "word": "簡単", "reading": "かんたん", "meaning": "đơn giản" },
+      { "word": "簡潔", "reading": "かんけつ", "meaning": "giản khiết, ngắn gọn" },
+      { "word": "簡易", "reading": "かんい", "meaning": "đơn giản và dễ dàng" },
+      { "word": "簡略", "reading": "かんりゃく", "meaning": "giản lược" }
+    ]
+  },
+  {
+    "kanji": "関",
+    "amHan": "Quan",
+    "nghia": "Liên quan, cửa ải",
+    "onyomi": "カン",
+    "kunyomi": "せ、かか_わる",
+    "mnemonic": {
+      "text": "Trong CỬA (門 - MÔN) dùng những sợi TƠ (chữ phía trong) để liên KẾT/QUAN hệ."
+    },
+    "examples": [
+      { "word": "関わる", "reading": "かかわる", "meaning": "liên quan đến" },
+      { "word": "関係", "reading": "かんけい", "meaning": "quan hệ" },
+      { "word": "無関心", "reading": "むかんしん", "meaning": "hờ hững, thờ ơ" },
+      { "word": "関心", "reading": "かんしん", "meaning": "quan tâm" },
+      { "word": "機関", "reading": "きかん", "meaning": "cơ quan" },
+      { "word": "玄関", "reading": "げんかん", "meaning": "lối đi vào, sảnh vào" }
+    ]
+  },
+  {
+    "kanji": "許",
+    "amHan": "Hứa",
+    "nghia": "Cho phép, hứa hẹn",
+    "onyomi": "キョ",
+    "kunyomi": "ゆる_す",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (言 - NGÔN) để CHO PHÉP người cưỡi NGỰA (午 - NGỌ) đi qua."
+    },
+    "examples": [
+      { "word": "許す", "reading": "ゆるす", "meaning": "cho phép, tha lỗi" },
+      { "word": "許可", "reading": "きょか", "meaning": "sự cho phép" },
+      { "word": "免許", "reading": "めんきょ", "meaning": "giấy phép, bằng cấp" },
+      { "word": "特許", "reading": "とっきょ", "meaning": "bằng sáng chế" }
+    ]
+  },
+  {
+    "kanji": "特",
+    "amHan": "Đặc",
+    "nghia": "Đặc biệt",
+    "onyomi": "トク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Con BÒ (牛 - NGƯU) được nuôi trong CHÙA (寺 - TỰ) là một con bò ĐẶC biệt."
+    },
+    "examples": [
+      { "word": "特別", "reading": "とくべつ", "meaning": "đặc biệt" },
+      { "word": "特徴", "reading": "とくちょう", "meaning": "đặc trưng" },
+      { "word": "特急", "reading": "とっきゅう", "meaning": "tàu tốc hành" },
+      { "word": "特色", "reading": "とくしょく", "meaning": "đặc sắc" },
+      { "word": "特売", "reading": "とくばい", "meaning": "bán giảm giá đặc biệt" }
+    ]
+  },
+  {
+    "kanji": "物",
+    "amHan": "Vật",
+    "nghia": "Đồ vật, con vật",
+    "onyomi": "ブツ、モツ",
+    "kunyomi": "もの",
+    "mnemonic": {
+      "text": "Con BÒ (牛 - NGƯU) cũng là một sinh VẬT (chữ 勿 - VẬT)."
+    },
+    "examples": [
+      { "word": "着物", "reading": "きもの", "meaning": "Kimono" },
+      { "word": "動物", "reading": "どうぶつ", "meaning": "động vật" },
+      { "word": "荷物", "reading": "にもつ", "meaning": "hành lý" },
+      { "word": "食べ物", "reading": "たべもの", "meaning": "đồ ăn" },
+      { "word": "物語", "reading": "ものがたり", "meaning": "truyện kể" },
+      { "word": "建物", "reading": "たてもの", "meaning": "tòa nhà" }
+    ]
+  },
+  {
+    "kanji": "件",
+    "amHan": "Kiện",
+    "nghia": "Sự việc, điều khoản",
+    "onyomi": "ケン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "NGƯỜI (亻- NHÂN) đứng cạnh con BÒ (牛 - NGƯU) để bàn về các sự KIỆN."
+    },
+    "examples": [
+      { "word": "事件", "reading": "じけん", "meaning": "sự việc, vụ án" },
+      { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện, điều khoản" },
+      { "word": "用件", "reading": "ようけん", "meaning": "việc cần bàn" },
+      { "word": "物件", "reading": "ぶっけん", "meaning": "bất động sản, tài sản" }
+    ]
+  },
+  {
+    "kanji": "靴",
+    "amHan": "Ngoa",
+    "nghia": "Giày, dép",
+    "onyomi": "カ",
+    "kunyomi": "くつ",
+    "mnemonic": {
+      "text": "Dùng DA (革 - CÁCH) để làm đôi GIÀY (靴) biến đổi (化 - HÓA) đôi chân."
+    },
+    "examples": [
+      { "word": "靴屋", "reading": "くつや", "meaning": "cửa hàng giày dép" },
+      { "word": "靴下", "reading": "くつした", "meaning": "đôi tất" },
+      { "word": "製靴業", "reading": "せいかぎょう", "meaning": "công nghiệp đóng giày" },
+      { "word": "長靴", "reading": "ながぐつ", "meaning": "ủng" },
+      { "word": "運動靴", "reading": "うんどうぐつ", "meaning": "giày thể thao" }
+    ]
+  },
+  {
+    "kanji": " đích",
+    "amHan": "Đích",
+    "nghia": "Mục đích, đích đến",
+    "onyomi": "テキ",
+    "kunyomi": "まと",
+    "mnemonic": {
+      "text": "Dùng ÁNH SÁNG (白 - BẠCH) soi vào cái bao (勺) để tìm trúng ĐÍCH."
+    },
+    "examples": [
+      { "word": "目的", "reading": "もくてき", "meaning": "mục đích" },
+      { "word": "利己的", "reading": "りこてき", "meaning": "tính ích kỷ" },
+      { "word": "的", "reading": "まと", "meaning": "đích, bia bắn" },
+      { "word": "日本的", "reading": "にほんてき", "meaning": "mang tính Nhật Bản" },
+      { "word": "具体的", "reading": "ぐたいてき", "meaning": "mang tính cụ thể" }
+    ]
+  },
+  {
+    "kanji": "約",
+    "amHan": "Ước",
+    "nghia": "Lời hứa, khoảng",
+    "onyomi": "ヤク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng sợi CHỈ (糸 - MỊCH) để trói buộc/kết nối lời ƯỚC (勺)."
+    },
+    "examples": [
+      { "word": "約束", "reading": "やくそく", "meaning": "lời hứa" },
+      { "word": "予約", "reading": "よやく", "meaning": "đặt trước" },
+      { "word": "約", "reading": "やく", "meaning": "khoảng chừng" },
+      { "word": "契約", "reading": "けいやく", "meaning": "hợp đồng" },
+      { "word": "節約", "reading": "せつやく", "meaning": "tiết kiệm" }
+    ]
+  },
+  {
+    "kanji": "釣",
+    "amHan": "Điêu",
+    "nghia": "Câu cá",
+    "onyomi": "チョウ",
+    "kunyomi": "つ_る、つ_り",
+    "mnemonic": {
+      "text": "Dùng cái móc bằng KIM loại (金 - KIM) để CÂU (勺) cá."
+    },
+    "examples": [
+      { "word": "釣る", "reading": "つる", "meaning": "câu cá" },
+      { "word": "釣り銭", "reading": "つりせん", "meaning": "tiền thừa, tiền trả lại" },
+      { "word": "釣り", "reading": "つり", "meaning": "việc câu cá" },
+      { "word": "釣り堀", "reading": "つりぼり", "meaning": "ao câu cá" }
+    ]
+  },
+  {
+    "kanji": "平",
+    "amHan": "Bình",
+    "nghia": "Bằng phẳng, hòa bình",
+    "onyomi": "ヘイ、ビョウ",
+    "kunyomi": "たいら、ひら",
+    "mnemonic": {
+      "text": "Dùng số TÁM (八 - BÁT) và một đường thẳng để chia BÌNH đẳng."
+    },
+    "examples": [
+      { "word": "平ら", "reading": "たいら", "meaning": "bằng phẳng" },
+      { "word": "平等", "reading": "びょうどう", "meaning": "sự bình đẳng" },
+      { "word": "不平", "reading": "ふへい", "meaning": "sự bất bình" },
+      { "word": "平日", "reading": "へいじつ", "meaning": "ngày thường" },
+      { "word": "平和", "reading": "へいわ", "meaning": "hòa bình" },
+      { "word": "水平", "reading": "すいへい", "meaning": "nằm ngang, thủy bình" }
+    ]
+  },
+  {
+    "kanji": "評",
+    "amHan": "Bình",
+    "nghia": "Đánh giá, bình luận",
+    "onyomi": "ヒョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (言 - NGÔN) để phân định sự công BÌNH (平) gọi là phê BÌNH."
+    },
+    "examples": [
+      { "word": "評価", "reading": "ひょうか", "meaning": "đánh giá" },
+      { "word": "批評", "reading": "ひひょう", "meaning": "sự bình luận, phê bình" },
+      { "word": "評判", "reading": "ひょうばん", "meaning": "danh tiếng, uy tín" },
+      { "word": "評論", "reading": "ひょうろん", "meaning": "bình luận" }
+    ]
+  },
+  {
+    "kanji": "呼",
+    "amHan": "Hô",
+    "nghia": "Gọi, hô hấp",
+    "onyomi": "コ",
+    "kunyomi": "よ_ぶ",
+    "mnemonic": {
+      "text": "Mở MIỆNG (口 - KHẨU) ra HÔ to để gọi người cầm CUNG (乎)."
+    },
+    "examples": [
+      { "word": "呼ぶ", "reading": "よぶ", "meaning": "gọi, gào" },
+      { "word": "呼吸", "reading": "こきゅう", "meaning": "hô hấp" },
+      { "word": "呼び出す", "reading": "よびだす", "meaning": "gọi ra" },
+      { "word": "呼びかける", "reading": "よびかける", "meaning": "kêu gọi" }
+    ]
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "kanji": "部",
+    "amHan": "Bộ",
+    "nghia": "Bộ phận, bộ môn",
+    "onyomi": "ブ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Đứng (立) nói miệng (口) ở vùng đất (阝- ẤP) phân chia thành từng BỘ phận."
+    },
+    "examples": [
+      { "word": "部分", "reading": "ぶぶん", "meaning": "bộ phận, phần" },
+      { "word": "部長", "reading": "ぶちょう", "meaning": "trưởng phòng" },
+      { "word": "学部", "reading": "がくぶ", "meaning": "khoa (trong đại học)" },
+      { "word": "部屋", "reading": "へや", "meaning": "căn phòng" },
+      { "word": "全部", "reading": "ぜんぶ", "meaning": "toàn bộ" },
+      { "word": "営業本部", "reading": "えいぎょうほんぶ", "meaning": "trụ sở kinh doanh" }
+    ]
+  },
+  {
+    "kanji": "商",
+    "amHan": "Thương",
+    "nghia": "Thương mại, buôn bán",
+    "onyomi": "ショウ",
+    "kunyomi": "あきな_う",
+    "mnemonic": {
+      "text": "Đội mũ (亠) đứng ngoài biên giới (冂) mở MIỆNG (口) để buôn bán THƯƠNG mại."
+    },
+    "examples": [
+      { "word": "商品", "reading": "しょうひん", "meaning": "hàng hóa" },
+      { "word": "商業", "reading": "しょうぎょう", "meaning": "thương nghiệp, thương mại" },
+      { "word": "商店", "reading": "しょうてん", "meaning": "cửa hàng" },
+      { "word": "商社", "reading": "しょうしゃ", "meaning": "công ty thương mại" },
+      { "word": "商う", "reading": "あきなう", "meaning": "kinh doanh, buôn bán" }
+    ]
+  },
+  {
+    "kanji": "適",
+    "amHan": "Thích",
+    "nghia": "Thích hợp, tương thích",
+    "onyomi": "テキ",
+    "kunyomi": "かな_う",
+    "mnemonic": {
+      "text": "Đi trên ĐƯỜNG (辶) mà miệng (口) luôn nói lời ngay thẳng thì sẽ THÍCH hợp."
+    },
+    "examples": [
+      { "word": "適当", "reading": "てきとう", "meaning": "tương thích, phù hợp (hoặc qua loa)" },
+      { "word": "適応", "reading": "てきおう", "meaning": "thích ứng" },
+      { "word": "適切", "reading": "てきせつ", "meaning": "thích đáng, phù hợp" },
+      { "word": "適当", "reading": "てきとう", "meaning": "phù hợp" },
+      { "word": "適する", "reading": "てきする", "meaning": "thích hợp với" }
+    ]
+  },
+  {
+    "kanji": "占",
+    "amHan": "Chiếm",
+    "nghia": "Chiếm đóng, bói toán",
+    "onyomi": "セン",
+    "kunyomi": "し_める、うらな_う",
+    "mnemonic": {
+      "text": "Dùng MIỆNG (口) để phán về cái GẬY (卜 - BỐC) bói toán xem ai CHIẾM ưu thế."
+    },
+    "examples": [
+      { "word": "占める", "reading": "しめる", "meaning": "chiếm giữ, bao gồm" },
+      { "word": "占う", "reading": "うらなう", "meaning": "xem bói, dự đoán" },
+      { "word": "占有", "reading": "せんゆう", "meaning": "chiếm hữu" },
+      { "word": "独占", "reading": "どくせん", "meaning": "độc chiếm" },
+      { "word": "占い師", "reading": "うらないし", "meaning": "thầy bói" }
+    ]
+  },
+  {
+    "kanji": "店",
+    "amHan": "Điếm",
+    "nghia": "Cửa hàng",
+    "onyomi": "テン",
+    "kunyomi": "みせ",
+    "mnemonic": {
+      "text": "Dưới mái nhà (广) có quầy CHIẾM (占) dụng làm cửa hàng ĐIẾM."
+    },
+    "examples": [
+      { "word": "店", "reading": "みせ", "meaning": "cửa hàng" },
+      { "word": "店員", "reading": "てんいん", "meaning": "nhân viên cửa hàng" },
+      { "word": "店長", "reading": "てんちょう", "meaning": "trưởng cửa hàng" },
+      { "word": "売店", "reading": "ばいてん", "meaning": "quầy bán hàng" },
+      { "word": "喫茶店", "reading": "きっさてん", "meaning": "quán cà phê" },
+      { "word": "開店", "reading": "かいてん", "meaning": "mở cửa hàng" }
+    ]
+  },
+  {
+    "kanji": "点",
+    "amHan": "Điểm",
+    "nghia": "Điểm số, thắp sáng",
+    "onyomi": "テン",
+    "kunyomi": "つ_ける、とも_す",
+    "mnemonic": {
+      "text": "Dưới quầy CHIẾM (占) có ngọn LỬA (灬 - HỎA) rọi sáng từng ĐIỂM."
+    },
+    "examples": [
+      { "word": "点数", "reading": "てんすう", "meaning": "điểm số" },
+      { "word": "弱点", "reading": "じゃくてん", "meaning": "điểm yếu" },
+      { "word": "視点", "reading": "してん", "meaning": "quan điểm, điểm nhìn" },
+      { "word": "点火", "reading": "てんか", "meaning": "đốt lửa, châm lửa" },
+      { "word": "交差点", "reading": "こうさてん", "meaning": "ngã tư" },
+      { "word": "満点", "reading": "まんてん", "meaning": "điểm tối đa" }
+    ]
+  },
+  {
+    "kanji": "貼",
+    "amHan": "Thiếp",
+    "nghia": "Dán, gắn vào",
+    "onyomi": "チョウ",
+    "kunyomi": "は_る",
+    "mnemonic": {
+      "text": "Dùng VỎ SÒ (貝 - BỐI, tiền cổ) đem đi CHIẾM (占) và dán THIẾP lên đồ vật."
+    },
+    "examples": [
+      { "word": "貼る", "reading": "はる", "meaning": "dán, niêm yết" },
+      { "word": "貼付", "reading": "ちょうふ", "meaning": "dính, gắn, dán kèm" },
+      { "word": "貼り紙", "reading": "はりがみ", "meaning": "giấy dán thông báo" },
+      { "word": "貼り付ける", "reading": "はりつける", "meaning": "dán vào (paste)" }
+    ]
+  },
+  {
+    "kanji": "負",
+    "amHan": "Phụ",
+    "nghia": "Thua, gánh vác",
+    "onyomi": "フ",
+    "kunyomi": "ま_ける、お_う",
+    "mnemonic": {
+      "text": "Người cầm VỎ SÒ (貝) mà bị mất phần trên nên trở nên THUA cuộc, gánh PHỤ."
+    },
+    "examples": [
+      { "word": "負ける", "reading": "まける", "meaning": "thua, thất bại" },
+      { "word": "負う", "reading": "おう", "meaning": "mang, gánh vác trách nhiệm" },
+      { "word": "負担", "reading": "ふたん", "meaning": "gánh nặng, phụ trách" },
+      { "word": "勝負", "reading": "しょうぶ", "meaning": "thắng thua, trận đấu" },
+      { "word": "負傷", "reading": "ふしょう", "meaning": "bị thương" }
+    ]
+  },
+  {
+    "kanji": "敗",
+    "amHan": "Bại",
+    "nghia": "Thất bại",
+    "onyomi": "ハイ",
+    "kunyomi": "やぶ_れる",
+    "mnemonic": {
+      "text": "VỎ SÒ (貝) bị ĐÁNH (攵 - PHỐC) vỡ nát dẫn đến thất BẠI."
+    },
+    "examples": [
+      { "word": "敗れる", "reading": "やぶれる", "meaning": "thua, bị đánh bại" },
+      { "word": "失敗", "reading": "しっぱい", "meaning": "thất bại" },
+      { "word": "敗北", "reading": "はいぼく", "meaning": "thất bại, thua trận" },
+      { "word": "勝敗", "reading": "しょうはい", "meaning": "thắng bại" },
+      { "word": "不敗", "reading": "ふはい", "meaning": "bất bại" }
+    ]
+  },
+  {
+    "kanji": "則",
+    "amHan": "Tắc",
+    "nghia": "Quy tắc, luật",
+    "onyomi": "ソク",
+    "kunyomi": "のっと_る",
+    "mnemonic": {
+      "text": "Dùng CON DAO (刂 - ĐAO) để chia VỎ SÒ (貝) theo quy TẮC."
+    },
+    "examples": [
+      { "word": "規則", "reading": "きそく", "meaning": "quy tắc" },
+      { "word": "法則", "reading": "ほうそく", "meaning": "định luật, quy luật" },
+      { "word": "原則", "reading": "げんそく", "meaning": "nguyên tắc" },
+      { "word": "校則", "reading": "こうそく", "meaning": "nội quy trường học" },
+      { "word": "則る", "reading": "のっとる", "meaning": "tuân theo, dựa trên" }
+    ]
+  },
+  {
+    "kanji": "側",
+    "amHan": "Trắc",
+    "nghia": "Phía, bên cạnh",
+    "onyomi": "ソク",
+    "kunyomi": "かわ、そば",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) đứng bên cạnh quy TẮC (則) để phân chia các phía TRẮC."
+    },
+    "examples": [
+      { "word": "側", "reading": "かわ", "meaning": "bên, phía, bề" },
+      { "word": "左側", "reading": "ひだりがわ", "meaning": "bên trái" },
+      { "word": "側面", "reading": "そくめん", "meaning": "mặt bên, khía cạnh" },
+      { "word": "両側", "reading": "りょうがわ", "meaning": "hai bên" },
+      { "word": "縁側", "reading": "えんがわ", "meaning": "hiên nhà" }
+    ]
+  },
+  {
+    "kanji": "賛",
+    "amHan": "Tán",
+    "nghia": "Tán thành, ca tụng",
+    "onyomi": "サン",
+    "kunyomi": "たす_ける、たた_える",
+    "mnemonic": {
+      "text": "Hai người chồng (夫+夫) đưa tiền (貝) để TÁN thành một quyết định."
+    },
+    "examples": [
+      { "word": "賛成", "reading": "さんせい", "meaning": "tán thành, đồng ý" },
+      { "word": "賞賛", "reading": "しょうさん", "meaning": "ca tụng, tán thưởng" },
+      { "word": "賛辞", "reading": "さんじ", "meaning": "lời tán dương" },
+      { "word": "協賛", "reading": "きょうさん", "meaning": "hợp tác, tài trợ" }
+    ]
+  },
+  {
+    "kanji": "質",
+    "amHan": "Chất",
+    "nghia": "Chất lượng, câu hỏi",
+    "onyomi": "シツ、シチ",
+    "kunyomi": "ただ_す",
+    "mnemonic": {
+      "text": "Hai cái rìu (斤+斤) bửa vỏ SÒ (貝) để kiểm tra CHẤT lượng bên trong."
+    },
+    "examples": [
+      { "word": "質問", "reading": "しつもん", "meaning": "câu hỏi" },
+      { "word": "品質", "reading": "ひんしつ", "meaning": "chất lượng sản phẩm" },
+      { "word": "質量", "reading": "しつりょう", "meaning": "khối lượng" },
+      { "word": "地質", "reading": "ちしつ", "meaning": "địa chất" },
+      { "word": "人質", "reading": "ひとじち", "meaning": "con tin" },
+      { "word": "物質", "reading": "ぶっしつ", "meaning": "vật chất" }
+    ]
+  },
+  {
+    "kanji": "員",
+    "amHan": "Viên",
+    "nghia": "Nhân viên, thành viên",
+    "onyomi": "イン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người mở MIỆNG (口) để nhận tiền lương VỎ SÒ (貝) là nhân VIÊN."
+    },
+    "examples": [
+      { "word": "社員", "reading": "しゃいん", "meaning": "nhân viên công ty" },
+      { "word": "店員", "reading": "てんいん", "meaning": "nhân viên cửa hàng" },
+      { "word": "医員", "reading": "いいん", "meaning": "nhân viên y tế" },
+      { "word": "全員", "reading": "ぜんいん", "meaning": "tất cả mọi người" },
+      { "word": "会員", "reading": "かいいん", "meaning": "hội viên" },
+      { "word": "公務員", "reading": "こうむいん", "meaning": "công chức" }
+    ]
+  },
+  {
+    "kanji": "費",
+    "amHan": "Phí",
+    "nghia": "Chi phí, tiêu hao",
+    "onyomi": "ヒ",
+    "kunyomi": "つい_やす、つい_える",
+    "mnemonic": {
+      "text": "Dùng tiền (貝) vào những việc SAI (弗) trái dẫn đến lãng PHÍ."
+    },
+    "examples": [
+      { "word": "費やす", "reading": "ついやす", "meaning": "tiêu hao, chi dùng" },
+      { "word": "消費", "reading": "しょうひ", "meaning": "sự tiêu thụ" },
+      { "word": "学費", "reading": "がくひ", "meaning": "học phí" },
+      { "word": "生活費", "reading": "せいかつひ", "meaning": "sinh hoạt phí" },
+      { "word": "費用", "reading": "ひよう", "meaning": "lệ phí, chi phí" },
+      { "word": "会費", "reading": "かいひ", "meaning": "hội phí" }
+    ]
+  },
+  {
+    "kanji": "資",
+    "amHan": "Tư",
+    "nghia": "Tư bản, đầu tư",
+    "onyomi": "シ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Tiền (貝) hiện có (次 - THỨ) chính là TƯ bản, nguồn lực."
+    },
+    "examples": [
+      { "word": "資源", "reading": "しげん", "meaning": "tài nguyên" },
+      { "word": "資料", "reading": "しりょう", "meaning": "tài liệu" },
+      { "word": "資格", "reading": "しかく", "meaning": "tư cách, bằng cấp" },
+      { "word": "投資", "reading": "とうし", "meaning": "đầu tư" },
+      { "word": "資本", "reading": "しほん", "meaning": "vốn, tư bản" }
+    ]
+  },
+  {
+    "kanji": "財",
+    "amHan": "Tài",
+    "nghia": "Tiền tài, tài chính",
+    "onyomi": "ザイ、サイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Tiền (貝) được quản lý một cách tài năng (才) gọi là tiền TÀI."
+    },
+    "examples": [
+      { "word": "財産", "reading": "ざいさん", "meaning": "tài sản" },
+      { "word": "財布", "reading": "さいふ", "meaning": "ví tiền" },
+      { "word": "財政", "reading": "ざいせい", "meaning": "tài chính" },
+      { "word": "家財", "reading": "かざい", "meaning": "gia sản" },
+      { "word": "財団", "reading": "ざいだん", "meaning": "quỹ tài trợ, tập đoàn" }
+    ]
+  },
+  {
+    "kanji": "位",
+    "amHan": "Vị",
+    "nghia": "Vị trí, đơn vị, khoảng",
+    "onyomi": "イ",
+    "kunyomi": "くらい",
+    "mnemonic": {
+      "text": "NGƯỜI (亻) ĐỨNG (立) ở VỊ trí của mình."
+    },
+    "examples": [
+      { "word": "位", "reading": "くらい", "meaning": "khoảng chừng, xấp xỉ" },
+      { "word": "地位", "reading": "ちい", "meaning": "địa vị" },
+      { "word": "学位", "reading": "がくい", "meaning": "bằng cấp, học vị" },
+      { "word": "一位", "reading": "いちい", "meaning": "vị trí thứ nhất" },
+      { "word": "単位", "reading": "たんい", "meaning": "đơn vị, tín chỉ" },
+      { "word": "位置", "reading": "いち", "meaning": "vị trí" }
+    ]
+  },
+  {
+    "kanji": "泣",
+    "amHan": "Kháp",
+    "nghia": "Khóc",
+    "onyomi": "キュウ",
+    "kunyomi": "な_く",
+    "mnemonic": {
+      "text": "NƯỚC (氵) chảy ra khi ĐỨNG (立) KHÓC (KHÁP)."
+    },
+    "examples": [
+      { "word": "泣く", "reading": "なく", "meaning": "khóc, đổ lệ" },
+      { "word": "泣き声", "reading": "なきごえ", "meaning": "tiếng khóc" },
+      { "word": "泣き顔", "reading": "なきがお", "meaning": "khuôn mặt đang khóc" },
+      { "word": "号泣", "reading": "ごうきゅう", "meaning": "khóc nức nở" }
+    ]
+  }
+]

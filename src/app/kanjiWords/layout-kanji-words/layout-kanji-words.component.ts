@@ -25,10 +25,13 @@ export class LayoutKanjiWordsComponent {
     if (!isPlatformBrowser(this.platformId)) {
       return;
     }
+    // Preload data for lessons in background (only if not cached)
+    // Note: This is for initial load optimization, actual lesson selection always fetches fresh data
     for (let i = 1; i <= 10; i++) {
       const cachedData = localStorage.getItem(`kanji-words-lesson${i}`);
       if (!cachedData) {
-        this.http.get<any[]>(`assets/kanji-words-data/lesson${i}.json`).subscribe({
+        const cacheBuster = `?t=${Date.now()}`;
+        this.http.get<any[]>(`assets/kanji-words-data/lesson${i}.json${cacheBuster}`).subscribe({
           next: (data) => {
             localStorage.setItem(`kanji-words-lesson${i}`, JSON.stringify(data));
           },
@@ -44,20 +47,25 @@ export class LayoutKanjiWordsComponent {
 
   onLessonSelected(lessonNumber: number) {
     if (isPlatformBrowser(this.platformId)) {
-      const cachedData = localStorage.getItem(`kanji-words-lesson${lessonNumber}`);
-      if (cachedData) {
-        this.selectedLessonVocab = this.shuffleArray(JSON.parse(cachedData));
-      } else {
-        this.http.get<any[]>(`assets/kanji-words-data/lesson${lessonNumber}.json`).subscribe({
-          next: (data) => {
-            this.selectedLessonVocab = this.shuffleArray([...data]);
-            localStorage.setItem(`kanji-words-lesson${lessonNumber}`, JSON.stringify(data));
-          },
-          error: () => {
+      // Always fetch fresh data from HTTP to ensure latest updates
+      // Use cache-busting timestamp to prevent browser HTTP cache
+      const cacheBuster = `?t=${Date.now()}`;
+      this.http.get<any[]>(`assets/kanji-words-data/lesson${lessonNumber}.json${cacheBuster}`).subscribe({
+        next: (data) => {
+          this.selectedLessonVocab = this.shuffleArray([...data]);
+          // Update localStorage with fresh data
+          localStorage.setItem(`kanji-words-lesson${lessonNumber}`, JSON.stringify(data));
+        },
+        error: () => {
+          // Fallback to cached data if HTTP fetch fails
+          const cachedData = localStorage.getItem(`kanji-words-lesson${lessonNumber}`);
+          if (cachedData) {
+            this.selectedLessonVocab = this.shuffleArray(JSON.parse(cachedData));
+          } else {
             this.selectedLessonVocab = [];
           }
-        });
-      }
+        }
+      });
     } else {
       this.selectedLessonVocab = [];
     }

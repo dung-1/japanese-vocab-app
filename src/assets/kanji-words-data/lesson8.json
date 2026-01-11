@@ -1,0 +1,222 @@
+[
+  {
+    "kanji": "黒",
+    "amHan": "Hắc",
+    "nghia": "Màu đen",
+    "onyomi": "コク",
+    "kunyomi": "くろ、くろ_い",
+    "mnemonic": {
+      "text": "Dưới CÁNH ĐỒNG (田), ĐỐT LỬA (灬 - bộ HỎA) lên để tạo ra than màu ĐEN (HẮC)."
+    },
+    "examples": [
+      { "word": "黒い", "reading": "くろい", "meaning": "đen, u tối" },
+      { "word": "黒板", "reading": "こくばん", "meaning": "bảng đen" },
+      { "word": "真っ黒", "reading": "まっくろ", "meaning": "đen kịt" },
+      { "word": "白黒", "reading": "しろくろ", "meaning": "trắng đen" },
+      { "word": "黒字", "reading": "くろじ", "meaning": "lãi (thặng dư)" }
+    ]
+  },
+  {
+    "kanji": "銀",
+    "amHan": "Ngân",
+    "nghia": "Bạc, tiền bạc",
+    "onyomi": "ギン",
+    "kunyomi": "しろがね",
+    "mnemonic": {
+      "text": "Loại KIM loại (金) quý thứ hai sau vàng, cần phải DỪNG (艮 - bộ CẤN) lại để ngắm chính là BẠC."
+    },
+    "examples": [
+      { "word": "銀行", "reading": "ぎんこう", "meaning": "ngân hàng" },
+      { "word": "銀", "reading": "ぎん", "meaning": "bạc" },
+      { "word": "銀座", "reading": "ぎんざ", "meaning": "khu Ginza" },
+      { "word": "銀河", "reading": "ぎんが", "meaning": "ngân hà" },
+      { "word": "水銀", "reading": "すいぎん", "meaning": "thủy ngân" }
+    ]
+  },
+  {
+    "kanji": "根",
+    "amHan": "Căn",
+    "nghia": "Rễ cây, căn bản",
+    "onyomi": "コン",
+    "kunyomi": "ね",
+    "mnemonic": {
+      "text": "CÁI CÂY (木) muốn đứng vững (艮 - bộ CẤN) thì phải có RỄ (CĂN)."
+    },
+    "examples": [
+      { "word": "根", "reading": "ね", "meaning": "rễ cây" },
+      { "word": "根気", "reading": "こんき", "meaning": "kiên nhẫn" },
+      { "word": "根本", "reading": "ねもと", "meaning": "gốc rễ, cơ bản" },
+      { "word": "屋根", "reading": "やね", "meaning": "mái nhà" },
+      { "word": "根拠", "reading": "こんきょ", "meaning": "căn cứ" }
+    ]
+  },
+  {
+    "kanji": "限",
+    "amHan": "Hạn",
+    "nghia": "Giới hạn",
+    "onyomi": "ゲン",
+    "kunyomi": "かぎ_る",
+    "mnemonic": {
+      "text": "Đứng trước GÒ ĐẤT (阝 - bộ PHỤ), mắt nhìn vào ranh giới (艮) là sự GIỚI HẠN."
+    },
+    "examples": [
+      { "word": "限る", "reading": "かぎる", "meaning": "giới hạn" },
+      { "word": "限界", "reading": "げんかい", "meaning": "giới hạn (tối đa)" },
+      { "word": "期限", "reading": "きげん", "meaning": "kỳ hạn" },
+      { "word": "無限", "reading": "むげん", "meaning": "vô hạn" },
+      { "word": "制限", "reading": "せいげん", "meaning": "hạn chế" }
+    ]
+  },
+  {
+    "kanji": "眼",
+    "amHan": "Nhãn",
+    "nghia": "Mắt",
+    "onyomi": "ガン、ゲン",
+    "kunyomi": "め、まなこ",
+    "mnemonic": {
+      "text": "CÁI MẮT (目 - bộ MỤC) nhìn chằm chằm không rời (艮) là con mắt (NHÃN)."
+    },
+    "examples": [
+      { "word": "眼科", "reading": "がんか", "meaning": "khoa mắt" },
+      { "word": "眼鏡", "reading": "めがね", "meaning": "mắt kính" },
+      { "word": "眼球", "reading": "がんきゅう", "meaning": "nhãn cầu" },
+      { "word": "主眼", "reading": "しゅがん", "meaning": "điểm chính" },
+      { "word": "着眼", "reading": "ちゃくがん", "meaning": "chú ý vào" }
+    ]
+  },
+  {
+    "kanji": "退",
+    "amHan": "Thoái",
+    "nghia": "Lùi lại, rút lui",
+    "onyomi": "タイ",
+    "kunyomi": "しりぞ_く、の_く",
+    "mnemonic": {
+      "text": "Đang đi trên ĐƯỜNG (辶) mà gặp rào cản (艮) thì phải RÚT LUI (THOÁI)."
+    },
+    "examples": [
+      { "word": "退院", "reading": "たいいん", "meaning": "ra viện" },
+      { "word": "退職", "reading": "たいしょく", "meaning": "nghỉ việc" },
+      { "word": "後退", "reading": "こうたい", "meaning": "hậu thoái, lùi bước" },
+      { "word": "退屈", "reading": "たいくつ", "meaning": "chán ngắt" },
+      { "word": "早退", "reading": "そうたい", "meaning": "về sớm" }
+    ]
+  },
+  {
+    "kanji": "節",
+    "amHan": "Tiết",
+    "nghia": "Tiết kiệm, mùa, đốt tre",
+    "onyomi": "セツ",
+    "kunyomi": "ふし",
+    "mnemonic": {
+      "text": "TRE (竹) được dùng để làm dao cắt (bộ TỨC bên dưới) thức ăn vào mỗi dịp LỄ TIẾT."
+    },
+    "examples": [
+      { "word": "節約", "reading": "せつやく", "meaning": "tiết kiệm" },
+      { "word": "季節", "reading": "きせつ", "meaning": "mùa" },
+      { "word": "お節", "reading": "おせち", "meaning": "món ăn ngày Tết" },
+      { "word": "調節", "reading": "ちょうせつ", "meaning": "điều tiết" },
+      { "word": "関節", "reading": "かんせつ", "meaning": "khớp xương" }
+    ]
+  },
+  {
+    "kanji": "良",
+    "amHan": "Lương",
+    "nghia": "Tốt lành",
+    "onyomi": "リョウ",
+    "kunyomi": "よ_い",
+    "mnemonic": {
+      "text": "Hình ảnh một hạt giống tốt lành đang nảy mầm."
+    },
+    "examples": [
+      { "word": "良い", "reading": "よい", "meaning": "tốt" },
+      { "word": "良好", "reading": "りょうこう", "meaning": "tốt đẹp" },
+      { "word": "改良", "reading": "かいりょう", "meaning": "cải thiện" },
+      { "word": "良心", "reading": "りょうしん", "meaning": "lương tâm" },
+      { "word": "不良", "reading": "ふりょう", "meaning": "hỏng, không tốt" }
+    ]
+  },
+  {
+    "kanji": "食",
+    "amHan": "Thực",
+    "nghia": "Ăn, thực phẩm",
+    "onyomi": "ショク、ジキ",
+    "kunyomi": "た_べる、く_う",
+    "mnemonic": {
+      "text": "Dưới mái nhà (bộ nhân ở trên), con người đang ăn những đồ ăn TỐT (良) cho sức khỏe."
+    },
+    "examples": [
+      { "word": "食べる", "reading": "たべる", "meaning": "ăn" },
+      { "word": "和食", "reading": "わしょく", "meaning": "món ăn Nhật" },
+      { "word": "食事", "reading": "しょくじ", "meaning": "bữa ăn" },
+      { "word": "食糧", "reading": "しょくりょう", "meaning": "lương thực" },
+      { "word": "食堂", "reading": "しょくどう", "meaning": "nhà ăn" }
+    ]
+  },
+  {
+    "kanji": "娘",
+    "amHan": "Nương",
+    "nghia": "Con gái",
+    "onyomi": "ジョウ",
+    "kunyomi": "むすめ",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (女) vẫn còn TỐT (良) và trẻ trung là cô CON GÁI (NƯƠNG)."
+    },
+    "examples": [
+      { "word": "娘", "reading": "むすめ", "meaning": "con gái" },
+      { "word": "箱入り娘", "reading": "はこいりむすめ", "meaning": "con gái rượu (được chiều)" },
+      { "word": "孫娘", "reading": "まごむすめ", "meaning": "cháu gái" }
+    ]
+  },
+  {
+    "kanji": "理",
+    "amHan": "Lý",
+    "nghia": "Lý do, xử lý",
+    "onyomi": "リ",
+    "kunyomi": "ことわり",
+    "mnemonic": {
+      "text": "VỊ VUA (王) cai quản dân cư trong LÀNG (里) bằng LÝ lẽ."
+    },
+    "examples": [
+      { "word": "理由", "reading": "りゆう", "meaning": "lý do" },
+      { "word": "料理", "reading": "りょうり", "meaning": "nấu ăn" },
+      { "word": "理解", "reading": "りかい", "meaning": "hiểu biết" },
+      { "word": "管理", "reading": "かんり", "meaning": "quản lý" },
+      { "word": "理科", "reading": "りか", "meaning": "khoa học tự nhiên" },
+      { "word": "無理", "reading": "むり", "meaning": "vô lý, quá sức" }
+    ]
+  },
+  {
+    "kanji": "野",
+    "amHan": "Dã",
+    "nghia": "Cánh đồng, hoang dã",
+    "onyomi": "ヤ",
+    "kunyomi": "の",
+    "mnemonic": {
+      "text": "Cái LÀNG (里) nằm cạnh mảnh ĐẤT (予 - mang nghĩa cho/dự) rộng lớn là CÁNH ĐỒNG (DÃ)."
+    },
+    "examples": [
+      { "word": "野球", "reading": "やきゅう", "meaning": "bóng chày" },
+      { "word": "分野", "reading": "ぶんや", "meaning": "lĩnh vực" },
+      { "word": "野菜", "reading": "やさい", "meaning": "rau củ" },
+      { "word": "野原", "reading": "のはら", "meaning": "cánh đồng" },
+      { "word": "野党", "reading": "やとう", "meaning": "đảng đối lập" }
+    ]
+  },
+  {
+    "kanji": "量",
+    "amHan": "Lượng",
+    "nghia": "Đo lường, trọng lượng",
+    "onyomi": "リョウ",
+    "kunyomi": "はか_る",
+    "mnemonic": {
+      "text": "Mỗi NGÀY (日) người dân trong LÀNG (里) đều phải ĐO LƯỜNG sản vật."
+    },
+    "examples": [
+      { "word": "量", "reading": "りょう", "meaning": "số lượng" },
+      { "word": "量る", "reading": "はかる", "meaning": "cân, đo" },
+      { "word": "大量", "reading": "たいりょう", "meaning": "đại trà, số lượng lớn" },
+      { "word": "重量", "reading": "じゅうりょう", "meaning": "trọng lượng" },
+      { "word": "分量", "reading": "ぶんりょう", "meaning": "liều lượng" }
+    ]
+  }
+]
