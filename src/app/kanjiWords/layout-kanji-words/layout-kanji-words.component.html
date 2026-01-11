@@ -1,0 +1,19 @@
+<div class="container">
+  <button><a href="/">Trang chủ</a></button>
+  <h1>Học Từ Kanji</h1>
+  
+  <div class="study-mode-selector">
+    <button [class.active]="studyMode === 'flashcard'" (click)="setStudyMode('flashcard')">Thẻ học</button>
+    <button [class.active]="studyMode === 'quiz'" (click)="setStudyMode('quiz')">Kiểm tra</button>
+  </div>
+  
+  <app-kanji-words-lesson-selector (lessonSelected)="onLessonSelected($event)"></app-kanji-words-lesson-selector>
+  
+  <div *ngIf="studyMode === 'flashcard'">
+    <app-kanji-words-flashcard [vocabData]="selectedLessonVocab"></app-kanji-words-flashcard>
+  </div>
+  
+  <div *ngIf="studyMode === 'quiz'">
+    <app-kanji-words-quiz [vocabData]="selectedLessonVocab"></app-kanji-words-quiz>
+  </div>
+</div>

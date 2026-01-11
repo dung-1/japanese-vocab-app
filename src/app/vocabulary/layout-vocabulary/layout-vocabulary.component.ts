@@ -25,7 +25,7 @@ export class LayoutVocabularyComponent {
     for (let i = 1; i <= 50; i++) {
       const cachedData = localStorage.getItem(`lesson${i}`);
       if (!cachedData) {
-        this.http.get<any[]>(`/assets/vocab-data/lesson${i}.json`).subscribe({
+        this.http.get<any[]>(`assets/vocab-data/lesson${i}.json`).subscribe({
           next: (data) => {
             localStorage.setItem(`lesson${i}`, JSON.stringify(data));
           },
@@ -41,7 +41,7 @@ export class LayoutVocabularyComponent {
       if (cachedData) {
         this.selectedLessonVocab = this.shuffleArray(JSON.parse(cachedData));
       } else {
-        this.http.get<any[]>(`/assets/vocab-data/lesson${lessonNumber}.json`).subscribe({
+        this.http.get<any[]>(`assets/vocab-data/lesson${lessonNumber}.json`).subscribe({
           next: (data) => {
             this.selectedLessonVocab = this.shuffleArray([...data]);
             localStorage.setItem(`lesson${lessonNumber}`, JSON.stringify(data));

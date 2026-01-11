@@ -5,9 +5,8 @@ import { LayoutVocabularyComponentModule } from './vocabulary/layout-vocabulary/
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { LayoutkanjiRadicalsModule } from './kanjiRadicals/layoutkanji-radicals/layoutkanji-radicals.module';
-
 import { LayoutReduplicativeWordsModule } from './reduplicativeWords/layout-reduplicative-words/layout-reduplicative-words.component.module';
-import { from } from 'rxjs';
+import { LayoutKanjiWordsModule } from './kanjiWords/layout-kanji-words/layout-kanji-words.module';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' }, // Trang mặc định
@@ -21,6 +20,7 @@ const routes: Routes = [
   { path: 'kanji-radicals', loadChildren: () => import('./kanjiRadicals/layoutkanji-radicals/layoutkanji-radicals.module').then(m => m.LayoutkanjiRadicalsModule) },
   { path: 'reduplicative-words', loadChildren: () => import('./reduplicativeWords/layout-reduplicative-words/layout-reduplicative-words.component.module').then(m => m.LayoutReduplicativeWordsModule) },
   { path: '**', redirectTo: '/home' },
+  { path: 'kanji-words', loadChildren: () => import('./kanjiWords/layout-kanji-words/layout-kanji-words.module').then(m => m.LayoutKanjiWordsModule) },
 ];
 
 @NgModule({
@@ -31,6 +31,7 @@ const routes: Routes = [
     LayoutVocabularyComponentModule,
     LayoutkanjiRadicalsModule,
     LayoutReduplicativeWordsModule,
+    LayoutKanjiWordsModule,
     
   ],
   exports: [RouterModule],

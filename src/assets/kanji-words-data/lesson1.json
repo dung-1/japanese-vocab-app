@@ -1,0 +1,135 @@
+[
+  {
+    "kanji": "断",
+    "amHan": "Đoạn",
+    "nghia": "Áp",
+    "onyomi": "オウ",
+    "kunyomi": "お_す、お_さえる",
+    "mnemonic": {
+      "text": "Tay đẩy một vật STOP"
+    },
+    "examples": [
+      {
+        "word": "押す",
+        "reading": "おす",
+        "meaning": "đẩy, ấn"
+      },
+      {
+        "word": "押入れ",
+        "reading": "おしいれ",
+        "meaning": "tủ âm tường"
+      },
+      {
+        "word": "押さえる",
+        "reading": "おさえる",
+        "meaning": "giữ, nắm bắt"
+      },
+      {
+        "word": "押し出す",
+        "reading": "おしだす",
+        "meaning": "nặn"
+      },
+      {
+        "word": "押収する",
+        "reading": "おうしゅうする",
+        "meaning": "tịch thu, tước đoạt, sung công"
+      }
+    ]
+  },
+  {
+    "kanji": "断",
+    "amHan": "Đoạn",
+    "nghia": "Đoạn, cắt đứt",
+    "onyomi": "ダン",
+    "kunyomi": "た_つ、ことわ_る",
+    "mnemonic": {
+      "text": "Dùng rìu để cắt đứt"
+    },
+    "examples": [
+      {
+        "word": "断つ",
+        "reading": "たつ",
+        "meaning": "cắt đứt"
+      },
+      {
+        "word": "断る",
+        "reading": "ことわる",
+        "meaning": "từ chối"
+      },
+      {
+        "word": "判断",
+        "reading": "はんだん",
+        "meaning": "phán đoán"
+      },
+      {
+        "word": "断絶",
+        "reading": "だんぜつ",
+        "meaning": "cắt đứt hoàn toàn"
+      }
+    ]
+  },
+  {
+    "kanji": "決",
+    "amHan": "Quyết",
+    "nghia": "Quyết định",
+    "onyomi": "ケツ",
+    "kunyomi": "き_める、き_まる",
+    "mnemonic": {
+      "text": "Nước quyết định chảy về đâu"
+    },
+    "examples": [
+      {
+        "word": "決める",
+        "reading": "きめる",
+        "meaning": "quyết định"
+      },
+      {
+        "word": "決まる",
+        "reading": "きまる",
+        "meaning": "được quyết định"
+      },
+      {
+        "word": "決定",
+        "reading": "けってい",
+        "meaning": "quyết định"
+      },
+      {
+        "word": "解決",
+        "reading": "かいけつ",
+        "meaning": "giải quyết"
+      }
+    ]
+  },
+  {
+    "kanji": "続",
+    "amHan": "Tục",
+    "nghia": "Tiếp tục",
+    "onyomi": "ゾク",
+    "kunyomi": "つづ_く、つづ_ける",
+    "mnemonic": {
+      "text": "Tiếp tục bán hàng"
+    },
+    "examples": [
+      {
+        "word": "続く",
+        "reading": "つづく",
+        "meaning": "tiếp tục"
+      },
+      {
+        "word": "続ける",
+        "reading": "つづける",
+        "meaning": "tiếp tục làm"
+      },
+      {
+        "word": "続行",
+        "reading": "ぞっこう",
+        "meaning": "tiếp tục"
+      },
+      {
+        "word": "連続",
+        "reading": "れんぞく",
+        "meaning": "liên tục"
+      }
+    ]
+  }
+]
