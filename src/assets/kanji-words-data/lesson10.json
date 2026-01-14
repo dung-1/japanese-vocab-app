@@ -1,138 +1,155 @@
 [
   {
-    "kanji": "村",
-    "amHan": "Thôn",
-    "nghia": "Làng mạc",
-    "onyomi": "ソン",
-    "kunyomi": "むら",
+    "kanji": "京",
+    "amHan": "KINH",
+    "nghia": "Kinh đô, thành phố lớn",
+    "onyomi": "キョウ、キン、ケイ",
+    "kunyomi": "みやこ",
     "mnemonic": {
-      "text": "Những CÁI CÂY (木) bao quanh một đơn vị ĐO LƯỜNG (寸 - thốn) diện tích nhỏ tạo thành NGÔI LÀNG."
+      "text": "Trên một vùng ĐẤT CAO (đầu - 亠), có những tòa nhà lầu (khẩu - 口) nhỏ (tiểu - 小) san sát nhau tạo thành KINH đô."
     },
     "examples": [
-      { "word": "村", "reading": "むら", "meaning": "làng" },
-      { "word": "漁村", "reading": "ぎょそん", "meaning": "làng chài" },
-      { "word": "村長", "reading": "そんちょう", "meaning": "trưởng thôn" }
+      { "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" },
+      { "word": "南京", "reading": "なんきん", "meaning": "Nam Kinh" },
+      { "word": "京子", "reading": "きょうこ", "meaning": "Tên người (Kyoko)" },
+      { "word": "京風", "reading": "きょうふう", "meaning": "Kiểu Kyoto" },
+      { "word": "上京する", "reading": "じょうきょうする", "meaning": "Đi lên thủ đô" }
     ]
   },
   {
-    "kanji": "連",
-    "amHan": "Liên",
-    "nghia": "Liên lạc, kết nối",
-    "onyomi": "レン",
-    "kunyomi": "つら_なる、つら_ねる、つ_れる",
+    "kanji": "涼",
+    "amHan": "LƯƠNG",
+    "nghia": "Mát mẻ",
+    "onyomi": "リョウ",
+    "kunyomi": "すず_しい、すず_む",
     "mnemonic": {
-      "text": "Xe (車) nối đuôi nhau ĐI (辶) trên đường một cách LIÊN tục."
+      "text": "Ở KINH (京) đô mà có thêm NƯỚC (thủy - 氵) thì khí hậu sẽ rất mát mẻ (LƯƠNG)."
     },
     "examples": [
-      { "word": "連れて来る", "reading": "つれてくる", "meaning": "dẫn đến" },
-      { "word": "連絡", "reading": "れんらく", "meaning": "liên lạc" },
-      { "word": "連合", "reading": "れんごう", "meaning": "liên hiệp" },
-      { "word": "連休", "reading": "れんきゅう", "meaning": "kỳ nghỉ dài" }
+      { "word": "涼しい", "reading": "すずしい", "meaning": "Mát mẻ" },
+      { "word": "涼む", "reading": "すずむ", "meaning": "Hóng mát" },
+      { "word": "清涼", "reading": "せいりょう", "meaning": "Trong lành, mát rượi" },
+      { "word": "涼風", "reading": "りょうふう", "meaning": "Gió mát" },
+      { "word": "夕涼み", "reading": "ゆうすずみ", "meaning": "Hóng mát buổi chiều tà" }
     ]
   },
   {
-    "kanji": "軍",
-    "amHan": "Quân",
-    "nghia": "Quân đội",
-    "onyomi": "グン",
-    "kunyomi": "いくさ",
+    "kanji": "景",
+    "amHan": "CẢNH",
+    "nghia": "Quang cảnh, phong cảnh",
+    "onyomi": "ケイ",
+    "kunyomi": "",
     "mnemonic": {
-      "text": "Hình ảnh chiếc XE (車) được bao phủ (冖) bảo vệ chính là lực lượng QUÂN đội."
+      "text": "MẶT TRỜI (nhật - 日) chiếu sáng xuống KINH (京) đô tạo nên một khung CẢNH tuyệt đẹp."
     },
     "examples": [
-      { "word": "軍人", "reading": "ぐんじん", "meaning": "bộ đội, lính" },
-      { "word": "軍隊", "reading": "ぐんたい", "meaning": "quân đội" },
-      { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" },
-      { "word": "空軍", "reading": "くうぐん", "meaning": "không quân" }
+      { "word": "景色", "reading": "けしき", "meaning": "Phong cảnh" },
+      { "word": "背景", "reading": "はいけい", "meaning": "Bối cảnh, phông nền" },
+      { "word": "景気", "reading": "けいき", "meaning": "Tình hình kinh tế" },
+      { "word": "光景", "reading": "こうけい", "meaning": "Quang cảnh" },
+      { "word": "風景", "reading": "ふうけい", "meaning": "Phong cảnh" },
+      { "word": "夜景", "reading": "やけい", "meaning": "Cảnh đêm" }
+    ]
+  }
+,
+  {
+    "kanji": "蚊",
+    "amHan": "VĂN",
+    "nghia": "Con muỗi",
+    "onyomi": "ブン",
+    "kunyomi": "か",
+    "mnemonic": {
+      "text": "Loài CÔN TRÙNG (trùng - 虫) mà khi bay phát ra âm thanh như chữ VĂN (văn - 文) chính là con muỗi."
+    },
+    "examples": [
+      { "word": "蚊", "reading": "か", "meaning": "Con muỗi" },
+      { "word": "蚊取り線香", "reading": "かとりせんこう", "meaning": "Nhang muỗi" },
+      { "word": "蚊帳", "reading": "かや", "meaning": "Cái màn, cái mùng" },
+      { "word": "蚊柱", "reading": "かばしら", "meaning": "Đám muỗi bay như cột trụ" }
     ]
   },
   {
-    "kanji": "運",
-    "amHan": "Vận",
-    "nghia": "Vận chuyển, vận may",
-    "onyomi": "ウン",
-    "kunyomi": "はこ_ぶ",
+    "kanji": "対",
+    "amHan": "ĐỐI",
+    "nghia": "Đối diện, phản đối, cặp",
+    "onyomi": "タイ、ツイ",
+    "kunyomi": "",
     "mnemonic": {
-      "text": "QUÂN đội (軍) di chuyển (辶) để VẬN chuyển lương thực."
+      "text": "Dùng tay (thốn - 寸) cầm Văn (文) bản để ĐỐI chất hoặc ĐỐI chiếu."
     },
     "examples": [
-      { "word": "運ぶ", "reading": "はこぶ", "meaning": "chở, vận chuyển" },
-      { "word": "運動", "reading": "うんどう", "meaning": "vận động" },
-      { "word": "運転者", "reading": "うんてんしゃ", "meaning": "người lái xe" },
-      { "word": "運がいい", "reading": "うんがいい", "meaning": "may mắn" }
+      { "word": "反対", "reading": "はんたい", "meaning": "Phản đối" },
+      { "word": "対外", "reading": "たいがい", "meaning": "Đối ngoại" },
+      { "word": "対象", "reading": "たいしょう", "meaning": "Đối tượng" },
+      { "word": "対立", "reading": "たいりつ", "meaning": "Đối lập" },
+      { "word": "一対", "reading": "いっつい", "meaning": "Một cặp" }
     ]
   },
   {
-    "kanji": "条",
-    "amHan": "Điều",
-    "nghia": "Điều khoản, cành cây",
-    "onyomi": "ジョウ",
-    "kunyomi": "えだ",
+    "kanji": "疲",
+    "amHan": "BÌ",
+    "nghia": "Mệt mỏi",
+    "onyomi": "ヒ",
+    "kunyomi": "つか_れる、つか_らす",
     "mnemonic": {
-      "text": "Dùng tay thu gom các cành CÂY (木) rơi vãi (夊) theo từng ĐIỀU mục."
+      "text": "Bị BỆNH (nạch - 疒) mà phải đi trên lớp DA (bì - 皮) thô ráp thì rất mệt mỏi (BÌ)."
     },
     "examples": [
-      { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện" },
-      { "word": "条約", "reading": "じょうやく", "meaning": "điều ước, hiệp ước" },
-      { "word": "第一条", "reading": "だいいちじょう", "meaning": "điều thứ nhất" }
+      { "word": "疲れる", "reading": "つかれる", "meaning": "Mệt mỏi" },
+      { "word": "疲労", "reading": "ひろう", "meaning": "Sự mệt mỏi" },
+      { "word": "疲れ果てる", "reading": "つかれはてる", "meaning": "Kiệt sức" },
+      { "word": "気疲れ", "reading": "きづかれ", "meaning": "Mệt mỏi về tinh thần" }
     ]
   },
   {
-    "kanji": "困",
-    "amHan": "Khốn",
-    "nghia": "Khó khăn, rắc rối",
-    "onyomi": "コン",
-    "kunyomi": "こま_る",
+    "kanji": "彼",
+    "amHan": "BỈ",
+    "nghia": "Anh ta, người đó",
+    "onyomi": "ヒ",
+    "kunyomi": "かれ、かの",
     "mnemonic": {
-      "text": "Cái CÂY (木) bị nhốt trong Khung (囗) thì thật là KHỐN đốn, khó phát triển."
+      "text": "Người đó (BỈ) đang BƯỚC ĐI (xích - 彳) trên mặt ĐẤT/DA (bì - 皮)."
     },
     "examples": [
-      { "word": "困る", "reading": "こまる", "meaning": "rắc rối, khó khăn" },
-      { "word": "困難", "reading": "こんなん", "meaning": "khó khăn" }
+      { "word": "彼", "reading": "かれ", "meaning": "Anh ấy, anh ta" },
+      { "word": "彼女", "reading": "かのじょ", "meaning": "Cô ấy, bạn gái" },
+      { "word": "彼氏", "reading": "かれし", "meaning": "Bạn trai" },
+      { "word": "彼ら", "reading": "かれら", "meaning": "Họ (số nhiều)" },
+      { "word": "彼岸", "reading": "ひがん", "meaning": "Bờ bên kia (tiết Thanh minh/Thu phân)" }
     ]
   },
   {
-    "kanji": "守",
-    "amHan": "Thụ",
-    "nghia": "Gìn giữ, bảo vệ",
-    "onyomi": "シュ、ス",
-    "kunyomi": "まも_る、まも_り",
+    "kanji": "波",
+    "amHan": "BA",
+    "nghia": "Con sóng",
+    "onyomi": "ハ",
+    "kunyomi": "なみ",
     "mnemonic": {
-      "text": "Trong NHÀ (宀), dùng tay (寸) để trông coi và BẢO VỆ."
+      "text": "NƯỚC (thủy - 氵) dập dềnh trên mặt DA (bì - 皮) tạo thành những con sóng (BA)."
     },
     "examples": [
-      { "word": "守る", "reading": "まもる", "meaning": "phòng thủ, bảo vệ" },
-      { "word": "保守", "reading": "ほしゅ", "meaning": "bảo trì, bảo thủ" },
-      { "word": "留守", "reading": "るす", "meaning": "vắng nhà" }
+      { "word": "波", "reading": "なみ", "meaning": "Sóng" },
+      { "word": "電波", "reading": "でんぱ", "meaning": "Sóng điện, sóng vô tuyến" },
+      { "word": "津波", "reading": "つなみ", "meaning": "Sóng thần" },
+      { "word": "波形", "reading": "はけい", "meaning": "Dạng sóng" },
+      { "word": "波長", "reading": "はちょう", "meaning": "Bước sóng" }
     ]
   },
   {
-    "kanji": "将",
-    "amHan": "Tướng",
-    "nghia": "Tướng quân, tương lai",
-    "onyomi": "ショウ、ソウ",
-    "kunyomi": "まさ_に",
+    "kanji": "破",
+    "amHan": "PHÁ",
+    "nghia": "Làm hỏng, phá vỡ",
+    "onyomi": "ハ",
+    "kunyomi": "やぶ_る、やぶ_れる",
     "mnemonic": {
-      "text": "Người cầm gậy điều khiển (寸) thịt cúng trên bàn là vị TƯỚNG dẫn dắt tương lai."
+      "text": "Dùng ĐÁ (thạch - 石) đập vào lớp DA (bì - 皮) làm nó bị rách, bị PHÁ vỡ."
     },
     "examples": [
-      { "word": "将来", "reading": "しょうらい", "meaning": "tương lai" },
-      { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" }
-    ]
-  },
-  {
-    "kanji": "得",
-    "amHan": "Đắc",
-    "nghia": "Đạt được, có được",
-    "onyomi": "トク",
-    "kunyomi": "え_る、う_る",
-    "mnemonic": {
-      "text": "ĐI bộ (彳) cả NGÀY (日) cuối cùng cũng dùng TAY (寸) ĐẠT ĐƯỢC kết quả."
-    },
-    "examples": [
-      { "word": "得る", "reading": "える", "meaning": "có được, có thể" },
-      { "word": "納得", "reading": "なっとく", "meaning": "tiếp thu, lĩnh hội, nắm bắt" },
-      { "word": "得意", "reading": "とくい", "meaning": "đắc ý, giỏi về" }
+      { "word": "破る", "reading": "やぶる", "meaning": "Phá vỡ, làm rách" },
+      { "word": "破れる", "reading": "やぶれる", "meaning": "Bị đánh tan, bị rách" },
+      { "word": "破壊", "reading": "はかい", "meaning": "Phá hoại" },
+      { "word": "破産", "reading": "はさん", "meaning": "Phá sản" },
+      { "word": "突破", "reading": "とっぱ", "meaning": "Đột phá" }
     ]
   }
 ]
