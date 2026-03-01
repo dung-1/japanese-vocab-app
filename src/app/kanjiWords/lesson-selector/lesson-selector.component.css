@@ -8,6 +8,25 @@
   font-size: 1.5rem;
 }
 
+.selector-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.selector-group label {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 500;
+}
+
 select {
   padding: 10px;
   font-size: 16px;
