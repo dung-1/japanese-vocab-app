@@ -1,0 +1,256 @@
+[
+  {
+    "kanji": "席",
+    "amHan": "Tịch",
+    "nghia": "Chỗ ngồi",
+    "onyomi": "セキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong nhà (广), trải khăn (巾) lên trên tấm thảm (廿) để làm chỗ ngồi (TỊCH)."
+    },
+    "examples": [
+      { "word": "座席", "reading": "ざせき", "meaning": "chỗ ngồi" },
+      { "word": "出席", "reading": "しゅっせき", "meaning": "có mặt, tham dự" },
+      { "word": "欠席", "reading": "けっせき", "meaning": "vắng mặt" },
+      { "word": "空席", "reading": "くうせき", "meaning": "ghế trống" },
+      { "word": "指定席", "reading": "していせき", "meaning": "ghế chỉ định" }
+    ]
+  },
+  {
+    "kanji": "戻",
+    "amHan": "Lệ",
+    "nghia": "Quay lại, trở lại",
+    "onyomi": "レイ",
+    "kunyomi": "もど・す, もど・る",
+    "mnemonic": {
+      "text": "Con chó (大 - biến thể) lẩn quẩn bên cánh cửa (戸) chờ chủ QUAY LẠI."
+    },
+    "examples": [
+      { "word": "戻る", "reading": "もどる", "meaning": "quay lại (tự động từ)" },
+      { "word": "戻す", "reading": "もどす", "meaning": "để lại chỗ cũ (tha động từ)" },
+      { "word": "払い戻し", "reading": "はらいもどし", "meaning": "hoàn tiền" },
+      { "word": "出戻り", "reading": "でもどり", "meaning": "đi rồi lại về" },
+      { "word": "返戻", "reading": "へんれい", "meaning": "trả lại" }
+    ]
+  },
+  {
+    "kanji": "払",
+    "amHan": "Phất",
+    "nghia": "Trả tiền, quét đi",
+    "onyomi": "フツ",
+    "kunyomi": "はら・う",
+    "mnemonic": {
+      "text": "Dùng tay (扌) cầm cái phất trần (厶) để PHẤT (quét) bụi hoặc trả tiền."
+    },
+    "examples": [
+      { "word": "払う", "reading": "はらう", "meaning": "trả tiền, phủi bụi" },
+      { "word": "支払い", "reading": "しはらい", "meaning": "việc thanh toán" },
+      { "word": "前払い", "reading": "まえばらい", "meaning": "trả trước" },
+      { "word": "払拭する", "reading": "ふっしょくする", "meaning": "quét sạch, xóa bỏ" },
+      { "word": "着払い", "reading": "ちゃくばらい", "meaning": "thanh toán khi nhận hàng" }
+    ]
+  },
+  {
+    "kanji": "無",
+    "amHan": "Vô",
+    "nghia": "Không có",
+    "onyomi": "ム, ブ",
+    "kunyomi": "な・い",
+    "mnemonic": {
+      "text": "Hình ảnh một vũ công đang nhảy múa trên đống lửa (灬), mọi thứ trở nên hư VÔ."
+    },
+    "examples": [
+      { "word": "無理な", "reading": "むりな", "meaning": "quá sức, không thể" },
+      { "word": "無料", "reading": "むりょう", "meaning": "miễn phí" },
+      { "word": "無事", "reading": "ぶじ", "meaning": "bình an, vô sự" },
+      { "word": "無駄な", "reading": "むだな", "meaning": "lãng phí" },
+      { "word": "無い", "reading": "ない", "meaning": "không có" }
+    ]
+  },
+  {
+    "kanji": "失",
+    "amHan": "Thất",
+    "nghia": "Mất, thất bại",
+    "onyomi": "シツ",
+    "kunyomi": "うしな・う",
+    "mnemonic": {
+      "text": "Một người (夫) làm rơi mất thứ gì đó từ trên tay, gọi là THẤT lạc."
+    },
+    "examples": [
+      { "word": "失礼な", "reading": "しつれいな", "meaning": "thất lễ, bất lịch sự" },
+      { "word": "失敗", "reading": "しっぱい", "meaning": "thất bại" },
+      { "word": "失う", "reading": "うしなう", "meaning": "mất mát" },
+      { "word": "失業", "reading": "しつぎょう", "meaning": "thất nghiệp" },
+      { "word": "失望", "reading": "しつぼう", "meaning": "thất vọng" }
+    ]
+  },
+  {
+    "kanji": "礼",
+    "amHan": "Lễ",
+    "nghia": "Lễ nghi, cảm ơn",
+    "onyomi": "レイ, ライ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bày tỏ lòng thành trước bàn thờ (礻) bằng cách quỳ lạy trang nghiêm là LỄ."
+    },
+    "examples": [
+      { "word": "お礼", "reading": "おれい", "meaning": "sự cảm ơn" },
+      { "word": "礼儀", "reading": "れいぎ", "meaning": "lễ nghi" },
+      { "word": "敬礼", "reading": "けいれい", "meaning": "chào kiểu quân đội" },
+      { "word": "礼拝", "reading": "れいはい", "meaning": "lễ bái" },
+      { "word": "失礼します", "reading": "しつれいします", "meaning": "xin thất lễ / xin phép" }
+    ]
+  },
+  {
+    "kanji": "黄",
+    "amHan": "Hoàng",
+    "nghia": "Màu vàng",
+    "onyomi": "コウ",
+    "kunyomi": "き",
+    "mnemonic": {
+      "text": "Hình ảnh một người đeo một cái gương hoặc ngọc rực rỡ màu VÀNG ở thắt lưng."
+    },
+    "examples": [
+      { "word": "黄色い", "reading": "きいろい", "meaning": "màu vàng" },
+      { "word": "黄金", "reading": "おうごん", "meaning": "vàng ròng" },
+      { "word": "卵黄", "reading": "らんおう", "meaning": "lòng đỏ trứng" },
+      { "word": "黄信号", "reading": "きしんごう", "meaning": "đèn vàng" },
+      { "word": "黄身", "reading": "きみ", "meaning": "lòng đỏ" }
+    ]
+  },
+  {
+    "kanji": "苦",
+    "amHan": "Khổ",
+    "nghia": "Đắng, khổ cực",
+    "onyomi": "ク",
+    "kunyomi": "くる・しい, にが・い",
+    "mnemonic": {
+      "text": "Cây cỏ (艹) để lâu ngày (古 - cổ) thì sẽ có vị ĐẮNG, ăn vào rất KHỔ."
+    },
+    "examples": [
+      { "word": "苦しい", "reading": "くるしい", "meaning": "khổ cực, khó thở" },
+      { "word": "苦い", "reading": "にがい", "meaning": "đắng" },
+      { "word": "苦労", "reading": "くろう", "meaning": "gian khổ, vất vả" },
+      { "word": "苦手な", "reading": "にがてな", "meaning": "kém, không giỏi" },
+      { "word": "苦痛", "reading": "くつう", "meaning": "đau khổ" }
+    ]
+  },
+  {
+    "kanji": "末",
+    "amHan": "Mạt",
+    "nghia": "Cuối cùng",
+    "onyomi": "マツ, バツ",
+    "kunyomi": "すえ",
+    "mnemonic": {
+      "text": "Cái cây (木) có cành trên dài hơn cành dưới, biểu thị phần ngọn (MẠT) - phần cuối."
+    },
+    "examples": [
+      { "word": "週末", "reading": "しゅうまつ", "meaning": "cuối tuần" },
+      { "word": "月末", "reading": "げつまつ", "meaning": "cuối tháng" },
+      { "word": "年末", "reading": "ねんまつ", "meaning": "cuối năm" },
+      { "word": "結末", "reading": "けつまつ", "meaning": "kết cục" },
+      { "word": "末っ子", "reading": "すえっこ", "meaning": "con út" }
+    ]
+  },
+  {
+    "kanji": "逃",
+    "amHan": "Đào",
+    "nghia": "Chạy trốn",
+    "onyomi": "トウ",
+    "kunyomi": "に・げる, に・がす",
+    "mnemonic": {
+      "text": "Đi (辶) theo điềm báo (兆 - triệu) để ĐÀO (chạy trốn)."
+    },
+    "examples": [
+      { "word": "逃げる", "reading": "にげる", "meaning": "chạy trốn" },
+      { "word": "逃がす", "reading": "にがす", "meaning": "thả ra (chim, cá)" },
+      { "word": "逃走する", "reading": "とうそうする", "meaning": "đào tẩu" },
+      { "word": "逃げ出す", "reading": "にげだす", "meaning": "chạy thoát" },
+      { "word": "見逃す", "reading": "みのがす", "meaning": "bỏ lỡ, bỏ qua" }
+    ]
+  },
+  {
+    "kanji": "規",
+    "amHan": "Quy",
+    "nghia": "Quy tắc",
+    "onyomi": "キ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng mắt (見) nhìn vào chiếc compa (phần bên trái) để kẻ cho đúng QUY tắc."
+    },
+    "examples": [
+      { "word": "規則", "reading": "きそく", "meaning": "quy tắc" },
+      { "word": "規定", "reading": "きてい", "meaning": "quy định" },
+      { "word": "規模", "reading": "きぼ", "meaning": "quy mô" },
+      { "word": "定規", "reading": "じょうぎ", "meaning": "cái thước kẻ" },
+      { "word": "規制", "reading": "きせい", "meaning": "quy chế, hạn chế" }
+    ]
+  },
+  {
+    "kanji": "則",
+    "amHan": "Tắc",
+    "nghia": "Quy tắc, phép tắc",
+    "onyomi": "ソク",
+    "kunyomi": "のっと・る",
+    "mnemonic": {
+      "text": "Dùng con dao (刂) khắc lên vỏ sò (貝 - tiền bạc) để làm bằng chứng về quy TẮC."
+    },
+    "examples": [
+      { "word": "原則", "reading": "げんそく", "meaning": "nguyên tắc" },
+      { "word": "反則", "reading": "はんそく", "meaning": "phạm quy" },
+      { "word": "法則", "reading": "ほうそく", "meaning": "định luật" },
+      { "word": "校則", "reading": "こうそく", "meaning": "nội quy trường học" }
+    ]
+  },
+  {
+    "kanji": "守",
+    "amHan": "Thủ",
+    "nghia": "Bảo vệ, tuân thủ",
+    "onyomi": "シュ, ス",
+    "kunyomi": "まも・る",
+    "mnemonic": {
+      "text": "Trong nhà (宀) có người cầm tấc (寸) để THỦ (canh giữ)."
+    },
+    "examples": [
+      { "word": "守る", "reading": "まもる", "meaning": "bảo vệ, tuân thủ" },
+      { "word": "留守", "reading": "るす", "meaning": "vắng nhà" },
+      { "word": "お守り", "reading": "おまもり", "meaning": "bùa hộ mệnh" },
+      { "word": "守備", "reading": "しゅび", "meaning": "phòng thủ" },
+      { "word": "子守り", "reading": "こもり", "meaning": "trông trẻ" }
+    ]
+  },
+  {
+    "kanji": "歯",
+    "amHan": "Xỉ",
+    "nghia": "Răng",
+    "onyomi": "シ",
+    "kunyomi": "は",
+    "mnemonic": {
+      "text": "Hình ảnh cái miệng đang mở ra để lộ hàng răng (phần dưới của chữ)."
+    },
+    "examples": [
+      { "word": "歯", "reading": "は", "meaning": "răng" },
+      { "word": "歯医者", "reading": "はいしゃ", "meaning": "nha sĩ" },
+      { "word": "虫歯", "reading": "むしば", "meaning": "răng sâu" },
+      { "word": "歯ブラシ", "reading": "はぶらし", "meaning": "bàn chải răng" },
+      { "word": "歯科", "reading": "しか", "meaning": "nha khoa" }
+    ]
+  },
+  {
+    "kanji": "並",
+    "amHan": "Tịnh",
+    "nghia": "Hàng lối, song song",
+    "onyomi": "ヘイ",
+    "kunyomi": "なら・べる, なら・ぶ",
+    "mnemonic": {
+      "text": "Hai người (立立) đứng cạnh nhau tạo thành hàng TỊNH."
+    },
+    "examples": [
+      { "word": "並ぶ", "reading": "ならぶ", "meaning": "xếp hàng (tự động từ)" },
+      { "word": "並べる", "reading": "ならべる", "meaning": "bày biện (tha động từ)" },
+      { "word": "並の", "reading": "なみの", "meaning": "bình thường, trung bình" },
+      { "word": "並列", "reading": "へいれつ", "meaning": "song song" },
+      { "word": "人並み", "reading": "ひとなみ", "meaning": "như mọi người" }
+    ]
+  }
+]

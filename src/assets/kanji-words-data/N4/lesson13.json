@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "発",
+    "amHan": "Phát",
+    "nghia": "Xuất phát, phát biểu",
+    "onyomi": "ハツ, ホツ",
+    "kunyomi": "たつ",
+    "mnemonic": {
+      "text": "Phía trên là đôi chân đang bước đi, phía dưới là cung tên. Tên bắn đi là sự bắt đầu, PHÁT súng."
+    },
+    "examples": [
+      { "word": "出発", "reading": "しゅっぱつ", "meaning": "xuất phát" },
+      { "word": "発表", "reading": "はっぴょう", "meaning": "phát biểu" },
+      { "word": "発見", "reading": "はっけん", "meaning": "phát hiện" },
+      { "word": "発行", "reading": "はっこう", "meaning": "phát hành" },
+      { "word": "発音", "reading": "はつおん", "meaning": "phát âm" }
+    ]
+  },
+  {
+    "kanji": "工",
+    "amHan": "Công",
+    "nghia": "Công việc, người thợ",
+    "onyomi": "コウ, ク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình ảnh cái thước kẻ hoặc cái đe của người thợ, tượng trưng cho CÔNG nhân."
+    },
+    "examples": [
+      { "word": "工場", "reading": "こうじょう", "meaning": "nhà máy, xưởng" },
+      { "word": "工業", "reading": "こうぎょう", "meaning": "công nghiệp" },
+      { "word": "工事", "reading": "こうじ", "meaning": "công trường, thi công" },
+      { "word": "工夫", "reading": "くふう", "meaning": "công phu, tìm tòi" },
+      { "word": "大工", "reading": "だいく", "meaning": "thợ mộc" }
+    ]
+  },
+  {
+    "kanji": "飯",
+    "amHan": "Phạn",
+    "nghia": "Cơm, bữa ăn",
+    "onyomi": "ハン",
+    "kunyomi": "めし",
+    "mnemonic": {
+      "text": "Ăn (食) để cơ thể được phản (反) hồi năng lượng chính là bữa cơm (PHẠN)."
+    },
+    "examples": [
+      { "word": "ご飯", "reading": "ごはん", "meaning": "cơm, bữa ăn" },
+      { "word": "夕飯", "reading": "ゆうはん", "meaning": "bữa tối" },
+      { "word": "朝飯", "reading": "あさめし", "meaning": "bữa sáng" },
+      { "word": "炊飯器", "reading": "すいはんき", "meaning": "nồi cơm điện" },
+      { "word": "晩飯", "reading": "ばんめし", "meaning": "cơm tối" }
+    ]
+  },
+  {
+    "kanji": "台",
+    "amHan": "Đài, Thai",
+    "nghia": "Cái bệ, đơn vị đếm máy móc",
+    "onyomi": "ダイ, タイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bên trên là cái miệng (口), bên dưới là cái bệ cao. ĐỨNG trên đài để nói."
+    },
+    "examples": [
+      { "word": "台風", "reading": "たいふう", "meaning": "bão" },
+      { "word": "台所", "reading": "だいどころ", "meaning": "nhà bếp" },
+      { "word": "一台", "reading": "いちだい", "meaning": "1 chiếc (máy móc, xe cộ)" },
+      { "word": "舞台", "reading": "ぶたい", "meaning": "sân khấu" },
+      { "word": "台湾", "reading": "たいわん", "meaning": "Đài Loan" }
+    ]
+  },
+  {
+    "kanji": "題",
+    "amHan": "Đề",
+    "nghia": "Vấn đề, tiêu đề",
+    "onyomi": "ダイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Đúng (是 - thị) là cái đầu (頁 - hiệt) phải suy nghĩ về vấn ĐỀ."
+    },
+    "examples": [
+      { "word": "問題", "reading": "もんだい", "meaning": "vấn đề, câu hỏi" },
+      { "word": "宿題", "reading": "しゅくだい", "meaning": "bài tập về nhà" },
+      { "word": "話題", "reading": "わだい", "meaning": "chủ đề câu chuyện" },
+      { "word": "題名", "reading": "だいめい", "meaning": "tiêu đề, nhan đề" },
+      { "word": "主題", "reading": "しゅだい", "meaning": "chủ đề chính" }
+    ]
+  },
+  {
+    "kanji": "待",
+    "amHan": "Đãi",
+    "nghia": "Chờ đợi",
+    "onyomi": "タイ",
+    "kunyomi": "ま・つ",
+    "mnemonic": {
+      "text": "Người bộ hành (彳) đứng ở chùa (寺 - tự) để ĐÃI (chờ) bạn."
+    },
+    "examples": [
+      { "word": "待つ", "reading": "まつ", "meaning": "đợi" },
+      { "word": "招待する", "reading": "しょうたいする", "meaning": "chiêu đãi, mời" },
+      { "word": "期待する", "reading": "きたいする", "meaning": "kỳ vọng, mong đợi" },
+      { "word": "待合室", "reading": "まちあいしつ", "meaning": "phòng chờ" },
+      { "word": "待ち合わせ", "reading": "まちあわせ", "meaning": "cuộc hẹn (gặp nhau)" }
+    ]
+  },
+  {
+    "kanji": "米",
+    "amHan": "Mễ",
+    "nghia": "Gạo",
+    "onyomi": "マイ, ベイ",
+    "kunyomi": "こめ",
+    "mnemonic": {
+      "text": "Hình ảnh hạt gạo rơi vãi theo 4 hướng."
+    },
+    "examples": [
+      { "word": "米", "reading": "こめ", "meaning": "gạo" },
+      { "word": "米国", "reading": "べいこく", "meaning": "nước Mỹ" },
+      { "word": "南米", "reading": "なんべい", "meaning": "Nam Mỹ" },
+      { "word": "白米", "reading": "はくまい", "meaning": "gạo trắng" },
+      { "word": "新米", "reading": "しんまい", "meaning": "gạo mới / người mới vào nghề" }
+    ]
+  },
+  {
+    "kanji": "村",
+    "amHan": "Thôn",
+    "nghia": "Ngôi làng",
+    "onyomi": "ソン",
+    "kunyomi": "むら",
+    "mnemonic": {
+      "text": "Ngôi làng là nơi có cây (木) và các phép tắc (寸 - thốn) riêng."
+    },
+    "examples": [
+      { "word": "村", "reading": "むら", "meaning": "ngôi làng" },
+      { "word": "村長", "reading": "そんちょう", "meaning": "thôn trưởng" },
+      { "word": "農村", "reading": "のうそん", "meaning": "nông thôn" },
+      { "word": "村人", "reading": "むらびと", "meaning": "người làng" },
+      { "word": "漁村", "reading": "ぎょそん", "meaning": "làng chài" }
+    ]
+  },
+  {
+    "kanji": "注",
+    "amHan": "Chú",
+    "nghia": "Ghi chú, rót nước",
+    "onyomi": "チュウ",
+    "kunyomi": "そそ・ぐ",
+    "mnemonic": {
+      "text": "Rót nước (氵) vào cái đèn (主 - chủ) để thắp sáng sự CHÚ ý."
+    },
+    "examples": [
+      { "word": "注意する", "reading": "ちゅういする", "meaning": "chú ý" },
+      { "word": "注文する", "reading": "ちゅうもんする", "meaning": "đặt hàng, gọi món" },
+      { "word": "注目する", "reading": "ちゅうもくする", "meaning": "chú mục, để mắt tới" },
+      { "word": "注ぐ", "reading": "そそぐ", "meaning": "rót, đổ vào" },
+      { "word": "注射", "reading": "ちゅうしゃ", "meaning": "tiêm thuốc" }
+    ]
+  }
+]

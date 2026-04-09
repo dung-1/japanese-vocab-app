@@ -1,0 +1,152 @@
+[
+  {
+    "kanji": "同",
+    "amHan": "Đồng",
+    "nghia": "Giống nhau, cùng",
+    "onyomi": "ドウ",
+    "kunyomi": "おな・じ",
+    "mnemonic": {
+      "text": "Nhiều người cùng sống dưới một mái nhà (冂) và nói cùng một lời từ miệng (口), đó là sự ĐỒNG nhất."
+    },
+    "examples": [
+      { "word": "同じ", "reading": "おなじ", "meaning": "giống nhau" },
+      { "word": "同時に", "reading": "どうじに", "meaning": "cùng lúc" },
+      { "word": "同意する", "reading": "どういする", "meaning": "đồng ý" },
+      { "word": "同僚", "reading": "どうりょう", "meaning": "đồng nghiệp" },
+      { "word": "同情する", "reading": "どうじょうする", "meaning": "đồng cảm" }
+    ]
+  },
+  {
+    "kanji": "治",
+    "amHan": "Trị",
+    "nghia": "Cai trị, chữa trị",
+    "onyomi": "ジ, チ",
+    "kunyomi": "おさ・める, なお・る",
+    "mnemonic": {
+      "text": "Dùng nước (氵) để quản lý cái tôi (台 - thai/đài) chính là cách TRỊ quốc hoặc trị bệnh."
+    },
+    "examples": [
+      { "word": "治る", "reading": "なおる", "meaning": "hồi phục, khỏi bệnh" },
+      { "word": "政治", "reading": "せいじ", "meaning": "chính trị" },
+      { "word": "治める", "reading": "おさめる", "meaning": "cai trị, quản lý" },
+      { "word": "治療", "reading": "ちりょう", "meaning": "trị liệu" },
+      { "word": "治安", "reading": "ちあん", "meaning": "trị an" }
+    ]
+  },
+  {
+    "kanji": "所",
+    "amHan": "Sở",
+    "nghia": "Nơi chốn",
+    "onyomi": "ショ",
+    "kunyomi": "ところ",
+    "mnemonic": {
+      "text": "Dùng cái rìu (斤) để đẽo cánh cửa (戸) tại một nơi chốn (SỞ) cụ thể."
+    },
+    "examples": [
+      { "word": "場所", "reading": "ばしょ", "meaning": "địa điểm" },
+      { "word": "台所", "reading": "だいどころ", "meaning": "nhà bếp" },
+      { "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" },
+      { "word": "近所", "reading": "きんじょ", "meaning": "hàng xóm, vùng lân cận" },
+      { "word": "役所", "reading": "やくしょ", "meaning": "công sở" }
+    ]
+  },
+  {
+    "kanji": "暑",
+    "amHan": "Thử",
+    "nghia": "Nóng (thời tiết)",
+    "onyomi": "ショ",
+    "kunyomi": "あつ・い",
+    "mnemonic": {
+      "text": "Mặt Trời (日) chiếu sáng lên một người (者) đang đứng dưới đất, tạo ra cái nóng THỬ."
+    },
+    "examples": [
+      { "word": "暑い", "reading": "あつい", "meaning": "nóng (thời tiết)" },
+      { "word": "蒸し暑い", "reading": "むしあつい", "meaning": "nóng ẩm, oi bức" },
+      { "word": "残暑", "reading": "ざんしょ", "meaning": "cái nóng còn sót lại đầu thu" },
+      { "word": "暑中見舞い", "reading": "しょちゅうみまい", "meaning": "thăm hỏi trong mùa hè" }
+    ]
+  },
+  {
+    "kanji": "寒",
+    "amHan": "Hàn",
+    "nghia": "Lạnh (thời tiết)",
+    "onyomi": "カン",
+    "kunyomi": "さむ・い",
+    "mnemonic": {
+      "text": "Dưới mái nhà (宀) có người nằm trên rơm và băng (冫) giá lạnh HÀN."
+    },
+    "examples": [
+      { "word": "寒い", "reading": "さむい", "meaning": "lạnh (thời tiết)" },
+      { "word": "寒気", "reading": "かんき", "meaning": "luồng khí lạnh" },
+      { "word": "防寒", "reading": "ぼうかん", "meaning": "phòng lạnh, chống rét" },
+      { "word": "寒冷", "reading": "かんれい", "meaning": "lạnh giá" }
+    ]
+  },
+  {
+    "kanji": "便",
+    "amHan": "Tiện",
+    "nghia": "Tiện lợi, bưu kiện",
+    "onyomi": "ベン, ビン",
+    "kunyomi": "たよ・り",
+    "mnemonic": {
+      "text": "Người (人) thay đổi (更 - canh) thói quen để trở nên TIỆN lợi hơn."
+    },
+    "examples": [
+      { "word": "便利な", "reading": "べんりな", "meaning": "tiện lợi" },
+      { "word": "不便な", "reading": "ふべんな", "meaning": "bất tiện" },
+      { "word": "郵便局", "reading": "ゆうびんきょく", "meaning": "bưu điện" },
+      { "word": "航空便", "reading": "こうくうびん", "meaning": "thư máy bay, đường hàng không" },
+      { "word": "便所", "reading": "べんじょ", "meaning": "nhà vệ sinh" }
+    ]
+  },
+  {
+    "kanji": "利",
+    "amHan": "Lợi",
+    "nghia": "Lợi ích, sắc bén",
+    "onyomi": "リ",
+    "kunyomi": "き・く",
+    "mnemonic": {
+      "text": "Dùng dao (刂) thu hoạch lúa (禾) mang lại LỢI ích."
+    },
+    "examples": [
+      { "word": "利用する", "reading": "りようする", "meaning": "sử dụng" },
+      { "word": "有利な", "reading": "ゆうりな", "meaning": "có lợi" },
+      { "word": "利益", "reading": "りえき", "meaning": "lợi nhuận" },
+      { "word": "利口な", "reading": "りこうな", "meaning": "thông minh" },
+      { "word": "左利き", "reading": "ひだりきき", "meaning": "thuận tay trái" }
+    ]
+  },
+  {
+    "kanji": "泳",
+    "amHan": "Vịnh",
+    "nghia": "Bơi",
+    "onyomi": "エイ",
+    "kunyomi": "およ・ぐ",
+    "mnemonic": {
+      "text": "Dưới làn nước (氵), con người có thể bơi lâu (永 - vĩnh) mãi."
+    },
+    "examples": [
+      { "word": "泳ぐ", "reading": "およぐ", "meaning": "bơi" },
+      { "word": "水泳", "reading": "すいえい", "meaning": "môn bơi lội" },
+      { "word": "競泳", "reading": "きょうえい", "meaning": "bơi thi đấu" },
+      { "word": "平泳ぎ", "reading": "ひらおよぎ", "meaning": "bơi ếch" }
+    ]
+  },
+  {
+    "kanji": "活",
+    "amHan": "Hoạt",
+    "nghia": "Hoạt động, sống",
+    "onyomi": "カツ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Nước (氵) làm cái lưỡi (舌) hoạt động linh HOẠT."
+    },
+    "examples": [
+      { "word": "生活", "reading": "せいかつ", "meaning": "sinh hoạt, cuộc sống" },
+      { "word": "活動", "reading": "かつどう", "meaning": "hoạt động" },
+      { "word": "活発な", "reading": "かっぱつな", "meaning": "hoạt bát, sôi nổi" },
+      { "word": "活用", "reading": "かつよう", "meaning": "vận dụng" },
+      { "word": "復活", "reading": "ふっかつ", "meaning": "sống lại, phục sinh" }
+    ]
+  }
+]

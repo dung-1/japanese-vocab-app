@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "地",
+    "amHan": "Địa",
+    "nghia": "Đất đai, địa điểm",
+    "onyomi": "チ, ジ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Đất (土) là nơi con bọ (也 - dã/địa) bò trên đó, tạo thành ĐỊA hình."
+    },
+    "examples": [
+      { "word": "地下鉄", "reading": "ちかてつ", "meaning": "tàu điện ngầm" },
+      { "word": "地図", "reading": "ちず", "meaning": "bản đồ" },
+      { "word": "地震", "reading": "じしん", "meaning": "động đất" },
+      { "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" },
+      { "word": "土地", "reading": "とち", "meaning": "đất đai" }
+    ]
+  },
+  {
+    "kanji": "走",
+    "amHan": "Tẩu",
+    "nghia": "Chạy",
+    "onyomi": "ソウ",
+    "kunyomi": "はし・る",
+    "mnemonic": {
+      "text": "Phía trên là bộ Thổ (土), dưới là đôi chân đang bước đi. Chạy trên đất là TẨU."
+    },
+    "examples": [
+      { "word": "走る", "reading": "はしる", "meaning": "chạy" },
+      { "word": "競走", "reading": "きょうそう", "meaning": "chạy đua" },
+      { "word": "走行", "reading": "そうこう", "meaning": "xe đang chạy, di chuyển" },
+      { "word": "脱走", "reading": "だっそう", "meaning": "đào tẩu, bỏ trốn" },
+      { "word": "走り書き", "reading": "はしりがき", "meaning": "viết ngoáy" }
+    ]
+  },
+  {
+    "kanji": "集",
+    "amHan": "Tập",
+    "nghia": "Tập trung, thu thập",
+    "onyomi": "シュウ",
+    "kunyomi": "あつ・める, あつ・まる",
+    "mnemonic": {
+      "text": "Chim (隹 - chuy) đậu trên cây (木) là hình ảnh TẬP trung đàn chim."
+    },
+    "examples": [
+      { "word": "集まる", "reading": "あつまる", "meaning": "tập trung (tự động từ)" },
+      { "word": "集める", "reading": "あつめる", "meaning": "thu thập (tha động từ)" },
+      { "word": "集中", "reading": "しゅうちゅう", "meaning": "tập trung cao độ" },
+      { "word": "集合", "reading": "しゅうごう", "meaning": "tập hợp" },
+      { "word": "集会", "reading": "しゅうかい", "meaning": "cuộc họp, hội họp" }
+    ]
+  },
+  {
+    "kanji": "研",
+    "amHan": "Nghiên",
+    "nghia": "Nghiên cứu, mài giũa",
+    "onyomi": "ケン",
+    "kunyomi": "と・ぐ",
+    "mnemonic": {
+      "text": "Dùng đá (石) để mài cho phẳng (开 - khai/hình ảnh cái đe) là NGHIÊN cứu kỹ lưỡng."
+    },
+    "examples": [
+      { "word": "研究", "reading": "けんきゅう", "meaning": "nghiên cứu" },
+      { "word": "研修", "reading": "けんしゅう", "meaning": "tu nghiệp, thực tập" },
+      { "word": "研究所", "reading": "けんきゅうじょ", "meaning": "viện nghiên cứu" },
+      { "word": "研ぐ", "reading": "とぐ", "meaning": "mài (dao), vo (gạo)" },
+      { "word": "研磨", "reading": "けんま", "meaning": "mài giũa" }
+    ]
+  },
+  {
+    "kanji": "究",
+    "amHan": "Cứu",
+    "nghia": "Nghiên cứu, tận cùng",
+    "onyomi": "キュウ",
+    "kunyomi": "きわ・める",
+    "mnemonic": {
+      "text": "Muốn tìm hiểu đến tận cùng (CỨU) thì phải chui vào hang (穴) và chín (九) lần suy xét."
+    },
+    "examples": [
+      { "word": "研究者", "reading": "けんきゅうしゃ", "meaning": "nhà nghiên cứu" },
+      { "word": "究明する", "reading": "きゅうめいする", "meaning": "làm sáng tỏ" },
+      { "word": "探究", "reading": "たんきゅう", "meaning": "tìm tòi nghiên cứu" },
+      { "word": "究極", "reading": "きゅうきょく", "meaning": "cuối cùng, tột cùng" },
+      { "word": "学究", "reading": "がっきゅう", "meaning": "người ham học hỏi" }
+    ]
+  },
+  {
+    "kanji": "曜",
+    "amHan": "Diệu",
+    "nghia": "Ngày trong tuần",
+    "onyomi": "ヨウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Mặt trời (日) chiếu sáng cho những con chim (隹) đang nhảy múa suốt 7 ngày (DIỆU)."
+    },
+    "examples": [
+      { "word": "何曜日", "reading": "なんようび", "meaning": "thứ mấy" },
+      { "word": "月曜日", "reading": "げつようび", "meaning": "thứ hai" },
+      { "word": "日曜日", "reading": "にちようび", "meaning": "chủ nhật" },
+      { "word": "土曜日", "reading": "どようび", "meaning": "thứ bảy" },
+      { "word": "金曜日", "reading": "きんようび", "meaning": "thứ sáu" }
+    ]
+  },
+  {
+    "kanji": "重",
+    "amHan": "Trọng, Trùng",
+    "nghia": "Nặng, chồng lên",
+    "onyomi": "ジュウ, チョウ",
+    "kunyomi": "おも・い, かさ・ねる",
+    "mnemonic": {
+      "text": "Một nghìn (千) cái ruộng (田) chồng lên nhau thì rất TRỌNG (nặng)."
+    },
+    "examples": [
+      { "word": "重い", "reading": "おもい", "meaning": "nặng" },
+      { "word": "体重", "reading": "たいじゅう", "meaning": "cân nặng" },
+      { "word": "重ねる", "reading": "かさねる", "meaning": "chồng lên, xếp lên" },
+      { "word": "貴重品", "reading": "きちょうひん", "meaning": "đồ quý giá" },
+      { "word": "重要", "reading": "じゅうよう", "meaning": "quan trọng" }
+    ]
+  },
+  {
+    "kanji": "池",
+    "amHan": "Trì",
+    "nghia": "Cái ao",
+    "onyomi": "チ",
+    "kunyomi": "いけ",
+    "mnemonic": {
+      "text": "Nước (氵) tụ lại một chỗ cho con bọ (也) bò quanh là cái ao (TRÌ)."
+    },
+    "examples": [
+      { "word": "池", "reading": "いけ", "meaning": "cái ao" },
+      { "word": "電池", "reading": "でんち", "meaning": "pin" },
+      { "word": "貯水池", "reading": "ちょすいち", "meaning": "hồ chứa nước" },
+      { "word": "池泉", "reading": "ちせん", "meaning": "ao và suối" },
+      { "word": "小池", "reading": "こいけ", "meaning": "ao nhỏ" }
+    ]
+  },
+  {
+    "kanji": "形",
+    "amHan": "Hình",
+    "nghia": "Hình dạng",
+    "onyomi": "ケイ, ギョウ",
+    "kunyomi": "かたち",
+    "mnemonic": {
+      "text": "Mài giũa (开 - khai) thêm vài đường nét (彡 - sam) sẽ ra HÌNH dạng."
+    },
+    "examples": [
+      { "word": "形", "reading": "かたち", "meaning": "hình dáng" },
+      { "word": "三角形", "reading": "さんかっけい", "meaning": "hình tam giác" },
+      { "word": "人形", "reading": "にんぎょう", "meaning": "búp bê" },
+      { "word": "形式", "reading": "けいしき", "meaning": "hình thức" },
+      { "word": "図形", "reading": "ずけい", "meaning": "đồ họa, hình vẽ" }
+    ]
+  }
+]

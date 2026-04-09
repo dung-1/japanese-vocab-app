@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "業",
+    "amHan": "Nghiệp",
+    "nghia": "Công việc, nghề nghiệp",
+    "onyomi": "ギョウ, ゴウ",
+    "kunyomi": "わざ",
+    "mnemonic": {
+      "text": "Hình ảnh một cái giá treo các nhạc cụ cổ, tượng trưng cho những kỹ năng và nghề nghiệp (NGHIỆP) được truyền thừa."
+    },
+    "examples": [
+      { "word": "工業", "reading": "こうぎょう", "meaning": "công nghiệp" },
+      { "word": "授業", "reading": "じゅぎょう", "meaning": "tiết học, giờ học" },
+      { "word": "卒業", "reading": "そつぎょう", "meaning": "tốt nghiệp" },
+      { "word": "残業", "reading": "ざんぎょう", "meaning": "làm thêm giờ" },
+      { "word": "仕事", "reading": "しごと", "meaning": "công việc (kết hợp với chữ Sĩ)" }
+    ]
+  },
+  {
+    "kanji": "鳥",
+    "amHan": "Điểu",
+    "nghia": "Con chim",
+    "onyomi": "チョウ",
+    "kunyomi": "とり",
+    "mnemonic": {
+      "text": "Chữ tượng hình: Phần trên là đầu và mào, phần giữa là thân và cánh, dưới cùng (灬) là đuôi chim."
+    },
+    "examples": [
+      { "word": "小鳥", "reading": "ことり", "meaning": "con chim nhỏ" },
+      { "word": "焼き鳥", "reading": "やきとり", "meaning": "thịt gà nướng" },
+      { "word": "白鳥", "reading": "はくちょう", "meaning": "thiên nga" },
+      { "word": "鳥肉", "reading": "とりにく", "meaning": "thịt gia cầm" },
+      { "word": "一石二鳥", "reading": "いっせきにちょう", "meaning": "một mũi tên trúng hai đích" }
+    ]
+  },
+  {
+    "kanji": "通",
+    "amHan": "Thông",
+    "nghia": "Đi qua, thông qua",
+    "onyomi": "ツウ",
+    "kunyomi": "とお・る, かよ・う",
+    "mnemonic": {
+      "text": "Bộ SÁI (辶 - đi) kết hợp với chữ DỤNG (用 - dùng). Việc di chuyển (đi) thường xuyên theo một cách hữu dụng là thông suốt."
+    },
+    "examples": [
+      { "word": "通う", "reading": "かよう", "meaning": "đi học/đi làm thường xuyên" },
+      { "word": "通る", "reading": "とおる", "meaning": "đi ngang qua" },
+      { "word": "通り", "reading": "どおり", "meaning": "đường phố" },
+      { "word": "交通", "reading": "こうつう", "meaning": "giao thông" },
+      { "word": "普通", "reading": "ふつう", "meaning": "bình thường, phổ thông" }
+    ]
+  },
+  {
+    "kanji": "味",
+    "amHan": "Vị",
+    "nghia": "Hương vị",
+    "onyomi": "ミ",
+    "kunyomi": "あじ",
+    "mnemonic": {
+      "text": "Dùng miệng (口) nếm một cái cây chưa (未 - vị) chín hẳn để thử hương VỊ."
+    },
+    "examples": [
+      { "word": "意味", "reading": "いみ", "meaning": "ý nghĩa" },
+      { "word": "趣味", "reading": "しゅみ", "meaning": "sở thích" },
+      { "word": "味わう", "reading": "あじわう", "meaning": "thưởng thức" },
+      { "word": "調味料", "reading": "ちょうみりょう", "meaning": "gia vị" },
+      { "word": "興味", "reading": "きょうみ", "meaning": "hứng thú" }
+    ]
+  },
+  {
+    "kanji": "運",
+    "amHan": "Vận",
+    "nghia": "Vận chuyển, vận may",
+    "onyomi": "ウン",
+    "kunyomi": "はこ・ぶ",
+    "mnemonic": {
+      "text": "Bộ SÁI (辶 - đi) và chữ QUÂN (軍 - quân đội). Quân đội di chuyển đến đâu thì mang theo vận mệnh và sự vận chuyển đến đó."
+    },
+    "examples": [
+      { "word": "運ぶ", "reading": "はこぶ", "meaning": "vận chuyển, khiêng" },
+      { "word": "運転", "reading": "うんてん", "meaning": "lái xe" },
+      { "word": "運動", "reading": "うんどう", "meaning": "vận động, tập thể dục" },
+      { "word": "幸運", "reading": "こううん", "meaning": "vận may" },
+      { "word": "運命", "reading": "うんめい", "meaning": "vận mệnh" }
+    ]
+  },
+  {
+    "kanji": "転",
+    "amHan": "Chuyển",
+    "nghia": "Lăn, chuyển động",
+    "onyomi": "テン",
+    "kunyomi": "ころ・がる",
+    "mnemonic": {
+      "text": "Xe (車) khi chạy trên đường thì bánh xe quay tròn như một đám mây (云) đang chuyển động."
+    },
+    "examples": [
+      { "word": "転ぶ", "reading": "ころぶ", "meaning": "ngã nhào" },
+      { "word": "自転車", "reading": "じてんしゃ", "meaning": "xe đạp" },
+      { "word": "回転", "reading": "かいてん", "meaning": "xoay vòng" },
+      { "word": "転職", "reading": "てんしょく", "meaning": "chuyển việc" },
+      { "word": "運転手", "reading": "うんてんしゅ", "meaning": "tài xế" }
+    ]
+  },
+  {
+    "kanji": "力",
+    "amHan": "Lực",
+    "nghia": "Sức mạnh",
+    "onyomi": "リョク, リキ",
+    "kunyomi": "ちから",
+    "mnemonic": {
+      "text": "Hình ảnh cái bắp tay đang gồng lên hoặc cái cày ruộng cần sức LỰC."
+    },
+    "examples": [
+      { "word": "協力", "reading": "きょうりょく", "meaning": "hợp lực, hợp tác" },
+      { "word": "実力", "reading": "じつりょく", "meaning": "thực lực" },
+      { "word": "努力", "reading": "どりょく", "meaning": "nỗ lực" },
+      { "word": "体力", "reading": "たいりょく", "meaning": "thể lực" },
+      { "word": "馬力", "reading": "ばりき", "meaning": "mã lực" }
+    ]
+  },
+  {
+    "kanji": "色",
+    "amHan": "Sắc",
+    "nghia": "Màu sắc",
+    "onyomi": "ショク, シキ",
+    "kunyomi": "いろ",
+    "mnemonic": {
+      "text": "Một người đang quỳ dưới một người khác, gương mặt biến đổi màu SẮC do cảm xúc."
+    },
+    "examples": [
+      { "word": "色々な", "reading": "いろいろな", "meaning": "nhiều loại, đa dạng" },
+      { "word": "景色", "reading": "けしき", "meaning": "phong cảnh" },
+      { "word": "特色", "reading": "とくしょく", "meaning": "đặc sắc" },
+      { "word": "黄色", "reading": "きいろ", "meaning": "màu vàng" },
+      { "word": "水色", "reading": "みずいろ", "meaning": "màu xanh nước biển" }
+    ]
+  },
+  {
+    "kanji": "具",
+    "amHan": "Cụ",
+    "nghia": "Công cụ, đạo cụ",
+    "onyomi": "グ",
+    "kunyomi": "そな・える",
+    "mnemonic": {
+      "text": "Dùng mắt (目) để kiểm tra các món đồ đặt trên kệ (cái chân đế phía dưới), đó là các dụng CỤ."
+    },
+    "examples": [
+      { "word": "道具", "reading": "どうぐ", "meaning": "dụng cụ" },
+      { "word": "家具", "reading": "かぐ", "meaning": "đồ nội thất" },
+      { "word": "具体的な", "reading": "ぐたいてきな", "meaning": "cụ thể" },
+      { "word": "絵具", "reading": "えのぐ", "meaning": "màu vẽ" },
+      { "word": "具合", "reading": "ぐあい", "meaning": "tình trạng (sức khỏe/máy móc)" }
+    ]
+  }
+]

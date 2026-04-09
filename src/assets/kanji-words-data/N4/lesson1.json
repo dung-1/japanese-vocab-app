@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "悪",
+    "amHan": "Ác",
+    "nghia": "Xấu, ác",
+    "onyomi": "アク",
+    "kunyomi": "わる・い",
+    "mnemonic": {
+      "text": "Ở trên là chữ Á (亚 - đứng thứ hai), dưới là bộ TÂM (心). Kẻ có tâm tính không chuẩn (hạng hai) thường là kẻ ÁC."
+    },
+    "examples": [
+      { "word": "悪い", "reading": "わるい", "meaning": "xấu, tồi" },
+      { "word": "悪口", "reading": "わるくち", "meaning": "nói xấu" },
+      { "word": "最悪", "reading": "さいあく", "meaning": "tệ nhất" },
+      { "word": "悪夢", "reading": "あくむ", "meaning": "ác mộng" },
+      { "word": "悪化", "reading": "あっか", "meaning": "trở nên xấu đi" }
+    ]
+  },
+  {
+    "kanji": "急",
+    "amHan": "Cấp",
+    "nghia": "Gấp, vội, nhanh",
+    "onyomi": "キュウ",
+    "kunyomi": "いそ・ぐ",
+    "mnemonic": {
+      "text": "Trên là bộ Đao (⺈), giữa là chữ Kệ (彐), dưới là bộ TÂM (心). Khi cần gấp gáp thì tâm trí như bị dao đâm, phải vội vàng."
+    },
+    "examples": [
+      { "word": "急ぐ", "reading": "いそぐ", "meaning": "vội vàng, khẩn trương" },
+      { "word": "急行", "reading": "きゅうこう", "meaning": "tàu tốc hành" },
+      { "word": "急に", "reading": "きゅうに", "meaning": "đột nhiên" },
+      { "word": "特急", "reading": "とっきゅう", "meaning": "tàu siêu tốc" },
+      { "word": "救急車", "reading": "きゅうきゅうしゃ", "meaning": "xe cấp cứu" }
+    ]
+  },
+  {
+    "kanji": "去",
+    "amHan": "Khứ",
+    "nghia": "Quá khứ, đi qua, rời khỏi",
+    "onyomi": "キョ, コ",
+    "kunyomi": "さ・る",
+    "mnemonic": {
+      "text": "Phía trên là bộ Thổ (土), dưới là bộ Khư (厶). Người ta chết đi thì thân xác trở về với đất (Thổ), rời bỏ cõi đời (Khứ)."
+    },
+    "examples": [
+      { "word": "去年", "reading": "きょねん", "meaning": "năm ngoái" },
+      { "word": "過去", "reading": "かこ", "meaning": "quá khứ" },
+      { "word": "消去", "reading": "しょうきょ", "meaning": "xóa bỏ" },
+      { "word": "去る", "reading": "さる", "meaning": "rời khỏi, đi qua" },
+      { "word": "除去", "reading": "じょきょ", "meaning": "loại bỏ" }
+    ]
+  },
+  {
+    "kanji": "紙",
+    "amHan": "Chỉ",
+    "nghia": "Giấy",
+    "onyomi": "シ",
+    "kunyomi": "かみ",
+    "mnemonic": {
+      "text": "Bên trái là bộ MỊCH (糸 - sợi chỉ), bên phải là chữ THỊ (氏 - họ). Ngày xưa giấy được làm từ các sợi tơ kết lại."
+    },
+    "examples": [
+      { "word": "手紙", "reading": "てがみ", "meaning": "bức thư" },
+      { "word": "和紙", "reading": "わし", "meaning": "giấy Nhật" },
+      { "word": "コピー用紙", "reading": "コピーようし", "meaning": "giấy photocopy" },
+      { "word": "新聞紙", "reading": "しんぶんし", "meaning": "tờ báo" },
+      { "word": "折り紙", "reading": "origami", "meaning": "nghệ thuật gấp giấy" }
+    ]
+  },
+  {
+    "kanji": "県",
+    "amHan": "Huyện",
+    "nghia": "Tỉnh, huyện",
+    "onyomi": "ケン",
+    "kunyomi": "か・ける",
+    "mnemonic": {
+      "text": "Bộ MỤC (目) nằm ngang phía trên và bộ HỆ (糸) ở dưới. Một đơn vị hành chính quản lý việc kiểm soát sổ sách (Mục) và sự liên kết (Hệ)."
+    },
+    "examples": [
+      { "word": "県庁", "reading": "けんちょう", "meaning": "tòa thị chính tỉnh" },
+      { "word": "青森県", "reading": "あおもりけん", "meaning": "tỉnh Aomori" },
+      { "word": "県内", "reading": "けんない", "meaning": "trong tỉnh" },
+      { "word": "県民", "reading": "けんみん", "meaning": "người dân trong tỉnh" },
+      { "word": "県立", "reading": "けんりつ", "meaning": "do tỉnh thiết lập" }
+    ]
+  },
+  {
+    "kanji": "都",
+    "amHan": "Đô",
+    "nghia": "Kinh đô, thành phố",
+    "onyomi": "ト, ツ",
+    "kunyomi": "みやこ",
+    "mnemonic": {
+      "text": "Bên trái là chữ GIẢ (者 - người), bên phải là bộ ẤP (⻖ - vùng đất). Vùng đất có nhiều người tụ họp là ĐÔ thành."
+    },
+    "examples": [
+      { "word": "東京都", "reading": "とうきょうと", "meaning": "thủ đô Tokyo" },
+      { "word": "都会", "reading": "とかい", "meaning": "thành thị" },
+      { "word": "京都", "reading": "きょうと", "meaning": "Kyoto" },
+      { "word": "都合", "reading": "つごう", "meaning": "điều kiện, thuận tiện" },
+      { "word": "首都", "reading": "しゅと", "meaning": "thủ đô" }
+    ]
+  },
+  {
+    "kanji": "合",
+    "amHan": "Hợp",
+    "nghia": "Phù hợp, kết hợp",
+    "onyomi": "ゴウ, ガッ",
+    "kunyomi": "あ・う",
+    "mnemonic": {
+      "text": "Trên là bộ NHÂN (人), dưới là bộ KHẨU (口). Nhiều người cùng lên tiếng thì sẽ đạt được sự hòa HỢP."
+    },
+    "examples": [
+      { "word": "合う", "reading": "あう", "meaning": "hợp, vừa" },
+      { "word": "試合", "reading": "しあい", "meaning": "trận đấu" },
+      { "word": "間に合う", "reading": "まにあう", "meaning": "kịp lúc" },
+      { "word": "合格", "reading": "ごうかく", "meaning": "đỗ, vượt qua kỳ thi" },
+      { "word": "話し合う", "reading": "はなしあう", "meaning": "thảo luận" }
+    ]
+  },
+  {
+    "kanji": "速",
+    "amHan": "Tốc",
+    "nghia": "Tốc độ, nhanh",
+    "onyomi": "ソク",
+    "kunyomi": "はや・い",
+    "mnemonic": {
+      "text": "Bộ SÁI (辶 - đi) và chữ THÚC (束 - bó lại). Đi bộ mà cơ thể gọn gàng như một bó đuốc thì TỐC độ sẽ nhanh."
+    },
+    "examples": [
+      { "word": "速い", "reading": "はやい", "meaning": "nhanh" },
+      { "word": "速度", "reading": "そくど", "meaning": "tốc độ" },
+      { "word": "高速", "reading": "こうそく", "meaning": "cao tốc" },
+      { "word": "速達", "reading": "そくたつ", "meaning": "chuyển phát nhanh" },
+      { "word": "早速", "reading": "さっそく", "meaning": "ngay lập tức" }
+    ]
+  },
+  {
+    "kanji": "直",
+    "amHan": "Trực",
+    "nghia": "Thẳng, sửa lại",
+    "onyomi": "チョク, ジキ",
+    "kunyomi": "なお・す",
+    "mnemonic": {
+      "text": "Gồm bộ MỤC (目) và nét sổ thẳng. Mười (十) con mắt cùng nhìn vào một vật thì sẽ thấy sự thật TRỰC diện và thẳng thắn."
+    },
+    "examples": [
+      { "word": "直す", "reading": "なおす", "meaning": "sửa chữa" },
+      { "word": "直接", "reading": "ちょくせつ", "meaning": "trực tiếp" },
+      { "word": "正直", "reading": "しょうじき", "meaning": "thành thật" },
+      { "word": "直通", "reading": "ちょくつう", "meaning": "đi thẳng (xe)" },
+      { "word": "直後", "reading": "ちょくご", "meaning": "ngay sau khi" }
+    ]
+  }
+]

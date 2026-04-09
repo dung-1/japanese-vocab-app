@@ -1,0 +1,238 @@
+[
+  {
+    "kanji": "遊",
+    "amHan": "Du",
+    "nghia": "Chơi, vui chơi",
+    "onyomi": "ユウ, ユ",
+    "kunyomi": "あそ・ぶ",
+    "mnemonic": {
+      "text": "Đứa trẻ (子) cầm cờ (方) đi (辶) du ngoạn khắp nơi để vui DU (chơi)."
+    },
+    "examples": [
+      { "word": "遊ぶ", "reading": "あそぶ", "meaning": "chơi" },
+      { "word": "遊園地", "reading": "ゆうえんち", "meaning": "khu vui chơi" },
+      { "word": "遊び", "reading": "あそび", "meaning": "trò chơi, sự vui chơi" },
+      { "word": "周遊", "reading": "しゅうゆう", "meaning": "chu du, đi quanh" }
+    ]
+  },
+  {
+    "kanji": "選",
+    "amHan": "Tuyển",
+    "nghia": "Lựa chọn",
+    "onyomi": "セン",
+    "kunyomi": "えら・ぶ",
+    "mnemonic": {
+      "text": "Hai người (己己) cùng đi (辶) trên một con đường để TUYỂN (chọn) ra người giỏi nhất."
+    },
+    "examples": [
+      { "word": "選ぶ", "reading": "えらぶ", "meaning": "lựa chọn" },
+      { "word": "選手", "reading": "せんしゅ", "meaning": "tuyển thủ, vận động viên" },
+      { "word": "選挙", "reading": "せんきょ", "meaning": "bầu cử" },
+      { "word": "選択する", "reading": "せんたくする", "meaning": "tuyển chọn, lựa chọn" }
+    ]
+  },
+  {
+    "kanji": "球",
+    "amHan": "Cầu",
+    "nghia": "Hình tròn, quả cầu",
+    "onyomi": "キュウ",
+    "kunyomi": "たま",
+    "mnemonic": {
+      "text": "Vị vua (王) sở hữu một viên ngọc quý (求) hình CẦU."
+    },
+    "examples": [
+      { "word": "野球", "reading": "やきゅう", "meaning": "bóng chày" },
+      { "word": "地球", "reading": "ちきゅう", "meaning": "trái đất" },
+      { "word": "電球", "reading": "でんきゅう", "meaning": "bóng đèn" },
+      { "word": "水球", "reading": "すいきゅう", "meaning": "bóng nước" }
+    ]
+  },
+  {
+    "kanji": "育",
+    "amHan": "Dục",
+    "nghia": "Nuôi dưỡng, giáo dục",
+    "onyomi": "イク",
+    "kunyomi": "そだ・つ, そだ・てる, はぐく・む",
+    "mnemonic": {
+      "text": "Đứa trẻ (育 - phần trên là chữ tử ngược) được nuôi dưỡng bằng thịt (月) để lớn khôn (DỤC)."
+    },
+    "examples": [
+      { "word": "育つ", "reading": "そだつ", "meaning": "lớn lên (tự động từ)" },
+      { "word": "育てる", "reading": "そだてる", "meaning": "nuôi nấng (tha động từ)" },
+      { "word": "教育", "reading": "きょういく", "meaning": "giáo dục" },
+      { "word": "体育", "reading": "たいいく", "meaning": "thể dục" }
+    ]
+  },
+  {
+    "kanji": "温",
+    "amHan": "Ôn",
+    "nghia": "Ấm áp (nhiệt độ chất lỏng)",
+    "onyomi": "オン",
+    "kunyomi": "あたた・かい, あたた・まる, あたた・める",
+    "mnemonic": {
+      "text": "Đổ nước (氵) vào bình (皿) dưới ánh mặt trời (日) để làm ÔN (ấm) nước."
+    },
+    "examples": [
+      { "word": "温かい", "reading": "あたたかい", "meaning": "ấm áp (nước, đồ ăn, lòng người)" },
+      { "word": "温度", "reading": "おんど", "meaning": "nhiệt độ" },
+      { "word": "温泉", "reading": "おんせん", "meaning": "suối nước nóng" },
+      { "word": "体温計", "reading": "たいおんけい", "meaning": "nhiệt kế" }
+    ]
+  },
+  {
+    "kanji": "燃",
+    "amHan": "Nhiên",
+    "nghia": "Đốt cháy",
+    "onyomi": "ネン",
+    "kunyomi": "も・える, も・やす, も・す",
+    "mnemonic": {
+      "text": "Dùng lửa (火) đốt (然 - nhiên) cho NHIÊN (cháy) bùng lên."
+    },
+    "examples": [
+      { "word": "燃える", "reading": "もえる", "meaning": "cháy (tự động từ)" },
+      { "word": "燃やす", "reading": "もやす", "meaning": "đốt cháy (tha động từ)" },
+      { "word": "燃料", "reading": "ねんりょう", "meaning": "nhiên liệu" },
+      { "word": "燃えるゴミ", "reading": "もえるゴミ", "meaning": "rác cháy được" }
+    ]
+  },
+  {
+    "kanji": "吹",
+    "amHan": "Xuy",
+    "nghia": "Thổi",
+    "onyomi": "スイ",
+    "kunyomi": "ふ・く",
+    "mnemonic": {
+      "text": "Dùng miệng (口) thổi cho đến khi thiếu (欠 - khiếm) cả hơi thở (XUY)."
+    },
+    "examples": [
+      { "word": "吹く", "reading": "ふく", "meaning": "thổi (gió thổi)" },
+      { "word": "吹き出す", "reading": "ふきだす", "meaning": "phun ra, phà hơi" },
+      { "word": "吹奏楽", "reading": "すいそうがく", "meaning": "nhạc cụ hơi (kèn, sáo...)" }
+    ]
+  },
+  {
+    "kanji": "落",
+    "amHan": "Lạc",
+    "nghia": "Rơi, rụng",
+    "onyomi": "ラク",
+    "kunyomi": "お・ちる, お・とす",
+    "mnemonic": {
+      "text": "Cỏ (艹) rụng xuống nước (氵) ở các địa phương (各 - các) là sự LẠC (rơi)."
+    },
+    "examples": [
+      { "word": "落ちる", "reading": "おちる", "meaning": "rơi, rụng, thi trượt (tự động từ)" },
+      { "word": "落とす", "reading": "おとす", "meaning": "làm rơi, đánh mất (tha động từ)" },
+      { "word": "落ち着く", "reading": "おちつく", "meaning": "bình tĩnh" },
+      { "word": "落とし物", "reading": "おとしもの", "meaning": "đồ đánh rơi" }
+    ]
+  },
+  {
+    "kanji": "届",
+    "amHan": "Giới",
+    "nghia": "Gửi đến, thông báo",
+    "onyomi": "カイ",
+    "kunyomi": "とど・ける, とど・く",
+    "mnemonic": {
+      "text": "Dưới mái nhà (尸), dùng cái cọc (由) để GIỚI (gửi) đồ đến nơi."
+    },
+    "examples": [
+      { "word": "届ける", "reading": "とどける", "meaning": "gửi đến, trình báo (tha động từ)" },
+      { "word": "届く", "reading": "とどく", "meaning": "đến nơi, đạt được (tự động từ)" },
+      { "word": "届け出", "reading": "とどけで", "meaning": "đơn từ, báo cáo" }
+    ]
+  },
+  {
+    "kanji": "賛",
+    "amHan": "Tán",
+    "nghia": "Tán thành, giúp đỡ",
+    "onyomi": "サン",
+    "kunyomi": "たす・ける, たた・える",
+    "mnemonic": {
+      "text": "Hai người (夫夫) đưa tiền (貝) cho nhau để TÁN thành một kế hoạch."
+    },
+    "examples": [
+      { "word": "賛成する", "reading": "さんせいする", "meaning": "tán thành, đồng ý" },
+      { "word": "賛辞", "reading": "さんじ", "meaning": "lời tán dương" },
+      { "word": "絶賛する", "reading": "ぜっさんする", "meaning": "hết lời khen ngợi" }
+    ]
+  },
+  {
+    "kanji": "恋",
+    "amHan": "Luyến",
+    "nghia": "Yêu, tình yêu",
+    "onyomi": "レン",
+    "kunyomi": "こ・い, こい・しい, こ・う",
+    "mnemonic": {
+      "text": "Trái tim (心) bị vướng vào những sợi tơ hồng của tình LUYẾN."
+    },
+    "examples": [
+      { "word": "恋", "reading": "こい", "meaning": "tình yêu" },
+      { "word": "恋人", "reading": "こいびと", "meaning": "người yêu" },
+      { "word": "恋愛", "reading": "れんあい", "meaning": "yêu đương" },
+      { "word": "失恋する", "reading": "しつれんする", "meaning": "thất tình" }
+    ]
+  },
+  {
+    "kanji": "庭",
+    "amHan": "Đình",
+    "nghia": "Cái sân, sân vườn",
+    "onyomi": "テイ",
+    "kunyomi": "にわ",
+    "mnemonic": {
+      "text": "Dưới mái nhà (广), có cái sân (廷 - đình) để cả gia ĐÌNH sinh hoạt."
+    },
+    "examples": [
+      { "word": "庭", "reading": "にわ", "meaning": "cái sân, vườn" },
+      { "word": "庭園", "reading": "ていえん", "meaning": "đình viên, vườn hoa" },
+      { "word": "家庭", "reading": "かてい", "meaning": "gia đình" },
+      { "word": "校庭", "reading": "こうてい", "meaning": "sân trường" }
+    ]
+  },
+  {
+    "kanji": "妻",
+    "amHan": "Thê",
+    "nghia": "Vợ",
+    "onyomi": "サイ",
+    "kunyomi": "つま",
+    "mnemonic": {
+      "text": "Hình ảnh người phụ nữ (女) đội trang sức trên đầu chính là người THÊ (vợ)."
+    },
+    "examples": [
+      { "word": "妻", "reading": "つま", "meaning": "vợ (mình)" },
+      { "word": "夫妻", "reading": "ふさい", "meaning": "vợ chồng (ông bà...)" },
+      { "word": "一夫多妻", "reading": "いっぷたさい", "meaning": "năm thê bảy thiếp (một chồng nhiều vợ)" }
+    ]
+  },
+  {
+    "kanji": "夫",
+    "amHan": "Phu",
+    "nghia": "Chồng",
+    "onyomi": "フ, フウ, ブ",
+    "kunyomi": "おっと",
+    "mnemonic": {
+      "text": "Một người đàn ông (大) đội thêm một cái trâm cài tóc chính là trượng PHU (chồng)."
+    },
+    "examples": [
+      { "word": "夫", "reading": "おっと", "meaning": "chồng (mình)" },
+      { "word": "ご主人", "reading": "ごしゅじん", "meaning": "chồng (người khác)" },
+      { "word": "工夫する", "reading": "くふうする", "meaning": "công phu, tìm tòi cách làm" },
+      { "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "không sao, ổn" }
+    ]
+  },
+  {
+    "kanji": "由",
+    "amHan": "Do",
+    "nghia": "Lý do, tự do",
+    "onyomi": "ユ, ユウ",
+    "kunyomi": "よし",
+    "mnemonic": {
+      "text": "Cái mầm (phần nhô lên) mọc ra từ hạt giống (田) là nguyên DO (tự do) phát triển."
+    },
+    "examples": [
+      { "word": "自由", "reading": "じゆう", "meaning": "tự do" },
+      { "word": "理由", "reading": "りゆう", "meaning": "lý do" },
+      { "word": "経由", "reading": "けいゆ", "meaning": "thông qua, đi qua (địa điểm)" },
+      { "word": "不自由", "reading": "ふじゆう", "meaning": "không tự do, khuyết tật" }
+    ]
+  }
+]

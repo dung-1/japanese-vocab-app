@@ -1,0 +1,254 @@
+[
+  {
+    "kanji": "必",
+    "amHan": "Tất",
+    "nghia": "Tất nhiên, nhất định",
+    "onyomi": "ヒツ",
+    "kunyomi": "かなら・ず",
+    "mnemonic": {
+      "text": "Trái tim (心) bị một nét gạch xuyên qua, thể hiện sự quyết tâm TẤT yếu."
+    },
+    "examples": [
+      { "word": "必ず", "reading": "かならず", "meaning": "nhất định" },
+      { "word": "必要な", "reading": "ひつような", "meaning": "cần thiết" },
+      { "word": "必死に", "reading": "ひっしに", "meaning": "quyết tâm, liều chết" },
+      { "word": "必然", "reading": "ひつぜん", "meaning": "tất nhiên" },
+      { "word": "必着", "reading": "ひっちゃく", "meaning": "nhất định phải đến (hạn chót)" }
+    ]
+  },
+  {
+    "kanji": "要",
+    "amHan": "Yếu",
+    "nghia": "Cần thiết, trọng yếu",
+    "onyomi": "ヨウ",
+    "kunyomi": "い・る",
+    "mnemonic": {
+      "text": "Người phụ nữ (女) đang chống nạnh, thể hiện bộ phận eo là YẾU điểm (quan trọng)."
+    },
+    "examples": [
+      { "word": "要る", "reading": "いる", "meaning": "cần" },
+      { "word": "重要な", "reading": "じゅうような", "meaning": "quan trọng" },
+      { "word": "要領", "reading": "ようりょう", "meaning": "điểm chính, sự khéo léo" },
+      { "word": "不要な", "reading": "ふような", "meaning": "không cần thiết" },
+      { "word": "要件", "reading": "ようけん", "meaning": "yêu cầu, điều kiện" }
+    ]
+  },
+  {
+    "kanji": "絶",
+    "amHan": "Tuyệt",
+    "nghia": "Cắt đứt, tuyệt đối",
+    "onyomi": "ゼツ",
+    "kunyomi": "た・える, た・つ",
+    "mnemonic": {
+      "text": "Dùng dao cắt đứt sợi chỉ (糸) và các mảnh màu (色) để tạo ra sự TUYỆT giao."
+    },
+    "examples": [
+      { "word": "絶対に", "reading": "ぜったいに", "meaning": "tuyệt đối" },
+      { "word": "絶えず", "reading": "たえず", "meaning": "liên tục, không ngớt" },
+      { "word": "気絶する", "reading": "きぜつする", "meaning": "ngất xỉu" },
+      { "word": "絶滅", "reading": "ぜつめつ", "meaning": "tuyệt chủng" },
+      { "word": "絶望", "reading": "ぜつぼう", "meaning": "tuyệt vọng" }
+    ]
+  },
+  {
+    "kanji": "対",
+    "amHan": "Đối",
+    "nghia": "Đối diện, đối với",
+    "onyomi": "タイ, ツイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Tay (寸) cầm lấy vật phẩm đặt trước mặt để ĐỐI chiếu."
+    },
+    "examples": [
+      { "word": "反対する", "reading": "はんたいする", "meaning": "phản đối" },
+      { "word": "対象", "reading": "たいしょう", "meaning": "đối tượng" },
+      { "word": "対面", "reading": "たいめん", "meaning": "đối mặt" },
+      { "word": "一対", "reading": "いっつい", "meaning": "một cặp" },
+      { "word": "応対する", "reading": "おうたいする", "meaning": "tiếp đãi, ứng đáp" }
+    ]
+  },
+  {
+    "kanji": "然",
+    "amHan": "Nhiên",
+    "nghia": "Quả nhiên, tự nhiên",
+    "onyomi": "ゼン, ネン",
+    "kunyomi": "しか・し",
+    "mnemonic": {
+      "text": "Thịt (月) chó (犬) được đốt trên lửa (灬) tạo ra mùi thơm tự NHIÊN."
+    },
+    "examples": [
+      { "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn (không)" },
+      { "word": "当然", "reading": "とうぜん", "meaning": "đương nhiên" },
+      { "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" },
+      { "word": "突然", "reading": "とつぜん", "meaning": "đột nhiên" },
+      { "word": "依然として", "reading": "いぜんとして", "meaning": "vẫn như cũ" }
+    ]
+  },
+  {
+    "kanji": "難",
+    "amHan": "Nan",
+    "nghia": "Khó khăn",
+    "onyomi": "ナン",
+    "kunyomi": "むずか・しい, かた・い",
+    "mnemonic": {
+      "text": "Con chim (隹) sống giữa bụi gai khô héo là một kiếp NAN (khó khăn)."
+    },
+    "examples": [
+      { "word": "難しい", "reading": "むずかしい", "meaning": "khó" },
+      { "word": "困難な", "reading": "こんなんな", "meaning": "khó khăn" },
+      { "word": "難問", "reading": "なんもん", "meaning": "vấn đề nan giải" },
+      { "word": "避難する", "reading": "ひなんする", "meaning": "lánh nạn" },
+      { "word": "有り難い", "reading": "ありがたい", "meaning": "biết ơn" }
+    ]
+  },
+  {
+    "kanji": "残",
+    "amHan": "Tàn",
+    "nghia": "Sót lại, tàn nhẫn",
+    "onyomi": "ザン",
+    "kunyomi": "のこ・る, のこ・す",
+    "mnemonic": {
+      "text": "Sau khi bị giết bằng hai cái mâu (戈), xương (歹) là thứ còn TÀN (sót) lại."
+    },
+    "examples": [
+      { "word": "残る", "reading": "のこる", "meaning": "còn sót lại" },
+      { "word": "残念な", "reading": "ざんねんな", "meaning": "đáng tiếc" },
+      { "word": "残業", "reading": "ざんぎょう", "meaning": "làm thêm giờ" },
+      { "word": "残高", "reading": "ざんだか", "meaning": "số dư tài khoản" },
+      { "word": "残らず", "reading": "のこらず", "meaning": "không chừa lại gì" }
+    ]
+  },
+  {
+    "kanji": "念",
+    "amHan": "Niệm",
+    "nghia": "Suy nghĩ, ý niệm",
+    "onyomi": "ネン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong tâm (心) bây giờ (今) đang có một ý NIỆM."
+    },
+    "examples": [
+      { "word": "記念", "reading": "きねん", "meaning": "kỷ niệm" },
+      { "word": "念のため", "reading": "ねんのため", "meaning": "để cho chắc chắn" },
+      { "word": "断念する", "reading": "だんねんする", "meaning": "từ bỏ" },
+      { "word": "専念する", "reading": "せんねんする", "meaning": "say mê, chuyên tâm" }
+    ]
+  },
+  {
+    "kanji": "複",
+    "amHan": "Phức",
+    "nghia": "Phức tạp, lặp lại",
+    "onyomi": "フク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Mặc quần áo (衤) đi đi lại lại (復 - phục) nhiều lần gọi là PHỨC (kép/lặp)."
+    },
+    "examples": [
+      { "word": "複雑な", "reading": "ふくざつな", "meaning": "phức tạp" },
+      { "word": "複数", "reading": "ふくすう", "meaning": "số nhiều" },
+      { "word": "複写", "reading": "ふくしゃ", "meaning": "bản sao, photocopy" },
+      { "word": "重複", "reading": "ちょうふく", "meaning": "trùng lặp" }
+    ]
+  },
+  {
+    "kanji": "雑",
+    "amHan": "Tạp",
+    "nghia": "Tạp nham, lẫn lộn",
+    "onyomi": "ザツ, ゾウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Nhiều con chim (隹) đậu trên cây (木) kêu loạn xạ tạo nên sự TẠP loạn."
+    },
+    "examples": [
+      { "word": "雑誌", "reading": "ざっし", "meaning": "tạp chí" },
+      { "word": "混雑する", "reading": "こんざつする", "meaning": "đông đúc, hỗn loạn" },
+      { "word": "雑音", "reading": "ざつおん", "meaning": "tạp âm" },
+      { "word": "雑用", "reading": "ざつよう", "meaning": "việc vặt" },
+      { "word": "雑な", "reading": "ざつな", "meaning": "qua loa, cẩu thả" }
+    ]
+  },
+  {
+    "kanji": "汚",
+    "amHan": "Ô",
+    "nghia": "Bẩn",
+    "onyomi": "オ",
+    "kunyomi": "よご・れる, きたな・い",
+    "mnemonic": {
+      "text": "Dòng nước (氵) bị ứ đọng lại sẽ trở nên Ô nhiễm (bẩn)."
+    },
+    "examples": [
+      { "word": "汚い", "reading": "きたない", "meaning": "bẩn" },
+      { "word": "汚れる", "reading": "よごれる", "meaning": "bị bẩn" },
+      { "word": "汚染", "reading": "おせん", "meaning": "ô nhiễm" },
+      { "word": "汚名", "reading": "おめい", "meaning": "ô danh, tai tiếng" },
+      { "word": "汚す", "reading": "よごす", "meaning": "làm bẩn" }
+    ]
+  },
+  {
+    "kanji": "表",
+    "amHan": "Biểu",
+    "nghia": "Mặt ngoài, biểu đồ, phát biểu",
+    "onyomi": "ヒョウ",
+    "kunyomi": "おもて, あらわ・す",
+    "mnemonic": {
+      "text": "Dùng áo (衣) làm mặt ngoài để BIỂU thị ra bên ngoài."
+    },
+    "examples": [
+      { "word": "表面", "reading": "ひょうめん", "meaning": "bề mặt" },
+      { "word": "発表する", "reading": "はっぴょうする", "meaning": "phát biểu" },
+      { "word": "表", "reading": "おもて", "meaning": "mặt trước" },
+      { "word": "時刻表", "reading": "じこくひょう", "meaning": "bảng giờ chạy tàu" },
+      { "word": "表す", "reading": "あらわす", "meaning": "biểu thị, lộ ra" }
+    ]
+  },
+  {
+    "kanji": "倒",
+    "amHan": "Đảo",
+    "nghia": "Ngã, đổ",
+    "onyomi": "トウ",
+    "kunyomi": "たお・れる, たお・す",
+    "mnemonic": {
+      "text": "Một người (人) đi tới (到 - đáo) đích thì mệt quá lăn ĐẢO (ngã) ra."
+    },
+    "examples": [
+      { "word": "倒れる", "reading": "たおれる", "meaning": "đổ, ngã (tự động từ)" },
+      { "word": "倒す", "reading": "たおす", "meaning": "đánh bại, làm đổ (tha động từ)" },
+      { "word": "面倒な", "reading": "めんどうな", "meaning": "phiền phức" },
+      { "word": "倒産", "reading": "とうさん", "meaning": "phá sản" },
+      { "word": "圧倒的", "reading": "あっとうてき", "meaning": "áp đảo" }
+    ]
+  },
+  {
+    "kanji": "故",
+    "amHan": "Cố",
+    "nghia": "Sự cố, người đã khuất",
+    "onyomi": "コ",
+    "kunyomi": "ゆえ",
+    "mnemonic": {
+      "text": "Chuyện cũ (古) bị đánh (攵 - phác) nhắc lại chính là duyên CỐ."
+    },
+    "examples": [
+      { "word": "事故", "reading": "じこ", "meaning": "tai nạn, sự cố" },
+      { "word": "故障する", "reading": "こしょうする", "meaning": "hỏng hóc" },
+      { "word": "故郷", "reading": "こきょう", "meaning": "quê hương" },
+      { "word": "故人", "reading": "こじん", "meaning": "cố nhân, người đã chết" }
+    ]
+  },
+  {
+    "kanji": "確",
+    "amHan": "Xác",
+    "nghia": "Xác thực, chính xác",
+    "onyomi": "カク",
+    "kunyomi": "たし・か",
+    "mnemonic": {
+      "text": "Dùng đá (石) để đập vào chim hạc (họa - chữ bên phải) để XÁC nhận độ cứng."
+    },
+    "examples": [
+      { "word": "確かめる", "reading": "たしかめる", "meaning": "xác nhận, kiểm tra" },
+      { "word": "正確な", "reading": "せいかくな", "meaning": "chính xác" },
+      { "word": "確認する", "reading": "かくにんする", "meaning": "xác nhận" },
+      { "word": "確定", "reading": "かくてい", "meaning": "xác định" },
+      { "word": "確かに", "reading": "たしかに", "meaning": "chắc chắn là" }
+    ]
+  }
+]

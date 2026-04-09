@@ -1,0 +1,149 @@
+[
+  {
+    "kanji": "京",
+    "amHan": "Kinh",
+    "nghia": "Kinh đô",
+    "onyomi": "キョウ, ケイ",
+    "kunyomi": "みやこ",
+    "mnemonic": {
+      "text": "Dưới mái nhà (亠) lớn là một thành phố (口) có các tòa nhà cao (小) mọc lên, đó là KINH đô."
+    },
+    "examples": [
+      { "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" },
+      { "word": "京都", "reading": "きょうと", "meaning": "Kyoto" },
+      { "word": "上京する", "reading": "じょうきょうする", "meaning": "đi lên thủ đô" },
+      { "word": "京浜", "reading": "けいひん", "meaning": "vùng Tokyo và Yokohama" }
+    ]
+  },
+  {
+    "kanji": "私",
+    "amHan": "Tư",
+    "nghia": "Tôi, cá nhân",
+    "onyomi": "シ",
+    "kunyomi": "わたし, わたくし",
+    "mnemonic": {
+      "text": "Cây lúa (禾) này là của riêng (厶 - tư) tôi (TƯ)."
+    },
+    "examples": [
+      { "word": "私", "reading": "わたし", "meaning": "tôi" },
+      { "word": "私立大学", "reading": "しりつだいがく", "meaning": "trường đại học tư thục" },
+      { "word": "私生活", "reading": "しせいかつ", "meaning": "đời sống riêng tư" },
+      { "word": "私物", "reading": "しぶつ", "meaning": "vật dụng cá nhân" }
+    ]
+  },
+  {
+    "kanji": "乗",
+    "amHan": "Thừa",
+    "nghia": "Lên xe, cưỡi",
+    "onyomi": "ジョウ",
+    "kunyomi": "の・る, の・せる",
+    "mnemonic": {
+      "text": "Một người đứng trên cây gỗ để quan sát và THỪA (lên) xe."
+    },
+    "examples": [
+      { "word": "乗る", "reading": "のる", "meaning": "lên xe, đi xe (tự động từ)" },
+      { "word": "乗せる", "reading": "のせる", "meaning": "cho lên xe, chở đi (tha động từ)" },
+      { "word": "乗り物", "reading": "のりもの", "meaning": "phương tiện giao thông" },
+      { "word": "乗客", "reading": "じょうきゃく", "meaning": "hành khách" },
+      { "word": "乗車券", "reading": "じょうしゃけん", "meaning": "vé xe, vé tàu" }
+    ]
+  },
+  {
+    "kanji": "菜",
+    "amHan": "Thái",
+    "nghia": "Rau",
+    "onyomi": "サイ",
+    "kunyomi": "な",
+    "mnemonic": {
+      "text": "Dùng tay hái (采) cỏ (艹) về làm rau THÁI."
+    },
+    "examples": [
+      { "word": "野菜", "reading": "やさい", "meaning": "rau" },
+      { "word": "菜食", "reading": "さいしょく", "meaning": "ăn chay" },
+      { "word": "白菜", "reading": "はくさい", "meaning": "cải thảo" },
+      { "word": "惣菜", "reading": "そうざい", "meaning": "món ăn chế biến sẵn" }
+    ]
+  },
+  {
+    "kanji": "吸",
+    "amHan": "Hấp",
+    "nghia": "Hít, hút",
+    "onyomi": "キュウ",
+    "kunyomi": "す・う",
+    "mnemonic": {
+      "text": "Dùng miệng (口) để HẤP (hút) lấy một người (及 - cập) đang tới gần."
+    },
+    "examples": [
+      { "word": "吸う", "reading": "すう", "meaning": "hút, hít" },
+      { "word": "呼吸する", "reading": "こきゅうする", "meaning": "hô hấp, hít thở" },
+      { "word": "吸収する", "reading": "きゅうしゅうする", "meaning": "hấp thụ" },
+      { "word": "吸引する", "reading": "きゅういんする", "meaning": "hút (bằng máy)" }
+    ]
+  },
+  {
+    "kanji": "記",
+    "amHan": "Ký",
+    "nghia": "Ghi chép",
+    "onyomi": "キ",
+    "kunyomi": "しる・す",
+    "mnemonic": {
+      "text": "Dùng lời nói (言) để ghi KÝ lại những gì bản thân (己 - kỷ) đã trải qua."
+    },
+    "examples": [
+      { "word": "日記", "reading": "にっき", "meaning": "nhật ký" },
+      { "word": "記事", "reading": "きじ", "meaning": "phóng sự, bài báo" },
+      { "word": "暗記する", "reading": "あんきする", "meaning": "học thuộc lòng" },
+      { "word": "記念", "reading": "きねん", "meaning": "kỷ niệm" },
+      { "word": "記入する", "reading": "きにゅうする", "meaning": "điền vào, ghi vào" }
+    ]
+  },
+  {
+    "kanji": "雪",
+    "amHan": "Tuyết",
+    "nghia": "Tuyết",
+    "onyomi": "セツ",
+    "kunyomi": "ゆき",
+    "mnemonic": {
+      "text": "Mưa (雨) rơi xuống mà có thể dùng tay cầm được thì đó là TUYẾT."
+    },
+    "examples": [
+      { "word": "雪", "reading": "ゆき", "meaning": "tuyết" },
+      { "word": "大雪", "reading": "おおゆき", "meaning": "tuyết rơi dày" },
+      { "word": "新雪", "reading": "しんせつ", "meaning": "tuyết mới" },
+      { "word": "雪祭り", "reading": "ゆきまつり", "meaning": "lễ hội tuyết" }
+    ]
+  },
+  {
+    "kanji": "絵",
+    "amHan": "Hội",
+    "nghia": "Bức tranh",
+    "onyomi": "カイ, エ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng những sợi chỉ (糸) đầy màu sắc để HỘI (vẽ) nên bức tranh họp mặt (会)."
+    },
+    "examples": [
+      { "word": "絵", "reading": "え", "meaning": "bức tranh" },
+      { "word": "絵本", "reading": "えほん", "meaning": "sách tranh" },
+      { "word": "絵画", "reading": "かいが", "meaning": "hội họa" },
+      { "word": "油絵", "reading": "あぶらえ", "meaning": "tranh sơn dầu" }
+    ]
+  },
+  {
+    "kanji": "消",
+    "amHan": "Tiêu",
+    "nghia": "Tắt, xóa, tiêu hao",
+    "onyomi": "ショウ",
+    "kunyomi": "き・える, け・す",
+    "mnemonic": {
+      "text": "Dùng nước (氵) tưới lên miếng thịt (月) đang nướng để TIÊU (tắt) lửa."
+    },
+    "examples": [
+      { "word": "消える", "reading": "きえる", "meaning": "tắt, biến mất (tự động từ)" },
+      { "word": "消す", "reading": "けす", "meaning": "tắt, xóa (tha động từ)" },
+      { "word": "消しゴム", "reading": "けしゴム", "meaning": "cục tẩy" },
+      { "word": "消費する", "reading": "しょうひする", "meaning": "tiêu dùng" },
+      { "word": "消防車", "reading": "しょうぼうしゃ", "meaning": "xe cứu hỏa" }
+    ]
+  }
+]

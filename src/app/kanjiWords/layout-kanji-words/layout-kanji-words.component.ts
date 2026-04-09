@@ -6,7 +6,7 @@ import { isPlatformBrowser } from '@angular/common';
   selector: 'app-layout-kanji-words',
   standalone: false,
   templateUrl: './layout-kanji-words.component.html',
-  styleUrl: './layout-kanji-words.component.css'
+  styleUrl: './layout-kanji-words.component.css',
 })
 export class LayoutKanjiWordsComponent {
   selectedLessonVocab: any[] = [];
@@ -14,7 +14,7 @@ export class LayoutKanjiWordsComponent {
 
   constructor(
     private http: HttpClient,
-    @Inject(PLATFORM_ID) private platformId: Object
+    @Inject(PLATFORM_ID) private platformId: Object,
   ) {
     if (isPlatformBrowser(this.platformId)) {
       this.preloadVocabData();
@@ -28,7 +28,8 @@ export class LayoutKanjiWordsComponent {
     // Preload data for N2 and N3 in background (only if not cached)
     const levels: { level: string; count: number }[] = [
       { level: 'N3', count: 30 },
-      { level: 'N2', count: 2 }
+      { level: 'N2', count: 2 },
+      { level: 'N4', count: 26 },
     ];
     for (const { level, count } of levels) {
       for (let i = 1; i <= count; i++) {
@@ -36,12 +37,16 @@ export class LayoutKanjiWordsComponent {
         const cachedData = localStorage.getItem(cacheKey);
         if (!cachedData) {
           const cacheBuster = `?t=${Date.now()}`;
-          this.http.get<any[]>(`assets/kanji-words-data/${level}/lesson${i}.json${cacheBuster}`).subscribe({
-            next: (data) => {
-              localStorage.setItem(cacheKey, JSON.stringify(data));
-            },
-            error: (err) => console.error(`Lỗi tải ${cacheKey}:`, err)
-          });
+          this.http
+            .get<
+              any[]
+            >(`assets/kanji-words-data/${level}/lesson${i}.json${cacheBuster}`)
+            .subscribe({
+              next: (data) => {
+                localStorage.setItem(cacheKey, JSON.stringify(data));
+              },
+              error: (err) => console.error(`Lỗi tải ${cacheKey}:`, err),
+            });
         }
       }
     }
@@ -58,22 +63,28 @@ export class LayoutKanjiWordsComponent {
       // Use cache-busting timestamp to prevent browser HTTP cache
       const cacheBuster = `?t=${Date.now()}`;
       const cacheKey = `kanji-words-${level}-lesson${lessonNumber}`;
-      this.http.get<any[]>(`assets/kanji-words-data/${level}/lesson${lessonNumber}.json${cacheBuster}`).subscribe({
-        next: (data) => {
-          this.selectedLessonVocab = this.shuffleArray([...data]);
-          // Update localStorage with fresh data
-          localStorage.setItem(cacheKey, JSON.stringify(data));
-        },
-        error: () => {
-          // Fallback to cached data if HTTP fetch fails
-          const cachedData = localStorage.getItem(cacheKey);
-          if (cachedData) {
-            this.selectedLessonVocab = this.shuffleArray(JSON.parse(cachedData));
-          } else {
-            this.selectedLessonVocab = [];
-          }
-        }
-      });
+      this.http
+        .get<
+          any[]
+        >(`assets/kanji-words-data/${level}/lesson${lessonNumber}.json${cacheBuster}`)
+        .subscribe({
+          next: (data) => {
+            this.selectedLessonVocab = this.shuffleArray([...data]);
+            // Update localStorage with fresh data
+            localStorage.setItem(cacheKey, JSON.stringify(data));
+          },
+          error: () => {
+            // Fallback to cached data if HTTP fetch fails
+            const cachedData = localStorage.getItem(cacheKey);
+            if (cachedData) {
+              this.selectedLessonVocab = this.shuffleArray(
+                JSON.parse(cachedData),
+              );
+            } else {
+              this.selectedLessonVocab = [];
+            }
+          },
+        });
     } else {
       this.selectedLessonVocab = [];
     }

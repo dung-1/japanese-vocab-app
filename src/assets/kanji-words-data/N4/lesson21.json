@@ -1,0 +1,149 @@
+[
+  {
+    "kanji": "卒",
+    "amHan": "Tốt",
+    "nghia": "Tốt nghiệp, quân lính",
+    "onyomi": "ソツ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Mười (十) người lính mặc áo (衣) đồng phục, sau khi hoàn thành nhiệm vụ thì TỐT nghiệp."
+    },
+    "examples": [
+      { "word": "卒業する", "reading": "そつぎょうする", "meaning": "tốt nghiệp" },
+      { "word": "新卒", "reading": "しんそつ", "meaning": "mới tốt nghiệp" },
+      { "word": "卒直な", "reading": "そっちょくな", "meaning": "thẳng thắn (thường dùng 率直)" },
+      { "word": "大卒", "reading": "だいそつ", "meaning": "tốt nghiệp đại học" }
+    ]
+  },
+  {
+    "kanji": "引",
+    "amHan": "Dẫn",
+    "nghia": "Kéo, tra cứu",
+    "onyomi": "イン",
+    "kunyomi": "ひ・く, ひ・ける",
+    "mnemonic": {
+      "text": "Hình ảnh cây cung (弓) và một nét gạch biểu thị việc kéo dây cung (DẪN)."
+    },
+    "examples": [
+      { "word": "引く", "reading": "ひく", "meaning": "kéo, gạch (dòng), tra (từ điển)" },
+      { "word": "引き出し", "reading": "ひきだし", "meaning": "ngăn kéo" },
+      { "word": "引っ越す", "reading": "ひっこす", "meaning": "chuyển nhà" },
+      { "word": "引用する", "reading": "いんようする", "meaning": "trích dẫn" },
+      { "word": "割引", "reading": "わりびき", "meaning": "giảm giá" }
+    ]
+  },
+  {
+    "kanji": "越",
+    "amHan": "Việt",
+    "nghia": "Vượt qua",
+    "onyomi": "エツ",
+    "kunyomi": "こ・す, こ・える",
+    "mnemonic": {
+      "text": "Chạy (走) cầm theo cái rìu (戉 - việt) để VƯỢT qua biên giới."
+    },
+    "examples": [
+      { "word": "越える", "reading": "こえる", "meaning": "vượt qua (núi, sông, khó khăn)" },
+      { "word": "引っ越す", "reading": "ひっこす", "meaning": "chuyển nhà" },
+      { "word": "追い越す", "reading": "おいこす", "meaning": "vượt qua (xe cộ, năng lực)" },
+      { "word": "ベトナム (越南)", "reading": "ベトナム", "meaning": "Việt Nam" }
+    ]
+  },
+  {
+    "kanji": "太",
+    "amHan": "Thái",
+    "nghia": "Béo, dày, to",
+    "onyomi": "タイ, タ",
+    "kunyomi": "ふと・い, ふと・る",
+    "mnemonic": {
+      "text": "Một người (大) to lớn lại còn có thêm một dấu chấm ở dưới nữa thì thật là THÁI (béo)."
+    },
+    "examples": [
+      { "word": "太い", "reading": "ふとい", "meaning": "mập, dày, to (vật thể)" },
+      { "word": "太る", "reading": "ふとる", "meaning": "béo lên, tăng cân" },
+      { "word": "太陽", "reading": "たいよう", "meaning": "mặt trời" },
+      { "word": "太平洋", "reading": "たいへいよう", "meaning": "Thái Bình Dương" }
+    ]
+  },
+  {
+    "kanji": "細",
+    "amHan": "Tế",
+    "nghia": "Gầy, chi tiết",
+    "onyomi": "サイ",
+    "kunyomi": "ほそ・い, こま・かい",
+    "mnemonic": {
+      "text": "Sợi chỉ (糸) trên cánh đồng (田) trông rất TẾ (nhỏ/mảnh)."
+    },
+    "examples": [
+      { "word": "細い", "reading": "ほそい", "meaning": "gầy, mảnh" },
+      { "word": "細かい", "reading": "こまかい", "meaning": "nhỏ, chi tiết, tiền lẻ" },
+      { "word": "詳細", "reading": "しょうさい", "meaning": "chi tiết" },
+      { "word": "細部", "reading": "さいぶ", "meaning": "chi tiết nhỏ" }
+    ]
+  },
+  {
+    "kanji": "働",
+    "amHan": "Động",
+    "nghia": "Làm việc",
+    "onyomi": "ドウ",
+    "kunyomi": "はたら・く",
+    "mnemonic": {
+      "text": "Con người (亻) dùng sức lực (力) để làm việc nặng như di ĐỘNG (動) đồ vật."
+    },
+    "examples": [
+      { "word": "働く", "reading": "はたらく", "meaning": "làm việc" },
+      { "word": "労働", "reading": "ろうどう", "meaning": "lao động" },
+      { "word": "共働き", "reading": "ともばたらき", "meaning": "vợ chồng cùng đi làm" },
+      { "word": "労働者", "reading": "ろうどうしゃ", "meaning": "người lao động" }
+    ]
+  },
+  {
+    "kanji": "押",
+    "amHan": "Áp",
+    "nghia": "Ấn, đẩy",
+    "onyomi": "オウ",
+    "kunyomi": "お・す, お・さえる",
+    "mnemonic": {
+      "text": "Dùng tay (扌) để ÁP đặt hoặc ấn xuống cái khuôn (甲)."
+    },
+    "examples": [
+      { "word": "押す", "reading": "おす", "meaning": "ấn, đẩy, đóng (dấu)" },
+      { "word": "押し入れ", "reading": "おしいれ", "meaning": "tủ âm tường" },
+      { "word": "押印する", "reading": "おういんする", "meaning": "đóng dấu" },
+      { "word": "抑える", "reading": "おさえる", "meaning": "kiềm chế, giữ lại" }
+    ]
+  },
+  {
+    "kanji": "好",
+    "amHan": "Hảo",
+    "nghia": "Thích, tốt",
+    "onyomi": "コウ",
+    "kunyomi": "す・き, この・む",
+    "mnemonic": {
+      "text": "Người phụ nữ (女) bên cạnh đứa con (子) là một hình ảnh HẢO (tốt/đáng yêu)."
+    },
+    "examples": [
+      { "word": "好き", "reading": "すき", "meaning": "thích" },
+      { "word": "大好きな", "reading": "だいすきな", "meaning": "rất thích" },
+      { "word": "好み", "reading": "このみ", "meaning": "sở thích, gu" },
+      { "word": "好調", "reading": "こうちょう", "meaning": "thuận lợi, tiến triển tốt" },
+      { "word": "好物", "reading": "こうぶつ", "meaning": "món ăn yêu thích" }
+    ]
+  },
+  {
+    "kanji": "冷",
+    "amHan": "Lãnh",
+    "nghia": "Lạnh (đồ vật), nguội",
+    "onyomi": "レイ",
+    "kunyomi": "つめ・たい, ひ・える, さ・める",
+    "mnemonic": {
+      "text": "Ra lệnh (令) cho những tảng băng (冫) phải LÃNH (lạnh) giá."
+    },
+    "examples": [
+      { "word": "冷たい", "reading": "つめたい", "meaning": "lạnh (cảm giác đồ vật, con người)" },
+      { "word": "冷える", "reading": "ひえる", "meaning": "lạnh đi" },
+      { "word": "冷める", "reading": "さめる", "meaning": "nguội đi" },
+      { "word": "冷蔵庫", "reading": "れいぞうこ", "meaning": "tủ lạnh" },
+      { "word": "冷房", "reading": "れいぼう", "meaning": "máy lạnh (chế độ làm mát)" }
+    ]
+  }
+]

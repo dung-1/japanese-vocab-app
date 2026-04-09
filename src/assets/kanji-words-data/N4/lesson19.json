@@ -1,0 +1,154 @@
+[
+  {
+    "kanji": "回",
+    "amHan": "Hồi",
+    "nghia": "Vòng quanh, số lần",
+    "onyomi": "カイ, エ",
+    "kunyomi": "まわ・る, まわ・す",
+    "mnemonic": {
+      "text": "Hình ảnh vòng tròn nhỏ nằm trong vòng tròn lớn, biểu thị sự xoay vòng (HỒI)."
+    },
+    "examples": [
+      { "word": "回る", "reading": "まわる", "meaning": "xoay, đi quanh (tự động từ)" },
+      { "word": "一回", "reading": "いっかい", "meaning": "một lần" },
+      { "word": "回す", "reading": "まわす", "meaning": "xoay, vặn (tha động từ)" },
+      { "word": "回転", "reading": "かいてん", "meaning": "xoay chuyển, xoay vòng" },
+      { "word": "回答", "reading": "かいとう", "meaning": "hồi đáp, câu trả lời" }
+    ]
+  },
+  {
+    "kanji": "起",
+    "amHan": "Khởi",
+    "nghia": "Thức dậy, khởi đầu",
+    "onyomi": "キ",
+    "kunyomi": "お・きる, お・こす, お・こる",
+    "mnemonic": {
+      "text": "Đang chạy (走) thì dừng lại rồi đứng dậy để KHỞI hành."
+    },
+    "examples": [
+      { "word": "起きる", "reading": "おきる", "meaning": "thức dậy" },
+      { "word": "起こす", "reading": "おこす", "meaning": "đánh thức ai đó dậy" },
+      { "word": "起こる", "reading": "おこる", "meaning": "xảy ra (sự cố, tai nạn)" },
+      { "word": "起動", "reading": "きどう", "meaning": "khởi động (máy móc)" },
+      { "word": "早起き", "reading": "はやおき", "meaning": "thức dậy sớm" }
+    ]
+  },
+  {
+    "kanji": "頭",
+    "amHan": "Đầu",
+    "nghia": "Cái đầu",
+    "onyomi": "トウ, ズ, ト",
+    "kunyomi": "あたま, かしら",
+    "mnemonic": {
+      "text": "Phần quan trọng như cái đậu (豆) nằm trên trang giấy (頁) chính là cái ĐẦU."
+    },
+    "examples": [
+      { "word": "頭", "reading": "あたま", "meaning": "cái đầu" },
+      { "word": "頭痛", "reading": "ずつう", "meaning": "đau đầu" },
+      { "word": "二頭", "reading": "にとう", "meaning": "2 con (đơn vị đếm con vật lớn như bò, ngựa)" },
+      { "word": "頭巾", "reading": "ずきん", "meaning": "khăn trùm đầu" },
+      { "word": "頭脳", "reading": "ずのう", "meaning": "đầu não, trí tuệ" }
+    ]
+  },
+  {
+    "kanji": "短",
+    "amHan": "Đoản",
+    "nghia": "Ngắn",
+    "onyomi": "タン",
+    "kunyomi": "みじか・い",
+    "mnemonic": {
+      "text": "Cây cung (矢) bắn vào cái đậu (豆) thì khoảng cách rất ĐOẢN (ngắn)."
+    },
+    "examples": [
+      { "word": "短い", "reading": "みじかい", "meaning": "ngắn" },
+      { "word": "短所", "reading": "たんしょ", "meaning": "điểm yếu, sở đoản" },
+      { "word": "短期", "reading": "たんき", "meaning": "ngắn hạn" },
+      { "word": "短大", "reading": "たんだい", "meaning": "trường cao đẳng (đại học ngắn hạn)" },
+      { "word": "短気な", "reading": "たんきな", "meaning": "nóng tính, thiếu kiên nhẫn" }
+    ]
+  },
+  {
+    "kanji": "低",
+    "amHan": "Đê",
+    "nghia": "Thấp",
+    "onyomi": "テイ",
+    "kunyomi": "ひく・い, ひく・める, ひく・まる",
+    "mnemonic": {
+      "text": "Người (人) cúi xuống dưới gốc cây (氏 - họ/gốc) để giữ vị trí ĐÊ (thấp)."
+    },
+    "examples": [
+      { "word": "低い", "reading": "ひくい", "meaning": "thấp" },
+      { "word": "低下する", "reading": "ていかする", "meaning": "giảm đi, rơi xuống" },
+      { "word": "最低", "reading": "さいてい", "meaning": "thấp nhất, tồi tệ nhất" },
+      { "word": "低気圧", "reading": "ていきあつ", "meaning": "áp suất thấp" }
+    ]
+  },
+  {
+    "kanji": "軽",
+    "amHan": "Khinh",
+    "nghia": "Nhẹ",
+    "onyomi": "ケイ",
+    "kunyomi": "かる・い, かろ・やか",
+    "mnemonic": {
+      "text": "Chiếc xe (車) chạy qua dòng chảy (𢀖) một cách KHINH (nhẹ) nhàng."
+    },
+    "examples": [
+      { "word": "軽い", "reading": "かるい", "meaning": "nhẹ" },
+      { "word": "軽食", "reading": "けいしょく", "meaning": "bữa ăn nhẹ" },
+      { "word": "軽率な", "reading": "けいそつな", "meaning": "khinh suất, cẩu thả" },
+      { "word": "軽自動車", "reading": "けいじどうしゃ", "meaning": "xe ô tô hạng nhẹ" },
+      { "word": "手軽な", "reading": "てがるな", "meaning": "nhẹ nhàng, đơn giản" }
+    ]
+  },
+  {
+    "kanji": "洗",
+    "amHan": "Tẩy",
+    "nghia": "Rửa, tẩy",
+    "onyomi": "セン",
+    "kunyomi": "あら・う",
+    "mnemonic": {
+      "text": "Dùng nước (氵) để làm sạch cho người đứng trước (先 - tiên) chính là TẨY (rửa)."
+    },
+    "examples": [
+      { "word": "洗う", "reading": "あらう", "meaning": "rửa" },
+      { "word": "洗濯", "reading": "せんたく", "meaning": "giặt giũ" },
+      { "word": "お手洗い", "reading": "おてあらい", "meaning": "nhà vệ sinh" },
+      { "word": "洗剤", "reading": "せんざい", "meaning": "xà phòng, chất tẩy rửa" },
+      { "word": "洗面所", "reading": "せんめんじょ", "meaning": "phòng rửa mặt" }
+    ]
+  },
+  {
+    "kanji": "洋",
+    "amHan": "Dương",
+    "nghia": "Đại dương, kiểu Tây",
+    "onyomi": "ヨウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Con cừu (羊) bơi trên nước (氵) mênh mông như đại DƯƠNG."
+    },
+    "examples": [
+      { "word": "洋服", "reading": "ようふく", "meaning": "quần áo kiểu Tây" },
+      { "word": "西洋", "reading": "せいよう", "meaning": "phương Tây" },
+      { "word": "太平洋", "reading": "たいへいよう", "meaning": "Thái Bình Dương" },
+      { "word": "洋食", "reading": "ようしょく", "meaning": "món ăn kiểu Tây" },
+      { "word": "東洋", "reading": "とうよう", "meaning": "phương Đông" }
+    ]
+  },
+  {
+    "kanji": "別",
+    "amHan": "Biệt",
+    "nghia": "Khác, chia li",
+    "onyomi": "ベツ",
+    "kunyomi": "わか・れる, わ・ける",
+    "mnemonic": {
+      "text": "Dùng dao (刂) chia cái xương (口 - biến thể) ra thành các phần BIỆT lập."
+    },
+    "examples": [
+      { "word": "別れる", "reading": "わかれる", "meaning": "chia tay, từ biệt" },
+      { "word": "特別な", "reading": "とくべつな", "meaning": "đặc biệt" },
+      { "word": "別々に", "reading": "べつべつに", "meaning": "riêng biệt" },
+      { "word": "区別", "reading": "くべつ", "meaning": "phân biệt" },
+      { "word": "差別", "reading": "さべつ", "meaning": "phân biệt đối xử" }
+    ]
+  }
+]

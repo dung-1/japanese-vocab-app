@@ -1,0 +1,242 @@
+[
+  {
+    "kanji": "奥",
+    "amHan": "Áo",
+    "nghia": "Bên trong sâu, vợ người khác",
+    "onyomi": "オウ",
+    "kunyomi": "おく",
+    "mnemonic": {
+      "text": "Bên dưới mái nhà, một người cầm gạo cất giấu sâu tận bên trong (ÁO)."
+    },
+    "examples": [
+      { "word": "奥", "reading": "おく", "meaning": "bên trong sâu" },
+      { "word": "奥さん", "reading": "おくさん", "meaning": "vợ (người khác)" },
+      { "word": "屋上", "reading": "おくじょう", "meaning": "sân thượng (thường dùng 屋)" },
+      { "word": "奥地", "reading": "おくち", "meaning": "vùng sâu vùng xa" }
+    ]
+  },
+  {
+    "kanji": "渡",
+    "amHan": "Độ",
+    "nghia": "Băng qua, trao cho",
+    "onyomi": "ト",
+    "kunyomi": "わた・る, わた・す",
+    "mnemonic": {
+      "text": "Dùng nước (氵) để ĐỘ (băng qua) con sông trong 21 (廿一) bước."
+    },
+    "examples": [
+      { "word": "渡る", "reading": "わたる", "meaning": "băng qua (tự động từ)" },
+      { "word": "渡す", "reading": "わたす", "meaning": "trao cho (tha động từ)" },
+      { "word": "渡り鳥", "reading": "わたりどり", "meaning": "chim di cư" },
+      { "word": "渡航", "reading": "とこう", "meaning": "chuyến đi xa bằng đường biển/hàng không" }
+    ]
+  },
+  {
+    "kanji": "泊",
+    "amHan": "Bạc",
+    "nghia": "Trú lại, ở lại",
+    "onyomi": "ハク",
+    "kunyomi": "と・まる, と・める",
+    "mnemonic": {
+      "text": "Dừng thuyền bên dòng nước (氵) trắng (白) để nghỉ trọ (BẠC)."
+    },
+    "examples": [
+      { "word": "泊まる", "reading": "とまる", "meaning": "trú lại, ở lại (tự động từ)" },
+      { "word": "一泊二日", "reading": "いっぱくふつか", "meaning": "2 ngày 1 đêm" },
+      { "word": "宿泊する", "reading": "しゅくはくする", "meaning": "ngủ trọ, trú lại" },
+      { "word": "泊める", "reading": "とめめる", "meaning": "cho ở trọ lại" }
+    ]
+  },
+  {
+    "kanji": "酒",
+    "amHan": "Tửu",
+    "nghia": "Rượu",
+    "onyomi": "シュ",
+    "kunyomi": "さけ, さか",
+    "mnemonic": {
+      "text": "Nước (氵) đựng trong cái bình sành (酉) chính là rượu (TỬU)."
+    },
+    "examples": [
+      { "word": "お酒", "reading": "おさけ", "meaning": "rượu" },
+      { "word": "日本酒", "reading": "にほんしゅ", "meaning": "rượu sake Nhật" },
+      { "word": "居酒屋", "reading": "いざかや", "meaning": "quán rượu" },
+      { "word": "飲酒運転", "reading": "いんしゅうんてん", "meaning": "lái xe sau khi uống rượu" }
+    ]
+  },
+  {
+    "kanji": "定",
+    "amHan": "Định",
+    "nghia": "Xác định, quyết định",
+    "onyomi": "テイ, ジョウ",
+    "kunyomi": "さだ・める, さだ・まる",
+    "mnemonic": {
+      "text": "Dưới mái nhà (宀), mọi việc đã được ĐỊNH đoạt chắc chắn bằng chân (biến thể)."
+    },
+    "examples": [
+      { "word": "予定", "reading": "よてい", "meaning": "dự định" },
+      { "word": "決定する", "reading": "けっていする", "meaning": "quyết định" },
+      { "word": "定休日", "reading": "ていきゅうび", "meaning": "ngày nghỉ định kỳ" },
+      { "word": "定食", "reading": "ていしょく", "meaning": "suất ăn cố định" }
+    ]
+  },
+  {
+    "kanji": "例",
+    "amHan": "Lệ",
+    "nghia": "Ví dụ, tiền lệ",
+    "onyomi": "レイ",
+    "kunyomi": "たと・える",
+    "mnemonic": {
+      "text": "Con người (亻) xếp hàng theo hàng lối (列 - liệt) chính là một điển LỆ (ví dụ)."
+    },
+    "examples": [
+      { "word": "例えば", "reading": "たとえば", "meaning": "ví dụ là" },
+      { "word": "例外", "reading": "れいがい", "meaning": "ngoại lệ" },
+      { "word": "例文", "reading": "れいぶん", "meaning": "câu ví dụ" },
+      { "word": "恒例", "reading": "こうれい", "meaning": "thông lệ" }
+    ]
+  },
+  {
+    "kanji": "調",
+    "amHan": "Điều/Điệu",
+    "nghia": "Điều tra, giai điệu",
+    "onyomi": "チョウ",
+    "kunyomi": "しら・べる, ととの・う",
+    "mnemonic": {
+      "text": "Dùng lời nói (言) để làm cho mọi thứ trở nên tuần hoàn (周 - chu) gọi là ĐIỀU tra."
+    },
+    "examples": [
+      { "word": "調べる", "reading": "しらべる", "meaning": "tra cứu, tìm hiểu" },
+      { "word": "調査", "reading": "ちょうさ", "meaning": "điều tra" },
+      { "word": "体調", "reading": "たいちょう", "meaning": "tình trạng cơ thể" },
+      { "word": "強調する", "reading": "きょうちょうする", "meaning": "nhấn mạnh" }
+    ]
+  },
+  {
+    "kanji": "支",
+    "amHan": "Chi",
+    "nghia": "Nâng đỡ, chi trả",
+    "onyomi": "シ",
+    "kunyomi": "ささ・える",
+    "mnemonic": {
+      "text": "Dùng tay (又) cầm cành cây (十) để CHI (chống/đỡ)."
+    },
+    "examples": [
+      { "word": "支える", "reading": "ささえる", "meaning": "nâng đỡ, hỗ trợ" },
+      { "word": "支払い", "reading": "しはらい", "meaning": "thanh toán, chi trả" },
+      { "word": "支店", "reading": "してん", "meaning": "chi nhánh" },
+      { "word": "支持する", "reading": "しじする", "meaning": "ủng hộ" }
+    ]
+  },
+  {
+    "kanji": "過",
+    "amHan": "Quá",
+    "nghia": "Quá mức, trải qua",
+    "onyomi": "カ",
+    "kunyomi": "す・ぎる, す・ごす, あやま・ち",
+    "mnemonic": {
+      "text": "Đi (辶) qua cái miệng (口) có xương bên trên chính là đi quá giới hạn (QUÁ)."
+    },
+    "examples": [
+      { "word": "過ぎる", "reading": "すぎる", "meaning": "vượt quá, trôi qua" },
+      { "word": "過ごす", "reading": "すごす", "meaning": "trải qua (thời gian)" },
+      { "word": "過去", "reading": "かこ", "meaning": "quá khứ" },
+      { "word": "通過する", "reading": "つうかする", "meaning": "đi ngang qua, thông qua" }
+    ]
+  },
+  {
+    "kanji": "勤",
+    "amHan": "Cần",
+    "nghia": "Làm việc, cần cù",
+    "onyomi": "キン, ゴン",
+    "kunyomi": "つと・める, つと・まる",
+    "mnemonic": {
+      "text": "Dùng sức lực (力) làm việc nơi cỏ cây rậm rạp chính là CẦN cù."
+    },
+    "examples": [
+      { "word": "勤める", "reading": "つとめる", "meaning": "làm việc ở đâu đó" },
+      { "word": "通勤する", "reading": "つうきんする", "meaning": "đi làm (từ nhà đến chỗ làm)" },
+      { "word": "勤勉な", "reading": "きんべんな", "meaning": "cần cù, chăm chỉ" },
+      { "word": "転勤", "reading": "てんきん", "meaning": "chuyển công tác" }
+    ]
+  },
+  {
+    "kanji": "宅",
+    "amHan": "Trạch",
+    "nghia": "Nhà ở",
+    "onyomi": "タク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới mái nhà (宀) có người (biến thể chữ Thác) cư ngụ chính là TRẠCH (nhà)."
+    },
+    "examples": [
+      { "word": "自宅", "reading": "じたく", "meaning": "nhà mình" },
+      { "word": "お宅", "reading": "おたく", "meaning": "nhà ngài (kính ngữ)" },
+      { "word": "宅配便", "reading": "たくはいびん", "meaning": "dịch vụ giao hàng tận nhà" },
+      { "word": "住宅", "reading": "じゅうたく", "meaning": "nhà ở" }
+    ]
+  },
+  {
+    "kanji": "製",
+    "amHan": "Chế",
+    "nghia": "Chế tạo, sản xuất",
+    "onyomi": "セイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng dao (刂) cắt vải (衣) để CHẾ tạo ra quần áo."
+    },
+    "examples": [
+      { "word": "日本製", "reading": "にほんせい", "meaning": "hàng sản xuất tại Nhật" },
+      { "word": "製品", "reading": "せいひん", "meaning": "sản phẩm" },
+      { "word": "製作する", "reading": "せいさくする", "meaning": "chế tác, sản xuất" },
+      { "word": "製造", "reading": "せいぞう", "meaning": "chế tạo, sản xuất hàng loạt" }
+    ]
+  },
+  {
+    "kanji": "性",
+    "amHan": "Tính",
+    "nghia": "Tính cách, giới tính",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "さが",
+    "mnemonic": {
+      "text": "Trái tim (忄) lúc sinh ra (生) chính là bản TÍNH."
+    },
+    "examples": [
+      { "word": "性格", "reading": "せいかく", "meaning": "tính cách" },
+      { "word": "男性", "reading": "だんせい", "meaning": "nam giới" },
+      { "word": "女性", "reading": "じょせい", "meaning": "nữ giới" },
+      { "word": "可能性", "reading": "かのうせい", "meaning": "khả năng, tính khả thi" }
+    ]
+  },
+  {
+    "kanji": "様",
+    "amHan": "Dạng",
+    "nghia": "Hình dạng, ngài (kính ngữ)",
+    "onyomi": "ヨウ, ショウ",
+    "kunyomi": "さま",
+    "mnemonic": {
+      "text": "Dùng gỗ (木) để tạc hình con cừu (羊) đang uống nước, tạo nên hình DẠNG đẹp."
+    },
+    "examples": [
+      { "word": "お客様", "reading": "おきゃくさま", "meaning": "quý khách" },
+      { "word": "様子", "reading": "ようす", "meaning": "tình trạng, dáng vẻ" },
+      { "word": "様々", "reading": "さまざま", "meaning": "đa dạng, nhiều loại" },
+      { "word": "同様", "reading": "どうよう", "meaning": "giống như thế" }
+    ]
+  },
+  {
+    "kanji": "感",
+    "amHan": "Cảm",
+    "nghia": "Cảm giác, cảm động",
+    "onyomi": "カン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trái tim (心) bị tác động bởi lời nói (口) và vũ khí (戌) tạo nên sự CẢM động."
+    },
+    "examples": [
+      { "word": "感じる", "reading": "かんじる", "meaning": "cảm thấy" },
+      { "word": "感謝する", "reading": "かんしゃする", "meaning": "cảm ơn, biết ơn" },
+      { "word": "感想", "reading": "かんそう", "meaning": "cảm tưởng" },
+      { "word": "感動する", "reading": "かんどうする", "meaning": "cảm động" }
+    ]
+  }
+]

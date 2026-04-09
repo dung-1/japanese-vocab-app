@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "薬",
+    "amHan": "Dược",
+    "nghia": "Thuốc",
+    "onyomi": "ヤク",
+    "kunyomi": "くすり",
+    "mnemonic": {
+      "text": "Cây cỏ (艹) làm cho con người cảm thấy vui vẻ (楽 - lạc) chính là thuốc DƯỢC."
+    },
+    "examples": [
+      { "word": "薬", "reading": "くすり", "meaning": "thuốc" },
+      { "word": "薬局", "reading": "やっきょく", "meaning": "tiệm thuốc" },
+      { "word": "目薬", "reading": "めぐすり", "meaning": "thuốc nhỏ mắt" },
+      { "word": "風邪薬", "reading": "かぜぐすり", "meaning": "thuốc cảm" },
+      { "word": "薬品", "reading": "やくひん", "meaning": "dược phẩm" }
+    ]
+  },
+  {
+    "kanji": "服",
+    "amHan": "Phục",
+    "nghia": "Quần áo, trang phục",
+    "onyomi": "フク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hàng tháng (月) con người dùng tay bám lấy các mảnh vải để may y PHỤC."
+    },
+    "examples": [
+      { "word": "服", "reading": "ふく", "meaning": "quần áo" },
+      { "word": "洋服", "reading": "ようふく", "meaning": "quần áo kiểu Tây" },
+      { "word": "和服", "reading": "わふう", "meaning": "quần áo kiểu Nhật" },
+      { "word": "制服", "reading": "せいふく", "meaning": "đồng phục" },
+      { "word": "服用する", "reading": "ふくようする", "meaning": "uống thuốc (phục dụng)" }
+    ]
+  },
+  {
+    "kanji": "質",
+    "amHan": "Chất",
+    "nghia": "Chất lượng, câu hỏi",
+    "onyomi": "シツ, シチ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng hai cái rìu (斤) để kiểm tra giá trị của tiền bạc (貝), đó là cách kiểm tra PHẨM CHẤT."
+    },
+    "examples": [
+      { "word": "質問", "reading": "しつもん", "meaning": "câu hỏi" },
+      { "word": "品質", "reading": "ひんしつ", "meaning": "chất lượng" },
+      { "word": "性質", "reading": "せいしつ", "meaning": "tính chất" },
+      { "word": "人質", "reading": "ひとじち", "meaning": "con tin" },
+      { "word": "地質", "reading": "ちしつ", "meaning": "địa chất" }
+    ]
+  },
+  {
+    "kanji": "光",
+    "amHan": "Quang",
+    "nghia": "Ánh sáng",
+    "onyomi": "コウ",
+    "kunyomi": "ひか・る, ひかり",
+    "mnemonic": {
+      "text": "Hình ảnh ngọn lửa rực sáng phía trên một người (儿) đang quỳ, tỏa ra hào QUANG."
+    },
+    "examples": [
+      { "word": "光", "reading": "ひかり", "meaning": "ánh sáng" },
+      { "word": "光る", "reading": "ひかる", "meaning": "tỏa sáng" },
+      { "word": "観光", "reading": "かんこう", "meaning": "tham quan, du lịch" },
+      { "word": "日光", "reading": "にっこう", "meaning": "ánh sáng mặt trời" },
+      { "word": "光線", "reading": "こうせん", "meaning": "tia sáng" }
+    ]
+  },
+  {
+    "kanji": "閉",
+    "amHan": "Bế",
+    "nghia": "Đóng",
+    "onyomi": "ヘイ",
+    "kunyomi": "と・じる, し・める, し・まる",
+    "mnemonic": {
+      "text": "Dùng một cái thanh ngang (才) chặn ở cửa (門) để BẾ quan tỏa cảng (đóng cửa)."
+    },
+    "examples": [
+      { "word": "閉める", "reading": "しめる", "meaning": "đóng (cửa, tha động từ)" },
+      { "word": "閉まる", "reading": "しまる", "meaning": "đóng (cửa, tự động từ)" },
+      { "word": "閉じる", "reading": "とじる", "meaning": "đóng (sách, mắt)" },
+      { "word": "閉会", "reading": "へいかい", "meaning": "bế mạc" },
+      { "word": "閉店", "reading": "へいてん", "meaning": "đóng cửa hàng" }
+    ]
+  },
+  {
+    "kanji": "番",
+    "amHan": "Phiên",
+    "nghia": "Số thứ tự, lượt",
+    "onyomi": "バン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Phía trên là hình ảnh dấu chân thú (biến thể bộ mễ), dưới là ruộng (田). Người canh ruộng theo từng PHIÊN (lượt)."
+    },
+    "examples": [
+      { "word": "番号", "reading": "ばんごう", "meaning": "số hiệu" },
+      { "word": "一番", "reading": "いちばん", "meaning": "số 1, nhất" },
+      { "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
+      { "word": "順番", "reading": "じゅんばん", "meaning": "thứ tự" },
+      { "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình tivi" }
+    ]
+  },
+  {
+    "kanji": "号",
+    "amHan": "Hiệu",
+    "nghia": "Số hiệu, tên gọi",
+    "onyomi": "ゴウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng miệng (口) hô to tên hiệu bên dưới mái che."
+    },
+    "examples": [
+      { "word": "信号", "reading": "しんごう", "meaning": "đèn giao thông" },
+      { "word": "記号", "reading": "きごう", "meaning": "ký hiệu" },
+      { "word": "年号", "reading": "ねんごう", "meaning": "niên hiệu" },
+      { "word": "１号車", "reading": "いちごうしゃ", "meaning": "toa tàu số 1" },
+      { "word": "号外", "reading": "ごうがい", "meaning": "số báo đặc biệt" }
+    ]
+  },
+  {
+    "kanji": "交",
+    "amHan": "Giao",
+    "nghia": "Giao lưu, cắt nhau",
+    "onyomi": "コウ",
+    "kunyomi": "まじ・わる, ま・ざる",
+    "mnemonic": {
+      "text": "Hình ảnh một người đang ngồi bắt chéo chân, biểu thị sự GIAO nhau."
+    },
+    "examples": [
+      { "word": "交通", "reading": "こうつう", "meaning": "giao thông" },
+      { "word": "交換", "reading": "こうかん", "meaning": "trao đổi" },
+      { "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
+      { "word": "外交", "reading": "がいこう", "meaning": "ngoại giao" },
+      { "word": "交流", "reading": "こうりゅう", "meaning": "giao lưu" }
+    ]
+  },
+  {
+    "kanji": "危",
+    "amHan": "Nguy",
+    "nghia": "Nguy hiểm",
+    "onyomi": "キ",
+    "kunyomi": "あぶ・ない, あや・うい",
+    "mnemonic": {
+      "text": "Một người đang đứng trên vách đá cheo leo, chỉ cần sơ sẩy là NGUY hiểm."
+    },
+    "examples": [
+      { "word": "危ない", "reading": "あぶない", "meaning": "nguy hiểm" },
+      { "word": "危険な", "reading": "きけんな", "meaning": "nguy hiểm (tính từ na)" },
+      { "word": "危機", "reading": "きき", "meaning": "khủng hoảng" },
+      { "word": "危うい", "reading": "あやうい", "meaning": "nguy kịch" },
+      { "word": "危惧", "reading": "きぐ", "meaning": "lo sợ, quan ngại" }
+    ]
+  }
+]

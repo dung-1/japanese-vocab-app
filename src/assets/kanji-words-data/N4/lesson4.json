@@ -1,0 +1,257 @@
+[
+  {
+    "kanji": "取",
+    "amHan": "Thủ",
+    "nghia": "Lấy, cầm, nắm",
+    "onyomi": "シュ",
+    "kunyomi": "と・る",
+    "mnemonic": {
+      "text": "Dùng tay (又) túm lấy cái tai (耳) để THỦ (lấy) về."
+    },
+    "examples": [
+      { "word": "取る", "reading": "とる", "meaning": "cầm, lấy" },
+      { "word": "受け取る", "reading": "うけとる", "meaning": "nhận lấy" },
+      { "word": "取引", "reading": "とりひき", "meaning": "giao dịch" },
+      { "word": "取り消す", "reading": "とりけす", "meaning": "hủy bỏ" },
+      { "word": "取材", "reading": "しゅざい", "meaning": "thu thập tài liệu, lấy tin" }
+    ]
+  },
+  {
+    "kanji": "荷",
+    "amHan": "Hà",
+    "nghia": "Hành lý, hàng hóa",
+    "onyomi": "カ",
+    "kunyomi": "に",
+    "mnemonic": {
+      "text": "Cỏ (艹) để lên trên vai người (何 - hà) trở thành gánh nặng, là HÀ hành lý."
+    },
+    "examples": [
+      { "word": "荷物", "reading": "にもつ", "meaning": "hành lý" },
+      { "word": "重荷", "reading": "おもに", "meaning": "gánh nặng" },
+      { "word": "出荷", "reading": "しゅっか", "meaning": "xuất hàng" },
+      { "word": "手荷物", "reading": "てにもつ", "meaning": "hành lý xách tay" },
+      { "word": "負荷", "reading": "ふか", "meaning": "phụ tải, gánh nặng" }
+    ]
+  },
+  {
+    "kanji": "簡",
+    "amHan": "Giản",
+    "nghia": "Đơn giản",
+    "onyomi": "カン",
+    "kunyomi": "えら・ぶ",
+    "mnemonic": {
+      "text": "Ngày xưa dùng thẻ tre (竹) để viết những thứ liên quan đến cửa (門) một cách ngắn gọn, GIẢN đơn."
+    },
+    "examples": [
+      { "word": "簡単な", "reading": "かんたんな", "meaning": "đơn giản" },
+      { "word": "簡潔", "reading": "かんけつ", "meaning": "ngắn gọn, súc tích" },
+      { "word": "簡易", "reading": "かんい", "meaning": "giản dị, dễ dàng" },
+      { "word": "簡素", "reading": "かんそ", "meaning": "giản đơn, chất phác" },
+      { "word": "書簡", "reading": "しょかん", "meaning": "thư từ" }
+    ]
+  },
+  {
+    "kanji": "単",
+    "amHan": "Đơn",
+    "nghia": "Đơn lẻ, đơn thuần",
+    "onyomi": "タン",
+    "kunyomi": "ひとえ",
+    "mnemonic": {
+      "text": "Hình ảnh cái ruộng (田) phía dưới và các ký hiệu đơn lẻ phía trên, biểu thị sự ĐƠN chiếc."
+    },
+    "examples": [
+      { "word": "単語", "reading": "たんご", "meaning": "từ vựng" },
+      { "word": "単位", "reading": "たんい", "meaning": "đơn vị" },
+      { "word": "単身", "reading": "たんしん", "meaning": "đơn thân, một mình" },
+      { "word": "単純", "reading": "たんじゅん", "meaning": "đơn thuần, đơn giản" },
+      { "word": "単に", "reading": "たんに", "meaning": "chỉ là, đơn thuần là" }
+    ]
+  },
+  {
+    "kanji": "覚",
+    "amHan": "Giác",
+    "nghia": "Nhớ, cảm thấy, tỉnh giấc",
+    "onyomi": "カク",
+    "kunyomi": "おぼ・える, さ・める",
+    "mnemonic": {
+      "text": "Dưới mái nhà (冖) có đứa trẻ (見 - kiến) đang nhìn thấy và GIÁC ngộ ra chân lý."
+    },
+    "examples": [
+      { "word": "覚える", "reading": "おぼえる", "meaning": "nhớ, học thuộc" },
+      { "word": "目覚まし", "reading": "めざまし", "meaning": "đánh thức, báo thức" },
+      { "word": "感覚", "reading": "かんかく", "meaning": "cảm giác" },
+      { "word": "自覚", "reading": "じかく", "meaning": "tự giác" },
+      { "word": "覚悟", "reading": "かくご", "meaning": "quyết tâm, chuẩn bị tinh thần" }
+    ]
+  },
+  {
+    "kanji": "販",
+    "amHan": "Phiến",
+    "nghia": "Buôn bán",
+    "onyomi": "ハン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng tiền (貝 - bối) trao tay (反 - phản) để PHIẾN (buôn bán) hàng hóa."
+    },
+    "examples": [
+      { "word": "販売", "reading": "はんばい", "meaning": "bán hàng" },
+      { "word": "市販", "reading": "しはん", "meaning": "bán trên thị trường" },
+      { "word": "自販機", "reading": "じはんき", "meaning": "máy bán hàng tự động" },
+      { "word": "通販", "reading": "つうはん", "meaning": "bán hàng qua mạng (viết tắt)" },
+      { "word": "販路", "reading": "はんろ", "meaning": "thị trường tiêu thụ" }
+    ]
+  },
+  {
+    "kanji": "忙",
+    "amHan": "Mang",
+    "nghia": "Bận rộn",
+    "onyomi": "ボウ",
+    "kunyomi": "いそが・しい",
+    "mnemonic": {
+      "text": "Bận rộn đến mức trái tim (忄- tâm) như sắp mất (亡 - vong) đi."
+    },
+    "examples": [
+      { "word": "忙しい", "reading": "いそがしい", "meaning": "bận rộn" },
+      { "word": "多忙な", "reading": "たぼうな", "meaning": "rất bận rộn" },
+      { "word": "忙殺", "reading": "ぼうさつ", "meaning": "bận túi bụi" },
+      { "word": "繁忙期", "reading": "はんぼうき", "meaning": "thời kỳ cao điểm/bận rộn" },
+      { "word": "大忙し", "reading": "おおいそがし", "meaning": "cực kỳ bận" }
+    ]
+  },
+  {
+    "kanji": "給",
+    "amHan": "Cấp",
+    "nghia": "Cung cấp, lương",
+    "onyomi": "キュウ",
+    "kunyomi": "たま・う",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (糸) nối kết sự hòa hợp (合) để CUNG CẤP cho nhau."
+    },
+    "examples": [
+      { "word": "給料", "reading": "きゅうりょう", "meaning": "lương" },
+      { "word": "支給", "reading": "しきゅう", "meaning": "chi trả, cung cấp" },
+      { "word": "供給", "reading": "きょうきゅう", "meaning": "cung cấp" },
+      { "word": "時給", "reading": "じきゅう", "meaning": "lương theo giờ" },
+      { "word": "給食", "reading": "きゅうしょく", "meaning": "suất ăn trường học" }
+    ]
+  },
+  {
+    "kanji": "実",
+    "amHan": "Thực",
+    "nghia": "Sự thật, quả (trái cây)",
+    "onyomi": "ジツ",
+    "kunyomi": "み, みの・る",
+    "mnemonic": {
+      "text": "Trong nhà (宀) có tiền (đã giản lược bộ bối) là có THỰC lực, có thành quả."
+    },
+    "examples": [
+      { "word": "実は", "reading": "じつは", "meaning": "thực ra là" },
+      { "word": "事実", "reading": "じじつ", "meaning": "sự thật" },
+      { "word": "実る", "reading": "みのる", "meaning": "chín, ra quả" },
+      { "word": "実行", "reading": "じっこう", "meaning": "thực hành" },
+      { "word": "現実", "reading": "げんじつ", "meaning": "hiện thực" }
+    ]
+  },
+  {
+    "kanji": "涼",
+    "amHan": "Lương",
+    "nghia": "Mát mẻ",
+    "onyomi": "リョウ",
+    "kunyomi": "すず・しい",
+    "mnemonic": {
+      "text": "Nước (氵) ở kinh đô (京) thường mát mẻ (LƯƠNG) hơn nơi khác."
+    },
+    "examples": [
+      { "word": "涼しい", "reading": "すずしい", "meaning": "mát mẻ" },
+      { "word": "夕涼み", "reading": "ゆうすずみ", "meaning": "hóng mát buổi chiều" },
+      { "word": "清涼", "reading": "せいりょう", "meaning": "trong lành, mát mẻ" },
+      { "word": "涼風", "reading": "りょうふう", "meaning": "gió mát" },
+      { "word": "涼む", "reading": "すずむ", "meaning": "làm mát (cơ thể)" }
+    ]
+  },
+  {
+    "kanji": "将",
+    "amHan": "Tương",
+    "nghia": "Tương lai, vị tướng",
+    "onyomi": "ショウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bên trái là cái giường, bên phải là thốn (寸) và bàn tay, biểu thị việc sắp đặt cho TƯƠNG lai."
+    },
+    "examples": [
+      { "word": "将来", "reading": "しょうらい", "meaning": "tương lai gần" },
+      { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" },
+      { "word": "将棋", "reading": "しょうぎ", "meaning": "cờ Shogi" },
+      { "word": "主将", "reading": "しゅしょう", "meaning": "đội trưởng" },
+      { "word": "将校", "reading": "しょうこう", "meaning": "sĩ quan" }
+    ]
+  },
+  {
+    "kanji": "夢",
+    "amHan": "Mộng",
+    "nghia": "Giấc mơ",
+    "onyomi": "ム",
+    "kunyomi": "ゆめ",
+    "mnemonic": {
+      "text": "Buổi tối (夕) nằm dưới cỏ (艹) nhắm mắt (罒) thấy những ảo ảnh, đó là MỘNG."
+    },
+    "examples": [
+      { "word": "夢", "reading": "ゆめ", "meaning": "giấc mơ" },
+      { "word": "夢中", "reading": "むちゅう", "meaning": "say mê, miệt mài" },
+      { "word": "悪夢", "reading": "あくむ", "meaning": "ác mộng" },
+      { "word": "夢想", "reading": "むそう", "meaning": "mộng tưởng" },
+      { "word": "初夢", "reading": "はつゆめ", "meaning": "giấc mơ đầu năm mới" }
+    ]
+  },
+  {
+    "kanji": "疲",
+    "amHan": "Bì",
+    "nghia": "Mệt mỏi",
+    "onyomi": "ヒ",
+    "kunyomi": "つか・れる",
+    "mnemonic": {
+      "text": "Bị bệnh (疒) liên quan đến da (皮) khiến cơ thể thấy BÌ (mệt mỏi)."
+    },
+    "examples": [
+      { "word": "疲れる", "reading": "つかれる", "meaning": "mệt mỏi" },
+      { "word": "疲れ", "reading": "つかれ", "meaning": "sự mệt mỏi" },
+      { "word": "疲弊", "reading": "ひへい", "meaning": "kiệt quệ" },
+      { "word": "疲労", "reading": "ひろう", "meaning": "phong trần, mệt nhọc" },
+      { "word": "気疲れ", "reading": "きづかれ", "meaning": "mệt mỏi vì lo nghĩ" }
+    ]
+  },
+  {
+    "kanji": "痛",
+    "amHan": "Thống",
+    "nghia": "Đau",
+    "onyomi": "ツウ",
+    "kunyomi": "いた・い, いた・む",
+    "mnemonic": {
+      "text": "Trong bệnh tật (疒), cảm giác như có rào chắn (甬) đâm vào người gây đau THỐNG."
+    },
+    "examples": [
+      { "word": "痛い", "reading": "いたい", "meaning": "đau" },
+      { "word": "苦痛", "reading": "くつう", "meaning": "đau khổ" },
+      { "word": "頭痛", "reading": "ずつう", "meaning": "đau đầu" },
+      { "word": "痛み止め", "reading": "いたみどめ", "meaning": "thuốc giảm đau" },
+      { "word": "痛感する", "reading": "つうかんする", "meaning": "cảm nhận sâu sắc" }
+    ]
+  },
+  {
+    "kanji": "彼",
+    "amHan": "Bỉ",
+    "nghia": "Anh ấy, người đó",
+    "onyomi": "ヒ",
+    "kunyomi": "かれ, かの",
+    "mnemonic": {
+      "text": "Người đang đi bộ (彳) có làn da (皮) lạ lẫm chính là BỈ (người kia)."
+    },
+    "examples": [
+      { "word": "彼", "reading": "かれ", "meaning": "anh ấy" },
+      { "word": "彼女", "reading": "かのじょ", "meaning": "cô ấy, bạn gái" },
+      { "word": "彼ら", "reading": "かれら", "meaning": "họ" },
+      { "word": "彼岸", "reading": "ひがん", "meaning": "bờ bên kia, lễ Higan" },
+      { "word": "彼氏", "reading": "かれし", "meaning": "bạn trai" }
+    ]
+  }
+]

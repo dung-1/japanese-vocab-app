@@ -1,0 +1,241 @@
+[
+  {
+    "kanji": "幸",
+    "amHan": "Hạnh",
+    "nghia": "Hạnh phúc, may mắn",
+    "onyomi": "コウ",
+    "kunyomi": "しあわ・せ, さいわ・い",
+    "mnemonic": {
+      "text": "Đất đai (土) màu mỡ và tiền bạc đầy đủ (¥) tạo nên HẠNH phúc."
+    },
+    "examples": [
+      { "word": "幸せな", "reading": "しあわせな", "meaning": "hạnh phúc" },
+      { "word": "不幸", "reading": "ふこう", "meaning": "bất hạnh" },
+      { "word": "幸福", "reading": "こうふく", "meaning": "hạnh phúc, sung túc" },
+      { "word": "幸運", "reading": "こううん", "meaning": "vận may" }
+    ]
+  },
+  {
+    "kanji": "笑",
+    "amHan": "Tiếu",
+    "nghia": "Cười",
+    "onyomi": "ショウ",
+    "kunyomi": "わら・う, え・む",
+    "mnemonic": {
+      "text": "Dưới bóng tre (竹), người ta uốn éo (夭) nhảy múa và TIẾU (cười) đùa."
+    },
+    "examples": [
+      { "word": "笑う", "reading": "わらう", "meaning": "cười" },
+      { "word": "笑顔", "reading": "えがお", "meaning": "khuôn mặt tươi cười" },
+      { "word": "爆笑", "reading": "ばくしょう", "meaning": "cười lớn, cười phá lên" },
+      { "word": "微笑む", "reading": "ほほえむ", "meaning": "mỉm cười" }
+    ]
+  },
+  {
+    "kanji": "泣",
+    "amHan": "Khấp",
+    "nghia": "Khóc",
+    "onyomi": "キュウ",
+    "kunyomi": "な・く",
+    "mnemonic": {
+      "text": "Nước (氵) mắt rơi khi đứng (立) một mình là KHẤP (khóc)."
+    },
+    "examples": [
+      { "word": "泣く", "reading": "なく", "meaning": "khóc" },
+      { "word": "泣き声", "reading": "なきごえ", "meaning": "tiếng khóc" },
+      { "word": "号泣する", "reading": "ごうきゅうする", "meaning": "khóc nức nở" }
+    ]
+  },
+  {
+    "kanji": "静",
+    "amHan": "Tĩnh",
+    "nghia": "Yên tĩnh",
+    "onyomi": "セイ, ジョウ",
+    "kunyomi": "しず・か, しず・まる",
+    "mnemonic": {
+      "text": "Màu xanh (青) của thiên nhiên giúp tranh chấp (争 - tranh) lắng xuống, trở nên TĨNH lặng."
+    },
+    "examples": [
+      { "word": "静かな", "reading": "しずかな", "meaning": "yên tĩnh" },
+      { "word": "静止する", "reading": "せいしする", "meaning": "đứng yên, bất động" },
+      { "word": "冷静な", "reading": "れいせいな", "meaning": "bình tĩnh" },
+      { "word": "安静", "reading": "あんせい", "meaning": "nghỉ ngơi, tĩnh dưỡng" }
+    ]
+  },
+  {
+    "kanji": "変",
+    "amHan": "Biến",
+    "nghia": "Thay đổi, kỳ lạ",
+    "onyomi": "ヘン",
+    "kunyomi": "か・わる, か・える",
+    "mnemonic": {
+      "text": "Trải qua một đêm (亦 - diệc) đi bộ (夂 - phác) mọi thứ sẽ BIẾN đổi."
+    },
+    "examples": [
+      { "word": "変わる", "reading": "かわる", "meaning": "thay đổi (tự động từ)" },
+      { "word": "大変な", "reading": "たいへんな", "meaning": "vất vả, kinh khủng" },
+      { "word": "変な", "reading": "へんな", "meaning": "kỳ lạ" },
+      { "word": "変化", "reading": "へんか", "meaning": "biến hóa" },
+      { "word": "変更する", "reading": "へんこうする", "meaning": "thay đổi (lịch trình, kế hoạch)" }
+    ]
+  },
+  {
+    "kanji": "増",
+    "amHan": "Tăng",
+    "nghia": "Gia tăng",
+    "onyomi": "ゾウ",
+    "kunyomi": "ふ・える, ふ・やす",
+    "mnemonic": {
+      "text": "Đất (土) được đắp thêm (曽 - tăng) vào nên số lượng TĂNG lên."
+    },
+    "examples": [
+      { "word": "増える", "reading": "ふえる", "meaning": "tăng lên (tự động từ)" },
+      { "word": "増やす", "reading": "ふやす", "meaning": "làm tăng lên (tha động từ)" },
+      { "word": "増加", "reading": "ぞうか", "meaning": "sự gia tăng" },
+      { "word": "増える", "reading": "ふえる", "meaning": "tăng lên" }
+    ]
+  },
+  {
+    "kanji": "減",
+    "amHan": "Giảm",
+    "nghia": "Cắt giảm",
+    "onyomi": "ゲン",
+    "kunyomi": "へ・る, へ・らす",
+    "mnemonic": {
+      "text": "Dùng nước (氵) và miệng (口) để kìm hãm cái mác (咸 - hàm), làm nó GIẢM đi."
+    },
+    "examples": [
+      { "word": "減る", "reading": "へる", "meaning": "giảm đi (tự động từ)" },
+      { "word": "減らす", "reading": "へらす", "meaning": "làm giảm (tha động từ)" },
+      { "word": "減少する", "reading": "げんしょうする", "meaning": "giảm sút" },
+      { "word": "減給", "reading": "げんきゅう", "meaning": "giảm lương" }
+    ]
+  },
+  {
+    "kanji": "倍",
+    "amHan": "Bội",
+    "nghia": "Gấp đôi, bội số",
+    "onyomi": "バイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Một người (亻) đứng bên cạnh cái miệng (口) và đứng lên (立) để BỘI phần tăng lên."
+    },
+    "examples": [
+      { "word": "二倍", "reading": "にばい", "meaning": "gấp đôi" },
+      { "word": "倍率", "reading": "ばいりつ", "meaning": "tỷ lệ chọi, độ phóng đại" },
+      { "word": "数倍", "reading": "すうばい", "meaning": "gấp vài lần" }
+    ]
+  },
+  {
+    "kanji": "祖",
+    "amHan": "Tổ",
+    "nghia": "Tổ tiên",
+    "onyomi": "ソ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bày đồ cúng trên bàn thờ (礻) để tưởng nhớ TỔ tiên (且 - thả/tạm)."
+    },
+    "examples": [
+      { "word": "祖父", "reading": "そふ", "meaning": "ông (nội/ngoại)" },
+      { "word": "祖母", "reading": "そぼ", "meaning": "bà (nội/ngoại)" },
+      { "word": "先祖", "reading": "せんぞ", "meaning": "tổ tiên" },
+      { "word": "祖国", "reading": "そこく", "meaning": "tổ quốc" }
+    ]
+  },
+  {
+    "kanji": "薄",
+    "amHan": "Bạc",
+    "nghia": "Mỏng, nhạt",
+    "onyomi": "ハク",
+    "kunyomi": "うす・い, うす・める",
+    "mnemonic": {
+      "text": "Cây cỏ (艹) mọc bên mép nước (氵) chuyên dùng để làm giấy mỏng (BẠC)."
+    },
+    "examples": [
+      { "word": "薄い", "reading": "うすい", "meaning": "mỏng, nhạt" },
+      { "word": "薄める", "reading": "うすめる", "meaning": "làm loãng, làm nhạt đi" },
+      { "word": "軽薄な", "reading": "けいはくな", "meaning": "nông cạn, khinh bạc" },
+      { "word": "薄暗い", "reading": "うすぐらい", "meaning": "hơi tối, âm u" }
+    ]
+  },
+  {
+    "kanji": "厚",
+    "amHan": "Hậu",
+    "nghia": "Dày, nồng hậu",
+    "onyomi": "コウ",
+    "kunyomi": "あつ・い",
+    "mnemonic": {
+      "text": "Dưới vách đá (厂), đứa trẻ (子) được che chở bởi lớp đất dày (HẬU)."
+    },
+    "examples": [
+      { "word": "厚い", "reading": "あつい", "meaning": "dày" },
+      { "word": "厚切り", "reading": "あつぎり", "meaning": "thái lát dày" },
+      { "word": "厚生労働省", "reading": "こうせいろうどうしょう", "meaning": "Bộ Y tế, Lao động và Phúc lợi" },
+      { "word": "濃厚な", "reading": "のうこうな", "meaning": "đậm đà, nồng hậu" }
+    ]
+  },
+  {
+    "kanji": "政",
+    "amHan": "Chính",
+    "nghia": "Chính trị",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "まつりごと",
+    "mnemonic": {
+      "text": "Thực hiện những điều đúng đắn (正) bằng hành động (攵) chính là làm CHÍNH trị."
+    },
+    "examples": [
+      { "word": "政治", "reading": "せいじ", "meaning": "chính trị" },
+      { "word": "政府", "reading": "せいふ", "meaning": "chính phủ" },
+      { "word": "政策", "reading": "せいさく", "meaning": "chính sách" },
+      { "word": "政治家", "reading": "せいじか", "meaning": "chính trị gia" }
+    ]
+  },
+  {
+    "kanji": "美",
+    "amHan": "Mỹ",
+    "nghia": "Đẹp",
+    "onyomi": "ビ, ミ",
+    "kunyomi": "うつく・しい",
+    "mnemonic": {
+      "text": "Con cừu (羊) lớn (大) thì nhìn rất MỸ (đẹp)."
+    },
+    "examples": [
+      { "word": "美しい", "reading": "うつくしい", "meaning": "đẹp" },
+      { "word": "美人", "reading": "びじん", "meaning": "người đẹp" },
+      { "word": "美術館", "reading": "びじゅつかん", "meaning": "bảo tàng mỹ thuật" },
+      { "word": "美容院", "reading": "びよういん", "meaning": "thẩm mỹ viện" }
+    ]
+  },
+  {
+    "kanji": "連",
+    "amHan": "Liên",
+    "nghia": "Liên lạc, dẫn đi",
+    "onyomi": "レン",
+    "kunyomi": "つ・れる, つら・なる",
+    "mnemonic": {
+      "text": "Những chiếc xe (車) nối đuôi nhau đi (辶) trên đường là sự LIÊN kết."
+    },
+    "examples": [
+      { "word": "連れる", "reading": "つれる", "meaning": "dẫn dắt, dẫn theo" },
+      { "word": "連絡する", "reading": "れんらくする", "meaning": "liên lạc" },
+      { "word": "連休", "reading": "れんきゅう", "meaning": "kỳ nghỉ dài" },
+      { "word": "連続", "reading": "れんぞく", "meaning": "liên tục" },
+      { "word": "関連", "reading": "かんれん", "meaning": "liên quan" }
+    ]
+  },
+  {
+    "kanji": "絡",
+    "amHan": "Lạc",
+    "nghia": "Liên lạc, quấn quýt",
+    "onyomi": "ラク",
+    "kunyomi": "から・まる, から・む",
+    "mnemonic": {
+      "text": "Sợi chỉ (糸) kết nối các địa phương (各 - các) để liên LẠC."
+    },
+    "examples": [
+      { "word": "連絡", "reading": "れんらく", "meaning": "liên lạc" },
+      { "word": "絡む", "reading": "からむ", "meaning": "liên quan, vướng vào" },
+      { "word": "脈絡", "reading": "みゃくらく", "meaning": "mạch lạc" }
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "kanji": "化",
+    "amHan": "Hóa",
+    "nghia": "Biến hóa, thay đổi",
+    "onyomi": "カ, ケ",
+    "kunyomi": "ば・ける, ば・かす",
+    "mnemonic": {
+      "text": "Một người (人) và một người nằm ngược lại (匕), tượng trưng cho sự biến HÓA."
+    },
+    "examples": [
+      { "word": "変化", "reading": "へんか", "meaning": "thay đổi, biến hóa" },
+      { "word": "文化", "reading": "ぶんか", "meaning": "văn hóa" },
+      { "word": "化粧", "reading": "けしょう", "meaning": "trang điểm" },
+      { "word": "化学", "reading": "かがく", "meaning": "hóa học" },
+      { "word": "映画化", "reading": "えいがか", "meaning": "chuyển thể thành phim" }
+    ]
+  },
+  {
+    "kanji": "和",
+    "amHan": "Hòa",
+    "nghia": "Hòa bình, kiểu Nhật",
+    "onyomi": "ワ",
+    "kunyomi": "やわ・らぐ, なご・む",
+    "mnemonic": {
+      "text": "Lúa (禾) cho vào miệng (口) ăn no thì con người sẽ sống HÒA thuận."
+    },
+    "examples": [
+      { "word": "和食", "reading": "わしょく", "meaning": "món ăn kiểu Nhật" },
+      { "word": "平和", "reading": "へいわ", "meaning": "hòa bình" },
+      { "word": "和服", "reading": "わふく", "meaning": "quần áo kiểu Nhật" },
+      { "word": "和らぐ", "reading": "やわらぐ", "meaning": "nguôi đi, dịu đi" },
+      { "word": "調和", "reading": "ちょうわ", "meaning": "điều hòa, hòa hợp" }
+    ]
+  },
+  {
+    "kanji": "健",
+    "amHan": "Kiện",
+    "nghia": "Khỏe mạnh",
+    "onyomi": "ケン",
+    "kunyomi": "すこ・やか",
+    "mnemonic": {
+      "text": "Người (亻) mà đi bộ trên đường dài (đuôi chữ) vẫn viết lách (聿) tốt là người tráng KIỆN."
+    },
+    "examples": [
+      { "word": "健康", "reading": "けんこう", "meaning": "sức khỏe" },
+      { "word": "健やかな", "reading": "すこやかな", "meaning": "khỏe mạnh, tươi tắn" },
+      { "word": "保健", "reading": "ほけん", "meaning": "bảo hiểm, bảo vệ sức khỏe" },
+      { "word": "健全な", "reading": "けんぜんな", "meaning": "lành mạnh" }
+    ]
+  },
+  {
+    "kanji": "康",
+    "amHan": "Khang",
+    "nghia": "An khang, khỏe mạnh",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới mái nhà (广), gạo (米) đầy đủ thì cuộc sống KHANG ninh, khỏe mạnh."
+    },
+    "examples": [
+      { "word": "健康", "reading": "けんこう", "meaning": "sức khỏe" },
+      { "word": "健康保険", "reading": "けんこうほけん", "meaning": "bảo hiểm sức khỏe" },
+      { "word": "小康状態", "reading": "しょうこうじょうたい", "meaning": "trạng thái tạm ổn định" }
+    ]
+  },
+  {
+    "kanji": "暖",
+    "amHan": "Noãn",
+    "nghia": "Ấm áp (nhiệt độ)",
+    "onyomi": "ダン",
+    "kunyomi": "あたた・かい, あたた・まる",
+    "mnemonic": {
+      "text": "Mặt trời (日) chiếu lên đôi bạn (爰) đang nắm tay nhau thật ấm áp (NOÃN)."
+    },
+    "examples": [
+      { "word": "暖かい", "reading": "あたたかい", "meaning": "ấm áp (nhiệt độ không khí)" },
+      { "word": "暖房", "reading": "だんぼう", "meaning": "máy sưởi" },
+      { "word": "暖冬", "reading": "だんとう", "meaning": "mùa đông ấm" },
+      { "word": "温暖な", "reading": "おんだんな", "meaning": "ôn hòa, ấm áp" }
+    ]
+  },
+  {
+    "kanji": "情",
+    "amHan": "Tình",
+    "nghia": "Tình cảm, thông tin",
+    "onyomi": "ジョウ, セイ",
+    "kunyomi": "なさ・け",
+    "mnemonic": {
+      "text": "Trái tim (忄) luôn mong muốn sự trong sạch, xanh tươi (青 - thanh) chính là cái TÌNH."
+    },
+    "examples": [
+      { "word": "情報", "reading": "じょうほう", "meaning": "thông tin" },
+      { "word": "感情", "reading": "かんじょう", "meaning": "tình cảm, cảm xúc" },
+      { "word": "友情", "reading": "ゆうじょう", "meaning": "tình bạn" },
+      { "word": "表情", "reading": "ひょうじょう", "meaning": "biểu cảm khuôn mặt" },
+      { "word": "情け", "reading": "なさけ", "meaning": "lòng trắc ẩn, sự nhân từ" }
+    ]
+  },
+  {
+    "kanji": "報",
+    "amHan": "Báo",
+    "nghia": "Báo cáo, trả ơn",
+    "onyomi": "ホウ",
+    "kunyomi": "むく・いる",
+    "mnemonic": {
+      "text": "Một người quỳ xuống báo cáo sự việc sau khi bị chấp hành hình phạt (phần bên phải)."
+    },
+    "examples": [
+      { "word": "報告", "reading": "ほうこく", "meaning": "báo cáo" },
+      { "word": "情報", "reading": "じょうほう", "meaning": "thông tin" },
+      { "word": "予報", "reading": "よほう", "meaning": "dự báo" },
+      { "word": "報道", "reading": "ほうどう", "meaning": "tin tức, truyền thông" },
+      { "word": "恩報じ", "reading": "おんがえし", "meaning": "trả ơn (thường dùng 恩返し)" }
+    ]
+  },
+  {
+    "kanji": "的",
+    "amHan": "Đích",
+    "nghia": "Mục tiêu, tính chất (hóa)",
+    "onyomi": "テキ",
+    "kunyomi": "まと",
+    "mnemonic": {
+      "text": "Cái bao (勺) màu trắng (白) chính là cái ĐÍCH để nhắm bắn."
+    },
+    "examples": [
+      { "word": "目的", "reading": "もくてき", "meaning": "mục đích" },
+      { "word": "個人的な", "reading": "こじんてきな", "meaning": "mang tính cá nhân" },
+      { "word": "的な", "reading": "てきな", "meaning": "mang tính..." },
+      { "word": "効率的", "reading": "こうりつてき", "meaning": "mang tính hiệu quả" },
+      { "word": "的", "reading": "まと", "meaning": "đích, bia" }
+    ]
+  },
+  {
+    "kanji": "紹",
+    "amHan": "Thiệu",
+    "nghia": "Giới thiệu",
+    "onyomi": "ショウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (糸) kết nối để triệu (召 - triệu) tập mọi người và giới THIỆU."
+    },
+    "examples": [
+      { "word": "紹介する", "reading": "しょうかいする", "meaning": "giới thiệu" },
+      { "word": "自己紹介", "reading": "じこしょうかい", "meaning": "tự giới thiệu bản thân" },
+      { "word": "紹介状", "reading": "しょうかいじょう", "meaning": "thư giới thiệu" }
+    ]
+  },
+  {
+    "kanji": "介",
+    "amHan": "Giới",
+    "nghia": "Trung gian, giới thiệu",
+    "onyomi": "カイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình ảnh một người đứng ở giữa phân chia hai bên, làm trung GIỚI."
+    },
+    "examples": [
+      { "word": "紹介", "reading": "しょうかい", "meaning": "giới thiệu" },
+      { "word": "介護", "reading": "かいご", "meaning": "chăm sóc, điều dưỡng" },
+      { "word": "介助する", "reading": "かいじょする", "meaning": "trợ giúp, giúp đỡ" },
+      { "word": "魚介類", "reading": "ぎょかいるい", "meaning": "hải sản" }
+    ]
+  },
+  {
+    "kanji": "経",
+    "amHan": "Kinh",
+    "nghia": "Trải qua, kinh tế, kinh văn",
+    "onyomi": "ケイ, キョウ",
+    "kunyomi": "へ・る, た・つ",
+    "mnemonic": {
+      "text": "Sợi chỉ (糸) xuyên suốt qua các dòng sông (đồ bên phải) chính là KINH tuyến hoặc trải nghiệm."
+    },
+    "examples": [
+      { "word": "経済", "reading": "けいざい", "meaning": "kinh tế" },
+      { "word": "経験", "reading": "けいけん", "meaning": "kinh nghiệm" },
+      { "word": "経営する", "reading": "けいえいする", "meaning": "kinh doanh" },
+      { "word": "経る", "reading": "へる", "meaning": "trải qua (thời gian/địa điểm)" },
+      { "word": "お経", "reading": "おきょう", "meaning": "kinh Phật" }
+    ]
+  },
+  {
+    "kanji": "済",
+    "amHan": "Tế",
+    "nghia": "Kết thúc, cứu giúp",
+    "onyomi": "サイ, ザイ",
+    "kunyomi": "す・む, す・ます",
+    "mnemonic": {
+      "text": "Dùng nước (氵) để sắp xếp cho gọn gàng (斉 - tề) mọi việc là đã xong (TẾ)."
+    },
+    "examples": [
+      { "word": "済む", "reading": "すむ", "meaning": "kết thúc, xong (tự động từ)" },
+      { "word": "経済", "reading": "けいざい", "meaning": "kinh tế" },
+      { "word": "支払い済み", "reading": "しはらいずみ", "meaning": "đã thanh toán" },
+      { "word": "済ませる", "reading": "すませる", "meaning": "làm xong, giải quyết xong" },
+      { "word": "返済する", "reading": "へんさいする", "meaning": "trả nợ" }
+    ]
+  },
+  {
+    "kanji": "律",
+    "amHan": "Luật",
+    "nghia": "Luật lệ, kỷ luật",
+    "onyomi": "リツ, レツ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người bộ hành (彳) phải tuân theo những gì đã được viết (聿) thành LUẬT."
+    },
+    "examples": [
+      { "word": "法律", "reading": "ほうりつ", "meaning": "pháp luật" },
+      { "word": "規律", "reading": "きりつ", "meaning": "kỷ luật, quy tắc" },
+      { "word": "一律に", "reading": "いちりつに", "meaning": "đồng loạt, như nhau" },
+      { "word": "自律", "reading": "じりつ", "meaning": "tự giác, tự trị" }
+    ]
+  },
+  {
+    "kanji": "相",
+    "amHan": "Tương, Tướng",
+    "nghia": "Lẫn nhau, diện mạo, thủ tướng",
+    "onyomi": "ソウ, ショウ",
+    "kunyomi": "あい",
+    "mnemonic": {
+      "text": "Dùng mắt (目) nhìn vào cái cây (木) để quan sát diện mạo hoặc TƯƠNG tác."
+    },
+    "examples": [
+      { "word": "相談する", "reading": "そうだんする", "meaning": "thảo luận, bàn bạc" },
+      { "word": "相手", "reading": "あいて", "meaning": "đối phương" },
+      { "word": "首相", "reading": "しゅしょう", "meaning": "thủ tướng" },
+      { "word": "相談窓口", "reading": "そうだんまどぐち", "meaning": "quầy tư vấn" },
+      { "word": "相当", "reading": "そうとう", "meaning": "khá là, tương đương" }
+    ]
+  },
+  {
+    "kanji": "談",
+    "amHan": "Đàm",
+    "nghia": "Nói chuyện, thảo luận",
+    "onyomi": "ダン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng lời nói (言) trong không khí nóng bỏng (炎 - viêm) để ĐÀM đạo."
+    },
+    "examples": [
+      { "word": "相談する", "reading": "そうだんする", "meaning": "thảo luận, bàn bạc" },
+      { "word": "冗談", "reading": "じょうだん", "meaning": "nói đùa" },
+      { "word": "会談", "reading": "かいだん", "meaning": "hội đàm" },
+      { "word": "談話", "reading": "だんわ", "meaning": "đối thoại, trò chuyện" },
+      { "word": "雑談", "reading": "ざつだん", "meaning": "nói chuyện phiếm" }
+    ]
+  }
+]

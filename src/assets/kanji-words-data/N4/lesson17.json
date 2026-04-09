@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "説",
+    "amHan": "Thuyết",
+    "nghia": "Giải thích, thuyết trình",
+    "onyomi": "セツ, ゼイ",
+    "kunyomi": "と・く",
+    "mnemonic": {
+      "text": "Dùng lời nói (言) để làm cho người khác cảm thấy vui vẻ (兌 - đoài) chính là giải THUYẾT."
+    },
+    "examples": [
+      { "word": "説明する", "reading": "せつめいする", "meaning": "giải thích" },
+      { "word": "小説", "reading": "しょうせつ", "meaning": "tiểu thuyết" },
+      { "word": "説教する", "reading": "せっきょうする", "meaning": "thuyết giáo, dạy đời" },
+      { "word": "伝説", "reading": "でんせつ", "meaning": "truyền thuyết" },
+      { "word": "解説", "reading": "かいせつ", "meaning": "giải thích, chú giải" }
+    ]
+  },
+  {
+    "kanji": "進",
+    "amHan": "Tiến",
+    "nghia": "Tiến lên",
+    "onyomi": "シン",
+    "kunyomi": "すす・む, すす・める",
+    "mnemonic": {
+      "text": "Con chim (隹) đi (辶) thẳng về phía trước là sự TIẾN lên."
+    },
+    "examples": [
+      { "word": "進む", "reading": "すすむ", "meaning": "tiến bộ, tiến triển (tự động từ)" },
+      { "word": "進める", "reading": "すすめる", "meaning": "thúc đẩy (tha động từ)" },
+      { "word": "進化", "reading": "しんか", "meaning": "tiến hóa" },
+      { "word": "進学する", "reading": "しんがくする", "meaning": "học lên cao" },
+      { "word": "先進国", "reading": "せんしんこく", "meaning": "nước tiên tiến" }
+    ]
+  },
+  {
+    "kanji": "産",
+    "amHan": "Sản",
+    "nghia": "Sinh sản, sản xuất",
+    "onyomi": "サン",
+    "kunyomi": "う・む, う・まれる",
+    "mnemonic": {
+      "text": "Trên vách đá (厂), dựng lều (立) để sống (生) và SẢN sinh ra của cải."
+    },
+    "examples": [
+      { "word": "生産する", "reading": "せいさんする", "meaning": "sản xuất" },
+      { "word": "お土産", "reading": "おみやげ", "meaning": "quà lưu niệm" },
+      { "word": "産まれる", "reading": "うまれる", "meaning": "được sinh ra" },
+      { "word": "産業", "reading": "さんぎょう", "meaning": "công nghiệp" },
+      { "word": "不動産", "reading": "ふどうさん", "meaning": "bất động sản" }
+    ]
+  },
+  {
+    "kanji": "園",
+    "amHan": "Viên",
+    "nghia": "Vườn",
+    "onyomi": "エン",
+    "kunyomi": "その",
+    "mnemonic": {
+      "text": "Bao quanh (囗) một khu đất có đất (土), miệng giếng (口) và người đi lại chính là vườn (VIÊN)."
+    },
+    "examples": [
+      { "word": "公園", "reading": "こうえん", "meaning": "công viên" },
+      { "word": "動物園", "reading": "どうぶつえん", "meaning": "vườn bách thú" },
+      { "word": "遊園地", "reading": "ゆうえんち", "meaning": "khu vui chơi" },
+      { "word": "幼稚園", "reading": "ようちえん", "meaning": "trường mẫu giáo" },
+      { "word": "庭園", "reading": "ていえん", "meaning": "đình viên, vườn hoa" }
+    ]
+  },
+  {
+    "kanji": "公",
+    "amHan": "Công",
+    "nghia": "Công cộng, công bằng",
+    "onyomi": "コウ",
+    "kunyomi": "おおやけ",
+    "mnemonic": {
+      "text": "Phần trên (八 - bát) chia đều tài sản cho cái tôi (厶 - tư) để trở nên CÔNG bằng."
+    },
+    "examples": [
+      { "word": "公務員", "reading": "こうむいん", "meaning": "công chức nhà nước" },
+      { "word": "公式", "reading": "こうしき", "meaning": "công thức, chính thức" },
+      { "word": "公開する", "reading": "こうかいする", "meaning": "công khai" },
+      { "word": "主人公", "reading": "しゅじんこう", "meaning": "nhân vật chính" },
+      { "word": "公立", "reading": "こうりつ", "meaning": "công lập" }
+    ]
+  },
+  {
+    "kanji": "案",
+    "amHan": "Án",
+    "nghia": "Phương án, hướng dẫn",
+    "onyomi": "アン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người phụ nữ (女) ngồi dưới mái nhà (宀) bên cái bàn gỗ (木) để suy nghĩ phương ÁN."
+    },
+    "examples": [
+      { "word": "案内する", "reading": "あんないする", "meaning": "hướng dẫn" },
+      { "word": "提案する", "reading": "ていあんする", "meaning": "đề án, đề xuất" },
+      { "word": "案外", "reading": "あんがい", "meaning": "ngoài dự tính" },
+      { "word": "名案", "reading": "めいあん", "meaning": "ý kiến hay" },
+      { "word": "答案", "reading": "とうあん", "meaning": "bản trả lời, bài làm" }
+    ]
+  },
+  {
+    "kanji": "内",
+    "amHan": "Nội",
+    "nghia": "Bên trong",
+    "onyomi": "ナイ, ダイ",
+    "kunyomi": "うち",
+    "mnemonic": {
+      "text": "Đi vào (入) bên trong khu vực có giới hạn (冂) là NỘI."
+    },
+    "examples": [
+      { "word": "内容", "reading": "ないよう", "meaning": "nội dung" },
+      { "word": "以内", "reading": "いない", "meaning": "trong vòng" },
+      { "word": "案内", "reading": "あんない", "meaning": "hướng dẫn" },
+      { "word": "国内", "reading": "こくない", "meaning": "trong nước" },
+      { "word": "内側", "reading": "うちがわ", "meaning": "phía bên trong" }
+    ]
+  },
+  {
+    "kanji": "石",
+    "amHan": "Thạch",
+    "nghia": "Đá",
+    "onyomi": "セキ, シャク",
+    "kunyomi": "いし",
+    "mnemonic": {
+      "text": "Dưới vách đá (厂) có một vật hình vuông chính là hòn đá (THẠCH)."
+    },
+    "examples": [
+      { "word": "石", "reading": "いし", "meaning": "hòn đá" },
+      { "word": "石油", "reading": "せきゆ", "meaning": "dầu hỏa" },
+      { "word": "石鹸", "reading": "せっけん", "meaning": "xà phòng" },
+      { "word": "宝石", "reading": "ほうせき", "meaning": "đá quý" },
+      { "word": "磁石", "reading": "じしゃく", "meaning": "nam châm" }
+    ]
+  },
+  {
+    "kanji": "油",
+    "amHan": "Du",
+    "nghia": "Dầu",
+    "onyomi": "ユ",
+    "kunyomi": "あぶら",
+    "mnemonic": {
+      "text": "Nước (氵) chảy ra từ cái bình (由 - do) chính là dầu (DU)."
+    },
+    "examples": [
+      { "word": "油", "reading": "あぶら", "meaning": "dầu" },
+      { "word": "石油", "reading": "せきゆ", "meaning": "dầu hỏa" },
+      { "word": "醤油", "reading": "しょうゆ", "meaning": "nước tương" },
+      { "word": "サラダ油", "reading": "サラダゆ", "meaning": "dầu ăn" },
+      { "word": "油断する", "reading": "ゆだんする", "meaning": "lơ là, chủ quan" }
+    ]
+  }
+]

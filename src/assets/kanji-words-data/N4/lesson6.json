@@ -1,0 +1,255 @@
+[
+  {
+    "kanji": "横",
+    "amHan": "Hoành",
+    "nghia": "Bề ngang, nằm ngang",
+    "onyomi": "オウ",
+    "kunyomi": "よこ",
+    "mnemonic": {
+      "text": "Dùng cây gỗ (木) để làm cái chốt màu vàng (黄) chắn ngang cửa gọi là HOÀNH."
+    },
+    "examples": [
+      { "word": "横", "reading": "よこ", "meaning": "bên cạnh, bề ngang" },
+      { "word": "横浜", "reading": "よこはま", "meaning": "thành phố Yokohama" },
+      { "word": "横断歩道", "reading": "おうだんほどう", "meaning": "vạch kẻ đường cho người đi bộ" },
+      { "word": "横転", "reading": "おうてん", "meaning": "lật nhào (xe)" },
+      { "word": "横書き", "reading": "よこがき", "meaning": "viết theo hàng ngang" }
+    ]
+  },
+  {
+    "kanji": "橋",
+    "amHan": "Kiều",
+    "nghia": "Cái cầu",
+    "onyomi": "キョウ",
+    "kunyomi": "はし",
+    "mnemonic": {
+      "text": "Ngày xưa cầu được làm từ cây gỗ (木) cao (高) bắc qua sông."
+    },
+    "examples": [
+      { "word": "橋", "reading": "はし", "meaning": "cái cầu" },
+      { "word": "歩道橋", "reading": "ほどうきょう", "meaning": "cầu vượt cho người đi bộ" },
+      { "word": "日本橋", "reading": "にほんばし", "meaning": "cầu Nihonbashi" },
+      { "word": "鉄橋", "reading": "てっきょう", "meaning": "cầu sắt" },
+      { "word": "架け橋", "reading": "かけはし", "meaning": "cây cầu kết nối" }
+    ]
+  },
+  {
+    "kanji": "決",
+    "amHan": "Quyết",
+    "nghia": "Quyết định",
+    "onyomi": "ケツ",
+    "kunyomi": "き・める, き・まる",
+    "mnemonic": {
+      "text": "Dùng nước (氵) để làm trôi đi sự phân vân, mở toang (夬 - quái) cánh cửa tâm trí để QUYẾT định."
+    },
+    "examples": [
+      { "word": "決める", "reading": "きめる", "meaning": "quyết định (tha động từ)" },
+      { "word": "決まる", "reading": "きまる", "meaning": "được quyết định (tự động từ)" },
+      { "word": "決して", "reading": "けっして", "meaning": "tuyệt đối không" },
+      { "word": "決定", "reading": "けってい", "meaning": "quyết định" },
+      { "word": "解決", "reading": "かいけつ", "meaning": "giải quyết" }
+    ]
+  },
+  {
+    "kanji": "非",
+    "amHan": "Phi",
+    "nghia": "Sai trái, không (phủ định)",
+    "onyomi": "ヒ",
+    "kunyomi": "あら・ず",
+    "mnemonic": {
+      "text": "Hình ảnh hai cánh chim dang ra ngược chiều nhau, biểu thị sự trái ngược, sai PHI."
+    },
+    "examples": [
+      { "word": "非常に", "reading": "ひじょうに", "meaning": "rất, cực kỳ" },
+      { "word": "非常口", "reading": "ひじょうぐち", "meaning": "lối thoát hiểm" },
+      { "word": "非行", "reading": "ひこう", "meaning": "hành vi xấu" },
+      { "word": "非公式", "reading": "ひこうしき", "meaning": "không chính thức" },
+      { "word": "是非", "reading": "ぜひ", "meaning": "nhất định, đúng sai" }
+    ]
+  },
+  {
+    "kanji": "常",
+    "amHan": "Thường",
+    "nghia": "Bình thường, thông thường",
+    "onyomi": "ジョウ",
+    "kunyomi": "つね, とこ",
+    "mnemonic": {
+      "text": "Dưới mái nhà (尚 - thượng) treo một cái khăn (巾 - cân), đó là vật dụng THƯỜNG ngày."
+    },
+    "examples": [
+      { "word": "日常", "reading": "にちじょう", "meaning": "hàng ngày" },
+      { "word": "常識", "reading": "じょうしき", "meaning": "kiến thức thông thường" },
+      { "word": "正常な", "reading": "せいじょうな", "meaning": "bình thường" },
+      { "word": "常に", "reading": "つねに", "meaning": "luôn luôn" },
+      { "word": "異常な", "reading": "いじょうな", "meaning": "bất thường" }
+    ]
+  },
+  {
+    "kanji": "忘",
+    "amHan": "Vong",
+    "nghia": "Quên",
+    "onyomi": "ボウ",
+    "kunyomi": "わす・れる",
+    "mnemonic": {
+      "text": "Khi trái tim (心) bị mất (亡 - vong) đi sự kết nối thì ta sẽ QUÊN (vong)."
+    },
+    "examples": [
+      { "word": "忘れる", "reading": "わすれる", "meaning": "quên" },
+      { "word": "忘れ物", "reading": "わすれもの", "meaning": "đồ bỏ quên" },
+      { "word": "忘年会", "reading": "ぼうねんかい", "meaning": "tiệc tất niên" },
+      { "word": "忘却", "reading": "ぼうきゃく", "meaning": "sự lãng quên" },
+      { "word": "度忘れ", "reading": "どわすれ", "meaning": "chợt quên" }
+    ]
+  },
+  {
+    "kanji": "置",
+    "amHan": "Trí",
+    "nghia": "Đặt, để",
+    "onyomi": "チ",
+    "kunyomi": "お・く",
+    "mnemonic": {
+      "text": "Dùng mắt (罒 - võng) quan sát để đặt vật thẳng (直 - trực) vào đúng vị TRÍ."
+    },
+    "examples": [
+      { "word": "置く", "reading": "おく", "meaning": "đặt, để" },
+      { "word": "位置", "reading": "いち", "meaning": "vị trí" },
+      { "word": "物置", "reading": "ものおき", "meaning": "kho chứa đồ" },
+      { "word": "設置", "reading": "せっち", "meaning": "lắp đặt" },
+      { "word": "放置", "reading": "ほうち", "meaning": "để mặc, bỏ mặc" }
+    ]
+  },
+  {
+    "kanji": "授",
+    "amHan": "Thụ",
+    "nghia": "Truyền thụ, trao tặng",
+    "onyomi": "ジュ",
+    "kunyomi": "さず・ける",
+    "mnemonic": {
+      "text": "Dùng tay (扌) để truyền thụ lại kiến thức đã được tiếp nhận (受 - thụ)."
+    },
+    "examples": [
+      { "word": "授業", "reading": "じゅぎょう", "meaning": "tiết học" },
+      { "word": "教授", "reading": "きょうじゅ", "meaning": "giáo sư" },
+      { "word": "授与する", "reading": "じゅよする", "meaning": "trao tặng" },
+      { "word": "授かる", "reading": "さずかる", "meaning": "thu nhận, được ban cho" },
+      { "word": "伝授する", "reading": "でんじゅする", "meaning": "truyền thụ" }
+    ]
+  },
+  {
+    "kanji": "技",
+    "amHan": "Kỹ",
+    "nghia": "Kỹ năng, kỹ thuật",
+    "onyomi": "ギ",
+    "kunyomi": "わざ",
+    "mnemonic": {
+      "text": "Dùng tay (扌) để thực hiện các chi (支 - chi) tiết khéo léo gọi là KỸ năng."
+    },
+    "examples": [
+      { "word": "技術", "reading": "ぎじゅつ", "meaning": "kỹ thuật" },
+      { "word": "特技", "reading": "とくぎ", "meaning": "năng khiếu" },
+      { "word": "技能", "reading": "ぎのう", "meaning": "kỹ năng" },
+      { "word": "技", "reading": "わざ", "meaning": "kỹ xảo, chiêu thức" },
+      { "word": "競技", "reading": "きょうぎ", "meaning": "thi đấu" }
+    ]
+  },
+  {
+    "kanji": "術",
+    "amHan": "Thuật",
+    "nghia": "Nghệ thuật, kỹ thuật",
+    "onyomi": "ジュツ",
+    "kunyomi": "すべ",
+    "mnemonic": {
+      "text": "Đi giữa ngã tư đường (行) mà vẫn khéo léo múa gậy (chữ ở giữa) là một THUẬT."
+    },
+    "examples": [
+      { "word": "芸術", "reading": "げいじゅつ", "meaning": "nghệ thuật" },
+      { "word": "美術館", "reading": "びじゅつかん", "meaning": "bảo tàng mỹ thuật" },
+      { "word": "手術", "reading": "しゅじゅつ", "meaning": "phẫu thuật" },
+      { "word": "戦術", "reading": "せんじゅつ", "meaning": "chiến thuật" },
+      { "word": "魔術", "reading": "まじゅつ", "meaning": "ma thuật" }
+    ]
+  },
+  {
+    "kanji": "資",
+    "amHan": "Tư",
+    "nghia": "Tiền của, tư liệu",
+    "onyomi": "シ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người tiếp theo (次 - thứ) cầm tiền (貝 - bối) chính là chủ đầu TƯ."
+    },
+    "examples": [
+      { "word": "資料", "reading": "しりょう", "meaning": "tài liệu" },
+      { "word": "資本", "reading": "しほん", "meaning": "vốn" },
+      { "word": "資格", "reading": "しかく", "meaning": "bằng cấp, tư cách" },
+      { "word": "資源", "reading": "しげん", "meaning": "tài nguyên" },
+      { "word": "投資", "reading": "とうし", "meaning": "đầu tư" }
+    ]
+  },
+  {
+    "kanji": "類",
+    "amHan": "Loại",
+    "nghia": "Chủng loại",
+    "onyomi": "ルイ",
+    "kunyomi": "たぐ・い",
+    "mnemonic": {
+      "text": "Lấy hạt gạo (米) và con chó (犬 - đại diện động vật) đem ra trước trang giấy (頁 - đầu) để phân LOẠI."
+    },
+    "examples": [
+      { "word": "書類", "reading": "しょるい", "meaning": "hồ sơ, chứng từ" },
+      { "word": "種類", "reading": "しゅるい", "meaning": "loại, chủng loại" },
+      { "word": "類する", "reading": "るいする", "meaning": "tương tự" },
+      { "word": "親類", "reading": "しんるい", "meaning": "họ hàng" },
+      { "word": "分類", "reading": "ぶんるい", "meaning": "phân loại" }
+    ]
+  },
+  {
+    "kanji": "復",
+    "amHan": "Phục",
+    "nghia": "Lặp lại, phục hồi",
+    "onyomi": "フク",
+    "kunyomi": "また",
+    "mnemonic": {
+      "text": "Người bộ hành (彳) quay đi quay lại một nơi nhiều lần để phục (復) hồi ký ức."
+    },
+    "examples": [
+      { "word": "復習", "reading": "ふくしゅう", "meaning": "ôn tập" },
+      { "word": "回復", "reading": "かいふく", "meaning": "hồi phục" },
+      { "word": "往復", "reading": "おうふく", "meaning": "khứ hồi, đi và về" },
+      { "word": "復活", "reading": "ふっかつ", "meaning": "sống lại, phục sinh" },
+      { "word": "復帰", "reading": "ふっき", "meaning": "quay trở lại (công tác)" }
+    ]
+  },
+  {
+    "kanji": "植",
+    "amHan": "Thực",
+    "nghia": "Trồng cây",
+    "onyomi": "ショク",
+    "kunyomi": "う・える",
+    "mnemonic": {
+      "text": "Dùng cây gỗ (木) đặt thẳng (直 - trực) xuống đất để THỰC (trồng)."
+    },
+    "examples": [
+      { "word": "植える", "reading": "うえる", "meaning": "trồng (cây)" },
+      { "word": "植物", "reading": "しょくぶつ", "meaning": "thực vật" },
+      { "word": "植木", "reading": "うえき", "meaning": "cây trồng trong chậu" },
+      { "word": "田植え", "reading": "たうえ", "meaning": "cấy lúa" },
+      { "word": "移植する", "reading": "いしょくする", "meaning": "cấy ghép" }
+    ]
+  },
+  {
+    "kanji": "机",
+    "amHan": "Cơ",
+    "nghia": "Cái bàn",
+    "onyomi": "キ",
+    "kunyomi": "つくえ",
+    "mnemonic": {
+      "text": "Cây gỗ (木) làm thành vật nhỏ (几 - kỷ) để ngồi học là cái bàn (CƠ)."
+    },
+    "examples": [
+      { "word": "机", "reading": "つくえ", "meaning": "cái bàn" },
+      { "word": "机上の空論", "reading": "きじょうのくうろん", "meaning": "lý thuyết suông" },
+      { "word": "学習机", "reading": "がくしゅうづくえ", "meaning": "bàn học" }
+    ]
+  }
+]

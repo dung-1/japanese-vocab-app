@@ -1,0 +1,254 @@
+[
+  {
+    "kanji": "向",
+    "amHan": "Hướng",
+    "nghia": "Hướng tới, đối diện",
+    "onyomi": "コウ",
+    "kunyomi": "む・く, む・かう",
+    "mnemonic": {
+      "text": "Dưới mái nhà có một cái cửa sổ (口), nơi mọi người HƯỚNG nhìn ra ngoài."
+    },
+    "examples": [
+      { "word": "向かう", "reading": "むかう", "meaning": "hướng tới, đối mặt" },
+      { "word": "方向", "reading": "ほうこう", "meaning": "phương hướng" },
+      { "word": "向こう", "reading": "むこう", "meaning": "phía bên kia" },
+      { "word": "向上する", "reading": "こうじょうする", "meaning": "nâng cao, tiến bộ" },
+      { "word": "向く", "reading": "むく", "meaning": "phù hợp với, quay về phía" }
+    ]
+  },
+  {
+    "kanji": "困",
+    "amHan": "Khốn",
+    "nghia": "Khó khăn, rắc rối",
+    "onyomi": "コン",
+    "kunyomi": "こま・る",
+    "mnemonic": {
+      "text": "Cái cây (木) bị bao quanh bởi bốn bức tường (囗) nên lâm vào cảnh KHỐN cùng."
+    },
+    "examples": [
+      { "word": "困る", "reading": "こまる", "meaning": "khó khăn, bối rối" },
+      { "word": "困難な", "reading": "こんなんな", "meaning": "khó khăn, vất vả" },
+      { "word": "貧困", "reading": "ひんこん", "meaning": "nghèo khó" },
+      { "word": "困窮", "reading": "こんきゅう", "meaning": "túng quẫn" }
+    ]
+  },
+  {
+    "kanji": "丸",
+    "amHan": "Hoàn",
+    "nghia": "Tròn, toàn bộ",
+    "onyomi": "ガン",
+    "kunyomi": "まる, まる・める",
+    "mnemonic": {
+      "text": "Hình ảnh một người đang ôm một vật gì đó rất tròn (HOÀN)."
+    },
+    "examples": [
+      { "word": "丸い", "reading": "まるい", "meaning": "tròn" },
+      { "word": "丸める", "reading": "まるめる", "meaning": "cuộn tròn, vo tròn" },
+      { "word": "丸ごと", "reading": "まるごと", "meaning": "toàn bộ, nguyên vẹn" },
+      { "word": "弾丸", "reading": "だんがん", "meaning": "viên đạn" },
+      { "word": "日の丸", "reading": "ひのまる", "meaning": "quốc kỳ Nhật Bản" }
+    ]
+  },
+  {
+    "kanji": "機",
+    "amHan": "Cơ",
+    "nghia": "Máy móc, cơ hội",
+    "onyomi": "キ",
+    "kunyomi": "はた",
+    "mnemonic": {
+      "text": "Dùng gỗ (木) để chế tạo ra những thứ phức tạp (幾 - cơ) như máy móc (CƠ)."
+    },
+    "examples": [
+      { "word": "機械", "reading": "きかい", "meaning": "máy móc" },
+      { "word": "機会", "reading": "きかい", "meaning": "cơ hội" },
+      { "word": "飛行機", "reading": "ひこうき", "meaning": "máy bay" },
+      { "word": "機能", "reading": "きのう", "meaning": "tính năng" },
+      { "word": "コピー機", "reading": "コピーき", "meaning": "máy photocopy" }
+    ]
+  },
+  {
+    "kanji": "曲",
+    "amHan": "Khúc",
+    "nghia": "Cong, ca khúc",
+    "onyomi": "キョク",
+    "kunyomi": "ま・がる, ま・げる",
+    "mnemonic": {
+      "text": "Hình ảnh cái thước đo bị bẻ cong tạo thành những KHÚC quanh."
+    },
+    "examples": [
+      { "word": "曲がる", "reading": "まがる", "meaning": "rẽ, cong (tự động từ)" },
+      { "word": "曲げる", "reading": "まげる", "meaning": "bẻ cong (tha động từ)" },
+      { "word": "曲", "reading": "きょく", "meaning": "bài hát" },
+      { "word": "曲線", "reading": "きょくせん", "meaning": "đường cong" },
+      { "word": "作曲", "reading": "さっきょく", "meaning": "sáng tác nhạc" }
+    ]
+  },
+  {
+    "kanji": "皆",
+    "amHan": "Giai",
+    "nghia": "Mọi người, tất cả",
+    "onyomi": "カイ",
+    "kunyomi": "みな",
+    "mnemonic": {
+      "text": "Tất cả mọi người (比 - tỷ) đều có chung một trái tim trắng (白 - bạch), đó là GIAI (tất cả)."
+    },
+    "examples": [
+      { "word": "皆さん", "reading": "みなさん", "meaning": "mọi người" },
+      { "word": "皆勤", "reading": "かいきん", "meaning": "đi làm/học đầy đủ" },
+      { "word": "皆無", "reading": "かいむ", "meaning": "hoàn toàn không có" },
+      { "word": "皆様", "reading": "みなさま", "meaning": "quý vị (kính ngữ)" }
+    ]
+  },
+  {
+    "kanji": "違",
+    "amHan": "Vi",
+    "nghia": "Sai, khác",
+    "onyomi": "イ",
+    "kunyomi": "ちが・う, ちが・える",
+    "mnemonic": {
+      "text": "Đi (辶) ngược với lớp da thú (韋 - vi) bao bọc xung quanh là sự sai KHÁC."
+    },
+    "examples": [
+      { "word": "違う", "reading": "ちがう", "meaning": "sai, khác" },
+      { "word": "間違い", "reading": "まちがい", "meaning": "lỗi sai" },
+      { "word": "違反", "reading": "いはん", "meaning": "vi phạm" },
+      { "word": "違和感", "reading": "いわかん", "meaning": "cảm giác khác lạ/khó chịu" },
+      { "word": "相違", "reading": "そうい", "meaning": "sự tương khác" }
+    ]
+  },
+  {
+    "kanji": "務",
+    "amHan": "Vụ",
+    "nghia": "Nhiệm vụ, công việc",
+    "onyomi": "ム",
+    "kunyomi": "つと・める",
+    "mnemonic": {
+      "text": "Dùng mâu (矛) và sức lực (力) để hoàn thành nhiệm VỤ được giao."
+    },
+    "examples": [
+      { "word": "務める", "reading": "つとめる", "meaning": "giữ chức vụ, đảm nhiệm" },
+      { "word": "公務員", "reading": "こうむいん", "meaning": "công chức" },
+      { "word": "義務", "reading": "ぎむ", "meaning": "nghĩa vụ" },
+      { "word": "事務所", "reading": "じむしょ", "meaning": "văn phòng" },
+      { "word": "勤務", "reading": "きんむ", "meaning": "làm việc" }
+    ]
+  },
+  {
+    "kanji": "客",
+    "amHan": "Khách",
+    "nghia": "Khách hàng",
+    "onyomi": "キャク, カク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới mái nhà (宀) có người từ nơi khác đến (各 - các) chính là KHÁCH."
+    },
+    "examples": [
+      { "word": "お客様", "reading": "おきゃくさま", "meaning": "khách hàng" },
+      { "word": "観客", "reading": "かんきゃく", "meaning": "khán giả" },
+      { "word": "乗客", "reading": "じょうきゃく", "meaning": "hành khách" },
+      { "word": "客席", "reading": "きゃくせき", "meaning": "ghế khán giả" },
+      { "word": "来客", "reading": "らいきゃく", "meaning": "khách đến chơi" }
+    ]
+  },
+  {
+    "kanji": "島",
+    "amHan": "Đảo",
+    "nghia": "Hòn đảo",
+    "onyomi": "トウ",
+    "kunyomi": "しま",
+    "mnemonic": {
+      "text": "Con chim (鳥) bay mệt mỏi dừng chân trên ngọn núi (山) giữa biển chính là ĐẢO."
+    },
+    "examples": [
+      { "word": "島", "reading": "しま", "meaning": "hòn đảo" },
+      { "word": "半島", "reading": "はんとう", "meaning": "bán đảo" },
+      { "word": "島国", "reading": "しまぐに", "meaning": "quốc đảo" },
+      { "word": "列島", "reading": "れっとう", "meaning": "quần đảo" },
+      { "word": "広島", "reading": "ひろしま", "meaning": "thành phố Hiroshima" }
+    ]
+  },
+  {
+    "kanji": "信",
+    "amHan": "Tín",
+    "nghia": "Tin tưởng, tín hiệu",
+    "onyomi": "シン",
+    "kunyomi": "しん・じる",
+    "mnemonic": {
+      "text": "Con người (人) nói lời (言) chân thành thì mới tạo được niềm TÍN (tin)."
+    },
+    "examples": [
+      { "word": "信じる", "reading": "しんじる", "meaning": "tin tưởng" },
+      { "word": "信号", "reading": "しんごう", "meaning": "đèn giao thông, tín hiệu" },
+      { "word": "自信", "reading": "じしん", "meaning": "tự tin" },
+      { "word": "信用", "reading": "しんよう", "meaning": "tin dụng, tin tưởng" },
+      { "word": "送信", "reading": "そうしん", "meaning": "gửi đi (tin nhắn)" }
+    ]
+  },
+  {
+    "kanji": "遅",
+    "amHan": "Trì",
+    "nghia": "Muộn, chậm",
+    "onyomi": "チ",
+    "kunyomi": "おく・れる, おそ・い",
+    "mnemonic": {
+      "text": "Con cừu (biến thể) đi bộ (辶) một cách thong thả thì chắc chắn sẽ bị TRÌ (muộn)."
+    },
+    "examples": [
+      { "word": "遅れる", "reading": "おくれる", "meaning": "muộn, trễ (giờ)" },
+      { "word": "遅い", "reading": "おそい", "meaning": "chậm, muộn" },
+      { "word": "遅刻", "reading": "ちこく", "meaning": "đến muộn" },
+      { "word": "遅延", "reading": "ちえん", "meaning": "trì hoãn" },
+      { "word": "遅まきながら", "reading": "おそまきながら", "meaning": "dẫu có hơi muộn" }
+    ]
+  },
+  {
+    "kanji": "許",
+    "amHan": "Hứa",
+    "nghia": "Cho phép, tha thứ",
+    "onyomi": "キョ",
+    "kunyomi": "ゆる・す",
+    "mnemonic": {
+      "text": "Dùng lời nói (言) để điều chỉnh cho đúng buổi ngọ (午) là việc cho phép (HỨA)."
+    },
+    "examples": [
+      { "word": "許す", "reading": "ゆるす", "meaning": "cho phép, tha thứ" },
+      { "word": "許可", "reading": "きょか", "meaning": "cho phép" },
+      { "word": "免許", "reading": "めんきょ", "meaning": "giấy phép, bằng lái" },
+      { "word": "特許", "reading": "とっきょ", "meaning": "bằng sáng chế" }
+    ]
+  },
+  {
+    "kanji": "可",
+    "amHan": "Khả",
+    "nghia": "Có thể",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cái đinh được đóng vào miệng (口) để khẳng định khả năng (KHẢ)."
+    },
+    "examples": [
+      { "word": "可能な", "reading": "かのうな", "meaning": "có thể, khả thi" },
+      { "word": "不可", "reading": "ふか", "meaning": "không thể, không được" },
+      { "word": "可愛い", "reading": "かわいい", "meaning": "dễ thương" },
+      { "word": "可決", "reading": "かけつ", "meaning": "thông qua (quyết định)" },
+      { "word": "可能性", "reading": "かのうせい", "meaning": "khả năng" }
+    ]
+  },
+  {
+    "kanji": "禁",
+    "amHan": "Cấm",
+    "nghia": "Ngăn cấm",
+    "onyomi": "キン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Ở trong rừng (林) bày ra bàn thờ (示 - thị) để nhắc nhở những điều CẤM kỵ."
+    },
+    "examples": [
+      { "word": "禁止", "reading": "きんし", "meaning": "cấm" },
+      { "word": "禁煙", "reading": "きんえん", "meaning": "cấm hút thuốc" },
+      { "word": "厳禁", "reading": "げんきん", "meaning": "nghiêm cấm" },
+      { "word": "禁じる", "reading": "きんじる", "meaning": "ngăn cấm" },
+      { "word": "禁断", "reading": "きんだん", "meaning": "bị cấm" }
+    ]
+  }
+]

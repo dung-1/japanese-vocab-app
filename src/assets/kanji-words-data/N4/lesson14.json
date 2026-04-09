@@ -1,0 +1,245 @@
+[
+  {
+    "kanji": "港",
+    "amHan": "Cảng",
+    "nghia": "Bến cảng",
+    "onyomi": "コウ",
+    "kunyomi": "みなと",
+    "mnemonic": {
+      "text": "Nơi có nước (氵) mà mọi người (共 - cộng) tập trung giao thương chính là hải CẢNG."
+    },
+    "examples": [
+      { "word": "港", "reading": "みなと", "meaning": "bến cảng" },
+      { "word": "空港", "reading": "くうこう", "meaning": "sân bay" },
+      { "word": "出港する", "reading": "しゅっこうする", "meaning": "rời cảng" },
+      { "word": "神戸港", "reading": "こうべこう", "meaning": "cảng Kobe" }
+    ]
+  },
+  {
+    "kanji": "宿",
+    "amHan": "Túc",
+    "nghia": "Chỗ trọ, ngủ lại",
+    "onyomi": "シュク",
+    "kunyomi": "やど, やど・る",
+    "mnemonic": {
+      "text": "Dưới mái nhà (宀), có một trăm (百) người cùng tá TÚC (ngủ lại)."
+    },
+    "examples": [
+      { "word": "宿題", "reading": "しゅくだい", "meaning": "bài tập về nhà" },
+      { "word": "宿泊する", "reading": "しゅくはくする", "meaning": "trú trọ, ngủ lại" },
+      { "word": "宿", "reading": "やど", "meaning": "nhà trọ, chỗ nghỉ" },
+      { "word": "新宿", "reading": "しんじゅく", "meaning": "Shinjuku (Tân Túc)" },
+      { "word": "下宿", "reading": "げしゅく", "meaning": "nhà trọ (cho thuê dài hạn)" }
+    ]
+  },
+  {
+    "kanji": "捨",
+    "amHan": "Xả",
+    "nghia": "Vứt bỏ",
+    "onyomi": "シャ",
+    "kunyomi": "す・てる",
+    "mnemonic": {
+      "text": "Dùng tay (扌) mang đồ đạc ra khỏi nhà (舎 - xá) để vứt BỎ."
+    },
+    "examples": [
+      { "word": "捨てる", "reading": "すてる", "meaning": "vứt bỏ" },
+      { "word": "四捨五入", "reading": "ししゃごにゅう", "meaning": "làm tròn số (vứt 4 lấy 5)" },
+      { "word": "使い捨て", "reading": "つかいすて", "meaning": "dùng một lần" },
+      { "word": "見捨てる", "reading": "みすてる", "meaning": "bỏ rơi" }
+    ]
+  },
+  {
+    "kanji": "輸",
+    "amHan": "Thâu",
+    "nghia": "Vận chuyển",
+    "onyomi": "ユ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng xe (車) chở đồ mang đi dâng lên (兪 - thâu) là hành động THÂU (vận chuyển)."
+    },
+    "examples": [
+      { "word": "輸出", "reading": "ゆしゅつ", "meaning": "xuất khẩu" },
+      { "word": "輸入", "reading": "ゆにゅう", "meaning": "nhập khẩu" },
+      { "word": "輸送", "reading": "ゆそう", "meaning": "vận tải, chuyên chở" },
+      { "word": "空輸", "reading": "くうゆ", "meaning": "vận chuyển đường hàng không" }
+    ]
+  },
+  {
+    "kanji": "招",
+    "amHan": "Chiêu",
+    "nghia": "Mời, vẫy",
+    "onyomi": "ショウ",
+    "kunyomi": "まね・く",
+    "mnemonic": {
+      "text": "Dùng tay (扌) ra hiệu bằng miệng (口) để CHIÊU (mời) người khác tới."
+    },
+    "examples": [
+      { "word": "招く", "reading": "まねく", "meaning": "mời, rủ" },
+      { "word": "招待する", "reading": "しょうたいする", "meaning": "chiêu đãi, mời" },
+      { "word": "手招き", "reading": "てまねき", "meaning": "vẫy tay" },
+      { "word": "招集する", "reading": "しょうしゅうする", "meaning": "triệu tập" }
+    ]
+  },
+  {
+    "kanji": "呼",
+    "amHan": "Hô",
+    "nghia": "Gọi",
+    "onyomi": "コ",
+    "kunyomi": "よ・ぶ",
+    "mnemonic": {
+      "text": "Dùng miệng (口) phát ra tiếng để HÔ (gọi) mọi người."
+    },
+    "examples": [
+      { "word": "呼ぶ", "reading": "よぶ", "meaning": "gọi" },
+      { "word": "呼吸", "reading": "こきゅう", "meaning": "hô hấp" },
+      { "word": "呼び出す", "reading": "よびだす", "meaning": "gọi ra" },
+      { "word": "点呼", "reading": "てんこ", "meaning": "điểm danh" }
+    ]
+  },
+  {
+    "kanji": "原",
+    "amHan": "Nguyên",
+    "nghia": "Cánh đồng, nguyên bản",
+    "onyomi": "ゲン",
+    "kunyomi": "はら",
+    "mnemonic": {
+      "text": "Dưới vách đá (厂) có nguồn suối (泉 - tuyền) chảy ra cánh đồng NGUYÊN sơ."
+    },
+    "examples": [
+      { "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" },
+      { "word": "原っぱ", "reading": "はらっぱ", "meaning": "cánh đồng, thảo nguyên" },
+      { "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
+      { "word": "秋葉原", "reading": "あきはばら", "meaning": "Akihabara" },
+      { "word": "原理", "reading": "げんり", "meaning": "nguyên lý" }
+    ]
+  },
+  {
+    "kanji": "慣",
+    "amHan": "Quán",
+    "nghia": "Quen, thói quen",
+    "onyomi": "カン",
+    "kunyomi": "な・れる, な・らす",
+    "mnemonic": {
+      "text": "Khi trái tim (忄) thấu suốt chân lý (貫 - quán), ta sẽ thấy quen thuộc (QUÁN)."
+    },
+    "examples": [
+      { "word": "慣れる", "reading": "なれる", "meaning": "làm quen" },
+      { "word": "習慣", "reading": "しゅうかん", "meaning": "thói quen" },
+      { "word": "慣習", "reading": "かんしゅう", "meaning": "tập quán, phong tục" },
+      { "word": "使い慣れる", "reading": "つかいなれる", "meaning": "dùng quen" }
+    ]
+  },
+  {
+    "kanji": "頼",
+    "amHan": "Lại",
+    "nghia": "Nhờ vả, tin cậy",
+    "onyomi": "ライ",
+    "kunyomi": "たの・む, たよ・る",
+    "mnemonic": {
+      "text": "Dùng bó (束) tiền (biến thể bộ hiệt 頁) để ỷ LẠI, nhờ vả người khác."
+    },
+    "examples": [
+      { "word": "頼む", "reading": "たのむ", "meaning": "nhờ vả" },
+      { "word": "頼る", "reading": "たよる", "meaning": "dựa dẫm, phụ thuộc" },
+      { "word": "信頼", "reading": "しんらい", "meaning": "tin cậy" },
+      { "word": "頼もしい", "reading": "たのもしい", "meaning": "đáng tin cậy" }
+    ]
+  },
+  {
+    "kanji": "成",
+    "amHan": "Thành",
+    "nghia": "Trở thành, hoàn thành",
+    "onyomi": "セイ, ジョウ",
+    "kunyomi": "な・る, な・す",
+    "mnemonic": {
+      "text": "Dùng mác (戈 - qua) để bảo vệ và THÀNH lập sự nghiệp."
+    },
+    "examples": [
+      { "word": "成る", "reading": "なる", "meaning": "trở nên, trở thành" },
+      { "word": "成功する", "reading": "せいこうする", "meaning": "thành công" },
+      { "word": "成長する", "reading": "せいちょうする", "meaning": "trưởng thành" },
+      { "word": "成人", "reading": "せいじん", "meaning": "người lớn, thành nhân" },
+      { "word": "完成する", "reading": "かんせいする", "meaning": "hoàn thành" }
+    ]
+  },
+  {
+    "kanji": "法",
+    "amHan": "Pháp",
+    "nghia": "Pháp luật, phương pháp",
+    "onyomi": "ホウ, ハッ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "PHÁP luật phải công bằng như nước (氵) trôi đi (去 - khứ)."
+    },
+    "examples": [
+      { "word": "法律", "reading": "ほうりつ", "meaning": "pháp luật" },
+      { "word": "方法", "reading": "ほうほう", "meaning": "phương pháp" },
+      { "word": "文法", "reading": "ぶんぽう", "meaning": "ngữ pháp" },
+      { "word": "作法", "reading": "さほう", "meaning": "cách cư xử, nghi thức" }
+    ]
+  },
+  {
+    "kanji": "退",
+    "amHan": "Thoái",
+    "nghia": "Rút lui, nghỉ việc",
+    "onyomi": "タイ",
+    "kunyomi": "しりぞ・く, しりぞ・ける",
+    "mnemonic": {
+      "text": "Khi mắt (艮 - cấn) nhìn thấy chướng ngại trên đường (辶), ta chọn cách THOÁI (rút lui)."
+    },
+    "examples": [
+      { "word": "退院する", "reading": "たいいんする", "meaning": "ra viện" },
+      { "word": "退職する", "reading": "たいしょくする", "meaning": "nghỉ việc" },
+      { "word": "早退する", "reading": "そうたいする", "meaning": "về sớm" },
+      { "word": "退く", "reading": "しりぞく", "meaning": "rút lui, tránh ra" }
+    ]
+  },
+  {
+    "kanji": "参",
+    "amHan": "Tham",
+    "nghia": "Tham gia, đi lễ chùa",
+    "onyomi": "サン",
+    "kunyomi": "まい・る",
+    "mnemonic": {
+      "text": "Hình ảnh con người mang trang sức trên đầu đang đi THAM dự lễ hội."
+    },
+    "examples": [
+      { "word": "参る", "reading": "まいる", "meaning": "đi, đến (khiêm nhường)" },
+      { "word": "参加する", "reading": "さんかする", "meaning": "tham gia" },
+      { "word": "参考", "reading": "さんこう", "meaning": "tham khảo" },
+      { "word": "参観", "reading": "さんかん", "meaning": "tham quan (giờ học)" }
+    ]
+  },
+  {
+    "kanji": "加",
+    "amHan": "Gia",
+    "nghia": "Thêm vào, gia tăng",
+    "onyomi": "カ",
+    "kunyomi": "くわ・える, くわ・わる",
+    "mnemonic": {
+      "text": "Dùng miệng (口) và sức lực (力) để GIA tăng thêm hiệu quả."
+    },
+    "examples": [
+      { "word": "加える", "reading": "くわえる", "meaning": "thêm vào" },
+      { "word": "加わる", "reading": "くわわる", "meaning": "gia nhập, tăng thêm" },
+      { "word": "増加する", "reading": "ぞうかする", "meaning": "tăng lên" },
+      { "word": "加入する", "reading": "かにゅうする", "meaning": "gia nhập (hội, bảo hiểm)" }
+    ]
+  },
+  {
+    "kanji": "岸",
+    "amHan": "Ngạn",
+    "nghia": "Bờ biển, bờ sông",
+    "onyomi": "ガン",
+    "kunyomi": "きし",
+    "mnemonic": {
+      "text": "Núi (山) dốc đứng bên cạnh vách đá (厂) và vùng đất bằng phẳng là bờ NGẠN."
+    },
+    "examples": [
+      { "word": "岸", "reading": "きし", "meaning": "bờ" },
+      { "word": "海岸", "reading": "かいがん", "meaning": "bờ biển" },
+      { "word": "向こう岸", "reading": "むこうぎし", "meaning": "bờ bên kia" },
+      { "word": "彼岸", "reading": "ひがん", "meaning": "bờ bên kia, lễ Higan" }
+    ]
+  }
+]

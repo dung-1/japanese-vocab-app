@@ -1,0 +1,257 @@
+[
+  {
+    "kanji": "接",
+    "amHan": "Tiếp",
+    "nghia": "Tiếp xúc, nối",
+    "onyomi": "セツ",
+    "kunyomi": "つ・ぐ",
+    "mnemonic": {
+      "text": "Dùng tay (扌) để đón tiếp (接) người phụ nữ (女) đang đứng (立)."
+    },
+    "examples": [
+      { "word": "面接", "reading": "めんせつ", "meaning": "phỏng vấn" },
+      { "word": "直接", "reading": "ちょくせつ", "meaning": "trực tiếp" },
+      { "word": "接近", "reading": "せっきん", "meaning": "tiếp cận" },
+      { "word": "接続", "reading": "せつぞく", "meaning": "kết nối" },
+      { "word": "応接", "reading": "おうせつ", "meaning": "tiếp đãi" }
+    ]
+  },
+  {
+    "kanji": "湯",
+    "amHan": "Thang",
+    "nghia": "Nước nóng",
+    "onyomi": "トウ",
+    "kunyomi": "ゆ",
+    "mnemonic": {
+      "text": "Nước (氵) dưới ánh Mặt Trời (日) sẽ nóng lên như nước THANG."
+    },
+    "examples": [
+      { "word": "お湯", "reading": "おゆ", "meaning": "nước nóng" },
+      { "word": "銭湯", "reading": "せんとう", "meaning": "nhà tắm công cộng" },
+      { "word": "湯船", "reading": "ゆぶね", "meaning": "bồn tắm" },
+      { "word": "熱湯", "reading": "ねっとう", "meaning": "nước sôi" },
+      { "word": "湯気", "reading": "ゆげ", "meaning": "hơi nước" }
+    ]
+  },
+  {
+    "kanji": "探",
+    "amHan": "Thám",
+    "nghia": "Tìm kiếm, thăm dò",
+    "onyomi": "タン",
+    "kunyomi": "さが・す",
+    "mnemonic": {
+      "text": "Dùng tay (扌) để tìm kiếm cái gì đó trong hang (宀) dưới ánh lửa (火)."
+    },
+    "examples": [
+      { "word": "探す", "reading": "さがす", "meaning": "tìm kiếm" },
+      { "word": "探検", "reading": "たんけん", "meaning": "thăm dò, thám hiểm" },
+      { "word": "探偵", "reading": "たんてい", "meaning": "thám tử" },
+      { "word": "探求", "reading": "たんきゅう", "meaning": "tìm kiếm, yêu cầu" },
+      { "word": "探し物", "reading": "さがしもの", "meaning": "vật cần tìm" }
+    ]
+  },
+  {
+    "kanji": "平",
+    "amHan": "Bình",
+    "nghia": "Bằng phẳng, hòa bình",
+    "onyomi": "ヘイ, ビョウ",
+    "kunyomi": "たい・ら, ひら",
+    "mnemonic": {
+      "text": "Hình ảnh cái cân thăng bằng, tượng trưng cho sự BÌNH đẳng, bằng phẳng."
+    },
+    "examples": [
+      { "word": "平日", "reading": "へいじつ", "meaning": "ngày thường" },
+      { "word": "平和", "reading": "へいわ", "meaning": "hòa bình" },
+      { "word": "平等", "reading": "びょうどう", "meaning": "bình đẳng" },
+      { "word": "平均", "reading": "へいきん", "meaning": "trung bình" },
+      { "word": "平ら", "reading": "たいら", "meaning": "bằng phẳng" }
+    ]
+  },
+  {
+    "kanji": "寺",
+    "amHan": "Tự",
+    "nghia": "Chùa",
+    "onyomi": "ジ",
+    "kunyomi": "てら",
+    "mnemonic": {
+      "text": "Vùng đất (土) mà người ta dành thời gian (寸 - thốn) để đi lễ là chùa (TỰ)."
+    },
+    "examples": [
+      { "word": "お寺", "reading": "おてら", "meaning": "ngôi chùa" },
+      { "word": "東大寺", "reading": "とうだいじ", "meaning": "chùa Todaiji" },
+      { "word": "金閣寺", "reading": "きんかくじ", "meaning": "chùa Vàng" },
+      { "word": "寺院", "reading": "じいん", "meaning": "đền thờ, tự viện" },
+      { "word": "山寺", "reading": "やまでら", "meaning": "chùa trên núi" }
+    ]
+  },
+  {
+    "kanji": "勝",
+    "amHan": "Thắng",
+    "nghia": "Chiến thắng",
+    "onyomi": "ショウ",
+    "kunyomi": "か・つ",
+    "mnemonic": {
+      "text": "Dùng sức mạnh (力) để vượt qua mặt trăng (月) và nhận phần thưởng, đó là chiến THẮNG."
+    },
+    "examples": [
+      { "word": "勝つ", "reading": "かつ", "meaning": "thắng" },
+      { "word": "勝負", "reading": "しょうぶ", "meaning": "thắng thua, trận đấu" },
+      { "word": "決勝", "reading": "けっしょう", "meaning": "chung kết" },
+      { "word": "勝利", "reading": "しょうり", "meaning": "thắng lợi" },
+      { "word": "自分に勝つ", "reading": "じぶんにかつ", "meaning": "chiến thắng bản thân" }
+    ]
+  },
+  {
+    "kanji": "負",
+    "amHan": "Phụ",
+    "nghia": "Thua, mang vác",
+    "onyomi": "フ",
+    "kunyomi": "ま・ける, お・う",
+    "mnemonic": {
+      "text": "Người (人) đứng trên vỏ sò (貝 - tiền), khi nợ nần tiền bạc thì phải gánh vác trách nhiệm (PHỤ)."
+    },
+    "examples": [
+      { "word": "負ける", "reading": "まける", "meaning": "thua" },
+      { "word": "負う", "reading": "おう", "meaning": "gánh vác" },
+      { "word": "勝負", "reading": "しょうぶ", "meaning": "thắng thua" },
+      { "word": "負担", "reading": "ふたん", "meaning": "gánh nặng, trách nhiệm" },
+      { "word": "負傷", "reading": "ふしょう", "meaning": "bị thương" }
+    ]
+  },
+  {
+    "kanji": "願",
+    "amHan": "Nguyện",
+    "nghia": "Cầu nguyện, nhờ vả",
+    "onyomi": "ガン",
+    "kunyomi": "ねが・う",
+    "mnemonic": {
+      "text": "Dùng cái đầu (頁) và trái tim để mong cầu (原 - nguyên) điều gì đó là NGUYỆN."
+    },
+    "examples": [
+      { "word": "願う", "reading": "ねがう", "meaning": "cầu nguyện, ao ước" },
+      { "word": "お願い", "reading": "おねがい", "meaning": "làm ơn, nhờ vả" },
+      { "word": "願書", "reading": "がんしょ", "meaning": "đơn xin, đơn nhập học" },
+      { "word": "念願", "reading": "ねんがん", "meaning": "tâm nguyện" },
+      { "word": "祈願", "reading": "きがん", "meaning": "cầu nguyện" }
+    ]
+  },
+  {
+    "kanji": "座",
+    "amHan": "Tọa",
+    "nghia": "Chỗ ngồi, ngồi",
+    "onyomi": "ザ",
+    "kunyomi": "すわ・る",
+    "mnemonic": {
+      "text": "Hai người (人人) ngồi trên đất (土) bên trong cái nhà (广) là TỌA."
+    },
+    "examples": [
+      { "word": "座る", "reading": "すわる", "meaning": "ngồi" },
+      { "word": "座席", "reading": "ざせき", "meaning": "chỗ ngồi" },
+      { "word": "正座", "reading": "せいざ", "meaning": "ngồi kiểu Nhật" },
+      { "word": "星座", "reading": "せいざ", "meaning": "chòm sao" },
+      { "word": "口座", "reading": "こうざ", "meaning": "tài khoản ngân hàng" }
+    ]
+  },
+  {
+    "kanji": "眠",
+    "amHan": "Miên",
+    "nghia": "Ngủ",
+    "onyomi": "ミン",
+    "kunyomi": "ねむ・る",
+    "mnemonic": {
+      "text": "Mắt (目) dân (民) thường khi mệt mỏi sẽ nhắm lại để MIÊN (ngủ)."
+    },
+    "examples": [
+      { "word": "眠る", "reading": "ねむる", "meaning": "ngủ" },
+      { "word": "居眠り", "reading": "いねむり", "meaning": "ngủ gật" },
+      { "word": "睡眠", "reading": "すいみん", "meaning": "giấc ngủ" },
+      { "word": "眠い", "reading": "ねむい", "meaning": "buồn ngủ" },
+      { "word": "冬眠", "reading": "とうみん", "meaning": "ngủ đông" }
+    ]
+  },
+  {
+    "kanji": "狭",
+    "amHan": "Hiệp",
+    "nghia": "Hẹp",
+    "onyomi": "キョウ",
+    "kunyomi": "せま・い",
+    "mnemonic": {
+      "text": "Con chó (犭) chạy vào nơi hẹp giữa hai gọng kìm."
+    },
+    "examples": [
+      { "word": "狭い", "reading": "せまい", "meaning": "hẹp" },
+      { "word": "狭まる", "reading": "せままる", "meaning": "hẹp lại" },
+      { "word": "手狭", "reading": "てぜま", "meaning": "chật chội" },
+      { "word": "狭義", "reading": "きょうぎ", "meaning": "nghĩa hẹp" },
+      { "word": "狭き門", "reading": "せまきもん", "meaning": "cửa hẹp (khó khăn)" }
+    ]
+  },
+  {
+    "kanji": "甘",
+    "amHan": "Cam",
+    "nghia": "Ngọt",
+    "onyomi": "カン",
+    "kunyomi": "あま・い",
+    "mnemonic": {
+      "text": "Hình ảnh cái miệng đang ngậm một thứ gì đó ngọt ngào."
+    },
+    "examples": [
+      { "word": "甘い", "reading": "あまい", "meaning": "ngọt, nuông chiều" },
+      { "word": "甘口", "reading": "あまくち", "meaning": "vị ngọt, lời đường mật" },
+      { "word": "甘やかす", "reading": "あまやかす", "meaning": "nuông chiều" },
+      { "word": "甘酒", "reading": "あまざけ", "meaning": "rượu ngọt" },
+      { "word": "甘味料", "reading": "かんみりょう", "meaning": "chất tạo ngọt" }
+    ]
+  },
+  {
+    "kanji": "辛",
+    "amHan": "Tân",
+    "nghia": "Cay, khổ",
+    "onyomi": "シン",
+    "kunyomi": "から・い",
+    "mnemonic": {
+      "text": "Hình ảnh cái kim châm lên người, gây cảm giác đau đớn, cay nghiệt."
+    },
+    "examples": [
+      { "word": "辛い", "reading": "からい", "meaning": "cay" },
+      { "word": "辛い", "reading": "つらい", "meaning": "khổ sở, đau đớn" },
+      { "word": "辛口", "reading": "からくち", "meaning": "vị cay, gay gắt" },
+      { "word": "唐辛子", "reading": "とうがらし", "meaning": "ớt" },
+      { "word": "辛酸", "reading": "しんさん", "meaning": "gian khổ" }
+    ]
+  },
+  {
+    "kanji": "卵",
+    "amHan": "Noãn",
+    "nghia": "Trứng",
+    "onyomi": "ラン",
+    "kunyomi": "たまご",
+    "mnemonic": {
+      "text": "Hình ảnh hai quả trứng đang treo hoặc nằm cạnh nhau."
+    },
+    "examples": [
+      { "word": "卵", "reading": "たまご", "meaning": "trứng" },
+      { "word": "卵白", "reading": "らんぱく", "meaning": "lòng trắng trứng" },
+      { "word": "卵黄", "reading": "らんおう", "meaning": "lòng đỏ trứng" },
+      { "word": "産卵", "reading": "さんらん", "meaning": "đẻ trứng" },
+      { "word": "ゆで卵", "reading": "ゆでたまご", "meaning": "trứng luộc" }
+    ]
+  },
+  {
+    "kanji": "拾",
+    "amHan": "Thập",
+    "nghia": "Nhặt, thu thập",
+    "onyomi": "シュウ, ジュウ",
+    "kunyomi": "ひろ・う",
+    "mnemonic": {
+      "text": "Dùng tay (扌) để tập hợp (合) đồ vật rơi vãi lại là nhặt (THẬP)."
+    },
+    "examples": [
+      { "word": "拾う", "reading": "ひろう", "meaning": "nhặt" },
+      { "word": "拾得物", "reading": "しゅうとくぶつ", "meaning": "vật nhặt được" },
+      { "word": "拾い読み", "reading": "ひろいよみ", "meaning": "đọc lướt" },
+      { "word": "命拾い", "reading": "いのちびろい", "meaning": "thoát chết trong gang tấc" },
+      { "word": "収拾", "reading": "しゅうしゅう", "meaning": "thu dọn, dàn xếp" }
+    ]
+  }
+]

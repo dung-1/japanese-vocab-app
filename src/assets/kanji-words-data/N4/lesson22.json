@@ -1,0 +1,241 @@
+[
+  {
+    "kanji": "寝",
+    "amHan": "Tẩm",
+    "nghia": "Ngủ",
+    "onyomi": "シン",
+    "kunyomi": "ね・る, ね・かす",
+    "mnemonic": {
+      "text": "Dưới mái nhà (宀), một người đang dùng tay dọn dẹp cái giường gỗ để đi ngủ (TẨM)."
+    },
+    "examples": [
+      { "word": "寝る", "reading": "ねる", "meaning": "ngủ" },
+      { "word": "寝坊", "reading": "ねぼう", "meaning": "ngủ nướng, ngủ quên" },
+      { "word": "寝室", "reading": "しんしつ", "meaning": "phòng ngủ" },
+      { "word": "昼寝", "reading": "ひるね", "meaning": "ngủ trưa" }
+    ]
+  },
+  {
+    "kanji": "受",
+    "amHan": "Thụ",
+    "nghia": "Nhận, dự thi",
+    "onyomi": "ジュ",
+    "kunyomi": "う・ける, う・かる",
+    "mnemonic": {
+      "text": "Hai bàn tay đang truyền cho nhau một cái khay, nghĩa là trao và NHẬN (THỤ)."
+    },
+    "examples": [
+      { "word": "受ける", "reading": "うける", "meaning": "nhận, dự (thi)" },
+      { "word": "受付", "reading": "うけつけ", "meaning": "quầy tiếp tân" },
+      { "word": "受験する", "reading": "じゅけんする", "meaning": "dự thi" },
+      { "word": "受領", "reading": "じゅりょう", "meaning": "thụ lĩnh, nhận lấy" }
+    ]
+  },
+  {
+    "kanji": "付",
+    "amHan": "Phó",
+    "nghia": "Gắn vào, đính kèm",
+    "onyomi": "フ",
+    "kunyomi": "つ・ける, つ・く",
+    "mnemonic": {
+      "text": "Con người (亻) đứng bên cạnh cái cọc (寸) để GẮN (PHÓ) vật gì đó vào."
+    },
+    "examples": [
+      { "word": "付ける", "reading": "つける", "meaning": "gắn vào, viết vào" },
+      { "word": "付く", "reading": "つく", "meaning": "đính kèm, dính" },
+      { "word": "片付ける", "reading": "かたづける", "meaning": "dọn dẹp" },
+      { "word": "日付", "reading": "ひづけ", "meaning": "ngày tháng" }
+    ]
+  },
+  {
+    "kanji": "飛",
+    "amHan": "Phi",
+    "nghia": "Bay",
+    "onyomi": "ヒ",
+    "kunyomi": "と・ぶ, と・ばす",
+    "mnemonic": {
+      "text": "Hình ảnh con chim đang đập cánh để PHI (bay) lên trời."
+    },
+    "examples": [
+      { "word": "飛ぶ", "reading": "とぶ", "meaning": "bay" },
+      { "word": "飛行機", "reading": "ひこうき", "meaning": "máy bay" },
+      { "word": "飛ばす", "reading": "とばす", "meaning": "làm cho bay, bỏ qua" },
+      { "word": "飛び出す", "reading": "とびだす", "meaning": "nhảy ra, bay ra" }
+    ]
+  },
+  {
+    "kanji": "船",
+    "amHan": "Thuyền",
+    "nghia": "Con thuyền",
+    "onyomi": "セン",
+    "kunyomi": "ふね, ふな",
+    "mnemonic": {
+      "text": "Cái tàu (舟) chở theo tám (八) cái miệng (口) chính là con THUYỀN."
+    },
+    "examples": [
+      { "word": "船", "reading": "ふね", "meaning": "con thuyền, tàu thủy" },
+      { "word": "船長", "reading": "せんちょう", "meaning": "thuyền trưởng" },
+      { "word": "客船", "reading": "きゃくせん", "meaning": "tàu chở khách" },
+      { "word": "船便", "reading": "ふなびん", "meaning": "gửi bằng đường tàu" }
+    ]
+  },
+  {
+    "kanji": "階",
+    "amHan": "Giai",
+    "nghia": "Tầng nhà, bậc thang",
+    "onyomi": "カイ",
+    "kunyomi": "きざはし",
+    "mnemonic": {
+      "text": "Dưới chân núi (阝), mọi người (皆 - giai) xếp hàng leo từng bậc GIAI (tầng)."
+    },
+    "examples": [
+      { "word": "三階", "reading": "さんがい", "meaning": "tầng 3" },
+      { "word": "階段", "reading": "かいだん", "meaning": "cầu thang" },
+      { "word": "階級", "reading": "かいきゅう", "meaning": "giai cấp" },
+      { "word": "段階", "reading": "だんかい", "meaning": "giai đoạn" }
+    ]
+  },
+  {
+    "kanji": "段",
+    "amHan": "Đoạn",
+    "nghia": "Bậc, giai đoạn",
+    "onyomi": "ダン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng búa gõ vào vách đá để tạo ra từng ĐOẠN (bậc) bước lên."
+    },
+    "examples": [
+      { "word": "階段", "reading": "かいだん", "meaning": "cầu thang" },
+      { "word": "段ボール", "reading": "だんボール", "meaning": "thùng bìa carton" },
+      { "word": "手段", "reading": "しゅだん", "meaning": "cách thức, phương tiện" },
+      { "word": "値段", "reading": "ねだん", "meaning": "giá cả" }
+    ]
+  },
+  {
+    "kanji": "値",
+    "amHan": "Trị",
+    "nghia": "Giá trị, giá cả",
+    "onyomi": "チ",
+    "kunyomi": "ね, あたい",
+    "mnemonic": {
+      "text": "Con người (亻) luôn muốn làm những điều đúng đắn (直 - trực) để nâng cao giá TRỊ."
+    },
+    "examples": [
+      { "word": "値段", "reading": "ねだん", "meaning": "giá cả" },
+      { "word": "価値", "reading": "かち", "meaning": "giá trị" },
+      { "word": "数値", "reading": "すうち", "meaning": "trị số, giá trị bằng số" },
+      { "word": "値上げ", "reading": "ねあげ", "meaning": "tăng giá" }
+    ]
+  },
+  {
+    "kanji": "役",
+    "amHan": "Dịch",
+    "nghia": "Vai trò, nhiệm vụ",
+    "onyomi": "ヤク, エキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người bộ hành (彳) cầm gậy (殳) đi làm nhiệm vụ (DỊCH)."
+    },
+    "examples": [
+      { "word": "役所", "reading": "やくしょ", "meaning": "công sở, cơ quan hành chính" },
+      { "word": "役に立つ", "reading": "やくにたつ", "meaning": "có ích" },
+      { "word": "主役", "reading": "しゅやく", "meaning": "vai chính" },
+      { "word": "市役所", "reading": "しやくしょ", "meaning": "ủy ban thành phố" }
+    ]
+  },
+  {
+    "kanji": "初",
+    "amHan": "Sơ",
+    "nghia": "Đầu tiên",
+    "onyomi": "ショ",
+    "kunyomi": "はじ・め, はじ・めて, うい",
+    "mnemonic": {
+      "text": "Dùng dao (刀) cắt vải làm áo (衤) là bước SƠ khai đầu tiên."
+    },
+    "examples": [
+      { "word": "初めて", "reading": "はじめて", "meaning": "lần đầu tiên" },
+      { "word": "初級", "reading": "しょきゅう", "meaning": "sơ cấp" },
+      { "word": "最初", "reading": "さいしょ", "meaning": "đầu tiên" },
+      { "word": "初めに", "reading": "はじめに", "meaning": "trước tiên" }
+    ]
+  },
+  {
+    "kanji": "優",
+    "amHan": "Ưu",
+    "nghia": "Ưu tú, hiền lành",
+    "onyomi": "ユウ",
+    "kunyomi": "やさ・しい, すぐ・れる",
+    "mnemonic": {
+      "text": "Người (亻) mà luôn lo lắng (憂 - ưu) cho người khác là người ƯU tú/hiền lành."
+    },
+    "examples": [
+      { "word": "優しい", "reading": "やさしい", "meaning": "hiền lành, dịu dàng" },
+      { "word": "優れた", "reading": "すぐれた", "meaning": "ưu tú, xuất sắc" },
+      { "word": "優先", "reading": "ゆうせん", "meaning": "ưu tiên" },
+      { "word": "優勝する", "reading": "ゆうしょうする", "meaning": "vô địch, chiến thắng" }
+    ]
+  },
+  {
+    "kanji": "因",
+    "amHan": "Nhân",
+    "nghia": "Nguyên nhân",
+    "onyomi": "イン",
+    "kunyomi": "よ・る",
+    "mnemonic": {
+      "text": "Con người (大) nằm trên cái chiếu (囗) suy nghĩ về NHÂN quả."
+    },
+    "examples": [
+      { "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" },
+      { "word": "要因", "reading": "よういん", "meaning": "yếu tố chính" },
+      { "word": "因果関係", "reading": "いんがかんけい", "meaning": "quan hệ nhân quả" }
+    ]
+  },
+  {
+    "kanji": "論",
+    "amHan": "Luận",
+    "nghia": "Thảo luận, lý luận",
+    "onyomi": "ロン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng lời nói (言) để sắp xếp những cuốn sách (侖) theo trình tự lý LUẬN."
+    },
+    "examples": [
+      { "word": "結論", "reading": "けつろん", "meaning": "kết luận" },
+      { "word": "論文", "reading": "ろんぶん", "meaning": "luận văn" },
+      { "word": "理論", "reading": "りろん", "meaning": "lý luận" },
+      { "word": "議論する", "reading": "ぎろんする", "meaning": "thảo luận, tranh luận" }
+    ]
+  },
+  {
+    "kanji": "途",
+    "amHan": "Đồ",
+    "nghia": "Con đường",
+    "onyomi": "ト",
+    "kunyomi": "みち",
+    "mnemonic": {
+      "text": "Đi (辶) trên con đường có dư (余) thừa cây cối chính là ĐỒ (đường)."
+    },
+    "examples": [
+      { "word": "途中で", "reading": "とちゅうで", "meaning": "giữa chừng" },
+      { "word": "中途半端", "reading": "ちゅうとはんぱ", "meaning": "nửa chừng, bỏ dở" },
+      { "word": "用途", "reading": "ようと", "meaning": "công dụng" },
+      { "word": "途端に", "reading": "とたんに", "meaning": "ngay lập tức, ngay khi" }
+    ]
+  },
+  {
+    "kanji": "係",
+    "amHan": "Hệ",
+    "nghia": "Phụ trách, liên quan",
+    "onyomi": "ケイ",
+    "kunyomi": "かか・る, かか・り",
+    "mnemonic": {
+      "text": "Con người (亻) dùng sợi chỉ kết nối (系 - hệ) để chỉ mối quan HỆ phụ trách."
+    },
+    "examples": [
+      { "word": "係員", "reading": "かかりいん", "meaning": "người phụ trách" },
+      { "word": "関係", "reading": "かんけい", "meaning": "quan hệ, liên quan" },
+      { "word": "係わる", "reading": "かかわる", "meaning": "liên quan đến" },
+      { "word": "案内係", "reading": "あんないがかり", "meaning": "người hướng dẫn" }
+    ]
+  }
+]

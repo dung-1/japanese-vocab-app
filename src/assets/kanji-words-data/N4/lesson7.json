@@ -1,0 +1,155 @@
+[
+  {
+    "kanji": "東",
+    "amHan": "Đông",
+    "nghia": "Phía Đông",
+    "onyomi": "トウ",
+    "kunyomi": "ひがし",
+    "mnemonic": {
+      "text": "Mặt trời (日) mọc xuyên qua ngọn cây (木) chính là phía ĐÔNG."
+    },
+    "examples": [
+      { "word": "東", "reading": "ひがし", "meaning": "phía Đông" },
+      { "word": "東京", "reading": "とうきょう", "meaning": "Tokyo (Đông Kinh)" },
+      { "word": "関東", "reading": "かんとう", "meaning": "vùng Kanto" },
+      { "word": "中東", "reading": "ちゅうとう", "meaning": "Trung Đông" },
+      { "word": "東洋", "reading": "とうよう", "meaning": "Phương Đông" }
+    ]
+  },
+  {
+    "kanji": "西",
+    "amHan": "Tây",
+    "nghia": "Phía Tây",
+    "onyomi": "セイ, サイ",
+    "kunyomi": "にし",
+    "mnemonic": {
+      "text": "Hình ảnh con chim đang bay về tổ khi mặt trời lặn ở phía TÂY."
+    },
+    "examples": [
+      { "word": "西", "reading": "にし", "meaning": "phía Tây" },
+      { "word": "関西", "reading": "かんさい", "meaning": "vùng Kansai" },
+      { "word": "西洋", "reading": "せいよう", "meaning": "Phương Tây" },
+      { "word": "北西", "reading": "ほくせい", "meaning": "Tây Bắc" },
+      { "word": "大西洋", "reading": "たいせいよう", "meaning": "Đại Tây Dương" }
+    ]
+  },
+  {
+    "kanji": "南",
+    "amHan": "Nam",
+    "nghia": "Phía Nam",
+    "onyomi": "ナン",
+    "kunyomi": "みなみ",
+    "mnemonic": {
+      "text": "Ở phía NAM, người ta thường trồng cây trong nhà có mái che (thập tự ở trên)."
+    },
+    "examples": [
+      { "word": "南", "reading": "みなみ", "meaning": "phía Nam" },
+      { "word": "南米", "reading": "なんべい", "meaning": "Nam Mỹ" },
+      { "word": "南極", "reading": "なんきょく", "meaning": "Nam Cực" },
+      { "word": "東南アジア", "reading": "とうなんアジア", "meaning": "Đông Nam Á" },
+      { "word": "南西", "reading": "なんせい", "meaning": "Tây Nam" }
+    ]
+  },
+  {
+    "kanji": "北",
+    "amHan": "Bắc",
+    "nghia": "Phía Bắc",
+    "onyomi": "ホク",
+    "kunyomi": "きた",
+    "mnemonic": {
+      "text": "Hai người ngồi quay lưng vào nhau vì lạnh, đó là đặc trưng của phía BẮC."
+    },
+    "examples": [
+      { "word": "北", "reading": "きた", "meaning": "phía Bắc" },
+      { "word": "北海道", "reading": "ほっかいどう", "meaning": "Hokkaido" },
+      { "word": "南北", "reading": "なんぼく", "meaning": "Nam Bắc" },
+      { "word": "北極", "reading": "ほっきょく", "meaning": "Bắc Cực" },
+      { "word": "敗北", "reading": "はいぼく", "meaning": "thất bại (quay lưng bỏ chạy)" }
+    ]
+  },
+  {
+    "kanji": "市",
+    "amHan": "Thị",
+    "nghia": "Thành phố, chợ",
+    "onyomi": "シ",
+    "kunyomi": "いち",
+    "mnemonic": {
+      "text": "Dưới cái mũ (亠) là cái khăn (巾), nơi người ta đội mũ quàng khăn đi họp CHỢ ở THỊ thành."
+    },
+    "examples": [
+      { "word": "市長", "reading": "しちょう", "meaning": "thị trưởng" },
+      { "word": "市場", "reading": "いちば", "meaning": "cái chợ" },
+      { "word": "市民", "reading": "しみん", "meaning": "thị dân, người dân thành phố" },
+      { "word": "都市", "reading": "とし", "meaning": "đô thị" },
+      { "word": "市場", "reading": "しじょう", "meaning": "thị trường (kinh tế)" }
+    ]
+  },
+  {
+    "kanji": "風",
+    "amHan": "Phong",
+    "nghia": "Gió, phong cách",
+    "onyomi": "フウ",
+    "kunyomi": "かぜ",
+    "mnemonic": {
+      "text": "Bên trong cái bao (几) có côn trùng (虫) bay theo làn GIÓ."
+    },
+    "examples": [
+      { "word": "風", "reading": "かぜ", "meaning": "gió" },
+      { "word": "台風", "reading": "たいふう", "meaning": "bão" },
+      { "word": "お風呂", "reading": "おふろ", "meaning": "bồn tắm" },
+      { "word": "和風", "reading": "わふう", "meaning": "phong cách Nhật" },
+      { "word": "風邪", "reading": "かぜ", "meaning": "cảm lạnh" }
+    ]
+  },
+  {
+    "kanji": "夕",
+    "amHan": "Tịch",
+    "nghia": "Chiều tối",
+    "onyomi": "セキ",
+    "kunyomi": "ゆう",
+    "mnemonic": {
+      "text": "Hình ảnh vầng trăng khuyết (nguyệt 月) nhưng thiếu một nét, biểu thị lúc trời mới chớm TỐI."
+    },
+    "examples": [
+      { "word": "夕方", "reading": "ゆうがた", "meaning": "chiều tối" },
+      { "word": "夕食", "reading": "ゆうしょく", "meaning": "bữa tối" },
+      { "word": "夕刊", "reading": "ゆうかん", "meaning": "báo buổi chiều" },
+      { "word": "夕日", "reading": "ゆうひ", "meaning": "ánh nắng chiều, hoàng hôn" },
+      { "word": "七夕", "reading": "たなばた", "meaning": "lễ Thất Tịch" }
+    ]
+  },
+  {
+    "kanji": "空",
+    "amHan": "Không",
+    "nghia": "Bầu trời, trống rỗng",
+    "onyomi": "クウ",
+    "kunyomi": "そら, あ・く, から",
+    "mnemonic": {
+      "text": "Trong hang (穴) có người thợ (工) đang ngước nhìn lên bầu trời trống KHÔNG."
+    },
+    "examples": [
+      { "word": "空気", "reading": "くうき", "meaning": "không khí" },
+      { "word": "空港", "reading": "くうこう", "meaning": "sân bay" },
+      { "word": "空", "reading": "そら", "meaning": "bầu trời" },
+      { "word": "空く", "reading": "あく", "meaning": "trống, vắng" },
+      { "word": "空手", "reading": "からて", "meaning": "võ Karate (Không Thủ)" }
+    ]
+  },
+  {
+    "kanji": "区",
+    "amHan": "Khu",
+    "nghia": "Khu vực, quận",
+    "onyomi": "ク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Vẽ một đường bao quanh (匚) một vật phẩm (メ) để phân chia thành từng KHU vực."
+    },
+    "examples": [
+      { "word": "区役所", "reading": "くやくしょ", "meaning": "ủy ban quận" },
+      { "word": "区別する", "reading": "くべつする", "meaning": "phân biệt" },
+      { "word": "地区", "reading": "ちく", "meaning": "địa khu, khu vực" },
+      { "word": "区間", "reading": "くかん", "meaning": "đoạn, khoảng cách" },
+      { "word": "新宿区", "reading": "しんじゅくく", "meaning": "quận Shinjuku" }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "kanji": "代",
+    "amHan": "Đại",
+    "nghia": "Thay thế, thời đại, giá cước",
+    "onyomi": "ダイ, タイ",
+    "kunyomi": "か・わる, か・える",
+    "mnemonic": {
+      "text": "Con người (人) dùng cọc (弋) để đánh dấu sự thay ĐẠI (thay thế) qua các thời kỳ."
+    },
+    "examples": [
+      { "word": "時代", "reading": "じだい", "meaning": "thời đại" },
+      { "word": "代わりに", "reading": "かわりに", "meaning": "thay vì, thay cho" },
+      { "word": "電気代", "reading": "でんきだい", "meaning": "tiền điện" },
+      { "word": "代表", "reading": "だいひょう", "meaning": "đại diện" },
+      { "word": "交代する", "reading": "こうたいする", "meaning": "thay ca, luân phiên" }
+    ]
+  },
+  {
+    "kanji": "死",
+    "amHan": "Tử",
+    "nghia": "Cái chết",
+    "onyomi": "シ",
+    "kunyomi": "し・ぬ",
+    "mnemonic": {
+      "text": "Một người (匕) nằm bên cạnh bộ xương (歹) chính là cái chết (TỬ)."
+    },
+    "examples": [
+      { "word": "死ぬ", "reading": "しぬ", "meaning": "chết" },
+      { "word": "死体", "reading": "したい", "meaning": "xác chết, thi thể" },
+      { "word": "急死", "reading": "きゅうし", "meaning": "đột tử" },
+      { "word": "必死に", "reading": "ひっしに", "meaning": "quyết tâm, liều chết" },
+      { "word": "死者", "reading": "ししゃ", "meaning": "người chết" }
+    ]
+  },
+  {
+    "kanji": "首",
+    "amHan": "Thủ",
+    "nghia": "Cái cổ, đứng đầu",
+    "onyomi": "シュ",
+    "kunyomi": "くび",
+    "mnemonic": {
+      "text": "Hình ảnh cái đầu người với mái tóc ở trên và mắt ở dưới. Phần nối đầu với thân là cái cổ (THỦ)."
+    },
+    "examples": [
+      { "word": "首", "reading": "くび", "meaning": "cái cổ" },
+      { "word": "首相", "reading": "しゅしょう", "meaning": "thủ tướng" },
+      { "word": "手首", "reading": "てくび", "meaning": "cổ tay" },
+      { "word": "首都", "reading": "しゅと", "meaning": "thủ đô" },
+      { "word": "部首", "reading": "ぶしゅ", "meaning": "bộ thủ (Kanji)" }
+    ]
+  },
+  {
+    "kanji": "結",
+    "amHan": "Kết",
+    "nghia": "Buộc, kết nối",
+    "onyomi": "ケツ",
+    "kunyomi": "むす・ぶ, ゆ・う",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (糸) để buộc mọi người lại một nơi (吉 - cát) để tạo ra KẾT quả tốt lành."
+    },
+    "examples": [
+      { "word": "結婚する", "reading": "けっこんする", "meaning": "kết hôn" },
+      { "word": "結ぶ", "reading": "むすぶ", "meaning": "buộc, kết nối" },
+      { "word": "結論", "reading": "けつろん", "meaning": "kết luận" },
+      { "word": "結果", "reading": "けっか", "meaning": "kết quả" },
+      { "word": "結局", "reading": "けっきょく", "meaning": "kết cục, rốt cuộc" }
+    ]
+  },
+  {
+    "kanji": "婚",
+    "amHan": "Hôn",
+    "nghia": "Lấy vợ, lấy chồng",
+    "onyomi": "コン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người phụ nữ (女) đi theo người đàn ông vào lúc hoàng hôn (昏 - hôn) để làm lễ kết HÔN."
+    },
+    "examples": [
+      { "word": "新婚", "reading": "しんこん", "meaning": "mới cưới" },
+      { "word": "未婚", "reading": "みこん", "meaning": "chưa kết hôn" },
+      { "word": "離婚する", "reading": "りこんする", "meaning": "ly hôn" },
+      { "word": "婚約", "reading": "こんやく", "meaning": "đính hôn" }
+    ]
+  },
+  {
+    "kanji": "式",
+    "amHan": "Thức",
+    "nghia": "Hình thức, lễ hội, công thức",
+    "onyomi": "シキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng cái cọc (弋) để đo đạc và làm việc (工) theo một quy THỨC nhất định."
+    },
+    "examples": [
+      { "word": "形式", "reading": "けいしき", "meaning": "hình thức" },
+      { "word": "結婚式", "reading": "けっこんしき", "meaning": "lễ cưới" },
+      { "word": "公式", "reading": "こうしき", "meaning": "công thức, chính thức" },
+      { "word": "入学式", "reading": "にゅうがくしき", "meaning": "lễ nhập học" },
+      { "word": "式次", "reading": "しきじ", "meaning": "thứ tự buổi lễ" }
+    ]
+  },
+  {
+    "kanji": "全",
+    "amHan": "Toàn",
+    "nghia": "Toàn bộ, tất cả",
+    "onyomi": "ゼン",
+    "kunyomi": "まった・く, すべ・て",
+    "mnemonic": {
+      "text": "Nhà vua (王) đứng dưới mái nhà (人) cai trị TOÀN bộ vương quốc."
+    },
+    "examples": [
+      { "word": "全部", "reading": "ぜんぶ", "meaning": "toàn bộ" },
+      { "word": "安全な", "reading": "あんぜんな", "meaning": "an toàn" },
+      { "word": "全く", "reading": "まったく", "meaning": "hoàn toàn" },
+      { "word": "全国", "reading": "ぜんこく", "meaning": "toàn quốc" },
+      { "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn (không)" }
+    ]
+  },
+  {
+    "kanji": "次",
+    "amHan": "Thứ",
+    "nghia": "Tiếp theo",
+    "onyomi": "ジ, シ",
+    "kunyomi": "つぎ, つ・ぐ",
+    "mnemonic": {
+      "text": "Một người đang há miệng thở ra hơi lạnh (欠 - khiếm), chuẩn bị cho hành động THỨ (tiếp theo)."
+    },
+    "examples": [
+      { "word": "次", "reading": "つぎ", "meaning": "tiếp theo" },
+      { "word": "目次", "reading": "もくじ", "meaning": "mục lục" },
+      { "word": "次第に", "reading": "しだいに", "meaning": "dần dần" },
+      { "word": "次回", "reading": "じかい", "meaning": "lần tới" },
+      { "word": "次女", "reading": "じじょ", "meaning": "con gái thứ hai" }
+    ]
+  },
+  {
+    "kanji": "以",
+    "amHan": "Dĩ",
+    "nghia": "Lấy làm, mốc giới hạn",
+    "onyomi": "イ",
+    "kunyomi": "もっ・て",
+    "mnemonic": {
+      "text": "Dùng một cái cày để xới đất, lấy đó làm mốc (DĨ) để phân chia."
+    },
+    "examples": [
+      { "word": "以上", "reading": "いじょう", "meaning": "trở lên" },
+      { "word": "以下", "reading": "いか", "meaning": "trở xuống" },
+      { "word": "以外", "reading": "いがい", "meaning": "ngoài ra" },
+      { "word": "以前", "reading": "いぜん", "meaning": "trước đây" },
+      { "word": "以内", "reading": "いない", "meaning": "trong vòng" }
+    ]
+  }
+]

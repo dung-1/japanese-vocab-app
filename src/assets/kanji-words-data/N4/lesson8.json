@@ -1,0 +1,257 @@
+[
+  {
+    "kanji": "晴",
+    "amHan": "Tình",
+    "nghia": "Trời nắng, quang đãng",
+    "onyomi": "セイ",
+    "kunyomi": "は・れる, は・れ",
+    "mnemonic": {
+      "text": "Khi mặt trời (日) mọc lên, vạn vật trở nên xanh tươi (青 - thanh) và bầu trời quang đãng (TÌNH)."
+    },
+    "examples": [
+      { "word": "晴れ", "reading": "はれ", "meaning": "trời nắng" },
+      { "word": "晴天", "reading": "せいてん", "meaning": "trời quang đãng" },
+      { "word": "素晴らしい", "reading": "すばらしい", "meaning": "tuyệt vời" },
+      { "word": "見晴らし", "reading": "みはらし", "meaning": "tầm nhìn, phong cảnh" },
+      { "word": "晴れる", "reading": "はれる", "meaning": "nắng lên, tan (mây/mù)" }
+    ]
+  },
+  {
+    "kanji": "星",
+    "amHan": "Tinh",
+    "nghia": "Ngôi sao",
+    "onyomi": "セイ, ショウ",
+    "kunyomi": "ほし",
+    "mnemonic": {
+      "text": "Mặt trời (日) sinh (生) ra những đốm sáng nhỏ vào ban đêm chính là ngôi sao (TINH)."
+    },
+    "examples": [
+      { "word": "星", "reading": "ほし", "meaning": "ngôi sao" },
+      { "word": "火星", "reading": "かせい", "meaning": "sao Hỏa" },
+      { "word": "星座", "reading": "せいざ", "meaning": "chòm sao" },
+      { "word": "流れ星", "reading": "ながれぼし", "meaning": "sao băng" },
+      { "word": "衛星", "reading": "えいせい", "meaning": "vệ tinh" }
+    ]
+  },
+  {
+    "kanji": "熱",
+    "amHan": "Nhiệt",
+    "nghia": "Nóng, nhiệt độ",
+    "onyomi": "ネツ",
+    "kunyomi": "あつ・い",
+    "mnemonic": {
+      "text": "Phía dưới có bộ Hỏa (灬), trên là hình ảnh cầm nắm đồ vật trên đất. Lửa đốt ở dưới tạo ra NHIỆT."
+    },
+    "examples": [
+      { "word": "熱い", "reading": "あつい", "meaning": "nóng (vật tiếp xúc)" },
+      { "word": "熱", "reading": "ねつ", "meaning": "sốt, nhiệt độ" },
+      { "word": "熱心な", "reading": "ねっしんな", "meaning": "nhiệt tình" },
+      { "word": "情熱", "reading": "じょうねつ", "meaning": "đam mê, nhiệt huyết" },
+      { "word": "加熱", "reading": "かねつ", "meaning": "gia nhiệt, đun nóng" }
+    ]
+  },
+  {
+    "kanji": "約",
+    "amHan": "Ước",
+    "nghia": "Lời hứa, tóm lược",
+    "onyomi": "ヤク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (糸) để buộc (勺 - chước) các điều khoản lại thành lời ƯỚC hẹn."
+    },
+    "examples": [
+      { "word": "約束", "reading": "やくそく", "meaning": "lời hứa, cuộc hẹn" },
+      { "word": "予約", "reading": "よやく", "meaning": "đặt trước" },
+      { "word": "約", "reading": "やく", "meaning": "khoảng chừng" },
+      { "word": "婚約", "reading": "こんやく", "meaning": "đính hôn" },
+      { "word": "節約", "reading": "せつやく", "meaning": "tiết kiệm" }
+    ]
+  },
+  {
+    "kanji": "束",
+    "amHan": "Thúc",
+    "nghia": "Bó, buộc",
+    "onyomi": "ソク",
+    "kunyomi": "たば",
+    "mnemonic": {
+      "text": "Dùng một vòng dây buộc ngang thân cây (木) lại thành một bó (THÚC)."
+    },
+    "examples": [
+      { "word": "花束", "reading": "はなたば", "meaning": "bó hoa" },
+      { "word": "束ねる", "reading": "たばねる", "meaning": "buộc thành bó" },
+      { "word": "結束", "reading": "けっそく", "meaning": "đoàn kết, buộc lại" },
+      { "word": "束縛", "reading": "そくばく", "meaning": "trói buộc, kiềm chế" },
+      { "word": "装束", "reading": "しょうぞく", "meaning": "trang phục, cải trang" }
+    ]
+  },
+  {
+    "kanji": "辞",
+    "amHan": "Từ",
+    "nghia": "Từ ngữ, từ bỏ",
+    "onyomi": "ジ",
+    "kunyomi": "や・める",
+    "mnemonic": {
+      "text": "Bên trái là cái lưỡi (舌), bên phải là bộ Tân (辛 - cay nghiệt). Lời nói (TỪ) đôi khi cay nghiệt."
+    },
+    "examples": [
+      { "word": "辞書", "reading": "じしょ", "meaning": "từ điển" },
+      { "word": "辞める", "reading": "やめる", "meaning": "nghỉ việc, từ bỏ" },
+      { "word": "世辞", "reading": "せじ", "meaning": "lời nịnh hót, khen ngợi" },
+      { "word": "辞退する", "reading": "じたいする", "meaning": "từ chối, khước từ" },
+      { "word": "祝辞", "reading": "しゅくじ", "meaning": "lời chúc mừng" }
+    ]
+  },
+  {
+    "kanji": "練",
+    "amHan": "Luyện",
+    "nghia": "Luyện tập, rèn luyện",
+    "onyomi": "レン",
+    "kunyomi": "ね・る",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (糸) để tách (柬 - giản/lọc) ra những phần tốt nhất thông qua rèn LUYỆN."
+    },
+    "examples": [
+      { "word": "練習", "reading": "れんしゅう", "meaning": "luyện tập" },
+      { "word": "熟練", "reading": "じゅくれん", "meaning": "thành thục, lành nghề" },
+      { "word": "練る", "reading": "ねる", "meaning": "trau chuốt, nhào nặn" },
+      { "word": "試練", "reading": "しれん", "meaning": "thử thách" },
+      { "word": "訓練", "reading": "くんれん", "meaning": "huấn luyện" }
+    ]
+  },
+  {
+    "kanji": "返",
+    "amHan": "Phản",
+    "nghia": "Trả lại",
+    "onyomi": "ヘン",
+    "kunyomi": "かえ・す, かえ・る",
+    "mnemonic": {
+      "text": "Đi (辶) ngược lại (反 - phản) con đường cũ để trả lại đồ."
+    },
+    "examples": [
+      { "word": "返す", "reading": "かえす", "meaning": "trả lại (tha động từ)" },
+      { "word": "返る", "reading": "かえる", "meaning": "được trả lại (tự động từ)" },
+      { "word": "返事", "reading": "へんじ", "meaning": "trả lời" },
+      { "word": "返却", "reading": "へんきゃく", "meaning": "sự trả lại (mượn ở thư viện)" },
+      { "word": "繰り返す", "reading": "くりかえす", "meaning": "lặp đi lặp lại" }
+    ]
+  },
+  {
+    "kanji": "最",
+    "amHan": "Tối",
+    "nghia": "Nhất (so sánh nhất)",
+    "onyomi": "サイ",
+    "kunyomi": "もっと・も",
+    "mnemonic": {
+      "text": "Dưới ánh mặt trời (日) mà lấy được (取 - thủ) vật đó thì là TỐI ưu (tốt nhất)."
+    },
+    "examples": [
+      { "word": "最初", "reading": "さいしょ", "meaning": "đầu tiên" },
+      { "word": "最後", "reading": "さいご", "meaning": "cuối cùng" },
+      { "word": "最近", "reading": "さいきん", "meaning": "gần đây" },
+      { "word": "最高", "reading": "さいこう", "meaning": "cao nhất, tuyệt vời nhất" },
+      { "word": "最も", "reading": "もっとも", "meaning": "nhất" }
+    ]
+  },
+  {
+    "kanji": "続",
+    "amHan": "Tục",
+    "nghia": "Tiếp tục",
+    "onyomi": "ゾク",
+    "kunyomi": "つづ・ける, つづ・く",
+    "mnemonic": {
+      "text": "Dùng sợi chỉ (糸) để nối dài việc bán hàng (売 - mại) nhằm TIẾP TỤC duy trì."
+    },
+    "examples": [
+      { "word": "続ける", "reading": "つづける", "meaning": "tiếp tục (tha động từ)" },
+      { "word": "続く", "reading": "つづく", "meaning": "tiếp diễn (tự động từ)" },
+      { "word": "手続き", "reading": "てつづき", "meaning": "thủ tục" },
+      { "word": "連続", "reading": "れんぞく", "meaning": "liên tục" },
+      { "word": "続出する", "reading": "ぞくしゅつする", "meaning": "xảy ra liên tiếp" }
+    ]
+  },
+  {
+    "kanji": "角",
+    "amHan": "Giác",
+    "nghia": "Góc, sừng",
+    "onyomi": "カク",
+    "kunyomi": "かど, つの",
+    "mnemonic": {
+      "text": "Hình ảnh cái sừng trâu có các đường vân, tạo thành các GÓC nhọn."
+    },
+    "examples": [
+      { "word": "角", "reading": "かど", "meaning": "góc (đường, bàn)" },
+      { "word": "角", "reading": "つの", "meaning": "cái sừng" },
+      { "word": "角度", "reading": "かくど", "meaning": "góc độ" },
+      { "word": "四角い", "reading": "しかくい", "meaning": "hình vuông" },
+      { "word": "三角", "reading": "さんかく", "meaning": "hình tam giác" }
+    ]
+  },
+  {
+    "kanji": "込",
+    "amHan": "Vào",
+    "nghia": "Đông đúc, bao hàm",
+    "onyomi": "",
+    "kunyomi": "こ・む",
+    "mnemonic": {
+      "text": "Đi (辶) vào (入) bên trong một không gian chật hẹp là nhồi VÀO, đông đúc."
+    },
+    "examples": [
+      { "word": "込む", "reading": "こむ", "meaning": "đông đúc" },
+      { "word": "申し込む", "reading": "もうしこむ", "meaning": "đăng ký" },
+      { "word": "人込み", "reading": "ひとごみ", "meaning": "đám đông" },
+      { "word": "払い込む", "reading": "はらいこむ", "meaning": "nộp tiền, đóng tiền" },
+      { "word": "思い込む", "reading": "おもいこむ", "meaning": "tin rằng, cho là" }
+    ]
+  },
+  {
+    "kanji": "申",
+    "amHan": "Thân",
+    "nghia": "Nói, trình bày (khiêm nhường)",
+    "onyomi": "シン",
+    "kunyomi": "もう・す",
+    "mnemonic": {
+      "text": "Hình ảnh tia sét xuyên qua ruộng (田), tượng trưng cho việc THÂN trình, báo cáo lên trên."
+    },
+    "examples": [
+      { "word": "申す", "reading": "もうす", "meaning": "nói (khiêm nhường)" },
+      { "word": "申し上げる", "reading": "もうしあげる", "meaning": "nói (kính ngữ cao hơn)" },
+      { "word": "申請", "reading": "しんせい", "meaning": "thỉnh cầu, đăng ký" },
+      { "word": "申告", "reading": "しんこく", "meaning": "khai báo (thuế...)" },
+      { "word": "内申", "reading": "ないしん", "meaning": "báo cáo nội bộ" }
+    ]
+  },
+  {
+    "kanji": "格",
+    "amHan": "Cách",
+    "nghia": "Tư cách, khung, giá",
+    "onyomi": "カク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cây (木) mọc đến từng (各 - các) nơi tạo thành khung CÁCH, tiêu chuẩn."
+    },
+    "examples": [
+      { "word": "合格", "reading": "ごうかく", "meaning": "đỗ (kỳ thi)" },
+      { "word": "資格", "reading": "しかく", "meaning": "tư cách, bằng cấp" },
+      { "word": "性格", "reading": "せいかく", "meaning": "tính cách" },
+      { "word": "価格", "reading": "かかく", "meaning": "giá cả" },
+      { "word": "格好", "reading": "かっこう", "meaning": "diện mạo, vẻ ngoài" }
+    ]
+  },
+  {
+    "kanji": "予",
+    "amHan": "Dự",
+    "nghia": "Dự báo, trước",
+    "onyomi": "ヨ",
+    "kunyomi": "あらかじ・め",
+    "mnemonic": {
+      "text": "Hình ảnh cái thoi dệt vải đang đưa đi đưa lại, biểu thị việc chuẩn bị DỰ tính từ trước."
+    },
+    "examples": [
+      { "word": "予定", "reading": "よてい", "meaning": "dự định" },
+      { "word": "予約", "reading": "よやく", "meaning": "đặt chỗ trước" },
+      { "word": "天気予報", "reading": "てんきよほう", "meaning": "dự báo thời tiết" },
+      { "word": "予算", "reading": "よさん", "meaning": "ngân sách" },
+      { "word": "予測", "reading": "よそく", "meaning": "dự đoán" }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 
-export type KanjiLevel = 'N2' | 'N3';
+export type KanjiLevel = 'N2' | 'N3'| 'N4'  ;
 
 @Component({
   selector: 'app-kanji-words-lesson-selector',
@@ -9,7 +9,7 @@ export type KanjiLevel = 'N2' | 'N3';
   styleUrl: './lesson-selector.component.css'
 })
 export class KanjiWordsLessonSelectorComponent {
-  readonly LEVEL_LESSON_COUNTS: Record<KanjiLevel, number> = { N2: 2, N3: 30 };
+  readonly LEVEL_LESSON_COUNTS: Record<KanjiLevel, number> = { N2: 2, N3: 30, N4: 26 };
   selectedLevel: KanjiLevel = 'N3';
   selectedLesson = '';
 
