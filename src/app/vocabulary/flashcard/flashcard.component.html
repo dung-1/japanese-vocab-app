@@ -1,14 +1,14 @@
 <div class="flashcard-container" *ngIf="vocabData && vocabData.length > 0">
   <div class="flashcard" [class.flipped]="isFlipped" (click)="flipCard()">
     <div class="front">
-      <h2>{{ vocabData[currentIndex].hiragana }}</h2>
-      <p>{{ vocabData[currentIndex].meaning }}</p>
-    </div>
-    <div class="back">
       <div style="display: contents;">
         <h2 style="margin: 0;">{{ vocabData[currentIndex].kanji }}</h2>
-        <p >{{ vocabData[currentIndex].hanViet }}</p>
+        <p>{{ vocabData[currentIndex].hanViet }}</p>
       </div>
+    </div>
+    <div class="back">
+      <h2>{{ vocabData[currentIndex].hiragana }}</h2>
+      <p>{{ vocabData[currentIndex].meaning }}</p>
     </div>
   </div>
   <div class="navigation">
