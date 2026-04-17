@@ -54,8 +54,8 @@ export class VocabTestComponent implements OnInit {
     return selectedData.map(item => {
       const type = Math.floor(Math.random() * 2); 
       return type === 0
-        ? { question: `Nghĩa của "${item.word}" là gì?`, answer: item.meaning }
-        : { question: `"${item.meaning}" trong tiếng Nhật là gì?`, answer: item.word };
+        ? { question: `Nghĩa của "${item.hiragana}" là gì?`, answer: item.meaning }
+        : { question: `"${item.meaning}" trong tiếng Nhật là gì?`, answer: item.hiragana };
     });
   }
 

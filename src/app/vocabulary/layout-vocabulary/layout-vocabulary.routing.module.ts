@@ -15,4 +15,4 @@ const routes: Routes = [
   providers: [],
   exports: [RouterModule],
 })
-export class LayOutVocabularyRoutingModule { }
+export class LayOutVocabularyRoutingModule {}

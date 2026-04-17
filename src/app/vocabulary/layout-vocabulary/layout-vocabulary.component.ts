@@ -22,29 +22,35 @@ export class LayoutVocabularyComponent {
     if (!isPlatformBrowser(this.platformId)) {
       return; 
     }
-    for (let i = 1; i <= 50; i++) {
-      const cachedData = localStorage.getItem(`lesson${i}`);
-      if (!cachedData) {
-        this.http.get<any[]>(`assets/vocab-data/lesson${i}.json`).subscribe({
-          next: (data) => {
-            localStorage.setItem(`lesson${i}`, JSON.stringify(data));
-          },
-          error: (err) => console.error(`Lỗi tải lesson${i}:`, err)
-        });
+    const levels = ['N3', 'N4'];
+    levels.forEach(level => {
+      const maxLessons = level === 'N3' ? 22 : 50;
+      for (let i = level === 'N3' ? 1 : 26; i <= maxLessons; i++) {
+        const cacheKey = `${level}-lesson${i}`;
+        const cachedData = localStorage.getItem(cacheKey);
+        if (!cachedData) {
+          this.http.get<any[]>(`assets/vocab-data/${level}/lesson${i}.json`).subscribe({
+            next: (data) => {
+              localStorage.setItem(cacheKey, JSON.stringify(data));
+            },
+            error: (err) => console.error(`Lỗi tải ${level} lesson${i}:`, err)
+          });
+        }
       }
-    }
+    });
   }
 
-  onLessonSelected(lessonNumber: number) {
+  onLessonSelected(selection: {level: string, lesson: number}) {
     if (isPlatformBrowser(this.platformId)) {
-      const cachedData = localStorage.getItem(`lesson${lessonNumber}`);
+      const cacheKey = `${selection.level}-lesson${selection.lesson}`;
+      const cachedData = localStorage.getItem(cacheKey);
       if (cachedData) {
         this.selectedLessonVocab = this.shuffleArray(JSON.parse(cachedData));
       } else {
-        this.http.get<any[]>(`assets/vocab-data/lesson${lessonNumber}.json`).subscribe({
+        this.http.get<any[]>(`assets/vocab-data/${selection.level}/lesson${selection.lesson}.json`).subscribe({
           next: (data) => {
             this.selectedLessonVocab = this.shuffleArray([...data]);
-            localStorage.setItem(`lesson${lessonNumber}`, JSON.stringify(data));
+            localStorage.setItem(cacheKey, JSON.stringify(data));
           },
           error: () => {
             this.selectedLessonVocab = []; 

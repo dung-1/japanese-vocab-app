@@ -5,15 +5,15 @@ import { LessonSelectorModule } from '../lesson-selector/lesson-selector.compone
 import { VocabTestModule } from '../vocab-test/vocab-test.component.module';
 import { LayoutVocabularyComponent } from './layout-vocabulary.component';
 import { LayOutVocabularyRoutingModule } from './layout-vocabulary.routing.module';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [LayoutVocabularyComponent],
-  imports: [    
+  imports: [
     CommonModule,
     FlashcardModule,
     VocabTestModule,
     LessonSelectorModule,
-    LayOutVocabularyRoutingModule
-
+    LayOutVocabularyRoutingModule,
   ],
   exports: [LayoutVocabularyComponent],
 })

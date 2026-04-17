@@ -1,0 +1,326 @@
+[
+  {
+    "kanji": "包みます",
+    "hiragana": "つつみます",
+    "hanViet": "BAO",
+    "meaning": "gói"
+  },
+  {
+    "kanji": "沸かします",
+    "hiragana": "わかします",
+    "hanViet": "PHÍ",
+    "meaning": "đun sôi"
+  },
+  {
+    "kanji": "混ぜます",
+    "hiragana": "まぜます",
+    "hanViet": "HỖ",
+    "meaning": "trộn"
+  },
+  {
+    "kanji": "計算します",
+    "hiragana": "けいさんします",
+    "hanViet": "KẾ TOÁN",
+    "meaning": "tính, tính toán"
+  },
+  {
+    "kanji": "並びます",
+    "hiragana": "ならびます",
+    "hanViet": "TỊNH",
+    "meaning": "xếp hàng"
+  },
+  {
+    "kanji": "丈夫 [な]",
+    "hiragana": "じょうぶ [な]",
+    "hanViet": "TRƯỢNG PHU",
+    "meaning": "chắc chắn"
+  },
+  {
+    "kanji": "アパート",
+    "hiragana": "アパート",
+    "hanViet": "",
+    "meaning": "phòng trọ"
+  },
+  {
+    "kanji": "弁護士",
+    "hiragana": "べんごし",
+    "hanViet": "BIỆN HỘ SĨ",
+    "meaning": "luật sư"
+  },
+  {
+    "kanji": "音楽家",
+    "hiragana": "おんがくか",
+    "hanViet": "ÂM NHẠC GIA",
+    "meaning": "nhạc sĩ, người hoạt động trong lĩnh vực âm nhạc"
+  },
+  {
+    "kanji": "子どもたち",
+    "hiragana": "こどもたち",
+    "hanViet": "TỬ",
+    "meaning": "những đứa trẻ, bọn trẻ"
+  },
+  {
+    "kanji": "自然",
+    "hiragana": "しぜん",
+    "hanViet": "TỰ NHIÊN",
+    "meaning": "tự nhiên"
+  },
+  {
+    "kanji": "教育",
+    "hiragana": "きょういく",
+    "hanViet": "GIÁO DỤC",
+    "meaning": "giáo dục"
+  },
+  {
+    "kanji": "文化",
+    "hiragana": "ぶんか",
+    "hanViet": "VĂN HÓA",
+    "meaning": "văn hóa"
+  },
+  {
+    "kanji": "社会",
+    "hiragana": "しゃかい",
+    "hanViet": "XÃ HỘI",
+    "meaning": "xã hội"
+  },
+  {
+    "kanji": "政治",
+    "hiragana": "せいじ",
+    "hanViet": "CHÍNH TRỊ",
+    "meaning": "chính trị"
+  },
+  {
+    "kanji": "法律",
+    "hiragana": "ほうりつ",
+    "hanViet": "PHÁP LUẬT",
+    "meaning": "pháp luật"
+  },
+  {
+    "kanji": "戦争",
+    "hiragana": "せんそう",
+    "hanViet": "CHIẾN TRANH",
+    "meaning": "chiến tranh"
+  },
+  {
+    "kanji": "平和",
+    "hiragana": "へいわ",
+    "hanViet": "HÒA BÌNH",
+    "meaning": "hòa bình"
+  },
+  {
+    "kanji": "目的",
+    "hiragana": "もくてき",
+    "hanViet": "MỤC ĐÍCH",
+    "meaning": "mục đích"
+  },
+  {
+    "kanji": "論文",
+    "hiragana": "ろんぶん",
+    "hanViet": "LUẬN VĂN",
+    "meaning": "luận văn"
+  },
+  {
+    "kanji": "楽しみ",
+    "hiragana": "たのしみ",
+    "hanViet": "LẠC",
+    "meaning": "niềm vui"
+  },
+  {
+    "kanji": "ミキサー",
+    "hiragana": "ミキサー",
+    "hanViet": "",
+    "meaning": "máy xay"
+  },
+  {
+    "kanji": "やかん",
+    "hiragana": "やかん",
+    "hanViet": "",
+    "meaning": "ấm đun nước"
+  },
+  {
+    "kanji": "ふた",
+    "hiragana": "ふた",
+    "hanViet": "",
+    "meaning": "nắp"
+  },
+  {
+    "kanji": "栓抜き",
+    "hiragana": "せんぬき",
+    "hanViet": "XUYÊN BẠT",
+    "meaning": "cái bật nắp chai"
+  },
+  {
+    "kanji": "缶切り",
+    "hiragana": "かんきり",
+    "hanViet": "PHẪU THIẾT",
+    "meaning": "cái mở nắp hộp"
+  },
+  {
+    "kanji": "缶詰",
+    "hiragana": "かんづめ",
+    "hanViet": "PHẪU CẬT",
+    "meaning": "đồ hộp, thực phẩm đóng hộp"
+  },
+  {
+    "kanji": "のし袋",
+    "hiragana": "のしぶくろ",
+    "hanViet": "ĐẠI",
+    "meaning": "phong bì dùng để bỏ tiền mừng"
+  },
+  {
+    "kanji": "ふろしき",
+    "hiragana": "ふろしき",
+    "hanViet": "",
+    "meaning": "khăn vuông để gói đồ kiểu Nhật"
+  },
+  {
+    "kanji": "そろばん",
+    "hiragana": "そろばん",
+    "hanViet": "",
+    "meaning": "bàn tính"
+  },
+  {
+    "kanji": "体温計",
+    "hiragana": "たいおんけい",
+    "hanViet": "THỂ ÔN KẾ",
+    "meaning": "nhiệt kế"
+  },
+  {
+    "kanji": "材料",
+    "hiragana": "ざいりょう",
+    "hanViet": "TÀI LIÊU",
+    "meaning": "nguyên liệu"
+  },
+  {
+    "kanji": "ある ~",
+    "hiragana": "ある",
+    "hanViet": "",
+    "meaning": "một ~ nọ"
+  },
+  {
+    "kanji": "一生懸命",
+    "hiragana": "いっしょうけんめい",
+    "hanViet": "NHẤT SINH HUYỀN MỆNH",
+    "meaning": "chăm chỉ, gắng hết sức"
+  },
+  {
+    "kanji": "なぜ",
+    "hiragana": "なぜ",
+    "hanViet": "",
+    "meaning": "tại sao"
+  },
+  {
+    "kanji": "どのくらい",
+    "hiragana": "どのくらい",
+    "hanViet": "",
+    "meaning": "bao nhiêu"
+  },
+  {
+    "kanji": "国連",
+    "hiragana": "こくれん",
+    "hanViet": "QUỐC LIÊN",
+    "meaning": "Liên Hợp Quốc"
+  },
+  {
+    "kanji": "エリーゼのために",
+    "hiragana": "エリーゼのために",
+    "hanViet": "",
+    "meaning": "Dành cho Elise (tên bản nhạc)"
+  },
+  {
+    "kanji": "ベートーベン",
+    "hiragana": "ベートーベン",
+    "hanViet": "",
+    "meaning": "Beethoven, nhà soạn nhạc người Đức (1770-1827)"
+  },
+  {
+    "kanji": "こどもニュース",
+    "hiragana": "こどもニュース",
+    "hanViet": "TỬ",
+    "meaning": "Bản tin thiếu nhi (chương trình tin tức giả định)"
+  },
+  {
+    "kanji": "出ます [ボーナスが~]",
+    "hiragana": "でます",
+    "hanViet": "XUẤT",
+    "meaning": "có [thưởng]"
+  },
+  {
+    "kanji": "半分",
+    "hiragana": "はんぶん",
+    "hanViet": "BÁN PHÂN",
+    "meaning": "một nửa"
+  },
+  {
+    "kanji": "ローン",
+    "hiragana": "ローン",
+    "hanViet": "",
+    "meaning": "khoản vay ngân hàng"
+  },
+  {
+    "kanji": "カップめん",
+    "hiragana": "カップめん",
+    "hanViet": "",
+    "meaning": "mì ly"
+  },
+  {
+    "kanji": "世界初",
+    "hiragana": "せかいはつ",
+    "hanViet": "THẾ GIỚI SƠ",
+    "meaning": "đầu tiên trên thế giới"
+  },
+  {
+    "kanji": "によって",
+    "hiragana": "によって",
+    "hanViet": "",
+    "meaning": "bởi ~"
+  },
+  {
+    "kanji": "どんぶり",
+    "hiragana": "どんぶり",
+    "hanViet": "",
+    "meaning": "bát tô lớn"
+  },
+  {
+    "kanji": "めん",
+    "hiragana": "めん",
+    "hanViet": "",
+    "meaning": "mì sợi"
+  },
+  {
+    "kanji": "広めます",
+    "hiragana": "ひろめます",
+    "hanViet": "QUẢNG",
+    "meaning": "phổ cập, nhân rộng, mở rộng"
+  },
+  {
+    "kanji": "市場調査",
+    "hiragana": "しじょうちょうさ",
+    "hanViet": "THỊ TRƯỜNG ĐIỀU TRA",
+    "meaning": "điều tra thị trường"
+  },
+  {
+    "kanji": "割ります",
+    "hiragana": "わります",
+    "hanViet": "CÁT",
+    "meaning": "bẻ ra, chia nhỏ ra"
+  },
+  {
+    "kanji": "注ぎます",
+    "hiragana": "そそぎます",
+    "hanViet": "CHÚ",
+    "meaning": "đổ vào"
+  },
+  {
+    "kanji": "チキンラーメン",
+    "hiragana": "チキンラーメン",
+    "hanViet": "",
+    "meaning": "tên của một loại mì ăn liền"
+  },
+  {
+    "kanji": "安藤百福",
+    "hiragana": "あんどうももふく",
+    "hanViet": "AN ĐẰNG BÁCH PHÚC",
+    "meaning": "nhà kinh doanh, nhà phát minh người Nhật (1910-2007)"
+  }
+]

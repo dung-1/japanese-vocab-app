@@ -1,7 +1,18 @@
 <div class="lesson-selector">
-    <h2>Chọn bài học</h2>
-    <select (change)="selectLesson($event)">
-      <option value="">Chọn bài</option>
-      <option *ngFor="let lesson of lessons" [value]="lesson">{{ lesson }}</option>
-    </select>
+    <h2>Chọn trình độ và bài học</h2>
+    <div class="selector-container">
+      <div class="level-selector">
+        <label for="level-select">Trình độ:</label>
+        <select id="level-select" [(ngModel)]="selectedLevel" (change)="onLevelChange($event)">
+          <option *ngFor="let level of levels" [value]="level">{{ level }}</option>
+        </select>
+      </div>
+      <div class="lesson-selector" style="margin: 0 !important;">
+        <label for="lesson-select">Bài học:</label>
+        <select id="lesson-select" [(ngModel)]="selectedLesson" (change)="selectLesson($event)">
+        <option value="">Chọn bài</option>
+          <option *ngFor="let lesson of lessons" [value]="lesson">{{ lesson }}</option>
+        </select>
+      </div>
+    </div>
   </div>

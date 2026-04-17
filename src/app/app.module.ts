@@ -7,6 +7,7 @@ import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { AdverbComponent } from './adverb/adverb.component';
 import { MusicPlayerComponent } from './music-player/music-player.component';
 @NgModule({
@@ -19,6 +20,7 @@ import { MusicPlayerComponent } from './music-player/music-player.component';
     AppRoutingModule,
     RouterModule,
     CommonModule,
+    FormsModule,
     HttpClientModule,
     MusicPlayerComponent,
 
