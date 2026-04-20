@@ -1,42 +1,99 @@
-<div class="vocab-test" *ngIf="vocabData && vocabData.length > 0">
+<div class="quiz-container">
+  <div *ngIf="!quizStarted" class="quiz-intro">
     <h2>Kiểm tra từ vựng</h2>
-  
-    <!-- Chọn số lượng câu hỏi -->
-    <div class="question-count" *ngIf="!testStarted">
-      <label for="questionCount">Số câu hỏi:</label>
-      <select id="questionCount" [(ngModel)]="questionCount">
-        <option value="5">5</option>
-        <option value="10">10</option>
-        <option value="20">20</option>
-        
-        <option value="all">Tất cả</option>
+    <div class="quiz-settings">
+      <label for="totalQuestions">Số lượng câu hỏi:</label>
+      <select id="totalQuestions" [(ngModel)]="totalQuestions">
+        <option value="5">5 câu</option>
+        <option value="10">10 câu</option>
+        <option value="20">20 câu</option>
+        <option value="30">30 câu</option>
+        <option value="40">40 câu</option>
       </select>
-      <button (click)="startTest()">Bắt đầu kiểm tra</button>
     </div>
-  
-    <!-- Bài kiểm tra -->
-    <div class="test-container" *ngIf="testStarted && !testFinished">
-      <p>Thời gian còn lại: {{ timeLeft }}s</p>
-      <p>Câu {{ currentQuestionIndex + 1 }}/{{ questions.length }}</p>
-      <p>{{ currentQuestion.question }}</p>
-      <input type="text" [(ngModel)]="userAnswer" placeholder="Nhập đáp án" />
-      <button (click)="submitAnswer()">Gửi</button>
+    <button class="start-btn" [disabled]="vocabData.length === 0" (click)="startQuiz()">
+      {{ vocabData.length === 0 ? 'Vui lòng chọn bài học trước' : 'Bắt đầu kiểm tra' }}
+    </button>
+  </div>
+
+  <div *ngIf="quizStarted && !showResult" class="quiz-question">
+    <div class="progress-bar">
+      <div class="progress" [style.width.%]="(currentQuestionIndex + 1) / quizQuestions.length * 100"></div>
     </div>
-  
-    <div class="result" *ngIf="testFinished">
-      <h3>Kết quả</h3>
-      <p>Số câu đúng: {{ correctAnswers }} / {{ questions.length }}</p>
-      <p>Điểm: {{ (correctAnswers / questions.length * 100).toFixed(2) }}%</p>
-      <p>Điểm cao nhất: {{ highScore }}%</p>
-      <h4>Lịch sử trả lời:</h4>
-      <ul>
-        <li *ngFor="let answer of answerHistory" [ngClass]="{'correct': answer.isCorrect, 'incorrect': !answer.isCorrect}">
-          {{ answer.question }} <br>
-          Bạn nhập: {{ answer.userAnswer }} <br>
-          Đáp án đúng: {{ answer.correctAnswer }} <br>
-          Kết quả: {{ answer.isCorrect ? 'Đúng' : 'Sai' }}
-        </li>
-      </ul>
-      <button (click)="resetTest()">Làm lại</button>
+    <div class="question-info">
+      <span class="question-number">Câu hỏi {{ currentQuestionIndex + 1 }}/{{ quizQuestions.length }}</span>
+      <span class="timer" [class.warning]="timeLeft <= 10">
+        ⏱ {{ timeLeft }}s
+      </span>
+    </div>
+    
+    <h3>{{ getCurrentQuestion().question }}</h3>
+    
+    <div class="options">
+      <div *ngFor="let option of getCurrentQuestion().options" 
+           class="option" 
+           [class.selected]="selectedOption === option"
+           [class.correct]="isCorrectOption(option)"
+           [class.wrong]="isWrongOption(option)"
+           (click)="selectOption(option)">
+        <span>{{ option }}</span>
+      </div>
+    </div>
+    
+    <div *ngIf="selectedOption" class="answer-feedback">
+      <p *ngIf="selectedOption === getCurrentQuestion().correctAnswer" class="correct-feedback">
+        ✓ Chính xác! 👍
+      </p>
+      <p *ngIf="selectedOption !== getCurrentQuestion().correctAnswer" class="wrong-feedback">
+        ✗ Sai rồi! Đáp án đúng là: <strong>{{ getCurrentQuestion().correctAnswer }}</strong>
+      </p>
+    </div>
+    
+    <button *ngIf="selectedOption" class="next-btn" (click)="nextQuestion()">
+      {{ currentQuestionIndex < quizQuestions.length - 1 ? 'Câu tiếp theo' : 'Xem kết quả' }}
+    </button>
+  </div>
+
+  <div *ngIf="showResult" class="quiz-result">
+    <h2>Kết quả kiểm tra</h2>
+    <div class="result-score">
+      <div class="score-circle" [ngClass]="{'excellent': correctAnswers/quizQuestions.length >= 0.8, 
+                                            'good': correctAnswers/quizQuestions.length >= 0.6 && correctAnswers/quizQuestions.length < 0.8,
+                                            'average': correctAnswers/quizQuestions.length < 0.6}">
+        {{ correctAnswers }}/{{ quizQuestions.length }}
+      </div>
+      <p class="score-text">
+        {{ (correctAnswers / quizQuestions.length * 100).toFixed(1) }}% chính xác
+      </p>
+      <p class="score-message">
+        <span *ngIf="correctAnswers/quizQuestions.length >= 0.8">🌟 Xuất sắc! Bạn đã nắm vững các từ vựng.</span>
+        <span *ngIf="correctAnswers/quizQuestions.length >= 0.6 && correctAnswers/quizQuestions.length < 0.8">👏 Tốt! Bạn đã hiểu được phần lớn các từ vựng.</span>
+        <span *ngIf="correctAnswers/quizQuestions.length < 0.6">📚 Hãy ôn tập thêm để nắm vững các từ vựng nhé!</span>
+      </p>
+    </div>
+
+    <div class="answer-history">
+      <h3>Lịch sử trả lời:</h3>
+      <div class="history-list">
+        <div *ngFor="let answer of answerHistory; let i = index" class="history-item" [ngClass]="{'correct': answer.isCorrect, 'incorrect': !answer.isCorrect}">
+          <div class="history-number">Câu {{ i + 1 }}</div>
+          <div class="history-content">
+            <p class="history-question">{{ answer.question }}</p>
+            <p class="history-answer">
+              <span *ngIf="answer.isCorrect" class="badge correct-badge">✓ Đúng</span>
+              <span *ngIf="!answer.isCorrect" class="badge wrong-badge">✗ Sai</span>
+            </p>
+            <p *ngIf="!answer.isCorrect" class="history-correction">
+              Bạn chọn: <strong>{{ answer.userAnswer }}</strong> | Đáp án: <strong>{{ answer.correctAnswer }}</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="result-actions">
+      <button class="retry-btn" (click)="generateQuizQuestions(); startQuiz()">Làm lại</button>
+      <button class="new-quiz-btn" (click)="resetQuiz()">Bài kiểm tra mới</button>
     </div>
   </div>
+</div>

@@ -9,6 +9,7 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class LayoutVocabularyComponent {
   selectedLessonVocab: any[] = [];
+  studyMode: 'flashcard' | 'quiz' = 'flashcard';
 
   constructor(
     private http: HttpClient,
@@ -18,6 +19,11 @@ export class LayoutVocabularyComponent {
       this.preloadVocabData(); 
     }
   }
+
+  setStudyMode(mode: 'flashcard' | 'quiz'): void {
+    this.studyMode = mode;
+  }
+
   preloadVocabData() {
     if (!isPlatformBrowser(this.platformId)) {
       return; 
