@@ -1,21 +1,21 @@
 [
-  {
-    "kanji": "条",
-    "amHan": "Điều",
-    "nghia": "Điều khoản, nhành cây",
-    "onyomi": "ジョウ",
-    "kunyomi": "えだ",
-    "mnemonic": {
-      "text": "Dưới mái nhà (giống chữ 夂 - truy) có cái CÂY (木), mỗi nhành cây là một ĐIỀU khoản."
+    {
+      "kanji": "条",
+      "amHan": "Điều",
+      "nghia": "Điều khoản, nhành cây",
+      "onyomi": "ジョウ",
+      "kunyomi": "えだ",
+      "mnemonic": {
+        "text": "Dưới mái nhà (giống chữ 夂 - truy) có cái CÂY (木), mỗi nhành cây là một ĐIỀU khoản."
+      },
+      "examples": [
+        { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện" },
+        { "word": "条約", "reading": "じょうやく", "meaning": "điều ước, hiệp ước" },
+        { "word": "第一条", "reading": "だいいちじょう", "meaning": "điều thứ nhất (trong luật)" },
+        { "word": "信条", "reading": "しんじょう", "meaning": "tín điều, niềm tin" },
+        { "word": "箇条書き", "reading": "かじょうがき", "meaning": "viết theo từng mục" }
+      ]
     },
-    "examples": [
-      { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện" },
-      { "word": "条約", "reading": "じょうやく", "meaning": "điều ước, hiệp ước" },
-      { "word": "第一条", "reading": "だいいちじょう", "meaning": "điều thứ nhất (trong luật)" },
-      { "word": "信条", "reading": "しんじょう", "meaning": "tín điều, niềm tin" },
-      { "word": "箇条書き", "reading": "かじょうがき", "meaning": "viết theo từng mục" }
-    ]
-  },
   {
     "kanji": "困",
     "amHan": "Khốn",

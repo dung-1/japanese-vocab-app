@@ -1,0 +1,243 @@
+﻿[
+    {
+      "kanji": "温",
+      "amHan": "Ôn",
+      "nghia": "Ấm, nhiệt độ",
+      "onyomi": "オン",
+      "kunyomi": "あたた.か, あたた.まる, あたた.める",
+      "mnemonic": {
+        "text": "Đổ NƯỚC (氵) vào NHẬT (日) - mặt trời để làm ấm cái ĐĨA (皿)."
+      },
+      "examples": [
+        { "word": "温度", "reading": "おんど", "meaning": "Nhiệt độ" },
+        { "word": "気温", "reading": "きおん", "meaning": "Nhiệt độ không khí" },
+        { "word": "温厚", "reading": "おんこう", "meaning": "Ôn hòa, hiền hậu" },
+        { "word": "温暖", "reading": "おんだん", "meaning": "Ấm áp (khí hậu)" },
+        { "word": "温室", "reading": "おんしつ", "meaning": "Nhà kính" },
+        { "word": "体温計", "reading": "たいおんけい", "meaning": "Nhiệt kế" }
+      ]
+    },
+    {
+      "kanji": "冷",
+      "amHan": "Lãnh",
+      "nghia": "Lạnh, nguội",
+      "onyomi": "レイ",
+      "kunyomi": "つめ.たい, ひ.える, ひ.やす, さ.める, さ.ます",
+      "mnemonic": {
+        "text": "BĂNG (冫) rơi xuống LỆNH (令) cho mọi thứ phải LẠNH giá."
+      },
+      "examples": [
+        { "word": "冷蔵庫", "reading": "れいぞうこ", "meaning": "Tủ lạnh" },
+        { "word": "冷静", "reading": "れいせい", "meaning": "Bình tĩnh, điềm tĩnh" },
+        { "word": "冷害", "reading": "れいがい", "meaning": "Thiệt hại do giá rét" },
+        { "word": "冷房", "reading": "れいぼう", "meaning": "Điều hòa chế độ lạnh" },
+        { "word": "冷淡", "reading": "れいたん", "meaning": "Lãnh đạm, thờ ơ" },
+        { "word": "冷める", "reading": "さめる", "meaning": "Nguội đi (đồ ăn, tình cảm)" }
+      ]
+    },
+    {
+      "kanji": "緑",
+      "amHan": "Lục",
+      "nghia": "Màu xanh lá",
+      "onyomi": "リョク, ロク",
+      "kunyomi": "みどり",
+      "mnemonic": {
+        "text": "Sợi TƠ (糸) được nhuộm bằng nước lấy từ cái CHẢY (彔 - lục) ra từ cây cỏ có màu XANH LỤC."
+      },
+      "examples": [
+        { "word": "新緑", "reading": "しんりょく", "meaning": "Màu xanh tươi của lá mới" },
+        { "word": "緑茶", "reading": "りょくちゃ", "meaning": "Trà xanh" },
+        { "word": "緑地", "reading": "りょくち", "meaning": "Vùng đất xanh, công viên" },
+        { "word": "緑化", "reading": "りょくか", "meaning": "Phủ xanh (đất trống)" },
+        { "word": "ろくしょう", "reading": "緑青", "meaning": "Gỉ đồng (màu xanh)" }
+      ]
+    },
+    {
+      "kanji": "紅",
+      "amHan": "Hồng",
+      "nghia": "Màu đỏ thắm, hồng",
+      "onyomi": "コウ, ク",
+      "kunyomi": "べに, くれない",
+      "mnemonic": {
+        "text": "Sợi TƠ (糸) được người CÔNG (工) nhân nhuộm thành màu HỒNG đỏ."
+      },
+      "examples": [
+        { "word": "紅茶", "reading": "こうちゃ", "meaning": "Hồng trà" },
+        { "word": "紅葉", "reading": "こうよう", "meaning": "Lá đỏ (mùa thu)" },
+        { "word": "口紅", "reading": "くちべに", "meaning": "Son môi" },
+        { "word": "真紅", "reading": "しんく", "meaning": "Đỏ thẫm, đỏ tươi" },
+        { "word": "紅白", "reading": "こうはく", "meaning": "Đỏ và trắng" }
+      ]
+    },
+    {
+      "kanji": "玉",
+      "amHan": "Ngọc",
+      "nghia": "Viên ngọc, hình tròn",
+      "onyomi": "ギョク",
+      "kunyomi": "たま",
+      "mnemonic": {
+        "text": "Ông VUA (王) giấu một dấu CHẤM (.) - viên ngọc trong túi."
+      },
+      "examples": [
+        { "word": "玉子", "reading": "たまご", "meaning": "Trứng" },
+        { "word": "玉", "reading": "たま", "meaning": "Viên tròn, quả banh" },
+        { "word": "お年玉", "reading": "おとしだま", "meaning": "Tiền lì xì" },
+        { "word": "目玉", "reading": "めだま", "meaning": "Nhãn cầu / Vật phẩm trọng tâm" },
+        { "word": "拾得物", "reading": "しゅうとくぶつ", "meaning": "Đồ nhặt được" }
+      ]
+    },
+    {
+      "kanji": "返",
+      "amHan": "Phản",
+      "nghia": "Trả lại",
+      "onyomi": "ヘン",
+      "kunyomi": "かえ.す, かえ.る",
+      "mnemonic": {
+        "text": "Muốn PHẢN (反) hồi thì phải bước ĐI (辶 - sước) để trả lại."
+      },
+      "examples": [
+        { "word": "返事", "reading": "へんじ", "meaning": "Trả lời" },
+        { "word": "返却", "reading": "へんきゃく", "meaning": "Hoàn trả (sách, đồ mượn)" },
+        { "word": "返信", "reading": "へんしん", "meaning": "Hồi âm (email, tin nhắn)" },
+        { "word": "返済", "reading": "へんさい", "meaning": "Hoàn trả (tiền nợ)" },
+        { "word": "繰り返し", "reading": "くりかえし", "meaning": "Lặp đi lặp lại" },
+        { "word": "手返し", "reading": "てがえし", "meaning": "Sự khéo léo, xoay sở" }
+      ]
+    },
+    {
+      "kanji": "団",
+      "amHan": "Đoàn",
+      "nghia": "Đoàn thể, nhóm",
+      "onyomi": "ダン, トン",
+      "mnemonic": {
+        "text": "Bên trong cái KHUNG (囗) bao quanh, mọi người tập trung lại thành một khối (才)."
+      },
+      "examples": [
+        { "word": "団体", "reading": "だんたい", "meaning": "Đoàn thể, nhóm" },
+        { "word": "団地", "reading": "だんち", "meaning": "Khu chung cư" },
+        { "word": "団結", "reading": "だんけつ", "meaning": "Đoàn kết" },
+        { "word": "布団", "reading": "ふとん", "meaning": "Nệm, chăn" },
+        { "word": "集団", "reading": "しゅうだん", "meaning": "Tập đoàn, tập thể" },
+        { "word": "団扇", "reading": "うちわ", "meaning": "Quạt giấy tròn" }
+      ]
+    },
+    {
+      "kanji": "般",
+      "amHan": "Ban",
+      "nghia": "Thông thường, phổ biến",
+      "onyomi": "ハン",
+      "mnemonic": {
+        "text": "Thuyền (Chu - 舟) đi lại ĐÁNH (Thù - 殳) dấu sự phổ BIẾN trên sông nước."
+      },
+      "examples": [
+        { "word": "一般", "reading": "いっぱん", "meaning": "Thông thường, phổ biến" },
+        { "word": "全般", "reading": "ぜんぱん", "meaning": "Toàn bộ, tổng quát" },
+        { "word": "諸般", "reading": "しょはん", "meaning": "Nhiều mặt, nhiều thứ khác nhau" },
+        { "word": "一般化", "reading": "いっぱんか", "meaning": "Khái quát hóa" },
+        { "word": "一般的", "reading": "いっぱんてき", "meaning": "Một cách phổ biến" }
+      ]
+    },
+    {
+      "kanji": "幼",
+      "amHan": "Ấu",
+      "nghia": "Trẻ con, thơ ấu",
+      "onyomi": "ヨウ",
+      "kunyomi": "おさない",
+      "mnemonic": {
+        "text": "Dùng LỰC (力) rất nhỏ (幺 - yêu) thì chỉ là đứa trẻ ẤU nhi."
+      },
+      "examples": [
+        { "word": "幼児", "reading": "ようじ", "meaning": "Trẻ nhi đồng" },
+        { "word": "幼稚園", "reading": "ようちえん", "meaning": "Trường mẫu giáo" },
+        { "word": "幼稚", "reading": "ようち", "meaning": "Ấu trĩ, non nớt" },
+        { "word": "幼なじみ", "reading": "おさななじみ", "meaning": "Bạn thanh mai trúc mã" },
+        { "word": "幼少期", "reading": "ようしょうき", "meaning": "Thời thơ ấu" }
+      ]
+    },
+    {
+      "kanji": "児",
+      "amHan": "Nhi",
+      "nghia": "Trẻ em",
+      "onyomi": "ジ, ニ",
+      "mnemonic": {
+        "text": "Cái CŨ (旧 - cựu) đã qua, đôi CHÂN (儿 - nhân) của đứa trẻ bước tiếp thành NHI."
+      },
+      "examples": [
+        { "word": "児童", "reading": "じどう", "meaning": "Nhi đồng, trẻ em" },
+        { "word": "小児科", "reading": "しょうにか", "meaning": "Khoa nhi" },
+        { "word": "育児", "reading": "いくじ", "meaning": "Chăm sóc trẻ em" },
+        { "word": "乳児", "reading": "にゅうじ", "meaning": "Trẻ sơ sinh" },
+        { "word": "孤児", "reading": "こじ", "meaning": "Trẻ mồ côi" }
+      ]
+    },
+    {
+      "kanji": "歳",
+      "amHan": "Tuế",
+      "nghia": "Tuổi, năm",
+      "onyomi": "サイ, セイ",
+      "mnemonic": {
+        "text": "Dùng cái DỪNG (止 - chỉ) để đếm thời gian qua từng năm (Tuế)."
+      },
+      "examples": [
+        { "word": "二十歳", "reading": "はたち", "meaning": "20 tuổi" },
+        { "word": "歳月", "reading": "さいげつ", "meaning": "Tháng năm, thời gian" },
+        { "word": "歳末", "reading": "さいまつ", "meaning": "Cuối năm" },
+        { "word": "万歳", "reading": "ばんざい", "meaning": "Vạn tuế" },
+        { "word": "語彙", "reading": "ごい", "meaning": "Từ vựng (Chú ý: từ này đôi khi bị nhầm, Saisuu là số lần)" }
+      ]
+    },
+    {
+      "kanji": "未",
+      "amHan": "Vị",
+      "nghia": "Chưa, tương lai",
+      "onyomi": "ミ",
+      "kunyomi": "いま.だ, ま.だ",
+      "mnemonic": {
+        "text": "Cái CÂY (木) có cành trên ngắn hơn cành dưới, nghĩa là CHƯA lớn hết."
+      },
+      "examples": [
+        { "word": "未来", "reading": "みらい", "meaning": "Tương lai" },
+        { "word": "未定", "reading": "みたいてい", "meaning": "Chưa quyết định" },
+        { "word": "未満", "reading": "みまん", "meaning": "Ít hơn, dưới (mức)" },
+        { "word": "未知", "reading": "みち", "meaning": "Chưa biết" },
+        { "word": "未成年", "reading": "みせいねん", "meaning": "Vị thành niên" },
+        { "word": "未熟", "reading": "みじゅく", "meaning": "Chưa trưởng thành, non nớt" }
+      ]
+    },
+    {
+      "kanji": "満",
+      "amHan": "Mãn",
+      "nghia": "Đầy, thỏa mãn",
+      "onyomi": "マン",
+      "kunyomi": "み.ちる, み.たす",
+      "mnemonic": {
+        "text": "NƯỚC (氵) chảy đầy qua CỎ (艹) trong CỬA (両 - lưỡng)."
+      },
+      "examples": [
+        { "word": "満足", "reading": "まんぞく", "meaning": "Thỏa mãn, hài lòng" },
+        { "word": "満員", "reading": "まんいん", "meaning": "Đầy người" },
+        { "word": "満月", "reading": "まんげつ", "meaning": "Trăng tròn" },
+        { "word": "不満", "reading": "ふまん", "meaning": "Bất mãn" },
+        { "word": "満ちる", "reading": "みちる", "meaning": "Đầy, tràn đầy" },
+        { "word": "満了", "reading": "まんりょう", "meaning": "Mãn hạn, kết thúc thời hạn" }
+      ]
+    },
+    {
+      "kanji": "老",
+      "amHan": "Lão",
+      "nghia": "Người già",
+      "onyomi": "ロウ",
+      "kunyomi": "お.いる, ふ.ける",
+      "mnemonic": {
+        "text": "Người GIÀ chống GẬY (thìa 匕) đi trên đất (Thổ 土)."
+      },
+      "examples": [
+        { "word": "老人", "reading": "ろうじん", "meaning": "Người già" },
+        { "word": "老後", "reading": "ろうご", "meaning": "Tuổi già (sau khi nghỉ hưu)" },
+        { "word": "敬老の日", "reading": "けいろうのひ", "meaning": "Ngày kính lão" },
+        { "word": "老い", "reading": "おい", "meaning": "Sự già đi" },
+        { "word": "老若男女", "reading": "ろうにゃくなんにょ", "meaning": "Già trẻ gái trai" },
+        { "word": "老ける", "reading": "ふける", "meaning": "Già đi (về ngoại hình)" }
+      ]
+    }
+  ]

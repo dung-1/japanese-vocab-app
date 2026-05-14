@@ -1,0 +1,242 @@
+﻿[
+    {
+      "kanji": "財",
+      "amHan": "Tài",
+      "nghia": "Tiền tài, tài sản",
+      "onyomi": "ザイ, サイ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Tiền (貝) là thứ có Tài (才) mới kiếm được và quản lý tốt."
+      },
+      "examples": [
+        { "word": "財布", "reading": "さいふ", "meaning": "Ví tiền" },
+        { "word": "財産", "reading": "ざいさん", "meaning": "Tài sản" },
+        { "word": "財政", "reading": "ざいせい", "meaning": "Tài chính" },
+        { "word": "財閥", "reading": "ざいばつ", "meaning": "Tài phiệt" },
+        { "word": "文化財", "reading": "ぶんかざい", "meaning": "Di sản văn hóa" },
+        { "word": "個人財産", "reading": "こじんざいさん", "meaning": "Tài sản cá nhân" }
+      ]
+    },
+    {
+      "kanji": "観",
+      "amHan": "Quan",
+      "nghia": "Quan sát, cái nhìn",
+      "onyomi": "カン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Con chim (隹) đứng nhìn (見) từ trên cao để QUAN sát mặt đất."
+      },
+      "examples": [
+        { "word": "観光", "reading": "かんこう", "meaning": "Tham quan, du lịch" },
+        { "word": "観客", "reading": "かんきゃく", "meaning": "Khán giả" },
+        { "word": "主観的", "reading": "しゅかんてき", "meaning": "Mang tính chủ quan" },
+        { "word": "客観的", "reading": "きゃっかんてき", "meaning": "Mang tính khách quan" },
+        { "word": "観点", "reading": "かんてん", "meaning": "Quan điểm" },
+        { "word": "観察", "reading": "かんさつ", "meaning": "Quan sát" }
+      ]
+    },
+    {
+      "kanji": "宝",
+      "amHan": "Bảo",
+      "nghia": "Báu vật, quý báu",
+      "onyomi": "ホウ",
+      "kunyomi": "たから",
+      "mnemonic": {
+        "text": "Trong nhà (宀) có Ngọc (玉) thì đó chính là BẢO vật."
+      },
+      "examples": [
+        { "word": "宝石", "reading": "ほうせき", "meaning": "Đá quý" },
+        { "word": "宝物", "reading": "たからもの", "meaning": "Báu vật, đồ quý giá" },
+        { "word": "国宝", "reading": "こくほう", "meaning": "Quốc bảo" },
+        { "word": "宝くじ", "reading": "たからくじ", "meaning": "Vé số" },
+        { "word": "重宝", "reading": "ちょうほう", "meaning": "Quý báu, tiện dụng" }
+      ]
+    },
+    {
+      "kanji": "仏",
+      "amHan": "Phật",
+      "nghia": "Đức phật, nước Pháp",
+      "onyomi": "ブツ",
+      "kunyomi": "ほとけ",
+      "mnemonic": {
+        "text": "Người (亻) mà tâm không (ム) vướng bận là PHẬT."
+      },
+      "examples": [
+        { "word": "仏教", "reading": "ぶっきょう", "meaning": "Phật giáo" },
+        { "word": "仏像", "reading": "ぶつぞう", "meaning": "Tượng Phật" },
+        { "word": "念仏", "reading": "ねんぶつ", "meaning": "Niệm Phật" },
+        { "word": "大仏", "reading": "だいぶつ", "meaning": "Tượng Phật lớn" },
+        { "word": "仏様", "reading": "ほとけさま", "meaning": "Đức Phật" }
+      ]
+    },
+    {
+      "kanji": "王",
+      "amHan": "Vương",
+      "nghia": "Vua",
+      "onyomi": "オウ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Ba vạch ngang tượng trưng cho Thiên - Địa - Nhân, vạch đứng nối lại chính là VƯƠA."
+      },
+      "examples": [
+        { "word": "国王", "reading": "こくおう", "meaning": "Quốc vương" },
+        { "word": "女王", "reading": "じょおう", "meaning": "Nữ hoàng" },
+        { "word": "王子", "reading": "おうじ", "meaning": "Hoàng tử" },
+        { "word": "王室", "reading": "おうしつ", "meaning": "Hoàng gia" },
+        { "word": "王座", "reading": "おうざ", "meaning": "Ngai vàng" }
+      ]
+    },
+    {
+      "kanji": "銅",
+      "amHan": "Đồng",
+      "nghia": "Kim loại đồng",
+      "onyomi": "ドウ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Kim loại (金) mà dùng chung (同) rộng rãi nhất là ĐỒNG."
+      },
+      "examples": [
+        { "word": "銅像", "reading": "どうぞう", "meaning": "Tượng đồng" },
+        { "word": "銅メダル", "reading": "どうめだる", "meaning": "Huy chương đồng" },
+        { "word": "青銅", "reading": "せいどう", "meaning": "Đồng thiếc" },
+        { "word": "銅板", "reading": "どうばん", "meaning": "Tấm đồng" },
+        { "word": "銅貨", "reading": "どうか", "meaning": "Tiền đồng" }
+      ]
+    },
+    {
+      "kanji": "塔",
+      "amHan": "Tháp",
+      "nghia": "Cái tháp",
+      "onyomi": "トウ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng đất (土) đắp lên cỏ (艹) và kết hợp (合) lại thành cái THÁP."
+      },
+      "examples": [
+        { "word": "五重の塔", "reading": "ごじゅうのとう", "meaning": "Tháp 5 tầng" },
+        { "word": "電波塔", "reading": "でんぱとう", "meaning": "Tháp truyền hình" },
+        { "word": "灯台", "reading": "とうだい", "meaning": "Hải đăng (tháp đèn)" },
+        { "word": "避雷塔", "reading": "ひらいとう", "meaning": "Tháp chống sét" }
+      ]
+    },
+    {
+      "kanji": "絵",
+      "amHan": "Hội",
+      "nghia": "Bức tranh",
+      "onyomi": "カイ, エ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng sợi tơ (糸) để thêu lên những gì hội tụ (会) trong tâm trí thành một bức TRANH."
+      },
+      "examples": [
+        { "word": "絵画", "reading": "かいが", "meaning": "Hội họa" },
+        { "word": "絵本", "reading": "えほん", "meaning": "Sách tranh" },
+        { "word": "挿絵", "reading": "さしえ", "meaning": "Tranh minh họa" },
+        { "word": "絵の具", "reading": "えのぐ", "meaning": "Màu vẽ" },
+        { "word": "油絵", "reading": "あぶらえ", "meaning": "Tranh sơn dầu" }
+      ]
+    },
+    {
+      "kanji": "略",
+      "amHan": "Lược",
+      "nghia": "Tóm lược, lược bỏ",
+      "onyomi": "リャク",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Ruộng (田) mà đến mỗi (各) nơi chỉ tóm LƯỢC lại vài chỗ."
+      },
+      "examples": [
+        { "word": "省略", "reading": "しょうりゃく", "meaning": "Lược bỏ" },
+        { "word": "略語", "reading": "りゃくご", "meaning": "Từ viết tắt" },
+        { "word": "戦略", "reading": "せんりゃく", "meaning": "Chiến lược" },
+        { "word": "大略", "reading": "たいりゃく", "meaning": "Đại lược, tóm tắt" },
+        { "word": "略歴", "reading": "りゃくれき", "meaning": "Sơ yếu lý lịch vắn tắt" }
+      ]
+    },
+    {
+      "kanji": "順",
+      "amHan": "Thuận",
+      "nghia": "Thứ tự, thuận lợi",
+      "onyomi": "ジュン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dòng nước (川) chảy xiết theo đầu (頁) dòng thì rất THUẬN."
+      },
+      "examples": [
+        { "word": "順番", "reading": "じゅんばん", "meaning": "Thứ tự" },
+        { "word": "順調", "reading": "じゅんちょう", "meaning": "Thuận lợi" },
+        { "word": "手順", "reading": "てじゅん", "meaning": "Trình tự, các bước" },
+        { "word": "筆順", "reading": "ひつじゅん", "meaning": "Thứ tự nét viết" },
+        { "word": "順位", "reading": "じゅんい", "meaning": "Thứ hạng" }
+      ]
+    },
+    {
+      "kanji": "版",
+      "amHan": "Bản",
+      "nghia": "Xuất bản, bản in",
+      "onyomi": "ハン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng miếng gỗ (片) để phản (反) chiếu chữ lên giấy là xuất BẢN."
+      },
+      "examples": [
+        { "word": "出版", "reading": "しゅっぱん", "meaning": "Xuất bản" },
+        { "word": "改訂版", "reading": "かいていばん", "meaning": "Bản hiệu đính" },
+        { "word": "限定版", "reading": "げんていばん", "meaning": "Bản giới hạn" },
+        { "word": "版画", "reading": "はんが", "meaning": "Tranh khắc gỗ" },
+        { "word": "英語版", "reading": "えいごばん", "meaning": "Bản tiếng Anh" }
+      ]
+    },
+    {
+      "kanji": "芸",
+      "amHan": "Nghệ",
+      "nghia": "Nghệ thuật",
+      "onyomi": "ゲイ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Trồng cỏ (艹) và mây (云) tạo nên một môn NGHỆ thuật."
+      },
+      "examples": [
+        { "word": "芸術", "reading": "げいじゅつ", "meaning": "Nghệ thuật" },
+        { "word": "芸能", "reading": "げいのう", "meaning": "Nghệ thuật giải trí" },
+        { "word": "伝統工芸", "reading": "でんとうこうげい", "meaning": "Thủ công mỹ nghệ truyền thống" },
+        { "word": "園芸", "reading": "えんげい", "meaning": "Nghệ thuật làm vườn" },
+        { "word": "文芸", "reading": "ぶんげい", "meaning": "Văn nghệ" }
+      ]
+    },
+    {
+      "kanji": "複",
+      "amHan": "Phức",
+      "nghia": "Phức tạp, lặp lại",
+      "onyomi": "フク",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Mặc quần áo (衣) lặp đi lặp lại (復) nhìn rất PHỨC tạp."
+      },
+      "examples": [
+        { "word": "複雑", "reading": "ふくざつ", "meaning": "Phức tạp" },
+        { "word": "複数", "reading": "ふくすう", "meaning": "Số nhiều, số phức" },
+        { "word": "複写", "reading": "ふくしゃ", "meaning": "Bản sao, photocopy" },
+        { "word": "複合", "reading": "ふくごう", "meaning": "Phức hợp" },
+        { "word": "重複", "reading": "ちょうふく", "meaning": "Trùng lặp" }
+      ]
+    },
+    {
+      "kanji": "刊",
+      "amHan": "San",
+      "nghia": "Ấn phẩm, xuất bản",
+      "onyomi": "カン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng dao (刂) khắc lên can (干) gỗ để làm ấn phẩm SAN hành."
+      },
+      "examples": [
+        { "word": "刊行", "reading": "かんこう", "meaning": "Phát hành" },
+        { "word": "朝刊", "reading": "ちょうかん", "meaning": "Báo sáng" },
+        { "word": "夕刊", "reading": "ゆうかん", "meaning": "Báo chiều" },
+        { "word": "週刊誌", "reading": "しゅうかんし", "meaning": "Tạp chí hàng tuần" },
+        { "word": "休刊", "reading": "きゅうかん", "meaning": "Ngưng xuất bản" },
+        { "word": "創刊", "reading": "そうかん", "meaning": "Số đầu tiên phát hành" }
+      ]
+    }
+  ]

@@ -1,0 +1,230 @@
+﻿[
+    {
+      "kanji": "脳",
+      "amHan": "Não",
+      "nghia": "Bộ não, đầu óc",
+      "onyomi": "ノウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Phần THỊT (月) có những nếp nhăn hung dữ (凶) bên trong ĐẦU (thành phần trên) chính là NÃO."
+      },
+      "examples": [
+        { "word": "頭脳", "reading": "ずのう", "meaning": "đầu óc, trí tuệ" },
+        { "word": "洗脳", "reading": "せんのう", "meaning": "tẩy não" },
+        { "word": "脳科学", "reading": "のうかがく", "meaning": "khoa học não bộ" },
+        { "word": "首脳", "reading": "しゅのう", "meaning": "người đứng đầu, thủ lĩnh" },
+        { "word": "脳卒中", "reading": "のうそっちゅう", "meaning": "đột quỵ" }
+      ]
+    },
+    {
+      "kanji": "抱",
+      "amHan": "Bão",
+      "nghia": "Ôm, ấp ủ, vây quanh",
+      "onyomi": "ホウ",
+      "kunyomi": "だ・く, いだ・く, かか・える",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) bao bọc lấy mục tiêu (包) là ÔM."
+      },
+      "examples": [
+        { "word": "抱く", "reading": "だく", "meaning": "bế, ôm" },
+        { "word": "抱負", "reading": "ほうふ", "meaning": "hoài bão, quyết tâm" },
+        { "word": "抱える", "reading": "かかえる", "meaning": "vướng phải, ôm đồm (vấn đề, nợ nần)" },
+        { "word": "辛抱", "reading": "しんぼう", "meaning": "kiên nhẫn, chịu đựng" },
+        { "word": "介抱", "reading": "かいほう", "meaning": "chăm sóc, trông nom" }
+      ]
+    },
+    {
+      "kanji": "双",
+      "amHan": "Song",
+      "nghia": "Đôi, hai",
+      "onyomi": "ソウ",
+      "kunyomi": "ふた",
+      "mnemonic": {
+        "text": "Hai (又) cái HỰU chồng lên nhau tạo thành một SONG (đôi)."
+      },
+      "examples": [
+        { "word": "双子", "reading": "ふたご", "meaning": "anh em sinh đôi" },
+        { "word": "双方", "reading": "そうほう", "meaning": "đôi bên, cả hai" },
+        { "word": "双数", "reading": "そうすう", "meaning": "số đôi" },
+        { "word": "双眼鏡", "reading": "そうがんきょう", "meaning": "ống nhòm" }
+      ]
+    },
+    {
+      "kanji": "尊",
+      "amHan": "Tôn",
+      "nghia": "Tôn trọng, quý giá",
+      "onyomi": "ソン",
+      "kunyomi": "たっと・い, とうと・い",
+      "mnemonic": {
+        "text": "Dùng tay (寸) nâng bình rượu quý lên để TÔN kính."
+      },
+      "examples": [
+        { "word": "尊敬", "reading": "そんけい", "meaning": "tôn kính, kính trọng" },
+        { "word": "尊重", "reading": "そんちょう", "meaning": "tôn trọng (ý kiến, quyền lợi)" },
+        { "word": "自尊心", "reading": "じそんしん", "meaning": "lòng tự trọng" },
+        { "word": "尊い", "reading": "とうとい", "meaning": "quý giá, cao quý" },
+        { "word": "尊厳", "reading": "そんげん", "meaning": "tôn nghiêm" }
+      ]
+    },
+    {
+      "kanji": "雇",
+      "amHan": "Cố",
+      "nghia": "Thuê, tuyển dụng",
+      "onyomi": "コ",
+      "kunyomi": "やと・う",
+      "mnemonic": {
+        "text": "Mở CỬA (戸) cho CHIM (隹) vào là CỐ (thuê)."
+      },
+      "examples": [
+        { "word": "雇う", "reading": "やとう", "meaning": "thuê, mướn" },
+        { "word": "雇用", "reading": "こよう", "meaning": "thuê mướn, tuyển dụng" },
+        { "word": "解雇", "reading": "かいこ", "meaning": "sa thải, đuổi việc" },
+        { "word": "日雇い", "reading": "ひやとい", "meaning": "thuê theo ngày" }
+      ]
+    },
+    {
+      "kanji": "条",
+      "amHan": "Điều",
+      "nghia": "Điều khoản, sợi, dòng",
+      "onyomi": "ジョウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Cái GỖ (木) dài như con ĐƯỜNG (夂) là một ĐIỀU."
+      },
+      "examples": [
+        { "word": "条件", "reading": "じょうけん", "meaning": "điều kiện" },
+        { "word": "条約", "reading": "じょうやく", "meaning": "điều ước, hiệp ước" },
+        { "word": "第一条", "reading": "だいいちじょう", "meaning": "điều 1 (trong luật)" },
+        { "word": "信条", "reading": "しんじょう", "meaning": "niềm tin, tôn chỉ" }
+      ]
+    },
+    {
+      "kanji": "善",
+      "amHan": "Thiện",
+      "nghia": "Tốt lành, thiện lương",
+      "onyomi": "ゼン",
+      "kunyomi": "よ・い",
+      "mnemonic": {
+        "text": "Con CỪU (羊) biết nói (口) những lời hay là người THIỆN."
+      },
+      "examples": [
+        { "word": "改善", "reading": "かいぜん", "meaning": "cải thiện" },
+        { "word": "善悪", "reading": "ぜんあく", "meaning": "thiện ác" },
+        { "word": "親善", "reading": "しんぜん", "meaning": "thân thiện, hữu nghị" },
+        { "word": "善意", "reading": "ぜんい", "meaning": "thiện ý" },
+        { "word": "善良な", "reading": "ぜんりょうな", "meaning": "hiền lành, lương thiện" }
+      ]
+    },
+    {
+      "kanji": "律",
+      "amHan": "Luật",
+      "nghia": "Luật lệ, nhịp điệu",
+      "onyomi": "リツ, リチ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Người ĐI BỘ (彳) phải tuân theo DUẬT (聿 - cây bút viết ra luật) là LUẬT."
+      },
+      "examples": [
+        { "word": "法律", "reading": "ほうりつ", "meaning": "pháp luật" },
+        { "word": "規律", "reading": "きりつ", "meaning": "kỷ luật, quy tắc" },
+        { "word": "自律", "reading": "じりつ", "meaning": "tự giác, tự trị" },
+        { "word": "リズム", "reading": "律動", "meaning": "nhịp điệu" }
+      ]
+    },
+    {
+      "kanji": "勢",
+      "amHan": "Thế",
+      "nghia": "Thế lực, khí thế",
+      "onyomi": "セイ",
+      "kunyomi": "いきお・い",
+      "mnemonic": {
+        "text": "Dùng LỰC (力) trồng trọt trên ĐẤT (土) tạo nên THẾ lực."
+      },
+      "examples": [
+        { "word": "勢い", "reading": "いきおい", "meaning": "mạnh mẽ, khí thế" },
+        { "word": "姿勢", "reading": "しせい", "meaning": "tư thế, thái độ" },
+        { "word": "勢力", "reading": "せいりょく", "meaning": "thế lực, sức mạnh" },
+        { "word": "大勢", "reading": "おおぜい", "meaning": "nhiều người" },
+        { "word": "情勢", "reading": "じょうせい", "meaning": "tình thế, tình hình" }
+      ]
+    },
+    {
+      "kanji": "怖",
+      "amHan": "Bố",
+      "nghia": "Sợ hãi",
+      "onyomi": "フ",
+      "kunyomi": "こわ・い",
+      "mnemonic": {
+        "text": "Trong TÂM (忄) luôn lo lắng về vải BỐ (布) bị rách là SỢ."
+      },
+      "examples": [
+        { "word": "怖い", "reading": "こわい", "meaning": "sợ, đáng sợ" },
+        { "word": "恐怖", "reading": "きょうふ", "meaning": "khủng bố, sợ hãi" },
+        { "word": "怖がる", "reading": "こわがる", "meaning": "sợ sệt (trạng thái người khác)" }
+      ]
+    },
+    {
+      "kanji": "荒",
+      "amHan": "Hoang",
+      "nghia": "Hoang dã, bão bùng",
+      "onyomi": "コウ",
+      "kunyomi": "あら・い, あ・れる, あ・らす",
+      "mnemonic": {
+        "text": "CỎ (艹) mọc trên VONG (亡) địa dưới dòng NƯỚC (巛) là HOANG vu."
+      },
+      "examples": [
+        { "word": "荒い", "reading": "あらい", "meaning": "hung bạo, thô bạo (sóng, tính cách)" },
+        { "word": "荒れる", "reading": "あれる", "meaning": "bão bùng, nứt nẻ (da), hỗn loạn" },
+        { "word": "荒野", "reading": "こうや/あらの", "meaning": "hoang dã, cánh đồng hoang" },
+        { "word": "荒らす", "reading": "あらす", "meaning": "phá hoại, làm loạn" }
+      ]
+    },
+    {
+      "kanji": "耕",
+      "amHan": "Canh",
+      "nghia": "Cày cấy",
+      "onyomi": "コウ",
+      "kunyomi": "たがや・す",
+      "mnemonic": {
+        "text": "Dùng CÁI CÀY (耒) vẽ lên giếng (井) là CANH tác."
+      },
+      "examples": [
+        { "word": "耕す", "reading": "たがやす", "meaning": "cày ruộng" },
+        { "word": "耕地", "reading": "こうち", "meaning": "đất canh tác" },
+        { "word": "農耕", "reading": "のうこう", "meaning": "nông nghiệp, việc cày cấy" }
+      ]
+    },
+    {
+      "kanji": "景",
+      "amHan": "Cảnh",
+      "nghia": "Quang cảnh, bối cảnh",
+      "onyomi": "ケイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "MẶT TRỜI (日) chiếu lên KINH đô (京) tạo ra phong CẢNH đẹp."
+      },
+      "examples": [
+        { "word": "景色", "reading": "けしき", "meaning": "phong cảnh" },
+        { "word": "景気", "reading": "けいき", "meaning": "tình hình kinh tế" },
+        { "word": "背景", "reading": "はいけい", "meaning": "bối cảnh, phông nền" },
+        { "word": "光景", "reading": "こうけい", "meaning": "quang cảnh" },
+        { "word": "景品", "reading": "けいひん", "meaning": "quà tặng, phần thưởng kèm theo" }
+      ]
+    },
+    {
+      "kanji": "掘",
+      "amHan": "Quật",
+      "nghia": "Đào bới",
+      "onyomi": "クツ",
+      "kunyomi": "ほ・る",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) ĐÀO thi thể dưới KHUẤT (屈) tất."
+      },
+      "examples": [
+        { "word": "掘る", "reading": "ほる", "meaning": "đào, bới" },
+        { "word": "掘削", "reading": "くっさく", "meaning": "đào móng, khoan" },
+        { "word": "発掘", "reading": "はっくつ", "meaning": "khai quật" },
+        { "word": "掘り出し物", "reading": "ほりだしもの", "meaning": "món hàng hời (đào được đồ tốt)" }
+      ]
+    }
+  ]

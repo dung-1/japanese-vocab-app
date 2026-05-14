@@ -1,0 +1,226 @@
+﻿[
+    {
+      "kanji": "層",
+      "amHan": "Tầng",
+      "nghia": "Tầng lớp, tầng nhà",
+      "onyomi": "ソウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (尸), những hạt GẠO (米) cũ (曽) được xếp thành từng TẦNG."
+      },
+      "examples": [
+        { "word": "階層", "reading": "かいそう", "meaning": "tầng lớp, giai cấp" },
+        { "word": "高層ビル", "reading": "こうそうビル", "meaning": "tòa nhà cao tầng" },
+        { "word": "一層", "reading": "いっそう", "meaning": "hơn hẳn, một tầng nữa" },
+        { "word": "地層", "reading": "ちそう", "meaning": "địa tầng, lớp đất" },
+        { "word": "中産階層", "reading": "ちゅうさんかいそう", "meaning": "tầng lớp trung lưu" }
+      ]
+    },
+    {
+      "kanji": "束",
+      "amHan": "Thúc",
+      "nghia": "Bó, buộc, quản lý",
+      "onyomi": "ソク",
+      "kunyomi": "たば / たば.ねる",
+      "mnemonic": {
+        "text": "Dùng dây buộc quanh cái CÂY (木) để tạo thành một BÓ (束)."
+      },
+      "examples": [
+        { "word": "約束", "reading": "やくそく", "meaning": "lời hứa, hẹn" },
+        { "word": "花束", "reading": "はなたば", "meaning": "bó hoa" },
+        { "word": "結束", "reading": "けっそく", "meaning": "đoàn kết, buộc lại" },
+        { "word": "束縛", "reading": "そくばく", "meaning": "trói buộc, gò bó" },
+        { "word": "札束", "reading": "さつたば", "meaning": "xấp tiền" }
+      ]
+    },
+    {
+      "kanji": "甘",
+      "amHan": "Cam",
+      "nghia": "Ngọt, chiều chuộng",
+      "onyomi": "カン",
+      "kunyomi": "あま.い / あま.える / あま.やかす",
+      "mnemonic": {
+        "text": "Trong MIỆNG (口) có vật gì đó rất NGỌT (甘)."
+      },
+      "examples": [
+        { "word": "甘い", "reading": "あまい", "meaning": "ngọt, hời hợt, chiều chuộng" },
+        { "word": "甘える", "reading": "あまえる", "meaning": "nũng nịu" },
+        { "word": "甘やかす", "reading": "あまやかす", "meaning": "nuông chiều" },
+        { "word": "甘味料", "reading": "かんみりょう", "meaning": "chất tạo ngọt" },
+        { "word": "甘口", "reading": "あまくち", "meaning": "khéo nói, vị ngọt" }
+      ]
+    },
+    {
+      "kanji": "辛",
+      "amHan": "Tân",
+      "nghia": "Cay, vất vả",
+      "onyomi": "シン",
+      "kunyomi": "から.い / つら.い",
+      "mnemonic": {
+        "text": "Đứng (立) trên số MƯỜI (十) trong sự đau đớn, CAY nghiệt."
+      },
+      "examples": [
+        { "word": "辛い", "reading": "からい", "meaning": "cay" },
+        { "word": "辛い", "reading": "つらい", "meaning": "khổ sở, đau đớn" },
+        { "word": "辛辣", "reading": "しんらつ", "meaning": "cay nghiệt, chua chát" },
+        { "word": "辛口", "reading": "からくち", "meaning": "vị cay, lời nói sắc sảo" },
+        { "word": "唐辛子", "reading": "とうがらし", "meaning": "ớt" }
+      ]
+    },
+    {
+      "kanji": "皿",
+      "amHan": "Mãnh",
+      "nghia": "Cái đĩa",
+      "onyomi": "None",
+      "kunyomi": "さら",
+      "mnemonic": {
+        "text": "Hình vẽ một cái ĐĨA đựng đồ ăn."
+      },
+      "examples": [
+        { "word": "皿", "reading": "さら", "meaning": "cái đĩa" },
+        { "word": "灰皿", "reading": "はいざら", "meaning": "gạt tàn" },
+        { "word": "大皿", "reading": "おおざら", "meaning": "đĩa lớn" },
+        { "word": "小皿", "reading": "こざら", "meaning": "đĩa nhỏ" },
+        { "word": "皿洗い", "reading": "さらあらい", "meaning": "rửa bát" }
+      ]
+    },
+    {
+      "kanji": "綿",
+      "amHan": "Miên",
+      "nghia": "Sợi bông, tơ",
+      "onyomi": "メン",
+      "kunyomi": "わた",
+      "mnemonic": {
+        "text": "Sợi CHỈ (糸) được làm từ cây lấy hạt trong KHĂN (巾) màu TRẮNG (白)."
+      },
+      "examples": [
+        { "word": "綿", "reading": "わた", "meaning": "bông, tơ" },
+        { "word": "木綿", "reading": "もめん", "meaning": "cotton, vải bông" },
+        { "word": "綿密", "reading": "めんみつ", "meaning": "tỉ mỉ, kỹ lưỡng" },
+        { "word": "綿", "reading": "めん", "meaning": "sợi bông (onyomi)" },
+        { "word": "綿棒", "reading": "めんぼう", "meaning": "tăm bông" }
+      ]
+    },
+    {
+      "kanji": "旧",
+      "amHan": "Cựu",
+      "nghia": "Cũ, ngày xưa",
+      "onyomi": "キュウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Ngày xưa (旧), MẶT TRỜI (日) đứng cạnh một cái CỘC (丨)."
+      },
+      "examples": [
+        { "word": "旧館", "reading": "きゅうかん", "meaning": "tòa nhà cũ" },
+        { "word": "復旧", "reading": "ふっきゅう", "meaning": "phục hồi (hệ thống, đường xá)" },
+        { "word": "旧知", "reading": "きゅうち", "meaning": "bạn cũ, người quen cũ" },
+        { "word": "旧姓", "reading": "きゅうせい", "meaning": "họ cũ (trước khi kết hôn)" },
+        { "word": "新旧", "reading": "しんきゅう", "meaning": "mới và cũ" }
+      ]
+    },
+    {
+      "kanji": "厚",
+      "amHan": "Hậu",
+      "nghia": "Dày, nồng hậu",
+      "onyomi": "コウ",
+      "kunyomi": "あつ.い",
+      "mnemonic": {
+        "text": "Dưới VÁCH ĐÁ (厂), ĐỨA TRẺ (子) ăn đồ trong NỒI (日) nên người DÀY lên."
+      },
+      "examples": [
+        { "word": "厚い", "reading": "あつい", "meaning": "dày (độ dày)" },
+        { "word": "厚かましい", "reading": "あつかましい", "meaning": "mặt dày, trơ trẽn" },
+        { "word": "温厚", "reading": "おんこう", "meaning": "ôn hòa, đôn hậu" },
+        { "word": "厚情", "reading": "こうじょう", "meaning": "tình cảm nồng hậu" },
+        { "word": "濃厚", "reading": "のうこう", "meaning": "đậm đà, nồng nàn" }
+      ]
+    },
+    {
+      "kanji": "薄",
+      "amHan": "Bạc",
+      "nghia": "Mỏng, nhạt",
+      "onyomi": "ハク",
+      "kunyomi": "うす.い / うす.める / うす.まる",
+      "mnemonic": {
+        "text": "CỎ (艹) mọc cạnh NƯỚC (氵) dưới ánh nắng (専 - biến thể) thì sẽ MỎNG và nhạt màu."
+      },
+      "examples": [
+        { "word": "薄い", "reading": "うすい", "meaning": "mỏng, nhạt" },
+        { "word": "薄暗い", "reading": "うすぐらい", "meaning": "mờ mờ ảo ảo" },
+        { "word": "軽薄", "reading": "けいはく", "meaning": "nông cạn, cợt nhả" },
+        { "word": "薄弱", "reading": "はくじゃく", "meaning": "mỏng manh, yếu ớt" },
+        { "word": "薄める", "reading": "うすめる", "meaning": "làm nhạt đi" },
+        { "word": "薄情", "reading": "はくじょう", "meaning": "bạc tình, vô tâm" }
+      ]
+    },
+    {
+      "kanji": "粒",
+      "amHan": "Lạp",
+      "nghia": "Hạt nhỏ",
+      "onyomi": "リュウ",
+      "kunyomi": "つぶ",
+      "mnemonic": {
+        "text": "Hạt GẠO (米) ĐỨNG (立) một mình tạo thành một HẠT."
+      },
+      "examples": [
+        { "word": "粒", "reading": "つぶ", "meaning": "hạt, hột" },
+        { "word": "粒子", "reading": "りゅうし", "meaning": "hạt tử, phân tử nhỏ" },
+        { "word": "大粒", "reading": "おおつぶ", "meaning": "hạt lớn" },
+        { "word": "微粒子", "reading": "びりゅうし", "meaning": "hạt cực nhỏ" },
+        { "word": "米粒", "reading": "こめつぶ", "meaning": "hạt gạo" }
+      ]
+    },
+    {
+      "kanji": "極",
+      "amHan": "Cực",
+      "nghia": "Cực đoan, cực kỳ",
+      "onyomi": "キョク / ゴク",
+      "kunyomi": "きわ.める / きわ.まる",
+      "mnemonic": {
+        "text": "Dùng CÂY (木) đo khoảng cách từ ĐẤT đến TRỜI (亟) là đạt đến cùng CỰC."
+      },
+      "examples": [
+        { "word": "北極", "reading": "ほっきょく", "meaning": "Bắc Cực" },
+        { "word": "南極", "reading": "なんきょく", "meaning": "Nam Cực" },
+        { "word": "積極的", "reading": "せっきょくてき", "meaning": "tích cực" },
+        { "word": "極めて", "reading": "きわめて", "meaning": "cực kỳ, rất" },
+        { "word": "究極", "reading": "きゅうきょく", "meaning": "cuối cùng, tận cùng" },
+        { "word": "極端", "reading": "きょくたん", "meaning": "cực đoan" }
+      ]
+    },
+    {
+      "kanji": "革",
+      "amHan": "Cách",
+      "nghia": "Da thuộc, cải cách",
+      "onyomi": "カク",
+      "kunyomi": "かわ",
+      "mnemonic": {
+        "text": "Hình ảnh tấm DA (革) động vật đang được căng ra để phơi."
+      },
+      "examples": [
+        { "word": "改革", "reading": "かいかく", "meaning": "cải cách" },
+        { "word": "革命", "reading": "かくめい", "meaning": "cách mạng" },
+        { "word": "革新", "reading": "かくしん", "meaning": "cách tân" },
+        { "word": "革製", "reading": "かわせい", "meaning": "làm bằng da" },
+        { "word": "皮革", "reading": "ひかく", "meaning": "da thuộc" }
+      ]
+    },
+    {
+      "kanji": "苦",
+      "amHan": "Khổ",
+      "nghia": "Khổ cực, đắng",
+      "onyomi": "ク",
+      "kunyomi": "くる.しい / にが.い / くる.しむ",
+      "mnemonic": {
+        "text": "CỎ (艹) mọc từ XƯA (古) thường có vị ĐẮNG và gây KHỔ sở."
+      },
+      "examples": [
+        { "word": "苦しい", "reading": "くるしい", "meaning": "khổ sở, khó khăn" },
+        { "word": "苦い", "reading": "にがい", "meaning": "đắng" },
+        { "word": "苦手", "reading": "にがて", "meaning": "kém, yếu, không thích" },
+        { "word": "苦情", "reading": "くじょう", "meaning": "phàn nàn, khiếu nại" },
+        { "word": "苦労", "reading": "くろう", "meaning": "vất vả" },
+        { "word": "苦痛", "reading": "くつう", "meaning": "đau khổ, thống khổ" }
+      ]
+    }
+  ]

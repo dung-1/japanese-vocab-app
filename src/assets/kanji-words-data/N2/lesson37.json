@@ -1,0 +1,239 @@
+﻿[
+    {
+      "kanji": "求",
+      "amHan": "Cầu",
+      "nghia": "Yêu cầu, tìm kiếm",
+      "onyomi": "キュウ",
+      "kunyomi": "もと・める",
+      "mnemonic": {
+        "text": "Hình ảnh cái đuôi của con thú, người ta đang tìm cách bắt lấy để cầu cạnh điều gì đó."
+      },
+      "examples": [
+        { "word": "求める", "reading": "もとめる", "meaning": "tìm kiếm, yêu cầu" },
+        { "word": "求人", "reading": "きゅうじん", "meaning": "tuyển người làm" },
+        { "word": "要求", "reading": "ようきゅう", "meaning": "yêu cầu, đòi hỏi" },
+        { "word": "追求", "reading": "ついきゅう", "meaning": "mưu cầu, theo đuổi" },
+        { "word": "請求書", "reading": "せいきゅうしょ", "meaning": "hóa đơn yêu cầu thanh toán" }
+      ]
+    },
+    {
+      "kanji": "簡",
+      "amHan": "Giản",
+      "nghia": "Đơn giản",
+      "onyomi": "カン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng TRE (竹) làm thành cái CỬA (門) ở GIỮA (間) thì rất đơn GIẢN."
+      },
+      "examples": [
+        { "word": "簡単", "reading": "かんたん", "meaning": "đơn giản" },
+        { "word": "簡潔", "reading": "かんけつ", "meaning": "ngắn gọn, súc tích" },
+        { "word": "簡易", "reading": "かんい", "meaning": "giản dị, đơn quy" },
+        { "word": "簡略化", "reading": "かんりゃくか", "meaning": "đơn giản hóa" },
+        { "word": "書簡", "reading": "しょかん", "meaning": "thư từ, văn thư" }
+      ]
+    },
+    {
+      "kanji": "単",
+      "amHan": "Đơn",
+      "nghia": "Đơn độc, đơn giản",
+      "onyomi": "タン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Hình ảnh chiếc khiên (bộ thập 十 dưới cùng) được dùng đơn độc để chống lại kẻ thù."
+      },
+      "examples": [
+        { "word": "単語", "reading": "たんご", "meaning": "từ vựng" },
+        { "word": "単位", "reading": "たんい", "meaning": "đơn vị (học trình, đo lường)" },
+        { "word": "単身赴任", "reading": "たんしんふにん", "meaning": "đi làm xa một mình (không mang gia đình)" },
+        { "word": "単なる", "reading": "たんなる", "meaning": "đơn thuần là" },
+        { "word": "単独", "reading": "たんどく", "meaning": "đơn độc, một mình" }
+      ]
+    },
+    {
+      "kanji": "許",
+      "amHan": "Hứa",
+      "nghia": "Cho phép, tha thứ",
+      "onyomi": "キョ",
+      "kunyomi": "ゆる・す",
+      "mnemonic": {
+        "text": "Dùng NGÔN ngữ (言) nói vào giữa trưa (午) để HỨA hẹn sự cho phép."
+      },
+      "examples": [
+        { "word": "許す", "reading": "ゆるす", "meaning": "cho phép, tha thứ" },
+        { "word": "許可", "reading": "きょか", "meaning": "sự cho phép" },
+        { "word": "免許", "reading": "めんきょ", "meaning": "giấy phép, bằng lái" },
+        { "word": "許容範囲", "reading": "きょようはんい", "meaning": "phạm vi cho phép/chấp nhận được" },
+        { "word": "特許", "reading": "とっきょ", "meaning": "bằng sáng chế" }
+      ]
+    },
+    {
+      "kanji": "給",
+      "amHan": "Cấp",
+      "nghia": "Cung cấp, lương",
+      "onyomi": "キュウ",
+      "kunyomi": "たま・う",
+      "mnemonic": {
+        "text": "Dùng SỢI CHỈ (糸) để nối kết mọi người cho HỢP (合) lại rồi CUNG CẤP thức ăn."
+      },
+      "examples": [
+        { "word": "給料", "reading": "きゅうりょう", "meaning": "tiền lương" },
+        { "word": "供給", "reading": "きょうきゅう", "meaning": "cung cấp" },
+        { "word": "給食", "reading": "きゅうしょk", "meaning": "cơm hộp trường học/cơ quan" },
+        { "word": "支給", "reading": "しきゅう", "meaning": "chi trả, cấp cho" },
+        { "word": "昇給", "reading": "しょうきゅう", "meaning": "tăng lương" }
+      ]
+    },
+    {
+      "kanji": "与",
+      "amHan": "Dữ/Dư",
+      "nghia": "Cho, ban tặng, gây ra",
+      "onyomi": "ヨ",
+      "kunyomi": "あた・える",
+      "mnemonic": {
+        "text": "Hình ảnh một cái xẻng đang xúc đồ để CHO đi."
+      },
+      "examples": [
+        { "word": "与える", "reading": "あたえる", "meaning": "cho, gây ra (ảnh hưởng)" },
+        { "word": "与党", "reading": "よとう", "meaning": "đảng cầm quyền" },
+        { "word": "関与", "reading": "かんよ", "meaning": "tham gia, liên quan" },
+        { "word": "与えられた", "reading": "あたえられた", "meaning": "được ban cho/được giao cho" }
+      ]
+    },
+    {
+      "kanji": "応",
+      "amHan": "Ứng",
+      "nghia": "Đáp ứng, phản ứng",
+      "onyomi": "オウ",
+      "kunyomi": "こた・える",
+      "mnemonic": {
+        "text": "Dưới MÁI NHÀ (广), con CHIM (in trong chữ 応) đặt TÂM (心) vào để ĐÁP ỨNG lời gọi."
+      },
+      "examples": [
+        { "word": "反応", "reading": "はんのう", "meaning": "phản ứng" },
+        { "word": "応用", "reading": "おうよう", "meaning": "ứng dụng" },
+        { "word": "対応", "reading": "たいおう", "meaning": "đối ứng, xử lý" },
+        { "word": "適応", "reading": "てきおう", "meaning": "thích nghi" },
+        { "word": "応募", "reading": "おうぼ", "meaning": "ứng tuyển" }
+      ]
+    },
+    {
+      "kanji": "課",
+      "amHan": "Khóa",
+      "nghia": "Chương, phòng ban, bài học",
+      "onyomi": "カ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng LỜI NÓI (言) để thảo luận về kết QUẢ (果) của từng KHÓA học."
+      },
+      "examples": [
+        { "word": "課長", "reading": "かちょう", "meaning": "trưởng phòng" },
+        { "word": "課題", "reading": "かだい", "meaning": "chủ đề, bài tập" },
+        { "word": "課程", "reading": "かてい", "meaning": "khóa học, chương trình giảng dạy" },
+        { "word": "課税", "reading": "かぜい", "meaning": "đánh thuế" },
+        { "word": "日課", "reading": "にっか", "meaning": "công việc hàng ngày" }
+      ]
+    },
+    {
+      "kanji": "程",
+      "amHan": "Trình",
+      "nghia": "Lộ trình, trình độ",
+      "onyomi": "テイ",
+      "kunyomi": "ほど",
+      "mnemonic": {
+        "text": "Cây LÚA (禾) cần lộ TRÌNH thời gian dưới ánh mặt trời để thể hiện phẩm TRÌNH (呈)."
+      },
+      "examples": [
+        { "word": "程度", "reading": "ていど", "meaning": "trình độ, mức độ" },
+        { "word": "日程", "reading": "にってい", "meaning": "lịch trình" },
+        { "word": "過程", "reading": "かてい", "meaning": "quá trình" },
+        { "word": "方程式", "reading": "ほうていしき", "meaning": "phương trình" },
+        { "word": "先程", "reading": "さきほど", "meaning": "hồi nãy, vừa mới" }
+      ]
+    },
+    {
+      "kanji": "制",
+      "amHan": "Chế",
+      "nghia": "Chế độ, kiểm soát",
+      "onyomi": "セイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng ĐAO (刂) để cắt tỉa cây bò lan trên BÒ (牛) nhằm CHẾ ngự nó."
+      },
+      "examples": [
+        { "word": "制度", "reading": "せいど", "meaning": "chế độ" },
+        { "word": "制限", "reading": "せいげん", "meaning": "hạn chế" },
+        { "word": "制作", "reading": "せいさく", "meaning": "sản xuất, chế tác" },
+        { "word": "制御", "reading": "せいぎょ", "meaning": "chế ngự, kiểm soát" },
+        { "word": "体制", "reading": "たいせい", "meaning": "thể chế" }
+      ]
+    },
+    {
+      "kanji": "講",
+      "amHan": "Giảng",
+      "nghia": "Giảng bài, cấu tạo",
+      "onyomi": "コウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng NGÔN từ (言) để GIẢNG giải về cấu trúc bền vững như giàn mướp (冓)."
+      },
+      "examples": [
+        { "word": "講義", "reading": "こうぎ", "meaning": "bài giảng" },
+        { "word": "講演", "reading": "こうえん", "meaning": "diễn thuyết" },
+        { "word": "講師", "reading": "こうし", "meaning": "giảng viên" },
+        { "word": "講読", "reading": "こうどく", "meaning": "đọc và giải thích" },
+        { "word": "休講", "reading": "きゅうこう", "meaning": "nghỉ dạy, hủy tiết học" }
+      ]
+    },
+    {
+      "kanji": "級",
+      "amHan": "Cấp",
+      "nghia": "Cấp độ, bậc",
+      "onyomi": "キュウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng SỢI CHỈ (糸) nối từng người (及) lại để phân chia CẤP bậc."
+      },
+      "examples": [
+        { "word": "初級", "reading": "しょきゅう", "meaning": "sơ cấp" },
+        { "word": "中級", "reading": "ちゅうきゅう", "meaning": "trung cấp" },
+        { "word": "上級", "reading": "じょうきゅう", "meaning": "cao cấp" },
+        { "word": "高級", "reading": "こうきゅう", "meaning": "cao cấp, xa xỉ" },
+        { "word": "階級", "reading": "かいきゅう", "meaning": "giai cấp" }
+      ]
+    },
+    {
+      "kanji": "基",
+      "amHan": "Cơ",
+      "nghia": "Căn bản, cơ sở",
+      "onyomi": "キ",
+      "kunyomi": "もと / もと・づく",
+      "mnemonic": {
+        "text": "Cái ĐẾ (其) đặt trên ĐẤT (土) tạo thành CƠ sở vững chắc."
+      },
+      "examples": [
+        { "word": "基本", "reading": "きほん", "meaning": "cơ bản" },
+        { "word": "基礎", "reading": "きそ", "meaning": "cơ sở, nền tảng" },
+        { "word": "基づく", "reading": "もとづく", "meaning": "dựa trên căn cứ" },
+        { "word": "基準", "reading": "きじゅん", "meaning": "tiêu chuẩn" },
+        { "word": "基地", "reading": "きち", "meaning": "căn cứ địa" }
+      ]
+    },
+    {
+      "kanji": "導",
+      "amHan": "Đạo",
+      "nghia": "Dẫn dắt, chỉ đạo",
+      "onyomi": "ドウ",
+      "kunyomi": "みちび・く",
+      "mnemonic": {
+        "text": "Dùng tay (寸) dẫn dắt đi đúng con ĐƯỜNG (道) là chỉ ĐẠO."
+      },
+      "examples": [
+        { "word": "指導", "reading": "しどう", "meaning": "chỉ đạo, hướng dẫn" },
+        { "word": "導入", "reading": "どうにゅう", "meaning": "đưa vào, giới thiệu" },
+        { "word": "導く", "reading": "みちびく", "meaning": "dẫn dắt" },
+        { "word": "誘導", "reading": "ゆうどう", "meaning": "dẫn dắt, điều hướng" },
+        { "word": "半導体", "reading": "はんどうたい", "meaning": "bán dẫn" }
+      ]
+    }
+  ]

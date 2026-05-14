@@ -1,0 +1,249 @@
+﻿[
+    {
+      "kanji": "商",
+      "amHan": "Thương",
+      "nghia": "Thương mại, buôn bán",
+      "onyomi": "ショウ",
+      "kunyomi": "あきな.う",
+      "mnemonic": {
+        "text": "Đứng ở BIÊN GIỚI (冂) dùng MIỆNG (口) để trao đổi 8 (八) loại hàng hóa gọi là THƯƠNG nhân."
+      },
+      "examples": [
+        { "word": "商業", "reading": "しょうぎょう", "meaning": "Thương mại" },
+        { "word": "商売", "reading": "しょうばい", "meaning": "Việc buôn bán" },
+        { "word": "商品", "reading": "しょうひん", "meaning": "Hàng hóa" },
+        { "word": "商談", "reading": "しょうだん", "meaning": "Đàm phán kinh doanh" },
+        { "word": "商社", "reading": "しょうしゃ", "meaning": "Công ty thương mại" }
+      ]
+    },
+    {
+      "kanji": "個",
+      "amHan": "Cá",
+      "nghia": "Cá nhân, cái (đơn vị đếm)",
+      "onyomi": "コ",
+      "mnemonic": {
+        "text": "Mỗi NGƯỜI (亻) đều có một cái CỐ (固) hữu riêng, đó là tính CÁ nhân."
+      },
+      "examples": [
+        { "word": "個人", "reading": "こじん", "meaning": "Cá nhân" },
+        { "word": "個性", "reading": "こせい", "meaning": "Cá tính" },
+        { "word": "個別", "reading": "こべつ", "meaning": "Riêng biệt, tách rời" },
+        { "word": "個数", "reading": "こすう", "meaning": "Số cái, số chiếc" },
+        { "word": "箇所", "reading": "かしょ", "meaning": "Chỗ, địa điểm (dùng chữ Cá biến thể)" }
+      ]
+    },
+    {
+      "kanji": "相",
+      "amHan": "Tương, Tướng",
+      "nghia": "Tương hỗ, bộ mặt, thủ tướng",
+      "onyomi": "ソウ, ショウ",
+      "kunyomi": "あい",
+      "mnemonic": {
+        "text": "Dùng MẮT (目) nhìn cái CÂY (木) để đánh giá TƯƠNG quan."
+      },
+      "examples": [
+        { "word": "相談", "reading": "そうだん", "meaning": "Thảo luận, bàn bạc" },
+        { "word": "相手", "reading": "あいて", "meaning": "Đối phương, đối tác" },
+        { "word": "首相", "reading": "しゅしょう", "meaning": "Thủ tướng" },
+        { "word": "相当", "reading": "そうとう", "meaning": "Tương đương, khá là" },
+        { "word": "相互", "reading": "そうご", "meaning": "Lẫn nhau, tương hỗ" },
+        { "word": "相違点", "reading": "そういてん", "meaning": "Điểm khác nhau" }
+      ]
+    },
+    {
+      "kanji": "交",
+      "amHan": "Giao",
+      "nghia": "Giao lưu, trộn lẫn",
+      "onyomi": "コウ",
+      "kunyomi": "まじ.わる, ま.ざる, か.わす",
+      "mnemonic": {
+        "text": "Hình ảnh một người đang bắt chéo chân để GIAO lưu."
+      },
+      "examples": [
+        { "word": "交通", "reading": "こうつう", "meaning": "Giao thông" },
+        { "word": "交換", "reading": "こうかん", "meaning": "Trao đổi" },
+        { "word": "外交", "reading": "がいこう", "meaning": "Ngoại giao" },
+        { "word": "交じる", "reading": "まじる", "meaning": "Lẫn vào, trộn vào" },
+        { "word": "交わす", "reading": "かわす", "meaning": "Trao đổi (lời chào, ánh mắt)" },
+        { "word": "交互", "reading": "こうご", "meaning": "Thay phiên, xen kẽ" }
+      ]
+    },
+    {
+      "kanji": "効",
+      "amHan": "Hiệu",
+      "nghia": "Hiệu quả",
+      "onyomi": "コウ",
+      "kunyomi": "き.く",
+      "mnemonic": {
+        "text": "GIAO (交) thêm LỰC (力) để tạo ra HIỆU quả."
+      },
+      "examples": [
+        { "word": "効果", "reading": "こうか", "meaning": "Hiệu quả" },
+        { "word": "有効", "reading": "ゆうこう", "meaning": "Hữu hiệu, còn thời hạn" },
+        { "word": "効率", "reading": "こうりつ", "meaning": "Hiệu suất" },
+        { "word": "効く", "reading": "きく", "meaning": "Có tác dụng, có hiệu quả" },
+        { "word": "効き目", "reading": "ききめ", "meaning": "Công dụng, tác dụng" },
+        { "word": "失効", "reading": "しっこう", "meaning": "Mất hiệu lực" }
+      ]
+    },
+    {
+      "kanji": "限",
+      "amHan": "Hạn",
+      "nghia": "Giới hạn",
+      "onyomi": "ゲン",
+      "kunyomi": "かぎ.る",
+      "mnemonic": {
+        "text": "Đứng ở sườn NÚI (阝) nhìn con MẮT (目) thấy CẤN (艮), đó là GIỚI HẠN."
+      },
+      "examples": [
+        { "word": "制限", "reading": "せいげん", "meaning": "Hạn chế, giới hạn" },
+        { "word": "期限", "reading": "きげん", "meaning": "Thời hạn" },
+        { "word": "限界", "reading": "げんかい", "meaning": "Ngưỡng giới hạn, tận cùng" },
+        { "word": "限る", "reading": "かぎる", "meaning": "Chỉ, giới hạn trong..." },
+        { "word": "限定", "reading": "げんてい", "meaning": "Giới hạn (số lượng, thời gian)" },
+        { "word": "限度", "reading": "げんど", "meaning": "Mức độ giới hạn" }
+      ]
+    },
+    {
+      "kanji": "全",
+      "amHan": "Toàn",
+      "nghia": "Hoàn toàn, tất cả",
+      "onyomi": "ゼン",
+      "kunyomi": "まった.く, すべ.て",
+      "mnemonic": {
+        "text": "VỊ VUA (王) đội nón (人) cai trị TOÀN bộ vương quốc."
+      },
+      "examples": [
+        { "word": "全部", "reading": "ぜんぶ", "meaning": "Tất cả" },
+        { "word": "安全", "reading": "あんぜん", "meaning": "An toàn" },
+        { "word": "完全", "reading": "かんぜん", "meaning": "Hoàn hảo, hoàn toàn" },
+        { "word": "全国", "reading": "ぜんこく", "meaning": "Toàn quốc" },
+        { "word": "全く", "reading": "まったく", "meaning": "Thực sự, hoàn toàn (không)" },
+        { "word": "全体", "reading": "ぜんたい", "meaning": "Toàn thể" }
+      ]
+    },
+    {
+      "kanji": "共",
+      "amHan": "Cộng",
+      "nghia": "Cùng nhau, công cộng",
+      "onyomi": "キョウ",
+      "kunyomi": "とも",
+      "mnemonic": {
+        "text": "Hai người cùng nâng cái đĩa lên để CỘNG tác."
+      },
+      "examples": [
+        { "word": "共通", "reading": "きょうつう", "meaning": "Điểm chung" },
+        { "word": "共同", "reading": "きょうどう", "meaning": "Cộng đồng, cùng nhau" },
+        { "word": "公共", "reading": "こうきょう", "meaning": "Công cộng" },
+        { "word": "共感", "reading": "きょうかん", "meaning": "Đồng cảm" },
+        { "word": "共に", "reading": "ともに", "meaning": "Cùng với" },
+        { "word": "共和国", "reading": "きょうわこく", "meaning": "Nước cộng hòa" }
+      ]
+    },
+    {
+      "kanji": "忘",
+      "amHan": "Vong",
+      "nghia": "Quên",
+      "onyomi": "ボウ",
+      "kunyomi": "わす.れる",
+      "mnemonic": {
+        "text": "Khi TÂM (心) bị mất/chết (亡 - vong) đi thì người ta sẽ QUÊN."
+      },
+      "examples": [
+        { "word": "忘れる", "reading": "わすれる", "meaning": "Quên" },
+        { "word": "忘れ物", "reading": "わすれもの", "meaning": "Đồ bỏ quên" },
+        { "word": "忘年会", "reading": "ぼうねんかい", "meaning": "Tiệc tất niên (tiệc quên năm cũ)" },
+        { "word": "備忘録", "reading": "びぼうろく", "meaning": "Sổ tay ghi chú (để khỏi quên)" },
+        { "word": "忘却", "reading": "ぼうきゃく", "meaning": "Sự quên bẵng đi" }
+      ]
+    },
+    {
+      "kanji": "経",
+      "amHan": "Kinh",
+      "nghia": "Kinh qua, kinh tế, kinh thánh",
+      "onyomi": "ケイ, キョウ",
+      "kunyomi": "へ.る",
+      "mnemonic": {
+        "text": "Sợi TƠ (糸) dệt qua dòng chảy của Thánh NHÂN (圣) tạo thành KINH nghiệm."
+      },
+      "examples": [
+        { "word": "経済", "reading": "けいざい", "meaning": "Kinh tế" },
+        { "word": "経験", "reading": "けいけん", "meaning": "Kinh nghiệm" },
+        { "word": "経営", "reading": "けいえい", "meaning": "Kinh doanh" },
+        { "word": "経過", "reading": "けいか", "meaning": "Quá trình, trải qua" },
+        { "word": "経由", "reading": "けいゆ", "meaning": "Thông qua, quá cảnh" },
+        { "word": "お経", "reading": "おきょう", "meaning": "Kinh Phật" }
+      ]
+    },
+    {
+      "kanji": "過",
+      "amHan": "Quá",
+      "nghia": "Vượt quá, đi qua",
+      "onyomi": "カ",
+      "kunyomi": "す.ぎる, す.ごす, あやま.ち",
+      "mnemonic": {
+        "text": "Bước ĐI (辶) vào cái hang có XƯƠNG (冎) thì QUÁ nguy hiểm."
+      },
+      "examples": [
+        { "word": "過去", "reading": "かこ", "meaning": "Quá khứ" },
+        { "word": "通過", "reading": "つうか", "meaning": "Thông qua, đi qua" },
+        { "word": "過ごす", "reading": "すごす", "meaning": "Trải qua, dành thời gian" },
+        { "word": "過剰", "reading": "かじょう", "meaning": "Vượt quá, dư thừa" },
+        { "word": "過失", "reading": "かしつ", "meaning": "Sai lầm, lỗi lầm vô ý" },
+        { "word": "過半数", "reading": "かはんすう", "meaning": "Đa số, quá bán" }
+      ]
+    },
+    {
+      "kanji": "責",
+      "amHan": "Trách",
+      "nghia": "Trách nhiệm, chỉ trích",
+      "onyomi": "セキ",
+      "kunyomi": "せ.める",
+      "mnemonic": {
+        "text": "Chồng VỎ SÒ (貝 - tiền) lên cao như cái THÁP (龶) thì phải có TRÁCH nhiệm bảo vệ."
+      },
+      "examples": [
+        { "word": "責任", "reading": "せきにん", "meaning": "Trách nhiệm" },
+        { "word": "責める", "reading": "せめる", "meaning": "Đổ lỗi, chỉ trích" },
+        { "word": "無責任", "reading": "むせきにん", "meaning": "Vô trách nhiệm" },
+        { "word": "職責", "reading": "しょくせき", "meaning": "Trách nhiệm công việc" },
+        { "word": "責務", "reading": "せきむ", "meaning": "Nghĩa vụ, bổn phận" }
+      ]
+    },
+    {
+      "kanji": "任",
+      "amHan": "Nhiệm",
+      "nghia": "Phó thác, nhiệm vụ",
+      "onyomi": "ニン",
+      "kunyomi": "まか.せる, まか.す",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) đang gánh vác chữ NHIÊM (壬) là đang thực hiện NHIỆM vụ."
+      },
+      "examples": [
+        { "word": "担任", "reading": "たんにん", "meaning": "Chủ nhiệm" },
+        { "word": "任意", "reading": "にんい", "meaning": "Tùy ý" },
+        { "word": "任せる", "reading": "まかせる", "meaning": "Giao phó" },
+        { "word": "辞任", "reading": "じにん", "meaning": "Từ chức" },
+        { "word": "任務", "reading": "にんむ", "meaning": "Nhiệm vụ" },
+        { "word": "適任", "reading": "てきにん", "meaning": "Thích hợp (cho một vị trí)" }
+      ]
+    },
+    {
+      "kanji": "負",
+      "amHan": "Phụ",
+      "nghia": "Thua, gánh vác, số âm",
+      "onyomi": "フ",
+      "kunyomi": "ま.ける, ま.かす, お.う",
+      "mnemonic": {
+        "text": "NGƯỜI (cách viết biến thể) đang cõng VỎ SÒ (貝 - tiền) trên lưng là đang gánh vác hoặc bị PHỤ thuộc."
+      },
+      "examples": [
+        { "word": "負ける", "reading": "まける", "meaning": "Thua" },
+        { "word": "負う", "reading": "おう", "meaning": "Gánh vác (trách nhiệm, thương tích)" },
+        { "word": "勝負", "reading": "しょうぶ", "meaning": "Thắng thua" },
+        { "word": "負担", "reading": "ふたん", "meaning": "Gánh nặng, chi trả" },
+        { "word": "負傷", "reading": "ふしょう", "meaning": "Bị thương" },
+        { "word": "負数", "reading": "ふすう", "meaning": "Số âm" }
+      ]
+    }
+  ]

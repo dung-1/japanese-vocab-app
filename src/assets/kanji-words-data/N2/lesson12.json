@@ -1,0 +1,250 @@
+﻿[
+    {
+      "kanji": "登",
+      "amHan": "Đăng",
+      "nghia": "Leo lên, đăng ký",
+      "onyomi": "トウ / ト",
+      "kunyomi": "のぼ.る",
+      "mnemonic": {
+        "text": "Dùng ĐÔI CHÂN (癶) bước lên trên cái ĐẬU (豆 - cái giá đựng đồ tế lễ) để ĐĂNG đài."
+      },
+      "examples": [
+        { "word": "登録", "reading": "とうろく", "meaning": "đăng ký" },
+        { "word": "登山", "reading": "とざん", "meaning": "leo núi" },
+        { "word": "登場", "reading": "とうじょう", "meaning": "xuất hiện (trên sân khấu, màn ảnh)" },
+        { "word": "登校", "reading": "とうこう", "meaning": "đến trường" },
+        { "word": "登る", "reading": "のぼる", "meaning": "leo lên, tăng lên" },
+        { "word": "登用", "reading": "とうよう", "meaning": "bổ nhiệm, trọng dụng" }
+      ]
+    },
+    {
+      "kanji": "編",
+      "amHan": "Biên",
+      "nghia": "Đan, biên tập, quyển",
+      "onyomi": "ヘン",
+      "kunyomi": "あ.む",
+      "mnemonic": {
+        "text": "Dùng sợi CHỈ (糸) luồn qua các CÁNH CỬA (扁) để BIÊN soạn/đan lại thành sách."
+      },
+      "examples": [
+        { "word": "編集", "reading": "へんしゅう", "meaning": "biên tập" },
+        { "word": "編み物", "reading": "あみもの", "meaning": "đồ đan" },
+        { "word": "短編", "reading": "たんぺん", "meaning": "truyện ngắn" },
+        { "word": "編成", "reading": "へんせい", "meaning": "thiết lập, tổ chức lại" },
+        { "word": "編入", "reading": "へんにゅう", "meaning": "biên vào, nhập học chuyển tiếp" },
+        { "word": "前編", "reading": "ぜんぺん", "meaning": "phần trước, tập trước" }
+      ]
+    },
+    {
+      "kanji": "能",
+      "amHan": "Năng",
+      "nghia": "Năng lực, tài năng",
+      "onyomi": "ノウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Con GẤU (hình ảnh chữ 能) có NĂNG lực dùng miệng và móng vuốt rất giỏi."
+      },
+      "examples": [
+        { "word": "能力", "reading": "のうりょく", "meaning": "năng lực" },
+        { "word": "可能", "reading": "かのう", "meaning": "khả năng, có thể" },
+        { "word": "能率", "reading": "のうりつ", "meaning": "năng suất, hiệu suất" },
+        { "word": "芸能", "reading": "げいのう", "meaning": "nghệ thuật, giải trí" },
+        { "word": "有能", "reading": "ゆうのう", "meaning": "có tài, có năng lực" },
+        { "word": "本能", "reading": "ほんのう", "meaning": "bản năng" },
+        { "word": "機能", "reading": "きのう", "meaning": "tính năng, chức năng" }
+      ]
+    },
+    {
+      "kanji": "修",
+      "amHan": "Tu",
+      "nghia": "Tu sửa, tu nghiệp",
+      "onyomi": "シュウ / シュ",
+      "kunyomi": "おさ.める",
+      "mnemonic": {
+        "text": "Người (亻) đang gột rửa (phần còn lại) để TU tâm dưỡng tính."
+      },
+      "examples": [
+        { "word": "修理", "reading": "しゅうり", "meaning": "sửa chữa" },
+        { "word": "修了", "reading": "しゅうりょう", "meaning": "hoàn thành (khóa học)" },
+        { "word": "修士", "reading": "しゅうし", "meaning": "thạc sĩ" },
+        { "word": "研修", "reading": "けんしゅう", "meaning": "tu nghiệp, đào tạo" },
+        { "word": "修復", "reading": "しゅうふく", "meaning": "phục hồi, trùng tu" },
+        { "word": "修める", "reading": "おさめる", "meaning": "trau dồi, tu dưỡng" }
+      ]
+    },
+    {
+      "kanji": "完",
+      "amHan": "Hoàn",
+      "nghia": "Hoàn thành, hoàn hảo",
+      "onyomi": "カン",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (宀), con NGƯỜI (元) sống HOÀN hảo."
+      },
+      "examples": [
+        { "word": "完成", "reading": "かんせい", "meaning": "hoàn thành" },
+        { "word": "完了", "reading": "かんりょう", "meaning": "xong xuôi, kết thúc" },
+        { "word": "完璧", "reading": "かんぺき", "meaning": "hoàn hảo" },
+        { "word": "完結", "reading": "かんけつ", "meaning": "kết thúc (truyện, phim)" },
+        { "word": "完全", "reading": "かんぜん", "meaning": "toàn diện, đầy đủ" },
+        { "word": "完済", "reading": "かんさい", "meaning": "trả hết nợ" }
+      ]
+    },
+    {
+      "kanji": "了",
+      "amHan": "Liễu",
+      "nghia": "Kết thúc, hiểu rõ",
+      "onyomi": "リョウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Đứa trẻ bị cắt mất tay (giống chữ 子 nhưng thiếu nét) nên LIỄU đời/kết thúc."
+      },
+      "examples": [
+        { "word": "終了", "reading": "しゅうりょう", "meaning": "chấm dứt, kết thúc" },
+        { "word": "了解", "reading": "りょうかい", "meaning": "hiểu rõ, đồng ý" },
+        { "word": "了承", "reading": "りょうしょう", "meaning": "thừa nhận, chấp nhận" },
+        { "word": "未了", "reading": "みりょう", "meaning": "chưa xong" },
+        { "word": "修了証書", "reading": "しゅうりょうしょうしょ", "meaning": "bằng tốt nghiệp" }
+      ]
+    },
+    {
+      "kanji": "像",
+      "amHan": "Tượng",
+      "nghia": "Hình tượng, bức tượng",
+      "onyomi": "ゾウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) tạc hình con VOI (象) thành bức TƯỢNG."
+      },
+      "examples": [
+        { "word": "画像", "reading": "がぞう", "meaning": "hình ảnh" },
+        { "word": "想像", "reading": "そうぞう", "meaning": "tưởng tượng" },
+        { "word": "仏像", "reading": "ぶつぞう", "meaning": "tượng Phật" },
+        { "word": "映像", "reading": "えいぞう", "meaning": "video, hình ảnh phản chiếu" },
+        { "word": "印象", "reading": "いんしょう", "meaning": "ấn tượng" },
+        { "word": "自画像", "reading": "じがぞう", "meaning": "tranh tự họa" }
+      ]
+    },
+    {
+      "kanji": "類",
+      "amHan": "Loại",
+      "nghia": "Chủng loại, tương tự",
+      "onyomi": "ルイ",
+      "kunyomi": "たぐ.い",
+      "mnemonic": {
+        "text": "LÚA (米) của loài CHÓ (大 - biến thể của 犬) có cái ĐẦU (頁) khác LOẠI."
+      },
+      "examples": [
+        { "word": "書類", "reading": "しょるい", "meaning": "giấy tờ, hồ sơ" },
+        { "word": "分類", "reading": "ぶんるい", "meaning": "phân loại" },
+        { "word": "人類", "reading": "じんるい", "meaning": "nhân loại" },
+        { "word": "種類", "reading": "しゅるい", "meaning": "loại, hạng" },
+        { "word": "親類", "reading": "しんるい", "meaning": "họ hàng" },
+        { "word": "類推", "reading": "るいすい", "meaning": "suy luận theo loại" }
+      ]
+    },
+    {
+      "kanji": "式",
+      "amHan": "Thức",
+      "nghia": "Hình thức, nghi thức",
+      "onyomi": "シキ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dùng THƯỚC (工) đo cái CỌC (弋) để làm đúng hình THỨC."
+      },
+      "examples": [
+        { "word": "形式", "reading": "けいしき", "meaning": "hình thức" },
+        { "word": "公式", "reading": "こうしき", "meaning": "công thức, chính thức" },
+        { "word": "儀式", "reading": "ぎしき", "meaning": "nghi thức" },
+        { "word": "結婚式", "reading": "けっこんしき", "meaning": "lễ kết hôn" },
+        { "word": "数式", "reading": "すうしき", "meaning": "biểu thức số học" },
+        { "word": "方式", "reading": "ほうしき", "meaning": "phương thức" }
+      ]
+    },
+    {
+      "kanji": "央",
+      "amHan": "Ương",
+      "nghia": "Trung ương, ở giữa",
+      "onyomi": "オウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Một người (大) đứng ở giữa cái khung, chính ƯƠNG."
+      },
+      "examples": [
+        { "word": "中央", "reading": "ちゅうおう", "meaning": "trung ương, trung tâm" },
+        { "word": "震央", "reading": "しんおう", "meaning": "tâm chấn" },
+        { "word": "中央改札", "reading": "ちゅうおうかいさつ", "meaning": "cửa soát vé trung tâm" },
+        { "word": "央求", "reading": "おうきゅう", "meaning": "khẩn cầu (từ ít dùng nhưng có trong N2)" }
+      ]
+    },
+    {
+      "kanji": "存",
+      "amHan": "Tồn",
+      "nghia": "Tồn tại, bảo tồn",
+      "onyomi": "ソン / ゾン",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "ĐỨA TRẺ (子) TỒN tại được nhờ có người BẢO vệ (giống nét chữ 才)."
+      },
+      "examples": [
+        { "word": "存在", "reading": "そんざい", "meaning": "tồn tại" },
+        { "word": "保存", "reading": "ほぞん", "meaning": "bảo tồn, lưu trữ" },
+        { "word": "生存", "reading": "せいぞん", "meaning": "sinh tồn" },
+        { "word": "ご存じ", "reading": "ごぞんじ", "meaning": "biết (kính ngữ)" },
+        { "word": "存じる", "reading": "ぞんじる", "meaning": "biết, nghĩ (khiêm nhường ngữ)" },
+        { "word": "存続", "reading": "そんぞく", "meaning": "tiếp tục tồn tại" }
+      ]
+    },
+    {
+      "kanji": "印",
+      "amHan": "Ấn",
+      "nghia": "Ấn tượng, con dấu",
+      "onyomi": "イン",
+      "kunyomi": "しるし",
+      "mnemonic": {
+        "text": "Dùng tay ấn người khác QUỲ (卩) xuống để đóng ẤN."
+      },
+      "examples": [
+        { "word": "印刷", "reading": "いんさつ", "meaning": "in ấn" },
+        { "word": "印象", "reading": "いんしょう", "meaning": "ấn tượng" },
+        { "word": "印鑑", "reading": "いんかん", "meaning": "con dấu" },
+        { "word": "目印", "reading": "めじるし", "meaning": "vật làm hiệu, dấu hiệu" },
+        { "word": "矢印", "reading": "やじるし", "meaning": "mũi tên chỉ hướng" },
+        { "word": "調印", "reading": "ちょういん", "meaning": "ký kết (hiệp ước)" }
+      ]
+    },
+    {
+      "kanji": "刷",
+      "amHan": "Loát",
+      "nghia": "In ấn, quét sạch",
+      "onyomi": "サツ",
+      "kunyomi": "す.る",
+      "mnemonic": {
+        "text": "Dùng DAO (刂) nạo sạch lớp cũ trên cái KHĂN (巾) để chuẩn bị in LOÁT."
+      },
+      "examples": [
+        { "word": "刷る", "reading": "する", "meaning": "in" },
+        { "word": "増刷", "reading": "ぞうさつ", "meaning": "in thêm, tái bản" },
+        { "word": "刷新", "reading": "さっしん", "meaning": "đổi mới, cách tân" },
+        { "word": "縮刷", "reading": "しゅくさつ", "meaning": "in thu nhỏ" },
+        { "word": "色刷り", "reading": "いろずり", "meaning": "in màu" }
+      ]
+    },
+    {
+      "kanji": "拡",
+      "amHan": "Khuếch",
+      "nghia": "Mở rộng",
+      "onyomi": "カク",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) mở rộng TẦM (広) mắt, đó chính là KHUẾCH trương."
+      },
+      "examples": [
+        { "word": "拡大", "reading": "かくだい", "meaning": "phóng to, mở rộng" },
+        { "word": "拡張", "reading": "かくちょう", "meaning": "khuếch trương, mở rộng (quy mô)" },
+        { "word": "拡散", "reading": "かくさん", "meaning": "khuếch tán, lan truyền" },
+        { "word": "拡充", "reading": "かくじゅう", "meaning": "mở rộng và bổ sung" },
+        { "word": "大拡", "reading": "だいかく", "meaning": "mở rộng lớn" }
+      ]
+    }
+  ]

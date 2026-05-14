@@ -1,0 +1,246 @@
+﻿[
+    {
+      "kanji": "必",
+      "amHan": "Tất",
+      "nghia": "Tất yếu, nhất thiết",
+      "onyomi": "ヒツ",
+      "kunyomi": "かなら・ず",
+      "mnemonic": {
+        "text": "Một NHÁT CHÉM (丿) xuyên qua TÂM (心) là điều TẤT yếu phải chết."
+      },
+      "examples": [
+        { "word": "必要", "reading": "ひつよう", "meaning": "cần thiết" },
+        { "word": "必死", "reading": "ひっし", "meaning": "quyết tâm dốc sức (đến chết)" },
+        { "word": "必ずしも", "reading": "かならずしも", "meaning": "không hẳn là..." },
+        { "word": "必修", "reading": "ひっしゅう", "meaning": "bắt buộc học" },
+        { "word": "必勝", "reading": "ひっしょう", "meaning": "quyết thắng" }
+      ]
+    },
+    {
+      "kanji": "袋",
+      "amHan": "Đại",
+      "nghia": "Cái túi",
+      "onyomi": "タイ",
+      "kunyomi": "ふくろ",
+      "mnemonic": {
+        "text": "Y PHỤC (衣) để THAY (代) ra thì bỏ vào cái TÚI."
+      },
+      "examples": [
+        { "word": "ゴミ袋", "reading": "ごみぶくろ", "meaning": "túi rác" },
+        { "word": "手袋", "reading": "てぶくろ", "meaning": "găng tay" },
+        { "word": "紙袋", "reading": "かみぶくろ", "meaning": "túi giấy" },
+        { "word": "袋小路", "reading": "ふくろこうじ", "meaning": "ngõ cụt" },
+        { "word": "ビニール袋", "reading": "びにーるぶくろ", "meaning": "túi nilon" }
+      ]
+    },
+    {
+      "kanji": "積",
+      "amHan": "Tích",
+      "nghia": "Tích trữ, chất đống",
+      "onyomi": "セキ",
+      "kunyomi": "つ・む",
+      "mnemonic": {
+        "text": "LÚA (禾) sau khi TRÁCH (責) phạt thì đem đi TÍCH trữ."
+      },
+      "examples": [
+        { "word": "面積", "reading": "めんせき", "meaning": "diện tích" },
+        { "word": "積極的", "reading": "せっきょくてき", "meaning": "tích cực" },
+        { "word": "積む", "reading": "つむ", "meaning": "chất lên, tích lũy (kinh nghiệm)" },
+        { "word": "見積もり", "reading": "みつもり", "meaning": "bảng báo giá, ước tính" },
+        { "word": "蓄積", "reading": "ちくせき", "meaning": "tích tụ, lưu trữ" },
+        { "word": "積み重ねる", "reading": "つみかさねる", "meaning": "chồng chất lên nhau" }
+      ]
+    },
+    {
+      "kanji": "燃",
+      "amHan": "Nhiên",
+      "nghia": "Đốt cháy, nhiên liệu",
+      "onyomi": "ネン",
+      "kunyomi": "も・える",
+      "mnemonic": {
+        "text": "Dùng LỬA (火) đốt con CHÓ (犬) dưới mái nhà (trên chữ Nhiên 然) để lấy NHIÊN liệu."
+      },
+      "examples": [
+        { "word": "燃料", "reading": "ねんりょう", "meaning": "nhiên liệu" },
+        { "word": "燃えるゴミ", "reading": "もえるごみ", "meaning": "rác cháy được" },
+        { "word": "燃焼", "reading": "ねんしょう", "meaning": "sự đốt cháy" },
+        { "word": "可燃性", "reading": "かねんせい", "meaning": "tính dễ cháy" },
+        { "word": "不燃物", "reading": "ふねんぶつ", "meaning": "vật không cháy được" }
+      ]
+    },
+    {
+      "kanji": "枝",
+      "amHan": "Chi",
+      "nghia": "Cành cây, nhánh",
+      "onyomi": "シ",
+      "kunyomi": "えだ",
+      "mnemonic": {
+        "text": "Cây (木) có các Chi (支) nhánh."
+      },
+      "examples": [
+        { "word": "小枝", "reading": "こえだ", "meaning": "cành cây nhỏ" },
+        { "word": "枝分かれ", "reading": "えだわかれ", "meaning": "chia nhánh, phân nhánh" },
+        { "word": "枝豆", "reading": "えだまめ", "meaning": "đậu nành Nhật" },
+        { "word": "選択枝", "reading": "せんたくし", "meaning": "nhánh lựa chọn (phương án)" },
+        { "word": "枝葉", "reading": "しよう", "meaning": "cành lá (chuyện phụ, không quan trọng)" }
+      ]
+    },
+    {
+      "kanji": "葉",
+      "amHan": "Diệp",
+      "nghia": "Cái lá",
+      "onyomi": "ヨウ",
+      "kunyomi": "は",
+      "mnemonic": {
+        "text": "CỎ (艹) mọc trên THẾ (世) hệ của cái CÂY (木) tạo thành LÁ."
+      },
+      "examples": [
+        { "word": "言葉", "reading": "ことば", "meaning": "từ vựng, lời nói" },
+        { "word": "紅葉", "reading": "こうよう", "meaning": "lá đỏ (mùa thu)" },
+        { "word": "落ち葉", "reading": "おちば", "meaning": "lá rụng" },
+        { "word": "葉書", "reading": "はがき", "meaning": "bưu thiếp" },
+        { "word": "千葉県", "reading": "ちばけん", "meaning": "tỉnh Chiba" }
+      ]
+    },
+    {
+      "kanji": "埋",
+      "amHan": "Mai",
+      "nghia": "Chôn cất, lấp đầy",
+      "onyomi": "マイ",
+      "kunyomi": "う・める",
+      "mnemonic": {
+        "text": "Đem ĐẤT (土) CHÔN (埋) cái LÀNG (里)."
+      },
+      "examples": [
+        { "word": "埋める", "reading": "うめる", "meaning": "chôn, lấp, làm đầy" },
+        { "word": "埋蔵", "reading": "まいぞう", "meaning": "chôn giấu, dự trữ (khoáng sản)" },
+        { "word": "埋立地", "reading": "うめたてち", "meaning": "đất lấn biển/đất bồi" },
+        { "word": "埋まる", "reading": "うまる", "meaning": "bị chôn vùi" },
+        { "word": "埋没", "reading": "まいぼつ", "meaning": "mai một, bị chôn vùi hoàn toàn" }
+      ]
+    },
+    {
+      "kanji": "製",
+      "amHan": "Chế",
+      "nghia": "Chế tạo, sản xuất",
+      "onyomi": "セイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng ĐAO (制) cắt VẢI (衣) để CHẾ tạo quần áo."
+      },
+      "examples": [
+        { "word": "製品", "reading": "せいひん", "meaning": "sản phẩm" },
+        { "word": "日本製", "reading": "にほんせい", "meaning": "hàng sản xuất tại Nhật" },
+        { "word": "製造", "reading": "せいぞう", "meaning": "chế tạo, sản xuất" },
+        { "word": "製作", "reading": "せいさく", "meaning": "chế tác (phim, nghệ thuật)" },
+        { "word": "複製", "reading": "ふくせい", "meaning": "phục chế, copy" },
+        { "word": "新製品", "reading": "しんせいひん", "meaning": "sản phẩm mới" }
+      ]
+    },
+    {
+      "kanji": "容",
+      "amHan": "Dung",
+      "nghia": "Nội dung, bao hàm",
+      "onyomi": "ヨウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Trong NHÀ (宀) có cái THUNG LŨNG (谷) rộng có thể DUNG nạp nhiều thứ."
+      },
+      "examples": [
+        { "word": "内容", "reading": "ないよう", "meaning": "nội dung" },
+        { "word": "容器", "reading": "ようき", "meaning": "đồ đựng, bình chứa" },
+        { "word": "美容", "reading": "びよう", "meaning": "mỹ dung, làm đẹp" },
+        { "word": "容易", "reading": "ようい", "meaning": "dễ dàng" },
+        { "word": "許容", "reading": "きょよう", "meaning": "cho phép, chấp nhận" },
+        { "word": "容量", "reading": "ようりょう", "meaning": "dung lượng" }
+      ]
+    },
+    {
+      "kanji": "器",
+      "amHan": "Khí",
+      "nghia": "Dụng cụ, khí cụ",
+      "onyomi": "キ",
+      "kunyomi": "うつわ",
+      "mnemonic": {
+        "text": "4 cái MIỆNG (口) vây quanh con CHÓ (大 - biến thể của 犬) để bảo vệ vũ KHÍ."
+      },
+      "examples": [
+        { "word": "食器", "reading": "しょっき", "meaning": "bát đĩa, dụng cụ ăn uống" },
+        { "word": "楽器", "reading": "がっき", "meaning": "nhạc cụ" },
+        { "word": "器用", "reading": "きよう", "meaning": "khéo léo" },
+        { "word": "受話器", "reading": "じゅわき", "meaning": "ống nghe điện thoại" },
+        { "word": "機器", "reading": "きき", "meaning": "máy móc, thiết bị" },
+        { "word": "器", "reading": "うつわ", "meaning": "chén bát/khả năng (con người)" }
+      ]
+    },
+    {
+      "kanji": "装",
+      "amHan": "Trang",
+      "nghia": "Trang phục, trang trí",
+      "onyomi": "ソウ, ショウ",
+      "kunyomi": "よそお・う",
+      "mnemonic": {
+        "text": "Kẻ SĨ (士) dùng MẢNH VỠ (爿) làm TRANG sức và mặc quần ÁO (衣)."
+      },
+      "examples": [
+        { "word": "装置", "reading": "そうち", "meaning": "thiết bị, máy móc" },
+        { "word": "服装", "reading": "ふくそう", "meaning": "phục trang, quần áo" },
+        { "word": "衣装", "reading": "いしょう", "meaning": "y phục, trang phục biểu diễn" },
+        { "word": "包装", "reading": "ほうそう", "meaning": "đóng gói, bao bì" },
+        { "word": "装飾", "reading": "そうしょく", "meaning": "trang sức, trang trí" }
+      ]
+    },
+    {
+      "kanji": "雑",
+      "amHan": "Tạp",
+      "nghia": "Tạp nham, lẫn lộn",
+      "onyomi": "ザツ, ゾウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Chín (九) con CHIM (隹) trên CÂY (木) hót âm thanh PHỨC TẠP."
+      },
+      "examples": [
+        { "word": "雑誌", "reading": "ざっし", "meaning": "tạp chí" },
+        { "word": "複雑", "reading": "ふくざつ", "meaning": "phức tạp" },
+        { "word": "雑談", "reading": "ざつだん", "meaning": "nói chuyện phiếm" },
+        { "word": "雑音", "reading": "ざつおん", "meaning": "tạp âm, tiếng ồn" },
+        { "word": "雑用", "reading": "ざつよう", "meaning": "việc vặt" },
+        { "word": "混雑", "reading": "こんざつ", "meaning": "đông đúc, hỗn loạn" }
+      ]
+    },
+    {
+      "kanji": "誌",
+      "amHan": "Chí",
+      "nghia": "Ghi chép, tạp chí",
+      "onyomi": "シ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng NGÔN từ (言) để ghi chép ý CHÍ (志)."
+      },
+      "examples": [
+        { "word": "週刊誌", "reading": "しゅうかんし", "meaning": "tạp chí hàng tuần" },
+        { "word": "日誌", "reading": "にっし", "meaning": "nhật ký công việc, sổ nhật trình" },
+        { "word": "誌面", "reading": "しめん", "meaning": "mặt báo, trang tạp chí" },
+        { "word": "文芸誌", "reading": "ぶんげいし", "meaning": "tạp chí văn nghệ" },
+        { "word": "地誌", "reading": "ちし", "meaning": "địa chí" }
+      ]
+    },
+    {
+      "kanji": "資",
+      "amHan": "Tư",
+      "nghia": "Đầu tư, tiền của",
+      "onyomi": "シ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "TIỀN (貝) của cái NÀY (次 - thứ) gọi là TƯ bản."
+      },
+      "examples": [
+        { "word": "資料", "reading": "しりょう", "meaning": "tài liệu" },
+        { "word": "資源", "reading": "しげん", "meaning": "tài nguyên" },
+        { "word": "資金", "reading": "しきん", "meaning": "tiền vốn" },
+        { "word": "資格", "reading": "しかく", "meaning": "bằng cấp, tư cách" },
+        { "word": "投資", "reading": "とうし", "meaning": "đầu tư" },
+        { "word": "資産", "reading": "しさん", "meaning": "tài sản" }
+      ]
+    }
+  ]

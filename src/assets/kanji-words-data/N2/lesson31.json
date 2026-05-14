@@ -1,0 +1,243 @@
+﻿[
+    {
+      "kanji": "得",
+      "amHan": "Đắc",
+      "nghia": "Đạt được, thu được",
+      "onyomi": "トク",
+      "kunyomi": "え・る / う・る",
+      "mnemonic": {
+        "text": "BƯỚC ĐI (彳) trên đường, dùng MẮT (目) quan sát và TAY (寸) nắm lấy để ĐẮC lợi."
+      },
+      "examples": [
+        { "word": "得る", "reading": "える", "meaning": "thu được, có được" },
+        { "word": "納得", "reading": "なっとく", "meaning": "thuyết phục, hiểu ra" },
+        { "word": "得意", "reading": "とくい", "meaning": "giỏi, tâm đắc" },
+        { "word": "所得", "reading": "しょとく", "meaning": "thu nhập" },
+        { "word": "利得", "reading": "りとく", "meaning": "lợi nhuận, lãi" },
+        { "word": "お買得", "reading": "おかいどく", "meaning": "mua được giá hời" }
+      ]
+    },
+    {
+      "kanji": "告",
+      "amHan": "Cáo",
+      "nghia": "Thông báo, báo cáo",
+      "onyomi": "コク",
+      "kunyomi": "つ・げる",
+      "mnemonic": {
+        "text": "Dùng MIỆNG (口) để thông báo về con TRÂU (牛 - biến thể) bị lạc."
+      },
+      "examples": [
+        { "word": "報告", "reading": "ほうこく", "meaning": "báo cáo" },
+        { "word": "広告", "reading": "こうこく", "meaning": "quảng cáo" },
+        { "word": "告げる", "reading": "つげる", "meaning": "thông báo, cho biết" },
+        { "word": "告白", "reading": "こくはく", "meaning": "thú nhận, tỏ tình" },
+        { "word": "警告", "reading": "けいこく", "meaning": "cảnh báo" },
+        { "word": "被告", "reading": "ひこく", "meaning": "bị cáo" }
+      ]
+    },
+    {
+      "kanji": "税",
+      "amHan": "Thuế",
+      "nghia": "Thuế phí",
+      "onyomi": "ゼイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Nộp LÚA (禾) cho các ANH (兄) quản lý để đóng THUẾ."
+      },
+      "examples": [
+        { "word": "税金", "reading": "ぜいきん", "meaning": "tiền thuế" },
+        { "word": "消費税", "reading": "しょうひぜい", "meaning": "thuế tiêu thụ" },
+        { "word": "免税", "reading": "めんぜい", "meaning": "miễn thuế" },
+        { "word": "関税", "reading": "かんぜい", "meaning": "thuế quan" },
+        { "word": "納税", "reading": "のうぜい", "meaning": "nộp thuế" }
+      ]
+    },
+    {
+      "kanji": "価",
+      "amHan": "Giá",
+      "nghia": "Giá trị, giá cả",
+      "onyomi": "カ",
+      "kunyomi": "あたい",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) phương TÂY (西) thường hay thảo luận về GIÁ trị."
+      },
+      "examples": [
+        { "word": "価値", "reading": "かち", "meaning": "giá trị" },
+        { "word": "物価", "reading": "ぶっか", "meaning": "vật giá" },
+        { "word": "価格", "reading": "かかく", "meaning": "giá cả" },
+        { "word": "評価", "reading": "ひょうか", "meaning": "đánh giá" },
+        { "word": "定価", "reading": "ていか", "meaning": "giá cố định" }
+      ]
+    },
+    {
+      "kanji": "格",
+      "amHan": "Cách",
+      "nghia": "Tư cách, tiêu chuẩn",
+      "onyomi": "カク",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Cái CÂY (木) này mọc ở CÁC (各) nơi đều giữ đúng quy CÁCH."
+      },
+      "examples": [
+        { "word": "合格", "reading": "ごうかく", "meaning": "đỗ, vượt qua kỳ thi" },
+        { "word": "資格", "reading": "しかく", "meaning": "tư cách, bằng cấp" },
+        { "word": "性格", "reading": "せいかく", "meaning": "tính cách" },
+        { "word": "格好", "reading": "かっこう", "meaning": "ngoại hình, dáng vẻ" },
+        { "word": "格差", "reading": "かくさ", "meaning": "khoảng cách, chênh lệch" },
+        { "word": "規格", "reading": "きかく", "meaning": "quy cách, tiêu chuẩn" }
+      ]
+    },
+    {
+      "kanji": "超",
+      "amHan": "Siêu",
+      "nghia": "Vượt quá, siêu phàm",
+      "onyomi": "チョウ",
+      "kunyomi": "こ・える / こ・おす",
+      "mnemonic": {
+        "text": "CHẠY (走) để triệu (召) tập mọi người nhằm SIÊU thoát hoặc vượt qua giới hạn."
+      },
+      "examples": [
+        { "word": "超える", "reading": "こえる", "meaning": "vượt quá (số lượng, giới hạn)" },
+        { "word": "超過", "reading": "ちょうか", "meaning": "vượt quá (hạn mức)" },
+        { "word": "超満員", "reading": "ちょうまんいん", "meaning": "quá đông người" },
+        { "word": "超特急", "reading": "ちょうとっきゅう", "meaning": "tàu siêu tốc" },
+        { "word": "超越", "reading": "ちょうえつ", "meaning": "siêu việt" }
+      ]
+    },
+    {
+      "kanji": "均",
+      "amHan": "Quân",
+      "nghia": "Bình quân, đồng đều",
+      "onyomi": "キン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dưới ĐẤT (土), người ta BAO (勹) quanh 2 (二) vật để chia cho ĐỀU nhau."
+      },
+      "examples": [
+        { "word": "平均", "reading": "へいきん", "meaning": "trung bình" },
+        { "word": "均等", "reading": "きんとう", "meaning": "cân bằng, đồng đều" },
+        { "word": "均一", "reading": "きんいつ", "meaning": "nhất loạt, đồng nhất" },
+        { "word": "均衡", "reading": "きんこう", "meaning": "cán cân, sự thăng bằng" }
+      ]
+    },
+    {
+      "kanji": "靴",
+      "amHan": "Ngoa",
+      "nghia": "Giày",
+      "onyomi": "カ",
+      "kunyomi": "くつ",
+      "mnemonic": {
+        "text": "Lấy DA (革) làm vật để THAY ĐỔI (化) bảo vệ đôi chân thì gọi là GIÀY."
+      },
+      "examples": [
+        { "word": "靴下", "reading": "くつした", "meaning": "tất, vớ" },
+        { "word": "製靴", "reading": "せいか", "meaning": "sản xuất giày" },
+        { "word": "長靴", "reading": "ながぐつ", "meaning": "ủng, giày cao cổ" },
+        { "word": "運動靴", "reading": "うんどうぐつ", "meaning": "giày thể thao" }
+      ]
+    },
+    {
+      "kanji": "供",
+      "amHan": "Cung",
+      "nghia": "Cung cấp, trẻ con",
+      "onyomi": "キョウ / ク",
+      "kunyomi": "そな・える / とも",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) cùng nhau (共) CUNG cấp lễ vật."
+      },
+      "examples": [
+        { "word": "子供", "reading": "こども", "meaning": "trẻ con" },
+        { "word": "提供", "reading": "ていきょう", "meaning": "cung cấp" },
+        { "word": "供える", "reading": "そなえる", "meaning": "thắp hương, cúng bái" },
+        { "word": "自供", "reading": "じきょう", "meaning": "tự thú" },
+        { "word": "試供品", "reading": "しきょうひん", "meaning": "hàng dùng thử" }
+      ]
+    },
+    {
+      "kanji": "象",
+      "amHan": "Tượng",
+      "nghia": "Con voi, hình tượng",
+      "onyomi": "ショウ / ゾウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Hình vẽ phác họa hình dáng của một con VOI."
+      },
+      "examples": [
+        { "word": "象", "reading": "ぞう", "meaning": "con voi" },
+        { "word": "対象", "reading": "たいしょう", "meaning": "đối tượng" },
+        { "word": "印象", "reading": "いんしょう", "meaning": "ấn tượng" },
+        { "word": "現象", "reading": "げんしょう", "meaning": "hiện tượng" },
+        { "word": "気象", "reading": "きしょう", "meaning": "khí tượng" },
+        { "word": "象徴", "reading": "しょうちょう", "meaning": "biểu tượng" }
+      ]
+    },
+    {
+      "kanji": "組",
+      "amHan": "Tổ",
+      "nghia": "Tổ chức, lắp ráp",
+      "onyomi": "ソ",
+      "kunyomi": "く・む / くみ",
+      "mnemonic": {
+        "text": "Dùng SỢI CHỈ (糸) để gắn kết mọi người trong dòng TỘC (且) thành một TỔ chức."
+      },
+      "examples": [
+        { "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình (TV)" },
+        { "word": "組織", "reading": "そしき", "meaning": "tổ chức" },
+        { "word": "組む", "reading": "くむ", "meaning": "lắp ghép, phối hợp" },
+        { "word": "組み合わせ", "reading": "くみあわせ", "meaning": "sự kết hợp" },
+        { "word": "組合", "reading": "くみあい", "meaning": "nghiệp đoàn, công đoàn" }
+      ]
+    },
+    {
+      "kanji": "値",
+      "amHan": "Trị",
+      "nghia": "Giá trị",
+      "onyomi": "チ",
+      "kunyomi": "あたい / ね",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) đứng THẲNG (直) để khẳng định GIÁ TRỊ của mình."
+      },
+      "examples": [
+        { "word": "値段", "reading": "ねだん", "meaning": "giá cả" },
+        { "word": "価値", "reading": "かち", "meaning": "giá trị" },
+        { "word": "数値", "reading": "すうち", "meaning": "giá trị bằng số" },
+        { "word": "値上げ", "reading": "ねあげ", "meaning": "tăng giá" },
+        { "word": "値引き", "reading": "ねびき", "meaning": "giảm giá" }
+      ]
+    },
+    {
+      "kanji": "募",
+      "amHan": "Mộ",
+      "nghia": "Chiêu mộ, quyên góp",
+      "onyomi": "ボ",
+      "kunyomi": "つの・る",
+      "mnemonic": {
+        "text": "Dùng LỰC (力) để chiêu MỘ người làm việc vào buổi CHIỀU TÀ (莫)."
+      },
+      "examples": [
+        { "word": "募集", "reading": "ぼしゅう", "meaning": "tuyển dụng, chiêu mộ" },
+        { "word": "募金", "reading": "ぼきん", "meaning": "quyên góp tiền" },
+        { "word": "応募", "reading": "おうぼ", "meaning": "ứng tuyển" },
+        { "word": "募る", "reading": "つのる", "meaning": "ngày càng dữ dội/chiêu mộ" },
+        { "word": "急募", "reading": "きゅうぼ", "meaning": "tuyển gấp" }
+      ]
+    },
+    {
+      "kanji": "無",
+      "amHan": "Vô",
+      "nghia": "Không có",
+      "onyomi": "ム / ブ",
+      "kunyomi": "な・い",
+      "mnemonic": {
+        "text": "LỬA (灬) cháy thiêu rụi cái NHÀ (dưới bộ 卄) khiến mọi thứ trở về con số KHÔNG."
+      },
+      "examples": [
+        { "word": "無理", "reading": "むり", "meaning": "quá sức, không thể" },
+        { "word": "無料", "reading": "むりょう", "meaning": "miễn phí" },
+        { "word": "無い", "reading": "ない", "meaning": "không có" },
+        { "word": "無事", "reading": "ぶじ", "meaning": "bình an vô sự" },
+        { "word": "無視", "reading": "むし", "meaning": "phớt lờ, coi thường" },
+        { "word": "無駄", "reading": "むだ", "meaning": "lãng phí, vô ích" }
+      ]
+    }
+  ]

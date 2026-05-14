@@ -1,0 +1,217 @@
+﻿[
+    {
+      "kanji": "批",
+      "amHan": "Phê",
+      "nghia": "Phê bình",
+      "onyomi": "ヒ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng tay (扌) so sánh (比) các mặt tốt xấu để PHÊ bình."
+      },
+      "examples": [
+        { "word": "批判", "reading": "ひはん", "meaning": "Phê phán" },
+        { "word": "批評", "reading": "ひひょう", "meaning": "Phê bình" },
+        { "word": "批准", "reading": "ひじゅん", "meaning": "Phê chuẩn" },
+        { "word": "一括比", "reading": "いっかつひ", "meaning": "So sánh hàng loạt" }
+      ]
+    },
+    {
+      "kanji": "判",
+      "amHan": "Phán",
+      "nghia": "Phán quyết, phân chia",
+      "onyomi": "ハン, バン",
+      "kunyomi": "わか.る",
+      "mnemonic": {
+        "text": "Dùng đao (刂) chia đôi một nửa (半) để PHÁN xử công bằng."
+      },
+      "examples": [
+        { "word": "判断", "reading": "はんだん", "meaning": "Phán đoán" },
+        { "word": "裁判", "reading": "さいばん", "meaning": "Xét xử, tòa án" },
+        { "word": "判明", "reading": "はんめい", "meaning": "Làm sáng tỏ" },
+        { "word": "評判", "reading": "ひょうばん", "meaning": "Đánh giá, tiếng tăm" },
+        { "word": "判子", "reading": "はんこ", "meaning": "Con dấu" }
+      ]
+    },
+    {
+      "kanji": "臣",
+      "amHan": "Thần",
+      "nghia": "Thần tử, bộ trưởng",
+      "onyomi": "シン, ジン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Hình ảnh con mắt nhìn xuống, thể hiện sự phục tùng của bầy THẦN."
+      },
+      "examples": [
+        { "word": "大臣", "reading": "だいじん", "meaning": "Bộ trưởng" },
+        { "word": "総理大臣", "reading": "そうりだいじん", "meaning": "Thủ tướng" },
+        { "word": "忠臣", "reading": "ちゅうしん", "meaning": "Trung thần" },
+        { "word": "臣下", "reading": "しんか", "meaning": "Thần hạ, cấp dưới" }
+      ]
+    },
+    {
+      "kanji": "賢",
+      "amHan": "Hiền",
+      "nghia": "Thông minh, hiền tài",
+      "onyomi": "ケン",
+      "kunyomi": "かしこ.い",
+      "mnemonic": {
+        "text": "Người có tiền (貝) và trung thần (臣) có tài (又) là người HIỀN tài."
+      },
+      "examples": [
+        { "word": "賢い", "reading": "かしこい", "meaning": "Thông minh, khôn ngoan" },
+        { "word": "賢明", "reading": "けんめい", "meaning": "Sáng suốt" },
+        { "word": "賢者", "reading": "けんじゃ", "meaning": "Hiền nhân" },
+        { "word": "悪賢い", "reading": "わるがしこい", "meaning": "Ranh mãnh, quỷ quyệt" }
+      ]
+    },
+    {
+      "kanji": "勇",
+      "amHan": "Dũng",
+      "nghia": "Dũng cảm",
+      "onyomi": "ユウ",
+      "kunyomi": "いさ.む",
+      "mnemonic": {
+        "text": "Dùng sức mạnh (力) để vượt qua khó khăn như một nam nhi (男 cách điệu phần trên) DŨNG cảm."
+      },
+      "examples": [
+        { "word": "勇気", "reading": "ゆうき", "meaning": "Dũng khí" },
+        { "word": "勇敢な", "reading": "ゆうかんな", "meaning": "Can đảm" },
+        { "word": "勇ましい", "reading": "いさましい", "meaning": "Hào hùng, dũng mãnh" },
+        { "word": "勇躍", "reading": "ゆうやく", "meaning": "Nhảy cẫng lên vì phấn khích" }
+      ]
+    },
+    {
+      "kanji": "敬",
+      "amHan": "Kính",
+      "nghia": "Kính trọng",
+      "onyomi": "ケイ",
+      "kunyomi": "うやま.う",
+      "mnemonic": {
+        "text": "Lời nói (言) cỏ (艹) đánh (攵) thức sự KÍNH trọng."
+      },
+      "examples": [
+        { "word": "敬意", "reading": "けいい", "meaning": "Lòng kính trọng" },
+        { "word": "敬語", "reading": "けいご", "meaning": "Kính ngữ" },
+        { "word": "尊敬", "reading": "そんけい", "meaning": "Tôn kính" },
+        { "word": "敬老", "reading": "けいろう", "meaning": "Kính lão" },
+        { "word": "敬遠", "reading": "けいえん", "meaning": "Giữ khoảng cách, tránh né" }
+      ]
+    },
+    {
+      "kanji": "評",
+      "amHan": "Bình",
+      "nghia": "Đánh giá, bình luận",
+      "onyomi": "ヒョウ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng lời nói (言) để làm cho mọi thứ công bằng (平) gọi là BÌNH luận."
+      },
+      "examples": [
+        { "word": "評価", "reading": "ひょうか", "meaning": "Đánh giá" },
+        { "word": "評判", "reading": "ひょうばん", "meaning": "Tiếng tăm, danh tiếng" },
+        { "word": "評論", "reading": "ひょうろん", "meaning": "Bình luận" },
+        { "word": "総評", "reading": "そうひょう", "meaning": "Đánh giá tổng quát" },
+        { "word": "好評", "reading": "こうひょう", "meaning": "Được đánh giá tốt" }
+      ]
+    },
+    {
+      "kanji": "似",
+      "amHan": "Tự",
+      "nghia": "Tương tự, giống",
+      "onyomi": "ジ",
+      "kunyomi": "に.る",
+      "mnemonic": {
+        "text": "Người (亻) mà làm việc theo thứ tự (以) thì trông rất giống (TỰ) nhau."
+      },
+      "examples": [
+        { "word": "似る", "reading": "にる", "meaning": "Giống" },
+        { "word": "似顔絵", "reading": "にがおえ", "meaning": "Tranh chân dung" },
+        { "word": "類似", "reading": "るいじ", "meaning": "Tương tự" },
+        { "word": "似合う", "reading": "にあう", "meaning": "Hợp (quần áo, phong cách)" },
+        { "word": "真似", "reading": "まね", "meaning": "Bắt chước" }
+      ]
+    },
+    {
+      "kanji": "犯",
+      "amHan": "Phạm",
+      "nghia": "Vi phạm, tội phạm",
+      "onyomi": "ハン",
+      "kunyomi": "おか.す",
+      "mnemonic": {
+        "text": "Con chó (犭) vi PHẠM vào khu vực của con người (卩)."
+      },
+      "examples": [
+        { "word": "犯人", "reading": "はんにん", "meaning": "Hung thủ, tội phạm" },
+        { "word": "犯罪", "reading": "はんざい", "meaning": "Tội phạm (hành vi)" },
+        { "word": "犯す", "reading": "おかす", "meaning": "Vi phạm (sai lầm/tội lỗi)" },
+        { "word": "防犯", "reading": "ぼうはん", "meaning": "Phòng chống tội phạm" },
+        { "word": "共犯", "reading": "きょうはん", "meaning": "Đồng phạm" }
+      ]
+    },
+    {
+      "kanji": "孫",
+      "amHan": "Tôn",
+      "nghia": "Cháu",
+      "onyomi": "ソン",
+      "kunyomi": "まご",
+      "mnemonic": {
+        "text": "Đứa trẻ (子) nối dõi sợi tơ (系) của gia đình chính là TÔN (cháu)."
+      },
+      "examples": [
+        { "word": "子孫", "reading": "しそん", "meaning": "Con cháu, hậu duệ" },
+        { "word": "孫", "reading": "まご", "meaning": "Cháu nội/ngoại" },
+        { "word": "内孫", "reading": "うちまご", "meaning": "Cháu nội" },
+        { "word": "曽孫", "reading": "そうそん", "meaning": "Chắt" }
+      ]
+    },
+    {
+      "kanji": "娘",
+      "amHan": "Nương",
+      "nghia": "Con gái",
+      "onyomi": "ジョウ",
+      "kunyomi": "むすめ",
+      "mnemonic": {
+        "text": "Người phụ nữ (女) tốt (良) chính là cô con gái (NƯƠNG)."
+      },
+      "examples": [
+        { "word": "娘", "reading": "むすめ", "meaning": "Con gái" },
+        { "word": "一人娘", "reading": "ひとりむすめ", "meaning": "Con gái một" },
+        { "word": "孫娘", "reading": "まごむすめ", "meaning": "Cháu gái" },
+        { "word": "小娘", "reading": "こむすめ", "meaning": "Cô bé, con nhỏ (nghĩa hơi coi thường)" }
+      ]
+    },
+    {
+      "kanji": "覚",
+      "amHan": "Giác",
+      "nghia": "Nhớ, tỉnh giấc, cảm giác",
+      "onyomi": "カク",
+      "kunyomi": "おぼ.える, さ.める",
+      "mnemonic": {
+        "text": "Đứa trẻ học dưới mái nhà (cách điệu phần trên) để GIÁC ngộ và nhìn (見) ra chân lý."
+      },
+      "examples": [
+        { "word": "覚える", "reading": "おぼえる", "meaning": "Nhớ, học thuộc" },
+        { "word": "目覚まし", "reading": "めざまし", "meaning": "Báo thức" },
+        { "word": "感覚", "reading": "かんかく", "meaning": "Cảm giác" },
+        { "word": "自覚", "reading": "じかく", "meaning": "Tự giác, tự ý thức" },
+        { "word": "覚悟", "reading": "かくご", "meaning": "Chuẩn bị tinh thần, quyết tâm" },
+        { "word": "視覚", "reading": "しかく", "meaning": "Thị giác" }
+      ]
+    },
+    {
+      "kanji": "帽",
+      "amHan": "Mạo",
+      "nghia": "Cái mũ",
+      "onyomi": "ボウ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng khăn (巾) để đội lên đầu chống nắng (冒 - mạo hiểm dưới nắng) chính là cái MŨ."
+      },
+      "examples": [
+        { "word": "帽子", "reading": "ぼうし", "meaning": "Cái mũ" },
+        { "word": "脱帽", "reading": "だつぼう", "meaning": "Cởi mũ / Ngả mũ thán phục" },
+        { "word": "制帽", "reading": "せいぼう", "meaning": "Mũ đồng phục" },
+        { "word": "学帽", "reading": "がくぼう", "meaning": "Mũ sinh viên" }
+      ]
+    }
+  ]

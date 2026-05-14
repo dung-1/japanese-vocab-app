@@ -1,0 +1,241 @@
+﻿[
+    {
+      "kanji": "泉",
+      "amHan": "Tuyền",
+      "nghia": "Suối",
+      "onyomi": "セン",
+      "kunyomi": "いずみ",
+      "mnemonic": {
+        "text": "Nước (水) chảy ra từ khe núi TRẮNG (白) là suối (TUYỀN)."
+      },
+      "examples": [
+        { "word": "温泉", "reading": "おんせん", "meaning": "Suối nước nóng" },
+        { "word": "泉", "reading": "いずみ", "meaning": "Con suối, nguồn" },
+        { "word": "源泉", "reading": "げんせん", "meaning": "Nguồn suối, nguồn gốc" },
+        { "word": "噴水", "reading": "ふんすい", "meaning": "Vòi phun nước (chữ Tuyền đôi khi dùng trong ngữ cảnh này)" },
+        { "word": "泉水", "reading": "せんすい", "meaning": "Hồ nước trong vườn" }
+      ]
+    },
+    {
+      "kanji": "宿",
+      "amHan": "Túc",
+      "nghia": "Nhà trọ, trú lại",
+      "onyomi": "シュク",
+      "kunyomi": "やど, やど.る, やど.す",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (宀), 100 (百) NGƯỜI (亻) cùng tá TÚC qua đêm."
+      },
+      "examples": [
+        { "word": "宿題", "reading": "しゅくだい", "meaning": "Bài tập về nhà" },
+        { "word": "宿泊", "reading": "しゅくはく", "meaning": "Ngủ trọ, trú lại" },
+        { "word": "新宿", "reading": "しんじゅく", "meaning": "Shinjuku (địa danh)" },
+        { "word": "下宿", "reading": "げしゅく", "meaning": "Ở trọ" },
+        { "word": "宿命", "reading": "しゅくめい", "meaning": "Số mệnh, định mệnh" },
+        { "word": "宿る", "reading": "やどる", "meaning": "Trú ngụ, đọng lại" }
+      ]
+    },
+    {
+      "kanji": "季",
+      "amHan": "Quý",
+      "nghia": "Mùa, thời vụ",
+      "onyomi": "キ",
+      "mnemonic": {
+        "text": "Đứa TRẺ (子) cầm bông LÚA (禾) theo từng MÙA."
+      },
+      "examples": [
+        { "word": "季節", "reading": "きせつ", "meaning": "Mùa, thời vụ" },
+        { "word": "四季", "reading": "しき", "meaning": "Bốn mùa" },
+        { "word": "冬季", "reading": "とうき", "meaning": "Khoảng thời gian mùa đông" },
+        { "word": "雨季", "reading": "うき", "meaning": "Mùa mưa" },
+        { "word": "乾季", "reading": "かんき", "meaning": "Mùa khô" }
+      ]
+    },
+    {
+      "kanji": "豊",
+      "amHan": "Phong",
+      "nghia": "Phong phú, giàu có",
+      "onyomi": "ホウ",
+      "kunyomi": "ゆた.か",
+      "mnemonic": {
+        "text": "Trên cái ĐẬU (豆 - giá đựng), đồ ăn chất cao như núi là PHONG phú."
+      },
+      "examples": [
+        { "word": "豊富", "reading": "ほうふ", "meaning": "Phong phú, giàu có" },
+        { "word": "豊か", "reading": "ゆたか", "meaning": "Giàu có, phong phú" },
+        { "word": "豊作", "reading": "ほうさく", "meaning": "Mùa màng bội thu" },
+        { "word": "豊満", "reading": "ほうまん", "meaning": "Đầy đặn, nảy nở" },
+        { "word": "豊穣", "reading": "ほうじょう", "meaning": "Màu mỡ, phong nhiêu" }
+      ]
+    },
+    {
+      "kanji": "富",
+      "amHan": "Phú",
+      "nghia": "Giàu sang",
+      "onyomi": "フ, フウ",
+      "kunyomi": "と.む, とみ",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (宀), có MIỆNG (口) ăn và RUỘNG (田) để làm giàu PHÚ."
+      },
+      "examples": [
+        { "word": "富士山", "reading": "ふじさん", "meaning": "Núi Phú Sĩ" },
+        { "word": "富", "reading": "とみ", "meaning": "Của cải, tài sản" },
+        { "word": "富む", "reading": "とむ", "meaning": "Giàu có, phong phú về..." },
+        { "word": "貧富", "reading": "ひんぷ", "meaning": "Giàu nghèo" },
+        { "word": "富裕層", "reading": "ふゆうそう", "meaning": "Tầng lớp giàu có" }
+      ]
+    },
+    {
+      "kanji": "迎",
+      "amHan": "Nghênh",
+      "nghia": "Đón tiếp",
+      "onyomi": "ゲイ",
+      "kunyomi": "むか.える",
+      "mnemonic": {
+        "text": "Bước ĐI (辶) để nghênh đón người ngưỡng MỘ (卬)."
+      },
+      "examples": [
+        { "word": "迎える", "reading": "むかえる", "meaning": "Đón tiếp" },
+        { "word": "歓迎", "reading": "かんげい", "meaning": "Hoan nghênh, chào đón" },
+        { "word": "迎えに来る", "reading": "むかえにくる", "meaning": "Đến đón" },
+        { "word": "送迎", "reading": "そうげい", "meaning": "Việc đưa đón" },
+        { "word": "迎撃", "reading": "げいげき", "meaning": "Đánh chặn (quân sự)" }
+      ]
+    },
+    {
+      "kanji": "泊",
+      "amHan": "Bạc",
+      "nghia": "Trú lại, đậu thuyền",
+      "onyomi": "ハク",
+      "kunyomi": "と.まる, と.める",
+      "mnemonic": {
+        "text": "NƯỚC (氵) TRẮNG (白) xóa khi thuyền cập bến để dừng BẠC."
+      },
+      "examples": [
+        { "word": "一泊二日", "reading": "いっぱくふつか", "meaning": "2 ngày 1 đêm" },
+        { "word": "宿泊", "reading": "しゅくはく", "meaning": "Trú lại, ở trọ" },
+        { "word": "泊まる", "reading": "とまる", "meaning": "Ở lại, trú lại" },
+        { "word": "外泊", "reading": "がいはく", "meaning": "Ngủ bên ngoài (không về nhà)" },
+        { "word": "漂泊", "reading": "ひょうはく", "meaning": "Phiêu bạt" }
+      ]
+    },
+    {
+      "kanji": "居",
+      "amHan": "Cư",
+      "nghia": "Ở, cư trú",
+      "onyomi": "キョ",
+      "kunyomi": "い.る",
+      "mnemonic": {
+        "text": "Cái THÂN XÁC (尸) ngồi yên trên chiếc GHẾ (古 - cổ) để CƯ ngụ."
+      },
+      "examples": [
+        { "word": "居眠り", "reading": "いねむり", "meaning": "Ngủ gật" },
+        { "word": "居間", "reading": "いま", "meaning": "Phòng khách" },
+        { "word": "居酒屋", "reading": "いざかや", "meaning": "Quán rượu" },
+        { "word": "居住", "reading": "きょじゅう", "meaning": "Cư trú, sinh sống" },
+        { "word": "同居", "reading": "どうきょ", "meaning": "Sống chung" },
+        { "word": "居心地", "reading": "いごこち", "meaning": "Cảm giác khi ở một nơi nào đó" }
+      ]
+    },
+    {
+      "kanji": "築",
+      "amHan": "Trúc",
+      "nghia": "Xây dựng",
+      "onyomi": "チク",
+      "kunyomi": "きず.く",
+      "mnemonic": {
+        "text": "Dùng TRE (竹) và GỖ (木) để xây TRÚC công trình."
+      },
+      "examples": [
+        { "word": "建築", "reading": "けんちく", "meaning": "Kiến trúc, xây dựng" },
+        { "word": "築く", "reading": "きずく", "meaning": "Xây dựng (mối quan hệ, tòa nhà)" },
+        { "word": "新築", "reading": "しんちく", "meaning": "Xây mới" },
+        { "word": "改築", "reading": "かいちく", "meaning": "Xây dựng lại, cải tạo" },
+        { "word": "築地", "reading": "つきじ", "meaning": "Tsukiji (địa danh chợ cá)" }
+      ]
+    },
+    {
+      "kanji": "角",
+      "amHan": "Gác, Giác",
+      "nghia": "Góc, sừng",
+      "onyomi": "カク",
+      "kunyomi": "かど, つの",
+      "mnemonic": {
+        "text": "Dùng dao (刀) cắt dưới cái hộp (用) để tạo ra các GÓC."
+      },
+      "examples": [
+        { "word": "角度", "reading": "かくど", "meaning": "Góc độ" },
+        { "word": "角", "reading": "かど", "meaning": "Góc đường" },
+        { "word": "三角形", "reading": "さんかっけい", "meaning": "Hình tam giác" },
+        { "word": "四角い", "reading": "しかくい", "meaning": "Hình vuông" },
+        { "word": "方角", "reading": "ほうがく", "meaning": "Phương hướng" },
+        { "word": "角", "reading": "つの", "meaning": "Sừng (động vật)" }
+      ]
+    },
+    {
+      "kanji": "徒",
+      "amHan": "Đồ",
+      "nghia": "Môn đồ, người đi bộ",
+      "onyomi": "ト",
+      "mnemonic": {
+        "text": "Bước CHÂN (彳) đi bộ trên ĐẤT (土) là hành động của môn ĐỒ."
+      },
+      "examples": [
+        { "word": "生徒", "reading": "せいと", "meaning": "Học sinh" },
+        { "word": "徒歩", "reading": "とほ", "meaning": "Đi bộ" },
+        { "word": "使徒", "reading": "しと", "meaning": "Sứ đồ" },
+        { "word": "教徒", "reading": "きょうと", "meaning": "Tín đồ" },
+        { "word": "徒労", "reading": "とろう", "meaning": "Công dã tràng, vô ích" }
+      ]
+    },
+    {
+      "kanji": "畳",
+      "amHan": "Điệp",
+      "nghia": "Cái chiếu, gấp lại",
+      "onyomi": "ジョウ",
+      "kunyomi": "たた.む, たたみ",
+      "mnemonic": {
+        "text": "Trên MIỆNG (口) ruộng (田) được gấp ĐIỆP lại thành từng lớp."
+      },
+      "examples": [
+        { "word": "畳", "reading": "たたみ", "meaning": "Chiếu Tatami" },
+        { "word": "畳む", "reading": "たたむ", "meaning": "Gấp (quần áo, lều)" },
+        { "word": "六畳", "reading": "ろくじょう", "meaning": "Phòng rộng 6 chiếu" },
+        { "word": "畳み掛ける", "reading": "たたみがける", "meaning": "Dồn dập, liên tiếp" }
+      ]
+    },
+    {
+      "kanji": "米",
+      "amHan": "Mễ",
+      "nghia": "Gạo, nước Mỹ",
+      "onyomi": "ベイ, マイ",
+      "kunyomi": "こめ",
+      "mnemonic": {
+        "text": "Hình ảnh hạt gạo rơi vãi quanh cái cây."
+      },
+      "examples": [
+        { "word": "お米", "reading": "おこめ", "meaning": "Gạo" },
+        { "word": "米国", "reading": "べいこく", "meaning": "Nước Mỹ" },
+        { "word": "欧米", "reading": "おうべい", "meaning": "Âu Mỹ" },
+        { "word": "新米", "reading": "しんまい", "meaning": "Gạo mới / Người mới vào nghề" },
+        { "word": "玄米", "reading": "げんまい", "meaning": "Gạo lứt" }
+      ]
+    },
+    {
+      "kanji": "解",
+      "amHan": "Giải",
+      "nghia": "Giải quyết, hiểu",
+      "onyomi": "カイ, ゲ",
+      "kunyomi": "と.く, と.かす, と.ける",
+      "mnemonic": {
+        "text": "Dùng DAO (刀) cắt cái SỪNG (角) con BÒ (牛) để GIẢI phẫu."
+      },
+      "examples": [
+        { "word": "解決", "reading": "かいけつ", "meaning": "Giải quyết" },
+        { "word": "理解", "reading": "りかい", "meaning": "Lý giải, hiểu" },
+        { "word": "解説", "reading": "かいせつ", "meaning": "Giải thích" },
+        { "word": "解答", "reading": "かいとう", "meaning": "Câu trả lời, đáp án" },
+        { "word": "解放", "reading": "かいほう", "meaning": "Giải phóng" },
+        { "word": "解ける", "reading": "とける", "meaning": "Được giải quyết / Tan chảy" }
+      ]
+    }
+  ]

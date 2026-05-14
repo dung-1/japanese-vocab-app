@@ -1,0 +1,237 @@
+﻿[
+    {
+      "kanji": "筒",
+      "amHan": "Đồng",
+      "nghia": "Ống, ống hình trụ",
+      "onyomi": "トウ",
+      "kunyomi": "つつ",
+      "mnemonic": {
+        "text": "Lấy TRÚC (竹) làm vật CÙNG (同) hình dạng để làm cái ỐNG."
+      },
+      "examples": [
+        { "word": "封筒", "reading": "ふうとう", "meaning": "phong bì" },
+        { "word": "水筒", "reading": "すいとう", "meaning": "bình đựng nước" },
+        { "word": "円筒", "reading": "えんとう", "meaning": "hình trụ" },
+        { "word": "筒先", "reading": "つつさき", "meaning": "đầu ống, vòi phun" },
+        { "word": "筒抜け", "reading": "つつぬけ", "meaning": "lọt tai này sang tai kia/ rò rỉ (thông tin)" }
+      ]
+    },
+    {
+      "kanji": "卒",
+      "amHan": "Tốt",
+      "nghia": "Tốt nghiệp, quân lính",
+      "onyomi": "ソツ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Người đội mũ (亠) mặc áo (从) là quân TỐT."
+      },
+      "examples": [
+        { "word": "卒業", "reading": "そつぎょう", "meaning": "tốt nghiệp" },
+        { "word": "新卒", "reading": "しんそつ", "meaning": "vừa mới tốt nghiệp" },
+        { "word": "大卒", "reading": "だいそつ", "meaning": "tốt nghiệp đại học" },
+        { "word": "卒直", "reading": "そっちょく", "meaning": "thẳng thắn, bộc trực" },
+        { "word": "脳卒中", "reading": "のうそっちゅう", "meaning": "đột quỵ, tai biến mạch máu não" }
+      ]
+    },
+    {
+      "kanji": "績",
+      "amHan": "Tích",
+      "nghia": "Thành tích",
+      "onyomi": "セキ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng sợi CHỈ (糸) kết thành TRÁCH (責) nhiệm tạo nên thành TÍCH."
+      },
+      "examples": [
+        { "word": "成績", "reading": "せいせき", "meaning": "thành tích, kết quả học tập" },
+        { "word": "実績", "reading": "じっせき", "meaning": "thành tích thực tế" },
+        { "word": "業績", "reading": "ぎょうせき", "meaning": "thành tích kinh doanh/nghiên cứu" },
+        { "word": "紡績", "reading": "ぼうせき", "meaning": "dệt sợi" }
+      ]
+    },
+    {
+      "kanji": "論",
+      "amHan": "Luận",
+      "nghia": "Thảo luận, lý luận",
+      "onyomi": "ロン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng NGÔN từ (言) để bàn LUẬN về cuốn SÁCH (侖)."
+      },
+      "examples": [
+        { "word": "論文", "reading": "ろんぶん", "meaning": "luận văn" },
+        { "word": "議論", "reading": "ぎろん", "meaning": "thảo luận, bàn luận" },
+        { "word": "結論", "reading": "けつろん", "meaning": "kết luận" },
+        { "word": "論理的", "reading": "ろんりてき", "meaning": "tính logic" },
+        { "word": "世論", "reading": "よろん", "meaning": "dư luận" },
+        { "word": "理論", "reading": "りろん", "meaning": "lý luận, lý thuyết" }
+      ]
+    },
+    {
+      "kanji": "志",
+      "amHan": "Chí",
+      "nghia": "Ý chí, chí hướng",
+      "onyomi": "シ",
+      "kunyomi": "こころざ・す, こころざし",
+      "mnemonic": {
+        "text": "Kẻ SĨ (士) có cái TÂM (心) lớn gọi là CHÍ."
+      },
+      "examples": [
+        { "word": "意志", "reading": "いし", "meaning": "ý chí" },
+        { "word": "志望", "reading": "しぼう", "meaning": "nguyện vọng, ước muốn" },
+        { "word": "志向", "reading": "しこう", "meaning": "chí hướng" },
+        { "word": "同志", "reading": "どうし", "meaning": "đồng chí" },
+        { "word": "志す", "reading": "こころざす", "meaning": "quyết tâm, hướng tới" }
+      ]
+    },
+    {
+      "kanji": "述",
+      "amHan": "Thuật",
+      "nghia": "Nói, bày tỏ, thuật lại",
+      "onyomi": "ジュツ",
+      "kunyomi": "の・べる",
+      "mnemonic": {
+        "text": "BƯỚC ĐI (辶) và cầm hạt lúa (朮) để THUẬT lại sự việc."
+      },
+      "examples": [
+        { "word": "述べる", "reading": "のべる", "meaning": "bày tỏ, trình bày" },
+        { "word": "記述", "reading": "きじゅつ", "meaning": "ghi chép, mô tả" },
+        { "word": "前述", "reading": "ぜんじゅつ", "meaning": "đã nói ở trên" },
+        { "word": "口述", "reading": "こうじゅつ", "meaning": "truyền miệng" },
+        { "word": "述語", "reading": "じゅつご", "meaning": "vị ngữ" }
+      ]
+    },
+    {
+      "kanji": "構",
+      "amHan": "Cấu",
+      "nghia": "Cấu tạo, thiết lập",
+      "onyomi": "コウ",
+      "kunyomi": "かま・える",
+      "mnemonic": {
+        "text": "Dùng GỖ (木) để CẤU thành GIẢNG (講) đường."
+      },
+      "examples": [
+        { "word": "構成", "reading": "こうせい", "meaning": "cấu thành" },
+        { "word": "構造", "reading": "こうぞう", "meaning": "cấu tạo" },
+        { "word": "構内", "reading": "こうない", "meaning": "trong khuôn viên" },
+        { "word": "結構", "reading": "けっこう", "meaning": "tạm được, đủ rồi" },
+        { "word": "構う", "reading": "かまう", "meaning": "quan tâm, để ý" },
+        { "word": "構え", "reading": "かまえ", "meaning": "tư thế, phong thái" }
+      ]
+    },
+    {
+      "kanji": "遅",
+      "amHan": "Trì",
+      "nghia": "Muộn, chậm",
+      "onyomi": "チ",
+      "kunyomi": "おく・れる, おそ・い",
+      "mnemonic": {
+        "text": "BƯỚC ĐI (辶) chậm như con TÊ NGƯU (尸+羊) là bị TRÌ trệ."
+      },
+      "examples": [
+        { "word": "遅刻", "reading": "ちこく", "meaning": "đến muộn" },
+        { "word": "遅れる", "reading": "おくれる", "meaning": "chậm, muộn" },
+        { "word": "遅い", "reading": "おそい", "meaning": "chậm chạp" },
+        { "word": "遅延", "reading": "ちえん", "meaning": "trì hoãn" },
+        { "word": "手遅れ", "reading": "ておくれ", "meaning": "quá muộn, không còn kịp" }
+      ]
+    },
+    {
+      "kanji": "仮",
+      "amHan": "Giả",
+      "nghia": "Giả định, tạm thời",
+      "onyomi": "カ, ケ",
+      "kunyomi": "かり",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) PHẢN (反) lại sự thật là GIẢ dối."
+      },
+      "examples": [
+        { "word": "仮定", "reading": "かてい", "meaning": "giả định" },
+        { "word": "仮名", "reading": "かな", "meaning": "chữ Kana" },
+        { "word": "仮装", "reading": "かそう", "meaning": "cải trang" },
+        { "word": "仮", "reading": "かり", "meaning": "tạm thời" },
+        { "word": "仮説", "reading": "かせつ", "meaning": "giả thuyết" }
+      ]
+    },
+    {
+      "kanji": "机",
+      "amHan": "Cơ",
+      "nghia": "Cái bàn",
+      "onyomi": "キ",
+      "kunyomi": "つくえ",
+      "mnemonic": {
+        "text": "Cái BÀN làm bằng GỖ (木) có hình chữ CƠ (几)."
+      },
+      "examples": [
+        { "word": "机", "reading": "つくえ", "meaning": "cái bàn" },
+        { "word": "机上の空論", "reading": "きじょうのくうろん", "meaning": "lý thuyết suông (trên bàn)" },
+        { "word": "学習机", "reading": "がくしゅうづくえ", "meaning": "bàn học" }
+      ]
+    },
+    {
+      "kanji": "冊",
+      "amHan": "Sách",
+      "nghia": "Quyển sách",
+      "onyomi": "サツ, サク",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Hình các thanh tre được buộc lại thành CUỐN SÁCH."
+      },
+      "examples": [
+        { "word": "～冊", "reading": "～さつ", "meaning": "...quyển (đơn vị đếm sách)" },
+        { "word": "冊子", "reading": "さっし", "meaning": "cuốn sách nhỏ, tập san" },
+        { "word": "別冊", "reading": "べっさつ", "meaning": "tập đính kèm, phụ bản" }
+      ]
+    },
+    {
+      "kanji": "採",
+      "amHan": "Thái",
+      "nghia": "Hái, lượm, tuyển dụng",
+      "onyomi": "サイ",
+      "kunyomi": "と・る",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) THÁI (采) lượm quả trên cây."
+      },
+      "examples": [
+        { "word": "採用", "reading": "さいよう", "meaning": "tuyển dụng, áp dụng" },
+        { "word": "採る", "reading": "とる", "meaning": "hái, lượm, chấp nhận" },
+        { "word": "採集", "reading": "さいしゅう", "meaning": "thu thập, gom góp" },
+        { "word": "採点", "reading": "さいてん", "meaning": "chấm điểm" },
+        { "word": "採掘", "reading": "さいくつ", "meaning": "khai thác mỏ" }
+      ]
+    },
+    {
+      "kanji": "濃",
+      "amHan": "Nồng",
+      "nghia": "Đậm, nồng",
+      "onyomi": "ノウ",
+      "kunyomi": "こ・い",
+      "mnemonic": {
+        "text": "NƯỚC (氵) trong NÔNG (農) trường rất NỒNG đậm."
+      },
+      "examples": [
+        { "word": "濃い", "reading": "こい", "meaning": "đậm (màu), đặc (canh)" },
+        { "word": "濃度", "reading": "のうど", "meaning": "nồng độ" },
+        { "word": "濃厚", "reading": "のうこう", "meaning": "nồng hậu, đậm đà" },
+        { "word": "濃縮", "reading": "のうしゅく", "meaning": "cô đặc" }
+      ]
+    },
+    {
+      "kanji": "筆",
+      "amHan": "Bút",
+      "nghia": "Cây bút",
+      "onyomi": "ヒツ",
+      "kunyomi": "ふで",
+      "mnemonic": {
+        "text": "Dùng TRÚC (竹) và lông DUẬT (聿) để làm BÚT."
+      },
+      "examples": [
+        { "word": "筆記", "reading": "ひっき", "meaning": "ghi chép" },
+        { "word": "鉛筆", "reading": "えんぴつ", "meaning": "bút chì" },
+        { "word": "筆者", "reading": "ひっしゃ", "meaning": "tác giả" },
+        { "word": "万年筆", "reading": "まんねんひつ", "meaning": "bút máy" },
+        { "word": "筆", "reading": "ふで", "meaning": "bút lông" },
+        { "word": "随筆", "reading": "ずいひつ", "meaning": "tùy bút" }
+      ]
+    }
+  ]

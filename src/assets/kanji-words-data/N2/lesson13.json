@@ -1,0 +1,229 @@
+﻿[
+    {
+      "kanji": "様",
+      "amHan": "Dạng",
+      "nghia": "Hình dạng, ngài (kính ngữ)",
+      "onyomi": "ヨウ",
+      "kunyomi": "さま",
+      "mnemonic": {
+        "text": "Dưới gốc CÂY (木), con CỪU (羊) uống NƯỚC (水) trông thật là quý phái (DẠNG)."
+      },
+      "examples": [
+        { "word": "様子", "reading": "ようす", "meaning": "tình trạng, dáng vẻ" },
+        { "word": "同様", "reading": "どうよう", "meaning": "tương tự, giống như" },
+        { "word": "多様", "reading": "たよう", "meaning": "đa dạng" },
+        { "word": "様式", "reading": "ようしき", "meaning": "hình thức, phong cách" },
+        { "word": "模様", "reading": "もよう", "meaning": "hoa văn, mô hình" },
+        { "word": "皆様", "reading": "みなさま", "meaning": "quý vị, mọi người" }
+      ]
+    },
+    {
+      "kanji": "要",
+      "amHan": "Yếu",
+      "nghia": "Quan trọng, cần thiết",
+      "onyomi": "ヨウ",
+      "kunyomi": "い・る",
+      "mnemonic": {
+        "text": "Người PHỤ NỮ (女) đang KIỂM TRA (覀) những thứ CẦN THIẾT."
+      },
+      "examples": [
+        { "word": "重要", "reading": "じゅうよう", "meaning": "trọng yếu, quan trọng" },
+        { "word": "必要", "reading": "ひつよう", "meaning": "cần thiết" },
+        { "word": "要領", "reading": "ようりょう", "meaning": "điểm chính, sự thấu đáo" },
+        { "word": "要望", "reading": "ようぼう", "meaning": "mong mỏi, nguyện vọng" },
+        { "word": "要素", "reading": "ようそ", "meaning": "yếu tố" },
+        { "word": "要約", "reading": "ようやく", "meaning": "tóm tắt" }
+      ]
+    },
+    {
+      "kanji": "利",
+      "amHan": "Lợi",
+      "nghia": "Lợi ích, thông minh",
+      "onyomi": "リ",
+      "kunyomi": "き・く",
+      "mnemonic": {
+        "text": "Dùng ĐAO (刂) gặt LÚA (禾) thì sẽ có LỢI."
+      },
+      "examples": [
+        { "word": "利用", "reading": "りよう", "meaning": "sử dụng" },
+        { "word": "便利", "reading": "べんり", "meaning": "tiện lợi" },
+        { "word": "利益", "reading": "りえき", "meaning": "lợi ích, lợi nhuận" },
+        { "word": "利口", "reading": "りこう", "meaning": "thông minh, lanh lợi" },
+        { "word": "有利", "reading": "ゆうり", "meaning": "có lợi" },
+        { "word": "権利", "reading": "けんり", "meaning": "quyền lợi" }
+      ]
+    },
+    {
+      "kanji": "細",
+      "amHan": "Tế",
+      "nghia": "Nhỏ, chi tiết, gầy",
+      "onyomi": "サイ",
+      "kunyomi": "ほそ・い / こま・かい",
+      "mnemonic": {
+        "text": "SỢI CHỈ (糸) quấn quanh RUỘNG (田) thì rất MẢNH và TIN TẾ."
+      },
+      "examples": [
+        { "word": "細かい", "reading": "こまかい", "meaning": "nhỏ nhặt, chi tiết" },
+        { "word": "細い", "reading": "ほそい", "meaning": "mỏng, gầy" },
+        { "word": "細胞", "reading": "さいぼう", "meaning": "tế bào" },
+        { "word": "細部", "reading": "さいぶ", "meaning": "chi tiết nhỏ" },
+        { "word": "明細", "reading": "めいさい", "meaning": "chi tiết rõ ràng (hóa đơn)" },
+        { "word": "繊細", "reading": "せんさい", "meaning": "tinh tế, nhạy cảm" }
+      ]
+    },
+    {
+      "kanji": "客",
+      "amHan": "Khách",
+      "nghia": "Khách hàng",
+      "onyomi": "キャク / カク",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Mỗi (各) người đến NHÀ (宀) đều là KHÁCH."
+      },
+      "examples": [
+        { "word": "お客さん", "reading": "おきゃくさん", "meaning": "khách hàng" },
+        { "word": "乗客", "reading": "じょうきゃく", "meaning": "hành khách" },
+        { "word": "観客", "reading": "かんきゃく", "meaning": "khán giả" },
+        { "word": "客観的", "reading": "かっかんてき", "meaning": "mang tính khách quan" },
+        { "word": "来客", "reading": "らいきゃく", "meaning": "khách đến chơi nhà" }
+      ]
+    },
+    {
+      "kanji": "額",
+      "amHan": "Ngạch",
+      "nghia": "Cái trán, hạn mức, số tiền",
+      "onyomi": "ガク",
+      "kunyomi": "ひたい",
+      "mnemonic": {
+        "text": "KHÁCH (客) có cái ĐẦU (頁) rất to, TRÁN cao nên tiêu nhiều tiền (NGẠCH)."
+      },
+      "examples": [
+        { "word": "金額", "reading": "きんがく", "meaning": "số tiền" },
+        { "word": "額", "reading": "ひたい", "meaning": "cái trán" },
+        { "word": "全額", "reading": "ぜんがく", "meaning": "toàn bộ số tiền" },
+        { "word": "額縁", "reading": "がくぶち", "meaning": "khung tranh" },
+        { "word": "差額", "reading": "さがく", "meaning": "số tiền chênh lệch" }
+      ]
+    },
+    {
+      "kanji": "込",
+      "amHan": "Vào (không có âm Hán Việt chuẩn, thường dùng nghĩa 'nhồi, vào')",
+      "nghia": "Đông đúc, bao gồm, nạp vào",
+      "onyomi": "",
+      "kunyomi": "こ・む / こ・める",
+      "mnemonic": {
+        "text": "Đi bộ trên ĐƯỜNG (辶) đi VÀO (入) chỗ ĐÔNG ĐÚC."
+      },
+      "examples": [
+        { "word": "申し込む", "reading": "もうしこむ", "meaning": "đăng ký" },
+        { "word": "人込み", "reading": "ひとごみ", "meaning": "đám đông" },
+        { "word": "税込", "reading": "ぜいこみ", "meaning": "bao gồm thuế" },
+        { "word": "思い込む", "reading": "おもいこむ", "meaning": "tin rằng, cho là (đúng)" },
+        { "word": "払い込む", "reading": "はらいこむ", "meaning": "nộp tiền, đóng tiền" },
+        { "word": "飲み込む", "reading": "のみこむ", "meaning": "nuốt vào, hiểu rõ" }
+      ]
+    },
+    {
+      "kanji": "領",
+      "amHan": "Lĩnh",
+      "nghia": "Lĩnh vực, lãnh thổ, nhận",
+      "onyomi": "リョウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Người có LỆNH (令) quản lý cái ĐẦU (頁) là người thống LĨNH vùng đất này."
+      },
+      "examples": [
+        { "word": "領収書", "reading": "りょうしゅうしょ", "meaning": "hóa đơn, biên lai" },
+        { "word": "大統領", "reading": "だいとうりょう", "meaning": "tổng thống" },
+        { "word": "領域", "reading": "りょういき", "meaning": "lĩnh vực, phạm vi" },
+        { "word": "領土", "reading": "りょうど", "meaning": "lãnh thổ" },
+        { "word": "占領", "reading": "せんりょう", "meaning": "chiếm đóng" }
+      ]
+    },
+    {
+      "kanji": "収",
+      "amHan": "Thu",
+      "nghia": "Thu thập, thu hoạch, kết quả",
+      "onyomi": "シュウ",
+      "kunyomi": "おさ・める / おさ・まる",
+      "mnemonic": {
+        "text": "Dùng CÁI GHẾ (丩 - biến thể) để THU dọn đồ đạc bằng TAY (又)."
+      },
+      "examples": [
+        { "word": "収入", "reading": "しゅうにゅう", "meaning": "thu nhập" },
+        { "word": "収集", "reading": "しゅうしゅう", "meaning": "thu thập, thu gom" },
+        { "word": "吸収", "reading": "きゅうしゅう", "meaning": "hấp thụ" },
+        { "word": "収穫", "reading": "しゅうかく", "meaning": "thu hoạch" },
+        { "word": "収納", "reading": "しゅうのう", "meaning": "cất giữ, lưu kho" },
+        { "word": "収まる", "reading": "おさまる", "meaning": "giải quyết xong, vừa vặn" }
+      ]
+    },
+    {
+      "kanji": "械",
+      "amHan": "Giới",
+      "nghia": "Máy móc, xiềng xích",
+      "onyomi": "カイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dùng GỖ (木) làm thiết bị để răn đe kẻ CẢNH GIỚI (戒)."
+      },
+      "examples": [
+        { "word": "機械", "reading": "きかい", "meaning": "máy móc" },
+        { "word": "器械", "reading": "きかい", "meaning": "dụng cụ, thiết bị" },
+        { "word": "機械化", "reading": "きかいか", "meaning": "máy móc hóa" },
+        { "word": "機械的", "reading": "きかいてき", "meaning": "mang tính máy móc" }
+      ]
+    },
+    {
+      "kanji": "曲",
+      "amHan": "Khúc",
+      "nghia": "Khúc nhạc, cong, uốn éo",
+      "onyomi": "キョク",
+      "kunyomi": "ま・がる / ま・げる",
+      "mnemonic": {
+        "text": "Hình vẽ cái THƯỚC dây uốn CONG để tạo thành KHÚC nhạc."
+      },
+      "examples": [
+        { "word": "曲がる", "reading": "まがる", "meaning": "rẽ, cong" },
+        { "word": "曲線", "reading": "きょくせん", "meaning": "đường cong" },
+        { "word": "作曲", "reading": "さっきょく", "meaning": "sáng tác nhạc" },
+        { "word": "名曲", "reading": "めいきょく", "meaning": "bản nhạc nổi tiếng" },
+        { "word": "曲げる", "reading": "まげる", "meaning": "uốn cong, bẻ cong" },
+        { "word": "屈折", "reading": "くっせつ", "meaning": "khúc xạ" }
+      ]
+    },
+    {
+      "kanji": "汚",
+      "amHan": "Ô",
+      "nghia": "Bẩn, ô nhiễm",
+      "onyomi": "オ",
+      "kunyomi": "よご・れる / きたな・い / けが・れる",
+      "mnemonic": {
+        "text": "NƯỚC (氵) đọng lại ở một CHỖ (于) lâu ngày sẽ bị Ô nhiễm."
+      },
+      "examples": [
+        { "word": "汚い", "reading": "きたない", "meaning": "bẩn" },
+        { "word": "汚染", "reading": "おせん", "meaning": "ô nhiễm" },
+        { "word": "汚れる", "reading": "よごれる", "meaning": "bị bẩn" },
+        { "word": "汚す", "reading": "よごす", "meaning": "làm bẩn" },
+        { "word": "汚名", "reading": "おめい", "meaning": "ô danh, tiếng xấu" }
+      ]
+    },
+    {
+      "kanji": "殿",
+      "amHan": "Điện",
+      "nghia": "Cung điện, ngài (kính ngữ cổ)",
+      "onyomi": "デン / テン",
+      "kunyomi": "との / どの",
+      "mnemonic": {
+        "text": "Dưới MÁI NHÀ (尸), người CỘNG TÁC (共) cầm VẬT (殳) canh giữ cung ĐIỆN."
+      },
+      "examples": [
+        { "word": "殿様", "reading": "とのさま", "meaning": "lãnh chúa, quý tộc" },
+        { "word": "宮殿", "reading": "きゅうでん", "meaning": "cung điện" },
+        { "word": "神殿", "reading": "しんでん", "meaning": "đền thờ" },
+        { "word": "殿堂", "reading": "でんどう", "meaning": "tòa lâu đài, điện" },
+        { "word": "～殿", "reading": "どの", "meaning": "ngài... (dùng trong văn thư trịnh trọng)" }
+      ]
+    }
+  ]

@@ -1,0 +1,246 @@
+﻿[
+    {
+      "kanji": "連",
+      "amHan": "Liên",
+      "nghia": "Liên lạc, liên tục",
+      "onyomi": "レン",
+      "kunyomi": "つら.なる, つ.れる",
+      "mnemonic": {
+        "text": "XE (車) chạy liên tiếp trên ĐƯỜNG (辶) tạo thành một chuỗi LIÊN tục."
+      },
+      "examples": [
+        { "word": "連絡", "reading": "れんらく", "meaning": "Liên lạc" },
+        { "word": "連休", "reading": "れんきゅう", "meaning": "Kỳ nghỉ dài" },
+        { "word": "関連", "reading": "かんれん", "meaning": "Liên quan" },
+        { "word": "連れて行くる", "reading": "つれていく", "meaning": "Dẫn đi" },
+        { "word": "連続", "reading": "れんぞく", "meaning": "Liên tục" },
+        { "word": "連帯感", "reading": "れんたいかん", "meaning": "Tình đoàn kết" }
+      ]
+    },
+    {
+      "kanji": "絡",
+      "amHan": "Lạc",
+      "nghia": "Liên lạc, quấn quýt",
+      "onyomi": "ラク",
+      "kunyomi": "から.む",
+      "mnemonic": {
+        "text": "Dùng sợi CHỈ (糸) để nối các CÁI PHÙNG (各) lại tạo thành mạng lưới LIÊN LẠC."
+      },
+      "examples": [
+        { "word": "連絡", "reading": "れんらく", "meaning": "Liên lạc" },
+        { "word": "絡む", "reading": "からむ", "meaning": "Cản trở, liên quan, quấn vào" },
+        { "word": "脈絡", "reading": "みゃくらく", "meaning": "Mạch lạc, ngữ cảnh" },
+        { "word": "絡まる", "reading": "からまる", "meaning": "Bị rối, bị quấn quýt" },
+        { "word": "短絡的", "reading": "たんらくてき", "meaning": "Thiển cận, suy nghĩ ngắn" }
+      ]
+    },
+    {
+      "kanji": "荷",
+      "amHan": "Hà",
+      "nghia": "Hàng hóa, hành lý",
+      "onyomi": "カ",
+      "kunyomi": "に",
+      "mnemonic": {
+        "text": "CỎ (艹) là loại HÀNG (荷) mà NGƯỜI (亻) CÓ (可) thể gánh được."
+      },
+      "examples": [
+        { "word": "荷物", "reading": "にもつ", "meaning": "Hành lý, hàng hóa" },
+        { "word": "重荷", "reading": "おもに", "meaning": "Gánh nặng" },
+        { "word": "出荷", "reading": "しゅっか", "meaning": "Xuất hàng" },
+        { "word": "入荷", "reading": "にゅうか", "meaning": "Nhập hàng" },
+        { "word": "負荷", "reading": "ふか", "meaning": "Phụ tải, tải trọng" },
+        { "word": "荷造り", "reading": "にづくり", "meaning": "Đóng gói hành lý" }
+      ]
+    },
+    {
+      "kanji": "届",
+      "amHan": "Giới",
+      "nghia": "Gửi đến, thông báo",
+      "onyomi": "カイ",
+      "kunyomi": "とど.ける, とど.く",
+      "mnemonic": {
+        "text": "Người TỰ DO (由) nằm dưới MÁI NHÀ (尸) chờ hàng GỬI ĐẾN."
+      },
+      "examples": [
+        { "word": "届ける", "reading": "とどける", "meaning": "Giao đến, gửi đến" },
+        { "word": "届く", "reading": "とどく", "meaning": "Được gửi đến" },
+        { "word": "欠席届", "reading": "けっせきとどけ", "meaning": "Đơn xin nghỉ học" },
+        { "word": "届け出", "reading": "とどけで", "meaning": "Trình báo, thông báo" },
+        { "word": "送り届ける", "reading": "おくりとどける", "meaning": "Gửi đến tận nơi" }
+      ]
+    },
+    {
+      "kanji": "参",
+      "amHan": "Tham",
+      "nghia": "Tham gia, đi (khiêm nhường ngữ)",
+      "onyomi": "サン",
+      "kunyomi": "まい.る",
+      "mnemonic": {
+        "text": "Ba người (phần dưới) cùng đi dưới trăng (phần trên) để THAM gia lễ hội."
+      },
+      "examples": [
+        { "word": "参加", "reading": "さんか", "meaning": "Tham gia" },
+        { "word": "参る", "reading": "まいる", "meaning": "Đi, đến (khiêm nhường)" },
+        { "word": "参考", "reading": "さんこう", "meaning": "Tham khảo" },
+        { "word": "参拝", "reading": "さんぱい", "meaning": "Đi lễ chùa" },
+        { "word": "参議院", "reading": "さんぎいん", "meaning": "Thượng nghị viện" },
+        { "word": "持参", "reading": "じさん", "meaning": "Mang theo" }
+      ]
+    },
+    {
+      "kanji": "衣",
+      "amHan": "Y",
+      "nghia": "Trang phục, quần áo",
+      "onyomi": "イ",
+      "kunyomi": "ころも",
+      "mnemonic": {
+        "text": "Hình ảnh cái ÁO dài che thân người."
+      },
+      "examples": [
+        { "word": "衣服", "reading": "いふく", "meaning": "Y phục, quần áo" },
+        { "word": "衣料", "reading": "いりょう", "meaning": "Đồ may mặc" },
+        { "word": "衣食住", "reading": "いしょくじゅう", "meaning": "Ăn, mặc, ở" },
+        { "word": "浴衣", "reading": "ゆかた", "meaning": "Áo Kimono mùa hè" },
+        { "word": "更衣室", "reading": "こういしつ", "meaning": "Phòng thay đồ" }
+      ]
+    },
+    {
+      "kanji": "他",
+      "amHan": "Tha",
+      "nghia": "Khác, người khác",
+      "onyomi": "タ",
+      "kunyomi": "ほか",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) và một vật CŨNG (也) KHÁC nữa."
+      },
+      "examples": [
+        { "word": "他人", "reading": "たにん", "meaning": "Người lạ, người khác" },
+        { "word": "その他", "reading": "そのほか", "meaning": "Ngoài ra, cái khác" },
+        { "word": "他方", "reading": "たほう", "meaning": "Mặt khác, hướng khác" },
+        { "word": "他動詞", "reading": "たどうし", "meaning": "Tha động từ" },
+        { "word": "排他的", "reading": "はいたてき", "meaning": "Độc chiếm, bài ngoại" }
+      ]
+    },
+    {
+      "kanji": "蔵",
+      "amHan": "Tạng",
+      "nghia": "Kho chứa, tàng trữ",
+      "onyomi": "ゾウ",
+      "kunyomi": "くら",
+      "mnemonic": {
+        "text": "Dưới CỎ (艹) và NHÀ (厂), dùng THẦN (臣) binh canh giữ KHO TÀNG (戈)."
+      },
+      "examples": [
+        { "word": "冷蔵庫", "reading": "れいぞうこ", "meaning": "Tủ lạnh" },
+        { "word": "貯蔵", "reading": "ちょぞう", "meaning": "Dự trữ, tàng trữ" },
+        { "word": "蔵書", "reading": "ぞうしょ", "meaning": "Bộ sưu tập sách" },
+        { "word": "内蔵", "reading": "ないぞう", "meaning": "Nội tạng, tích hợp bên trong" },
+        { "word": "地蔵", "reading": "じぞう", "meaning": "Địa Tạng (tượng phật)" }
+      ]
+    },
+    {
+      "kanji": "凍",
+      "amHan": "Đông",
+      "nghia": "Đông lạnh, đóng băng",
+      "onyomi": "トウ",
+      "kunyomi": "こお.る, こご.える",
+      "mnemonic": {
+        "text": "BĂNG (冫) ở phía ĐÔNG (東) thì dễ bị ĐÔNG lạnh."
+      },
+      "examples": [
+        { "word": "冷凍", "reading": "れいとう", "meaning": "Làm lạnh, đông lạnh" },
+        { "word": "凍る", "reading": "こおる", "meaning": "Đông lại, đóng băng" },
+        { "word": "凍結", "reading": "とうけつ", "meaning": "Đông kết, phong tỏa (tài khoản)" },
+        { "word": "凍える", "reading": "こごえる", "meaning": "Lạnh cóng" },
+        { "word": "解凍", "reading": "かいとう", "meaning": "Giải đông, giải nén" }
+      ]
+    },
+    {
+      "kanji": "等",
+      "amHan": "Đẳng",
+      "nghia": "Bình đẳng, vân vân, cấp độ",
+      "onyomi": "トウ",
+      "kunyomi": "ひと.しい",
+      "mnemonic": {
+        "text": "Tại CHÙA (寺), những thẻ TRE (竹) được xếp ngang hàng, BÌNH ĐẲNG."
+      },
+      "examples": [
+        { "word": "平等", "reading": "びょうどう", "meaning": "Bình đẳng" },
+        { "word": "高等", "reading": "こうとう", "meaning": "Cao đẳng, cao cấp" },
+        { "word": "等しい", "reading": "ひとしい", "meaning": "Ngang bằng" },
+        { "word": "一等", "reading": "いっとう", "meaning": "Hạng nhất" },
+        { "word": "高等学校", "reading": "こうとうがっこう", "meaning": "Trường THPT" },
+        { "word": "等分", "reading": "とうぶん", "meaning": "Chia đều" }
+      ]
+    },
+    {
+      "kanji": "配",
+      "amHan": "Phối",
+      "nghia": "Phân phối, quan tâm",
+      "onyomi": "ハイ",
+      "kunyomi": "くば.る",
+      "mnemonic": {
+        "text": "Một người đang quỳ (己) PHÂN PHỐI bình RƯỢU (酉)."
+      },
+      "examples": [
+        { "word": "配達", "reading": "はいたつ", "meaning": "Giao hàng" },
+        { "word": "心配", "reading": "しんぱい", "meaning": "Lo lắng" },
+        { "word": "配る", "reading": "くばる", "meaning": "Phân phát" },
+        { "word": "支配", "reading": "しはい", "meaning": "Chi phối, thống trị" },
+        { "word": "配置", "reading": "はいち", "meaning": "Bố trí" },
+        { "word": "配慮", "reading": "はいりょ", "meaning": "Quan tâm, cân nhắc" }
+      ]
+    },
+    {
+      "kanji": "担",
+      "amHan": "Đảm",
+      "nghia": "Đảm nhận, gánh vác",
+      "onyomi": "タン",
+      "kunyomi": "かつ.ぐ, にな.う",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) gánh vác việc suốt cả NGÀY (旦 - đán/sáng sớm)."
+      },
+      "examples": [
+        { "word": "担当", "reading": "たんとう", "meaning": "Đảm nhận, phụ trách" },
+        { "word": "担任", "reading": "たんにん", "meaning": "Chủ nhiệm" },
+        { "word": "負担", "reading": "ふたん", "meaning": "Gánh nặng, chi phí phải chịu" },
+        { "word": "担ぐ", "reading": "かつぐ", "meaning": "Khiêng, vác" },
+        { "word": "担う", "reading": "になう", "meaning": "Gánh vác (trách nhiệm)" }
+      ]
+    },
+    {
+      "kanji": "当",
+      "amHan": "Đương/Đáng",
+      "nghia": "Chính xác, tương xứng, đảm đương",
+      "onyomi": "トウ",
+      "kunyomi": "あ.たる, あ.てる",
+      "mnemonic": {
+        "text": "Dưới mái nhà (giống bộ mịch) có 1 cái KỆ (彐), làm việc ĐÚNG vị trí."
+      },
+      "examples": [
+        { "word": "当然", "reading": "とうぜん", "meaning": "Đương nhiên" },
+        { "word": "当たる", "reading": "あたる", "meaning": "Trúng (số), va chạm" },
+        { "word": "適当", "reading": "てきとう", "meaning": "Thích hợp, qua loa" },
+        { "word": "弁当", "reading": "べんとう", "meaning": "Cơm hộp" },
+        { "word": "当選", "reading": "とうせん", "meaning": "Trúng cử, trúng giải" },
+        { "word": "当代", "reading": "とうだい", "meaning": "Thời nay" }
+      ]
+    },
+    {
+      "kanji": "頂",
+      "amHan": "Đỉnh",
+      "nghia": "Đỉnh đầu, nhận (khiêm nhường ngữ)",
+      "onyomi": "チョウ",
+      "kunyomi": "いただ.く",
+      "mnemonic": {
+        "text": "Người ĐINH (丁) đưa ĐẦU (頁) ra để nhận lấy vật ở ĐỈNH cao."
+      },
+      "examples": [
+        { "word": "頂上", "reading": "ちょうじょう", "meaning": "Đỉnh núi" },
+        { "word": "頂く", "reading": "いただく", "meaning": "Nhận, ăn, uống (khiêm nhường)" },
+        { "word": "頂点", "reading": "ちょうてん", "meaning": "Đỉnh điểm" },
+        { "word": "山頂", "reading": "さんちょう", "meaning": "Đỉnh núi" },
+        { "word": "登頂", "reading": "とうちょう", "meaning": "Leo lên đỉnh núi" }
+      ]
+    }
+  ]

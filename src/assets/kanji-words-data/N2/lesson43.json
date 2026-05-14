@@ -1,0 +1,241 @@
+﻿[
+    {
+      "kanji": "州",
+      "amHan": "Châu",
+      "nghia": "Tiểu bang, đại lục",
+      "onyomi": "シュウ",
+      "kunyomi": "す",
+      "mnemonic": {
+        "text": "Các dải đất nổi lên giữa dòng NƯỚC (川) tạo thành các CHÂU lục hoặc tiểu bang."
+      },
+      "examples": [
+        { "word": "本州", "reading": "ほんしゅう", "meaning": "đảo Honshu (đảo chính của Nhật)" },
+        { "word": "九州", "reading": "きゅうしゅう", "meaning": "đảo Kyushu" },
+        { "word": "欧州", "reading": "おうしゅう", "meaning": "Châu Âu" },
+        { "word": "豪州", "reading": "ごうしゅう", "meaning": "Châu Úc" },
+        { "word": "～州", "reading": "しゅう", "meaning": "bang... (ví dụ: bang California)" }
+      ]
+    },
+    {
+      "kanji": "波",
+      "amHan": "Ba",
+      "nghia": "Sóng",
+      "onyomi": "ハ",
+      "kunyomi": "なみ",
+      "mnemonic": {
+        "text": "NƯỚC (氵) mà cử động như lớp DA (皮) co giãn thì tạo thành SÓNG."
+      },
+      "examples": [
+        { "word": "波", "reading": "なみ", "meaning": "con sóng" },
+        { "word": "電波", "reading": "でんぱ", "meaning": "sóng điện từ" },
+        { "word": "波浪", "reading": "はろう", "meaning": "sóng lớn, sóng cồn" },
+        { "word": "津波", "reading": "つなみ", "meaning": "sóng thần" },
+        { "word": "防波堤", "reading": "ぼうはてい", "meaning": "đê chắn sóng" },
+        { "word": "周波数", "reading": "しゅうはすう", "meaning": "tần số" }
+      ]
+    },
+    {
+      "kanji": "盗",
+      "amHan": "Đạo",
+      "nghia": "Ăn trộm",
+      "onyomi": "トウ",
+      "kunyomi": "ぬす・む",
+      "mnemonic": {
+        "text": "Kẻ đứng trên cái ĐĨA (皿) mà cứ nơm nớp THIẾU (次) thốn thì dễ đi ăn TRỘM."
+      },
+      "examples": [
+        { "word": "盗む", "reading": "ぬすむ", "meaning": "ăn trộm" },
+        { "word": "強盗", "reading": "ごうとう", "meaning": "tên cướp, vụ cướp" },
+        { "word": "盗難", "reading": "とうなん", "meaning": "vụ trộm" },
+        { "word": "盗作", "reading": "とうさく", "meaning": "đạo văn, đạo tác phẩm" },
+        { "word": "窃盗", "reading": "せっとう", "meaning": "trộm cắp" }
+      ]
+    },
+    {
+      "kanji": "逃",
+      "amHan": "Đào",
+      "nghia": "Chạy trốn",
+      "onyomi": "トウ",
+      "kunyomi": "に・げる / に・がす / のが・れる",
+      "mnemonic": {
+        "text": "Đi trên ĐƯỜNG (辶) mà dùng Triệu (兆) kế để CHẠY TRỐN."
+      },
+      "examples": [
+        { "word": "逃げる", "reading": "にげる", "meaning": "chạy trốn" },
+        { "word": "逃がす", "reading": "にがす", "meaning": "thả ra, để tuột mất" },
+        { "word": "逃亡", "reading": "とうぼう", "meaning": "đào vong, bỏ chạy" },
+        { "word": "見逃す", "reading": "みのがす", "meaning": "bỏ sót, làm ngơ" },
+        { "word": "逃走", "reading": "とうそう", "meaning": "đào tẩu" }
+      ]
+    },
+    {
+      "kanji": "疑",
+      "amHan": "Nghi",
+      "nghia": "Nghi ngờ",
+      "onyomi": "ギ",
+      "kunyomi": "うたが・う",
+      "mnemonic": {
+        "text": "Một NGƯỜI (匕) đứng so sánh mũi TÊN (矢) và cái mác, trong lòng thấy NGHI ngờ không biết cái nào đúng."
+      },
+      "examples": [
+        { "word": "疑う", "reading": "うたがう", "meaning": "nghi ngờ" },
+        { "word": "疑問", "reading": "ぎもん", "meaning": "nghi vấn, thắc mắc" },
+        { "word": "疑わしい", "reading": "うたがわしい", "meaning": "đáng nghi" },
+        { "word": "容疑者", "reading": "ようぎしゃ", "meaning": "người bị tình nghi" },
+        { "word": "半信半疑", "reading": "はんしんはんぎ", "meaning": "nửa tin nửa ngờ" }
+      ]
+    },
+    {
+      "kanji": "捕",
+      "amHan": "Bộ",
+      "nghia": "Bắt giữ",
+      "onyomi": "ホ",
+      "kunyomi": "つか・まえる / と・らえる",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) để BẮT giữ kẻ đang lẩn trốn ở vườn RAU (甫)."
+      },
+      "examples": [
+        { "word": "捕まえる", "reading": "つかまえる", "meaning": "bắt, tóm" },
+        { "word": "逮捕", "reading": "たいほ", "meaning": "bắt giữ (cảnh sát)" },
+        { "word": "捕らわれる", "reading": "とらわれる", "meaning": "bị trói buộc, bị bắt giữ" },
+        { "word": "捕虜", "reading": "ほりょ", "meaning": "tù binh" },
+        { "word": "捕食", "reading": "ほしょく", "meaning": "săn mồi (động vật)" }
+      ]
+    },
+    {
+      "kanji": "絶",
+      "amHan": "Tuyệt",
+      "nghia": "Tuyệt đối, cắt đứt",
+      "onyomi": "ゼツ",
+      "kunyomi": "た・える / た・つ",
+      "mnemonic": {
+        "text": "Dùng SỢI CHỈ (糸) buộc vào màu SẮC (色) thì sẽ bị CẮT ĐỨT (TUYỆT)."
+      },
+      "examples": [
+        { "word": "絶対", "reading": "ぜったい", "meaning": "tuyệt đối" },
+        { "word": "絶えず", "reading": "たえず", "meaning": "liên tục, không ngớt" },
+        { "word": "絶滅", "reading": "ぜつめつ", "meaning": "tuyệt chủng" },
+        { "word": "絶好", "reading": "ぜっこう", "meaning": "tuyệt vời, lý tưởng" },
+        { "word": "絶交", "reading": "ぜっこう", "meaning": "tuyệt giao, cắt đứt quan hệ" },
+        { "word": "絶品", "reading": "ぜっぴん", "meaning": "tuyệt phẩm" }
+      ]
+    },
+    {
+      "kanji": "党",
+      "amHan": "Đảng",
+      "nghia": "Đảng phái",
+      "onyomi": "トウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Những người sống dưới mái NHÀ (尚 - biến thể) có cùng tư tưởng thì lập thành ĐẢNG (兄 - huynh đệ)."
+      },
+      "examples": [
+        { "word": "政党", "reading": "せいとう", "meaning": "đảng phái chính trị" },
+        { "word": "与党", "reading": "よとう", "meaning": "đảng cầm quyền" },
+        { "word": "野党", "reading": "やとう", "meaning": "đảng đối lập" },
+        { "word": "党員", "reading": "とういん", "meaning": "đảng viên" },
+        { "word": "甘党", "reading": "あまとう", "meaning": "người thích đồ ngọt" }
+      ]
+    },
+    {
+      "kanji": "補",
+      "amHan": "Bổ",
+      "nghia": "Bổ sung, đền bù",
+      "onyomi": "ホ",
+      "kunyomi": "おぎな・う",
+      "mnemonic": {
+        "text": "Dùng Y phục (衣) để BỔ sung cho vườn RAU (甫) đang thiếu hụt."
+      },
+      "examples": [
+        { "word": "補う", "reading": "おぎなう", "meaning": "đền bù, bổ sung" },
+        { "word": "補給", "reading": "ほきゅう", "meaning": "cung cấp bổ sung" },
+        { "word": "補助", "reading": "ほじょ", "meaning": "hỗ trợ, phụ trợ" },
+        { "word": "候補", "reading": "こうほ", "meaning": "ứng cử viên" },
+        { "word": "補修", "reading": "ほしゅう", "meaning": "sửa chữa, tu bổ" }
+      ]
+    },
+    {
+      "kanji": "童",
+      "amHan": "Đồng",
+      "nghia": "Nhi đồng",
+      "onyomi": "ドウ",
+      "kunyomi": "わらべ",
+      "mnemonic": {
+        "text": "ĐỨNG (立) trên mảnh ĐẤT (里) là những đứa trẻ NHI ĐỒNG."
+      },
+      "examples": [
+        { "word": "児童", "reading": "じどう", "meaning": "nhi đồng, trẻ em" },
+        { "word": "童話", "reading": "どうわ", "meaning": "truyện cổ tích" },
+        { "word": "童謡", "reading": "どうよう", "meaning": "bài hát thiếu nhi" },
+        { "word": "童心", "reading": "どうしん", "meaning": "tâm hồn trẻ thơ" }
+      ]
+    },
+    {
+      "kanji": "爆",
+      "amHan": "Bộc/Bạo",
+      "nghia": "Bùng nổ, bộc phát",
+      "onyomi": "バク",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "LỬA (火) mà gặp ánh mặt trời rực rỡ (暴 - bạo) thì sẽ gây ra nổ BỘC."
+      },
+      "examples": [
+        { "word": "爆発", "reading": "ばくはつ", "meaning": "vụ nổ, bùng nổ" },
+        { "word": "原爆", "reading": "げんばく", "meaning": "bom nguyên tử" },
+        { "word": "爆笑", "reading": "ばくしょう", "meaning": "cười bò, cười phá lên" },
+        { "word": "爆弾", "reading": "ばくだん", "meaning": "bom, mìn" },
+        { "word": "爆撃", "reading": "ばくげき", "meaning": "oanh tạc, ném bom" }
+      ]
+    },
+    {
+      "kanji": "暴",
+      "amHan": "Bạo",
+      "nghia": "Bạo lực, phơi bày",
+      "onyomi": "ボウ / バク",
+      "kunyomi": "あば・れる / あば・く",
+      "mnemonic": {
+        "text": "Dưới ánh MẶT TRỜI (日), phơi bày (共) bàn tay (氺) hung BẠO."
+      },
+      "examples": [
+        { "word": "暴力", "reading": "ぼうりょく", "meaning": "bạo lực" },
+        { "word": "暴れる", "reading": "あばれる", "meaning": "làm loạn, nổi khùng" },
+        { "word": "乱暴", "reading": "らんぼう", "meaning": "hung bạo, thô lỗ" },
+        { "word": "暴落", "reading": "ぼうらく", "meaning": "sụt giá thê thảm" },
+        { "word": "暴露", "reading": "ばくろ", "meaning": "vạch trần, phơi bày" }
+      ]
+    },
+    {
+      "kanji": "亡",
+      "amHan": "Vong",
+      "nghia": "Chết, mất đi",
+      "onyomi": "ボウ / モウ",
+      "kunyomi": "な・い",
+      "mnemonic": {
+        "text": "Một người đội mũ trùm kín để đi vào cõi hư VONG."
+      },
+      "examples": [
+        { "word": "亡くなる", "reading": "なくなる", "meaning": "qua đời" },
+        { "word": "死亡", "reading": "しぼう", "meaning": "tử vong" },
+        { "word": "亡命", "reading": "ぼうめい", "meaning": "lưu vong" },
+        { "word": "未亡人", "reading": "みぼうじん", "meaning": "quả phụ, góa phụ" }
+      ]
+    },
+    {
+      "kanji": "罪",
+      "amHan": "Tội",
+      "nghia": "Tội lỗi",
+      "onyomi": "ザイ",
+      "kunyomi": "つみ",
+      "mnemonic": {
+        "text": "Lưới (罒) pháp luật sẽ bủa vây những kẻ làm điều SAI (非) trái tạo thành TỘI."
+      },
+      "examples": [
+        { "word": "犯罪", "reading": "はんざい", "meaning": "tội phạm" },
+        { "word": "罪", "reading": "つみ", "meaning": "tội lỗi" },
+        { "word": "有罪", "reading": "ゆうざい", "meaning": "có tội" },
+        { "word": "無罪", "reading": "むざい", "meaning": "vô tội" },
+        { "word": "謝罪", "reading": "しゃざい", "meaning": "tạ tội, xin lỗi" },
+        { "word": "冤罪", "reading": "えんざい", "meaning": "oan sai, tội hàm oan" }
+      ]
+    }
+  ]

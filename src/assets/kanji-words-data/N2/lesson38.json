@@ -1,0 +1,240 @@
+﻿[
+    {
+      "kanji": "庭",
+      "amHan": "Đình",
+      "nghia": "Cái sân, sân vườn",
+      "onyomi": "テイ",
+      "kunyomi": "にわ",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (广), triều ĐÌNH (廷) xây một cái SÂN chơi."
+      },
+      "examples": [
+        { "word": "庭", "reading": "にわ", "meaning": "Cái sân, vườn" },
+        { "word": "家庭", "reading": "かてい", "meaning": "Gia đình" },
+        { "word": "校庭", "reading": "こうてい", "meaning": "Sân trường" },
+        { "word": "日本庭園", "reading": "にほんていえん", "meaning": "Vườn kiểu Nhật" },
+        { "word": "庭いじり", "reading": "にわいじり", "meaning": "Làm vườn" }
+      ]
+    },
+    {
+      "kanji": "育",
+      "amHan": "Dục",
+      "nghia": "Nuôi dưỡng, giáo dục",
+      "onyomi": "イク",
+      "kunyomi": "そだ.てる, そだ.つ",
+      "mnemonic": {
+        "text": "Đứa TRẺ (育 - phần trên là chữ Vân biến thể) cần được nuôi dưỡng để có THỊT (月) có da."
+      },
+      "examples": [
+        { "word": "教育", "reading": "きょういく", "meaning": "Giáo dục" },
+        { "word": "育つ", "reading": "そだつ", "meaning": "Lớn lên, phát triển" },
+        { "word": "育児", "reading": "いくじ", "meaning": "Chăm sóc trẻ" },
+        { "word": "体育", "reading": "たいいく", "meaning": "Thể dục" },
+        { "word": "養育", "reading": "よういく", "meaning": "Nuôi nấng" },
+        { "word": "育てる", "reading": "そだてる", "meaning": "Nuôi dưỡng, trồng trọt" }
+      ]
+    },
+    {
+      "kanji": "猫",
+      "amHan": "Miêu",
+      "nghia": "Con mèo",
+      "onyomi": "ビョウ",
+      "kunyomi": "ねこ",
+      "mnemonic": {
+        "text": "Con THÚ (犭) hay chạy ngoài ĐỒNG (苗 - miêu/mạ) là con MÈO."
+      },
+      "examples": [
+        { "word": "猫", "reading": "ねこ", "meaning": "Con mèo" },
+        { "word": "野良猫", "reading": "のらねこ", "meaning": "Mèo hoang" },
+        { "word": "愛猫家", "reading": "あいびょうか", "meaning": "Người yêu mèo" },
+        { "word": "猫背", "reading": "ねこぜ", "meaning": "Lưng gù" },
+        { "word": "猫に小判", "reading": "ねこにこばん", "meaning": "Đàn gảy tai trâu (ném tiền xu cho mèo)" }
+      ]
+    },
+    {
+      "kanji": "探",
+      "amHan": "Thám",
+      "nghia": "Tìm kiếm, thăm dò",
+      "onyomi": "タン",
+      "kunyomi": "さが.す, さぐ.る",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) lách qua CÂY (木) trong hang ĐÁ (冖) để THÁM hiểm."
+      },
+      "examples": [
+        { "word": "探す", "reading": "さがす", "meaning": "Tìm kiếm (vật bị mất/mong muốn)" },
+        { "word": "探検", "reading": "たんけん", "meaning": "Thăm dò, thám hiểm" },
+        { "word": "探査", "reading": "たんさ", "meaning": "Khảo sát, thăm dò" },
+        { "word": "探る", "reading": "さぐる", "meaning": "Sục sạo, dò dẫm" },
+        { "word": "探偵", "reading": "たんてい", "meaning": "Thám tử" }
+      ]
+    },
+    {
+      "kanji": "灰",
+      "amHan": "Hôi",
+      "nghia": "Tro, màu xám",
+      "onyomi": "カイ",
+      "kunyomi": "はい",
+      "mnemonic": {
+        "text": "Dùng TAY (ナ) hốt LỬA (火) đã tắt chỉ còn TRÔ."
+      },
+      "examples": [
+        { "word": "灰", "reading": "はい", "meaning": "Tro" },
+        { "word": "灰色", "reading": "はいいろ", "meaning": "Màu xám" },
+        { "word": "灰皿", "reading": "はいざら", "meaning": "Gạt tàn thuốc" },
+        { "word": "火山灰", "reading": "かざんばい", "meaning": "Tro núi lửa" },
+        { "word": "石灰", "reading": "せっかい", "meaning": "Vôi" }
+      ]
+    },
+    {
+      "kanji": "輪",
+      "amHan": "Luân",
+      "nghia": "Cái bánh xe, vòng tròn",
+      "onyomi": "リン",
+      "kunyomi": "わ",
+      "mnemonic": {
+        "text": "Cái XE (車) có bánh xe luân hồi dưới các QUYỂN SÁCH (侖)."
+      },
+      "examples": [
+        { "word": "指輪", "reading": "ゆびわ", "meaning": "Nhẫn (vòng ngón tay)" },
+        { "word": "車輪", "reading": "しゃりん", "meaning": "Bánh xe" },
+        { "word": "五輪", "reading": "ごりん", "meaning": "Thế vận hội Olympic (5 vòng)" },
+        { "word": "駐輪場", "reading": "ちゅうりんじょう", "meaning": "Bãi đỗ xe đạp" },
+        { "word": "輪郭", "reading": "りんかく", "meaning": "Đường nét, đường bao quanh" }
+      ]
+    },
+    {
+      "kanji": "晩",
+      "amHan": "Vãn",
+      "nghia": "Buổi tối, muộn",
+      "onyomi": "バン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "MẶT TRỜI (日) đi MIỄN cưỡng (免) vào cuối ngày là buổi tối VÃN."
+      },
+      "examples": [
+        { "word": "一晩", "reading": "ひとばん", "meaning": "Một đêm" },
+        { "word": "晩御飯", "reading": "ばんごはん", "meaning": "Cơm tối" },
+        { "word": "今晩", "reading": "こんばん", "meaning": "Tối nay" },
+        { "word": "晩年", "reading": "ばんねん", "meaning": "Những năm cuối đời" },
+        { "word": "晩婚", "reading": "ばんこん", "meaning": "Kết hôn muộn" }
+      ]
+    },
+    {
+      "kanji": "劇",
+      "amHan": "Kịch",
+      "nghia": "Vở kịch, kịch liệt",
+      "onyomi": "ゲキ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Con HỔ (虍) và con LỢN (豕) dùng ĐAO (刂) đánh nhau tạo thành vở KỊCH."
+      },
+      "examples": [
+        { "word": "劇場", "reading": "げきじょう", "meaning": "Nhà hát" },
+        { "word": "演劇", "reading": "えんげき", "meaning": "Diễn kịch" },
+        { "word": "劇的", "reading": "げきてき", "meaning": "Kịch tính" },
+        { "word": "劇薬", "reading": "げきやく", "meaning": "Thuốc cực độc" },
+        { "word": "悲劇", "reading": "ひげき", "meaning": "Bi kịch" },
+        { "word": "急劇", "reading": "きゅうげき", "meaning": "Kịch liệt, đột ngột" }
+      ]
+    },
+    {
+      "kanji": "公",
+      "amHan": "Công",
+      "nghia": "Công cộng, công bằng",
+      "onyomi": "コウ",
+      "kunyomi": "おおやけ",
+      "mnemonic": {
+        "text": "Tám (八) người cùng chia nhau vật trong bình (厶 - riêng tư) thành đồ CÔNG."
+      },
+      "examples": [
+        { "word": "公園", "reading": "こうえん", "meaning": "Công viên" },
+        { "word": "公務員", "reading": "こうむいん", "meaning": "Công chức" },
+        { "word": "公式", "reading": "こうしき", "meaning": "Công thức, chính thức" },
+        { "word": "公開", "reading": "こうかい", "meaning": "Công khai" },
+        { "word": "公平", "reading": "こうへい", "meaning": "Công bằng" }
+      ]
+    },
+    {
+      "kanji": "踊",
+      "amHan": "Dũng",
+      "nghia": "Nhảy múa",
+      "onyomi": "ヨウ",
+      "kunyomi": "おど.る, おど.り",
+      "mnemonic": {
+        "text": "Dùng CHÂN (足) nhảy lên một cách DŨNG (勇) mãnh."
+      },
+      "examples": [
+        { "word": "踊る", "reading": "おどる", "meaning": "Nhảy múa" },
+        { "word": "踊り", "reading": "おどり", "meaning": "Điệu nhảy" },
+        { "word": "踊り子", "reading": "おどりこ", "meaning": "Vũ công" },
+        { "word": "盆踊り", "reading": "ぼんおどり", "meaning": "Điệu múa trong lễ hội Bon" },
+        { "word": "踊り場", "reading": "おどりば", "meaning": "Chiếu nghỉ cầu thang" }
+      ]
+    },
+    {
+      "kanji": "種",
+      "amHan": "Chủng",
+      "nghia": "Hạt giống, chủng loại",
+      "onyomi": "シュ",
+      "kunyomi": "たね",
+      "mnemonic": {
+        "text": "LÚA (禾) được trồng vào TRỌNG (重 - nặng) tâm đất để lấy HẠT GIỐNG."
+      },
+      "examples": [
+        { "word": "種類", "reading": "しゅるい", "meaning": "Chủng loại" },
+        { "word": "種", "reading": "たね", "meaning": "Hạt, hạt giống" },
+        { "word": "人種", "reading": "じんしゅ", "meaning": "Nhân chủng, sắc tộc" },
+        { "word": "職種", "reading": "しょくしゅ", "meaning": "Loại hình công việc" },
+        { "word": "接種", "reading": "せっしゅ", "meaning": "Tiêm chủng" }
+      ]
+    },
+    {
+      "kanji": "匹",
+      "amHan": "Thất",
+      "nghia": "Đơn vị đếm động vật nhỏ",
+      "onyomi": "ヒツ",
+      "kunyomi": "ひき",
+      "mnemonic": {
+        "text": "Cái thùng bao quanh con vật nhỏ bé ở bên trong."
+      },
+      "examples": [
+        { "word": "三匹", "reading": "さんびき", "meaning": "3 con (mèo, chó...)" },
+        { "word": "一匹狼", "reading": "いっぴきおおかみ", "meaning": "Người cô độc (con sói đơn độc)" },
+        { "word": "匹敵", "reading": "ひってき", "meaning": "Đối tầm, đương đầu, ngang tài" }
+      ]
+    },
+    {
+      "kanji": "渡",
+      "amHan": "Độ",
+      "nghia": "Băng qua, trao cho",
+      "onyomi": "ト",
+      "kunyomi": "わた.る, わた.す",
+      "mnemonic": {
+        "text": "Dùng NƯỚC (氵) chảy qua 21 (廿) cái hang (口) để ĐỘ (băng qua)."
+      },
+      "examples": [
+        { "word": "渡る", "reading": "わたる", "meaning": "Băng qua (đường, cầu)" },
+        { "word": "渡す", "reading": "わたす", "meaning": "Trao cho, đưa cho" },
+        { "word": "渡航", "reading": "とこう", "meaning": "Đi du lịch nước ngoài (bằng tàu/phương tiện)" },
+        { "word": "譲渡", "reading": "じょうと", "meaning": "Chuyển nhượng" },
+        { "word": "渡り鳥", "reading": "わたりどり", "meaning": "Chim di cư" }
+      ]
+    },
+    {
+      "kanji": "馬",
+      "amHan": "Mã",
+      "nghia": "Con ngựa",
+      "onyomi": "バ",
+      "kunyomi": "うま, ま",
+      "mnemonic": {
+        "text": "Hình ảnh con ngựa với cái bờm và 4 chân (灬) đang chạy."
+      },
+      "examples": [
+        { "word": "馬", "reading": "うま", "meaning": "Con ngựa" },
+        { "word": "乗馬", "reading": "じょうば", "meaning": "Cưỡi ngựa" },
+        { "word": "馬力", "reading": "ばりき", "meaning": "Mã lực" },
+        { "word": "競馬", "reading": "けいば", "meaning": "Đua ngựa" },
+        { "word": "馬鹿", "reading": "ばか", "meaning": "Ngốc nghếch (Mã Lộc)" }
+      ]
+    }
+  ]

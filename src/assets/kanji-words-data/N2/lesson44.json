@@ -1,0 +1,238 @@
+﻿[
+    {
+      "kanji": "型",
+      "amHan": "Hình",
+      "nghia": "Khuôn mẫu, kiểu dáng",
+      "onyomi": "ケイ",
+      "kunyomi": "かた",
+      "mnemonic": {
+        "text": "Dùng ĐẤT (土) để đúc thành HÌNH cái KHUNG (刑 - hình phạt/khung sắt)."
+      },
+      "examples": [
+        { "word": "典型", "reading": "てんけい", "meaning": "Điển hình" },
+        { "word": "模型", "reading": "もけい", "meaning": "Mô hình" },
+        { "word": "大型", "reading": "おおがた", "meaning": "Kích cỡ lớn" },
+        { "word": "新型", "reading": "しんがた", "meaning": "Kiểu mới, dòng mới" },
+        { "word": "血液型", "reading": "けつえきがた", "meaning": "Nhóm máu" }
+      ]
+    },
+    {
+      "kanji": "欧",
+      "amHan": "Âu",
+      "nghia": "Châu Âu",
+      "onyomi": "オウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Khu vực mà người ta hay THIẾU (欠) sự khuấy động (区 - khu vực) là vùng ÂU."
+      },
+      "examples": [
+        { "word": "欧州", "reading": "おうしゅう", "meaning": "Châu Âu" },
+        { "word": "欧米", "reading": "おうべi", "meaning": "Âu Mỹ" },
+        { "word": "欧化", "reading": "おうか", "meaning": "Âu hóa" },
+        { "word": "東欧", "reading": "とうおう", "meaning": "Đông Âu" },
+        { "word": "西欧", "reading": "せいおう", "meaning": "Tây Âu" }
+      ]
+    },
+    {
+      "kanji": "労",
+      "amHan": "Lao",
+      "nghia": "Lao động, vất vả",
+      "onyomi": "ロウ",
+      "kunyomi": "ねぎら.う",
+      "mnemonic": {
+        "text": "Dùng SỨC (力) làm việc dưới ánh đèn (bộ ⺍ phía trên) là LAO động."
+      },
+      "examples": [
+        { "word": "労働", "reading": "ろうどう", "meaning": "Lao động" },
+        { "word": "苦労", "reading": "くろう", "meaning": "Gian khổ, vất vả" },
+        { "word": "疲労", "reading": "ひろう", "meaning": "Mệt mỏi" },
+        { "word": "労働者", "reading": "ろうどうしゃ", "meaning": "Người lao động" },
+        { "word": "功労", "reading": "こうろう", "meaning": "Công lao" }
+      ]
+    },
+    {
+      "kanji": "兆",
+      "amHan": "Triệu",
+      "nghia": "Nghìn tỷ, điềm báo",
+      "onyomi": "チョウ",
+      "kunyomi": "きざ.し, きざ.す",
+      "mnemonic": {
+        "text": "Hình ảnh vết nứt trên mai rùa dùng để xem ĐIỀM báo (số lượng lớn như TRIỆU)."
+      },
+      "examples": [
+        { "word": "一兆", "reading": "いっちょう", "meaning": "Một nghìn tỷ" },
+        { "word": "前兆", "reading": "ぜんちょう", "meaning": "Điềm báo trước" },
+        { "word": "兆し", "reading": "きざし", "meaning": "Dấu hiệu, điềm báo" },
+        { "word": "吉兆", "reading": "きっちょう", "meaning": "Điềm lành" }
+      ]
+    },
+    {
+      "kanji": "貿",
+      "amHan": "Mậu",
+      "nghia": "Thương mại, trao đổi",
+      "onyomi": "ボウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Trao đổi VỎ SÒ/TIỀN (貝) để lấy sự LƯU THÔNG (卯)."
+      },
+      "examples": [
+        { "word": "貿易", "reading": "ぼうえき", "meaning": "Mậu dịch, ngoại thương" },
+        { "word": "貿易会社", "reading": "ぼうえきがいしゃ", "meaning": "Công ty thương mại" },
+        { "word": "自由貿易", "reading": "じゆうぼうえき", "meaning": "Tự do thương mại" },
+        { "word": "貿易収支", "reading": "ぼうえきしゅうし", "meaning": "Cán cân thương mại" }
+      ]
+    },
+    {
+      "kanji": "易",
+      "amHan": "Dịch/Dị",
+      "nghia": "Dễ dàng, biến đổi",
+      "onyomi": "エキ, イ",
+      "kunyomi": "やさ.しい",
+      "mnemonic": {
+        "text": "Dưới ánh MẶT TRỜI (日), con tắc kè (vật giống bộ vật 勿) DỄ DÀNG thay đổi màu sắc."
+      },
+      "examples": [
+        { "word": "容易", "reading": "ようい", "meaning": "Dễ dàng" },
+        { "word": "安易", "reading": "あんい", "meaning": "Dễ dãi, đơn giản" },
+        { "word": "易しい", "reading": "やさしい", "meaning": "Dễ (bài tập, câu hỏi)" },
+        { "word": "変易", "reading": "へんえき", "meaning": "Biến đổi" },
+        { "word": "貿易", "reading": "ぼうえき", "meaning": "Mậu dịch (thương mại đổi hàng)" }
+      ]
+    },
+    {
+      "kanji": "農",
+      "amHan": "Nông",
+      "nghia": "Nông nghiệp",
+      "onyomi": "ノウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Buổi SÁNG (thần 辰) ra ĐỒNG (khúc 曲 cách điệu) làm NÔNG."
+      },
+      "examples": [
+        { "word": "農業", "reading": "のうぎょう", "meaning": "Nông nghiệp" },
+        { "word": "農家", "reading": "のうか", "meaning": "Nông dân, nhà nông" },
+        { "word": "農村", "reading": "のうそん", "meaning": "Nông thôn" },
+        { "word": "農薬", "reading": "のうやく", "meaning": "Thuốc trừ sâu" },
+        { "word": "農産物", "reading": "のうさんぶつ", "meaning": "Nông sản" }
+      ]
+    },
+    {
+      "kanji": "命",
+      "amHan": "Mệnh/Mạng",
+      "nghia": "Sinh mạng, mệnh lệnh",
+      "onyomi": "メイ, ミョウ",
+      "kunyomi": "いのち",
+      "mnemonic": {
+        "text": "MỘT (一) người quỳ dưới MÁI NHÀ (亼) dùng MIỆNG (口) truyền MỆNH lệnh."
+      },
+      "examples": [
+        { "word": "生命", "reading": "せいめい", "meaning": "Sinh mệnh" },
+        { "word": "命令", "reading": "めいれい", "meaning": "Mệnh lệnh" },
+        { "word": "運命", "reading": "うんめい", "meaning": "Vận mệnh" },
+        { "word": "一生懸命", "reading": "いっしょうけんめい", "meaning": "Nỗ lực hết mình" },
+        { "word": "任命", "reading": "にんめい", "meaning": "Bổ nhiệm" },
+        { "word": "寿命", "reading": "じゅみょう", "meaning": "Tuổi thọ" }
+      ]
+    },
+    {
+      "kanji": "令",
+      "amHan": "Lệnh",
+      "nghia": "Mệnh lệnh",
+      "onyomi": "レイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Người quỳ dưới mái nhà truyền LỆNH (chữ Mệnh bỏ phần Miệng)."
+      },
+      "examples": [
+        { "word": "号令", "reading": "ごうれい", "meaning": "Hiệu lệnh" },
+        { "word": "法令", "reading": "ほうれい", "meaning": "Pháp lệnh" },
+        { "word": "司令官", "reading": "しれいかん", "meaning": "Chỉ huy" },
+        { "word": "令和", "reading": "れいわ", "meaning": "Niên hiệu Lệnh Hòa (Nhật Bản hiện nay)" }
+      ]
+    },
+    {
+      "kanji": "被",
+      "amHan": "Bị",
+      "nghia": "Bị (hứng chịu), bao phủ",
+      "onyomi": "ヒ",
+      "kunyomi": "こうむ.る",
+      "mnemonic": {
+        "text": "Dùng ÁO (衣) bao phủ lên lớp DA (皮) là BỊ che khuất."
+      },
+      "examples": [
+        { "word": "被害", "reading": "ひがい", "meaning": "Thiệt hại" },
+        { "word": "被告", "reading": "ひこく", "meaning": "Bị cáo" },
+        { "word": "被爆", "reading": "ひばく", "meaning": "Bị nhiễm phóng xạ" },
+        { "word": "被害者", "reading": "ひがいしゃ", "meaning": "Nạn nhân" },
+        { "word": "被る", "reading": "こうむる", "meaning": "Chịu, hứng chịu (tổn thất)" }
+      ]
+    },
+    {
+      "kanji": "害",
+      "amHan": "Hại",
+      "nghia": "Gây hại",
+      "onyomi": "ガイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Trong NHÀ (宀) mà LỜI NÓI (言) bừa bãi (bộ tì 丰) thì gây HẠI."
+      },
+      "examples": [
+        { "word": "有害", "reading": "ゆうがい", "meaning": "Có hại" },
+        { "word": "損害", "reading": "そんがい", "meaning": "Tổn hại" },
+        { "word": "公害", "reading": "こうがい", "meaning": "Ô nhiễm môi trường" },
+        { "word": "利害", "reading": "りがい", "meaning": "Lợi hại" },
+        { "word": "害虫", "reading": "がいちゅう", "meaning": "Côn trùng gây hại" }
+      ]
+    },
+    {
+      "kanji": "権",
+      "amHan": "Quyền",
+      "nghia": "Quyền lợi, quyền hạn",
+      "onyomi": "ケン, ゴン",
+      "kunyomi": "おもり, はか.る",
+      "mnemonic": {
+        "text": "Cái CÂY (木) đứng cạnh con CHIM (隹) có QUYỀN tự do bay lượn."
+      },
+      "examples": [
+        { "word": "権利", "reading": "けんり", "meaning": "Quyền lợi" },
+        { "word": "政権", "reading": "せいけん", "meaning": "Chính quyền" },
+        { "word": "人権", "reading": "じんけん", "meaning": "Nhân quyền" },
+        { "word": "特権", "reading": "とっけん", "meaning": "Đặc quyền" },
+        { "word": "著作権", "reading": "ちょさくけん", "meaning": "Bản quyền" },
+        { "word": "権限", "reading": "けんげん", "meaning": "Quyền hạn" }
+      ]
+    },
+    {
+      "kanji": "億",
+      "amHan": "Ức",
+      "nghia": "Trăm triệu",
+      "onyomi": "オク",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) có Ý (意) chí kiếm được hàng TRĂM TRIỆU."
+      },
+      "examples": [
+        { "word": "一億", "reading": "いちおく", "meaning": "Một trăm triệu" },
+        { "word": "億万長者", "reading": "おくまんちょうじゃ", "meaning": "Tỷ phú" },
+        { "word": "巨億", "reading": "きょおく", "meaning": "Hàng triệu triệu" }
+      ]
+    },
+    {
+      "kanji": "星",
+      "amHan": "Tinh",
+      "nghia": "Ngôi sao",
+      "onyomi": "セイ, ショウ",
+      "kunyomi": "ほし",
+      "mnemonic": {
+        "text": "MẶT TRỜI (日) SINH (生) ra các ngôi SAO."
+      },
+      "examples": [
+        { "word": "星", "reading": "ほし", "meaning": "Ngôi sao" },
+        { "word": "火星", "reading": "かせい", "meaning": "Sao Hỏa" },
+        { "word": "衛星", "reading": "えいせい", "meaning": "Vệ tinh" },
+        { "word": "星座", "reading": "せいざ", "meaning": "Chòm sao" },
+        { "word": "惑星", "reading": "わくせい", "meaning": "Hành tinh" },
+        { "word": "流れ星", "reading": "ながれぼし", "meaning": "Sao băng" }
+      ]
+    }
+  ]

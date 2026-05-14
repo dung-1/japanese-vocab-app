@@ -1,0 +1,246 @@
+﻿[
+    {
+      "kanji": "詰",
+      "amHan": "Cật",
+      "nghia": "Đóng gói, dồn vào, gặng hỏi",
+      "onyomi": "キツ",
+      "kunyomi": "つ.める, つ.まる",
+      "mnemonic": {
+        "text": "Dùng NGÔN (言) từ để gặng hỏi về việc CÁT (吉 - tốt lành) hay không, hoặc dồn vào góc."
+      },
+      "examples": [
+        { "word": "詰める", "reading": "つめる", "meaning": "Lấp, bịt, dồn vào" },
+        { "word": "詰め所", "reading": "つめしょ", "meaning": "Phòng trực, nơi nghỉ chân" },
+        { "word": "缶詰", "reading": "かんづめ", "meaning": "Đồ hộp" },
+        { "word": "箱詰め", "reading": "はこづめ", "meaning": "Đóng hộp" },
+        { "word": "見詰める", "reading": "みつめる", "meaning": "Nhìn chằm chằm" },
+        { "word": "詰問", "reading": "きつもん", "meaning": "Truy vấn, gặng hỏi" }
+      ]
+    },
+    {
+      "kanji": "麦",
+      "amHan": "Mạch",
+      "nghia": "Lúa mạch",
+      "onyomi": "バク",
+      "kunyomi": "むぎ",
+      "mnemonic": {
+        "text": "Hình ảnh cây LÚA MẠCH đang lớn lên, phần dưới giống như rễ cây đang đi (夂)."
+      },
+      "examples": [
+        { "word": "麦芽", "reading": "ばくが", "meaning": "Mạch nha" },
+        { "word": "小麦", "reading": "こむぎ", "meaning": "Lúa mì" },
+        { "word": "小麦粉", "reading": "こむぎこ", "meaning": "Bột mì" },
+        { "word": "蕎麦", "reading": "そば", "meaning": "Mì Soba" },
+        { "word": "大麦", "reading": "おおむぎ", "meaning": "Đại mạch" }
+      ]
+    },
+    {
+      "kanji": "純",
+      "amHan": "Thuần",
+      "nghia": "Thuần khiết, đơn giản",
+      "onyomi": "ジュン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Sợi CHỈ (糸) được làm từ cây mầm (屯 - truân) mới nhú thì rất THUẦN khiết."
+      },
+      "examples": [
+        { "word": "単純", "reading": "たんじゅん", "meaning": "Đơn giản" },
+        { "word": "純粋", "reading": "じゅんすい", "meaning": "Trong sáng, thuần túy" },
+        { "word": "純情", "reading": "じゅんじょう", "meaning": "Thuần khiết, trong trắng" },
+        { "word": "純金", "reading": "じゅんきん", "meaning": "Vàng nguyên chất" },
+        { "word": "不純", "reading": "ふじゅん", "meaning": "Không thuần khiết, tạp nham" }
+      ]
+    },
+    {
+      "kanji": "草",
+      "amHan": "Thảo",
+      "nghia": "Cỏ, thảo mộc",
+      "onyomi": "ソウ",
+      "kunyomi": "くさ",
+      "mnemonic": {
+        "text": "CỎ (艹) mọc lên vào sáng sớm (早 - tảo)."
+      },
+      "examples": [
+        { "word": "雑草", "reading": "ざっそう", "meaning": "Cỏ dại" },
+        { "word": "草原", "reading": "そうげん", "meaning": "Thảo nguyên" },
+        { "word": "草案", "reading": "そうあん", "meaning": "Bản phác thảo, dự thảo" },
+        { "word": "薬草", "reading": "やくそう", "meaning": "Thảo dược" },
+        { "word": "草履", "reading": "ぞうり", "meaning": "Dép cỏ Nhật Bản" }
+      ]
+    },
+    {
+      "kanji": "塩",
+      "amHan": "Diêm",
+      "nghia": "Muối",
+      "onyomi": "エン",
+      "kunyomi": "しお",
+      "mnemonic": {
+        "text": "Người quản lý (監 - giám) đứng trên ĐẤT (土) để trông coi việc làm MUỐI."
+      },
+      "examples": [
+        { "word": "塩分", "reading": "えんぶん", "meaning": "Lượng muối" },
+        { "word": "食塩", "reading": "しょくえん", "meaning": "Muối ăn" },
+        { "word": "塩素", "reading": "えんそ", "meaning": "Clo" },
+        { "word": "塩辛い", "reading": "しおからい", "meaning": "Mặn" },
+        { "word": "減塩", "reading": "げんえん", "meaning": "Cắt giảm muối (trong chế độ ăn)" }
+      ]
+    },
+    {
+      "kanji": "固",
+      "amHan": "Cố",
+      "nghia": "Cứng, kiên cố",
+      "onyomi": "コ",
+      "kunyomi": "かた.める, かた.まる, かた.い",
+      "mnemonic": {
+        "text": "Đồ CŨ (古) bao quanh (囗) bởi tường thành thì rất KIÊN CỐ."
+      },
+      "examples": [
+        { "word": "固定", "reading": "こてい", "meaning": "Cố định" },
+        { "word": "固い", "reading": "かたい", "meaning": "Cứng, chắc chắn" },
+        { "word": "強固", "reading": "きょうこ", "meaning": "Kiên cố, vững chắc" },
+        { "word": "固まる", "reading": "かたまる", "meaning": "Đông lại, cứng lại" },
+        { "word": "固有", "reading": "こゆう", "meaning": "Cố hữu, vốn có" },
+        { "word": "頑固", "reading": "がんこ", "meaning": "Ngoan cố, bướng bỉnh" }
+      ]
+    },
+    {
+      "kanji": "演",
+      "amHan": "Diễn",
+      "nghia": "Biểu diễn, trình diễn",
+      "onyomi": "エン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Trong NHÀ (宀) có NƯỚC (氵) chảy qua các DẦN (寅) để DIỄN thuyết."
+      },
+      "examples": [
+        { "word": "演奏", "reading": "えんそう", "meaning": "Biểu diễn (nhạc cụ)" },
+        { "word": "演説", "reading": "えんぜつ", "meaning": "Diễn thuyết" },
+        { "word": "講演", "reading": "こうえん", "meaning": "Bài giảng, diễn giảng" },
+        { "word": "出演", "reading": "しゅつえん", "meaning": "Xuất hiện (trên phim, sân khấu)" },
+        { "word": "演習", "reading": "えんしゅう", "meaning": "Diễn tập, luyện tập" },
+        { "word": "演技", "reading": "えんぎ", "meaning": "Kỹ năng diễn xuất" }
+      ]
+    },
+    {
+      "kanji": "菓",
+      "amHan": "Quả",
+      "nghia": "Bánh kẹo, hoa quả",
+      "onyomi": "カ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "CỎ (艹) mọc ra KẾT QUẢ (果) dùng làm BÁNH KẸO."
+      },
+      "examples": [
+        { "word": "菓子", "reading": "かし", "meaning": "Bánh kẹo" },
+        { "word": "和菓子", "reading": "わがし", "meaning": "Bánh kẹo truyền thống Nhật" },
+        { "word": "洋菓子", "reading": "ようがし", "meaning": "Bánh kẹo phương Tây" },
+        { "word": "製菓", "reading": "せいか", "meaning": "Việc làm bánh kẹo" },
+        { "word": "茶菓子", "reading": "ちゃがし", "meaning": "Trà bánh" }
+      ]
+    },
+    {
+      "kanji": "贈",
+      "amHan": "Tặng",
+      "nghia": "Tặng quà",
+      "onyomi": "ゾウ, ソウ",
+      "kunyomi": "おく.る",
+      "mnemonic": {
+        "text": "Dùng TIỀN/VỎ SÒ (貝) để TẶNG cho người TĂNG (曽 - tằng/trước đây)."
+      },
+      "examples": [
+        { "word": "贈り物", "reading": "おくりもの", "meaning": "Quà tặng" },
+        { "word": "贈答", "reading": "ぞうとう", "meaning": "Việc tặng quà đáp lễ" },
+        { "word": "贈与", "reading": "ぞうよ", "meaning": "Sự ban tặng, hiến tặng" },
+        { "word": "寄贈", "reading": "きぞう", "meaning": "Quyên tặng, biếu" },
+        { "word": "贈る", "reading": "おくる", "meaning": "Gửi tặng" }
+      ]
+    },
+    {
+      "kanji": "省",
+      "amHan": "Tỉnh",
+      "nghia": "Xem xét, tiết kiệm, bộ (hành chính)",
+      "onyomi": "ショウ, セイ",
+      "kunyomi": "かえり.みる, はぶ.く",
+      "mnemonic": {
+        "text": "ÍT (少) khi để MẮT (目) đến nên cần phải TỰ TỈNH (xem xét lại)."
+      },
+      "examples": [
+        { "word": "反省", "reading": "はんせい", "meaning": "Phản tỉnh, suy nghĩ lại lỗi lầm" },
+        { "word": "省略", "reading": "しょうりゃく", "meaning": "Lược bớt" },
+        { "word": "帰省", "reading": "きせい", "meaning": "Về quê" },
+        { "word": "文部科学省", "reading": "もんぶかがくしょう", "meaning": "Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ" },
+        { "word": "省エネ", "reading": "しょうえね", "meaning": "Tiết kiệm năng lượng" },
+        { "word": "省く", "reading": "はぶく", "meaning": "Loại bỏ, lược bớt" }
+      ]
+    },
+    {
+      "kanji": "承",
+      "amHan": "Thừa",
+      "nghia": "Thừa nhận, tiếp nhận",
+      "onyomi": "ショウ",
+      "kunyomi": "うけたまわ.る",
+      "mnemonic": {
+        "text": "Ba người cùng nâng tay lên để TIẾP THỪA một vật gì đó (như dòng nước)."
+      },
+      "examples": [
+        { "word": "承認", "reading": "しょうにん", "meaning": "Thừa nhận, phê duyệt" },
+        { "word": "承知", "reading": "しょうち", "meaning": "Biết rõ, đồng ý" },
+        { "word": "了承", "reading": "りょうしょう", "meaning": "Thấu hiểu, chấp nhận" },
+        { "word": "継承", "reading": "けいしょう", "meaning": "Thừa kế, kế thừa" },
+        { "word": "承る", "reading": "うけたまわる", "meaning": "Tiếp nhận, nghe (khiêm nhường)" }
+      ]
+    },
+    {
+      "kanji": "展",
+      "amHan": "Triển",
+      "nghia": "Triển lãm, phát triển",
+      "onyomi": "テン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Dưới mái nhà (尸), mặc quần áo đẹp để TRIỂN lãm sự phát triển của bản thân."
+      },
+      "examples": [
+        { "word": "展開", "reading": "てんかい", "meaning": "Triển khai, diễn biến" },
+        { "word": "展示", "reading": "てんじ", "meaning": "Trưng bày, triển lãm" },
+        { "word": "発展", "reading": "はってん", "meaning": "Phát triển" },
+        { "word": "展覧会", "reading": "てんらんかい", "meaning": "Cuộc triển lãm" },
+        { "word": "展望", "reading": "てんぼう", "meaning": "Triển vọng, tầm nhìn" }
+      ]
+    },
+    {
+      "kanji": "破",
+      "amHan": "Phá",
+      "nghia": "Phá vỡ, làm rách",
+      "onyomi": "ハ",
+      "kunyomi": "やぶ.る, やぶ.れる",
+      "mnemonic": {
+        "text": "Dùng ĐÁ (石) ném vào bộ DA (皮) để PHÁ vỡ nó."
+      },
+      "examples": [
+        { "word": "破壊", "reading": "はかい", "meaning": "Phá hoại" },
+        { "word": "破産", "reading": "はさん", "meaning": "Phá sản" },
+        { "word": "破る", "reading": "やぶる", "meaning": "Xé rách, phá vỡ (kỷ lục/hứa)" },
+        { "word": "破裂", "reading": "はれつ", "meaning": "Nổ tung, vỡ tung" },
+        { "word": "突破", "reading": "とっぱ", "meaning": "Đột phá, vượt qua" },
+        { "word": "論破", "reading": "ろんぱ", "meaning": "Bác bỏ luận điểm" }
+      ]
+    },
+    {
+      "kanji": "処",
+      "amHan": "Xử",
+      "nghia": "Xử lý, nơi chốn",
+      "onyomi": "ショ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Đi (夂) đến cái GHẾ (几) để XỬ lý công việc."
+      },
+      "examples": [
+        { "word": "処理", "reading": "しょり", "meaning": "Xử lý" },
+        { "word": "処分", "reading": "しょぶん", "meaning": "Giải quyết, vứt bỏ, xử phạt" },
+        { "word": "対処", "reading": "たいしょ", "meaning": "Đối phó, ứng phó" },
+        { "word": "処置", "reading": "しょち", "meaning": "Biện pháp xử lý" },
+        { "word": "処罰", "reading": "しょばつ", "meaning": "Xử phạt" },
+        { "word": "至る所", "reading": "いたるところ", "meaning": "Khắp nơi" }
+      ]
+    }
+  ]

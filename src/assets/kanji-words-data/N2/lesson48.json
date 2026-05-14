@@ -1,0 +1,205 @@
+﻿[
+    {
+      "kanji": "環",
+      "amHan": "Hoàn",
+      "nghia": "Vòng quanh, môi trường",
+      "onyomi": "カン",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "VUA (王) đi tuần tra các phía (𦗟 - biến thể) để quản lý HOÀN cảnh xung quanh."
+      },
+      "examples": [
+        { "word": "環境", "reading": "かんきょう", "meaning": "môi trường" },
+        { "word": "循環", "reading": "じゅんかん", "meaning": "tuần hoàn" },
+        { "word": "環状線", "reading": "かんじょうせん", "meaning": "tuyến đường vòng cung" },
+        { "word": "一環", "reading": "いっかん", "meaning": "một phần (trong mối liên kết)" },
+        { "word": "環", "reading": "わ", "meaning": "vòng, đai" }
+      ]
+    },
+    {
+      "kanji": "境",
+      "amHan": "Cảnh",
+      "nghia": "Biên giới, cảnh ngộ",
+      "onyomi": "キョウ / ケイ",
+      "kunyomi": "さかい",
+      "mnemonic": {
+        "text": "Vùng ĐẤT (土) nơi người DÂN (音+儿 - biến thể của người) đứng quan sát biên CẢNH."
+      },
+      "examples": [
+        { "word": "境界", "reading": "きょうかい", "meaning": "biên giới, ranh giới" },
+        { "word": "境", "reading": "さかい", "meaning": "ranh giới, giới hạn" },
+        { "word": "心境", "reading": "しんきょう", "meaning": "tâm trạng, cảnh ngộ từ tâm" },
+        { "word": "境遇", "reading": "きょうぐう", "meaning": "cảnh ngộ, hoàn cảnh" },
+        { "word": "国境", "reading": "こっきょう", "meaning": "biên giới quốc gia" }
+      ]
+    },
+    {
+      "kanji": "減",
+      "amHan": "Giảm",
+      "nghia": "Cắt giảm, bớt",
+      "onyomi": "ゲン",
+      "kunyomi": "へ.る / へ.らす",
+      "mnemonic": {
+        "text": "NƯỚC (氵) chảy qua MIỆNG (口) cái hố có CẢM (咸) giác bị vơi GIẢM đi."
+      },
+      "examples": [
+        { "word": "減少", "reading": "げんしょう", "meaning": "sụt giảm" },
+        { "word": "削減", "reading": "さくげn", "meaning": "cắt giảm" },
+        { "word": "軽減", "reading": "けいげん", "meaning": "giảm nhẹ (hình phạt, gánh nặng)" },
+        { "word": "減る", "reading": "へる", "meaning": "giảm đi" },
+        { "word": "増減", "reading": "ぞうげん", "meaning": "tăng giảm" },
+        { "word": "減量", "reading": "げんりょう", "meaning": "giảm trọng lượng, giảm cân" }
+      ]
+    },
+    {
+      "kanji": "努",
+      "amHan": "Nỗ",
+      "nghia": "Nỗ lực, cố gắng",
+      "onyomi": "ド",
+      "kunyomi": "つと.める",
+      "mnemonic": {
+        "text": "Tên NÔ (奴) tì phải dùng hết sức LỰC (力) để NỖ lực làm việc."
+      },
+      "examples": [
+        { "word": "努力", "reading": "どりょく", "meaning": "nỗ lực" },
+        { "word": "努める", "reading": "つとめる", "meaning": "cố gắng, nỗ lực" },
+        { "word": "努力家", "reading": "どりょくか", "meaning": "người làm việc chăm chỉ" }
+      ]
+    },
+    {
+      "kanji": "庁",
+      "amHan": "Sảnh",
+      "nghia": "Cơ quan, sảnh",
+      "onyomi": "チョウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dưới mái hiên RỘNG (广), ĐINH (丁) đóng cột cho tòa SẢNH cơ quan."
+      },
+      "examples": [
+        { "word": "官公庁", "reading": "かんこうちょう", "meaning": "văn phòng chính phủ" },
+        { "word": "県庁", "reading": "けんちょう", "meaning": "tòa thị chính tỉnh" },
+        { "word": "気象庁", "reading": "きしょうちょう", "meaning": "cục khí tượng" },
+        { "word": "特許庁", "reading": "とっきょちょう", "meaning": "cục sáng chế" },
+        { "word": "警察庁", "reading": "けいさつちょう", "meaning": "cơ quan cảnh sát quốc gia" }
+      ]
+    },
+    {
+      "kanji": "官",
+      "amHan": "Quan",
+      "nghia": "Quan lại, bộ phận",
+      "onyomi": "カン",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Người làm QUAN ở trong mái NHÀ (宀) và trông coi các tầng lầu (𠂔 - biến thể)."
+      },
+      "examples": [
+        { "word": "警官", "reading": "けいかん", "meaning": "cảnh sát" },
+        { "word": "官僚", "reading": "かんりょう", "meaning": "quan liêu" },
+        { "word": "官民", "reading": "かんみん", "meaning": "chính quyền và nhân dân" },
+        { "word": "器官", "reading": "きかん", "meaning": "cơ quan (trong cơ thể)" },
+        { "word": "外交官", "reading": "がいこうかん", "meaning": "nhà ngoại giao" }
+      ]
+    },
+    {
+      "kanji": "宙",
+      "amHan": "Trụ",
+      "nghia": "Vũ trụ, không gian",
+      "onyomi": "チュウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (宀), lịch sử trôi qua tựa như dòng chảy của thời gian (由) trong vũ TRỤ."
+      },
+      "examples": [
+        { "word": "宇宙", "reading": "うちゅう", "meaning": "vũ trụ" },
+        { "word": "宙返り", "reading": "ちゅうがえり", "meaning": "nhào lộn trên không" },
+        { "word": "宙に浮く", "reading": "ちゅうにうく", "meaning": "lơ lửng giữa chừng (kế hoạch bị hoãn)" },
+        { "word": "宙を舞う", "reading": "ちゅうをまう", "meaning": "bay bổng trên không" }
+      ]
+    },
+    {
+      "kanji": "独",
+      "amHan": "Độc",
+      "nghia": "Độc thân, một mình",
+      "onyomi": "ドク",
+      "kunyomi": "ひと.り",
+      "mnemonic": {
+        "text": "Con CHÓ (犭) đứng cạnh con CÔN TRÙNG (虫) trông thật ĐỘC hành."
+      },
+      "examples": [
+        { "word": "独特", "reading": "どくとく", "meaning": "độc đáo, đặc sắc" },
+        { "word": "独立", "reading": "どくりつ", "meaning": "độc lập" },
+        { "word": "独身", "reading": "どくしん", "meaning": "độc thân" },
+        { "word": "独占", "reading": "どくせん", "meaning": "độc chiếm" },
+        { "word": "独り言", "reading": "ひとりごと", "meaning": "nói một mình" },
+        { "word": "孤独", "reading": "こどく", "meaning": "cô độc" }
+      ]
+    },
+    {
+      "kanji": "技",
+      "amHan": "Kỹ",
+      "nghia": "Kỹ thuật, tay nghề",
+      "onyomi": "ギ",
+      "kunyomi": "わざ",
+      "mnemonic": {
+        "text": "Dùng bàn TAY (扌) thực hiện các bước CHI (支) tiết tạo nên KỸ thuật."
+      },
+      "examples": [
+        { "word": "技術", "reading": "ぎじゅつ", "meaning": "kỹ thuật" },
+        { "word": "技", "reading": "わざ", "meaning": "kỹ năng, chiêu thức" },
+        { "word": "特技", "reading": "とくぎ", "meaning": "năng khiếu, sở trường" },
+        { "word": "競技", "reading": "きょうぎ", "meaning": "thi đấu (thể thao)" },
+        { "word": "技能", "reading": "ぎのう", "meaning": "kỹ năng tay nghề" }
+      ]
+    },
+    {
+      "kanji": "政",
+      "amHan": "Chính",
+      "nghia": "Chính trị, chính sách",
+      "onyomi": "セイ / ショウ",
+      "kunyomi": "まつりごと",
+      "mnemonic": {
+        "text": "Dùng hành động (攵 - đánh) để làm cho mọi thứ được CHÍNH (正) trực là làm CHÍNH trị."
+      },
+      "examples": [
+        { "word": "政治", "reading": "せいじ", "meaning": "chính trị" },
+        { "word": "政策", "reading": "せいさく", "meaning": "chính sách" },
+        { "word": "政党", "reading": "せいとう", "meaning": "đảng phái" },
+        { "word": "政府", "reading": "せいふ", "meaning": "chính phủ" },
+        { "word": "行政", "reading": "ぎょうせい", "meaning": "hành chính" }
+      ]
+    },
+    {
+      "kanji": "況",
+      "amHan": "Huống",
+      "nghia": "Tình huống, tình hình",
+      "onyomi": "キョウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dưới NƯỚC (氵), người ANH (兄) đang gặp tình HUỐNG khó khăn."
+      },
+      "examples": [
+        { "word": "状況", "reading": "じょうきょう", "meaning": "tình hình, trạng huống" },
+        { "word": "不況", "reading": "ふきょう", "meaning": "kinh tế suy thoái" },
+        { "word": "近況", "reading": "きんきょう", "meaning": "tình hình gần đây" },
+        { "word": "実況", "reading": "じっきょう", "meaning": "truyền hình trực tiếp, tình hình thực tế" },
+        { "word": "活況", "reading": "かっきょう", "meaning": "sự náo nhiệt, phồn vinh" }
+      ]
+    },
+    {
+      "kanji": "腕",
+      "amHan": "Oản",
+      "nghia": "Cánh tay, năng lực",
+      "onyomi": "ワン",
+      "kunyomi": "うで",
+      "mnemonic": {
+        "text": "Bộ phận CƠ THỂ (⽉) nằm dưới mái nhà (宀) nơi có BUỔI TỐI (夕) và các đốt xương (卩) là cánh cánh tay (OẢN)."
+      },
+      "examples": [
+        { "word": "腕", "reading": "うで", "meaning": "cánh tay" },
+        { "word": "腕前", "reading": "うでまえ", "meaning": "khả năng, tay nghề" },
+        { "word": "腕時計", "reading": "うでどけい", "meaning": "đồng hồ đeo tay" },
+        { "word": "腕力", "reading": "わんりょく", "meaning": "lực cánh tay, sức mạnh cơ bắp" },
+        { "word": "手腕", "reading": "しゅわん", "meaning": "năng lực, kỹ năng giải quyết" }
+      ]
+    }
+  ]

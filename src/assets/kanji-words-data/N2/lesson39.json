@@ -1,0 +1,241 @@
+﻿[
+    {
+      "kanji": "貝",
+      "amHan": "Bối",
+      "nghia": "Con sò, vỏ sò",
+      "onyomi": "バイ",
+      "kunyomi": "かい",
+      "mnemonic": {
+        "text": "Hình ảnh con sò có hai cái chân thò ra phía dưới."
+      },
+      "examples": [
+        { "word": "貝", "reading": "かい", "meaning": "Con sò, nghêu, sò" },
+        { "word": "貝殻", "reading": "かいがら", "meaning": "Vỏ sò" },
+        { "word": "真珠貝", "reading": "しんじゅがい", "meaning": "Trai ngọc" },
+        { "word": "ムール貝", "reading": "むーるがい", "meaning": "Vẹm xanh" },
+        { "word": "魚介類", "reading": "ぎょかいるい", "meaning": "Hải sản (Ngư giới loại)" }
+      ]
+    },
+    {
+      "kanji": "酒",
+      "amHan": "Tửu",
+      "nghia": "Rượu",
+      "onyomi": "シュ",
+      "kunyomi": "さけ, さか",
+      "mnemonic": {
+        "text": "NƯỚC (氵) đựng trong bình rượu (酉 - dậu) gọi là RƯỢU."
+      },
+      "examples": [
+        { "word": "日本酒", "reading": "にほんしゅ", "meaning": "Rượu Sake Nhật" },
+        { "word": "飲酒運転", "reading": "いんしゅうんてん", "meaning": "Lái xe sau khi uống rượu" },
+        { "word": "居酒屋", "reading": "いざかや", "meaning": "Quán rượu" },
+        { "word": "お酒", "reading": "おさけ", "meaning": "Rượu nói chung" },
+        { "word": "洋酒", "reading": "ようしゅ", "meaning": "Rượu tây" },
+        { "word": "酒場", "reading": "さかば", "meaning": "Vũ trường, quán bar" }
+      ]
+    },
+    {
+      "kanji": "蒸",
+      "amHan": "Chưng",
+      "nghia": "Hấp, chưng cách thủy",
+      "onyomi": "ジョウ",
+      "kunyomi": "む.す, む.れる, む.らす",
+      "mnemonic": {
+        "text": "Dùng LỬA (灬) đun NƯỚC (氵) dưới CỎ (艹) để HẤP chín đồ ăn."
+      },
+      "examples": [
+        { "word": "蒸す", "reading": "むす", "meaning": "Hấp" },
+        { "word": "蒸し暑い", "reading": "むしあつい", "meaning": "Oai bức, nóng ẩm" },
+        { "word": "水蒸気", "reading": "すいじょうき", "meaning": "Hơi nước" },
+        { "word": "蒸発", "reading": "じょうはつ", "meaning": "Bay hơi, biến mất" },
+        { "word": "茶碗蒸し", "reading": "ちゃわんむし", "meaning": "Món trứng hấp kiểu Nhật" }
+      ]
+    },
+    {
+      "kanji": "干",
+      "amHan": "Can",
+      "nghia": "Phơi khô, khô",
+      "onyomi": "カン",
+      "kunyomi": "ほ.す, ひ.る",
+      "mnemonic": {
+        "text": "Hình ảnh cái giá phơi đồ có hai thanh ngang."
+      },
+      "examples": [
+        { "word": "干す", "reading": "ほす", "meaning": "Phơi (quần áo, cá...)" },
+        { "word": "干物", "reading": "ひもの", "meaning": "Đồ khô, cá khô" },
+        { "word": "若干", "reading": "じゃっかん", "meaning": "Một ít, một vài" },
+        { "word": "干渉", "reading": "かんしょう", "meaning": "Can thiệp" },
+        { "word": "梅干し", "reading": "うめぼし", "meaning": "Mơ muối" }
+      ]
+    },
+    {
+      "kanji": "竹",
+      "amHan": "Trúc",
+      "nghia": "Tre, trúc",
+      "onyomi": "チク",
+      "kunyomi": "たけ",
+      "mnemonic": {
+        "text": "Hình ảnh hai cành tre rủ xuống đối xứng nhau."
+      },
+      "examples": [
+        { "word": "竹", "reading": "たけ", "meaning": "Cây tre" },
+        { "word": "竹の子", "reading": "たけのこ", "meaning": "Măng" },
+        { "word": "竹林", "reading": "ちくりん", "meaning": "Rừng tre" },
+        { "word": "爆竹", "reading": "ばくちく", "meaning": "Pháo tre (pháo nổ)" },
+        { "word": "竹細工", "reading": "たけざいく", "meaning": "Đồ thủ công làm từ tre" }
+      ]
+    },
+    {
+      "kanji": "卵",
+      "amHan": "Noãn",
+      "nghia": "Trứng",
+      "onyomi": "ラン",
+      "kunyomi": "たまご",
+      "mnemonic": {
+        "text": "Hình ảnh hai nửa của quả trứng đang nở ra."
+      },
+      "examples": [
+        { "word": "卵", "reading": "たまご", "meaning": "Trứng" },
+        { "word": "卵白", "reading": "らんぱく", "meaning": "Lòng trắng trứng" },
+        { "word": "卵黄", "reading": "らんおう", "meaning": "Lòng đỏ trứng" },
+        { "word": "産卵", "reading": "さんらん", "meaning": "Sự đẻ trứng" },
+        { "word": "卵型", "reading": "たまごがた", "meaning": "Hình trái xoan" }
+      ]
+    },
+    {
+      "kanji": "根",
+      "amHan": "Căn",
+      "nghia": "Rễ cây, căn bản",
+      "onyomi": "コン",
+      "kunyomi": "ね",
+      "mnemonic": {
+        "text": "Cây (木) bám chặt vào đất để xác định (艮 - cấn) vị trí rễ CĂN."
+      },
+      "examples": [
+        { "word": "屋根", "reading": "やね", "meaning": "Mái nhà" },
+        { "word": "根本的", "reading": "こんぽんてき", "meaning": "Một cách căn bản" },
+        { "word": "根気", "reading": "こんき", "meaning": "Sự kiên nhẫn" },
+        { "word": "根っこ", "reading": "ねっこ", "meaning": "Gốc rễ" },
+        { "word": "根拠", "reading": "こんきょ", "meaning": "Căn cứ" },
+        { "word": "大根", "reading": "だいこん", "meaning": "Củ cải trắng" }
+      ]
+    },
+    {
+      "kanji": "材",
+      "amHan": "Tài",
+      "nghia": "Nguyên liệu, tài liệu",
+      "onyomi": "ザイ",
+      "mnemonic": {
+        "text": "Cây (木) có năng lực (才 - tài) để làm nguyên liệu TÀI."
+      },
+      "examples": [
+        { "word": "材料", "reading": "ざいりょう", "meaning": "Nguyên liệu" },
+        { "word": "教材", "reading": "きょうざい", "meaning": "Giáo trình, tài liệu giảng dạy" },
+        { "word": "題材", "reading": "だいざい", "meaning": "Đề tài" },
+        { "word": "木材", "reading": "もくざい", "meaning": "Gỗ (nguyên liệu xây dựng)" },
+        { "word": "人材", "reading": "じんざい", "meaning": "Nhân lực, nhân tài" }
+      ]
+    },
+    {
+      "kanji": "植",
+      "amHan": "Thực",
+      "nghia": "Trồng cây, thực vật",
+      "onyomi": "ショク",
+      "kunyomi": "う.える, う.わる",
+      "mnemonic": {
+        "text": "Cây (木) được trồng THẲNG (直) hàng."
+      },
+      "examples": [
+        { "word": "植物", "reading": "しょくぶつ", "meaning": "Thực vật" },
+        { "word": "植える", "reading": "うえる", "meaning": "Trồng (cây)" },
+        { "word": "田植え", "reading": "たうえ", "meaning": "Trồng lúa, cấy lúa" },
+        { "word": "植木", "reading": "うえき", "meaning": "Cây trồng trong chậu/vườn" },
+        { "word": "移植", "reading": "いしょく", "meaning": "Cấy ghép (nội tạng, cây cối)" }
+      ]
+    },
+    {
+      "kanji": "砂",
+      "amHan": "Sa",
+      "nghia": "Cát",
+      "onyomi": "サ, シャ",
+      "kunyomi": "すな",
+      "mnemonic": {
+        "text": "Đá (石) vỡ ra thành những mảnh nhỏ (少 - thiểu) là CÁT."
+      },
+      "examples": [
+        { "word": "砂糖", "reading": "さとう", "meaning": "Đường ăn" },
+        { "word": "砂", "reading": "すな", "meaning": "Cát" },
+        { "word": "砂漠", "reading": "さばく", "meaning": "Sa mạc" },
+        { "word": "砂嵐", "reading": "すなあらし", "meaning": "Bão cát" },
+        { "word": "土砂", "reading": "どしゃ", "meaning": "Đất cát, bùn đất" }
+      ]
+    },
+    {
+      "kanji": "乳",
+      "amHan": "Nhũ",
+      "nghia": "Sữa, vú",
+      "onyomi": "ニュウ",
+      "kunyomi": "ちち, ち",
+      "mnemonic": {
+        "text": "Dùng tay (爫) bế đứa trẻ (子) đang uống sữa NHŨ."
+      },
+      "examples": [
+        { "word": "乳", "reading": "ちち", "meaning": "Sữa mẹ, vú" },
+        { "word": "牛乳", "reading": "ぎゅうにゅう", "meaning": "Sữa bò" },
+        { "word": "乳児", "reading": "にゅうじ", "meaning": "Trẻ nhũ nhi, trẻ sơ sinh" },
+        { "word": "哺乳類", "reading": "ほにゅうるい", "meaning": "Động vật có vú" },
+        { "word": "乳製品", "reading": "にゅうせいひん", "meaning": "Sản phẩm từ sữa" }
+      ]
+    },
+    {
+      "kanji": "含",
+      "amHan": "Hàm",
+      "nghia": "Bao gồm, ngậm",
+      "onyomi": "ガン",
+      "kunyomi": "ふく.む, ふく.める",
+      "mnemonic": {
+        "text": "Bây giờ (今) trong MIỆNG (口) đang NGẬM cái gì đó."
+      },
+      "examples": [
+        { "word": "含む", "reading": "ふくむ", "meaning": "Bao gồm, chứa đựng" },
+        { "word": "含める", "reading": "ふくめる", "meaning": "Tính cả, bao gồm" },
+        { "word": "含有量", "reading": "がんゆうりょう", "meaning": "Hàm lượng" },
+        { "word": "含み笑い", "reading": "ふくみわらい", "meaning": "Cười mỉm, cười thầm" },
+        { "word": "包含", "reading": "ほうがん", "meaning": "Bao hàm" }
+      ]
+    },
+    {
+      "kanji": "炭",
+      "amHan": "Than",
+      "nghia": "Than đá",
+      "onyomi": "タン",
+      "kunyomi": "すみ",
+      "mnemonic": {
+        "text": "LỬA (火) đốt ở dưới NÚI (山) tạo thành THAN đá."
+      },
+      "examples": [
+        { "word": "炭", "reading": "すみ", "meaning": "Than củi" },
+        { "word": "石炭", "reading": "せきたん", "meaning": "Than đá" },
+        { "word": "二酸化炭素", "reading": "にさんかたんそ", "meaning": "Khí CO2" },
+        { "word": "炭水化物", "reading": "たんすいかぶつ", "meaning": "Carbohydrate (tinh bột)" },
+        { "word": "炭鉱", "reading": "たんこう", "meaning": "Mỏ than" }
+      ]
+    },
+    {
+      "kanji": "脂",
+      "amHan": "Chi",
+      "nghia": "Mỡ, mỡ động vật",
+      "onyomi": "シ",
+      "kunyomi": "あぶら",
+      "mnemonic": {
+        "text": "Phần THỊT (⺼ - nguyệt) có màu sắc CHỈ (旨) định là MỠ."
+      },
+      "examples": [
+        { "word": "脂", "reading": "あぶら", "meaning": "Mỡ (động vật)" },
+        { "word": "脂肪", "reading": "しぼう", "meaning": "Chất béo, mỡ" },
+        { "word": "油脂", "reading": "ゆし", "meaning": "Mỡ và dầu" },
+        { "word": "脂っこい", "reading": "あぶらっこい", "meaning": "Dầu mỡ, béo ngậy" },
+        { "word": "皮脂", "reading": "ひし", "meaning": "Bã nhờn (trên da)" }
+      ]
+    }
+  ]

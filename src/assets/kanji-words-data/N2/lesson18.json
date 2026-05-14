@@ -1,0 +1,251 @@
+﻿[
+    {
+      "kanji": "結",
+      "amHan": "Kết",
+      "nghia": "Kết thúc, thắt nút, liên kết",
+      "onyomi": "ケツ / ケッ",
+      "kunyomi": "むす.ぶ / ゆ.う",
+      "mnemonic": {
+        "text": "Dùng sợi CHỈ (糸) buộc các CÁT (吉) tường lại để KẾT duyên."
+      },
+      "examples": [
+        { "word": "結果", "reading": "けっか", "meaning": "kết quả" },
+        { "word": "結論", "reading": "けつろん", "meaning": "kết luận" },
+        { "word": "結婚", "reading": "けっこん", "meaning": "kết hôn" },
+        { "word": "結ぶ", "reading": "むすぶ", "meaning": "buộc, kết nối" },
+        { "word": "結末", "reading": "けつまつ", "meaning": "kết thúc, cuối cùng" },
+        { "word": "団結", "reading": "だんけつ", "meaning": "đoàn kết" },
+        { "word": "終結", "reading": "しゅうけつ", "meaning": "chung kết, kết thúc" }
+      ]
+    },
+    {
+      "kanji": "果",
+      "amHan": "Quả",
+      "nghia": "Hoa quả, thành quả, thực hiện",
+      "onyomi": "カ",
+      "kunyomi": "は.たす / は.てる",
+      "mnemonic": {
+        "text": "Trên CÂY (木) mọc ra những điền ĐIỀN (田 - giống hình trái cây) là thu hoạch được thành QUẢ."
+      },
+      "examples": [
+        { "word": "果実", "reading": "かじつ", "meaning": "quả, trái cây" },
+        { "word": "果たす", "reading": "はたす", "meaning": "hoàn thành (nhiệm vụ)" },
+        { "word": "効果", "reading": "こうか", "meaning": "hiệu quả" },
+        { "word": "成果", "reading": "せいか", "meaning": "thành quả" },
+        { "word": "果済", "reading": "はたし", "meaning": "xong xuôi" },
+        { "word": "逆効果", "reading": "ぎゃくこうか", "meaning": "phản tác dụng" }
+      ]
+    },
+    {
+      "kanji": "封",
+      "amHan": "Phong",
+      "nghia": "Phong tỏa, bao vây, phong bì",
+      "onyomi": "フウ / ホウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Trên ĐẤT (土) bồi, dùng TAY (寸 - thốn) trồng cây để PHONG tỏa ranh giới."
+      },
+      "examples": [
+        { "word": "封筒", "reading": "ふうとう", "meaning": "phong bì" },
+        { "word": "同封", "reading": "どうふう", "meaning": "gửi kèm theo" },
+        { "word": "封じる", "reading": "ふうじる", "meaning": "ngăn chặn, phong tỏa" },
+        { "word": "開封", "reading": "かいふう", "meaning": "mở thư, bóc phong bì" },
+        { "word": "封鎖", "reading": "ふうさ", "meaning": "phong tỏa, bao vây" },
+        { "word": "封建的", "reading": "ほうけんてき", "meaning": "tính phong kiến" }
+      ]
+    },
+    {
+      "kanji": "法",
+      "amHan": "Pháp",
+      "nghia": "Pháp luật, phương pháp",
+      "onyomi": "ホウ / ハッ / ホッ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "PHÁP luật phải trong suốt như NƯỚC (氵) và khiến cái xấu đi ĐI (去)."
+      },
+      "examples": [
+        { "word": "法律", "reading": "ほうりつ", "meaning": "pháp luật" },
+        { "word": "方法", "reading": "ほうほう", "meaning": "phương pháp" },
+        { "word": "憲法", "reading": "けんぽう", "meaning": "hiến pháp" },
+        { "word": "文法", "reading": "ぶんぽう", "meaning": "ngữ pháp" },
+        { "word": "作法", "reading": "さほう", "meaning": "cách cư xử, lễ nghi" },
+        { "word": "合法", "reading": "ごうほう", "meaning": "hợp pháp" },
+        { "word": "法則", "reading": "ほうそく", "meaning": "quy luật" }
+      ]
+    },
+    {
+      "kanji": "各",
+      "amHan": "Các",
+      "nghia": "Mỗi, các",
+      "onyomi": "カク",
+      "kunyomi": "おのおの",
+      "mnemonic": {
+        "text": "Mỗi người có cái MIỆNG (口) và đôi chân (夊 - truy) tự đi theo cách của CÁC nhân."
+      },
+      "examples": [
+        { "word": "各種", "reading": "かくしゅ", "meaning": "các loại" },
+        { "word": "各地", "reading": "かくち", "meaning": "các nơi, mọi miền" },
+        { "word": "各位", "reading": "かくい", "meaning": "kính gửi các vị" },
+        { "word": "各自", "reading": "かくじ", "meaning": "mỗi người, mỗi cá nhân" },
+        { "word": "各家庭", "reading": "かくかてい", "meaning": "mỗi gia đình" }
+      ]
+    },
+    {
+      "kanji": "位",
+      "amHan": "Vị",
+      "nghia": "Vị trí, địa vị, khoảng",
+      "onyomi": "イ",
+      "kunyomi": "くらい / ぐら.い",
+      "mnemonic": {
+        "text": "CON NGƯỜI (亻) ĐỨNG (立) ở vị trí nào thì thể hiện ĐỊA VỊ đó."
+      },
+      "examples": [
+        { "word": "位置", "reading": "いち", "meaning": "vị trí" },
+        { "word": "単位", "reading": "たんい", "meaning": "đơn vị" },
+        { "word": "地位", "reading": "ちい", "meaning": "địa vị" },
+        { "word": "順位", "reading": "じゅんい", "meaning": "thứ hạng" },
+        { "word": "第一位", "reading": "だいいちい", "meaning": "vị trí thứ nhất" },
+        { "word": "学位", "reading": "がくい", "meaning": "học vị, bằng cấp" }
+      ]
+    },
+    {
+      "kanji": "異",
+      "amHan": "Dị",
+      "nghia": "Khác thường, lạ",
+      "onyomi": "イ",
+      "kunyomi": "こと.なる",
+      "mnemonic": {
+        "text": "Ruộng ĐIỀN (田) mà để CHẤP (共 - hai tay) lên đầu là chuyện dị thường."
+      },
+      "examples": [
+        { "word": "異常", "reading": "いじょう", "meaning": "bất thường" },
+        { "word": "異なる", "reading": "ことなる", "meaning": "khác biệt" },
+        { "word": "異論", "reading": "いろん", "meaning": "ý kiến khác, phản đối" },
+        { "word": "異動", "reading": "いどう", "meaning": "thay đổi nhân sự" },
+        { "word": "異文化", "reading": "いぶんか", "meaning": "văn hóa khác biệt" },
+        { "word": "異議", "reading": "いぎ", "meaning": "kháng nghị, phản đối" }
+      ]
+    },
+    {
+      "kanji": "移",
+      "amHan": "Di",
+      "nghia": "Di chuyển, lây lan",
+      "onyomi": "イ",
+      "kunyomi": "うつ.る / うつ.す",
+      "mnemonic": {
+        "text": "Cây LÚA (禾) được trồng NHIỀU (多) rồi di chuyển sang chỗ khác."
+      },
+      "examples": [
+        { "word": "移動", "reading": "いどう", "meaning": "di chuyển" },
+        { "word": "移住", "reading": "いじゅう", "meaning": "di cư" },
+        { "word": "移る", "reading": "うつる", "meaning": "lây sang, dọn đi" },
+        { "word": "移転", "reading": "いてん", "meaning": "di chuyển địa điểm" },
+        { "word": "転移", "reading": "てんい", "meaning": "di căn (bệnh), chuyển dịch" },
+        { "word": "移植", "reading": "いしょく", "meaning": "cấy ghép (nội tạng, cây cối)" }
+      ]
+    },
+    {
+      "kanji": "務",
+      "amHan": "Vụ",
+      "nghia": "Công việc, nhiệm vụ",
+      "onyomi": "ム",
+      "kunyomi": "つと.める",
+      "mnemonic": {
+        "text": "Dùng MÂU (矛) và sức LỰC (力) để hoàn thành công VỤ dưới sự chỉ đạo (攵)."
+      },
+      "examples": [
+        { "word": "任務", "reading": "にんむ", "meaning": "nhiệm vụ" },
+        { "word": "公務員", "reading": "こうむいん", "meaning": "viên chức nhà nước" },
+        { "word": "義務", "reading": "ぎむ", "meaning": "nghĩa vụ" },
+        { "word": "事務", "reading": "じむ", "meaning": "công việc văn phòng" },
+        { "word": "務める", "reading": "つとめる", "meaning": "đảm nhiệm, phục vụ" },
+        { "word": "勤務", "reading": "きんむ", "meaning": "làm việc" }
+      ]
+    },
+    {
+      "kanji": "更",
+      "amHan": "Canh",
+      "nghia": "Thay đổi, canh tân, khuya",
+      "onyomi": "コウ",
+      "kunyomi": "さら / ふ.ける",
+      "mnemonic": {
+        "text": "Số MỘT (一) nằm trên cánh đồng (田) nhưng lại bị đè bởi cái cày, cần thay đổi/CANH tân."
+      },
+      "examples": [
+        { "word": "更新", "reading": "こうしん", "meaning": "cập nhật, gia hạn" },
+        { "word": "変更", "reading": "へんこう", "meaning": "thay đổi" },
+        { "word": "夜更かし", "reading": "よふかし", "meaning": "thức khuya" },
+        { "word": "更生", "reading": "こうせい", "meaning": "cải tà quy chính, tái sinh" },
+        { "word": "今更", "reading": "いまさら", "meaning": "đến giờ mới... (muộn rồi)" },
+        { "word": "更地", "reading": "さらち", "meaning": "đất trống" }
+      ]
+    },
+    {
+      "kanji": "越",
+      "amHan": "Việt",
+      "nghia": "Vượt qua",
+      "onyomi": "エツ",
+      "kunyomi": "こ.す / こ.える",
+      "mnemonic": {
+        "text": "Chạy (走) cầm theo cái RÌU (戉 - việt) để VƯỢT qua biên giới."
+      },
+      "examples": [
+        { "word": "引越し", "reading": "ひっこし", "meaning": "chuyển nhà" },
+        { "word": "乗り越える", "reading": "のりこえる", "meaning": "vượt qua (khó khăn)" },
+        { "word": "追い越す", "reading": "おいこす", "meaning": "vượt qua (xe cộ)" },
+        { "word": "越権", "reading": "えっけん", "meaning": "vượt quyền" },
+        { "word": "年越し", "reading": "としこし", "meaning": "dịp giao thừa" },
+        { "word": "優越感", "reading": "ゆうえつかん", "meaning": "tự cao, cảm giác ưu việt" }
+      ]
+    },
+    {
+      "kanji": "郊",
+      "amHan": "Giao",
+      "nghia": "Ngoại ô",
+      "onyomi": "コウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Nơi GIAO (交) thoa với vùng ĐẤT (阝) bên ngoài chính là ngoại ô."
+      },
+      "examples": [
+        { "word": "郊外", "reading": "こうがい", "meaning": "ngoại ô" },
+        { "word": "近郊", "reading": "きんこう", "meaning": "vùng lân cận" },
+        { "word": "郊野", "reading": "こうや", "meaning": "ngoại dã, đồng quê" }
+      ]
+    },
+    {
+      "kanji": "周",
+      "amHan": "Chu",
+      "nghia": "Xung quanh, chu kỳ",
+      "onyomi": "シュウ",
+      "kunyomi": "まわ.り",
+      "mnemonic": {
+        "text": "Dùng MIỆNG (口) nói về ruộng ĐIỀN (田 - biến thể) xung quanh một vòng CHU vi."
+      },
+      "examples": [
+        { "word": "周辺", "reading": "しゅうへん", "meaning": "vùng xung quanh" },
+        { "word": "周期", "reading": "しゅうき", "meaning": "chu kỳ" },
+        { "word": "一周", "reading": "いっしゅう", "meaning": "một vòng" },
+        { "word": "周囲", "reading": "しゅうい", "meaning": "chu vi, những người xung quanh" },
+        { "word": "円周", "reading": "えんしゅう", "meaning": "chu vi hình tròn" },
+        { "word": "周年", "reading": "しゅうねん", "meaning": "kỷ niệm (số) năm" }
+      ]
+    },
+    {
+      "kanji": "畑",
+      "amHan": "Điền/Sào",
+      "nghia": "Cánh đồng, ruộng nương",
+      "onyomi": "None",
+      "kunyomi": "はたけ / はた",
+      "mnemonic": {
+        "text": "Đốt LỬA (火) trên ruộng ĐIỀN (田) để làm nương rẫy."
+      },
+      "examples": [
+        { "word": "畑", "reading": "はたけ", "meaning": "ruộng nương, cánh đồng" },
+        { "word": "田畑", "reading": "たはた", "meaning": "ruộng vườn" },
+        { "word": "花畑", "reading": "はなばたけ", "meaning": "vườn hoa" },
+        { "word": "茶畑", "reading": "ちゃばたけ", "meaning": "cánh đồng chè" },
+        { "word": "麦畑", "reading": "むぎばたけ", "meaning": "cánh đồng lúa mạch" }
+      ]
+    }
+  ]

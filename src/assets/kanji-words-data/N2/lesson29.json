@@ -1,0 +1,224 @@
+﻿[
+    {
+      "kanji": "賞",
+      "amHan": "Thưởng",
+      "nghia": "Giải thưởng, khen thưởng",
+      "onyomi": "ショウ",
+      "kunyomi": "ほ.める",
+      "mnemonic": {
+        "text": "Những người có lòng cao thượng (尚) sẽ được ban Tiền (貝) làm phần THƯỞNG."
+      },
+      "examples": [
+        { "word": "賞金", "reading": "しょうきん", "meaning": "Tiền thưởng" },
+        { "word": "賞品", "reading": "しょうひん", "meaning": "Phần thưởng (hiện vật)" },
+        { "word": "受賞", "reading": "じゅしょう", "meaning": "Nhận giải thưởng" },
+        { "word": "賞味期限", "reading": "しょうみきげん", "meaning": "Hạn sử dụng (thơm ngon nhất)" },
+        { "word": "鑑賞", "reading": "かんしょう", "meaning": "Thưởng thức (nghệ thuật)" },
+        { "word": "賞賛", "reading": "しょうさん", "meaning": "Khen ngợi, ca tụng" }
+      ]
+    },
+    {
+      "kanji": "庫",
+      "amHan": "Khố",
+      "nghia": "Cái kho",
+      "onyomi": "コ, ク",
+      "kunyomi": "くら",
+      "mnemonic": {
+        "text": "Trong nhà (广) có Xe (車) thì nơi đó chính là cái KHO."
+      },
+      "examples": [
+        { "word": "冷蔵庫", "reading": "れいぞうこ", "meaning": "Tủ lạnh" },
+        { "word": "金庫", "reading": "きんこ", "meaning": "Két sắt" },
+        { "word": "車庫", "reading": "しゃこ", "meaning": "Gara xe" },
+        { "word": "在庫", "reading": "ざいこ", "meaning": "Hàng tồn kho" },
+        { "word": "倉庫", "reading": "そうこ", "meaning": "Nhà kho" }
+      ]
+    },
+    {
+      "kanji": "造",
+      "amHan": "Tạo",
+      "nghia": "Chế tạo, tạo ra",
+      "onyomi": "ゾウ",
+      "kunyomi": "つく.る",
+      "mnemonic": {
+        "text": "Vừa đi (辶) vừa báo cáo (告) về việc chế TẠO sản phẩm."
+      },
+      "examples": [
+        { "word": "製造", "reading": "せいぞう", "meaning": "Chế tạo, sản xuất" },
+        { "word": "造船", "reading": "ぞうせん", "meaning": "Đóng tàu" },
+        { "word": "構造", "reading": "こうぞう", "meaning": "Cấu trúc" },
+        { "word": "改造", "reading": "かいぞう", "meaning": "Cải tạo, tân trang" },
+        { "word": "造花", "reading": "ぞうか", "meaning": "Hoa giả" },
+        { "word": "造る", "reading": "つくる", "meaning": "Xây dựng, tạo ra (quy mô lớn)" }
+      ]
+    },
+    {
+      "kanji": "費",
+      "amHan": "Phí",
+      "nghia": "Chi phí, phí tổn",
+      "onyomi": "ヒ",
+      "kunyomi": "つい.やす",
+      "mnemonic": {
+        "text": "Dùng Tiền (貝) một cách sai lầm (弗 - phất/phẩy) thì gọi là phí PHÍ."
+      },
+      "examples": [
+        { "word": "費用", "reading": "ひよう", "meaning": "Chi phí" },
+        { "word": "消費者", "reading": "しょうひしゃ", "meaning": "Người tiêu dùng" },
+        { "word": "学費", "reading": "がくひ", "meaning": "Học phí" },
+        { "word": "会費", "reading": "かいひ", "meaning": "Hội phí" },
+        { "word": "費やす", "reading": "ついやす", "meaning": "Tiêu tốn (thời gian, tiền bạc)" },
+        { "word": "食費", "reading": "しょくひ", "meaning": "Tiền ăn" }
+      ]
+    },
+    {
+      "kanji": "可",
+      "amHan": "Khả",
+      "nghia": "Có thể, khả năng",
+      "onyomi": "カ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng miệng (口) khẳng định sức mạnh (丁) là có KHẢ năng."
+      },
+      "examples": [
+        { "word": "可能", "reading": "かのう", "meaning": "Khả năng" },
+        { "word": "許可", "reading": "きょか", "meaning": "Cho phép" },
+        { "word": "不可", "reading": "ふか", "meaning": "Không thể, không cho phép" },
+        { "word": "欠不可欠", "reading": "けつふかけつ", "meaning": "Không thể thiếu" },
+        { "word": "可愛い", "reading": "かわいい", "meaning": "Đáng yêu" }
+      ]
+    },
+    {
+      "kanji": "秒",
+      "amHan": "Miểu",
+      "nghia": "Giây (thời gian)",
+      "onyomi": "ビョウ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Cây lúa (禾) nhỏ (少) đến mức chỉ cần vài GIÂY là gặt xong."
+      },
+      "examples": [
+        { "word": "秒読み", "reading": "びょうよみ", "meaning": "Đếm ngược" },
+        { "word": "数秒", "reading": "すうびょう", "meaning": "Vài giây" },
+        { "word": "一秒", "reading": "いちびょう", "meaning": "Một giây" },
+        { "word": "毎秒", "reading": "まいびょう", "meaning": "Mỗi giây" }
+      ]
+    },
+    {
+      "kanji": "身",
+      "amHan": "Thân",
+      "nghia": "Bản thân, thân thể",
+      "onyomi": "シン",
+      "kunyomi": "み",
+      "mnemonic": {
+        "text": "Hình ảnh người phụ nữ đang mang bầu, tượng trưng cho THÂN thể."
+      },
+      "examples": [
+        { "word": "出身", "reading": "しゅっしん", "meaning": "Xuất thân, quê quán" },
+        { "word": "独身", "reading": "どくしん", "meaning": "Độc thân" },
+        { "word": "中身", "reading": "なかみ", "meaning": "Nội dung bên trong" },
+        { "word": "身分", "reading": "みぶん", "meaning": "Thân phận, địa vị" },
+        { "word": "自身", "reading": "じしん", "meaning": "Tự thân, bản thân" },
+        { "word": "身長", "reading": "しんちょう", "meaning": "Chiều cao cơ thể" }
+      ]
+    },
+    {
+      "kanji": "召",
+      "amHan": "Triệu",
+      "nghia": "Mời, gọi (kính ngữ)",
+      "onyomi": "ショウ",
+      "kunyomi": "め.す",
+      "mnemonic": {
+        "text": "Dùng Dao (刀) và Miệng (口) để triệu tập, TRIỆU mời."
+      },
+      "examples": [
+        { "word": "召し上がる", "reading": "めしあがる", "meaning": "Ăn, uống (Kính ngữ)" },
+        { "word": "招集", "reading": "しょうしゅう", "meaning": "Triệu tập" },
+        { "word": "召す", "reading": "めす", "meaning": "Mặc, ăn, bị (kính ngữ)" }
+      ]
+    },
+    {
+      "kanji": "杯",
+      "amHan": "Bôi",
+      "nghia": "Cái chén, tách",
+      "onyomi": "ハイ",
+      "kunyomi": "さかずき",
+      "mnemonic": {
+        "text": "Cái chén làm bằng Gỗ (木) thì Không (不) bao giờ hỏng."
+      },
+      "examples": [
+        { "word": "一杯", "reading": "いっぱい", "meaning": "Một cốc / Đầy" },
+        { "word": "乾杯", "reading": "かんぱい", "meaning": "Cạn chén, nâng ly" },
+        { "word": "精一杯", "reading": "せいいっぱい", "meaning": "Với tất cả sức lực" },
+        { "word": "祝杯", "reading": "しゅくはい", "meaning": "Chén rượu chúc mừng" }
+      ]
+    },
+    {
+      "kanji": "沸",
+      "amHan": "Phí/Phất",
+      "nghia": "Sôi lên",
+      "onyomi": "フツ",
+      "kunyomi": "わ.く, わ.かす",
+      "mnemonic": {
+        "text": "Nước (氵) bị đun nóng đến mức bay lên như phất (弗) cờ là nước SÔI."
+      },
+      "examples": [
+        { "word": "沸騰", "reading": "ふっとう", "meaning": "Sôi sùng sục (nghĩa đen & bóng)" },
+        { "word": "沸く", "reading": "わく", "meaning": "Sôi, náo nhiệt lên" },
+        { "word": "沸かす", "reading": "わかす", "meaning": "Đun sôi" },
+        { "word": "沸点", "reading": "ふってん", "meaning": "Điểm sôi" }
+      ]
+    },
+    {
+      "kanji": "粉",
+      "amHan": "Phấn",
+      "nghia": "Bột, phấn",
+      "onyomi": "フン",
+      "kunyomi": "こな, こ",
+      "mnemonic": {
+        "text": "Gạo (米) được chia (分) nhỏ ra thành BỘT."
+      },
+      "examples": [
+        { "word": "小麦粉", "reading": "こむぎこ", "meaning": "Bột mì" },
+        { "word": "花粉症", "reading": "かふんしょう", "meaning": "Dị ứng phấn hoa" },
+        { "word": "粉末", "reading": "ふんまつ", "meaning": "Dạng bột" },
+        { "word": "粉砕", "reading": "ふんさい", "meaning": "Nghiền nát" },
+        { "word": "粉末状", "reading": "ふんまつじょう", "meaning": "Trạng thái bột" }
+      ]
+    },
+    {
+      "kanji": "末",
+      "amHan": "Mạt",
+      "nghia": "Cuối, ngọn (cây)",
+      "onyomi": "マツ, バツ",
+      "kunyomi": "すえ",
+      "mnemonic": {
+        "text": "Cây (木) có cành trên dài hơn cành dưới là phần NGỌN (cuối)."
+      },
+      "examples": [
+        { "word": "週末", "reading": "しゅうまつ", "meaning": "Cuối tuần" },
+        { "word": "月末", "reading": "げつまつ", "meaning": "Cuối tháng" },
+        { "word": "末っ子", "reading": "すえっこ", "meaning": "Con út" },
+        { "word": "年末", "reading": "ねんまつ", "meaning": "Cuối năm" },
+        { "word": "結末", "reading": "けつまつ", "meaning": "Kết thúc, cuối cùng" },
+        { "word": "末期", "reading": "まっき", "meaning": "Giai đoạn cuối" }
+      ]
+    },
+    {
+      "kanji": "栄",
+      "amHan": "Vinh",
+      "nghia": "Phồn vinh, vinh quang",
+      "onyomi": "エイ",
+      "kunyomi": "さか.える, は.える",
+      "mnemonic": {
+        "text": "Dưới ánh đèn rực rỡ, cái cây (木) trông thật VINH quang."
+      },
+      "examples": [
+        { "word": "栄養", "reading": "えいよう", "meaning": "Dinh dưỡng" },
+        { "word": "繁栄", "reading": "はんえい", "meaning": "Phồn vinh" },
+        { "word": "栄光", "reading": "えいこう", "meaning": "Vinh quang" },
+        { "word": "光栄", "reading": "こうえい", "meaning": "Vinh dự" },
+        { "word": "栄える", "reading": "さかえる", "meaning": "Phát triển rực rỡ" },
+        { "word": "見栄え", "reading": "みばえ", "meaning": "Diện mạo, vẻ ngoài" }
+      ]
+    }
+  ]

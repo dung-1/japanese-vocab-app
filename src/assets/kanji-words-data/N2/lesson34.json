@@ -1,0 +1,239 @@
+﻿[
+    {
+      "kanji": "辺",
+      "amHan": "Biên",
+      "nghia": "Vùng lân cận, biên giới",
+      "onyomi": "ヘン",
+      "kunyomi": "あた・り, べ",
+      "mnemonic": {
+        "text": "BƯỚC ĐI (辶) bằng ĐAO (刀) ở vùng BIÊN giới."
+      },
+      "examples": [
+        { "word": "周辺", "reading": "しゅうへん", "meaning": "vùng xung quanh" },
+        { "word": "この辺", "reading": "このあたり", "meaning": "vùng này, quanh đây" },
+        { "word": "海辺", "reading": "うみべ", "meaning": "bờ biển" },
+        { "word": "辺境", "reading": "へんきょう", "meaning": "biên cương, vùng xa xôi" },
+        { "word": "底辺", "reading": "ていへん", "meaning": "đáy (tam giác), tầng lớp thấp trong xã hội" }
+      ]
+    },
+    {
+      "kanji": "察",
+      "amHan": "Sát",
+      "nghia": "Quan sát, kiểm tra",
+      "onyomi": "サツ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Trong NHÀ (宀) dùng TẾ lễ (祭) để quan SÁT thần linh."
+      },
+      "examples": [
+        { "word": "警察", "reading": "けいさつ", "meaning": "cảnh sát" },
+        { "word": "観察", "reading": "かんさつ", "meaning": "quan sát" },
+        { "word": "診察", "reading": "しんさつ", "meaning": "khám bệnh" },
+        { "word": "考察", "reading": "こうさつ", "meaning": "khảo sát, suy xét" },
+        { "word": "推察", "reading": "すいさつ", "meaning": "suy đoán" },
+        { "word": "視察", "reading": "しさつ", "meaning": "thị sát, tuần tra" }
+      ]
+    },
+    {
+      "kanji": "役",
+      "amHan": "Dịch",
+      "nghia": "Chức vụ, vai diễn, có ích",
+      "onyomi": "ヤク, エキ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Người ĐI BỘ (彳) cầm binh khí (殳) đi làm bia DỊCH cho nhà vua."
+      },
+      "examples": [
+        { "word": "役に立つ", "reading": "やくにたつ", "meaning": "có ích" },
+        { "word": "市役所", "reading": "しやくしょ", "meaning": "ủy ban nhân dân thành phố" },
+        { "word": "主役", "reading": "しゅやく", "meaning": "nhân vật chính, vai chính" },
+        { "word": "役員", "reading": "やくいん", "meaning": "ủy viên, cán bộ quản lý" },
+        { "word": "現役", "reading": "げんえき", "meaning": "đang tại chức, đương nhiệm" },
+        { "word": "使役", "reading": "しえき", "meaning": "sai bảo, thể sai khiến" }
+      ]
+    },
+    {
+      "kanji": "美",
+      "amHan": "Mỹ",
+      "nghia": "Đẹp, mỹ lệ",
+      "onyomi": "ビ",
+      "kunyomi": "うつく・しい",
+      "mnemonic": {
+        "text": "Con CỪU (羊) mà TO (大) thì là cừu MỸ lệ (đẹp)."
+      },
+      "examples": [
+        { "word": "美しい", "reading": "うつくしい", "meaning": "đẹp" },
+        { "word": "美術", "reading": "びじゅつ", "meaning": "mỹ thuật" },
+        { "word": "美人", "reading": "びじん", "meaning": "người đẹp" },
+        { "word": "美徳", "reading": "びとく", "meaning": "mỹ đức, đức tính tốt" },
+        { "word": "美容院", "reading": "びよういん", "meaning": "thẩm mỹ viện, tiệm tóc" },
+        { "word": "美化", "reading": "びか", "meaning": "làm đẹp, tôn tạo" }
+      ]
+    },
+    {
+      "kanji": "術",
+      "amHan": "Thuật",
+      "nghia": "Kỹ thuật, nghệ thuật",
+      "onyomi": "ジュツ",
+      "kunyomi": "すべ",
+      "mnemonic": {
+        "text": "Đi giữa ĐƯỜNG (行) mà tìm được hạt lúa (朮 - truật) là có kỹ THUẬT."
+      },
+      "examples": [
+        { "word": "技術", "reading": "ぎじゅつ", "meaning": "kỹ thuật" },
+        { "word": "手術", "reading": "しゅじゅつ", "meaning": "phẫu thuật" },
+        { "word": "芸術", "reading": "げいじゅつ", "meaning": "nghệ thuật" },
+        { "word": "学術", "reading": "がくじゅつ", "meaning": "học thuật" },
+        { "word": "戦術", "reading": "せんじゅつ", "meaning": "chiến thuật" },
+        { "word": "忍術", "reading": "にんじゅつ", "meaning": "nhẫn thuật (ninja)" }
+      ]
+    },
+    {
+      "kanji": "坂",
+      "amHan": "Phản",
+      "nghia": "Cái dốc",
+      "onyomi": "ハン",
+      "kunyomi": "さか",
+      "mnemonic": {
+        "text": "ĐẤT (土) mà bị PHẢN (反) lại (nghiêng đi) thì thành cái DỐC."
+      },
+      "examples": [
+        { "word": "急な坂", "reading": "きゅうなさか", "meaning": "dốc cao, dốc đứng" },
+        { "word": "上り坂", "reading": "のぼりざか", "meaning": "dốc lên" },
+        { "word": "坂道", "reading": "さかみち", "meaning": "đường dốc" },
+        { "word": "下り坂", "reading": "くだりざか", "meaning": "dốc xuống" }
+      ]
+    },
+    {
+      "kanji": "寺",
+      "amHan": "Tự",
+      "nghia": "Chùa",
+      "onyomi": "ジ",
+      "kunyomi": "てら",
+      "mnemonic": {
+        "text": "Nơi quản lý ĐẤT (土) bằng quy TẮC (寸) là CHÙA."
+      },
+      "examples": [
+        { "word": "お寺", "reading": "おてら", "meaning": "ngôi chùa" },
+        { "word": "寺院", "reading": "じいん", "meaning": "đền thờ, tự viện" },
+        { "word": "禅寺", "reading": "ぜんでら", "meaning": "chùa thiền" }
+      ]
+    },
+    {
+      "kanji": "湾",
+      "amHan": "Loan",
+      "nghia": "Vịnh",
+      "onyomi": "ワン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "NƯỚC (氵) chảy quanh co như cái CUNG (弓) tạo thành VỊNH."
+      },
+      "examples": [
+        { "word": "台湾", "reading": "たいわん", "meaning": "Đài Loan" },
+        { "word": "東京湾", "reading": "とうきょうわん", "meaning": "Vịnh Tokyo" },
+        { "word": "湾岸", "reading": "わんがん", "meaning": "bờ vịnh, ven biển" },
+        { "word": "港湾", "reading": "こうわん", "meaning": "cảng vịnh" }
+      ]
+    },
+    {
+      "kanji": "島",
+      "amHan": "Đảo",
+      "nghia": "Hòn đảo",
+      "onyomi": "トウ",
+      "kunyomi": "しま",
+      "mnemonic": {
+        "text": "Con CHIM (鳥) đậu trên NÚI (山) ở giữa biển chính là ĐẢO."
+      },
+      "examples": [
+        { "word": "半島", "reading": "はんとう", "meaning": "bán đảo" },
+        { "word": "列島", "reading": "れっとう", "meaning": "quần đảo, dãy đảo" },
+        { "word": "島国", "reading": "しまぐに", "meaning": "quốc đảo" },
+        { "word": "無人島", "reading": "むじんとう", "meaning": "đảo không người" },
+        { "word": "離島", "reading": "りとう", "meaning": "đảo xa" }
+      ]
+    },
+    {
+      "kanji": "岸",
+      "amHan": "Ngạn",
+      "nghia": "Bờ (sông, biển)",
+      "onyomi": "ガン",
+      "kunyomi": "きし",
+      "mnemonic": {
+        "text": "NÚI (山) có vách đá (厂) khô ráo (干) là BỜ."
+      },
+      "examples": [
+        { "word": "海岸", "reading": "かいがん", "meaning": "bờ biển" },
+        { "word": "岸辺", "reading": "きしべ", "meaning": "ven bờ" },
+        { "word": "対岸", "reading": "たいがん", "meaning": "bờ bên kia" },
+        { "word": "彼岸", "reading": "ひがん", "meaning": "bên kia sông, tuần lễ sương giáng" },
+        { "word": "川岸", "reading": "かわぎし", "meaning": "bờ sông" }
+      ]
+    },
+    {
+      "kanji": "園",
+      "amHan": "Viên",
+      "nghia": "Vườn",
+      "onyomi": "エン",
+      "kunyomi": "その",
+      "mnemonic": {
+        "text": "Vây quanh (囗) vùng đất có người ĐỘI MŨ (thành phần bên trong) là VƯỜN."
+      },
+      "examples": [
+        { "word": "公園", "reading": "こうえん", "meaning": "công viên" },
+        { "word": "遊園地", "reading": "ゆうえんち", "meaning": "khu vui chơi giải trí" },
+        { "word": "幼稚園", "reading": "ようちえん", "meaning": "trường mẫu giáo" },
+        { "word": "動物園", "reading": "どうぶつえん", "meaning": "vườn bách thú" },
+        { "word": "学園", "reading": "がくえん", "meaning": "học đường, học viện" },
+        { "word": "庭園", "reading": "ていえん", "meaning": "vườn cảnh, hoa viên" }
+      ]
+    },
+    {
+      "kanji": "湖",
+      "amHan": "Hồ",
+      "nghia": "Cái hồ",
+      "onyomi": "コ",
+      "kunyomi": "みずうみ",
+      "mnemonic": {
+        "text": "NƯỚC (氵) để lâu ngày (CỔ - 古) thành THỊT (月) là cái HỒ."
+      },
+      "examples": [
+        { "word": "湖水", "reading": "こすい", "meaning": "nước hồ" },
+        { "word": "琵琶湖", "reading": "びわこ", "meaning": "Hồ Biwa" },
+        { "word": "山中湖", "reading": "やまなかこ", "meaning": "Hồ Yamanaka" },
+        { "word": "湖畔", "reading": "こはん", "meaning": "bờ hồ" }
+      ]
+    },
+    {
+      "kanji": "城",
+      "amHan": "Thành",
+      "nghia": "Lâu đài, thành quách",
+      "onyomi": "ジョウ",
+      "kunyomi": "しろ",
+      "mnemonic": {
+        "text": "ĐẤT (土) được bồi THÀNH (成) lâu đài."
+      },
+      "examples": [
+        { "word": "城下町", "reading": "じょうかまち", "meaning": "phố cổ quanh lâu đài" },
+        { "word": "城壁", "reading": "じょうへき", "meaning": "thành lũy, tường thành" },
+        { "word": "大阪城", "reading": "おおさかじょう", "meaning": "Thành Osaka" },
+        { "word": "築城", "reading": "ちくじょう", "meaning": "xây thành" },
+        { "word": "城郭", "reading": "じょうかく", "meaning": "thành quách" }
+      ]
+    },
+    {
+      "kanji": "谷",
+      "amHan": "谷",
+      "nghia": "Thung lũng",
+      "onyomi": "コク",
+      "kunyomi": "たに",
+      "mnemonic": {
+        "text": "Tám (八) người cùng cái MIỆNG (口) hét vang giữa THUNG LŨNG."
+      },
+      "examples": [
+        { "word": "谷間", "reading": "たにま", "meaning": "khe núi, thung lũng" },
+        { "word": "谷底", "reading": "たにぞこ", "meaning": "đáy vực" },
+        { "word": "渓谷", "reading": "けいこく", "meaning": "khe suối, thung lũng sâu" },
+        { "word": "渋谷", "reading": "しぶや", "meaning": "Shibuya (Địa danh)" }
+      ]
+    }
+  ]

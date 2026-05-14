@@ -1,0 +1,158 @@
+﻿[
+    {
+      "kanji": "率",
+      "amHan": "Suất",
+      "nghia": "Tỷ lệ, hiệu suất",
+      "onyomi": "リツ / ソツ",
+      "kunyomi": "ひき.いる",
+      "mnemonic": {
+        "text": "Dùng tay vung các sợi CHỈ (糸) tạo ra những điểm (冫) đồng nhất để tính hiệu SUẤT."
+      },
+      "examples": [
+        { "word": "確率", "reading": "かくりつ", "meaning": "xác suất" },
+        { "word": "能率", "reading": "のうりつ", "meaning": "năng suất, hiệu suất" },
+        { "word": "倍率", "reading": "ばいりつ", "meaning": "tỷ lệ phóng đại, tỷ lệ chọi" },
+        { "word": "率直", "reading": "そっちょく", "meaning": "thẳng thắn, bộc trực" },
+        { "word": "引率", "reading": "いんそつ", "meaning": "dẫn dắt, hướng dẫn" },
+        { "word": "失業率", "reading": "しつぎょうりつ", "meaning": "tỷ lệ thất nghiệp" }
+      ]
+    },
+    {
+      "kanji": "宇",
+      "amHan": "Vũ",
+      "nghia": "Vũ trụ, hiên nhà",
+      "onyomi": "ウ",
+      "kunyomi": "None",
+      "mnemonic": {
+        "text": "Dưới mái NHÀ (宀), con người đi (于 - biến thể) khám phá VŨ trụ."
+      },
+      "examples": [
+        { "word": "宇宙", "reading": "うちゅう", "meaning": "vũ trụ" },
+        { "word": "宇宙船", "reading": "うちゅうせん", "meaning": "tàu vũ trụ" },
+        { "word": "宇宙飛行士", "reading": "うちゅうひこうし", "meaning": "phi hành gia" },
+        { "word": "気宇", "reading": "きう", "meaning": "tâm hồn, tư tưởng" },
+        { "word": "堂宇", "reading": "どうう", "meaning": "mái chùa, điện thờ" }
+      ]
+    },
+    {
+      "kanji": "戸",
+      "amHan": "Hộ",
+      "nghia": "Cánh cửa, hộ gia đình",
+      "onyomi": "コ",
+      "kunyomi": "と",
+      "mnemonic": {
+        "text": "Hình ảnh một CÁNH CỬA một cánh của nhà ngày xưa."
+      },
+      "examples": [
+        { "word": "戸棚", "reading": "とだな", "meaning": "tủ chén bát" },
+        { "word": "雨戸", "reading": "あまど", "meaning": "cửa che mưa" },
+        { "word": "井戸", "reading": "いど", "meaning": "giếng nước" },
+        { "word": "一戸建て", "reading": "いっこだて", "meaning": "nhà nguyên căn, nhà riêng" },
+        { "word": "戸籍", "reading": "こせき", "meaning": "hộ tịch" },
+        { "word": "門戸", "reading": "もんこ", "meaning": "cửa ngõ, mở cửa cho bên ngoài" }
+      ]
+    },
+    {
+      "kanji": "晴",
+      "amHan": "Tình",
+      "nghia": "Trời nắng, quang đãng",
+      "onyomi": "セイ",
+      "kunyomi": "は.れる / は.らす",
+      "mnemonic": {
+        "text": "MẶT TRỜI (日) lên cao, bầu trời XANH (青) tạo nên tiết trời quang TÌNH."
+      },
+      "examples": [
+        { "word": "晴天", "reading": "せいてん", "meaning": "trời quang đãng" },
+        { "word": "晴れる", "reading": "はれる", "meaning": "nắng, tan (mây/nghi ngờ)" },
+        { "word": "素晴らしい", "reading": "すばらしい", "meaning": "tuyệt vời" },
+        { "word": "見晴らし", "reading": "みはらし", "meaning": "tầm nhìn, phong cảnh" },
+        { "word": "晴らす", "reading": "はらす", "meaning": "làm cho tan đi (nỗi oan, u buồn)" }
+      ]
+    },
+    {
+      "kanji": "曇",
+      "amHan": "Đàm",
+      "nghia": "Trời mây, u ám",
+      "onyomi": "ドン",
+      "kunyomi": "くも.る",
+      "mnemonic": {
+        "text": "MẶT TRỜI (日) bị che khuất bởi những đám MÂY (雲) nên trời u ĐÀM."
+      },
+      "examples": [
+        { "word": "曇り", "reading": "くもり", "meaning": "trời mây, u ám" },
+        { "word": "曇る", "reading": "くもる", "meaning": "mờ đi, kéo mây" },
+        { "word": "曇天", "reading": "どんてん", "meaning": "trời đầy mây" },
+        { "word": "曇り空", "reading": "くもりぞら", "meaning": "bầu trời âm u" },
+        { "word": "見曇る", "reading": "みくもる", "meaning": "nhìn mờ mờ" }
+      ]
+    },
+    {
+      "kanji": "雪",
+      "amHan": "Tuyết",
+      "nghia": "Tuyết",
+      "onyomi": "セツ",
+      "kunyomi": "ゆき",
+      "mnemonic": {
+        "text": "MƯA (雨) rơi xuống mà có thể cầm được bằng TAY (彐 - biến thể) thì là TUYẾT."
+      },
+      "examples": [
+        { "word": "雪", "reading": "ゆき", "meaning": "tuyết" },
+        { "word": "新雪", "reading": "しんせつ", "meaning": "tuyết mới rơi" },
+        { "word": "積雪", "reading": "せきせつ", "meaning": "tuyết phủ, tuyết đọng" },
+        { "word": "吹雪", "reading": "ふぶき", "meaning": "bão tuyết" },
+        { "word": "降雪", "reading": "こうせつ", "meaning": "tuyết rơi" },
+        { "word": "大雪", "reading": "おおゆき", "meaning": "tuyết rơi dày" }
+      ]
+    },
+    {
+      "kanji": "恵",
+      "amHan": "Huệ",
+      "nghia": "Ân huệ, ban cho",
+      "onyomi": "ケイ / エ",
+      "kunyomi": "めぐ.む",
+      "mnemonic": {
+        "text": "Dùng TÂM (心) để quản lý mười (十) mảnh ĐIỀN (田) là một ân HUỆ."
+      },
+      "examples": [
+        { "word": "恵まれる", "reading": "めぐまれる", "meaning": "được ban cho, may mắn có được" },
+        { "word": "恩恵", "reading": "おんけい", "meaning": "ân huệ, lợi ích" },
+        { "word": "知恵", "reading": "ちえ", "meaning": "trí tuệ" },
+        { "word": "恵与", "reading": "けいよ", "meaning": "ban tặng" },
+        { "word": "智慧", "reading": "ちえ", "meaning": "sự thông thái" }
+      ]
+    },
+    {
+      "kanji": "陽",
+      "amHan": "Dương",
+      "nghia": "Mặt trời, ánh sáng, phía dương",
+      "onyomi": "ヨウ",
+      "kunyomi": "ひ",
+      "mnemonic": {
+        "text": "Bên vách NÚI (阝), mặt trời tỏa ánh sáng rực rỡ (昜 - biến thể dương)."
+      },
+      "examples": [
+        { "word": "太陽", "reading": "たいよう", "meaning": "mặt trời" },
+        { "word": "陽気", "reading": "ようき", "meaning": "vui vẻ, sảng khoái / thời tiết" },
+        { "word": "陽光", "reading": "ようこう", "meaning": "ánh sáng mặt trời" },
+        { "word": "陽性", "reading": "ようせい", "meaning": "dương tính" },
+        { "word": "陰陽", "reading": "いんよう", "meaning": "âm dương" }
+      ]
+    },
+    {
+      "kanji": "雲",
+      "amHan": "Vân",
+      "nghia": "Mây",
+      "onyomi": "ウン",
+      "kunyomi": "くも",
+      "mnemonic": {
+        "text": "MƯA (雨) còn đang lơ lửng nói (云) chuyện trên trời thì đó là mây (VÂN)."
+      },
+      "examples": [
+        { "word": "雲", "reading": "くも", "meaning": "mây" },
+        { "word": "雨雲", "reading": "あまぐも", "meaning": "mây mưa" },
+        { "word": "雲海", "reading": "うんかい", "meaning": "biển mây" },
+        { "word": "暗雲", "reading": "あんうん", "meaning": "mây mù, ám mây" },
+        { "word": "雲泥の差", "reading": "うんでいのさ", "meaning": "khác biệt một trời một vực" }
+      ]
+    }
+  ]

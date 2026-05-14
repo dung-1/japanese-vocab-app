@@ -1,0 +1,242 @@
+﻿[
+    {
+      "kanji": "婚",
+      "amHan": "Hôn",
+      "nghia": "Kết hôn",
+      "onyomi": "コン",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "NGƯỜI PHỤ NỮ (女) vào buổi CHIỀU TÀ (昏) đi KẾT HÔN."
+      },
+      "examples": [
+        { "word": "結婚", "reading": "けっこん", "meaning": "Kết hôn" },
+        { "word": "新婚", "reading": "しんこん", "meaning": "Tân hôn" },
+        { "word": "婚約", "reading": "こんやく", "meaning": "Hôn ước, đính hôn" },
+        { "word": "未婚", "reading": "みこん", "meaning": "Chưa kết hôn" },
+        { "word": "離婚", "reading": "りこん", "meaning": "Ly hôn" },
+        { "word": "晩婚", "reading": "ばんこん", "meaning": "Kết hôn muộn" }
+      ]
+    },
+    {
+      "kanji": "招",
+      "amHan": "Chiêu",
+      "nghia": "Mời, vẫy, gây ra",
+      "onyomi": "ショウ",
+      "kunyomi": "まね.く",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) thực hiện động tác CHIÊU (召) mời."
+      },
+      "examples": [
+        { "word": "招待", "reading": "しょうたい", "meaning": "Chiêu đãi, mời" },
+        { "word": "招く", "reading": "まねく", "meaning": "Mời, gây ra (lỗi lầm/tai họa)" },
+        { "word": "招集", "reading": "しょうしゅう", "meaning": "Triệu tập" },
+        { "word": "手招き", "reading": "てまねき", "meaning": "Vẫy tay mời" },
+        { "word": "招宴", "reading": "しょうえん", "meaning": "Mời tiệc" }
+      ]
+    },
+    {
+      "kanji": "状",
+      "amHan": "Trạng",
+      "nghia": "Tình trạng, hình dạng, thư từ",
+      "onyomi": "ジョウ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Tình TRẠNG của con CHÓ (犬) đứng cạnh cái GIƯỜNG (爿)."
+      },
+      "examples": [
+        { "word": "状態", "reading": "じょうたい", "meaning": "Trạng thái" },
+        { "word": "状況", "reading": "じょうきょう", "meaning": "Tình huống, tình hình" },
+        { "word": "招待状", "reading": "しょうたいじょう", "meaning": "Thư mời" },
+        { "word": "礼状", "reading": "れいじょう", "meaning": "Thư cảm ơn" },
+        { "word": "症状", "reading": "しょうじょう", "meaning": "Triệu chứng" },
+        { "word": "年賀状", "reading": "ねんがじょう", "meaning": "Thiệp chúc mừng năm mới" }
+      ]
+    },
+    {
+      "kanji": "欠",
+      "amHan": "Khiếm",
+      "nghia": "Thiếu, khiếm khuyết",
+      "onyomi": "ケツ",
+      "kunyomi": "か.ける, か.く",
+      "mnemonic": {
+        "text": "Hình ảnh một người đang há MIỆNG ngáp vì THIẾU ngủ."
+      },
+      "examples": [
+        { "word": "欠席", "reading": "けっせき", "meaning": "Vắng mặt" },
+        { "word": "欠点", "reading": "けってん", "meaning": "Khuyết điểm" },
+        { "word": "欠ける", "reading": "かける", "meaning": "Thiếu, mẻ" },
+        { "word": "欠かせない", "reading": "かかせない", "meaning": "Không thể thiếu" },
+        { "word": "欠乏", "reading": "けつぼう", "meaning": "Thiếu thốn, khan hiếm" }
+      ]
+    },
+    {
+      "kanji": "喜",
+      "amHan": "Hỷ",
+      "nghia": "Vui mừng",
+      "onyomi": "キ",
+      "kunyomi": "よろこ.ぶ",
+      "mnemonic": {
+        "text": "Mười (十) hạt ĐẬU (豆) bỏ vào MIỆNG (口) thì thật đáng HỶ (vui)."
+      },
+      "examples": [
+        { "word": "喜ぶ", "reading": "よろこぶ", "meaning": "Vui mừng" },
+        { "word": "喜び", "reading": "よろこび", "meaning": "Niềm vui" },
+        { "word": "喜劇", "reading": "きげき", "meaning": "Hài kịch" },
+        { "word": "歓喜", "reading": "かんき", "meaning": "Hoan hỉ, vui sướng" },
+        { "word": "一喜一憂", "reading": "いっきいちゆう", "meaning": "Lúc vui lúc buồn" }
+      ]
+    },
+    {
+      "kanji": "治",
+      "amHan": "Trị",
+      "nghia": "Cai trị, chữa trị",
+      "onyomi": "ジ, チ",
+      "kunyomi": "おさ.める, なお.る",
+      "mnemonic": {
+        "text": "Dùng NƯỚC (氵) để TRỊ (治) cái TÔI (台 - đài/thai)."
+      },
+      "examples": [
+        { "word": "政治", "reading": "せいじ", "meaning": "Chính trị" },
+        { "word": "治療", "reading": "ちりょう", "meaning": "Trị liệu, chữa trị" },
+        { "word": "治る", "reading": "なおる", "meaning": "Hồi phục, khỏi bệnh" },
+        { "word": "治める", "reading": "おさめる", "meaning": "Cai trị, quản lý" },
+        { "word": "治安", "reading": "ちあん", "meaning": "Trị an, an ninh" },
+        { "word": "自治", "reading": "じち", "meaning": "Tự trị" }
+      ]
+    },
+    {
+      "kanji": "委",
+      "amHan": "Ủy",
+      "nghia": "Ủy thác, giao phó",
+      "onyomi": "イ",
+      "kunyomi": "ゆだ.ねる",
+      "mnemonic": {
+        "text": "ỦY thác việc thu hoạch LÚA (禾) cho NGƯỜI PHỤ NỮ (女)."
+      },
+      "examples": [
+        { "word": "委員会", "reading": "いいんかい", "meaning": "Ủy ban" },
+        { "word": "委任状", "reading": "いにんじょう", "meaning": "Giấy ủy quyền" },
+        { "word": "委託", "reading": "いたく", "meaning": "Ủy thác" },
+        { "word": "委ねる", "reading": "ゆだねる", "meaning": "Giao phó" },
+        { "word": "委細", "reading": "いさい", "meaning": "Chi tiết, tường tận" }
+      ]
+    },
+    {
+      "kanji": "祝",
+      "amHan": "Chúc",
+      "nghia": "Chúc mừng",
+      "onyomi": "シュク, シュウ",
+      "kunyomi": "いわ.う",
+      "mnemonic": {
+        "text": "Đứng trước BÀN THỜ (礻) dùng MIỆNG (口) của NGƯỜI (儿) để CHÚC phúc."
+      },
+      "examples": [
+        { "word": "祝う", "reading": "いわう", "meaning": "Chúc mừng" },
+        { "word": "お祝い", "reading": "おいわい", "meaning": "Quà chúc mừng, việc chúc mừng" },
+        { "word": "祝日", "reading": "しゅくじつ", "meaning": "Ngày lễ" },
+        { "word": "祝賀会", "reading": "しゅくがかい", "meaning": "Tiệc chúc mừng" },
+        { "word": "慶祝", "reading": "けいしゅく", "meaning": "Chúc mừng hỷ sự" }
+      ]
+    },
+    {
+      "kanji": "舞",
+      "amHan": "Vũ",
+      "nghia": "Nhảy múa",
+      "onyomi": "ブ",
+      "kunyomi": "ま.う, まい",
+      "mnemonic": {
+        "text": "Hình ảnh người nghệ sĩ múa với đôi chân (舛) đang di chuyển nhịp nhàng."
+      },
+      "examples": [
+        { "word": "舞台", "reading": "ぶたい", "meaning": "Sân khấu" },
+        { "word": "見舞い", "reading": "みまい", "meaning": "Thăm bệnh, thăm hỏi" },
+        { "word": "舞う", "reading": "まう", "meaning": "Nhảy múa, bay lượn" },
+        { "word": "歌舞伎", "reading": "かぶき", "meaning": "Kịch Kabuki" },
+        { "word": "振る舞う", "reading": "ふるまう", "meaning": "Cư xử, chiêu đãi" }
+      ]
+    },
+    {
+      "kanji": "礼",
+      "amHan": "Lễ",
+      "nghia": "Lễ nghi, cảm ơn",
+      "onyomi": "レイ, ライ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Đứng trước BÀN THỜ (礻) giữ LỄ nghĩa trước cái MÓC (乚)."
+      },
+      "examples": [
+        { "word": "失礼", "reading": "しつれい", "meaning": "Thất lễ, xin lỗi" },
+        { "word": "礼儀", "reading": "れいぎ", "meaning": "Lễ nghi" },
+        { "word": "お礼", "reading": "おれい", "meaning": "Sự cảm ơn" },
+        { "word": "礼拝", "reading": "らいはい", "meaning": "Bái lễ, cúng bái" },
+        { "word": "謝礼", "reading": "しゃれい", "meaning": "Tạ lễ, tiền thù lao" }
+      ]
+    },
+    {
+      "kanji": "忙",
+      "amHan": "Mang",
+      "nghia": "Bận rộn",
+      "onyomi": "ボウ",
+      "kunyomi": "いそが.しい",
+      "mnemonic": {
+        "text": "Bận rộn đến mức TÂM (忄) muốn CHẾT (亡)."
+      },
+      "examples": [
+        { "word": "忙しい", "reading": "いそがしい", "meaning": "Bận rộn" },
+        { "word": "多忙", "reading": "たぼう", "meaning": "Rất bận rộn" },
+        { "word": "繁忙期", "reading": "はんぼうき", "meaning": "Thời kỳ cao điểm, bận rộn nhất" },
+        { "word": "忙殺", "reading": "ぼうさつ", "meaning": "Bận túi bụi" }
+      ]
+    },
+    {
+      "kanji": "妻",
+      "amHan": "Thê",
+      "nghia": "Vợ",
+      "onyomi": "サイ",
+      "kunyomi": "つま",
+      "mnemonic": {
+        "text": "Người PHỤ NỮ (女) chải tóc bằng LƯỢC (phần trên) chính là THÊ (vợ)."
+      },
+      "examples": [
+        { "word": "妻", "reading": "つま", "meaning": "Vợ (mình)" },
+        { "word": "夫妻", "reading": "ふさい", "meaning": "Vợ chồng (ngài...)" },
+        { "word": "一夫多妻", "reading": "いっぷたさい", "meaning": "Chế độ đa thê" },
+        { "word": "愛妻家", "reading": "あいさいか", "meaning": "Người chồng yêu vợ" }
+      ]
+    },
+    {
+      "kanji": "張",
+      "amHan": "Trương",
+      "nghia": "Kéo dài, căng ra",
+      "onyomi": "チョウ",
+      "kunyomi": "は.る",
+      "mnemonic": {
+        "text": "Dùng CUNG (弓) để TRƯƠNG (張) sợi dây DÀI (長) ra."
+      },
+      "examples": [
+        { "word": "出張", "reading": "しゅっちょう", "meaning": "Đi công tác" },
+        { "word": "頑張る", "reading": "がんばる", "meaning": "Cố gắng" },
+        { "word": "緊張", "reading": "きんちょう", "meaning": "Căng thẳng" },
+        { "word": "主張", "reading": "しゅちょう", "meaning": "Chủ trương, khẳng định" },
+        { "word": "張り切る", "reading": "はりきる", "meaning": "Hăng hái" },
+        { "word": "拡張", "reading": "かくちょう", "meaning": "Mở rộng, khuếch trương" }
+      ]
+    },
+    {
+      "kanji": "奥",
+      "amHan": "Áo",
+      "nghia": "Bên trong, sâu kín",
+      "onyomi": "オウ",
+      "kunyomi": "おく",
+      "mnemonic": {
+        "text": "Trong NHÀ (宀) có hạt GẠO (米) lớn (大) nằm SÂU bên trong."
+      },
+      "examples": [
+        { "word": "奥さん", "reading": "おくさん", "meaning": "Vợ (người khác)" },
+        { "word": "奥", "reading": "おく", "meaning": "Phía sâu bên trong" },
+        { "word": "奥行き", "reading": "おくゆき", "meaning": "Chiều sâu" },
+        { "word": "奥義", "reading": "おうぎ", "meaning": "Bí quyết gia truyền" },
+        { "word": "奥地", "reading": "おくち", "meaning": "Vùng sâu vùng xa" }
+      ]
+    }
+  ]

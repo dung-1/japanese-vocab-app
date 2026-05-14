@@ -1,0 +1,242 @@
+﻿[
+    {
+      "kanji": "途",
+      "amHan": "Đồ",
+      "nghia": "Đường xá, cách thức",
+      "onyomi": "ト",
+      "kunyomi": "みち",
+      "mnemonic": {
+        "text": "Đi bộ (辶) trên đất (土) có nhiều dư (余) thừa là con đường (Đồ) lộ."
+      },
+      "examples": [
+        { "word": "途中", "reading": "とちゅう", "meaning": "Giữa đường, đang trong quá trình" },
+        { "word": "途端", "reading": "とたん", "meaning": "Ngay lúc đó, vừa mới" },
+        { "word": "中途半端", "reading": "ちゅうとはんぱ", "meaning": "Dở dang, không đến nơi đến chốn" },
+        { "word": "用途", "reading": "ようと", "meaning": "Công dụng" },
+        { "word": "途上国", "reading": "とじょうこく", "meaning": "Các nước đang phát triển" }
+      ]
+    },
+    {
+      "kanji": "具",
+      "amHan": "Cụ",
+      "nghia": "Công cụ, đạo cụ",
+      "onyomi": "グ",
+      "kunyomi": "そな.える",
+      "mnemonic": {
+        "text": "Dùng hai tay nâng cái vỏ sò (貝) - tài sản, để trang bị công CỤ."
+      },
+      "examples": [
+        { "word": "道具", "reading": "どうぐ", "meaning": "Dụng cụ, công cụ" },
+        { "word": "具体 teki", "reading": "ぐたいてき", "meaning": "Một cách cụ thể" },
+        { "word": "家具", "reading": "かぐ", "meaning": "Đồ nội thất" },
+        { "word": "具合", "reading": "ぐあい", "meaning": "Tình trạng (sức khỏe, máy móc)" },
+        { "word": "文房具", "reading": "ぶんぼうぐ", "meaning": "Văn phòng phẩm" },
+        { "word": "器具", "reading": "きぐ", "meaning": "Khí cụ, thiết bị" }
+      ]
+    },
+    {
+      "kanji": "床",
+      "amHan": "Sàng",
+      "nghia": "Cái giường, sàn nhà",
+      "onyomi": "ショウ",
+      "kunyomi": "とこ, ゆか",
+      "mnemonic": {
+        "text": "Trong nhà (广) có cái cây (木) dùng làm sàn nhà hoặc giường SÀNG."
+      },
+      "examples": [
+        { "word": "床", "reading": "ゆか", "meaning": "Sàn nhà" },
+        { "word": "起床", "reading": "きしょう", "meaning": "Thức dậy" },
+        { "word": "床屋", "reading": "とこや", "meaning": "Tiệm cắt tóc" },
+        { "word": "病床", "reading": "びょうしょう", "meaning": "Giường bệnh" },
+        { "word": "床の間", "reading": "とこのま", "meaning": "Hốc tường trang trí trong phòng khách kiểu Nhật" }
+      ]
+    },
+    {
+      "kanji": "壁",
+      "amHan": "Bích",
+      "nghia": "Bức tường",
+      "onyomi": "ヘキ",
+      "kunyomi": "かべ",
+      "mnemonic": {
+        "text": "Dùng đất (土) xây lên để ngăn cách các vị vua (君) và người tị nạn (辛 - tân), đó là bức tường BÍCH."
+      },
+      "examples": [
+        { "word": "壁", "reading": "かべ", "meaning": "Bức tường, rào cản" },
+        { "word": "壁紙", "reading": "かべがみ", "meaning": "Giấy dán tường / Hình nền máy tính" },
+        { "word": "絶壁", "reading": "ぜっぺき", "meaning": "Vách đá hiểm trở" },
+        { "word": "胃壁", "reading": "いへき", "meaning": "Thành dạ dày" },
+        { "word": "壁画", "reading": "へきが", "meaning": "Tranh tường" }
+      ]
+    },
+    {
+      "kanji": "乾",
+      "amHan": "Can",
+      "nghia": "Khô ráo",
+      "onyomi": "カン",
+      "kunyomi": "かわ.く, かわ.かす",
+      "mnemonic": {
+        "text": "Dưới ánh mặt trời (NHẬT), 10 (THẬP) buổi sáng sớm làm cho mầm cây khô KHAN."
+      },
+      "examples": [
+        { "word": "乾燥", "reading": "かんそう", "meaning": "Khô hạn, làm khô" },
+        { "word": "乾杯", "reading": "かんぱい", "meaning": "Cạn chén" },
+        { "word": "乾く", "reading": "かわく", "meaning": "Khô ráo" },
+        { "word": "乾電池", "reading": "かんでんち", "meaning": "Pin khô" },
+        { "word": "乾物", "reading": "かんぶつ", "meaning": "Đồ khô (thực phẩm)" }
+      ]
+    },
+    {
+      "kanji": "布",
+      "amHan": "Bố",
+      "nghia": "Vải vóc, tuyên bố",
+      "onyomi": "フ",
+      "kunyomi": "ぬの",
+      "mnemonic": {
+        "text": "Dùng tay (𠂇) cầm cái khăn (巾) làm bằng vải BỐ."
+      },
+      "examples": [
+        { "word": "財布", "reading": "さいふ", "meaning": "Cái ví" },
+        { "word": "布", "reading": "ぬの", "meaning": "Vải" },
+        { "word": "配布", "reading": "はいふ", "meaning": "Phát, phân phát" },
+        { "word": "毛布", "reading": "もうふ", "meaning": "Chăn, mền" },
+        { "word": "布告", "reading": "ふこく", "meaning": "Tuyên bố, sắc lệnh" },
+        { "word": "布団", "reading": "ふとん", "meaning": "Nệm, chăn kiểu Nhật" }
+      ]
+    },
+    {
+      "kanji": "柱",
+      "amHan": "Trụ",
+      "nghia": "Cột trụ",
+      "onyomi": "チュウ",
+      "kunyomi": "はしら",
+      "mnemonic": {
+        "text": "Cây (木) mà đứng vững như ông chủ (主) thì gọi là cột TRỤ."
+      },
+      "examples": [
+        { "word": "柱", "reading": "はしら", "meaning": "Cột, trụ / Người trụ cột" },
+        { "word": "電柱", "reading": "でんちゅう", "meaning": "Cột điện" },
+        { "word": "大黒柱", "reading": "だいこくばしら", "meaning": "Trụ cột gia đình" },
+        { "word": "円柱", "reading": "えんちゅう", "meaning": "Hình trụ tròn" },
+        { "word": "支柱", "reading": "しちゅう", "meaning": "Cột chống, giá đỡ" }
+      ]
+    },
+    {
+      "kanji": "虫",
+      "amHan": "Trùng",
+      "nghia": "Côn trùng",
+      "onyomi": "チュウ",
+      "kunyomi": "むし",
+      "mnemonic": {
+        "text": "Hình ảnh con sâu đang chui ra từ miệng cái hang."
+      },
+      "examples": [
+        { "word": "昆虫", "reading": "こんちゅう", "meaning": "Côn trùng" },
+        { "word": "虫歯", "reading": "むしば", "meaning": "Răng sâu" },
+        { "word": "害虫", "reading": "がいちゅう", "meaning": "Côn trùng có hại" },
+        { "word": "弱虫", "reading": "よわむし", "meaning": "Kẻ yếu đuối, nhát gan" },
+        { "word": "殺虫剤", "reading": "さっちゅうざい", "meaning": "Thuốc diệt côn trùng" }
+      ]
+    },
+    {
+      "kanji": "歯",
+      "amHan": "Xỉ",
+      "nghia": "Răng",
+      "onyomi": "シ",
+      "kunyomi": "は",
+      "mnemonic": {
+        "text": "Trong miệng (止 - chỉ - hình dáng miệng) có những hàng RĂNG được vẽ dưới bộ xỉ (歯)."
+      },
+      "examples": [
+        { "word": "歯科", "reading": "しか", "meaning": "Nha khoa" },
+        { "word": "歯車", "reading": "はぐるま", "meaning": "Bánh răng" },
+        { "word": "歯磨き", "reading": "はみがき", "meaning": "Đánh răng" },
+        { "word": "歯医者", "reading": "はいしゃ", "meaning": "Nha sĩ" },
+        { "word": "前歯", "reading": "まえ歯", "meaning": "Răng cửa" }
+      ]
+    },
+    {
+      "kanji": "防",
+      "amHan": "Phòng",
+      "nghia": "Phòng vệ, ngăn chặn",
+      "onyomi": "ボウ",
+      "kunyomi": "ふせ.ぐ",
+      "mnemonic": {
+        "text": "Ở sườn núi (阝), dùng phương (方) pháp để PHÒNG vệ."
+      },
+      "examples": [
+        { "word": "防止", "reading": "ぼうし", "meaning": "Ngăn chặn" },
+        { "word": "予防", "reading": "よぼう", "meaning": "Dự phòng, phòng bệnh" },
+        { "word": "消防署", "reading": "しょうぼうしょ", "meaning": "Trạm cứu hỏa" },
+        { "word": "防衛", "reading": "ぼうえい", "meaning": "Phòng vệ, bảo vệ" },
+        { "word": "防ぐ", "reading": "ふせぐ", "meaning": "Ngăn cản, chống lại" },
+        { "word": "防水", "reading": "ぼうすい", "meaning": "Chống nước" }
+      ]
+    },
+    {
+      "kanji": "磨",
+      "amHan": "Ma",
+      "nghia": "Mài, đánh răng",
+      "onyomi": "マ",
+      "kunyomi": "みが.く",
+      "mnemonic": {
+        "text": "Dưới mái nhà (广), dùng đá (石) mài cái cây gỗ trong rừng (林) cho bóng loáng."
+      },
+      "examples": [
+        { "word": "磨く", "reading": "みがく", "meaning": "Mài, đánh (răng), chùi rửa" },
+        { "word": "歯磨き粉", "reading": "はみがきこ", "meaning": "Kem đánh răng" },
+        { "word": "研磨", "reading": "けんま", "meaning": "Mài sắc, rèn luyện (kỹ năng)" },
+        { "word": "磨滅", "reading": "まめつ", "meaning": "Mòn, hao mòn" }
+      ]
+    },
+    {
+      "kanji": "抜",
+      "amHan": "Bạt",
+      "nghia": "Rút ra, nhổ ra",
+      "onyomi": "バツ",
+      "kunyomi": "ぬ.く, ぬ.ける",
+      "mnemonic": {
+        "text": "Dùng tay (扌) để nhổ cái đuôi của bạn bè (友) ra."
+      },
+      "examples": [
+        { "word": "抜く", "reading": "ぬく", "meaning": "Nhổ, rút, vượt qua" },
+        { "word": "追い抜く", "reading": "おいぬく", "meaning": "Bứt phá, vượt qua mặt" },
+        { "word": "抜群", "reading": "ばつぐん", "meaning": "Xuất chúng, nổi bật" },
+        { "word": "抜粋", "reading": "ばっすい", "meaning": "Trích dẫn, chọn lọc" },
+        { "word": "手抜き", "reading": "てぬき", "meaning": "Làm qua loa, cẩu thả" }
+      ]
+    },
+    {
+      "kanji": "悩",
+      "amHan": "Não",
+      "nghia": "Phiền não",
+      "onyomi": "ノウ",
+      "kunyomi": "なや.む",
+      "mnemonic": {
+        "text": "Khi tâm (忄) bị hung bạo (甾 - bộ não/túi bụi) vây hãm thì sinh ra phiền NÃO."
+      },
+      "examples": [
+        { "word": "悩む", "reading": "なやむ", "meaning": "Lo lắng, ưu tư" },
+        { "word": "悩み", "reading": "なやみ", "meaning": "Sự phiền não, nỗi khổ" },
+        { "word": "苦悩", "reading": "くのう", "meaning": "Khổ não" },
+        { "word": "煩悩", "reading": "ぼんのう", "meaning": "Phiền não (Phật giáo)" },
+        { "word": "頭を悩ませる", "reading": "あたまをなやませる", "meaning": "Vắt óc suy nghĩ" }
+      ]
+    },
+    {
+      "kanji": "髪",
+      "amHan": "Phát",
+      "nghia": "Tóc",
+      "onyomi": "ハツ",
+      "kunyomi": "かみ",
+      "mnemonic": {
+        "text": "Người bạn (友) dùng tay rút (犮) cái bộ dài (髟 - bưu) trên đầu, đó là TÓC."
+      },
+      "examples": [
+        { "word": "髪の毛", "reading": "かみのけ", "meaning": "Sợi tóc" },
+        { "word": "金髪", "reading": "きんぱつ", "meaning": "Tóc vàng" },
+        { "word": "髪型", "reading": "かみがた", "meaning": "Kiểu tóc" },
+        { "word": "洗髪", "reading": "せんぱつ", "meaning": "Gội đầu" },
+        { "word": "散髪", "reading": "さんぱつ", "meaning": "Cắt tóc" }
+      ]
+    }
+  ]

@@ -1,0 +1,247 @@
+﻿[
+    {
+      "kanji": "帯",
+      "amHan": "Đới",
+      "nghia": "Thắt lưng, nhiệt đới",
+      "onyomi": "タイ",
+      "kunyomi": "おび",
+      "mnemonic": {
+        "text": "Trên núi cao, có dải khăn (巾) thắt ngang giống như một dải ĐỚI ôn hòa."
+      },
+      "examples": [
+        { "word": "携帯", "reading": "けいたい", "meaning": "Điện thoại di động / Mang theo" },
+        { "word": "熱帯", "reading": "ねったい", "meaning": "Nhiệt đới" },
+        { "word": "時間帯", "reading": "じかんたい", "meaning": "Khoảng thời gian" },
+        { "word": "包帯", "reading": "ほうたい", "meaning": "Băng gạc" },
+        { "word": "連帯", "reading": "れんたい", "meaning": "Liên đới, đoàn kết" },
+        { "word": "地帯", "reading": "ちたい", "meaning": "Vùng, khu vực" }
+      ]
+    },
+    {
+      "kanji": "保",
+      "amHan": "Bảo",
+      "nghia": "Bảo vệ, giữ gìn",
+      "onyomi": "ホ",
+      "kunyomi": "たも.つ",
+      "mnemonic": {
+        "text": "Người (亻) miệng ngậm mồm chữ đẩu (口) để BẢO vệ cái cây (木)."
+      },
+      "examples": [
+        { "word": "保存", "reading": "ほぞん", "meaning": "Bảo tồn, lưu trữ" },
+        { "word": "保険", "reading": "ほけん", "meaning": "Bảo hiểm" },
+        { "word": "保持", "reading": "ほじ", "meaning": "Duy trì, nắm giữ" },
+        { "word": "保健", "reading": "ほけん", "meaning": "Bảo vệ sức khỏe" },
+        { "word": "保護", "reading": "ほご", "meaning": "Bảo hộ, bảo vệ" },
+        { "word": "保証", "reading": "ほしょう", "meaning": "Bảo hành, bảo đảm" }
+      ]
+    },
+    {
+      "kanji": "留",
+      "amHan": "Lưu",
+      "nghia": "Dừng lại, lưu lại",
+      "onyomi": "リュウ, ル",
+      "kunyomi": "と.まる, と.める",
+      "mnemonic": {
+        "text": "Con dao (卯) cắm trên ruộng (田) để LƯU lại đánh dấu."
+      },
+      "examples": [
+        { "word": "留学", "reading": "りゅうがく", "meaning": "Du học" },
+        { "word": "保留", "reading": "ほりゅう", "meaning": "Bảo lưu, hoãn lại" },
+        { "word": "留守", "reading": "るす", "meaning": "Vắng nhà" },
+        { "word": "留念", "reading": "りゅうねん", "meaning": "Lưu ban, ở lại lớp" },
+        { "word": "停留所", "reading": "ていりゅうじょ", "meaning": "Trạm dừng xe" },
+        { "word": "留意", "reading": "りゅうい", "meaning": "Chú ý, lưu tâm" }
+      ]
+    },
+    {
+      "kanji": "守",
+      "amHan": "Thủ",
+      "nghia": "Gìn giữ, bảo vệ",
+      "onyomi": "シュ, ス",
+      "kunyomi": "まも.る",
+      "mnemonic": {
+        "text": "Trong nhà (宀) dùng tấc (寸 - thốn) để canh THỦ, bảo vệ."
+      },
+      "examples": [
+        { "word": "守備", "reading": "しゅび", "meaning": "Phòng thủ" },
+        { "word": "保守", "reading": "ほしゅ", "meaning": "Bảo thủ" },
+        { "word": "厳守", "reading": "げんしゅ", "meaning": "Tuân thủ nghiêm ngặt" },
+        { "word": "留守番", "reading": "るすばん", "meaning": "Trông nhà" },
+        { "word": "お守り", "reading": "おまもり", "meaning": "Bùa hộ mệnh" }
+      ]
+    },
+    {
+      "kanji": "伝",
+      "amHan": "Truyền",
+      "nghia": "Truyền đạt, truyền tin",
+      "onyomi": "デン",
+      "kunyomi": "つた.わる, つた.える",
+      "mnemonic": {
+        "text": "Người (亻) dùng mây (云) để TRUYỀN đạt thông tin đi xa."
+      },
+      "examples": [
+        { "word": "伝統", "reading": "でんとう", "meaning": "Truyền thống" },
+        { "word": "伝言", "reading": "でんごん", "meaning": "Lời nhắn" },
+        { "word": "伝説", "reading": "でんせつ", "meaning": "Truyền thuyết" },
+        { "word": "伝達", "reading": "でんたつ", "meaning": "Truyền đạt" },
+        { "word": "手伝う", "reading": "てつだう", "meaning": "Giúp đỡ" },
+        { "word": "伝染", "reading": "でんぜん", "meaning": "Truyền nhiễm" }
+      ]
+    },
+    {
+      "kanji": "済",
+      "amHan": "Tế",
+      "nghia": "Kết thúc, cứu tế",
+      "onyomi": "サイ",
+      "kunyomi": "す.む",
+      "mnemonic": {
+        "text": "Dùng NƯỚC (氵) để thanh toán cho ĐỀ (斉) xong xuôi, TẾ độ."
+      },
+      "examples": [
+        { "word": "経済", "reading": "けいざい", "meaning": "Kinh tế" },
+        { "word": "決済", "reading": "けっさい", "meaning": "Quyết toán, thanh toán" },
+        { "word": "返済", "reading": "へんさい", "meaning": "Hoàn trả (nợ)" },
+        { "word": "救済", "reading": "きゅうさい", "meaning": "Cứu tế, cứu viện" },
+        { "word": "済み", "reading": "ずみ", "meaning": "Đã xong, hoàn thành" }
+      ]
+    },
+    {
+      "kanji": "件",
+      "amHan": "Kiện",
+      "nghia": "Sự kiện, vụ việc",
+      "onyomi": "ケン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Người (亻) dắt con bò (牛) đi giải quyết vụ KIỆN."
+      },
+      "examples": [
+        { "word": "事件", "reading": "じけん", "meaning": "Sự kiện, vụ án" },
+        { "word": "条件", "reading": "じょうけん", "meaning": "Điều kiện" },
+        { "word": "用件", "reading": "ようけん", "meaning": "Việc cần bàn" },
+        { "word": "案件", "reading": "あんけん", "meaning": "Phương án, vụ việc" },
+        { "word": "件名", "reading": "けんめい", "meaning": "Tiêu đề (email)" }
+      ]
+    },
+    {
+      "kanji": "信",
+      "amHan": "Tín",
+      "nghia": "Tin tưởng, tín hiệu",
+      "onyomi": "シン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Người (亻) nói lời nói (言) thì phải giữ chữ TÍN."
+      },
+      "examples": [
+        { "word": "信用", "reading": "しんよう", "meaning": "Lòng tin, tín dụng" },
+        { "word": "自信", "reading": "じしん", "meaning": "Tự tin" },
+        { "word": "送信", "reading": "そうしん", "meaning": "Gửi tin nhắn" },
+        { "word": "信号", "reading": "しんごう", "meaning": "Đèn giao thông, tín hiệu" },
+        { "word": "信頼", "reading": "しんらい", "meaning": "Tin cậy" },
+        { "word": "信念", "reading": "しんねん", "meaning": "Niềm tin, đức tin" }
+      ]
+    },
+    {
+      "kanji": "歴",
+      "amHan": "Lịch",
+      "nghia": "Lịch sử, trải qua",
+      "onyomi": "レキ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dưới mái sườn núi (厂), cây lúa (禾) mọc qua nhiều ngày tháng (止) tạo nên LỊCH sử."
+      },
+      "examples": [
+        { "word": "歴史", "reading": "れきし", "meaning": "Lịch sử" },
+        { "word": "履歴書", "reading": "りれきしょ", "meaning": "Sơ yếu lý lịch" },
+        { "word": "経歴", "reading": "けいれき", "meaning": "Lý lịch, kinh nghiệm" },
+        { "word": "学歴", "reading": "がくれき", "meaning": "Quá trình học tập" },
+        { "word": "歴然", "reading": "れきぜん", "meaning": "Hiển nhiên, rõ ràng" }
+      ]
+    },
+    {
+      "kanji": "箱",
+      "amHan": "Tương",
+      "nghia": "Cái hộp",
+      "onyomi": "ソウ",
+      "kunyomi": "はこ",
+      "mnemonic": {
+        "text": "Lấy tre (竹) ghép lại để làm cái hộp kiểm tra (相) đồ vật."
+      },
+      "examples": [
+        { "word": "ゴミ箱", "reading": "ごみばこ", "meaning": "Thùng rác" },
+        { "word": "本箱", "reading": "ほんばこ", "meaning": "Tủ sách" },
+        { "word": "重箱", "reading": "じゅうばこ", "meaning": "Hộp chồng nhiều lớp" },
+        { "word": "巣箱", "reading": "すばこ", "meaning": "Thùng nuôi ong / tổ chim" },
+        { "word": "貯金箱", "reading": "ちょきんばこ", "meaning": "Ống tiết kiệm" }
+      ]
+    },
+    {
+      "kanji": "規",
+      "amHan": "Quy",
+      "nghia": "Quy tắc",
+      "onyomi": "キ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng chồng (夫) để nhìn (見) ra QUY tắc."
+      },
+      "examples": [
+        { "word": "規則", "reading": "きそく", "meaning": "Quy tắc" },
+        { "word": "規定", "reading": "きてい", "meaning": "Quy định" },
+        { "word": "規模", "reading": "きぼ", "meaning": "Quy mô" },
+        { "word": "規格", "reading": "きかく", "meaning": "Quy cách" },
+        { "word": "新規", "reading": "しんき", "meaning": "Mới lạ, mới mở" }
+      ]
+    },
+    {
+      "kanji": "変",
+      "amHan": "Biến",
+      "nghia": "Thay đổi, kỳ lạ",
+      "onyomi": "ヘン",
+      "kunyomi": "か.わる, か.える",
+      "mnemonic": {
+        "text": "Đội mũ (亠), tay cầm gậy (攵) đi giữa đường (亦) là sự BIẾN đổi kỳ lạ."
+      },
+      "examples": [
+        { "word": "変化", "reading": "へんか", "meaning": "Sự biến đổi" },
+        { "word": "大変", "reading": "たいへん", "meaning": "Vất vả / Rất" },
+        { "word": "変更", "reading": "へんこう", "meaning": "Thay đổi (lịch trình)" },
+        { "word": "変な", "reading": "へんな", "meaning": "Lạ, kỳ quặc" },
+        { "word": "不変", "reading": "ふへん", "meaning": "Bất biến" },
+        { "word": "激変", "reading": "げきへん", "meaning": "Thay đổi đột ngột" }
+      ]
+    },
+    {
+      "kanji": "選",
+      "amHan": "Tuyển",
+      "nghia": "Lựa chọn",
+      "onyomi": "セン",
+      "kunyomi": "えら.ぶ",
+      "mnemonic": {
+        "text": "Hai người (己己) cùng đi (辶) để TUYỂN chọn món đồ cộng chung (共)."
+      },
+      "examples": [
+        { "word": "選手", "reading": "せんしゅ", "meaning": "Tuyển thủ" },
+        { "word": "選挙", "reading": "せんきょ", "meaning": "Bầu cử" },
+        { "word": "選択", "reading": "せんたく", "meaning": "Lựa chọn" },
+        { "word": "選考", "reading": "せんこう", "meaning": "Tuyển chọn, xét tuyển" },
+        { "word": "当選", "reading": "とうせん", "meaning": "Trúng cử, trúng giải" }
+      ]
+    },
+    {
+      "kanji": "決",
+      "amHan": "Quyết",
+      "nghia": "Quyết định",
+      "onyomi": "ケツ",
+      "kunyomi": "き.める, き.まる",
+      "mnemonic": {
+        "text": "NƯỚC (氵) chảy xiết (夬) như lời QUYẾT định dứt khoát."
+      },
+      "examples": [
+        { "word": "決定", "reading": "けってい", "meaning": "Quyết định" },
+        { "word": "決心", "reading": "けっしん", "meaning": "Quyết tâm" },
+        { "word": "解決", "reading": "かいけつ", "meaning": "Giải quyết" },
+        { "word": "決勝", "reading": "けっしょう", "meaning": "Trận chung kết" },
+        { "word": "決断", "reading": "けつだん", "meaning": "Quyết đoán" },
+        { "word": "決算", "reading": "けっさん", "meaning": "Quyết toán" }
+      ]
+    }
+  ]

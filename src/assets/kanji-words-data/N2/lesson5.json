@@ -1,0 +1,251 @@
+﻿[
+    {
+      "kanji": "港",
+      "amHan": "Cảng",
+      "nghia": "Bến cảng",
+      "onyomi": "コウ",
+      "kunyomi": "みなと",
+      "mnemonic": {
+        "text": "NƯỚC (氵) ở bến CẢNG chảy vào vùng đất chung (共)."
+      },
+      "examples": [
+        { "word": "空港", "reading": "くうこう", "meaning": "Sân bay" },
+        { "word": "港町", "reading": "みなとまち", "meaning": "Thành phố cảng" },
+        { "word": "出港", "reading": "しゅっこう", "meaning": "Rời cảng" },
+        { "word": "入港", "reading": "にゅうこう", "meaning": "Cập cảng" },
+        { "word": "漁港", "reading": "ぎょこう", "meaning": "Cảng cá" },
+        { "word": "帰港", "reading": "きこう", "meaning": "Quay về cảng" }
+      ]
+    },
+    {
+      "kanji": "由",
+      "amHan": "Do",
+      "nghia": "Lý do, tự do",
+      "onyomi": "ユ, ユウ, ユイ",
+      "kunyomi": "よし",
+      "mnemonic": {
+        "text": "Hình ảnh cái nảy mầm từ ruộng (田) đi lên chính là NGUYÊN DO."
+      },
+      "examples": [
+        { "word": "理由", "reading": "りゆう", "meaning": "Lý do" },
+        { "word": "自由", "reading": "じゆう", "meaning": "Tự do" },
+        { "word": "経由", "reading": "けいゆ", "meaning": "Thông qua, quá cảnh" },
+        { "word": "由来", "reading": "ゆらい", "meaning": "Nguồn gốc, lai lịch" },
+        { "word": "不自由", "reading": "ふじゆう", "meaning": "Tàn tật, bất tiện" },
+        { "word": "事由", "reading": "じゆう", "meaning": "Sự việc, nguyên nhân" }
+      ]
+    },
+    {
+      "kanji": "深",
+      "amHan": "Thâm",
+      "nghia": "Sâu, thâm sâu",
+      "onyomi": "シン",
+      "kunyomi": "ふか.まる, ふか.める",
+      "mnemonic": {
+        "text": "NƯỚC (氵) ở trong hang (穴) có cây (木) thì rất SÂU."
+      },
+      "examples": [
+        { "word": "深刻", "reading": "しんこく", "meaning": "Nghiêm trọng" },
+        { "word": "深夜", "reading": "しんや", "meaning": "Đêm khuya" },
+        { "word": "深海", "reading": "しんかい", "meaning": "Biển sâu" },
+        { "word": "深呼吸", "reading": "しんこきゅう", "meaning": "Hít thở sâu" },
+        { "word": "深層", "reading": "しんそう", "meaning": "Tầng sâu" },
+        { "word": "深まる", "reading": "ふかまる", "meaning": "Sâu sắc thêm" }
+      ]
+    },
+    {
+      "kanji": "降",
+      "amHan": "Giáng, Hàng",
+      "nghia": "Rơi xuống, đầu hàng",
+      "onyomi": "コウ",
+      "kunyomi": "お.りる, ふ.る",
+      "mnemonic": {
+        "text": "Bên gò đất (阝), hai chân đang bước xuống (夂) để đầu HÀNG."
+      },
+      "examples": [
+        { "word": "降車", "reading": "こうしゃ", "meaning": "Xuống xe" },
+        { "word": "降雨", "reading": "こうう", "meaning": "Lượng mưa" },
+        { "word": "以降", "reading": "いこう", "meaning": "Sau đó" },
+        { "word": "降伏", "reading": "こうふく", "meaning": "Đầu hàng" },
+        { "word": "降りる", "reading": "おりる", "meaning": "Xuống (tàu, xe)" },
+        { "word": "降る", "reading": "ふる", "meaning": "Rơi (mưa, tuyết)" }
+      ]
+    },
+    {
+      "kanji": "両",
+      "amHan": "Lưỡng",
+      "nghia": "Hai, cả hai",
+      "onyomi": "リョウ",
+      "kunyomi": "てる, ふたつ",
+      "mnemonic": {
+        "text": "Dưới khung cửa, có hai người đang đứng song song."
+      },
+      "examples": [
+        { "word": "両親", "reading": "りょうしん", "meaning": "Bố mẹ" },
+        { "word": "両立", "reading": "りょうりつ", "meaning": "Song hành, cả hai" },
+        { "word": "両替", "reading": "りょうがえ", "meaning": "Đổi tiền" },
+        { "word": "車両", "reading": "しゃりょう", "meaning": "Toa xe, xe cộ" },
+        { "word": "両極", "reading": "りょうきょく", "meaning": "Lưỡng cực" },
+        { "word": "両側", "reading": "りょうがわ", "meaning": "Hai bên" }
+      ]
+    },
+    {
+      "kanji": "替",
+      "amHan": "Thế",
+      "nghia": "Thay thế",
+      "onyomi": "タイ",
+      "kunyomi": "か.える",
+      "mnemonic": {
+        "text": "Hai người (夫) nói chuyện (曰) để THAY THẾ vị trí cho nhau."
+      },
+      "examples": [
+        { "word": "交替", "reading": "こうたい", "meaning": "Thay phiên, thay ca" },
+        { "word": "着替え", "reading": "きがえ", "meaning": "Thay quần áo" },
+        { "word": "振替", "reading": "ふりかえ", "meaning": "Chuyển khoản" },
+        { "word": "為替", "reading": "かわせ", "meaning": "Hối đoái" },
+        { "word": "取り替える", "reading": "とりかえる", "meaning": "Đổi lại, thay mới" }
+      ]
+    },
+    {
+      "kanji": "賃",
+      "amHan": "Nhẫm",
+      "nghia": "Tiền thuê, tiền công",
+      "onyomi": "チン",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dùng tiền (貝) để thuê người làm công (任 - nhiệm)."
+      },
+      "examples": [
+        { "word": "賃金", "reading": "ちんぎん", "meaning": "Tiền lương" },
+        { "word": "家賃", "reading": "やちん", "meaning": "Tiền thuê nhà" },
+        { "word": "運賃", "reading": "うんちん", "meaning": "Cước phí vận chuyển" },
+        { "word": "賃貸", "reading": "ちんたい", "meaning": "Cho thuê" },
+        { "word": "最低賃金", "reading": "さいていちんぎん", "meaning": "Lương tối thiểu" }
+      ]
+    },
+    {
+      "kanji": "割",
+      "amHan": "Cát",
+      "nghia": "Chia ra, cắt ra",
+      "onyomi": "カツ",
+      "kunyomi": "わ.る, わり",
+      "mnemonic": {
+        "text": "Dùng đao (刂) cắt cái vật có hại (害) ra làm nhiều phần."
+      },
+      "examples": [
+        { "word": "割合", "reading": "わりあい", "meaning": "Tỷ lệ" },
+        { "word": "割引", "reading": "わりびき", "meaning": "Giảm giá" },
+        { "word": "分割", "reading": "ぶんかつ", "meaning": "Phân chia" },
+        { "word": "役割", "reading": "やくわり", "meaning": "Vai trò" },
+        { "word": "割愛", "reading": "かつあい", "meaning": "Lược bỏ (dù tiếc)" },
+        { "word": "割れる", "reading": "われる", "meaning": "Vỡ, bể" }
+      ]
+    },
+    {
+      "kanji": "増",
+      "amHan": "Tăng",
+      "nghia": "Tăng lên",
+      "onyomi": "ゾウ",
+      "kunyomi": "ま.す, ふ.える",
+      "mnemonic": {
+        "text": "Đất (土) mà để lâu ngày (曽 - tầng) thì sẽ TĂNG lên."
+      },
+      "examples": [
+        { "word": "増加", "reading": "ぞうか", "meaning": "Sự gia tăng" },
+        { "word": "増減", "reading": "ぞうげん", "meaning": "Tăng giảm" },
+        { "word": "増進", "reading": "ぞうしん", "meaning": "Nâng cao, tăng cường" },
+        { "word": "倍増", "reading": "ばいぞう", "meaning": "Tăng gấp đôi" },
+        { "word": "急増", "reading": "きゅうぞう", "meaning": "Tăng đột ngột" },
+        { "word": "増やす", "reading": "ふやす", "meaning": "Làm tăng thêm" }
+      ]
+    },
+    {
+      "kanji": "優",
+      "amHan": "Ưu",
+      "nghia": "Ưu tú, hiền lành",
+      "onyomi": "ユウ",
+      "kunyomi": "やさ.しい, すぐ.れる",
+      "mnemonic": {
+        "text": "Người (亻) có tâm (心) chậm rãi (夊) là người ƯU tú, hiền lành."
+      },
+      "examples": [
+        { "word": "優秀", "reading": "ゆうしゅう", "meaning": "Ưu tú" },
+        { "word": "優先", "reading": "ゆうせん", "meaning": "Ưu tiên" },
+        { "word": "優雅", "reading": "ゆうが", "meaning": "Dịu dàng, thanh lịch" },
+        { "word": "優勝", "reading": "ゆうしょう", "meaning": "Vô địch" },
+        { "word": "優しい", "reading": "やさしい", "meaning": "Hiền lành, tốt bụng" },
+        { "word": "優れる", "reading": "すぐれる", "meaning": "Xuất sắc" }
+      ]
+    },
+    {
+      "kanji": "席",
+      "amHan": "Tịch",
+      "nghia": "Chỗ ngồi",
+      "onyomi": "セキ",
+      "kunyomi": "none",
+      "mnemonic": {
+        "text": "Dưới mái nhà (广), trên khăn (巾), trải 20 (廿) cái chiếu làm chỗ ngồi."
+      },
+      "examples": [
+        { "word": "座席", "reading": "ざせき", "meaning": "Chỗ ngồi" },
+        { "word": "出席", "reading": "しゅっせき", "meaning": "Tham dự" },
+        { "word": "欠席", "reading": "けっせき", "meaning": "Vắng mặt" },
+        { "word": "指定席", "reading": "していせき", "meaning": "Ghế chỉ định" },
+        { "word": "空席", "reading": "くうせき", "meaning": "Ghế trống" },
+        { "word": "客席", "reading": "きゃくせき", "meaning": "Ghế khán giả" }
+      ]
+    },
+    {
+      "kanji": "側",
+      "amHan": "Trắc",
+      "nghia": "Phía, bên cạnh",
+      "onyomi": "ソク",
+      "kunyomi": "かわ",
+      "mnemonic": {
+        "text": "Người (亻) đứng bên CẠNH quy tắc (則)."
+      },
+      "examples": [
+        { "word": "側面", "reading": "そくめん", "meaning": "Mặt bên" },
+        { "word": "外側", "reading": "そとがわ", "meaning": "Phía bên ngoài" },
+        { "word": "内側", "reading": "うちがわ", "meaning": "Phía bên trong" },
+        { "word": "両側", "reading": "りょうがわ", "meaning": "Cả hai bên" },
+        { "word": "側近", "reading": "そっきん", "meaning": "Cận thần, người thân cận" }
+      ]
+    },
+    {
+      "kanji": "座",
+      "amHan": "Tọa",
+      "nghia": "Chỗ ngồi, ngồi",
+      "onyomi": "ザ",
+      "kunyomi": "すわ.る",
+      "mnemonic": {
+        "text": "Hai người (人人) ngồi trên đất (土) trong nhà (广) để TỌA đàm."
+      },
+      "examples": [
+        { "word": "講座", "reading": "こうざ", "meaning": "Khóa học" },
+        { "word": "口座", "reading": "こうざ", "meaning": "Tài khoản ngân hàng" },
+        { "word": "星座", "reading": "せいざ", "meaning": "Chòm sao" },
+        { "word": "座談会", "reading": "ざだんかい", "meaning": "Hội nghị bàn tròn" },
+        { "word": "座席", "reading": "ざせき", "meaning": "Ghế ngồi" },
+        { "word": "座る", "reading": "すわる", "meaning": "Ngồi" }
+      ]
+    },
+    {
+      "kanji": "寄",
+      "amHan": "Kí",
+      "nghia": "Gửi, ghé vào",
+      "onyomi": "キ",
+      "kunyomi": "よ.る, よ.せる",
+      "mnemonic": {
+        "text": "Trong nhà (宀) có khả năng (可) cho người ta KÝ túc."
+      },
+      "examples": [
+        { "word": "寄付", "reading": "きふ", "meaning": "Quyên góp" },
+        { "word": "寄稿", "reading": "きこう", "meaning": "Gửi bài viết (cho báo)" },
+        { "word": "寄生", "reading": "きせい", "meaning": "Ký sinh" },
+        { "word": "寄り道", "reading": "よりみち", "meaning": "Ghé ngang đường" },
+        { "word": "最寄り", "reading": "もより", "meaning": "Gần nhất" },
+        { "word": "引き寄せる", "reading": "ひきよせる", "meaning": "Kéo lại gần" }
+      ]
+    }
+  ]

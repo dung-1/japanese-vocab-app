@@ -1,0 +1,251 @@
+﻿[
+    {
+      "kanji": "設",
+      "amHan": "Thiết",
+      "nghia": "Thiết lập, kiến thiết",
+      "onyomi": "セツ",
+      "kunyomi": "もう・ける",
+      "mnemonic": {
+        "text": "Dùng NGÔN từ (言) và binh khí (殳 - thù) để THIẾT lập kỷ cương."
+      },
+      "examples": [
+        { "word": "設計", "reading": "せっけい", "meaning": "thiết kế" },
+        { "word": "建設", "reading": "けんせつ", "meaning": "kiến thiết, xây dựng" },
+        { "word": "設置", "reading": "せっち", "meaning": "lắp đặt, cài đặt" },
+        { "word": "設定", "reading": "せってい", "meaning": "thiết lập, tùy chỉnh" },
+        { "word": "施設", "reading": "しせつ", "meaning": "cơ sở vật chất, thiết bị" },
+        { "word": "設ける", "reading": "もうける", "meaning": "thiết lập, tạo ra" }
+      ]
+    },
+    {
+      "kanji": "換",
+      "amHan": "Hoán",
+      "nghia": "Trao đổi, hoán đổi",
+      "onyomi": "カン",
+      "kunyomi": "か・える",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) HOÁN đổi các đồ vật xếp chồng lên nhau (奐)."
+      },
+      "examples": [
+        { "word": "交換", "reading": "こうかん", "meaning": "trao đổi" },
+        { "word": "換気", "reading": "かんき", "meaning": "thông gió" },
+        { "word": "変換", "reading": "へんかん", "meaning": "biến đổi, hoán chuyển" },
+        { "word": "乗り換え", "reading": "のりかえ", "meaning": "đổi tàu/xe" },
+        { "word": "書き換える", "reading": "かきかえる", "meaning": "viết lại, chép lại" },
+        { "word": "換算", "reading": "かんさん", "meaning": "quy đổi (tiền tệ, đơn vị)" }
+      ]
+    },
+    {
+      "kanji": "向",
+      "amHan": "Hướng",
+      "nghia": "Hướng về, đối diện",
+      "onyomi": "コウ",
+      "kunyomi": "む・く",
+      "mnemonic": {
+        "text": "Trong NHÀ (冂) có cái MIỆNG (口) luôn HƯỚNG ra ngoài."
+      },
+      "examples": [
+        { "word": "方向", "reading": "ほうこう", "meaning": "phương hướng" },
+        { "word": "向上", "reading": "こうじょう", "meaning": "hướng lên, cải thiện" },
+        { "word": "意向", "reading": "いこう", "meaning": "ý định, chí hướng" },
+        { "word": "向こう", "reading": "むこう", "meaning": "phía đối diện, bên kia" },
+        { "word": "向かう", "reading": "むかう", "meaning": "hướng tới, di chuyển về phía" },
+        { "word": "向き合う", "reading": "むきあう", "meaning": "đối diện, đối mặt" }
+      ]
+    },
+    {
+      "kanji": "停",
+      "amHan": "Đình",
+      "nghia": "Đình chỉ, dừng lại",
+      "onyomi": "テイ",
+      "kunyomi": "と・まる",
+      "mnemonic": {
+        "text": "Người (亻) dừng lại ở cái ĐÌNH (亭) để nghỉ ngơi."
+      },
+      "examples": [
+        { "word": "停止", "reading": "ていし", "meaning": "đình chỉ, dừng lại" },
+        { "word": "停留所", "reading": "ていりゅうじょ", "meaning": "trạm dừng (xe buýt)" },
+        { "word": "停電", "reading": "ていでん", "meaning": "mất điện" },
+        { "word": "停車", "reading": "ていしゃ", "meaning": "xe dừng" },
+        { "word": "停滞", "reading": "ていたい", "meaning": "đình trệ" },
+        { "word": "各駅停車", "reading": "かくえきていしゃ", "meaning": "tàu dừng ở mọi ga" }
+      ]
+    },
+    {
+      "kanji": "暖",
+      "amHan": "Noãn",
+      "nghia": "Ấm áp",
+      "onyomi": "ダン",
+      "kunyomi": "あたた・かい",
+      "mnemonic": {
+        "text": "Mặt TRỜI (日) chiếu lên người ĐANG (爰) nằm thì thấy ẤM."
+      },
+      "examples": [
+        { "word": "暖房", "reading": "だんぼう", "meaning": "lò sưởi, máy sưởi" },
+        { "word": "温暖", "reading": "おんだん", "meaning": "ấm áp (khí hậu)" },
+        { "word": "暖冬", "reading": "だんとう", "meaning": "mùa đông ấm áp" },
+        { "word": "暖流", "reading": "だんりゅう", "meaning": "dòng hải lưu ấm" },
+        { "word": "暖める", "reading": "あたためる", "meaning": "làm ấm" }
+      ]
+    },
+    {
+      "kanji": "除",
+      "amHan": "Trừ",
+      "nghia": "Loại bỏ, phép chia",
+      "onyomi": "ジョ, ジ",
+      "kunyomi": "のぞ・く",
+      "mnemonic": {
+        "text": "Đứng bên vách NÚI (阝) dùng DƯ (余) thừa để LOẠI TRỪ khó khăn."
+      },
+      "examples": [
+        { "word": "削除", "reading": "さくじょ", "meaning": "xóa bỏ" },
+        { "word": "掃除", "reading": "そうじ", "meaning": "dọn dẹp" },
+        { "word": "除く", "reading": "のぞく", "meaning": "ngoại trừ, bỏ qua" },
+        { "word": "除去", "reading": "じょきょ", "meaning": "loại bỏ, giải trừ" },
+        { "word": "除雪", "reading": "じょせつ", "meaning": "dọn tuyết" },
+        { "word": "免除", "reading": "めんじょ", "meaning": "miễn trừ" }
+      ]
+    },
+    {
+      "kanji": "湿",
+      "amHan": "Thấp",
+      "nghia": "Ẩm thấp, độ ẩm",
+      "onyomi": "シツ",
+      "kunyomi": "しめ・る",
+      "mnemonic": {
+        "text": "NƯỚC (氵) đọng dưới mặt TRỜI (日) trong NHÀ (一) khiến nơi đó ẨM THẤP."
+      },
+      "examples": [
+        { "word": "湿度", "reading": "しつど", "meaning": "độ ẩm" },
+        { "word": "湿気", "reading": "しっけ", "meaning": "hơi ẩm" },
+        { "word": "湿る", "reading": "しめる", "meaning": "ẩm ướt" },
+        { "word": "加湿器", "reading": "かしつき", "meaning": "máy phun sương, tạo ẩm" },
+        { "word": "湿原", "reading": "しつげん", "meaning": "đầm lầy, vùng đất ngập nước" }
+      ]
+    },
+    {
+      "kanji": "標",
+      "amHan": "Tiêu",
+      "nghia": "Tiêu chuẩn, mục tiêu",
+      "onyomi": "ヒョウ",
+      "kunyomi": "しるし",
+      "mnemonic": {
+        "text": "Dùng GỖ (木) làm THIẾU (票 - phiếu) để đánh dấu TIÊU chuẩn."
+      },
+      "examples": [
+        { "word": "目標", "reading": "もくひょう", "meaning": "mục tiêu" },
+        { "word": "標語", "reading": "ひょうご", "meaning": "khẩu hiệu, biểu ngữ" },
+        { "word": "標準", "reading": "ひょうじゅん", "meaning": "tiêu chuẩn" },
+        { "word": "標識", "reading": "ひょうしき", "meaning": "biển báo" },
+        { "word": "座標", "reading": "ざひょう", "meaning": "tọa độ" },
+        { "word": "指標", "reading": "しひょう", "meaning": "chỉ số, chỉ tiêu" }
+      ]
+    },
+    {
+      "kanji": "倍",
+      "amHan": "Bội",
+      "nghia": "Gấp bội, gấp đôi",
+      "onyomi": "バイ",
+      "kunyomi": "",
+      "mnemonic": {
+        "text": "Con NGƯỜI (亻) đứng trên ĐÀI (台) làm tăng sức mạnh gấp BỘI."
+      },
+      "examples": [
+        { "word": "～倍", "reading": "～ばい", "meaning": "...lần (gấp đôi, gấp ba...)" },
+        { "word": "倍率", "reading": "ばいりつ", "meaning": "tỷ lệ chọi, độ phóng đại" },
+        { "word": "倍増", "reading": "ばいぞう", "meaning": "tăng gấp đôi" },
+        { "word": "安倍", "reading": "あべ", "meaning": "Họ Abe (phổ biến tại Nhật)" },
+        { "word": "二倍", "reading": "にばい", "meaning": "gấp 2 lần" }
+      ]
+    },
+    {
+      "kanji": "巻",
+      "amHan": "Quyển",
+      "nghia": "Cuộn lại, quyển sách",
+      "onyomi": "カン",
+      "kunyomi": "ま・く",
+      "mnemonic": {
+        "text": "Dùng 2 tay bưng nước tưới 2 khu vườn (cấu trúc trên) rồi CUỘN (己) lại."
+      },
+      "examples": [
+        { "word": "巻く", "reading": "まく", "meaning": "quấn, cuộn" },
+        { "word": "上巻", "reading": "じょうかん", "meaning": "tập đầu, quyển thượng" },
+        { "word": "全巻", "reading": "ぜんかん", "meaning": "trọn bộ" },
+        { "word": "巻き込む", "reading": "まきこむ", "meaning": "cuốn vào, dính líu" },
+        { "word": "竜巻", "reading": "たつまき", "meaning": "vòi rồng, lốc xoáy" },
+        { "word": "取り巻く", "reading": "とりまく", "meaning": "bao vây, bao quanh" }
+      ]
+    },
+    {
+      "kanji": "録",
+      "amHan": "Lục",
+      "nghia": "Ghi chép, kỷ lục",
+      "onyomi": "ロク",
+      "kunyomi": "しる・す",
+      "mnemonic": {
+        "text": "Dùng KIM loại (金) để khắc LỤC (録) lại những điều quý như nước SUỐI (氺)."
+      },
+      "examples": [
+        { "word": "記録", "reading": "きろく", "meaning": "kỷ lục, ghi chép" },
+        { "word": "録音", "reading": "ろくおん", "meaning": "ghi âm" },
+        { "word": "録画", "reading": "ろくが", "meaning": "ghi hình" },
+        { "word": "登録", "reading": "とうろく", "meaning": "đăng ký" },
+        { "word": "目録", "reading": "もくろく", "meaning": "mục lục" },
+        { "word": "収録", "reading": "しゅうろく", "meaning": "thu âm, thu hình" }
+      ]
+    },
+    {
+      "kanji": "量",
+      "amHan": "Lượng",
+      "nghia": "Trọng lượng, đo lường",
+      "onyomi": "リョウ",
+      "kunyomi": "はか・る",
+      "mnemonic": {
+        "text": "Mặt TRỜI (日) mọc trên làng (里) để đo LƯỢNG ánh sáng."
+      },
+      "examples": [
+        { "word": "量る", "reading": "はかる", "meaning": "đo, cân" },
+        { "word": "重量", "reading": "じゅうりょう", "meaning": "trọng lượng" },
+        { "word": "量", "reading": "りょう", "meaning": "số lượng" },
+        { "word": "大量", "reading": "たいりょう", "meaning": "số lượng lớn" },
+        { "word": "分量", "reading": "ぶんりょう", "meaning": "phân lượng, liều lượng" },
+        { "word": "適量", "reading": "てきりょう", "meaning": "lượng thích hợp" }
+      ]
+    },
+    {
+      "kanji": "予",
+      "amHan": "Dự",
+      "nghia": "Dự báo, trước",
+      "onyomi": "ヨ",
+      "kunyomi": "あらかじ・め",
+      "mnemonic": {
+        "text": "Hình dáng cái khung cửi để DỰ tính dệt vải."
+      },
+      "examples": [
+        { "word": "予定", "reading": "よてい", "meaning": "dự định" },
+        { "word": "予約", "reading": "よやく", "meaning": "đặt trước" },
+        { "word": "予習", "reading": "よしゅう", "meaning": "chuẩn bị bài trước" },
+        { "word": "予想", "reading": "よそう", "meaning": "dự đoán" },
+        { "word": "予算", "reading": "よさん", "meaning": "ngân sách" },
+        { "word": "予言", "reading": "よげん", "meaning": "lời tiên tri" }
+      ]
+    },
+    {
+      "kanji": "約",
+      "amHan": "Ước",
+      "nghia": "Lời hứa, ước chừng",
+      "onyomi": "ヤク",
+      "kunyomi": "つづ・まる",
+      "mnemonic": {
+        "text": "Dùng SỢI CHỈ (糸) để cột (勺 - chước) chặt lời ƯỚC."
+      },
+      "examples": [
+        { "word": "約束", "reading": "やくそく", "meaning": "lời hứa, hẹn" },
+        { "word": "約～", "reading": "やく～", "meaning": "khoảng chừng..." },
+        { "word": "婚約", "reading": "こんやく", "meaning": "đính hôn" },
+        { "word": "要約", "reading": "ようやく", "meaning": "tóm tắt" },
+        { "word": "節約", "reading": "せつやく", "meaning": "tiết kiệm" },
+        { "word": "契約", "reading": "けいやく", "meaning": "hợp đồng" }
+      ]
+    }
+  ]

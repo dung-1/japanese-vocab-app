@@ -1,0 +1,243 @@
+﻿[
+    {
+      "kanji": "傾",
+      "amHan": "Khuynh",
+      "nghia": "Nghiêng, khuynh hướng",
+      "onyomi": "ケイ",
+      "kunyomi": "かたむ・く / かたむ・ける",
+      "mnemonic": {
+        "text": "Một NGƯỜI (亻) có cái ĐẦU (頁) bị lệch sang một bên tạo thành KHUYNH hướng nghiêng."
+      },
+      "examples": [
+        { "word": "傾向", "reading": "けいこう", "meaning": "khuynh hướng, xu hướng" },
+        { "word": "傾く", "reading": "かたむく", "meaning": "nghiêng về, chao đảo" },
+        { "word": "傾聴", "reading": "けいちょう", "meaning": "lắng nghe chăm chú" },
+        { "word": "斜傾", "reading": "しゃけい", "meaning": "độ nghiêng, dốc" },
+        { "word": "傾倒", "reading": "けいとう", "meaning": "ngưỡng mộ, tận tụy" }
+      ]
+    },
+    {
+      "kanji": "横",
+      "amHan": "Hoành",
+      "nghia": "Chiều ngang, bên cạnh",
+      "onyomi": "オウ",
+      "kunyomi": "よこ",
+      "mnemonic": {
+        "text": "Dùng GỖ (木) đặt ngang qua màu VÀNG (黄) của lúa mì tạo thành trục HOÀNH."
+      },
+      "examples": [
+        { "word": "横断", "reading": "おうだん", "meaning": "băng qua (đường)" },
+        { "word": "横", "reading": "よこ", "meaning": "bên cạnh, chiều ngang" },
+        { "word": "横転", "reading": "おうてん", "meaning": "lật nhào (xe)" },
+        { "word": "横暴", "reading": "おうぼう", "meaning": "ngang ngược, bạo ngược" },
+        { "word": "横顔", "reading": "よこがお", "meaning": "khuôn mặt nhìn nghiêng" }
+      ]
+    },
+    {
+      "kanji": "湯",
+      "amHan": "Thang",
+      "nghia": "Nước nóng",
+      "onyomi": "トウ",
+      "kunyomi": "ゆ",
+      "mnemonic": {
+        "text": "NƯỚC (氵) dưới ánh MẶT TRỜI (日) nóng đến mức mọc lông (勿 - biến thể) bốc hơi là nước THANG."
+      },
+      "examples": [
+        { "word": "お湯", "reading": "おゆ", "meaning": "nước nóng" },
+        { "word": "湯気", "reading": "ゆげ", "meaning": "hơi nước" },
+        { "word": "熱湯", "reading": "ねっとう", "meaning": "nước sôi" },
+        { "word": "銭湯", "reading": "せんとう", "meaning": "nhà tắm công cộng" },
+        { "word": "湯飲み", "reading": "ゆのみ", "meaning": "tách trà" }
+      ]
+    },
+    {
+      "kanji": "恐",
+      "amHan": "Khủng",
+      "nghia": "Khủng bợ, sợ hãi",
+      "onyomi": "キョウ",
+      "kunyomi": "おそ・れる / おそ・ろしい",
+      "mnemonic": {
+        "text": "Khi PHÀN NÀN (巩) từ trong TÂM (心) nghĩa là đang KHỦNG hoảng sợ hãi."
+      },
+      "examples": [
+        { "word": "恐れる", "reading": "おそれる", "meaning": "lo sợ, sợ hãi" },
+        { "word": "恐ろしい", "reading": "おそろしい", "meaning": "đáng sợ, kinh khủng" },
+        { "word": "恐縮", "reading": "きょうしゅく", "meaning": "thấy ngại, làm phiền (lịch sự)" },
+        { "word": "恐怖", "reading": "きょうふ", "meaning": "khủng bố, sợ hãi" },
+        { "word": "恐慌", "reading": "きょうこう", "meaning": "khủng hoảng (kinh tế)" }
+      ]
+    },
+    {
+      "kanji": "原",
+      "amHan": "Nguyên",
+      "nghia": "Nguyên nhân, cánh đồng, nguồn gốc",
+      "onyomi": "ゲン",
+      "kunyomi": "はら",
+      "mnemonic": {
+        "text": "Dưới VÁCH NÚI (厂), NGUỒN NƯỚC (泉) chảy ra là NGUYÊN bản của sự sống."
+      },
+      "examples": [
+        { "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" },
+        { "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
+        { "word": "野原", "reading": "のはら", "meaning": "cánh đồng" },
+        { "word": "原理", "reading": "げんり", "meaning": "nguyên lý" },
+        { "word": "原子", "reading": "げんし", "meaning": "nguyên tử" },
+        { "word": "原本", "reading": "げんぽん", "meaning": "bản gốc" }
+      ]
+    },
+    {
+      "kanji": "因",
+      "amHan": "Nhân",
+      "nghia": "Nguyên nhân",
+      "onyomi": "イン",
+      "kunyomi": "よ・る",
+      "mnemonic": {
+        "text": "Một người ĐẠI (大) diện nằm trong KHUNG (囗) để tìm NHÂN quả."
+      },
+      "examples": [
+        { "word": "要因", "reading": "よういん", "meaning": "nhân tố chính" },
+        { "word": "因果関係", "reading": "いんがかんけい", "meaning": "quan hệ nhân quả" },
+        { "word": "因縁", "reading": "いんねん", "meaning": "nhân duyên, số phận" },
+        { "word": "起因", "reading": "きいん", "meaning": "khởi nguồn, nguyên nhân" }
+      ]
+    },
+    {
+      "kanji": "置",
+      "amHan": "Trí",
+      "nghia": "Đặt, để, bố trí",
+      "onyomi": "チ",
+      "kunyomi": "お・く",
+      "mnemonic": {
+        "text": "Dùng MẮT (罒) theo dõi việc THẲNG (直) tay ĐẶT đồ vật vào vị TRÍ."
+      },
+      "examples": [
+        { "word": "置く", "reading": "おく", "meaning": "đặt, để" },
+        { "word": "位置", "reading": "いち", "meaning": "vị trí" },
+        { "word": "設置", "reading": "せっち", "meaning": "thiết lập, lắp đặt" },
+        { "word": "放置", "reading": "ほうち", "meaning": "để mặc, bỏ mặc" },
+        { "word": "装置", "reading": "そうち", "meaning": "trang thiết bị" },
+        { "word": "置き忘れる", "reading": "おきわすれる", "meaning": "để quên" }
+      ]
+    },
+    {
+      "kanji": "寝",
+      "amHan": "Tẩm",
+      "nghia": "Ngủ",
+      "onyomi": "シン",
+      "kunyomi": "ね・る / ね・かす",
+      "mnemonic": {
+        "text": "Trong NHÀ (宀), dùng CHỔI (帚) quét dọn chỗ nằm cho người BỆNH (爿 - biến thể) NGỦ."
+      },
+      "examples": [
+        { "word": "寝る", "reading": "ねる", "meaning": "ngủ" },
+        { "word": "寝室", "reading": "しんしつ", "meaning": "phòng ngủ" },
+        { "word": "昼寝", "reading": "ひるね", "meaning": "ngủ trưa" },
+        { "word": "寝不足", "reading": "ねぶそく", "meaning": "thiếu ngủ" },
+        { "word": "寝坊", "reading": "ねぼう", "meaning": "ngủ nướng, dậy muộn" }
+      ]
+    },
+    {
+      "kanji": "熱",
+      "amHan": "Nhiệt",
+      "nghia": "Nhiệt độ, nóng, sốt",
+      "onyomi": "ネツ",
+      "kunyomi": "あつ・い",
+      "mnemonic": {
+        "text": "Dùng TAY (丸 - biến thể) cầm cây TRỒNG (執) trên LỬA (灬) thì sinh NHIỆT."
+      },
+      "examples": [
+        { "word": "熱い", "reading": "あつい", "meaning": "nóng (vật)" },
+        { "word": "熱心", "reading": "ねっしん", "meaning": "nhiệt tình" },
+        { "word": "熱中", "reading": "ねっちゅう", "meaning": "mải mê, say mê" },
+        { "word": "加熱", "reading": "かねつ", "meaning": "gia nhiệt, làm nóng" },
+        { "word": "高熱", "reading": "こうねつ", "meaning": "sốt cao" },
+        { "word": "情熱", "reading": "じょうねつ", "meaning": "đam mê, nhiệt huyết" }
+      ]
+    },
+    {
+      "kanji": "焼",
+      "amHan": "Thiêu",
+      "nghia": "Đốt, nướng",
+      "onyomi": "ショウ",
+      "kunyomi": "や・く / や・ける",
+      "mnemonic": {
+        "text": "Dùng LỬA (火) THIÊU rụi các đồ vật của người NGHIÊM (尭) khắc."
+      },
+      "examples": [
+        { "word": "焼く", "reading": "やく", "meaning": "nướng, đốt" },
+        { "word": "日焼け", "reading": "ひやけ", "meaning": "cháy nắng" },
+        { "word": "夕焼け", "reading": "ゆうやけ", "meaning": "hoàng hôn, ráng chiều" },
+        { "word": "燃焼", "reading": "ねんしょう", "meaning": "sự đốt cháy" },
+        { "word": "焼き立て", "reading": "やきたて", "meaning": "vừa mới nướng xong" }
+      ]
+    },
+    {
+      "kanji": "触",
+      "amHan": "Xúc",
+      "nghia": "Chạm, tiếp xúc",
+      "onyomi": "ショク",
+      "kunyomi": "ふ・れる / さわ・る",
+      "mnemonic": {
+        "text": "Dùng SỪNG (角) của con SÂU (虫) để tiếp XÚC với thế giới."
+      },
+      "examples": [
+        { "word": "触る", "reading": "さわる", "meaning": "sờ, chạm (có chủ ý)" },
+        { "word": "触れる", "reading": "ふれる", "meaning": "chạm, đề cập đến" },
+        { "word": "感触", "reading": "かんしょく", "meaning": "cảm giác qua tiếp xúc" },
+        { "word": "接触", "reading": "せっしょく", "meaning": "tiếp xúc, va chạm" },
+        { "word": "触覚", "reading": "しょっかく", "meaning": "xúc giác" }
+      ]
+    },
+    {
+      "kanji": "灯",
+      "amHan": "Đăng",
+      "nghia": "Đèn",
+      "onyomi": "トウ",
+      "kunyomi": "ひ",
+      "mnemonic": {
+        "text": "LỬA (火) gắn trên ĐINH (丁) thành ngọn ĐÈN."
+      },
+      "examples": [
+        { "word": "灯台", "reading": "とうだい", "meaning": "hải đăng" },
+        { "word": "電灯", "reading": "でんとう", "meaning": "đèn điện" },
+        { "word": "灯油", "reading": "とうゆ", "meaning": "dầu hỏa" },
+        { "word": "消灯", "reading": "しょうとう", "meaning": "tắt đèn" },
+        { "word": "街灯", "reading": "がいとう", "meaning": "đèn đường" }
+      ]
+    },
+    {
+      "kanji": "油",
+      "amHan": "Du",
+      "nghia": "Dầu",
+      "onyomi": "ユ",
+      "kunyomi": "あぶら",
+      "mnemonic": {
+        "text": "NƯỚC (氵) lấy từ bình (由) ra là DẦU."
+      },
+      "examples": [
+        { "word": "油断", "reading": "ゆだん", "meaning": "lơ là, chủ quan" },
+        { "word": "しょう油", "reading": "しょうゆ", "meaning": "nước tương" },
+        { "word": "石油", "reading": "せきゆ", "meaning": "dầu mỏ" },
+        { "word": "油っこい", "reading": "あぶらっこい", "meaning": "nhiều dầu mỡ" },
+        { "word": "給油", "reading": "きゅうゆ", "meaning": "tiếp nhiên liệu" }
+      ]
+    },
+    {
+      "kanji": "余",
+      "amHan": "Dư",
+      "nghia": "Dư thừa",
+      "onyomi": "ヨ",
+      "kunyomi": "あま・る / あま・す",
+      "mnemonic": {
+        "text": "Tòa NHÀ (亼) có 8 (八) người vào nhưng vẫn DƯ chỗ cho NGƯỜI (个) nữa."
+      },
+      "examples": [
+        { "word": "余る", "reading": "あまる", "meaning": "dư thừa" },
+        { "word": "余分", "reading": "よぶん", "meaning": "phần dư, thừa ra" },
+        { "word": "余裕", "reading": "よゆう", "meaning": "phần dư (thời gian, tiền bạc, tâm trí)" },
+        { "word": "余計", "reading": "よけい", "meaning": "thừa thãi, không cần thiết" },
+        { "word": "余白", "reading": "よはく", "meaning": "lề trắng, khoảng trống" },
+        { "word": "余暇", "reading": "よか", "meaning": "thời gian rảnh rỗi" }
+      ]
+    }
+  ]

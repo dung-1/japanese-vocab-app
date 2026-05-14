@@ -1,0 +1,235 @@
+﻿[
+    {
+      "kanji": "武",
+      "amHan": "Vũ",
+      "nghia": "Vũ lực, võ thuật",
+      "onyomi": "ブ, ム",
+      "kunyomi": "たけ.し",
+      "mnemonic": {
+        "text": "Dùng GIÁO (弋) để DỪNG (止) chiến tranh là tinh thần của nhà VŨ."
+      },
+      "examples": [
+        { "word": "武器", "reading": "ぶき", "meaning": "Vũ khí" },
+        { "word": "武士", "reading": "ぶし", "meaning": "Võ sĩ, Samurai" },
+        { "word": "武道", "reading": "ぶどう", "meaning": "Võ đạo" },
+        { "word": "文武両道", "reading": "ぶんぶりょうどう", "meaning": "Văn võ song toàn" },
+        { "word": "武力", "reading": "ぶりょく", "meaning": "Vũ lực" }
+      ]
+    },
+    {
+      "kanji": "巨",
+      "amHan": "Cự",
+      "nghia": "To lớn, khổng lồ",
+      "onyomi": "キョ",
+      "mnemonic": {
+        "text": "Hình ảnh một cái thước đo kích thước CỰ đại."
+      },
+      "examples": [
+        { "word": "巨大", "reading": "きょだい", "meaning": "Khổng lồ" },
+        { "word": "巨額", "reading": "きょがく", "meaning": "Số tiền lớn" },
+        { "word": "巨人", "reading": "きょじん", "meaning": "Người khổng lồ" },
+        { "word": "巨匠", "reading": "きょしょう", "meaning": "Bậc thầy, danh sư" },
+        { "word": "巨万", "reading": "きょまん", "meaning": "Hàng vạn, vô số" }
+      ]
+    },
+    {
+      "kanji": "競",
+      "amHan": "Cạnh",
+      "nghia": "Cạnh tranh",
+      "onyomi": "キョウ, ケイ",
+      "kunyomi": "きそ.う, せ.る",
+      "mnemonic": {
+        "text": "Hai người cùng ĐỨNG (立) trên mặt đất (兄 - huynh) để CẠNH tranh."
+      },
+      "examples": [
+        { "word": "競う", "reading": "きそう", "meaning": "Cạnh tranh, ganh đua" },
+        { "word": "競争", "reading": "きょうそう", "meaning": "Sự cạnh tranh" },
+        { "word": "競技", "reading": "きょうぎ", "meaning": "Trận đấu, cuộc thi" },
+        { "word": "競馬", "reading": "けいば", "meaning": "Đua ngựa" },
+        { "word": "競売", "reading": "きょうばい", "meaning": "Bán đấu giá" }
+      ]
+    },
+    {
+      "kanji": "敗",
+      "amHan": "Bại",
+      "nghia": "Thất bại",
+      "onyomi": "ハイ",
+      "kunyomi": "やぶ.れる",
+      "mnemonic": {
+        "text": "Vì TIỀN (貝) mà bị ĐÁNH (攵) cho THẤT BẠI."
+      },
+      "examples": [
+        { "word": "失敗", "reading": "しっぱい", "meaning": "Thất bại" },
+        { "word": "敗れる", "reading": "やぶれる", "meaning": "Bị đánh bại" },
+        { "word": "敗北", "reading": "はいぼく", "meaning": "Sự bại trận" },
+        { "word": "勝敗", "reading": "しょうはい", "meaning": "Thắng bại" },
+        { "word": "敗戦", "reading": "はいせん", "meaning": "Thất bại trong chiến tranh" }
+      ]
+    },
+    {
+      "kanji": "逆",
+      "amHan": "Nghịch",
+      "nghia": "Ngược lại, nghịch lý",
+      "onyomi": "ギャク",
+      "kunyomi": "さか, さか.らう",
+      "mnemonic": {
+        "text": "ĐI (辶) mà đầu lại chúc xuống là NGHỊCH."
+      },
+      "examples": [
+        { "word": "逆", "reading": "ぎゃく", "meaning": "Ngược lại" },
+        { "word": "逆らう", "reading": "さからう", "meaning": "Chống đối, ngược lại" },
+        { "word": "逆転", "reading": "ぎゃくてん", "meaning": "Lội ngược dòng" },
+        { "word": "逆に", "reading": "ぎゃくに", "meaning": "Trái lại" },
+        { "word": "逆襲", "reading": "ぎゃくしゅう", "meaning": "Phản công" }
+      ]
+    },
+    {
+      "kanji": "勝",
+      "amHan": "Thắng",
+      "nghia": "Chiến thắng",
+      "onyomi": "ショウ",
+      "kunyomi": "か.つ, まさ.る",
+      "mnemonic": {
+        "text": "Dùng SỨC (力) để vượt lên trên sự LÀM VIỆC (朕) để giành CHIẾN THẮNG."
+      },
+      "examples": [
+        { "word": "勝つ", "reading": "かつ", "meaning": "Thắng" },
+        { "word": "優勝", "reading": "ゆうしょう", "meaning": "Vô địch" },
+        { "word": "勝負", "reading": "しょうぶ", "meaning": "Trận đấu, thắng thua" },
+        { "word": "自分に勝つ", "reading": "じぶんにかつ", "meaning": "Thắng chính mình" },
+        { "word": "勝利", "reading": "しょうり", "meaning": "Thắng lợi" },
+        { "word": "決勝", "reading": "けっしょう", "meaning": "Chung kết" }
+      ]
+    },
+    {
+      "kanji": "投",
+      "amHan": "Đầu",
+      "nghia": "Ném, quăng, đầu tư",
+      "onyomi": "トウ",
+      "kunyomi": "な.げる",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) để ĐẦU (殳) hàng hoặc ném đi."
+      },
+      "examples": [
+        { "word": "投げる", "reading": "なげる", "meaning": "Ném" },
+        { "word": "投資", "reading": "とうし", "meaning": "Đầu tư" },
+        { "word": "投票", "reading": "とうひょう", "meaning": "Bỏ phiếu" },
+        { "word": "投書", "reading": "とうしょ", "meaning": "Thư gửi biên tập, thư góp ý" },
+        { "word": "投球", "reading": "とうきゅう", "meaning": "Ném bóng" }
+      ]
+    },
+    {
+      "kanji": "軍",
+      "amHan": "Quân",
+      "nghia": "Quân đội",
+      "onyomi": "グン",
+      "mnemonic": {
+        "text": "Xe (車) được bao phủ (冖) bởi QUÂN đội."
+      },
+      "examples": [
+        { "word": "軍隊", "reading": "ぐんたい", "meaning": "Quân đội" },
+        { "word": "軍人", "reading": "ぐんじん", "meaning": "Quân nhân" },
+        { "word": "将軍", "reading": "しょうぐん", "meaning": "Tướng quân" },
+        { "word": "米軍", "reading": "べいぐん", "meaning": "Quân đội Mỹ" },
+        { "word": "軍備", "reading": "ぐんび", "meaning": "Quân bị" }
+      ]
+    },
+    {
+      "kanji": "兵",
+      "amHan": "Binh",
+      "nghia": "Binh lính",
+      "onyomi": "ヘイ, ヒョウ",
+      "mnemonic": {
+        "text": "Hai tay nâng cái RÌU (斤) là BINH lính."
+      },
+      "examples": [
+        { "word": "兵隊", "reading": "へいたい", "meaning": "Quân lính" },
+        { "word": "兵器", "reading": "へいき", "meaning": "Binh khí, vũ khí" },
+        { "word": "兵士", "reading": "へいし", "meaning": "Binh sĩ" },
+        { "word": "徴兵", "reading": "ちょうへい", "meaning": "Tuyển quân, tòng quân" },
+        { "word": "核兵器", "reading": "かくへいき", "meaning": "Vũ khí hạt nhân" }
+      ]
+    },
+    {
+      "kanji": "捜",
+      "amHan": "Sưu",
+      "nghia": "Tìm kiếm",
+      "onyomi": "ソウ",
+      "kunyomi": "さが.す",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) để SƯU tầm, tìm kiếm những thứ cũ (申)."
+      },
+      "examples": [
+        { "word": "捜す", "reading": "さがす", "meaning": "Tìm kiếm (vật bị mất)" },
+        { "word": "捜査", "reading": "そうさ", "meaning": "Điều tra (tội phạm)" },
+        { "word": "捜索", "reading": "そうさく", "meaning": "Sự tìm kiếm, lục soát" },
+        { "word": "特捜部", "reading": "とくそうぶ", "meaning": "Bộ phận đặc biệt điều tra" }
+      ]
+    },
+    {
+      "kanji": "倒",
+      "amHan": "Đảo",
+      "nghia": "Ngã, đổ, đảo lộn",
+      "onyomi": "トウ",
+      "kunyomi": "たお.れる, たお.す",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) bị ĐẾN (到) giới hạn nên ngã ĐẢO."
+      },
+      "examples": [
+        { "word": "倒れる", "reading": "たおれる", "meaning": "Bị ngã, đổ, phá sản" },
+        { "word": "倒す", "reading": "たおす", "meaning": "Làm đổ, đánh bại" },
+        { "word": "倒産", "reading": "とうさん", "meaning": "Phá sản" },
+        { "word": "圧倒的", "reading": "あっとうてき", "meaning": "Một cách áp đảo" },
+        { "word": "面倒", "reading": "めんどう", "meaning": "Phiền phức, chăm sóc" }
+      ]
+    },
+    {
+      "kanji": "骨",
+      "amHan": "Cốt",
+      "nghia": "Xương",
+      "onyomi": "コツ",
+      "kunyomi": "ほね",
+      "mnemonic": {
+        "text": "Cái bao che phía trên bộ THỊT (⺼) là XƯƠNG."
+      },
+      "examples": [
+        { "word": "骨", "reading": "ほね", "meaning": "Xương" },
+        { "word": "骨折", "reading": "こっせつ", "meaning": "Gãy xương" },
+        { "word": "骨董品", "reading": "こっとうひん", "meaning": "Đồ cổ" },
+        { "word": "背骨", "reading": "せぼね", "meaning": "Xương sống" },
+        { "word": "がい骨", "reading": "がいこつ", "meaning": "Bộ xương người" }
+      ]
+    },
+    {
+      "kanji": "針",
+      "amHan": "Châm",
+      "nghia": "Cái kim, phương châm",
+      "onyomi": "シン",
+      "kunyomi": "はり",
+      "mnemonic": {
+        "text": "Vật bằng KIM loại (金) mỏng như số MƯỜI (十) là cái KIM."
+      },
+      "examples": [
+        { "word": "針", "reading": "はり", "meaning": "Cái kim, kim đồng hồ" },
+        { "word": "方針", "reading": "ほうしん", "meaning": "Phương châm" },
+        { "word": "針路", "reading": "しんろ", "meaning": "Lộ trình, hướng đi của tàu" },
+        { "word": "注射針", "reading": "ちゅうしゃはり", "meaning": "Kim tiêm" },
+        { "word": "羅針盤", "reading": "らしんばん", "meaning": "La bàn" }
+      ]
+    },
+    {
+      "kanji": "叫",
+      "amHan": "Khiếu",
+      "nghia": "Gào, hét",
+      "onyomi": "キョウ",
+      "kunyomi": "さけ.ぶ",
+      "mnemonic": {
+        "text": "Cái MIỆNG (口) kêu lên theo hình số 4 (丩)."
+      },
+      "examples": [
+        { "word": "叫ぶ", "reading": "さけぶ", "meaning": "Gào, hét, kêu gọi" },
+        { "word": "絶叫", "reading": "ぜっきょう", "meaning": "Tiếng kêu gào thảm thiết" },
+        { "word": "叫び声", "reading": "さけびごえ", "meaning": "Tiếng hét" }
+      ]
+    }
+  ]

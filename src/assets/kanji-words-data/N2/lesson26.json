@@ -1,0 +1,223 @@
+﻿[
+    {
+      "kanji": "毛",
+      "amHan": "Mao",
+      "nghia": "Lông, tóc",
+      "onyomi": "モウ",
+      "kunyomi": "け",
+      "mnemonic": {
+        "text": "Hình ảnh những sợi LÔNG, sợi tóc đang rũ xuống."
+      },
+      "examples": [
+        { "word": "毛布", "reading": "もうふ", "meaning": "Chăn, mền" },
+        { "word": "羊毛", "reading": "ようもう", "meaning": "Lông cừu" },
+        { "word": "毛筆", "reading": "もうひつ", "meaning": "Bút lông" },
+        { "word": "髪の毛", "reading": "かみのけ", "meaning": "Tóc" },
+        { "word": "眉毛", "reading": "まゆげ", "meaning": "Lông mày" }
+      ]
+    },
+    {
+      "kanji": "糸",
+      "amHan": "Mịch",
+      "nghia": "Sợi chỉ",
+      "onyomi": "シ",
+      "kunyomi": "いと",
+      "mnemonic": {
+        "text": "Hình ảnh một cuộn CHỈ đang được quấn lại."
+      },
+      "examples": [
+        { "word": "糸", "reading": "いと", "meaning": "Sợi chỉ" },
+        { "word": "毛糸", "reading": "けいと", "meaning": "Len, sợi len" },
+        { "word": "製糸", "reading": "せいし", "meaning": "Sự kéo sợi" },
+        { "word": "抜糸", "reading": "ばっし", "meaning": "Cắt chỉ (sau phẫu thuật)" },
+        { "word": "釣り糸", "reading": "つりいと", "meaning": "Dây câu" }
+      ]
+    },
+    {
+      "kanji": "肌",
+      "amHan": "Cơ",
+      "nghia": "Da thịt",
+      "onyomi": "キ",
+      "kunyomi": "はだ",
+      "mnemonic": {
+        "text": "Phần THỊT (月) ở bên cạnh (几 - ghế/cạnh) chính là DA THỊT."
+      },
+      "examples": [
+        { "word": "肌", "reading": "はだ", "meaning": "Da" },
+        { "word": "肌着", "reading": "はだぎ", "meaning": "Quần áo lót" },
+        { "word": "肌寒い", "reading": "はだざむい", "meaning": "Lạnh lẽo, se lạnh" },
+        { "word": "地肌", "reading": "じはだ", "meaning": "Bề mặt đất, da đầu" },
+        { "word": "素肌", "reading": "すはだ", "meaning": "Da trần, mặt mộc" }
+      ]
+    },
+    {
+      "kanji": "柔",
+      "amHan": "Nhu",
+      "nghia": "Mềm mại, dẻo dai",
+      "onyomi": "ジュウ, ニュウ",
+      "kunyomi": "やわ.らか, やわ.らかい",
+      "mnemonic": {
+        "text": "Cây CÂY (木) có mâu (矛 - giáo) đâm vào thì mới thấy nó MỀM."
+      },
+      "examples": [
+        { "word": "柔道", "reading": "じゅうどう", "meaning": "Nhu đạo (Judo)" },
+        { "word": "柔軟", "reading": "じゅうなん", "meaning": "Mềm dẻo, linh hoạt" },
+        { "word": "柔らかい", "reading": "やわらかい", "meaning": "Mềm mại" },
+        { "word": "柔和", "reading": "にゅうわ", "meaning": "Nhu hòa, dịu dàng" },
+        { "word": "懐柔", "reading": "かいじゅう", "meaning": "Xoa dịu, chuộc lỗi" }
+      ]
+    },
+    {
+      "kanji": "香",
+      "amHan": "Hương",
+      "nghia": "Hương thơm",
+      "onyomi": "コウ, キョウ",
+      "kunyomi": "か, かお.り, かお.る",
+      "mnemonic": {
+        "text": "Cây LÚA (禾) dưới ánh MẶT TRỜI (日) tỏa HƯƠNG thơm."
+      },
+      "examples": [
+        { "word": "香水", "reading": "こうすい", "meaning": "Nước hoa" },
+        { "word": "香り", "reading": "かおり", "meaning": "Hương thơm, mùi thơm" },
+        { "word": "香辛料", "reading": "こうしんりょう", "meaning": "Gia vị, hương liệu" },
+        { "word": "無香料", "reading": "むこうりょう", "meaning": "Không mùi, không hương liệu" },
+        { "word": "香港", "reading": "ほんこん", "meaning": "Hồng Kông" }
+      ]
+    },
+    {
+      "kanji": "軟",
+      "amHan": "Nhuyễn",
+      "nghia": "Mềm, nhuyễn",
+      "onyomi": "ナン",
+      "kunyomi": "やわ.らか, やわ.らかい",
+      "mnemonic": {
+        "text": "Cái XE (車) thiếu (欠 - khiếm) phụ tùng nên chạy rất MỀM (yếu)."
+      },
+      "examples": [
+        { "word": "軟らかい", "reading": "やわらかい", "meaning": "Mềm, nhão (thức ăn)" },
+        { "word": "軟弱", "reading": "なんじゃく", "meaning": "Mềm yếu, ủy mị" },
+        { "word": "軟骨", "reading": "なんこつ", "meaning": "Sụn, xương sụn" },
+        { "word": "軟化", "reading": "なんか", "meaning": "Mềm hóa, giảm nhẹ thái độ" },
+        { "word": "柔軟剤", "reading": "じゅうなんざい", "meaning": "Nước xả vải" }
+      ]
+    },
+    {
+      "kanji": "溶",
+      "amHan": "Dung",
+      "nghia": "Tan chảy, hòa tan",
+      "onyomi": "ヨウ",
+      "kunyomi": "と.ける, と.かす",
+      "mnemonic": {
+        "text": "NƯỚC (氵) chảy vào thung lũng (谷) dưới mái NHÀ (宀) để HÒA TAN."
+      },
+      "examples": [
+        { "word": "溶ける", "reading": "とける", "meaning": "Tan ra, chảy ra" },
+        { "word": "溶岩", "reading": "ようがん", "meaning": "Dung nham" },
+        { "word": "溶液", "reading": "ようえき", "meaning": "Dung dịch" },
+        { "word": "溶かす", "reading": "とかす", "meaning": "Làm nóng chảy, hòa tan" },
+        { "word": "溶接", "reading": "ようせつ", "meaning": "Hàn (kim loại)" }
+      ]
+    },
+    {
+      "kanji": "濯",
+      "amHan": "Trạc",
+      "nghia": "Rửa, giặt",
+      "onyomi": "タク",
+      "kunyomi": "すす.ぐ, ゆす.ぐ",
+      "mnemonic": {
+        "text": "Dùng NƯỚC (氵) để rửa con CHIM (隹) đang đậu trên cành ĐÀO (phần còn lại)."
+      },
+      "examples": [
+        { "word": "洗濯", "reading": "せんたく", "meaning": "Giặt giũ" },
+        { "word": "洗濯機", "reading": "せんたくき", "meaning": "Máy giặt" },
+        { "word": "濯ぐ", "reading": "すすぐ", "meaning": "Súc, rửa, giũ" },
+        { "word": "一濯ぎ", "reading": "ひとすすぎ", "meaning": "Một lần xả/giũ" }
+      ]
+    },
+    {
+      "kanji": "接",
+      "amHan": "Tiếp",
+      "nghia": "Tiếp xúc, nối liền",
+      "onyomi": "セツ, ショウ",
+      "kunyomi": "つ.ぐ",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) TIẾP nhận (妾 - thiếp/phụ nữ) để nối lại."
+      },
+      "examples": [
+        { "word": "直接", "reading": "ちょくせつ", "meaning": "Trực tiếp" },
+        { "word": "面接", "reading": "めんせつ", "meaning": "Phỏng vấn" },
+        { "word": "接続", "reading": "せつぞく", "meaning": "Kết nối" },
+        { "word": "接近", "reading": "せっきん", "meaning": "Tiếp cận" },
+        { "word": "接客", "reading": "せっきゃく", "meaning": "Tiếp khách" },
+        { "word": "応接室", "reading": "おうせつしつ", "meaning": "Phòng tiếp khách" }
+      ]
+    },
+    {
+      "kanji": "塗",
+      "amHan": "Đồ",
+      "nghia": "Sơn, phết, thoa",
+      "onyomi": "ト",
+      "kunyomi": "ぬ.る",
+      "mnemonic": {
+        "text": "Dùng NƯỚC (氵) và ĐẤT (土) trên ĐƯỜNG (余 - dư/đồ) để SƠN/PHẾT."
+      },
+      "examples": [
+        { "word": "塗る", "reading": "ぬる", "meaning": "Thoa, bôi, sơn" },
+        { "word": "塗装", "reading": "とそう", "meaning": "Lớp sơn, việc sơn" },
+        { "word": "塗り薬", "reading": "ぬりぐすり", "meaning": "Thuốc bôi ngoài da" },
+        { "word": "塗料", "reading": "とりょう", "meaning": "Sơn, vật liệu sơn" },
+        { "word": "塗り潰す", "reading": "ぬりつぶす", "meaning": "Sơn kín, gạch đi" }
+      ]
+    },
+    {
+      "kanji": "緒",
+      "amHan": "Tự",
+      "nghia": "Cùng nhau, đầu sợi chỉ",
+      "onyomi": "ショ, チョ",
+      "kunyomi": "お",
+      "mnemonic": {
+        "text": "Dùng sợi CHỈ (糸) để nối những người GIÀ (者) lại CÙNG NHAU."
+      },
+      "examples": [
+        { "word": "一緒", "reading": "いっしょ", "meaning": "Cùng nhau" },
+        { "word": "情緒", "reading": "じょうちょ", "meaning": "Cảm xúc, bầu không khí" },
+        { "word": "内緒", "reading": "ないしょ", "meaning": "Bí mật, riêng tư" },
+        { "word": "緒", "reading": "お", "meaning": "Dây giày, quai dép" },
+        { "word": "由緒", "reading": "ゆいしょ", "meaning": "Lịch sử, dòng dõi" }
+      ]
+    },
+    {
+      "kanji": "泥",
+      "amHan": "Nê",
+      "nghia": "Bùn",
+      "onyomi": "デイ",
+      "kunyomi": "どろ",
+      "mnemonic": {
+        "text": "NƯỚC (氵) hòa với đất của các TỬ THI (尸) dưới ánh NẮNG (日) tạo thành BÙN."
+      },
+      "examples": [
+        { "word": "泥", "reading": "どろ", "meaning": "Bùn" },
+        { "word": "泥棒", "reading": "どろぼう", "meaning": "Kẻ trộm" },
+        { "word": "泥沼", "reading": "どろぬま", "meaning": "Đầm lầy" },
+        { "word": "雲泥の差", "reading": "うんでいのさ", "meaning": "Khác biệt một trời một vực" },
+        { "word": "泥酔", "reading": "でいすい", "meaning": "Say bí tỉ (như bùn)" }
+      ]
+    },
+    {
+      "kanji": "黄",
+      "amHan": "Hoàng",
+      "nghia": "Màu vàng",
+      "onyomi": "コウ, オウ",
+      "kunyomi": "き, こ",
+      "mnemonic": {
+        "text": "Đồng RUỘNG (由) có CỎ (艹) và ĐẤT (八 + một phần chữ) màu VÀNG."
+      },
+      "examples": [
+        { "word": "黄色", "reading": "きいろ", "meaning": "Màu vàng" },
+        { "word": "黄金", "reading": "おうごん", "meaning": "Vàng, hoàng kim" },
+        { "word": "黄身", "reading": "きみ", "meaning": "Lòng đỏ trứng" },
+        { "word": "黄昏", "reading": "たそがれ", "meaning": "Hoàng hôn" },
+        { "word": "卵黄", "reading": "らんおう", "meaning": "Lòng đỏ trứng (thuật ngữ)" }
+      ]
+    }
+  ]

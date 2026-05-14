@@ -1,0 +1,217 @@
+﻿[
+    {
+      "kanji": "営",
+      "amHan": "Doanh",
+      "nghia": "Kinh doanh, quản lý",
+      "onyomi": "エイ",
+      "kunyomi": "いとな.む",
+      "mnemonic": {
+        "text": "Dưới ÁNH SÁNG (cách viết biến thể của bộ Hỏa) của ngọn đèn, người ta đang quản lý công việc trong CUNG ĐIỆN (呂)."
+      },
+      "examples": [
+        { "word": "営業", "reading": "えいぎょう", "meaning": "Kinh doanh, mở cửa hàng" },
+        { "word": "経営", "reading": "けいえい", "meaning": "Quản trị, điều hành" },
+        { "word": "運営", "reading": "うんえい", "meaning": "Vận hành, điều hành (sự kiện, tổ chức)" },
+        { "word": "営む", "reading": "いとなむ", "meaning": "Kinh doanh, dấn thân vào (nghề nghiệp)" },
+        { "word": "民営", "reading": "みんえい", "meaning": "Tư nhân hóa" },
+        { "word": "自営業", "reading": "じえいぎょう", "meaning": "Tự kinh doanh cá thể" }
+      ]
+    },
+    {
+      "kanji": "放",
+      "amHan": "Phóng",
+      "nghia": "Giải phóng, buông bỏ",
+      "onyomi": "ホウ",
+      "kunyomi": "はな.す, はな.れる",
+      "mnemonic": {
+        "text": "Dùng PHƯƠNG (方) hướng mạnh mẽ để ĐÁNH (攵 - phẫu) bay cái tôi, giải PHÓNG bản thân."
+      },
+      "examples": [
+        { "word": "放送", "reading": "ほうそう", "meaning": "Phát sóng, truyền hình" },
+        { "word": "開放", "reading": "かいほう", "meaning": "Mở cửa, giải phóng" },
+        { "word": "放す", "reading": "はなす", "meaning": "Rời tay, buông tay, thả ra" },
+        { "word": "放課後", "reading": "ほうかご", "meaning": "Sau giờ học" },
+        { "word": "放置", "reading": "ほうち", "meaning": "Để mặc, vứt bỏ linh tinh" },
+        { "word": "放り込む", "reading": "ほうりこむ", "meaning": "Quăng vào, ném vào" }
+      ]
+    },
+    {
+      "kanji": "押",
+      "amHan": "Áp",
+      "nghia": "Ấn, nhấn, ép",
+      "onyomi": "オウ",
+      "kunyomi": "お.す, お.さえる",
+      "mnemonic": {
+        "text": "Dùng cái TAY (扌) để GIÁP (甲) mặt và ẤN xuống."
+      },
+      "examples": [
+        { "word": "押印", "reading": "おういん", "meaning": "Đóng dấu" },
+        { "word": "押さえる", "reading": "おさえる", "meaning": "Kìm nén, giữ chặt" },
+        { "word": "押し入れ", "reading": "おしいれ", "meaning": "Tủ âm tường" },
+        { "word": "圧倒的", "reading": "あっとうてき", "meaning": "Một cách áp đảo" },
+        { "word": "押し掛ける", "reading": "おしかける", "meaning": "Ập đến, kéo đến" },
+        { "word": "押収", "reading": "おうしゅう", "meaning": "Tịch thu, sung công quỹ" }
+      ]
+    },
+    {
+      "kanji": "準",
+      "amHan": "Chuẩn",
+      "nghia": "Chuẩn bị, tiêu chuẩn",
+      "onyomi": "ジュン",
+      "kunyomi": "なぞら.える",
+      "mnemonic": {
+        "text": "Dùng NƯỚC (氵) để đo độ PHẲNG (十) cho con CHIM (隼 - chuẩn)."
+      },
+      "examples": [
+        { "word": "準備", "reading": "じゅんび", "meaning": "Chuẩn bị" },
+        { "word": "基準", "reading": "きじゅん", "meaning": "Tiêu chuẩn" },
+        { "word": "決勝準備", "reading": "けっしょうじゅんび", "meaning": "Chuẩn bị chung kết" },
+        { "word": "水準", "reading": "すいじゅん", "meaning": "Mức độ, trình độ" },
+        { "word": "準急", "reading": "じゅんきゅう", "meaning": "Tàu tốc hành (loại thường)" },
+        { "word": "準じる", "reading": "じゅんじる", "meaning": "Căn cứ vào, tương đương với" }
+      ]
+    },
+    {
+      "kanji": "備",
+      "amHan": "Bị",
+      "nghia": "Trang bị, phòng bị",
+      "onyomi": "ビ",
+      "kunyomi": "そな.える, そな.わる",
+      "mnemonic": {
+        "text": "NGƯỜI (亻) đi lấy CỎ (艹) khô để vào SƯỜN NÚI (厂) dự BỊ cho mùa đông."
+      },
+      "examples": [
+        { "word": "設備", "reading": "せつび", "meaning": "Thiết bị" },
+        { "word": "備える", "reading": "そなえる", "meaning": "Trang bị, đề phòng" },
+        { "word": "予備", "reading": "よび", "meaning": "Dự bị, dự trữ" },
+        { "word": "整備", "reading": "せいび", "meaning": "Bảo dưỡng, hoàn thiện" },
+        { "word": "備考", "reading": "びこう", "meaning": "Ghi chú" },
+        { "word": "備品", "reading": "びひん", "meaning": "Vật dụng, trang thiết bị" }
+      ]
+    },
+    {
+      "kanji": "定",
+      "amHan": "Định",
+      "nghia": "Xác định, ổn định",
+      "onyomi": "テイ, ジョウ",
+      "kunyomi": "さだ.める, さだ.まる",
+      "mnemonic": {
+        "text": "Dưới MÁI NHÀ (宀), Chân (Chỉ - 疋) đứng yên ĐỊNH một chỗ."
+      },
+      "examples": [
+        { "word": "予定", "reading": "よてい", "meaning": "Dự định" },
+        { "word": "安定", "reading": "あんてい", "meaning": "Ổn định" },
+        { "word": "定休日", "reading": "ていきゅうび", "meaning": "Ngày nghỉ định kỳ" },
+        { "word": "決定", "reading": "けってい", "meaning": "Quyết định" },
+        { "word": "勘定", "reading": "かんじょう", "meaning": "Thanh toán, tính tiền" },
+        { "word": "定員", "reading": "ていいん", "meaning": "Sức chứa, số người quy định" }
+      ]
+    },
+    {
+      "kanji": "流",
+      "amHan": "Lưu",
+      "nghia": "Dòng chảy, lưu thông",
+      "onyomi": "リュウ, ル",
+      "kunyomi": "なが.れる, なが.す",
+      "mnemonic": {
+        "text": "NƯỚC (氵) chảy cuốn theo ĐỨA TRẺ (cách viết ngược của Tử) ra ĐẢO."
+      },
+      "examples": [
+        { "word": "流行", "reading": "りゅうこう", "meaning": "Trào lưu, thịnh hành" },
+        { "word": "交流", "reading": "こうりゅう", "meaning": "Giao lưu" },
+        { "word": "一流", "reading": "いちりゅう", "meaning": "Bậc nhất, hàng đầu" },
+        { "word": "流れる", "reading": "ながれる", "meaning": "Chảy, trôi đi" },
+        { "word": "流出", "reading": "りゅうしゅつ", "meaning": "Rò rỉ (thông tin), chảy ra ngoài" },
+        { "word": "我流", "reading": "がりゅう", "meaning": "Phong cách riêng, tự học" }
+      ]
+    },
+    {
+      "kanji": "清",
+      "amHan": "Thanh",
+      "nghia": "Trong sạch, thanh khiết",
+      "onyomi": "セイ, ショウ",
+      "kunyomi": "きよ.い, きよ.める",
+      "mnemonic": {
+        "text": "NƯỚC (氵) có màu XANH (青) là nước THANH khiết."
+      },
+      "examples": [
+        { "word": "清浄", "reading": "せいじょう", "meaning": "Sạch sẽ, thanh khiết" },
+        { "word": "清書", "reading": "せいしょ", "meaning": "Viết bản chính thức (sau khi nháp)" },
+        { "word": "清い", "reading": "きよい", "meaning": "Trong sạch, tinh khiết" },
+        { "word": "清算", "reading": "せいさん", "meaning": "Quyết toán, thanh toán" },
+        { "word": "清掃", "reading": "せいそう", "meaning": "Quét dọn, vệ sinh" },
+        { "word": "清潔", "reading": "せいけつ", "meaning": "Sạch sẽ (vệ sinh)" }
+      ]
+    },
+    {
+      "kanji": "掃",
+      "amHan": "Tảo",
+      "nghia": "Quét tước",
+      "onyomi": "ソウ",
+      "kunyomi": "は.く",
+      "mnemonic": {
+        "text": "Dùng TAY (扌) cầm cái chổi làm từ cỏ (艹) để quét sạch CÁI KHĂN (巾) bị bẩn."
+      },
+      "examples": [
+        { "word": "掃除", "reading": "そうじ", "meaning": "Dọn dẹp" },
+        { "word": "掃く", "reading": "はく", "meaning": "Quét" },
+        { "word": "一掃", "reading": "いっそう", "meaning": "Quét sạch, dẹp bỏ hoàn toàn" },
+        { "word": "清掃員", "reading": "せいそういん", "meaning": "Nhân viên vệ sinh" },
+        { "word": "大掃除", "reading": "おおそうじ", "meaning": "Tổng vệ sinh" }
+      ]
+    },
+    {
+      "kanji": "閉",
+      "amHan": "Bế",
+      "nghia": "Đóng, bế mạc",
+      "onyomi": "ヘイ",
+      "kunyomi": "と.じる, し.める",
+      "mnemonic": {
+        "text": "Cái CỬA (門) bị chặn lại bởi một cái TÀI (才 - năng khiếu/thanh chắn) tạo thành thế BẾ."
+      },
+      "examples": [
+        { "word": "閉める", "reading": "しめる", "meaning": "Đóng (cửa)" },
+        { "word": "閉じる", "reading": "とじる", "meaning": "Đóng (sách, mắt, miệng)" },
+        { "word": "閉会", "reading": "へいかい", "meaning": "Bế mạc cuộc họp" },
+        { "word": "閉鎖", "reading": "へいさ", "meaning": "Phong tỏa, đóng cửa (nhà máy...)" },
+        { "word": "閉店", "reading": "へいてん", "meaning": "Đóng cửa hàng" },
+        { "word": "閉じ込める", "reading": "とじこめる", "meaning": "Giam hãm, nhốt" }
+      ]
+    },
+    {
+      "kanji": "点",
+      "amHan": "Điểm",
+      "nghia": "Điểm số, chấm",
+      "onyomi": "テン",
+      "kunyomi": "つ.ける, つ.く",
+      "mnemonic": {
+        "text": "Chiếm (占) lấy ngọn LỬA (灬) để thắp lên một ĐIỂM sáng."
+      },
+      "examples": [
+        { "word": "点検", "reading": "てんけん", "meaning": "Kiểm tra, bảo dưỡng" },
+        { "word": "欠点", "reading": "けってん", "meaning": "Khuyết điểm" },
+        { "word": "終点", "reading": "しゅうてん", "meaning": "Điểm cuối" },
+        { "word": "得点", "reading": "とくてん", "meaning": "Điểm giành được" },
+        { "word": "点数", "reading": "てんすう", "meaning": "Điểm số" },
+        { "word": "句読点", "reading": "くとうてん", "meaning": "Dấu chấm phẩy" }
+      ]
+    },
+    {
+      "kanji": "検",
+      "amHan": "Kiểm",
+      "nghia": "Kiểm tra",
+      "onyomi": "ケン",
+      "kunyomi": "しら.べる",
+      "mnemonic": {
+        "text": "Dùng cái CÂY (木) làm thước để KIỂM tra NHIỀU người (僉 - thiêm)."
+      },
+      "examples": [
+        { "word": "検査", "reading": "けんさ", "meaning": "Kiểm tra (y tế, hàng hóa)" },
+        { "word": "検討", "reading": "けんとう", "meaning": "Xem xét, cân nhắc" },
+        { "word": "検索", "reading": "けんさく", "meaning": "Tìm kiếm, tra cứu" },
+        { "word": "検問", "reading": "けんもん", "meaning": "Thanh tra, thẩm vấn" },
+        { "word": "探検", "reading": "たんけん", "meaning": "Thăm dò, thám hiểm" },
+        { "word": "検定", "reading": "けんてい", "meaning": "Kiểm định, kỳ thi năng lực" }
+      ]
+    }
+  ]
