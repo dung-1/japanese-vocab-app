@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'kanji-radicals', loadChildren: () => import('./kanjiRadicals/layoutkanji-radicals/layoutkanji-radicals.module').then(m => m.LayoutkanjiRadicalsModule) },
   { path: 'reduplicative-words', loadChildren: () => import('./reduplicativeWords/layout-reduplicative-words/layout-reduplicative-words.component.module').then(m => m.LayoutReduplicativeWordsModule) },
   { path: 'kanji-words', loadChildren: () => import('./kanjiWords/layout-kanji-words/layout-kanji-words.module').then(m => m.LayoutKanjiWordsModule) },
+  { path: 'number-practice', loadChildren: () => import('./numberPractice/layout-number-practice/number-practice.module').then(m => m.NumberPracticeModule) },
   { path: '**', redirectTo: '/home' },
 ];
 

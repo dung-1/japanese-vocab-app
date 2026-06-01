@@ -1,0 +1,219 @@
+<div class="np-wrapper">
+
+  <!-- ==================== MENU ==================== -->
+  <div *ngIf="mode === 'menu'" class="np-menu">
+    <div class="np-header">
+      <h1>🔢 Luyện số tiếng Nhật</h1>
+      <p>Chọn cấp độ và phương thức học</p>
+    </div>
+
+    <!-- Chọn số chữ số -->
+    <div class="np-section">
+      <h3>📊 Chọn cấp độ (số chữ số)</h3>
+      <div class="digit-grid">
+        <button
+          *ngFor="let d of digitOptions"
+          class="digit-btn"
+          [class.selected]="selectedDigits === d"
+          (click)="selectedDigits = d">
+          <span class="digit-num">{{ d }}</span>
+          <span class="digit-label">chữ số</span>
+          <span class="digit-example">{{ d === 2 ? '10~99' : d === 3 ? '100~999' : d === 4 ? '1,000~9,999' : d === 5 ? '10,000~99,999' : d === 6 ? '100,000~999,999' : d === 7 ? '1,000,000~' : d === 8 ? '10,000,000~' : '100,000,000~' }}</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Chọn số câu hỏi -->
+    <div class="np-section">
+      <h3>🎯 Số câu mỗi session</h3>
+      <div class="q-options">
+        <button *ngFor="let q of [5,10,15,20]" class="q-btn"
+          [class.selected]="questionsPerSession === q"
+          (click)="questionsPerSession = q">{{ q }} câu</button>
+      </div>
+    </div>
+
+    <!-- Chọn chế độ học -->
+    <div class="np-section">
+      <h3>📖 Chọn chế độ học</h3>
+      <div class="mode-cards">
+        <div class="mode-card" (click)="startSession('read')">
+          <div class="mode-icon">👁️</div>
+          <h4>Học đọc</h4>
+          <p>Nhìn số → nghe phát âm → đánh dấu đúng/sai</p>
+          <span class="mode-tag">Phù hợp luyện phát âm</span>
+        </div>
+        <div class="mode-card" (click)="startSession('listen')">
+          <div class="mode-icon">👂</div>
+          <h4>Nghe & ghi số</h4>
+          <p>Nghe âm thanh → nhập số vào ô → kiểm tra đáp án</p>
+          <span class="mode-tag">Phù hợp luyện nghe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== READ MODE ==================== -->
+  <div *ngIf="mode === 'read' && currentQuestion" class="np-practice">
+
+    <div class="np-topbar">
+      <button class="back-btn" (click)="backToMenu()">← Quay lại</button>
+      <div class="np-progress">
+        <span>{{ questionIndex }}/{{ questionsPerSession }}</span>
+        <div class="progress-bar"><div class="progress-fill" [style.width.%]="(questionIndex / questionsPerSession) * 100"></div></div>
+      </div>
+      <div class="np-score">
+        ✅ {{ correct }} &nbsp; ❌ {{ wrong }}
+        <span *ngIf="streak >= 3" class="streak-badge">🔥{{ streak }}</span>
+      </div>
+    </div>
+
+    <!-- Combo animation -->
+    <div class="combo-popup" *ngIf="showCombo">{{ comboMessage }}</div>
+
+    <div class="np-card" [class.correct]="answerState === 'correct'" [class.wrong]="answerState === 'wrong'">
+      <div class="np-number">{{ currentQuestion.number | number }}</div>
+      <div class="np-digits-badge">{{ selectedDigits }} chữ số</div>
+
+      <!-- Nút nghe -->
+      <div class="np-actions-speak">
+        <button class="speak-btn primary" (click)="speakCurrent(0.85)">🔊 Nghe bình thường</button>
+        <button class="speak-btn slow" (click)="speakCurrent(0.5)">🐢 Nghe chậm</button>
+      </div>
+
+      <!-- Hiện/ẩn phiên âm -->
+      <div class="np-reading-toggle">
+        <button class="toggle-btn" (click)="toggleReading()">
+          {{ showReading ? '🙈 Ẩn cách đọc' : '👁️ Xem cách đọc' }}
+        </button>
+        <div class="np-reading" *ngIf="showReading">
+          <span>{{ currentQuestion.reading }}</span>
+        </div>
+      </div>
+
+      <!-- Đánh dấu kết quả -->
+      <div class="np-judge" *ngIf="answerState === 'idle'">
+        <p>Bạn đọc được chưa?</p>
+        <div class="judge-btns">
+          <button class="judge-btn correct-btn" (click)="markRead(true)">✅ Đọc được</button>
+          <button class="judge-btn wrong-btn" (click)="markRead(false)">❌ Chưa đọc được</button>
+        </div>
+      </div>
+
+      <!-- Phản hồi sau khi trả lời -->
+      <div class="np-feedback" *ngIf="answerState !== 'idle'">
+        <div class="feedback-correct" *ngIf="answerState === 'correct'">
+          ✅ Tuyệt! Streak: {{ streak }}
+        </div>
+        <div class="feedback-wrong" *ngIf="answerState === 'wrong'">
+          ❌ Hãy luyện thêm!<br>
+          <strong>Cách đọc: {{ currentQuestion.reading }}</strong>
+        </div>
+        <button class="next-btn" (click)="nextQuestion()">Câu tiếp → </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== LISTEN MODE ==================== -->
+  <div *ngIf="mode === 'listen' && currentQuestion" class="np-practice">
+
+    <div class="np-topbar">
+      <button class="back-btn" (click)="backToMenu()">← Quay lại</button>
+      <div class="np-progress">
+        <span>{{ questionIndex }}/{{ questionsPerSession }}</span>
+        <div class="progress-bar"><div class="progress-fill" [style.width.%]="(questionIndex / questionsPerSession) * 100"></div></div>
+      </div>
+      <div class="np-score">
+        ✅ {{ correct }} &nbsp; ❌ {{ wrong }}
+        <span *ngIf="streak >= 3" class="streak-badge">🔥{{ streak }}</span>
+      </div>
+    </div>
+
+    <div class="combo-popup" *ngIf="showCombo">{{ comboMessage }}</div>
+
+    <div class="np-card listen-card" [class.correct]="answerState === 'correct'" [class.wrong]="answerState === 'wrong'">
+      <div class="listen-icon">👂</div>
+      <p class="listen-hint">Nghe và nhập số vào ô bên dưới</p>
+
+      <div class="np-actions-speak">
+        <button class="speak-btn primary" (click)="speakCurrent(0.85)">🔊 Nghe lại</button>
+        <button class="speak-btn slow" (click)="speakCurrent(0.5)">🐢 Nghe chậm</button>
+      </div>
+
+      <!-- Input nhập số -->
+      <div class="np-input-wrap" *ngIf="answerState === 'idle'">
+        <input
+          class="np-input"
+          type="text"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          [(ngModel)]="userAnswer"
+          (keydown)="onKeydown($event)"
+          placeholder="Nhập số bạn nghe được..."
+          autofocus>
+        <button class="submit-btn" (click)="submitAnswer()">Kiểm tra ✓</button>
+      </div>
+
+      <!-- Kết quả -->
+      <div class="np-feedback" *ngIf="answerState !== 'idle'">
+        <div class="feedback-correct" *ngIf="answerState === 'correct'">
+          ✅ Chính xác! <strong>{{ currentQuestion.number | number }}</strong>
+          <div class="reading-reveal">{{ currentQuestion.reading }}</div>
+          <span *ngIf="streak >= 3">🔥 Streak: {{ streak }}</span>
+        </div>
+        <div class="feedback-wrong" *ngIf="answerState === 'wrong'">
+          ❌ Sai rồi! Bạn nhập: <strong>{{ userAnswer }}</strong><br>
+          Đáp án: <strong class="answer-reveal">{{ currentQuestion.number | number }}</strong><br>
+          Cách đọc: <span class="reading-reveal">{{ currentQuestion.reading }}</span>
+        </div>
+        <button class="next-btn" (click)="nextQuestion()">Câu tiếp → </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== RESULT ==================== -->
+  <div *ngIf="mode === 'result'" class="np-result">
+    <div class="result-card">
+      <h2>{{ resultGrade }}</h2>
+      <div class="result-stats">
+        <div class="stat-box correct-box">
+          <span class="stat-num">{{ correct }}</span>
+          <span class="stat-label">Đúng</span>
+        </div>
+        <div class="stat-box wrong-box">
+          <span class="stat-num">{{ wrong }}</span>
+          <span class="stat-label">Sai</span>
+        </div>
+        <div class="stat-box accuracy-box">
+          <span class="stat-num">{{ accuracy }}%</span>
+          <span class="stat-label">Chính xác</span>
+        </div>
+        <div class="stat-box streak-box">
+          <span class="stat-num">{{ bestStreak }}</span>
+          <span class="stat-label">Best streak</span>
+        </div>
+      </div>
+
+      <!-- Lịch sử câu trả lời -->
+      <div class="history-wrap">
+        <h3>📋 Chi tiết</h3>
+        <div class="history-list">
+          <div class="history-item" *ngFor="let s of sessionStats; let i = index"
+            [class.h-correct]="s.correct" [class.h-wrong]="!s.correct">
+            <span class="h-index">#{{ i + 1 }}</span>
+            <span class="h-number">{{ s.number | number }}</span>
+            <span class="h-reading">{{ s.reading }}</span>
+            <span class="h-ans" *ngIf="practiceMode === 'listen'">→ {{ s.userAnswer }}</span>
+            <span class="h-icon">{{ s.correct ? '✅' : '❌' }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-btns">
+        <button class="replay-btn" (click)="replaySession()">🔄 Học lại</button>
+        <button class="menu-btn" (click)="backToMenu()">🏠 Menu</button>
+      </div>
+    </div>
+  </div>
+
+</div>
