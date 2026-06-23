@@ -1,239 +1,382 @@
 ﻿[
-    {
-      "kanji": "福",
-      "amHan": "Phúc",
-      "nghia": "Hạnh phúc, phước lành",
-      "onyomi": "フク",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Thần linh (礻) ban cho một MIỆNG (口) ăn trên một mảnh RUỘNG (田) là có PHÚC."
-      },
-      "examples": [
-        { "word": "幸福", "reading": "こうふく", "meaning": "hạnh phúc" },
-        { "word": "福祉", "reading": "ふくし", "meaning": "phúc lợi" },
-        { "word": "祝福", "reading": "しゅくふく", "meaning": "chúc phúc" },
-        { "word": "裕福", "reading": "ゆうふく", "meaning": "giàu có, dư dả" },
-        { "word": "福引", "reading": "ふくびき", "meaning": "rút thăm may mắn" }
-      ]
+  {
+    "kanji": "咲",
+    "amHan": "Tiếu",
+    "nghia": "Nở hoa",
+    "onyomi": "ショウ",
+    "kunyomi": "さ.く",
+    "mnemonic": {
+      "text": "Dùng CÁI MIỆNG (口) nhỏ (小) để tán dương vẻ đẹp của bông hoa đang NỞ (乃)."
     },
-    {
-      "kanji": "拝",
-      "amHan": "Bái",
-      "nghia": "Cúi lạy, chiêm bái",
-      "onyomi": "ハイ",
-      "kunyomi": "おが・む",
-      "mnemonic": {
-        "text": "Dùng TAY (扌) chắp lại để cúng bái dưới bụi CỎ (丰)."
-      },
-      "examples": [
-        { "word": "拝見する", "reading": "はいけんする", "meaning": "xem, nhìn (khiêm nhường ngữ)" },
-        { "word": "拝借する", "reading": "はいしゃくする", "meaning": "mượn (khiêm nhường ngữ)" },
-        { "word": "参拝", "reading": "さんぱい", "meaning": "đi lễ chùa/đền" },
-        { "word": "拝啓", "reading": "はいけい", "meaning": "kính gửi (viết đầu thư)" },
-        { "word": "崇拝", "reading": "すうはい", "meaning": "sùng bái" },
-        { "word": "拝む", "reading": "おがむ", "meaning": "cầu khấn, thờ cúng" }
-      ]
+    "examples": [
+      { "word": "咲く", "reading": "さく", "meaning": "nở (hoa)" },
+      { "word": "花咲く", "reading": "はなさく", "meaning": "hoa nở rộ" },
+      { "word": "笑顔", "reading": "えがお", "meaning": "khuôn mặt tươi cười (như hoa nở)" },
+      { "word": "咲き乱れる", "reading": "さきみだれる", "meaning": "nở rộ, nở khắp nơi" },
+      { "word": "咲顔", "reading": "えみ", "meaning": "nụ cười" },
+      { "word": "一斉に咲く", "reading": "いっせいにさく", "meaning": "nở đồng loạt" },
+      { "word": "返り咲く", "reading": "かえりざく", "meaning": "nở lại, quay trở lại đỉnh cao" }
+    ]
+  },
+  {
+    "kanji": "枯",
+    "amHan": "Khô",
+    "nghia": "Khô, héo, tàn",
+    "onyomi": "コ",
+    "kunyomi": "か.れる",
+    "mnemonic": {
+      "text": "Cây CỐI (木) đã CỔ (古) xưa thì thường khô héo."
     },
-    {
-      "kanji": "打",
-      "amHan": "Đả",
-      "nghia": "Đánh, đả kích",
-      "onyomi": "ダ",
-      "kunyomi": "う・つ",
-      "mnemonic": {
-        "text": "Dùng TAY (扌) đóng cái ĐINH (丁)."
-      },
-      "examples": [
-        { "word": "打つ", "reading": "うつ", "meaning": "đánh, gõ, đóng" },
-        { "word": "打ち合わせ", "reading": "うちあわせ", "meaning": "thảo luận, họp bàn trước" },
-        { "word": "打楽器", "reading": "だがっき", "meaning": "nhạc cụ bộ gõ" },
-        { "word": "打診", "reading": "だしん", "meaning": "thăm dò, hỏi ý" },
-        { "word": "殴打", "reading": "おうだ", "meaning": "ẩu đả, đánh lộn" }
-      ]
+    "examples": [
+      { "word": "枯れる", "reading": "かれる", "meaning": "khô héo, tàn úa" },
+      { "word": "枯死", "reading": "こし", "meaning": "chết khô, cây chết khô" },
+      { "word": "枯渇", "reading": "こかつ", "meaning": "cạn kiệt (tài nguyên, nguồn vốn)" },
+      { "word": "枯れ木", "reading": "かれき", "meaning": "cành cây khô" },
+      { "word": "枯れ葉", "reading": "かれは", "meaning": "lá khô" },
+      { "word": "枯れ果てる", "reading": "かれはてる", "meaning": "khô héo hoàn toàn" },
+      { "word": "枯淡", "reading": "こたん", "meaning": "thanh đạm, đạm bạc, xa lánh trần tục" }
+    ]
+  },
+  {
+    "kanji": "散",
+    "amHan": "Tản",
+    "nghia": "Rải, tản ra, phân tán",
+    "onyomi": "サン",
+    "kunyomi": "ち.る",
+    "mnemonic": {
+      "text": "Dưới ánh TRĂNG (月) rơi rụng, người ta tản bộ và tản mát mọi nơi."
     },
-    {
-      "kanji": "伺",
-      "amHan": "Tứ",
-      "nghia": "Thăm hỏi, hỏi",
-      "onyomi": "シ",
-      "kunyomi": "うかが・う",
-      "mnemonic": {
-        "text": "Người (亻) đến hỏi thăm tình hình của các bộ TI (司) quan."
-      },
-      "examples": [
-        { "word": "伺う", "reading": "うかがう", "meaning": "hỏi, đến thăm (khiêm nhường ngữ)" },
-        { "word": "伺い", "reading": "うかがい", "meaning": "sự thăm hỏi/lệnh cấp trên" }
-      ]
+    "examples": [
+      { "word": "散る", "reading": "ちる", "meaning": "rơi rụng (hoa, lá)" },
+      { "word": "散歩", "reading": "さんぽ", "meaning": "đi dạo" },
+      { "word": "分散", "reading": "ぶんさん", "meaning": "phân tán" },
+      { "word": "解散", "reading": "かいさん", "meaning": "giải tán" },
+      { "word": "散らかる", "reading": "ちらかる", "meaning": "bừa bãi, lộn xộn" },
+      { "word": "散髪", "reading": "さんぱつ", "meaning": "cắt tóc" },
+      { "word": "散々", "reading": "さんざん", "meaning": "tan nát, thê thảm, tệ hại" }
+    ]
+  },
+  {
+    "kanji": "飾",
+    "amHan": "Sức",
+    "nghia": "Trang trí, bày biện",
+    "onyomi": "ショク",
+    "kunyomi": "かざ.る",
+    "mnemonic": {
+      "text": "Dùng KHĂN (巾) để che đậy và trang trí cho cái bàn ăn thêm đẹp."
     },
-    {
-      "kanji": "幸",
-      "amHan": "Hạnh",
-      "nghia": "Hạnh phúc, may mắn",
-      "onyomi": "コウ",
-      "kunyomi": "しあわ・せ, さいわ・い",
-      "mnemonic": {
-        "text": "Đất (土) mà nảy nở được 10 (十) hạt lúa là HẠNH phúc."
-      },
-      "examples": [
-        { "word": "幸せ", "reading": "しあわせ", "meaning": "hạnh phúc" },
-        { "word": "幸運", "reading": "こううん", "meaning": "vận may" },
-        { "word": "不幸", "reading": "ふこう", "meaning": "bất hạnh" },
-        { "word": "幸い", "reading": "さいわい", "meaning": "may mắn thay" },
-        { "word": "多幸感", "reading": "たこうかん", "meaning": "cảm giác cực kỳ hạnh phúc" }
-      ]
+    "examples": [
+      { "word": "飾る", "reading": "かざる", "meaning": "trang trí" },
+      { "word": "装飾", "reading": "そうしょく", "meaning": "trang sức, trang trí" },
+      { "word": "服装", "reading": "ふくそう", "meaning": "trang phục" },
+      { "word": "粉飾", "reading": "ふんしょく", "meaning": "trang điểm, làm giả (sổ sách tài chính)" },
+      { "word": "飾り物", "reading": "かざりもの", "meaning": "vật trang trí" },
+      { "word": "修飾", "reading": "しゅうしょく", "meaning": "tu sức, bổ nghĩa (ngữ pháp)" },
+      { "word": "飾り立てる", "reading": "かざりたてる", "meaning": "trang hoàng lộng lẫy" }
+    ]
+  },
+  {
+    "kanji": "菊",
+    "amHan": "Cúc",
+    "nghia": "Hoa cúc",
+    "onyomi": "キク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Loài hoa CỎ (艹) có những cánh hoa uốn KHÚC (曲) tuyệt đẹp chính là hoa Cúc."
     },
-    {
-      "kanji": "失",
-      "amHan": "Thất",
-      "nghia": "Thất bại, mất mát",
-      "onyomi": "シツ",
-      "kunyomi": "うしな・う",
-      "mnemonic": {
-        "text": "Người (夫) bị trượt chân rơi mất một cái gì đó trên đầu thành chữ THẤT."
-      },
-      "examples": [
-        { "word": "失礼", "reading": "しつれい", "meaning": "thất lễ" },
-        { "word": "失敗", "reading": "しっぱい", "meaning": "thất bại" },
-        { "word": "失う", "reading": "うしなう", "meaning": "mất, đánh mất" },
-        { "word": "失業", "reading": "しつぎょう", "meaning": "thất nghiệp" },
-        { "word": "失望", "reading": "しつぼう", "meaning": "thất vọng" },
-        { "word": "失神", "reading": "しっしん", "meaning": "ngất xỉu" }
-      ]
+    "examples": [
+      { "word": "菊", "reading": "きく", "meaning": "hoa cúc" },
+      { "word": "菊花", "reading": "きっか", "meaning": "bông hoa cúc" },
+      { "word": "残菊", "reading": "ざんぎく", "meaning": "hoa cúc còn sót lại cuối mùa" },
+      { "word": "小菊", "reading": "こぎく", "meaning": "hoa cúc nhỏ" },
+      { "word": "野菊", "reading": "のぎく", "meaning": "cúc dại" },
+      { "word": "菊人形", "reading": "きくにんぎょう", "meaning": "búp bê làm bằng hoa cúc" },
+      { "word": "菊花賞", "reading": "きっかしょう", "meaning": "giải thưởng Kikka-sho (đua ngựa)" }
+    ]
+  },
+  {
+    "kanji": "枝",
+    "amHan": "Chi",
+    "nghia": "Cành cây",
+    "onyomi": "シ",
+    "kunyomi": "えだ",
+    "mnemonic": {
+      "text": "Cái cây (木) có những cành nhỏ CHI (支) ra."
     },
-    {
-      "kanji": "突",
-      "amHan": "Đột",
-      "nghia": "Đột phá, đâm thủng",
-      "onyomi": "トツ",
-      "kunyomi": "つ・く",
-      "mnemonic": {
-        "text": "Con CHÓ (大) bất ĐỘT lao ra từ trong HANG (穴)."
-      },
-      "examples": [
-        { "word": "突然", "reading": "とつぜん", "meaning": "đột nhiên" },
-        { "word": "突き当たり", "reading": "つきあたり", "meaning": "cuối đường" },
-        { "word": "衝突", "reading": "しょうとつ", "meaning": "xung đột, va chạm" },
-        { "word": "突進", "reading": "とっしん", "meaning": "lao lên, xông tới" },
-        { "word": "突破", "reading": "とっぱ", "meaning": "đột phá" }
-      ]
+    "examples": [
+      { "word": "枝", "reading": "えだ", "meaning": "cành cây" },
+      { "word": "枝豆", "reading": "えだまめ", "meaning": "đậu nành (luộc cả cành)" },
+      { "word": "枝分かれ", "reading": "えだわかれ", "meaning": "sự phân nhánh" },
+      { "word": "木の枝", "reading": "きのえだ", "meaning": "cành gỗ" },
+      { "word": "枝葉", "reading": "しよ", "meaning": "cành lá, chuyện phụ" },
+      { "word": "一枝", "reading": "いっし", "meaning": "một cành (đơn vị đếm)" },
+      { "word": "小枝", "reading": "こえだ", "meaning": "cành nhỏ" }
+    ]
+  },
+  {
+    "kanji": "紺",
+    "amHan": "Cám",
+    "nghia": "Màu xanh sẫm (xanh navy)",
+    "onyomi": "コン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Sợi TƠ (糹) nhuộm màu ngọt ngào (甘) thành màu Xanh đậm."
     },
-    {
-      "kanji": "然",
-      "amHan": "Nhiên",
-      "nghia": "Tự nhiên, tất nhiên",
-      "onyomi": "ゼン, ネン",
-      "kunyomi": "しか・し",
-      "mnemonic": {
-        "text": "Thịt CHÓ (月+犬) nướng trên LỬA (灬) tỏa mùi tự NHIÊN."
-      },
-      "examples": [
-        { "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" },
-        { "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn (không)" },
-        { "word": "天然", "reading": "てんねん", "meaning": "thiên nhiên" },
-        { "word": "当然", "reading": "とうぜん", "meaning": "đương nhiên" },
-        { "word": "必然", "reading": "ひつぜん", "meaning": "tất yếu" }
-      ]
+    "examples": [
+      { "word": "紺", "reading": "こん", "meaning": "màu xanh sẫm" },
+      { "word": "紺色", "reading": "こんいろ", "meaning": "màu xanh navy" },
+      { "word": "紺碧", "reading": "こんぺき", "meaning": "màu xanh thẳm của bầu trời/biển" },
+      { "word": "濃紺", "reading": "のうこん", "meaning": "xanh đậm đà" },
+      { "word": "紺屋", "reading": "こうや", "meaning": "thợ nhuộm" },
+      { "word": "紺色シャツ", "reading": "こんいろシャツ", "meaning": "áo sơ mi xanh navy" },
+      { "word": "紺青", "reading": "こんじょう", "meaning": "màu xanh dương đậm" }
+    ]
+  },
+  {
+    "kanji": "紫",
+    "amHan": "Tử",
+    "nghia": "Màu tím",
+    "onyomi": "シ",
+    "kunyomi": "むらさき",
+    "mnemonic": {
+      "text": "Sợi TƠ (糸) này (此) có màu tím."
     },
-    {
-      "kanji": "諸",
-      "amHan": "Chư",
-      "nghia": "Các, nhiều, chư vị",
-      "onyomi": "ショ",
-      "kunyomi": "もろ",
-      "mnemonic": {
-        "text": "Dùng LỜI NÓI (言) để chỉ định các (者 - giả) CHƯ vị."
-      },
-      "examples": [
-        { "word": "諸君", "reading": "しょくん", "meaning": "các bạn, quý vị" },
-        { "word": "諸国", "reading": "しょこく", "meaning": "các nước" },
-        { "word": "諸問題", "reading": "しょもんだい", "meaning": "các vấn đề" },
-        { "word": "諸説", "reading": "しょせつ", "meaning": "các giả thuyết, các ý kiến khác nhau" },
-        { "word": "諸島", "reading": "しょとう", "meaning": "quần đảo" }
-      ]
+    "examples": [
+      { "word": "紫", "reading": "むらさき", "meaning": "màu tím" },
+      { "word": "紫外線", "reading": "しがいせん", "meaning": "tia cực tím" },
+      { "word": "紫色", "reading": "むらさきいろ", "meaning": "màu tím" },
+      { "word": "藤紫", "reading": "ふじむらさき", "meaning": "màu tím hoa tử đằng" },
+      { "word": "紫式部", "reading": "むらさきしきぶ", "meaning": "nữ tác giả truyện Genji" },
+      { "word": "暗紫", "reading": "あんし", "meaning": "màu tím sẫm" },
+      { "word": "薄紫", "reading": "うすむらさき", "meaning": "màu tím nhạt" }
+    ]
+  },
+  {
+    "kanji": "紅",
+    "amHan": "Hồng",
+    "nghia": "Đỏ, màu đỏ",
+    "onyomi": "コウ",
+    "kunyomi": "くれない",
+    "mnemonic": {
+      "text": "Công việc (工) của sợi tơ (糹) là tạo ra màu đỏ rực rỡ."
     },
-    {
-      "kanji": "情",
-      "amHan": "Tình",
-      "nghia": "Tình cảm, tình hình",
-      "onyomi": "ジョウ, セイ",
-      "kunyomi": "なさ・け",
-      "mnemonic": {
-        "text": "TÂM (忄) luôn xanh tươi (青) là người có TÌNH."
-      },
-      "examples": [
-        { "word": "感情", "reading": "かんじょう", "meaning": "cảm xúc" },
-        { "word": "情熱", "reading": "じょうねつ", "meaning": "nhiệt huyết" },
-        { "word": "事情", "reading": "じじょう", "meaning": "sự tình, lý do" },
-        { "word": "情報", "reading": "じょうほう", "meaning": "thông tin" },
-        { "word": "友情", "reading": "ゆうじょう", "meaning": "tình bạn" },
-        { "word": "情け", "reading": "なさけ", "meaning": "lòng trắc ẩn, nhân ái" }
-      ]
+    "examples": [
+      { "word": "紅", "reading": "くれない", "meaning": "màu đỏ thắm" },
+      { "word": "紅茶", "reading": "こうちゃ", "meaning": "hồng trà (trà đen)" },
+      { "word": "口紅", "reading": "くちべに", "meaning": "son môi" },
+      { "word": "紅葉", "reading": "こうよう", "meaning": "lá đỏ" },
+      { "word": "紅白", "reading": "こうはく", "meaning": "đỏ và trắng" },
+      { "word": "紅点", "reading": "こうてん", "meaning": "điểm đỏ" },
+      { "word": "真紅", "reading": "しんく", "meaning": "màu đỏ thắm, đỏ tươi" }
+    ]
+  },
+  {
+    "kanji": "灰",
+    "amHan": "Hôi",
+    "nghia": "Tro",
+    "onyomi": "カイ",
+    "kunyomi": "はい",
+    "mnemonic": {
+      "text": "Khi ngọn lửa (火) tắt, để lại một đống tro tàn, lại (又) thêm một đống tro."
     },
-    {
-      "kanji": "退",
-      "amHan": "Thoái",
-      "nghia": "Rút lui, thoái lui",
-      "onyomi": "タイ",
-      "kunyomi": "しりぞ・く",
-      "mnemonic": {
-        "text": "BƯỚC ĐI (辶) rồi dừng lại để nhìn (艮 - cấn) về phía sau là THOÁI lui."
-      },
-      "examples": [
-        { "word": "退院", "reading": "たいいん", "meaning": "xuất viện" },
-        { "word": "退職", "reading": "たいしょく", "meaning": "nghỉ việc" },
-        { "word": "早退", "reading": "そうたい", "meaning": "về sớm" },
-        { "word": "退屈", "reading": "たいくつ", "meaning": "chán ngắt, buồn tẻ" },
-        { "word": "後退", "reading": "こうたい", "meaning": "hậu thoái, lùi lại" }
-      ]
+    "examples": [
+      { "word": "灰", "reading": "はい", "meaning": "tro" },
+      { "word": "灰色", "reading": "はいいろ", "meaning": "màu xám" },
+      { "word": "灰皿", "reading": "はいざら", "meaning": "gạt tàn thuốc" },
+      { "word": "灰汁", "reading": "あく", "meaning": "bọt (khi nấu ăn)" },
+      { "word": "火山灰", "reading": "かざんばい", "meaning": "tro núi lửa" },
+      { "word": "灰燼", "reading": "かいじん", "meaning": "tro tàn" },
+      { "word": "灰になる", "reading": "はいになる", "meaning": "cháy thành tro" }
+    ]
+  },
+  {
+    "kanji": "鮮",
+    "amHan": "Tiên",
+    "nghia": "Tươi, tươi mới, rực rỡ",
+    "onyomi": "セン",
+    "kunyomi": "あざ.やかな",
+    "mnemonic": {
+      "text": "Con cá (魚) mới bắt (羊) về thì rất tươi ngon."
     },
-    {
-      "kanji": "職",
-      "amHan": "Chức",
-      "nghia": "Chức vụ, nghề nghiệp",
-      "onyomi": "ショク",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Dùng TAI (耳) nghe âm thanh (音) của binh khí (戈) khi đang làm CHỨC trách."
-      },
-      "examples": [
-        { "word": "職業", "reading": "しょくぎょう", "meaning": "nghề nghiệp" },
-        { "word": "職場", "reading": "しょくば", "meaning": "nơi làm việc" },
-        { "word": "職人", "reading": "しょくにん", "meaning": "người thợ, nghệ nhân" },
-        { "word": "就職", "reading": "しゅうしょく", "meaning": "tìm việc" },
-        { "word": "辞職", "reading": "じしょく", "meaning": "từ chức" },
-        { "word": "転職", "reading": "てんしょく", "meaning": "đổi nghề" }
-      ]
+    "examples": [
+      { "word": "新鮮", "reading": "しんせん", "meaning": "tươi mới" },
+      { "word": "鮮明", "reading": "せんめい", "meaning": "rõ ràng, sống động" },
+      { "word": "朝鮮", "reading": "ちょうせん", "meaning": "Triều Tiên" },
+      { "word": "鮮魚", "reading": "せんぎょ", "meaning": "cá tươi" },
+      { "word": "鮮やか", "reading": "あざやか", "meaning": "rực rỡ, sống động" },
+      { "word": "鮮度", "reading": "せんど", "meaning": "độ tươi" },
+      { "word": "鮮烈", "reading": "せんれつ", "meaning": "ấn tượng mạnh mẽ" }
+    ]
+  },
+  {
+    "kanji": "彩",
+    "amHan": "Thải",
+    "nghia": "Màu sắc, tô màu",
+    "onyomi": "サイ",
+    "kunyomi": "いろど.る",
+    "mnemonic": {
+      "text": "Hái (采) những hạt màu sắc kết hợp với nhau (彡) để tô điểm."
     },
-    {
-      "kanji": "紹",
-      "amHan": "Thiệu",
-      "nghia": "Giới thiệu",
-      "onyomi": "ショウ",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Dùng SỢI CHỈ (糸) kết nối với người gọi là TRIỆU (召) tập để giới THIỆU."
-      },
-      "examples": [
-        { "word": "紹介", "reading": "しょうかい", "meaning": "giới thiệu" },
-        { "word": "自己紹介", "reading": "じこしょうかい", "meaning": "tự giới thiệu bản thân" },
-        { "word": "紹介状", "reading": "しょうかいじょう", "meaning": "thư giới thiệu" }
-      ]
+    "examples": [
+      { "word": "色彩", "reading": "しきさい", "meaning": "màu sắc" },
+      { "word": "多彩", "reading": "たさい", "meaning": "nhiều màu sắc, đa dạng" },
+      { "word": "彩る", "reading": "いろどる", "meaning": "tô màu, trang trí" },
+      { "word": "水彩画", "reading": "すいさいが", "meaning": "tranh màu nước" },
+      { "word": "彩り", "reading": "いろどり", "meaning": "sự pha trộn màu sắc" },
+      { "word": "鮮彩", "reading": "せんさい", "meaning": "màu sắc tươi sáng" },
+      { "word": "光彩", "reading": "こうさい", "meaning": "ánh sáng màu sắc" }
+    ]
+  },
+  {
+    "kanji": "飼",
+    "amHan": "Tự",
+    "nghia": "Nuôi (động vật)",
+    "onyomi": "シ",
+    "kunyomi": "か.う",
+    "mnemonic": {
+      "text": "Cho động vật ăn (食) theo lệnh (司) của chủ."
     },
-    {
-      "kanji": "介",
-      "amHan": "Giới",
-      "nghia": "Trung gian, giới thiệu",
-      "onyomi": "カイ",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Một người đứng GIỮA hai vách ngăn."
-      },
-      "examples": [
-        { "word": "介入", "reading": "かいにゅう", "meaning": "can thiệp vào" },
-        { "word": "介護", "reading": "かいご", "meaning": "chăm sóc người bệnh/già" },
-        { "word": "媒介", "reading": "ばいかい", "meaning": "môi giới, trung gian" },
-        { "word": "魚介類", "reading": "ぎょかいるい", "meaning": "hải sản" },
-        { "word": "介助", "reading": "かいじょ", "meaning": "trợ giúp, giúp đỡ" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "飼う", "reading": "かう", "meaning": "nuôi (thú cưng)" },
+      { "word": "飼育", "reading": "しいく", "meaning": "chăn nuôi" },
+      { "word": "飼料", "reading": "しりょう", "meaning": "thức ăn cho gia súc" },
+      { "word": "飼い主", "reading": "かいぬし", "meaning": "chủ vật nuôi" },
+      { "word": "犬を飼う", "reading": "いぬをかう", "meaning": "nuôi chó" },
+      { "word": "飼い慣らす", "reading": "かいならす", "meaning": "thuần hóa" },
+      { "word": "餌", "reading": "えさ", "meaning": "thức ăn (vật nuôi)" }
+    ]
+  },
+  {
+    "kanji": "畜",
+    "amHan": "Súc",
+    "nghia": "Súc vật, chăn nuôi",
+    "onyomi": "チク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong ruộng (田) nuôi dưỡng các con vật (畜)."
+    },
+    "examples": [
+      { "word": "畜産", "reading": "ちくさん", "meaning": "ngành chăn nuôi" },
+      { "word": "牧畜", "reading": "ぼくちく", "meaning": "chăn nuôi gia súc" },
+      { "word": "家畜", "reading": "かちく", "meaning": "gia súc" },
+      { "word": "畜生", "reading": "ちくしょう", "meaning": "chửi thề (đồ súc vật)" },
+      { "word": "生物蓄積", "reading": "せいぶつちくせき", "meaning": "sự tích tụ sinh học" },
+      { "word": "蓄電", "reading": "ちくでん", "meaning": "tích điện" },
+      { "word": "蓄える", "reading": "たくわえる", "meaning": "tích trữ" }
+    ]
+  },
+  {
+    "kanji": "猫",
+    "amHan": "Miêu",
+    "nghia": "Con mèo",
+    "onyomi": "ビョウ",
+    "kunyomi": "ねこ",
+    "mnemonic": {
+      "text": "Loài động vật (犭) nhỏ bé như mầm cây (苗) chính là con mèo."
+    },
+    "examples": [
+      { "word": "猫", "reading": "ねこ", "meaning": "con mèo" },
+      { "word": "野良猫", "reading": "のらねこ", "meaning": "mèo hoang" },
+      { "word": "猫舌", "reading": "ねこじた", "meaning": "người sợ ăn đồ nóng" },
+      { "word": "愛猫", "reading": "あいびょう", "meaning": "mèo cưng" },
+      { "word": "猫背", "reading": "ねこぜ", "meaning": "lưng gù" },
+      { "word": "招き猫", "reading": "まねきねこ", "meaning": "mèo thần tài" },
+      { "word": "猫をかぶる", "reading": "ねこをかぶる", "meaning": "giả nai" }
+    ]
+  },
+  {
+    "kanji": "羊",
+    "amHan": "Dương",
+    "nghia": "Con cừu",
+    "onyomi": "ヨウ",
+    "kunyomi": "ひつじ",
+    "mnemonic": {
+      "text": "Hình vẽ đầu con cừu với hai cái sừng."
+    },
+    "examples": [
+      { "word": "羊", "reading": "ひつじ", "meaning": "con cừu" },
+      { "word": "羊毛", "reading": "ようもう", "meaning": "lông cừu" },
+      { "word": "子羊", "reading": "こひつじ", "meaning": "cừu non" },
+      { "word": "羊皮紙", "reading": "ようひし", "meaning": "giấy da cừu" },
+      { "word": "群羊", "reading": "ぐんよう", "meaning": "đàn cừu" },
+      { "word": "山羊", "reading": "やぎ", "meaning": "con dê" },
+      { "word": "羊肉", "reading": "ようにく", "meaning": "thịt cừu" }
+    ]
+  },
+  {
+    "kanji": "豚",
+    "amHan": "Đồn",
+    "nghia": "Con heo",
+    "onyomi": "トン",
+    "kunyomi": "ぶた",
+    "mnemonic": {
+      "text": "Con vật (豕) có cơ thể (月) tròn trịa là con heo."
+    },
+    "examples": [
+      { "word": "豚", "reading": "ぶた", "meaning": "con heo" },
+      { "word": "豚肉", "reading": "ぶたにく", "meaning": "thịt heo" },
+      { "word": "海豚", "reading": "いるか", "meaning": "cá heo" },
+      { "word": "子豚", "reading": "こぶた", "meaning": "heo con" },
+      { "word": "豚カツ", "reading": "とんかつ", "meaning": "thịt heo chiên xù" },
+      { "word": "養豚", "reading": "ようとん", "meaning": "ngành chăn nuôi heo" },
+      { "word": "豚箱", "reading": "ぶたばこ", "meaning": "nhà tù" }
+    ]
+  },
+  {
+    "kanji": "巣",
+    "amHan": "Sào",
+    "nghia": "Cái tổ",
+    "onyomi": "ソウ",
+    "kunyomi": "す",
+    "mnemonic": {
+      "text": "Con vật ăn quả (果) xây tổ trên cây (巛)."
+    },
+    "examples": [
+      { "word": "巣", "reading": "す", "meaning": "cái tổ" },
+      { "word": "巣立つ", "reading": "すだつ", "meaning": "rời tổ (ra ở riêng)" },
+      { "word": "蜂の巣", "reading": "はちのす", "meaning": "tổ ong" },
+      { "word": "卵巣", "reading": "らんそう", "meaning": "buồng trứng" },
+      { "word": "巣箱", "reading": "すばこ", "meaning": "hộp nuôi chim" },
+      { "word": "巣食う", "reading": "すくう", "meaning": "làm tổ" },
+      { "word": "古巣", "reading": "ふるす", "meaning": "tổ cũ (nơi ở cũ)" }
+    ]
+  },
+  {
+    "kanji": "放",
+    "amHan": "Phóng",
+    "nghia": "Thả, buông",
+    "onyomi": "ホウ",
+    "kunyomi": "はな.す",
+    "mnemonic": {
+      "text": "Dùng tay (攴) để thả con vật chạy về phương (方) trời."
+    },
+    "examples": [
+      { "word": "放す", "reading": "はなす", "meaning": "thả ra" },
+      { "word": "放送", "reading": "ほうそう", "meaning": "phát sóng" },
+      { "word": "放課後", "reading": "ほうかご", "meaning": "sau giờ học" },
+      { "word": "追放", "reading": "ついほう", "meaning": "trục xuất" },
+      { "word": "放映", "reading": "ほうえい", "meaning": "chiếu phim" },
+      { "word": "開放", "reading": "かいほう", "meaning": "cởi mở, mở cửa" },
+      { "word": "放置", "reading": "ほうち", "meaning": "đặt để, bỏ mặc" }
+    ]
+  },
+  {
+    "kanji": "牧",
+    "amHan": "Mục",
+    "nghia": "Chăn nuôi, chăn thả",
+    "onyomi": "ボク",
+    "kunyomi": "まき",
+    "mnemonic": {
+      "text": "Con bò (牜) được chăn thả ở vùng có cây (木)."
+    },
+    "examples": [
+      { "word": "牧場", "reading": "ぼくじょう", "meaning": "trang trại chăn nuôi" },
+      { "word": "牧師", "reading": "ぼくし", "meaning": "mục sư" },
+      { "word": "牧畜", "reading": "ぼくちく", "meaning": "chăn nuôi" },
+      { "word": "牧草", "reading": "ぼくそう", "meaning": "cỏ làm thức ăn cho gia súc" },
+      { "word": "放牧", "reading": "ほうぼく", "meaning": "chăn thả" },
+      { "word": "牧歌的", "reading": "ぼっかてき", "meaning": "tính chất mục đồng, thanh bình" },
+      { "word": "牧羊犬", "reading": "ぼくようけん", "meaning": "chó chăn cừu" }
+    ]
+  }
+]

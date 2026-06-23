@@ -1,239 +1,287 @@
 ﻿[
-    {
-      "kanji": "福",
-      "amHan": "Phúc",
-      "nghia": "Hạnh phúc, phước lành",
-      "onyomi": "フク",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Thần linh (礻) ban cho một MIỆNG (口) ăn trên một mảnh RUỘNG (田) là có PHÚC."
-      },
-      "examples": [
-        { "word": "幸福", "reading": "こうふく", "meaning": "hạnh phúc" },
-        { "word": "福祉", "reading": "ふくし", "meaning": "phúc lợi" },
-        { "word": "祝福", "reading": "しゅくふく", "meaning": "chúc phúc" },
-        { "word": "裕福", "reading": "ゆうふく", "meaning": "giàu có, dư dả" },
-        { "word": "福引", "reading": "ふくびき", "meaning": "rút thăm may mắn" }
-      ]
+  {
+    "kanji": "肪",
+    "amHan": "Phòng",
+    "nghia": "Mỡ, chất béo",
+    "onyomi": "ボウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bộ phận CƠ THỂ (月) phình ra về bốn PHƯƠNG (方) do tích tụ quá nhiều MỠ."
     },
-    {
-      "kanji": "拝",
-      "amHan": "Bái",
-      "nghia": "Cúi lạy, chiêm bái",
-      "onyomi": "ハイ",
-      "kunyomi": "おが・む",
-      "mnemonic": {
-        "text": "Dùng TAY (扌) chắp lại để cúng bái dưới bụi CỎ (丰)."
-      },
-      "examples": [
-        { "word": "拝見する", "reading": "はいけんする", "meaning": "xem, nhìn (khiêm nhường ngữ)" },
-        { "word": "拝借する", "reading": "はいしゃくする", "meaning": "mượn (khiêm nhường ngữ)" },
-        { "word": "参拝", "reading": "さんぱい", "meaning": "đi lễ chùa/đền" },
-        { "word": "拝啓", "reading": "はいけい", "meaning": "kính gửi (viết đầu thư)" },
-        { "word": "崇拝", "reading": "すうはい", "meaning": "sùng bái" },
-        { "word": "拝む", "reading": "おがむ", "meaning": "cầu khấn, thờ cúng" }
-      ]
+    "examples": [
+      { "word": "脂肪", "reading": "しぼう", "meaning": "mỡ, chất béo (mỡ thừa cơ thể)" },
+      { "word": "体脂肪率", "reading": "たいしぼうりつ", "meaning": "tỷ lệ mỡ cơ thể" },
+      { "word": "脂肪肝", "reading": "しぼうかん", "meaning": "bệnh gan nhiễm mỡ" },
+      { "word": "植物性脂肪", "reading": "しょくぶつせいしぼう", "meaning": "chất béo thực vật" },
+      { "word": "脂肪酸", "reading": "しぼうさん", "meaning": "axit béo (hóa học/dinh dưỡng)" },
+      { "word": "低脂肪乳", "reading": "ていしぼうにゅう", "meaning": "sữa tươi tách béo, sữa ít béo" },
+      { "word": "脂肪燃焼", "reading": "しぼうねんしょう", "meaning": "sự đốt cháy mỡ thừa (khi tập thể dục)" }
+    ]
+  },
+  {
+    "kanji": "妊",
+    "amHan": "Nhâm",
+    "nghia": "Mang thai, nghén",
+    "onyomi": "ニン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (女) gánh vác TRÁCH NHIỆM (任) thiêng liêng khi MANG THAI."
     },
-    {
-      "kanji": "打",
-      "amHan": "Đả",
-      "nghia": "Đánh, đả kích",
-      "onyomi": "ダ",
-      "kunyomi": "う・つ",
-      "mnemonic": {
-        "text": "Dùng TAY (扌) đóng cái ĐINH (丁)."
-      },
-      "examples": [
-        { "word": "打つ", "reading": "うつ", "meaning": "đánh, gõ, đóng" },
-        { "word": "打ち合わせ", "reading": "うちあわせ", "meaning": "thảo luận, họp bàn trước" },
-        { "word": "打楽器", "reading": "だがっき", "meaning": "nhạc cụ bộ gõ" },
-        { "word": "打診", "reading": "だしん", "meaning": "thăm dò, hỏi ý" },
-        { "word": "殴打", "reading": "おうだ", "meaning": "ẩu đả, đánh lộn" }
-      ]
+    "examples": [
+      { "word": "妊娠する", "reading": "にんしんする", "meaning": "mang thai, có bầu" },
+      { "word": "妊婦", "reading": "にんぷ", "meaning": "bà bầu, phụ nữ mang thai" },
+      { "word": "避妊する", "reading": "ひにんする", "meaning": "tránh thai, biện pháp ngừa thai" },
+      { "word": "不妊症", "reading": "ふにんしょう", "meaning": "chứng bệnh vô sinh, hiếm muộn" },
+      { "word": "妊産婦", "reading": "にんさんぷ", "meaning": "phụ nữ mang thai và sinh con (sản phụ)" },
+      { "word": "初妊婦", "reading": "しょにんぷ", "meaning": "người mang thai lần đầu" },
+      { "word": "妊活", "reading": "にんかつ", "meaning": "các hoạt động chuẩn bị để mang thai (canh trứng, bồi bổ...)" }
+    ]
+  },
+  {
+    "kanji": "娠",
+    "amHan": "Thần",
+    "nghia": "Mang thai, thai nghén",
+    "onyomi": "シン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (女) mang thai đến THỜI GIAN, THÌN (辰) là ngày lành để sinh con."
     },
-    {
-      "kanji": "伺",
-      "amHan": "Tứ",
-      "nghia": "Thăm hỏi, hỏi",
-      "onyomi": "シ",
-      "kunyomi": "うかが・う",
-      "mnemonic": {
-        "text": "Người (亻) đến hỏi thăm tình hình của các bộ TI (司) quan."
-      },
-      "examples": [
-        { "word": "伺う", "reading": "うかがう", "meaning": "hỏi, đến thăm (khiêm nhường ngữ)" },
-        { "word": "伺い", "reading": "うかがい", "meaning": "sự thăm hỏi/lệnh cấp trên" }
-      ]
+    "examples": [
+      { "word": "妊娠", "reading": "にんしん", "meaning": "sự mang thai" },
+      { "word": "妊娠初期", "reading": "にんしんしょき", "meaning": "giai đoạn đầu thai kỳ (3 tháng đầu)" },
+      { "word": "妊娠中絶", "reading": "にんしんちゅうぜつ", "meaning": "nạo phá thai, đình chỉ thai nghén" },
+      { "word": "疑似妊娠", "reading": "ぎじにんしん", "meaning": "hiện tượng mang thai giả" },
+      { "word": "妊娠届", "reading": "にんしんとどけ", "meaning": "giấy khai báo mang thai (để nhận sổ mẹ và bé ở Nhật)" },
+      { "word": "妊娠線", "reading": "にんしんせん", "meaning": "vết rạn da khi mang thai" },
+      { "word": "妊娠中毒症", "reading": "にんしんちゅうどくしょう", "meaning": "chứng nhiễm độc thai nghén" }
+    ]
+  },
+  {
+    "kanji": "双",
+    "amHan": "Song",
+    "nghia": "Đôi, cặp, cả hai",
+    "onyomi": "ソウ",
+    "kunyomi": "ふた",
+    "mnemonic": {
+      "text": "Lại một LẦN NỮA (又) kết hợp với một LẦN NỮA (又) tạo thành một ĐÔI, MỘT CẶP."
     },
-    {
-      "kanji": "幸",
-      "amHan": "Hạnh",
-      "nghia": "Hạnh phúc, may mắn",
-      "onyomi": "コウ",
-      "kunyomi": "しあわ・せ, さいわ・い",
-      "mnemonic": {
-        "text": "Đất (土) mà nảy nở được 10 (十) hạt lúa là HẠNH phúc."
-      },
-      "examples": [
-        { "word": "幸せ", "reading": "しあわせ", "meaning": "hạnh phúc" },
-        { "word": "幸運", "reading": "こううん", "meaning": "vận may" },
-        { "word": "不幸", "reading": "ふこう", "meaning": "bất hạnh" },
-        { "word": "幸い", "reading": "さいわい", "meaning": "may mắn thay" },
-        { "word": "多幸感", "reading": "たこうかん", "meaning": "cảm giác cực kỳ hạnh phúc" }
-      ]
+    "examples": [
+      { "word": "双葉 / 二葉", "reading": "ふたば", "meaning": "mầm cây có 2 lá mầm lúc mới mọc" },
+      { "word": "双眼鏡", "reading": "そうがんきょう", "meaning": "ống nhòm hai mắt" },
+      { "word": "双子", "reading": "ふたご", "meaning": "anh em sinh đôi" },
+      { "word": "双方", "reading": "そうほう", "meaning": "cả hai bên, đôi bên (trong đàm phán)" },
+      { "word": "双生児", "reading": "そうせいじ", "meaning": "cặp trẻ sinh đôi (thuật ngữ y học)" },
+      { "word": "一双", "reading": "いっそう", "meaning": "một cặp, một đôi (thường dùng đếm bình gốm, câu đối)" },
+      { "word": "双肩", "reading": "そうけん", "meaning": "hai bờ vai (gánh vác trọng trách)" }
+    ]
+  },
+  {
+    "kanji": "誕",
+    "amHan": "Đản",
+    "nghia": "Sinh ra, ra đời, phóng đại",
+    "onyomi": "タン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (言) để chúc mừng sinh nhật cho người bước ra từ NGÔI NHÀ (厂) sau hành trình DÀI (延)."
     },
-    {
-      "kanji": "失",
-      "amHan": "Thất",
-      "nghia": "Thất bại, mất mát",
-      "onyomi": "シツ",
-      "kunyomi": "うしな・う",
-      "mnemonic": {
-        "text": "Người (夫) bị trượt chân rơi mất một cái gì đó trên đầu thành chữ THẤT."
-      },
-      "examples": [
-        { "word": "失礼", "reading": "しつれい", "meaning": "thất lễ" },
-        { "word": "失敗", "reading": "しっぱい", "meaning": "thất bại" },
-        { "word": "失う", "reading": "うしなう", "meaning": "mất, đánh mất" },
-        { "word": "失業", "reading": "しつぎょう", "meaning": "thất nghiệp" },
-        { "word": "失望", "reading": "しつぼう", "meaning": "thất vọng" },
-        { "word": "失神", "reading": "しっしん", "meaning": "ngất xỉu" }
-      ]
+    "examples": [
+      { "word": "誕生日", "reading": "たんじょうび", "meaning": "ngày sinh nhật" },
+      { "word": "誕生する", "reading": "たんじょうする", "meaning": "ra đời, sinh ra (em bé sinh ra / một nội các mới thành lập)" },
+      { "word": "降誕", "reading": "こうたん", "meaning": "sự giáng sinh (Chúa Giáng Sinh 降誕祭)" },
+      { "word": "生誕", "reading": "せいたん", "meaning": "sự sinh ra (thường dùng cho vĩ nhân ví dụ: Kỷ niệm 100 năm ngày sinh 生誕100周年)" },
+      { "word": "怪誕な", "reading": "かいたんな", "meaning": "kỳ quái, hoang đường, không có thật" },
+      { "word": "誕辰", "reading": "たんしん", "meaning": "ngày sinh (cách nói cổ kính)" },
+      { "word": "虚誕", "reading": "きょたん", "meaning": "lời nói phóng đại, bịa đặt" }
+    ]
+  },
+  {
+    "kanji": "脈",
+    "amHan": "Mạch",
+    "nghia": "Mạch máu, gân, mạch núi, mối quan hệ",
+    "onyomi": "ミャク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Bộ phận CƠ THỂ (月) chứa dòng DÒNG NƯỚC CHẢY RÀO RẠT (脉) chính là huyết MẠCH."
     },
-    {
-      "kanji": "突",
-      "amHan": "Đột",
-      "nghia": "Đột phá, đâm thủng",
-      "onyomi": "トツ",
-      "kunyomi": "つ・く",
-      "mnemonic": {
-        "text": "Con CHÓ (大) bất ĐỘT lao ra từ trong HANG (穴)."
-      },
-      "examples": [
-        { "word": "突然", "reading": "とつぜん", "meaning": "đột nhiên" },
-        { "word": "突き当たり", "reading": "つきあたり", "meaning": "cuối đường" },
-        { "word": "衝突", "reading": "しょうとつ", "meaning": "xung đột, va chạm" },
-        { "word": "突進", "reading": "とっしん", "meaning": "lao lên, xông tới" },
-        { "word": "突破", "reading": "とっぱ", "meaning": "đột phá" }
-      ]
+    "examples": [
+      { "word": "脈する / 脈がある", "reading": "みゃくがある", "meaning": "có mạch đập / vẫn còn hy vọng (trong tình cảm hoặc công việc)" },
+      { "word": "動脈", "reading": "どうみゃく", "meaning": "động mạch" },
+      { "word": "静脈", "reading": "じょうみゃく", "meaning": "tĩnh mạch" },
+      { "word": "山脈", "reading": "さんみゃく", "meaning": "dãy núi, mạch núi liên tiếp" },
+      { "word": "脈絡", "reading": "みゃくらく", "meaning": "mạch lạc, sự liên kết logic của câu chuyện (câu nói không mạch lạc 脈絡のない話)" },
+      { "word": "脈拍", "reading": "みゃくはく", "meaning": "nhịp tim, mạch đập" },
+      { "word": "人脈", "reading": "じんみゃく", "meaning": "mạng lưới mối quan hệ, kết nối giữa người với người" }
+    ]
+  },
+  {
+    "kanji": "拍",
+    "amHan": "Phách",
+    "nghia": "Vỗ, đánh nhịp, đơn vị thời gian",
+    "onyomi": "ハク、ヒョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng CÁI TAY (手->扌) vỗ TRẮNG (白) cả lòng bàn tay để tạo thành tiếng bộp bộp đánh NHỊP."
     },
-    {
-      "kanji": "然",
-      "amHan": "Nhiên",
-      "nghia": "Tự nhiên, tất nhiên",
-      "onyomi": "ゼン, ネン",
-      "kunyomi": "しか・し",
-      "mnemonic": {
-        "text": "Thịt CHÓ (月+犬) nướng trên LỬA (灬) tỏa mùi tự NHIÊN."
-      },
-      "examples": [
-        { "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" },
-        { "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn (không)" },
-        { "word": "天然", "reading": "てんねん", "meaning": "thiên nhiên" },
-        { "word": "当然", "reading": "とうぜん", "meaning": "đương nhiên" },
-        { "word": "必然", "reading": "ひつぜん", "meaning": "tất yếu" }
-      ]
+    "examples": [
+      { "word": "拍手する", "reading": "はくしゅする", "meaning": "vỗ tay tán thưởng" },
+      { "word": "心拍数", "reading": "しんぱくすう", "meaning": "số nhịp tim đập trên phút" },
+      { "word": "拍子", "reading": "ひょうし", "meaning": "nhịp điệu / đúng vào lúc, theo đà (vừa đứng dậy một cái đã ngã 立ち上がった拍子に)" },
+      { "word": "拍車をかける", "reading": "はくしゃをかける", "meaning": "thúc đẩy, làm tăng tốc độ tiến trình (như thúc ngựa)" },
+      { "word": "三拍子", "reading": "さんびょうし", "meaning": "nhịp ba (âm nhạc) / tập hợp đủ 3 yếu tố hoàn hảo" },
+      { "word": "一拍", "reading": "いっぱく", "meaning": "một nhịp, một khoảng nghỉ ngắn (trong phát âm tiếng Nhật)" },
+      { "word": "打拍", "reading": "だはく", "meaning": "đánh nhịp" }
+    ]
+  },
+  {
+    "kanji": "看",
+    "amHan": "Khán",
+    "nghia": "Xem, nhìn nhận, chăm sóc",
+    "onyomi": "カン",
+    "kunyomi": "み.る",
+    "mnemonic": {
+      "text": "Giơ TAY (手) lên che phía trên MẮT (目) để phóng tầm mắt ra xa NHÌN, XEM."
     },
-    {
-      "kanji": "諸",
-      "amHan": "Chư",
-      "nghia": "Các, nhiều, chư vị",
-      "onyomi": "ショ",
-      "kunyomi": "もろ",
-      "mnemonic": {
-        "text": "Dùng LỜI NÓI (言) để chỉ định các (者 - giả) CHƯ vị."
-      },
-      "examples": [
-        { "word": "諸君", "reading": "しょくん", "meaning": "các bạn, quý vị" },
-        { "word": "諸国", "reading": "しょこく", "meaning": "các nước" },
-        { "word": "諸問題", "reading": "しょもんだい", "meaning": "các vấn đề" },
-        { "word": "諸説", "reading": "しょせつ", "meaning": "các giả thuyết, các ý kiến khác nhau" },
-        { "word": "諸島", "reading": "しょとう", "meaning": "quần đảo" }
-      ]
+    "examples": [
+      { "word": "看病する", "reading": "かんびょうする", "meaning": "chăm sóc người bệnh" },
+      { "word": "看護師", "reading": "かんごし", "meaning": "y tá, điều dưỡng viên" },
+      { "word": "看板", "reading": "かんばん", "meaning": "biển hiệu, bảng quảng cáo / nhân vật bộ mặt đại diện" },
+      { "word": "看守", "reading": "かんしゅ", "meaning": "quản ngục, người canh gác tù nhân" },
+      { "word": "看破する", "reading": "かんぱする", "meaning": "nhìn thấu, đi guốc trong bụng, lật tẩy trò bịp" },
+      { "word": "看取 / 看取る", "reading": "みとる", "meaning": "chăm sóc và ở bên cạnh ai đó cho tới lúc họ qua đời" },
+      { "word": "看過する", "reading": "かんかする", "meaning": "bỏ qua, nhắm mắt làm ngơ trước lỗi lầm" }
+    ]
+  },
+  {
+    "kanji": "患",
+    "amHan": "Hoạn",
+    "nghia": "Bị bệnh, lo lắng, hoạn nạn",
+    "onyomi": "カン",
+    "kunyomi": "わずら.う",
+    "mnemonic": {
+      "text": "Trong TÂM (心) lúc nào cũng lo lắng vì có hai con BỆNH TRÙNG (串) đang đục khoét."
     },
-    {
-      "kanji": "情",
-      "amHan": "Tình",
-      "nghia": "Tình cảm, tình hình",
-      "onyomi": "ジョウ, セイ",
-      "kunyomi": "なさ・け",
-      "mnemonic": {
-        "text": "TÂM (忄) luôn xanh tươi (青) là người có TÌNH."
-      },
-      "examples": [
-        { "word": "感情", "reading": "かんじょう", "meaning": "cảm xúc" },
-        { "word": "情熱", "reading": "じょうねつ", "meaning": "nhiệt huyết" },
-        { "word": "事情", "reading": "じじょう", "meaning": "sự tình, lý do" },
-        { "word": "情報", "reading": "じょうほう", "meaning": "thông tin" },
-        { "word": "友情", "reading": "ゆうじょう", "meaning": "tình bạn" },
-        { "word": "情け", "reading": "なさけ", "meaning": "lòng trắc ẩn, nhân ái" }
-      ]
+    "examples": [
+      { "word": "患者", "reading": "かんじゃ", "meaning": "bệnh nhân, người bệnh" },
+      { "word": "患う", "reading": "わずらう", "meaning": "bị mắc bệnh, ốm đau / lo lắng muộn phiền" },
+      { "word": "疾患", "reading": "しっかん", "meaning": "bệnh tật, chứng bệnh (thuật ngữ y học)" },
+      { "word": "患部", "reading": "かんぶ", "meaning": "vùng bị thương, bộ phận cơ thể đang bị bệnh" },
+      { "word": "急患", "reading": "きゅうかん", "meaning": "ca bệnh cấp cứu khẩn cấp" },
+      { "word": "大患", "reading": "たいかん", "meaning": "trọng bệnh, bệnh nặng / tai họa lớn" },
+      { "word": "内患", "reading": "ないかん", "meaning": "nội lo, mối lo bên trong (nội ưu ngoại hoạn 内憂外患)" }
+    ]
+  },
+  {
+    "kanji": "視",
+    "amHan": "Thị",
+    "nghia": "Nhìn, thị giác, coi trọng/coi thường",
+    "onyomi": "シ",
+    "kunyomi": "み.る",
+    "mnemonic": {
+      "text": "Mắt NHÌN (見) vào tấm BIA THỜ (示) để thể hiện sự quan sát, tôn kính."
     },
-    {
-      "kanji": "退",
-      "amHan": "Thoái",
-      "nghia": "Rút lui, thoái lui",
-      "onyomi": "タイ",
-      "kunyomi": "しりぞ・く",
-      "mnemonic": {
-        "text": "BƯỚC ĐI (辶) rồi dừng lại để nhìn (艮 - cấn) về phía sau là THOÁI lui."
-      },
-      "examples": [
-        { "word": "退院", "reading": "たいいん", "meaning": "xuất viện" },
-        { "word": "退職", "reading": "たいしょく", "meaning": "nghỉ việc" },
-        { "word": "早退", "reading": "そうたい", "meaning": "về sớm" },
-        { "word": "退屈", "reading": "たいくつ", "meaning": "chán ngắt, buồn tẻ" },
-        { "word": "後退", "reading": "こうたい", "meaning": "hậu thoái, lùi lại" }
-      ]
+    "examples": [
+      { "word": "視力", "reading": "しりょく", "meaning": "thị lực, sức nhìn của mắt" },
+      { "word": "視覚", "reading": "しかく", "meaning": "thị giác" },
+      { "word": "軽視する", "reading": "けいしする", "meaning": "coi nhẹ, coi thường, không xem trọng" },
+      { "word": "視点", "reading": "してん", "meaning": "quan điểm, góc nhìn, góc độ xem xét vấn đề" },
+      { "word": "視野", "reading": "しや", "meaning": "tầm nhìn, tầm mắt / tầm hiểu biết (mở rộng tầm mắt 視野を広げる)" },
+      { "word": "重視する", "reading": "じゅうしする", "meaning": "coi trọng, đặt lên hàng đầu" },
+      { "word": "視察する", "reading": "しさつする", "meaning": "khảo sát thực tế, đi thị sát tình hình" }
+    ]
+  },
+  {
+    "kanji": "眼",
+    "amHan": "Nhãn",
+    "nghia": "Con mắt, điểm mấu chốt",
+    "onyomi": "ガン、ゲン",
+    "kunyomi": "まなこ、め",
+    "mnemonic": {
+      "text": "Con MẮT (目) trợn ngược lên nhìn QUẺ CẤN, DỪNG LẠI (艮) một cách sắc sảo."
     },
-    {
-      "kanji": "職",
-      "amHan": "Chức",
-      "nghia": "Chức vụ, nghề nghiệp",
-      "onyomi": "ショク",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Dùng TAI (耳) nghe âm thanh (音) của binh khí (戈) khi đang làm CHỨC trách."
-      },
-      "examples": [
-        { "word": "職業", "reading": "しょくぎょう", "meaning": "nghề nghiệp" },
-        { "word": "職場", "reading": "しょくば", "meaning": "nơi làm việc" },
-        { "word": "職人", "reading": "しょくにん", "meaning": "người thợ, nghệ nhân" },
-        { "word": "就職", "reading": "しゅうしょく", "meaning": "tìm việc" },
-        { "word": "辞職", "reading": "じしょく", "meaning": "từ chức" },
-        { "word": "転職", "reading": "てんしょく", "meaning": "đổi nghề" }
-      ]
+    "examples": [
+      { "word": "眼鏡", "reading": "めがね", "meaning": "kính mắt" },
+      { "word": "眼科", "reading": "がんか", "meaning": "khoa mắt, phòng khám mắt" },
+      { "word": "双眼鏡", "reading": "そうがんきょう", "meaning": "ống nhòm hai mắt" },
+      { "word": "眼球", "reading": "がんきゅう", "meaning": "nhãn cầu, lòng đen lòng trắng mắt" },
+      { "word": "主眼", "reading": "しゅがん", "meaning": "Mục tiêu chính, điểm mấu chốt quan trọng nhất (chủ nhãn)" },
+      { "word": "着眼点", "reading": "ちゃくがんてん", "meaning": "điểm chú ý, góc độ tiếp cận vấn đề một cách độc đáo" },
+      { "word": "近眼", "reading": "きんがん", "meaning": "cận thị" }
+    ]
+  },
+  {
+    "kanji": "舌",
+    "amHan": "Thiệt",
+    "nghia": "Cái lưỡi",
+    "onyomi": "ゼツ",
+    "kunyomi": "した",
+    "mnemonic": {
+      "text": "Hình vẽ cái MIỆNG (口) đang thè chiếc LƯỠI (干) ra ngoài."
     },
-    {
-      "kanji": "紹",
-      "amHan": "Thiệu",
-      "nghia": "Giới thiệu",
-      "onyomi": "ショウ",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Dùng SỢI CHỈ (糸) kết nối với người gọi là TRIỆU (召) tập để giới THIỆU."
-      },
-      "examples": [
-        { "word": "紹介", "reading": "しょうかい", "meaning": "giới thiệu" },
-        { "word": "自己紹介", "reading": "じこしょうかい", "meaning": "tự giới thiệu bản thân" },
-        { "word": "紹介状", "reading": "しょうかいじょう", "meaning": "thư giới thiệu" }
-      ]
+    "examples": [
+      { "word": "舌", "reading": "した", "meaning": "cái lưỡi" },
+      { "word": "滑舌", "reading": "かつぜつ", "meaning": "khả năng phát âm rõ ràng, trơn tru mạch lạc" },
+      { "word": "舌戦", "reading": "ぜっせん", "meaning": "khẩu chiến, đấu khẩu gay gắt bằng lời nói" },
+      { "word": "舌鼓を打つ", "reading": "したつづみをうつ", "meaning": "tặc lưỡi khen ngon, thưởng thức món ăn vô cùng ngon lành" },
+      { "word": "毒舌", "reading": "どくぜつ", "meaning": "lời nói độc địa, cay độc, thâm độc (nhưng thực tế, sắc sảo)" },
+      { "word": "弁舌", "reading": "べんぜつ", "meaning": "tài hùng biện, tài ăn nói thuyết phục" },
+      { "word": "舌鋒", "reading": "ぜっぽう", "meaning": "mũi nhọn của lời nói, lập luận đanh thép sắc bén" }
+    ]
+  },
+  {
+    "kanji": "刺",
+    "amHan": "Thứ",
+    "nghia": "Đâm, chích, gai, danh thiếp",
+    "onyomi": "シ",
+    "kunyomi": "さ.す、さ.さる",
+    "mnemonic": {
+      "text": "Dùng con DAO (刂) đâm thẳng vào CÂY GAI (朿) trong thành lũy (冂)."
     },
-    {
-      "kanji": "介",
-      "amHan": "Giới",
-      "nghia": "Trung gian, giới thiệu",
-      "onyomi": "カイ",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Một người đứng GIỮA hai vách ngăn."
-      },
-      "examples": [
-        { "word": "介入", "reading": "かいにゅう", "meaning": "can thiệp vào" },
-        { "word": "介護", "reading": "かいご", "meaning": "chăm sóc người bệnh/già" },
-        { "word": "媒介", "reading": "ばいかい", "meaning": "môi giới, trung gian" },
-        { "word": "魚介類", "reading": "ぎょかいるい", "meaning": "hải sản" },
-        { "word": "介助", "reading": "かいじょ", "meaning": "trợ giúp, giúp đỡ" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "刺す", "reading": "さす", "meaning": "đâm, chọc, chích (muỗi đốt, dao đâm, kim châm)" },
+      { "word": "名刺", "reading": "めいし", "meaning": "danh thiếp, card visit" },
+      { "word": "刺激", "reading": "しげき", "meaning": "sự kích thích, nguồn động lực thúc đẩy" },
+      { "word": "刺繍", "reading": "ししゅう", "meaning": "việc thêu thùa, họa tiết thêu" },
+      { "word": "刺身", "reading": "さしみ", "meaning": "món cá sống Sashimi truyền thống Nhật Bản" },
+      { "word": "刺殺する", "reading": "しさつする", "meaning": "đâm chết, ám sát bằng dao" },
+      { "word": "風刺", "reading": "ふうし", "meaning": "châm biếm, bôi bác mỉa mai (tranh châm biếm 風刺画)" }
+    ]
+  },
+  {
+    "kanji": "菌",
+    "amHan": "Khuẩn",
+    "nghia": "Vi khuẩn, nấm",
+    "onyomi": "キン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "CÂY CỎ (艹) mục nát trong KHU VỰC KHÉP KÍN (囗) đầy thóc LÚA (禾) sinh ra VI KHUẨN, nấm mốc."
+    },
+    "examples": [
+      { "word": "細菌", "reading": "さいきん", "meaning": "vi khuẩn (sinh học)" },
+      { "word": "除菌する", "reading": "じょきんする", "meaning": "diệt khuẩn, kháng khuẩn (nước rửa tay, khăn ướt)" },
+      { "word": "殺菌する", "reading": "さっきんする", "meaning": "tiệt trùng, diệt tận gốc vi khuẩn bằng nhiệt/hóa chất" },
+      { "word": "ばい菌", "reading": "ばいきん", "meaning": "vi khuẩn gây bệnh, mầm bệnh (cách gọi thông thường của trẻ con)" },
+      { "word": "菌類", "reading": "きんるい", "meaning": "loài nấm, giới nấm (bao gồm cả nấm ăn và nấm mốc)" },
+      { "word": "乳酸菌", "reading": "にゅうさんきん", "meaning": "vi khuẩn lactic (có trong sữa chua)" },
+      { "word": "保菌者", "reading": "ほきんしゃ", "meaning": "người mang mầm bệnh, người lành mang trùng" }
+    ]
+  },
+  {
+    "kanji": "剤",
+    "amHan": "Tễ",
+    "nghia": "Thuốc, hóa chất, chế phẩm",
+    "onyomi": "ザイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng DAO (刂) cắt đều các loại thảo dược đã được TỀ TỰU, CHỈNH TỀ (斉) để chế biến thành THUỐC."
+    },
+    "examples": [
+      { "word": "薬剤", "reading": "やくざい", "meaning": "thuốc men, các chế phẩm dược phẩm" },
+      { "word": "洗剤", "reading": "せんざい", "meaning": "xà phòng, chất tẩy rửa (bột giặt, nước rửa bát)" },
+      { "word": "調剤する", "reading": "ちょうざいする", "meaning": "bốc thuốc, pha chế thuốc theo đơn" },
+      { "word": "錠剤", "reading": "じょうざい", "meaning": "thuốc viên, viên nén" },
+      { "word": "防腐剤", "reading": "ぼうふざい", "meaning": "chất bảo quản, thuốc chống thối rữa" },
+      { "word": "殺虫剤", "reading": "さっちゅうざい", "meaning": "thuốc diệt côn trùng, thuốc sâu" },
+      { "word": "鎮痛剤", "reading": "じんつうざい", "meaning": "thuốc giảm đau" }
+    ]
+  }
+]

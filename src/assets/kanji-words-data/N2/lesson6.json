@@ -1,247 +1,389 @@
 ﻿[
-    {
-      "kanji": "郵",
-      "amHan": "Bưu",
-      "nghia": "Bưu điện, bưu chính",
-      "onyomi": "ユウ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Trên vùng ĐẤT (阝) này, muốn TRUY (垂) tìm tin tức thì phải qua BƯU điện."
-      },
-      "examples": [
-        { "word": "郵便", "reading": "ゆうびん", "meaning": "bưu tiện, dịch vụ bưu điện" },
-        { "word": "郵送", "reading": "ゆうそう", "meaning": "gửi bằng đường bưu điện" },
-        { "word": "郵便局", "reading": "ゆうびんきょく", "meaning": "bưu điện" },
-        { "word": "郵貯", "reading": "ゆうちょ", "meaning": "tiết kiệm bưu điện" },
-        { "word": "郵政", "reading": "ゆうせい", "meaning": "bưu chính" }
-      ]
+  {
+    "kanji": "劇",
+    "amHan": "Kịch",
+    "nghia": "Vở kịch, kịch liệt",
+    "onyomi": "ゲキ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Vở KỊCH nói về một trận chiến hung mãnh như HỔ (虍) và HEO RỪNG (豕) lao vào dùng DAO (刂) đấu nhau kịch liệt."
     },
-    {
-      "kanji": "局",
-      "amHan": "Cục",
-      "nghia": "Bộ phận, cục, ngăn cách",
-      "onyomi": "キョク",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Bên trong căn PHÒNG (尸) nhỏ, người ta dùng THƯỚC (尺) để chia thành các CỤC/bộ phận."
-      },
-      "examples": [
-        { "word": "結局", "reading": "けっきょく", "meaning": "kết cục, cuối cùng thì" },
-        { "word": "当局", "reading": "とうきょく", "meaning": "nhà đương cục, chính quyền" },
-        { "word": "局面", "reading": "きょくめん", "meaning": "cục diện, giai đoạn" },
-        { "word": "事務局", "reading": "じむきょく", "meaning": "văn phòng ban thư ký" },
-        { "word": "薬局", "reading": "やっきょく", "meaning": "hiệu thuốc" },
-        { "word": "放送局", "reading": "ほうそうきょく", "meaning": "đài truyền hình/phát thanh" }
-      ]
+    "examples": [
+      { "word": "劇場", "reading": "げきじょう", "meaning": "nhà hát, nhà kịch" },
+      { "word": "演劇", "reading": "えんげき", "meaning": "diễn kịch, vở kịch" },
+      { "word": "劇的", "reading": "げきてき", "meaning": "kịch tính, đầy ấn tượng" },
+      { "word": "悲劇", "reading": "ひげき", "meaning": "bi kịch" },
+      { "word": "喜劇", "reading": "きげき", "meaning": "hài kịch" },
+      { "word": "劇薬", "reading": "げきやく", "meaning": "thuốc độc lực mạnh, thuốc nguy hiểm" },
+      { "word": "劇的に変わる", "reading": "げきてきにかわる", "meaning": "thay đổi một cách đột ngột/chóng mặt" },
+      { "word": "時代劇", "reading": "じだいげき", "meaning": "phim/kịch cổ trang" }
+    ]
+  },
+  {
+    "kanji": "舞",
+    "amHan": "Vũ",
+    "nghia": "Nhảy múa, khiêu vũ",
+    "onyomi": "ブ",
+    "kunyomi": "ま.う、まい",
+    "mnemonic": {
+      "text": "Hình ảnh một người đang múa quay cuồng chân nhảy qua nhảy lại (舛) trên nền một hàng rào (無)."
     },
-    {
-      "kanji": "貯",
-      "amHan": "Trữ",
-      "nghia": "Tích trữ, để dành",
-      "onyomi": "チョ",
-      "kunyomi": "ためる",
-      "mnemonic": {
-        "text": "Dùng BẢO BỐI (貝 - tiền) để tích TRỮ trong PHỦ (宁) kho."
-      },
-      "examples": [
-        { "word": "貯金", "reading": "ちょきん", "meaning": "tiền tiết kiệm" },
-        { "word": "貯蔵", "reading": "ちょぞう", "meaning": "dự trữ, tàng trữ" },
-        { "word": "貯水池", "reading": "ちょすいち", "meaning": "hồ chứa nước" },
-        { "word": "貯蓄", "reading": "ちょちく", "meaning": "tích lũy (tiền bạc, tài sản)" },
-        { "word": "貯める", "reading": "ためる", "meaning": "dành dụm, gom góp" }
-      ]
+    "examples": [
+      { "word": "舞う", "reading": "まう", "meaning": "khiêu vũ, nhảy múa, bay lượn (lá rơi/tuyết rơi)" },
+      { "word": "舞台", "reading": "ぶたい", "meaning": "sân khấu, bối cảnh" },
+      { "word": "舞曲", "reading": "ぶきょく", "meaning": "khúc nhạc múa, điệu nhảy" },
+      { "word": "歌舞伎", "reading": "かぶき", "meaning": "kịch Kabuki truyền thống Nhật Bản" },
+      { "word": "見舞い", "reading": "みまい", "meaning": "đi thăm người ốm" },
+      { "word": "振る舞う", "reading": "ふるまう", "meaning": "cư xử, hành xử / chiêu đãi (thức ăn)" },
+      { "word": "お祭り騒ぎの舞", "reading": "おまつりさわぎのまい", "meaning": "điệu múa trong lễ hội" },
+      { "word": "舞台裏", "reading": "ぶたいうら", "meaning": "hậu trường, góc khuất sau sân khấu" }
+    ]
+  },
+  {
+    "kanji": "堂",
+    "amHan": "Đường",
+    "nghia": "Ngôi nhà lớn, đại sảnh",
+    "onyomi": "ドウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Ngôi nhà có mái che cao ráo (广) và mang phong cách CAO SANG (尚) được xây trên nền ĐẤT (土) vững chãi chính là tòa ĐẠI SẢNH."
     },
-    {
-      "kanji": "包",
-      "amHan": "Bao",
-      "nghia": "Bao bọc, gói",
-      "onyomi": "ホウ",
-      "kunyomi": "つつむ",
-      "mnemonic": {
-        "text": "Hình ảnh một người đang KHOM LƯNG (勹) bao bọc lấy một ĐỨA TRẺ (巳)."
-      },
-      "examples": [
-        { "word": "包帯", "reading": "ほうたい", "meaning": "băng gạc (vết thương)" },
-        { "word": "包装", "reading": "ほうそう", "meaning": "đóng gói, bao bì" },
-        { "word": "包括", "reading": "ほうかつ", "meaning": "bao quát" },
-        { "word": "包囲", "reading": "ほうい", "meaning": "bao vây" },
-        { "word": "小包", "reading": "こづつみ", "meaning": "bưu kiện, gói hàng nhỏ" },
-        { "word": "包む", "reading": "つつむ", "meaning": "gói ghém, bao phủ" }
-      ]
+    "examples": [
+      { "word": "堂々", "reading": "どうどう", "meaning": "hùng vĩ, oai vệ, đường bệ, tự tin" },
+      { "word": "食堂", "reading": "しょくどう", "meaning": "nhà ăn, căn tin" },
+      { "word": "本堂", "reading": "ほんどう", "meaning": "chánh điện (trong chùa)" },
+      { "word": "講堂", "reading": "こうどう", "meaning": "giảng đường lớn, hội trường" },
+      { "word": "国会議事堂", "reading": "こっかいぎじどう", "meaning": "tòa nhà Quốc hội" },
+      { "word": "堂々と主張する", "reading": "どうどうとしゅちょうする", "meaning": "tuyên bố/khẳng định một cách tự tin" },
+      { "word": "正正堂堂", "reading": "せいせいどうどう", "meaning": "chính đường hoàng, ngay thẳng, fair-play" }
+    ]
+  },
+  {
+    "kanji": "展",
+    "amHan": "Triển",
+    "nghia": "Triển lãm, mở rộng, phát triển",
+    "onyomi": "テン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người ngồi trong nhà xác (尸) cầm mảnh VẢI ÁO (衣) kéo dãn, TRIỂN khai mở rộng nó ra."
     },
-    {
-      "kanji": "達",
-      "amHan": "Đạt",
-      "nghia": "Đạt đến, thông suốt",
-      "onyomi": "タツ",
-      "kunyomi": "たち",
-      "mnemonic": {
-        "text": "Dẫn CỪU (幸 - biến thể) đi trên ĐƯỜNG (辶) để ĐẠT tới đích."
-      },
-      "examples": [
-        { "word": "達成", "reading": "たっせい", "meaning": "đạt được, thành tựu" },
-        { "word": "配達", "reading": "はいたつ", "meaning": "chuyển phát, đưa hàng" },
-        { "word": "発達", "reading": "はったつ", "meaning": "phát triển" },
-        { "word": "友達", "reading": "ともだち", "meaning": "bạn bè" },
-        { "word": "速達", "reading": "そくたつ", "meaning": "chuyển phát nhanh" },
-        { "word": "達人", "reading": "たつじん", "meaning": "người thành thạo, bậc thầy" },
-        { "word": "上達", "reading": "じょうたつ", "meaning": "tiến bộ" }
-      ]
+    "examples": [
+      { "word": "展示", "reading": "てんじ", "meaning": "trưng bày, triển lãm" },
+      { "word": "発展", "reading": "hatten", "meaning": "phát triển (kinh tế, bản thân)" },
+      { "word": "展開", "reading": "てんかい", "meaning": "triển khai, diễn biến (câu chuyện)" },
+      { "word": "展覧会", "reading": "てんらんかい", "meaning": "buổi triển lãm, hội chợ triển lãm" },
+      { "word": "個展", "reading": "こてん", "meaning": "triển lãm cá nhân" },
+      { "word": "展望", "reading": "てんぼう", "meaning": "triển vọng tương lai / tầm nhìn, tầm quan sát" },
+      { "word": "進展", "reading": "しんてん", "meaning": "tiến triển (cuộc đàm phán/sự việc)" }
+    ]
+  },
+  {
+    "kanji": "宗",
+    "amHan": "Tông",
+    "nghia": "Tôn giáo, tông phái, tổ tiên",
+    "onyomi": "シュウ、ソウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới MÁI NHÀ (宀) đặt bàn thờ THẦN LINH (示) để thờ phụng TỔ TIÊN và sùng bái TÔN GIÁO."
     },
-    {
-      "kanji": "際",
-      "amHan": "Tế",
-      "nghia": "Khi, dịp, ven",
-      "onyomi": "サイ",
-      "kunyomi": "きわ",
-      "mnemonic": {
-        "text": "Đứng ở BỜ DỐC (阝) dùng TẾ LỄ (祭) để mong mọi việc thuận lợi khi có dịp."
-      },
-      "examples": [
-        { "word": "国際", "reading": "こくさい", "meaning": "quốc tế" },
-        { "word": "際どい", "reading": "きわどい", "meaning": "nguy hiểm, suýt soát" },
-        { "word": "実際", "reading": "じっさい", "meaning": "thực tế" },
-        { "word": "交際", "reading": "こうさい", "meaning": "giao du, kết bạn" },
-        { "word": "間際", "reading": "まぎわ", "meaning": "ngay trước khi, cận kề" }
-      ]
+    "examples": [
+      { "word": "宗教", "reading": "しゅうきょう", "meaning": "tôn giáo" },
+      { "word": "宗家", "reading": "そうけ", "meaning": "nhà tổ, dòng trưởng của một võ phái/nghệ thuật" },
+      { "word": "改宗", "reading": "かいしゅう", "meaning": "đổi đạo, cải đạo" },
+      { "word": "宗派", "reading": "しゅうは", "meaning": "tông phái, giáo phái" },
+      { "word": "正宗", "reading": "まさむね", "meaning": "chính tông, hàng chuẩn gốc" },
+      { "word": "禅宗", "reading": "ぜんしゅう", "meaning": "Thiền tông (một phái Phật giáo)" },
+      { "word": "宗教上の理由", "reading": "しゅうきょうじょうのりゆう", "meaning": "lý do về mặt tôn giáo" }
+    ]
+  },
+  {
+    "kanji": "恵",
+    "amHan": "Huệ",
+    "nghia": "Ân huệ, ban cho, thông tuệ",
+    "onyomi": "ケイ、エ",
+    "kunyomi": "めぐ.む",
+    "mnemonic": {
+      "text": "Dùng 10 (十) mảnh ĐẤT TRỒNG TRỌT (田) cộng với tấm LÒNG (心) chân thành để ban ÂN HUỆ cho người nghèo."
     },
-    {
-      "kanji": "初",
-      "amHan": "Sơ",
-      "nghia": "Đầu tiên, sơ khai",
-      "onyomi": "ショ",
-      "kunyomi": "はじ.め / はつ",
-      "mnemonic": {
-        "text": "Dùng DAO (刀) cắt VẢI (衤- y phục) là bước SƠ khai đầu tiên để may áo."
-      },
-      "examples": [
-        { "word": "初期", "reading": "しょき", "meaning": "giai đoạn đầu" },
-        { "word": "初級", "reading": "しょきゅう", "meaning": "sơ cấp" },
-        { "word": "初めて", "reading": "はじめて", "meaning": "lần đầu tiên" },
-        { "word": "最初", "reading": "さいしょ", "meaning": "đầu tiên" },
-        { "word": "初詣", "reading": "はつもうで", "meaning": "đi lễ chùa đầu năm" },
-        { "word": "書き初め", "reading": "かきぞめ", "meaning": "khai bút đầu xuân" }
-      ]
+    "examples": [
+      { "word": "恵み", "reading": "めぐみ", "meaning": "ân huệ, sự ban phước, lộc (lộc trời)" },
+      { "word": "知恵", "reading": "ちえ", "meaning": "trí tuệ, sự thông thái" },
+      { "word": "恩恵", "reading": "おんけい", "meaning": "ân huệ, lợi ích nhận được từ ai/cái gì" },
+      { "word": "恵比寿", "reading": "えびす", "meaning": "Thần tài Ebisu (hoặc ga Ebisu ở Tokyo)" },
+      { "word": "恵まれる", "reading": "めぐまれる", "meaning": "được ban cho, được thiên nhiên ưu đãi (tài năng/khí hậu)" },
+      { "word": "互恵", "reading": "ごけい", "meaning": "đôi bên cùng có lợi, song phương cùng hưởng lợi" },
+      { "word": "恵与", "reading": "けいよ", "meaning": "ban tặng, biếu tặng" }
+    ]
+  },
+  {
+    "kanji": "宝",
+    "amHan": "Bảo",
+    "nghia": "Bảo vật, quý báu",
+    "onyomi": "ホウ",
+    "kunyomi": "たから",
+    "mnemonic": {
+      "text": "Trong MÁI NHÀ (宀) cất giấu viên NGỌC QUÝ (玉) thì đó chính là BẢO vật."
     },
-    {
-      "kanji": "再",
-      "amHan": "Tái",
-      "nghia": "Lần nữa, lặp lại",
-      "onyomi": "サイ / サ",
-      "kunyomi": "ふたた.び",
-      "mnemonic": {
-        "text": "Số MỘT (一) nằm trên số MƯỜI (十) trong cái khung, thể hiện sự lặp lại TÁI diễn."
-      },
-      "examples": [
-        { "word": "再生", "reading": "さいせい", "meaning": "tái sinh, phục hồi" },
-        { "word": "再来週", "reading": "さらいしゅう", "meaning": "tuần sau nữa" },
-        { "word": "再利用", "reading": "さいりよう", "meaning": "tái sử dụng" },
-        { "word": "再確認", "reading": "さいかくにん", "meaning": "xác nhận lại" },
-        { "word": "再会", "reading": "さいかい", "meaning": "tái ngộ, gặp lại" },
-        { "word": "再び", "reading": "ふたたび", "meaning": "lại một lần nữa" }
-      ]
+    "examples": [
+      { "word": "宝石", "reading": "ほうせき", "meaning": "đá quý, ngọc bảo thạch" },
+      { "word": "宝物", "reading": "ほうもつ / たからもの", "meaning": "bảo vật, đồ vật quý báu" },
+      { "word": "国宝", "reading": "こくほう", "meaning": "quốc bảo, báu vật quốc gia" },
+      { "word": "宝くじ", "reading": "たからくじ", "meaning": "vé số, xổ số" },
+      { "word": "子宝", "reading": "こだから", "meaning": "con cái (được xem là lộc trời ban)" },
+      { "word": "重宝", "reading": "じゅうほう / ちょうほう", "meaning": "quý giá, tiện dụng (tiện lợi hữu ích)" },
+      { "word": "家宝", "reading": "かほう", "meaning": "gia bảo, báu vật gia truyền" },
+      { "word": "宝庫", "reading": "ほうこ", "meaning": "kho báu, kho tàng (tri thức/tài nguyên)" }
+    ]
+  },
+  {
+    "kanji": "城",
+    "amHan": "Thành",
+    "nghia": "Thành quách, tòa thành",
+    "onyomi": "ジョウ",
+    "kunyomi": "しろ",
+    "mnemonic": {
+      "text": "Đắp ĐẤT (土) lên cao THÀNH (成) lũy bao quanh bảo vệ cung điện tạo thành tòa THÀNH."
     },
-    {
-      "kanji": "療",
-      "amHan": "Liệu",
-      "nghia": "Chữa trị",
-      "onyomi": "リョウ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Người bị BỆNH (疒) cần được chăm sóc đầy đủ như ĐÈN (僚 - bỏ nhân) để trị LIỆU."
-      },
-      "examples": [
-        { "word": "治療", "reading": "ちりょう", "meaning": "trị liệu, điều trị" },
-        { "word": "医療", "reading": "いりょう", "meaning": "y tế" },
-        { "word": "療養", "reading": "りょうよう", "meaning": "điều dưỡng, an dưỡng" },
-        { "word": "診療所", "reading": "しんりょうじょ", "meaning": "phòng khám" },
-        { "word": "物理療法", "reading": "ぶつりりょうほう", "meaning": "vật lý trị liệu" }
-      ]
+    "examples": [
+      { "word": "城", "reading": "しろ", "meaning": "tòa thành, lâu đài cổ" },
+      { "word": "城下町", "reading": "じょうかまち", "meaning": "khu phố cổ quanh lâu đài" },
+      { "word": "城壁", "reading": "じょうへき", "meaning": "thành lũy, tường thành" },
+      { "word": "宮城", "reading": "みやぎ", "meaning": "tỉnh Miyagi (hoặc Hoàng cung)" },
+      { "word": "城門", "reading": "じょうもん", "meaning": "cổng thành" },
+      { "word": "築城", "reading": "ちくじょう", "meaning": "xây dựng thành quách" },
+      { "word": "落城", "reading": "らくじょう", "meaning": "thành thất thủ, bị hạ thành" }
+    ]
+  },
+  {
+    "kanji": "栄",
+    "amHan": "Vinh",
+    "nghia": "Vinh quang, phồn vinh, rực rỡ",
+    "onyomi": "エイ",
+    "kunyomi": "さか.える、は.える",
+    "mnemonic": {
+      "text": "Phía trên rực rỡ sắc hoa (𦾓), phía dưới gốc CÂY (木) bám rễ vững chắc tạo nên sự PHỒN VINH."
     },
-    {
-      "kanji": "科",
-      "amHan": "Khoa",
-      "nghia": "Khoa học, phân khoa",
-      "onyomi": "カ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Dùng cái ĐẤU (斗) để đong LÚA (禾) chia vào các KHOA/mục rõ ràng."
-      },
-      "examples": [
-        { "word": "科学", "reading": "かがく", "meaning": "khoa học" },
-        { "word": "教科書", "reading": "きょうかしょ", "meaning": "sách giáo khoa" },
-        { "word": "外科", "reading": "げか", "meaning": "ngoại khoa" },
-        { "word": "内科", "reading": "ないか", "meaning": "nội khoa" },
-        { "word": "学科", "reading": "がっか", "meaning": "ngành học, chuyên khoa" },
-        { "word": "科目", "reading": "かもく", "meaning": "môn học" }
-      ]
+    "examples": [
+      { "word": "栄光", "reading": "えいこう", "meaning": "vinh quang, hào quang" },
+      { "word": "繁栄", "reading": "はんえい", "meaning": "phồn vinh, thịnh vượng" },
+      { "word": "栄養", "reading": "えいよう", "meaning": "dinh dưỡng" },
+      { "word": "栄える", "reading": "さかえる", "meaning": "phát triển hưng thịnh, phồn vinh (quốc gia/cửa hàng)" },
+      { "word": "見栄え", "reading": "みばえ", "meaning": "vẻ bề ngoài bắt mắt, diện mạo thu hút" },
+      { "word": "栄転", "reading": "えいてん", "meaning": "thăng chức, điều chuyển công tác lên vị trí cao hơn" },
+      { "word": "虚栄心", "reading": "きょえいしん", "meaning": "lòng thói hư danh, tính sĩ diện hão" },
+      { "word": "光栄", "reading": "こうえい", "meaning": "vinh hạnh, quang vinh" }
+    ]
+  },
+  {
+    "kanji": "蔵",
+    "amHan": "Tạng / T蔵",
+    "nghia": "Cất giữ, kho tàng, tạng trữ",
+    "onyomi": "ゾウ",
+    "kunyomi": "くら",
+    "mnemonic": {
+      "text": "Lấy CỎ (艹) che đậy lên trên chiếc THÙNG gỗ (臧) để làm CÁI KHO tạng trữ đồ đạc."
     },
-    {
-      "kanji": "婦",
-      "amHan": "Phụ",
-      "nghia": "Phụ nữ, người vợ",
-      "onyomi": "フ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Người PHỤ nữ (女) cầm cái CHỔI (帚) quét dọn trong nhà."
-      },
-      "examples": [
-        { "word": "主婦", "reading": "しゅふ", "meaning": "nội trợ" },
-        { "word": "婦人", "reading": "ふじん", "meaning": "phụ nữ, quý bà" },
-        { "word": "産婦人科", "reading": "さんふじんか", "meaning": "khoa sản" },
-        { "word": "夫婦", "reading": "ふうふ", "meaning": "vợ chồng" },
-        { "word": "新婦", "reading": "しんぷ", "meaning": "cô dâu" }
-      ]
+    "examples": [
+      { "word": "蔵", "reading": "くら", "meaning": "cái kho, nhà kho cổ" },
+      { "word": "冷蔵庫", "reading": "れいぞうこ", "meaning": "tủ lạnh" },
+      { "word": "貯蔵", "reading": "ちょぞう", "meaning": "tàng trữ, dự trữ (lương thực, dầu mỏ)" },
+      { "word": "内蔵", "reading": "ないぞう", "meaning": "tích hợp sẵn bên trong / nội tạng cơ thể" },
+      { "word": "蔵書", "reading": "ぞうしょ", "meaning": "bộ sưu tập sách cá nhân, sách sở hữu" },
+      { "word": "秘蔵", "reading": "ひぞう", "meaning": "trân quý cất giữ kỹ, bảo vật giấu kín" },
+      { "word": "酒蔵", "reading": "さかぐら", "meaning": "hầm ủ rượu, xưởng nấu rượu sake" }
+    ]
+  },
+  {
+    "kanji": "昭",
+    "amHan": "Chiêu",
+    "nghia": "Sáng sủa, rạng rỡ",
+    "onyomi": "ショウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MẶT TRỜI (日) tỏa ánh sáng rực rỡ như đang MỜI GỌI (召) muôn loài đón bình minh CHIÊU dương."
     },
-    {
-      "kanji": "皮",
-      "amHan": "Bì",
-      "nghia": "Da, vỏ",
-      "onyomi": "ヒ",
-      "kunyomi": "かわ",
-      "mnemonic": {
-        "text": "Dùng tay lột lớp VỎ/DA ra khỏi con vật."
-      },
-      "examples": [
-        { "word": "皮膚", "reading": "ひふ", "meaning": "da (biology)" },
-        { "word": "皮肉", "reading": "ひにく", "meaning": "mỉa mai, châm biếm" },
-        { "word": "毛皮", "reading": "けがわ", "meaning": "da lông thú" },
-        { "word": "脱皮", "reading": "だっぴ", "meaning": "lột xác" },
-        { "word": "皮", "reading": "かわ", "meaning": "vỏ, da, lớp ngoài" }
-      ]
+    "examples": [
+      { "word": "昭和", "reading": "しょうわ", "meaning": "thời kỳ Chiêu Hòa (1926-1989 ở Nhật)" },
+      { "word": "昭明", "reading": "しょうめい", "meaning": "sáng tỏ, rõ ràng minh bạch" },
+      { "word": "顕昭", "reading": "けんしょう", "meaning": "làm cho hiển lộ rõ ràng rực rỡ" },
+      { "word": "昭代", "reading": "しょうだい", "meaning": "thời đại thái bình thịnh trị rực rỡ" }
+    ]
+  },
+  {
+    "kanji": "士",
+    "amHan": "Sĩ",
+    "nghia": "Người tri thức, chiến sĩ, sĩ tử",
+    "onyomi": "シ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người học rộng biết mười (十) hiểu một (一) chính là kẻ SĨ có học thức."
     },
-    {
-      "kanji": "膚",
-      "amHan": "Phu",
-      "nghia": "Da",
-      "onyomi": "フ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "HỔ (虍) có lớp DA (皮) rất Đẹp (胃 - biến thể)."
-      },
-      "examples": [
-        { "word": "皮膚科", "reading": "ひふか", "meaning": "khoa da liễu" },
-        { "word": "完膚なきまで", "reading": "かんぷなきまで", "meaning": "tơi bời, triệt để (không còn miếng da lành)" },
-        { "word": "皮膚", "reading": "ひふ", "meaning": "da" },
-        { "word": "肌膚", "reading": "きはだ/きふ", "meaning": "bề mặt da" }
-      ]
+    "examples": [
+      { "word": "武士", "reading": "ぶし", "meaning": "võ sĩ, samurai" },
+      { "word": "紳士", "reading": "しんし", "meaning": "quý ông, người lịch thiệp" },
+      { "word": "士気", "reading": "しき", "meaning": "sĩ khí, tinh thần chiến đấu chiến đấu" },
+      { "word": "弁護士", "reading": "べんごし", "meaning": "luật sư" },
+      { "word": "兵士", "reading": "へいし", "meaning": "binh sĩ, người lính" },
+      { "word": "同士", "reading": "どうし", "meaning": "hội, nhóm người cùng hoàn cảnh (ví dụ: người yêu nhau)" },
+      { "word": "博士", "reading": "はかせ / はくし", "meaning": "tiến sĩ" },
+      { "word": "会計士", "reading": "かいけいし", "meaning": "nhân viên kiểm toán, kế toán viên" }
+    ]
+  },
+  {
+    "kanji": "健",
+    "amHan": "Kiện",
+    "nghia": "Khỏe mạnh, tráng kiện",
+    "onyomi": "ケン",
+    "kunyomi": "すこ.やか",
+    "mnemonic": {
+      "text": "Người NGƯỜI (亻) tuân thủ đúng QUY LUẬT XÂY DỰNG (建) cơ thể điều độ sẽ TRÁNG KIỆN."
     },
-    {
-      "kanji": "救",
-      "amHan": "Cứu",
-      "nghia": "Cứu giúp, giúp đỡ",
-      "onyomi": "キュウ",
-      "kunyomi": "すく.う",
-      "mnemonic": {
-        "text": "Dùng PHẢN LỰC (攵) để CỨU lấy CẦU (求) - mong muốn cứu người."
-      },
-      "examples": [
-        { "word": "救急車", "reading": "きゅうきゅうしゃ", "meaning": "xe cứu thương" },
-        { "word": "救助", "reading": "きゅうじょ", "meaning": "cứu trợ, cứu viện" },
-        { "word": "救済", "reading": "きゅうさい", "meaning": "cứu tế" },
-        { "word": "救う", "reading": "すくう", "meaning": "cứu giúp" },
-        { "word": "救世主", "reading": "きゅうせいしゅ", "meaning": "đấng cứu thế" },
-        { "word": "救援", "reading": "きゅうえん", "meaning": "viện trợ" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "健康", "reading": "けんこう", "meaning": "sức khỏe, khỏe mạnh" },
+      { "word": "健全", "reading": "けんぜん", "meaning": "lành mạnh, khỏe khoắn (tinh thần/tài chính)" },
+      { "word": "健在", "reading": "けんざい", "meaning": "vẫn khỏe mạnh, bình an vô sự" },
+      { "word": "健忘症", "reading": "けんぼうしょう", "meaning": "chứng bệnh đãng trí, hay quên" },
+      { "word": "健やか", "reading": "すこやか", "meaning": "khỏe khoắn, tươi tắn (thường dùng cho trẻ em)" },
+      { "word": "健闘", "reading": "けんとう", "meaning": "chiến đấu dũng cảm, nỗ lực hết mình (trong thi đấu)" },
+      { "word": "剛健", "reading": "ごうけん", "meaning": "cường tráng, cứng rắn mạnh mẽ" },
+      { "word": "保健室", "reading": "ほけんしつ", "meaning": "phòng y tế (trường học)" }
+    ]
+  },
+  {
+    "kanji": "康",
+    "amHan": "Khang",
+    "nghia": "Khỏe mạnh, yên ổn, an khang",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Sống dưới một MÁI NHÀ (广) có đầy đủ GẠO THÓC (隶 - đống thóc) để ăn thì cuộc sống sẽ AN KHANG."
+    },
+    "examples": [
+      { "word": "健康", "reading": "けんこう", "meaning": "sức khỏe, khỏe mạnh" },
+      { "word": "安康", "reading": "あんこう", "meaning": "bình an, yên ổn khang thái" },
+      { "word": "小康", "reading": "しょうこう", "meaning": "tình trạng tạm ổn định, tạm lắng dịu (của bệnh tình)" },
+      { "word": "健康保険証", "reading": "けんこうほけんしょう", "meaning": "thẻ bảo hiểm y tế" },
+      { "word": "康寧", "reading": "こうねい", "meaning": "khang ninh, yên lành và khỏe mạnh" },
+      { "word": "健康美", "reading": "けんこうび", "meaning": "vẻ đẹp tràn đầy sức sống, khỏe khoắn" }
+    ]
+  },
+  {
+    "kanji": "診",
+    "amHan": "Chẩn",
+    "nghia": "Khám bệnh, chẩn đoán",
+    "onyomi": "シン",
+    "kunyomi": "み.る",
+    "mnemonic": {
+      "text": "Bác sĩ dùng LỜI NÓI (言) ân cần để CHẨN đoán bệnh tình cho bệnh nhân kịp THỜI GIAN (辰)."
+    },
+    "examples": [
+      { "word": "診断", "reading": "しんだん", "meaning": "chẩn đoán (bệnh tật, lỗi hệ thống)" },
+      { "word": "診療", "reading": "しんりょう", "meaning": "khám và điều trị bệnh" },
+      { "word": "問診", "reading": "もんしん", "meaning": "hỏi bệnh (bác sĩ hỏi triệu chứng bệnh)" },
+      { "word": "初診", "reading": "しょしん", "meaning": "sơ khám, lần đầu tiên đi khám bệnh" },
+      { "word": "診る", "reading": "みる", "meaning": "khám bệnh, xem bệnh (tha động từ)" },
+      { "word": "定期健診", "reading": "ていきけんしん", "meaning": "khám sức khỏe định kỳ" },
+      { "word": "打診", "reading": "だしん", "meaning": "gõ chẩn đoán / thăm dò ý kiến, dạm hỏi trước" },
+      { "word": "診察券", "reading": "しんさつけん", "meaning": "thẻ đăng ký khám bệnh ở bệnh viện" }
+    ]
+  },
+  {
+    "kanji": "療",
+    "amHan": "Liệu",
+    "nghia": "Trị liệu, chữa bệnh",
+    "onyomi": "リョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người nằm trong GIƯỜNG BỆNH (疒) đang được sưởi ấm bằng ngọn ĐUỐC SÁNG (尞) để TRỊ LIỆU."
+    },
+    "examples": [
+      { "word": "治療", "reading": "ちりょう", "meaning": "điều trị bệnh, chữa trị" },
+      { "word": "療法", "reading": "りょうほう", "meaning": "liệu pháp, phương pháp điều trị" },
+      { "word": "診療", "reading": "しんりょう", "meaning": "khám và chữa bệnh" },
+      { "word": "療養", "reading": "りょうよう", "meaning": "điều dưỡng, nghỉ ngơi dưỡng bệnh" },
+      { "word": "医療", "reading": "いりょう", "meaning": "y tế, sự chữa trị y khoa" },
+      { "word": "化学療法", "reading": "かがくりょうほう", "meaning": "liệu pháp hóa trị (ung thư)" },
+      { "word": "物理療法", "reading": "ぶつりりょうほう", "meaning": "vật lý trị liệu" }
+    ]
+  },
+  {
+    "kanji": "命",
+    "amHan": "Mệnh / Minh",
+    "nghia": "Sinh mệnh, mệnh lệnh",
+    "onyomi": "メイ、ミョウ",
+    "kunyomi": "いのち",
+    "mnemonic": {
+      "text": "Hét lớn một MỆNH LỆNH bằng MIỆNG (口) bắt thuộc hạ phải tuân LỆNH (令)."
+    },
+    "examples": [
+      { "word": "生命", "reading": "せいめい", "meaning": "sinh mệnh, sự sống" },
+      { "word": "命令", "reading": "めいれい", "meaning": "mệnh lệnh, chỉ thị" },
+      { "word": "命日", "reading": "めいにち", "meaning": "ngày giỗ, ngày mất" },
+      { "word": "運命", "reading": "うんめい", "meaning": "vận mệnh, số phận số mệnh" },
+      { "word": "一生懸命", "reading": "いっしょうけんめい", "meaning": "cố gắng hết sức mình, chăm chỉ" },
+      { "word": "命じる", "reading": "めいじる", "meaning": "ra lệnh, bổ nhiệm chức vụ" },
+      { "word": "命拾い", "reading": "いのちびろい", "meaning": "thoát chết trong gang tấc" },
+      { "word": "寿命", "reading": "じゅみょう", "meaning": "tuổi thọ" }
+    ]
+  },
+  {
+    "kanji": "異",
+    "amHan": "Dị",
+    "nghia": "Khác lạ, dị thường",
+    "onyomi": "イ",
+    "kunyomi": "こと.なる",
+    "mnemonic": {
+      "text": "Hai tay bê (廾) ruộng ĐẤT (田) đi nơi khác tạo nên sự KHÁC BIỆT, dị thường."
+    },
+    "examples": [
+      { "word": "異なる", "reading": "ことなる", "meaning": "khác biệt, không giống nhau (tự động từ)" },
+      { "word": "異変", "reading": "いへん", "meaning": "sự cố bất thường, tai họa lạ thường" },
+      { "word": "驚異", "reading": "きょうい", "meaning": "kỳ diệu, điều kỳ diệu đáng kinh ngạc" },
+      { "word": "異文化", "reading": "いぶんか", "meaning": "văn hóa khác biệt, dị văn hóa" },
+      { "word": "異常", "reading": "いじょう", "meaning": "bất thường, dị thường" },
+      { "word": "異議", "reading": "いぎ", "meaning": "kháng nghị, phản đối, ý kiến khác biệt" },
+      { "word": "異動", "reading": "いどう", "meaning": "thay đổi nhân sự, luân chuyển nhân tác" },
+      { "word": "異国", "reading": "いこく", "meaning": "đất nước xa lạ, ngoại quốc" }
+    ]
+  },
+  {
+    "kanji": "背",
+    "amHan": "Bối",
+    "nghia": "Cái lưng, phản bội",
+    "onyomi": "ハイ",
+    "kunyomi": "せ、せい、そむ.く、そむ.ける",
+    "mnemonic": {
+      "text": "Hai người quay lưng đi về phía BẮC (北) khiến phần CƠ THỂ (月) lộ rõ CÁI LƯNG."
+    },
+    "examples": [
+      { "word": "背中", "reading": "せなか", "meaning": "cái lưng (bộ phận cơ thể)" },
+      { "word": "背景", "reading": "はいけい", "meaning": "bối cảnh, phông nền phía sau" },
+      { "word": "背後", "reading": "はいご", "meaning": "phía sau lưng, đứng sau giật dây" },
+      { "word": "背広", "reading": "せびろ", "meaning": "áo vest, bộ com-lê" },
+      { "word": "背く", "reading": "そむく", "meaning": "phản bội, làm trái (lời dặn/pháp luật)" },
+      { "word": "背筋", "reading": "せすじ", "meaning": "cột sống, sống lưng" },
+      { "word": "背信行為", "reading": "はいしんこうい", "meaning": "hành vi phản bội lòng tin" },
+      { "word": "背丈", "reading": "せたけ", "meaning": "chiều cao cơ thể" }
+    ]
+  },
+  {
+    "kanji": "腹",
+    "amHan": "Phúc",
+    "nghia": "Cái bụng",
+    "onyomi": "フク",
+    "kunyomi": "はら",
+    "mnemonic": {
+      "text": "Phần CƠ THỂ (月) lặp đi lặp lại (复 - phục) việc nạp thức ăn hàng ngày chính là CÁI BỤNG."
+    },
+    "examples": [
+      { "word": "腹痛", "reading": "ふくつう", "meaning": "đau bụng" },
+      { "word": "腹部", "reading": "ふくぶ", "meaning": "vùng bụng (thuật ngữ y học)" },
+      { "word": "空腹", "reading": "くうふく", "meaning": "bụng đói, trạng thái đói cồn cào" },
+      { "word": "腹巻", "reading": "はらまき", "meaning": "đai quấn giữ ấm bụng" },
+      { "word": "腹が立つ", "reading": "はらがたつ", "meaning": "tức giận, nổi giận" },
+      { "word": "満腹", "reading": "まんぷく", "meaning": "no bụng, no nê" },
+      { "word": "本音と腹黒い", "reading": "ほんねとはらぐろい", "meaning": "bụng dạ đen tối, nham hiểm" },
+      { "word": "腹を割って話す", "reading": "はらをわってはなす", "meaning": "nói chuyện thẳng thắn, mở lòng ruột gan" }
+    ]
+  }
+]

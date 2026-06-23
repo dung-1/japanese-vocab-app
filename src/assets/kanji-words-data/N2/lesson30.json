@@ -1,230 +1,287 @@
 ﻿[
-    {
-      "kanji": "鳴",
-      "amHan": "Minh",
-      "nghia": "Kêu, hót, reo",
-      "onyomi": "メイ",
-      "kunyomi": "な.る / な.く / な.らす",
-      "mnemonic": {
-        "text": "Con CHIM (鳥) dùng cái MIỆNG (口) để hót líu lo (MINH)."
-      },
-      "examples": [
-        { "word": "鳴る", "reading": "なる", "meaning": "reo, vang lên (chuông)" },
-        { "word": "鳴らして", "reading": "ならして", "meaning": "làm cho kêu, bấm (còi)" },
-        { "word": "悲鳴", "reading": "ひめい", "meaning": "tiếng hét bi thiết" },
-        { "word": "共鳴", "reading": "きょうめい", "meaning": "hưởng ứng, cộng hưởng" },
-        { "word": "鳴咽", "reading": "めいえつ", "meaning": "tiếng khóc nghẹn ngào" }
-      ]
+  {
+    "kanji": "隊",
+    "amHan": "Đội",
+    "nghia": "Đội ngũ, toán quân, toán người",
+    "onyomi": "タイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Một nhóm người đi men theo BỜ ĐẤT (阝) dắt theo CON LỢN (豕) để hành quân theo ĐỘI ngũ."
     },
-    {
-      "kanji": "訪",
-      "amHan": "Phỏng",
-      "nghia": "Ghé thăm, hỏi thăm",
-      "onyomi": "ホウ",
-      "kunyomi": "おとず.れる / たず.ねる",
-      "mnemonic": {
-        "text": "Dùng NGÔN (言) ngữ hỏi phương PHƯỚNG (方) để đi PHỎNG vấn/thăm hỏi."
-      },
-      "examples": [
-        { "word": "訪問", "reading": "ほうもん", "meaning": "thăm hỏi, viếng thăm" },
-        { "word": "訪れる", "reading": "おとずれる", "meaning": "ghé thăm (địa điểm)" },
-        { "word": "訪ねる", "reading": "たずねる", "meaning": "thăm (người)" },
-        { "word": "来訪", "reading": "らいほう", "meaning": "đến thăm" },
-        { "word": "訪日", "reading": "ほうにち", "meaning": "sang thăm Nhật Bản" }
-      ]
+    "examples": [
+      { "word": "隊員", "reading": "たいいん", "meaning": "thành viên (của đội cứu hộ, đội tự vệ...)" },
+      { "word": "自衛隊", "reading": "じえいたい", "meaning": "Lực lượng Tự vệ Nhật Bản" },
+      { "word": "軍隊", "reading": "ぐんたい", "meaning": "quân đội" },
+      { "word": "部隊", "reading": "ぶたい", "meaning": "bộ đội, đơn vị quân đội" },
+      { "word": "先遣隊", "reading": "せんけんたい", "meaning": "đội tiền trạm, đội đi tiên phong" },
+      { "word": "隊列", "reading": "たいれつ", "meaning": "hàng ngũ, đội hình diễu hành" },
+      { "word": "迷子に隊", "reading": "まいごにたい", "meaning": "đội tìm kiếm trẻ lạc" }
+    ]
+  },
+  {
+    "kanji": "屈",
+    "amHan": "Khuất",
+    "nghia": "Co lại, nghiêng mình, khuất phục",
+    "onyomi": "クツ",
+    "kunyomi": "かが.む",
+    "mnemonic": {
+      "text": "Bị nhốt dưới mái nhà che khuất như XÁC CHẾT (尸) mà muốn ĐI RA NGOÀI (出) thì phải KHUẤT phục chịu cúi đầu."
     },
-    {
-      "kanji": "呼",
-      "amHan": "Hô",
-      "nghia": "Gọi, hít thở",
-      "onyomi": "コ",
-      "kunyomi": "よ.ぶ",
-      "mnemonic": {
-        "text": "Dùng MIỆNG (口) HÔ to để kêu gọi mọi người cầm hồ (乎) sơ."
-      },
-      "examples": [
-        { "word": "呼ぶ", "reading": "よぶ", "meaning": "gọi tên, mời" },
-        { "word": "呼吸", "reading": "こきゅう", "meaning": "hô hấp, hít thở" },
-        { "word": "呼び掛ける", "reading": "よびかける", "meaning": "kêu gọi" },
-        { "word": "呼応", "reading": "こおう", "meaning": "hưởng ứng" },
-        { "word": "呼び出す", "reading": "よびだす", "meaning": "gọi ra, triệu tập" }
-      ]
+    "examples": [
+      { "word": "屈する", "reading": "くっする", "meaning": "khuất phục, chịu thua (không khuất phục trước khó khăn)" },
+      { "word": "退屈な", "reading": "たいくつな", "meaning": "chán ngắt, tẻ nhạt" },
+      { "word": "屈辱", "reading": "くつじょく", "meaning": "sự nhục nhã, tủi nhục" },
+      { "word": "不屈の", "reading": "ふくつの", "meaning": "bất khuất (tinh thần bất khuất 不屈の精神)" },
+      { "word": "屈折する", "reading": "くっせつする", "meaning": "khúc xạ (ánh sáng) / tâm lý vặn vẹo phức tạp" },
+      { "word": "屈む", "reading": "かがむ", "meaning": "cúi người, khom lưng xuống" },
+      { "word": "屈指の", "reading": "くっしの", "meaning": "đầu ngón tay, một trong những cái tên tiêu biểu nhất (đếm trên đầu ngón tay)" }
+    ]
+  },
+  {
+    "kanji": "阪",
+    "amHan": "Phản / Bản",
+    "nghia": "Cái dốc, sườn núi",
+    "onyomi": "ハン",
+    "kunyomi": "さか",
+    "mnemonic": {
+      "text": "Cái BỜ ĐẤT (阝) bị lật NGƯỢC PHẢN LẠI (反) tạo thành một cái dốc đứng."
     },
-    {
-      "kanji": "警",
-      "amHan": "Cảnh",
-      "nghia": "Cảnh báo, cảnh sát",
-      "onyomi": "ケイ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Dùng LỜI NÓI (言) để răn đe cái sự KÍNH (敬) trọng hòng CẢNH báo."
-      },
-      "examples": [
-        { "word": "警察", "reading": "けいさつ", "meaning": "cảnh sát" },
-        { "word": "警告", "reading": "けいこく", "meaning": "cảnh cáo" },
-        { "word": "警戒", "reading": "けいかい", "meaning": "cảnh giới, đề phòng" },
-        { "word": "警備", "reading": "けいび", "meaning": "cảnh bị, bảo vệ" },
-        { "word": "警笛", "reading": "けいてき", "meaning": "còi báo động" },
-        { "word": "夜警", "reading": "やけい", "meaning": "tuần đêm" }
-      ]
+    "examples": [
+      { "word": "大阪", "reading": "おおさか", "meaning": "Osaka (thành phố / tỉnh Osaka)" },
+      { "word": "阪神", "reading": "はんしん", "meaning": "vùng Hanshin (vùng kinh tế gồm Osaka và Kobe) / đội bóng chày Hanshin Tigers" },
+      { "word": "大阪弁", "reading": "おおさかべん", "meaning": "tiếng vùng Osaka, giọng Kansai" },
+      { "word": "阪急", "reading": "はんきゅう", "meaning": "tập đoàn đường sắt Hankyu (nối Osaka và Kyoto/Kobe)" },
+      { "word": "京阪", "reading": "けいはん", "meaning": "vùng Kyoto - Osaka" },
+      { "word": "阪路", "reading": "はんろ", "meaning": "đường dốc đua ngựa tập luyện" },
+      { "word": "阪田", "reading": "さかた", "meaning": "Sakata (họ người Nhật phổ biến)" }
+    ]
+  },
+  {
+    "kanji": "埼",
+    "amHan": "Kỳ",
+    "nghia": "Mỏm đất, doi đất nhô ra biển",
+    "onyomi": "キ",
+    "kunyomi": "さいたま、みさき",
+    "mnemonic": {
+      "text": "Mảnh ĐẤT (土) có hình dáng KỲ LẠ (奇) nhô ra phía biển."
     },
-    {
-      "kanji": "報",
-      "amHan": "Báo",
-      "nghia": "Báo cáo, trả ơn",
-      "onyomi": "ホウ",
-      "kunyomi": "むく.いる",
-      "mnemonic": {
-        "text": "Kẻ TRỘM (幸 - biến thể) bị bắt bằng TAY (卩+又) thì phải BÁO đáp tội lỗi."
-      },
-      "examples": [
-        { "word": "報告", "reading": "ほうこく", "meaning": "báo cáo" },
-        { "word": "情報", "reading": "じょうほう", "meaning": "thông tin" },
-        { "word": "報酬", "reading": "ほうしゅう", "meaning": "thù lao, trả công" },
-        { "word": "報道", "reading": "ほうどう", "meaning": "tin tức, truyền thông" },
-        { "word": "予報", "reading": "よほう", "meaning": "dự báo" },
-        { "word": "報いる", "reading": "むくいる", "meaning": "đền đáp, báo thù" }
-      ]
+    "examples": [
+      { "word": "埼玉県", "reading": "さいたまけん", "meaning": "tỉnh Saitama" },
+      { "word": "さいたま市", "reading": "さいたまし", "meaning": "thành phố Saitama" },
+      { "word": "埼田", "reading": "さいた", "meaning": "Saita (họ của người Nhật)" },
+      { "word": "川埼", "reading": "かわさき", "meaning": "Kawasaki (biến thể chữ viết cổ của địa danh Kawasaki)" },
+      { "word": "宮埼", "reading": "みやざき", "meaning": "Miyazaki (biến thể chữ viết cổ của địa danh Miyazaki)" },
+      { "word": "埼崖", "reading": "きがい", "meaning": "vách đá ven dải đất nhô ra bờ biển" },
+      { "word": "北埼", "reading": "きたさきた", "meaning": "Kitasakita (tên vùng hành chính cổ)" }
+    ]
+  },
+  {
+    "kanji": "栃",
+    "amHan": "Lệ",
+    "nghia": "Cây dẻ ngựa Nhật Bản (Aesculus turbinata)",
+    "onyomi": "レイ",
+    "kunyomi": "とち",
+    "mnemonic": {
+      "text": "CÁI CÂY (木) mọc bao bọc vững chãi che chở cho cả NGÔI NHÀ (宅) là cây dẻ Nhật."
     },
-    {
-      "kanji": "裏",
-      "amHan": "Lý",
-      "nghia": "Mặt sau, bên trong",
-      "onyomi": "リ",
-      "kunyomi": "うら",
-      "mnemonic": {
-        "text": "Bên trong cái ÁO (衣) có ngôi LÀNG (里) nằm ở mặt LÝ (mặt sau)."
-      },
-      "examples": [
-        { "word": "裏切る", "reading": "うらぎる", "meaning": "phản bội" },
-        { "word": "裏口", "reading": "うらぐち", "meaning": "cửa sau" },
-        { "word": "裏面", "reading": "りめん", "meaning": "mặt sau" },
-        { "word": "裏表", "reading": "うらおもて", "meaning": "mặt trước mặt sau" },
-        { "word": "裏付け", "reading": "うらづけ", "meaning": "bằng chứng, sự xác nhận" }
-      ]
+    "examples": [
+      { "word": "栃木県", "reading": "とちぎけん", "meaning": "tỉnh Tochigi" },
+      { "word": "栃の木", "reading": "とちのき", "meaning": "cây dẻ ngựa Nhật Bản" },
+      { "word": "栃餅", "reading": "とちもち", "meaning": "bánh giầy làm từ hạt dẻ ngựa栃" },
+      { "word": "栃の実", "reading": "とちのみ", "meaning": "quả dẻ ngựa Nhật" },
+      { "word": "栃面", "reading": "とちめん", "meaning": "mặt bàn làm bằng gỗ cây dẻ ngựa cao cấp" },
+      { "word": "栃尾", "reading": "とちお", "meaning": "Tochio (địa danh thuộc tỉnh Niigata, nổi tiếng với món đậu phụ rán)" },
+      { "word": "栃栗", "reading": "とちぐり", "meaning": "loại hạt dẻ rừng hoang dã" }
+    ]
+  },
+  {
+    "kanji": "茨",
+    "amHan": "Tỳ / Tì",
+    "nghia": "Cây gai, bụi gai hoang dại",
+    "onyomi": "シ、ジ",
+    "kunyomi": "いばら",
+    "mnemonic": {
+      "text": "Cỏ CÂY (艹) mọc hoang dã NỐI TIẾP NHAU TRONG THIẾU THỐN (次) tạo thành bờ gai."
     },
-    {
-      "kanji": "差",
-      "amHan": "Sai",
-      "nghia": "Sai khác, khoảng cách",
-      "onyomi": "サ",
-      "kunyomi": "さ.す",
-      "mnemonic": {
-        "text": "Dùng CÔNG (工) cụ cắt CỎ (⺷ - biến thể dương) tạo ra sự SAI lệch."
-      },
-      "examples": [
-        { "word": "差別", "reading": "さべつ", "meaning": "phân biệt đối xử" },
-        { "word": "時差", "reading": "じさ", "meaning": "chênh lệch múi giờ" },
-        { "word": "交差点", "reading": "こうさてん", "meaning": "ngã tư" },
-        { "word": "差し支え", "reading": "さしつかえ", "meaning": "trở ngại, gây phiền hà" },
-        { "word": "格差", "reading": "かくさ", "meaning": "khoảng cách giàu nghèo, trình độ" },
-        { "word": "大差", "reading": "たいさ", "meaning": "cách biệt lớn" }
-      ]
+    "examples": [
+      { "word": "茨城県", "reading": "いばらきけん", "meaning": "tỉnh Ibaraki (lưu ý phát âm đúng là \"ki\", không phải \"gi\")" },
+      { "word": "茨", "reading": "いばら", "meaning": "cây gai, bụi cây có gai nhọn" },
+      { "word": "茨の道", "reading": "いばらのみち", "meaning": "con đường chông gai, đầy rẫy khó khăn trắc trở" },
+      { "word": "茨冠", "reading": "いばらかんむり", "meaning": "vương miện làm bằng gai (biểu tượng Chúa Jesus)" },
+      { "word": "茨垣", "reading": "いばらがき", "meaning": "hàng rào bằng cây gai chống trộm" },
+      { "word": "茨城大学", "reading": "いばらきだいがく", "meaning": "Trường Đại học Ibaraki" },
+      { "word": "茨折り", "reading": "いばらおり", "meaning": "kỹ thuật đan thô sơ từ cành gai" }
+    ]
+  },
+  {
+    "kanji": "梨",
+    "amHan": "Lê",
+    "nghia": "Quả lê, cây lê",
+    "onyomi": "リ",
+    "kunyomi": "なし",
+    "mnemonic": {
+      "text": "Ăn QUẢ LÊ hái từ CÁI CÂY (木) đem lại cảm giác ngọt ngào CÓ LỢI (利) cho sức khỏe."
     },
-    {
-      "kanji": "続",
-      "amHan": "Tục",
-      "nghia": "Tiếp tục",
-      "onyomi": "ゾク",
-      "kunyomi": "つづ.く / つづ.ける",
-      "mnemonic": {
-        "text": "Dùng sợi CHỈ (糸) nối các món đồ BÁN (売) được để duy trì liên TỤC."
-      },
-      "examples": [
-        { "word": "継続", "reading": "けいぞく", "meaning": "tiếp tục, duy trì" },
-        { "word": "手続き", "reading": "てつづき", "meaning": "thủ tục" },
-        { "word": "連続", "reading": "れんぞく", "meaning": "liên tiếp" },
-        { "word": "続出", "reading": "ぞくしゅつ", "meaning": "xảy ra liên tiếp" },
-        { "word": "続行", "reading": "ぞっこう", "meaning": "tiếp tục thực hiện" }
-      ]
+    "examples": [
+      { "word": "梨", "reading": "なし", "meaning": "quả lê, cây lê Nhật" },
+      { "word": "梨園", "reading": "りえん", "meaning": "Lê viên (thế giới nghệ thuật, đặc biệt là giới kịch Kabuki)" },
+      { "word": "山梨県", "reading": "やまなしけん", "meaning": "tỉnh Yamanashi (nơi có núi Phú Sĩ)" },
+      { "word": "洋梨", "reading": "よんなし / ようなし", "meaning": "quả lê Tây (hình quả chuông)" },
+      { "word": "梨のつぶて", "reading": "なしのつぶて", "meaning": "bặt vô âm tín, gửi thư đi mà không thấy hồi âm" },
+      { "word": "梨汁", "reading": "なしじる", "meaning": "nước ép quả lê" },
+      { "word": "梨地", "reading": "なしじ", "meaning": "bề mặt nhám sơn mài như vỏ quả lê" }
+    ]
+  },
+  {
+    "kanji": "群",
+    "amHan": "Quần",
+    "nghia": "Đàn, bầy, nhóm, tụ tập",
+    "onyomi": "グン",
+    "kunyomi": "む.れる、む.れ、むら",
+    "mnemonic": {
+      "text": "Vị QUÂN VƯƠNG (君) sở hữu cả một đàn CỪU (羊) đông đúc."
     },
-    {
-      "kanji": "辞",
-      "amHan": "Từ",
-      "nghia": "Từ bỏ, từ điển, lời nói",
-      "onyomi": "ジ",
-      "kunyomi": "や.める",
-      "mnemonic": {
-        "text": "LƯỠI (舌) nói ra lời cay đắng như bị CAY (辛) nên quyết định TỪ bỏ."
-      },
-      "examples": [
-        { "word": "辞典", "reading": "じてん", "meaning": "từ điển" },
-        { "word": "辞職", "reading": "じしょく", "meaning": "từ chức" },
-        { "word": "辞退", "reading": "じたい", "meaning": "từ chối, khước từ" },
-        { "word": "祝辞", "reading": "しゅくじ", "meaning": "lời chúc mừng" },
-        { "word": "お世辞", "reading": "おせじ", "meaning": "lời nịnh hót" },
-        { "word": "辞める", "reading": "やめる", "meaning": "nghỉ việc, bỏ" }
-      ]
+    "examples": [
+      { "word": "群れ", "reading": "むれ", "meaning": "đàn, bầy, nhóm (đàn chim, bầy cá)" },
+      { "word": "群馬県", "reading": "ぐんまけん", "meaning": "tỉnh Gunma" },
+      { "word": "群集", "reading": "ぐんしゅう", "meaning": "quần chúng, đám đông tụ tập" },
+      { "word": "群島", "reading": "ぐんとう", "meaning": "quần đảo" },
+      { "word": "群を抜く", "reading": "ぐんをぬく", "meaning": "vượt trội, xuất chúng đứng biệt lập khỏi đám đông" },
+      { "word": "群がる", "reading": "むらがる", "meaning": "tụ tập lại thành bầy đông đúc (kiến bu quanh đường)" },
+      { "word": "症候群", "reading": "しょうこうぐん", "meaning": "hội chứng bệnh lý (như hội chứng Down, hội chứng hô hấp...)" }
+    ]
+  },
+  {
+    "kanji": "鹿",
+    "amHan": "Lộc",
+    "nghia": "Con hươu, con nai",
+    "onyomi": "ロク",
+    "kunyomi": "しか / か",
+    "mnemonic": {
+      "text": "Hình vẽ chữ tượng hình mô phỏng cái ĐẦU có GẠC CAO, thân hình và BỐN CHÂN của CON HƯƠU."
     },
-    {
-      "kanji": "面",
-      "amHan": "Diện",
-      "nghia": "Mặt, bề mặt",
-      "onyomi": "メン",
-      "kunyomi": "おも / おもて / つら",
-      "mnemonic": {
-        "text": "Vẽ cái MẶT (面) có mắt và râu bên trong cái khung."
-      },
-      "examples": [
-        { "word": "面接", "reading": "めんせつ", "meaning": "phỏng vấn" },
-        { "word": "面識", "reading": "めんしき", "meaning": "quen biết" },
-        { "word": "面倒", "reading": "めんどう", "meaning": "phiền phức" },
-        { "word": "表面", "reading": "ひょうめん", "meaning": "bề mặt" },
-        { "word": "場面", "reading": "ばめん", "meaning": "bối cảnh, tình huống" },
-        { "word": "真面目", "reading": "まじめ", "meaning": "nghiêm túc, cần mẫn" }
-      ]
+    "examples": [
+      { "word": "鹿", "reading": "しか", "meaning": "con hươu, con nai" },
+      { "word": "鹿児島県", "reading": "かごしまけん", "meaning": "tỉnh Kagoshima" },
+      { "word": "鹿島", "reading": "かしま", "meaning": "Kashima (địa danh / đội bóng Kashima Antlers)" },
+      { "word": "奈良の鹿", "reading": "ならのしか", "meaning": "hươu ở công viên Nara" },
+      { "word": "馬鹿", "reading": "ばか", "meaning": "ngốc nghếch, ngu ngốc (lấy hươu làm ngựa)" },
+      { "word": "小鹿", "reading": "こじか", "meaning": "con nai nhỏ, nai tơ" },
+      { "word": "鹿肉", "reading": "しかにく / じびえ", "meaning": "thịt hươu, thịt nai" }
+    ]
+  },
+  {
+    "kanji": "奈",
+    "amHan": "Nại",
+    "nghia": "Cái gì, làm sao (từ dùng hỏi), cây na",
+    "onyomi": "ナイ、ナ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Đứng trước BÀN THỜ LỚN (大 + 示) hỏi xem chúng ta phải LÀM SAO, BIẾT LÀM THẾ NÀO."
     },
-    {
-      "kanji": "操",
-      "amHan": "Thao",
-      "nghia": "Thao tác, điều khiển",
-      "onyomi": "ソウ",
-      "kunyomi": "あやつ.る / みさお",
-      "mnemonic": {
-        "text": "Dùng TAY (扌) điều khiển những món hàng trên CÂY (木) có 3 cái miệng (品 - biến thể)."
-      },
-      "examples": [
-        { "word": "操作", "reading": "そうさ", "meaning": "thao tác, điều khiển" },
-        { "word": "操縦", "reading": "そうじゅう", "meaning": "lái (tàu, máy bay)" },
-        { "word": "体操", "reading": "たいそう", "meaning": "thể dục" },
-        { "word": "操る", "reading": "あやつる", "meaning": "thao túng, điều khiển" },
-        { "word": "貞操", "reading": "ていそう", "meaning": "trinh tiết, đức hạnh" }
-      ]
+    "examples": [
+      { "word": "奈良県", "reading": "ならけん", "meaning": "tỉnh Nara (cố đô cổ kính của Nhật)" },
+      { "word": "神奈川県", "reading": "かながわけん", "meaning": "tỉnh Kanagawa" },
+      { "word": "奈落の底", "reading": "ならこのそこ", "meaning": "đáy địa ngục, tận cùng của sự tuyệt vọng rơi xuống vực thẳm" },
+      { "word": "奈何", "reading": "いかん", "meaning": "như thế nào, ra sao (bất luận lý do ra sao 理由のいかんを問わず)" },
+      { "word": "奈何に", "reading": "いかに", "meaning": "biết bao nhiêu, làm sao mà" },
+      { "word": "奈辺", "reading": "なへん", "meaning": "nơi nào, phương nào" },
+      { "word": "奈良漬け", "reading": "ならづけ", "meaning": "món dưa muối hũ rượu truyền thống vùng Nara" }
+    ]
+  },
+  {
+    "kanji": "媛",
+    "amHan": "Viện",
+    "nghia": "Người phụ nữ quý phái, công nương",
+    "onyomi": "エン",
+    "kunyomi": "ひめ",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (女) nhận được sự YÊU THƯƠNG (爰) của mọi người chính là một CÔNG NƯƠNG."
     },
-    {
-      "kanji": "実",
-      "amHan": "Thực",
-      "nghia": "Sự thực, kết quả, quả",
-      "onyomi": "ジツ",
-      "kunyomi": "み / みの.る",
-      "mnemonic": {
-        "text": "Trong NHÀ (宀) có nhiều ĐẦU (三 + 大 - biến thể) tiền là có THỰC lực."
-      },
-      "examples": [
-        { "word": "実現", "reading": "じつげん", "meaning": "thực hiện" },
-        { "word": "実行", "reading": "じっこう", "meaning": "thực hành" },
-        { "word": "事実", "reading": "じじつ", "meaning": "sự thật" },
-        { "word": "実力", "reading": "じつりょく", "meaning": "thực lực" },
-        { "word": "実る", "reading": "みのる", "meaning": "chín, ra quả" },
-        { "word": "誠実", "reading": "せいじつ", "meaning": "thành thực" }
-      ]
+    "examples": [
+      { "word": "愛媛県", "reading": "えひめけん", "meaning": "tỉnh Ehime (nổi tiếng với quýt Mikan)" },
+      { "word": "媛", "reading": "ひめ", "meaning": "công nương, tiểu thư quyền quý (tiếng cổ)" },
+      { "word": "媛君", "reading": "ひめぎみ", "meaning": "lệnh bà, tiểu thư tôn kính (cách gọi trang trọng cổ)" },
+      { "word": "才媛", "reading": "さいえん", "meaning": "người phụ nữ tài sắc vẹn toàn, cô gái tài năng xuất chúng" },
+      { "word": "名媛", "reading": "めいえん", "meaning": "người phụ nữ danh giá, phu nhân quý tộc" },
+      { "word": "禅媛", "reading": "ぜんえん", "meaning": "nữ tu quý phái, sư cô dòng dõi quyền quý" },
+      { "word": "愛媛大学", "reading": "えひめだいがく", "meaning": "Trường Đại học Ehime" }
+    ]
+  },
+  {
+    "kanji": "阜",
+    "amHan": "Phụ",
+    "nghia": "Gò đất, đồi đất, thịnh vượng",
+    "onyomi": "フ、フウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình vẽ chữ tượng hình mô phỏng những bậc thang đất đắp lên thành một GÒ ĐẤT CAO (Bản thể gốc của bộ 阝)."
     },
-    {
-      "kanji": "列",
-      "amHan": "Liệt",
-      "nghia": "Hàng lối, quyết liệt",
-      "onyomi": "レツ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Dùng DAO (刂) chặt XƯƠNG (歹) rồi xếp thành HÀNG lối."
-      },
-      "examples": [
-        { "word": "列", "reading": "れつ", "meaning": "hàng, dãy" },
-        { "word": "列車", "reading": "れっしゃ", "meaning": "tàu hỏa" },
-        { "word": "列島", "reading": "れっとう", "meaning": "quần đảo" },
-        { "word": "行列", "reading": "ぎょうれつ", "meaning": "xếp hàng" },
-        { "word": "強烈", "reading": "きょうれつ", "meaning": "quyết liệt, mạnh mẽ" },
-        { "word": "列席", "reading": "れっせき", "meaning": "tham dự" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "岐阜県", "reading": "ぎふけん", "meaning": "tỉnh Gifu" },
+      { "word": "阜頭(埠頭)", "reading": "ふとう", "meaning": "bến cảng, boong tàu bốc dỡ hàng" },
+      { "word": "物産豊阜", "reading": "ぶっさんほうふ", "meaning": "sản vật trù phú, giàu có thịnh vượng" },
+      { "word": "民阜", "reading": "みんぷ", "meaning": "dân cư đông đúc, trù phú" },
+      { "word": "岐阜市", "reading": "ぎふし", "meaning": "thành phố Gifu" },
+      { "word": "阜陵", "reading": "ふりょう", "meaning": "đồi núi trập trùng, gò đất thấp" },
+      { "word": "高阜", "reading": "こうふ", "meaning": "gò đất cao ráo" }
+    ]
+  },
+  {
+    "kanji": "岡",
+    "amHan": "Cương",
+    "nghia": "Sườn núi, gò đồi đất",
+    "onyomi": "コウ",
+    "kunyomi": "おか",
+    "mnemonic": {
+      "text": "Bao bọc vùng BIÊN GIỚI (冂), bên trong là ngọn NÚI (山) nhô lên thành một GÒ ĐỒI."
+    },
+    "examples": [
+      { "word": "福岡県", "reading": "ふくおかけん", "meaning": "tỉnh Fukuoka" },
+      { "word": "静岡県", "reading": "しずおかけん", "meaning": "tỉnh Shizuoka" },
+      { "word": "岡山県", "reading": "おかやまけん", "meaning": "tỉnh Okayama" },
+      { "word": "岡", "reading": "おか", "meaning": "gò, đồi thấp" },
+      { "word": "岡目八目", "reading": "おかめはちもく", "meaning": "người ngoài cuộc bao giờ cũng sáng suốt hơn người trong cuộc" },
+      { "word": "岡惚れ", "reading": "おかぼれ", "meaning": "yêu thầm, tơ tưởng đơn phương người khác" },
+      { "word": "吉岡", "reading": "よしおか", "meaning": "Yoshioka (họ người Nhật rất phổ biến)" }
+    ]
+  },
+  {
+    "kanji": "崎",
+    "amHan": "Kỳ",
+    "nghia": "Mũi đất nhô ra, rặng núi hiểm trở",
+    "onyomi": "キ",
+    "kunyomi": "さき、みさき",
+    "mnemonic": {
+      "text": "Ngọn NÚI (山) có hình dáng hiểm trở KỲ LẠ (奇) chạy dọc dải đất ven biển."
+    },
+    "examples": [
+      { "word": "長崎県", "reading": "ながさきけん", "meaning": "tỉnh Nagasaki" },
+      { "word": "宮崎県", "reading": "みやざきけん", "meaning": "tỉnh Miyazaki" },
+      { "word": "川崎", "reading": "かわさき", "meaning": "thành phố Kawasaki (tỉnh Kanagawa)" },
+      { "word": "崎", "reading": "さき / みさき", "meaning": "mũi đất nhô ra biển" },
+      { "word": "高崎", "reading": "たかさき", "meaning": "thành phố Takasaki (tỉnh Gunma)" },
+      { "word": "崎山", "reading": "さきやま", "meaning": "Sakiyama (họ người Nhật)" },
+      { "word": "長崎ちゃんぽん", "reading": "ながさきちゃんぽん", "meaning": "món mì Champon đặc sản nổi tiếng của Nagasaki" }
+    ]
+  },
+  {
+    "kanji": "丘",
+    "amHan": "Khâu",
+    "nghia": "Ngọn đồi nhỏ, gò đất",
+    "onyomi": "キュウ",
+    "kunyomi": "おか",
+    "mnemonic": {
+      "text": "Hình vẽ tượng hình một vùng đất bằng phẳng trồi lên hai bướu tạo thành NGỌN ĐỒI."
+    },
+    "examples": [
+      { "word": "丘", "reading": "おか", "meaning": "ngọn đồi" },
+      { "word": "丘陵", "reading": "きゅうりょう", "meaning": "đồi núi thấp, vùng trung du trập trùng" },
+      { "word": "砂丘", "reading": "さきゅう", "meaning": "đồi cát, sa mạc cát nhỏ (đồi cát Tottori 鳥取砂丘)" },
+      { "word": "比丘", "reading": "びく", "meaning": "Tỳ-kheo (nhà sư Phật giáo)" },
+      { "word": "丘の上の家", "reading": "おかのうえのいえ", "meaning": "ngôi nhà trên đồi" },
+      { "word": "円丘", "reading": "えんきゅう", "meaning": "gò đất hình tròn (kiến trúc lăng mộ cổ)" },
+      { "word": "丘辺", "reading": "おかべ", "meaning": "vùng ven đồi" }
+    ]
+  }
+]

@@ -1,251 +1,288 @@
 ﻿[
-    {
-      "kanji": "結",
-      "amHan": "Kết",
-      "nghia": "Kết thúc, thắt nút, liên kết",
-      "onyomi": "ケツ / ケッ",
-      "kunyomi": "むす.ぶ / ゆ.う",
-      "mnemonic": {
-        "text": "Dùng sợi CHỈ (糸) buộc các CÁT (吉) tường lại để KẾT duyên."
-      },
-      "examples": [
-        { "word": "結果", "reading": "けっか", "meaning": "kết quả" },
-        { "word": "結論", "reading": "けつろん", "meaning": "kết luận" },
-        { "word": "結婚", "reading": "けっこん", "meaning": "kết hôn" },
-        { "word": "結ぶ", "reading": "むすぶ", "meaning": "buộc, kết nối" },
-        { "word": "結末", "reading": "けつまつ", "meaning": "kết thúc, cuối cùng" },
-        { "word": "団結", "reading": "だんけつ", "meaning": "đoàn kết" },
-        { "word": "終結", "reading": "しゅうけつ", "meaning": "chung kết, kết thúc" }
-      ]
+  {
+    "kanji": "廊",
+    "amHan": "Lang",
+    "nghia": "Hành lang, nhà lớn",
+    "onyomi": "ロウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới MÁI NHÀ LỚN (广), lối đi dẫn ra vùng ĐẤT LANG (郎) rộng rãi chính là HÀNH LANG."
     },
-    {
-      "kanji": "果",
-      "amHan": "Quả",
-      "nghia": "Hoa quả, thành quả, thực hiện",
-      "onyomi": "カ",
-      "kunyomi": "は.たす / は.てる",
-      "mnemonic": {
-        "text": "Trên CÂY (木) mọc ra những điền ĐIỀN (田 - giống hình trái cây) là thu hoạch được thành QUẢ."
-      },
-      "examples": [
-        { "word": "果実", "reading": "かじつ", "meaning": "quả, trái cây" },
-        { "word": "果たす", "reading": "はたす", "meaning": "hoàn thành (nhiệm vụ)" },
-        { "word": "効果", "reading": "こうか", "meaning": "hiệu quả" },
-        { "word": "成果", "reading": "せいか", "meaning": "thành quả" },
-        { "word": "果済", "reading": "はたし", "meaning": "xong xuôi" },
-        { "word": "逆効果", "reading": "ぎゃくこうか", "meaning": "phản tác dụng" }
-      ]
+    "examples": [
+      { "word": "廊下", "reading": "ろうか", "meaning": "hành lang, lối đi giữa các phòng" },
+      { "word": "回廊", "reading": "かいろう", "meaning": "hành lang cuốn, đường đi vòng quanh công trình" },
+      { "word": "画廊", "reading": "がろう", "meaning": "phòng triển lãm tranh, gallery nghệ thuật" },
+      { "word": "新廊", "reading": "しんろう", "meaning": "chú rể (từ cổ/thơ ca, phái sinh từ chữ lang)" },
+      { "word": "渡り廊下", "reading": "わたりろうか", "meaning": "hành lang trên cao nối liền hai tòa nhà" },
+      { "word": "本廊", "reading": "ほんろう", "meaning": "sảnh chính, hành lang trung tâm" },
+      { "word": "廊門", "reading": "ろうもん", "meaning": "cổng hành lang" }
+    ]
+  },
+  {
+    "kanji": "寮",
+    "amHan": "Liêu",
+    "nghia": "Ký túc xá, nhà trọ công nhân",
+    "onyomi": "リョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Mọi người tụ họp dưới MÁI NHÀ (宀) đốt LỬA (火) trò chuyện thâu đêm ở KÝ TÚC xá (chữ 𤾾 ở dưới mô tả đốm lửa/ngọn nến)."
     },
-    {
-      "kanji": "封",
-      "amHan": "Phong",
-      "nghia": "Phong tỏa, bao vây, phong bì",
-      "onyomi": "フウ / ホウ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Trên ĐẤT (土) bồi, dùng TAY (寸 - thốn) trồng cây để PHONG tỏa ranh giới."
-      },
-      "examples": [
-        { "word": "封筒", "reading": "ふうとう", "meaning": "phong bì" },
-        { "word": "同封", "reading": "どうふう", "meaning": "gửi kèm theo" },
-        { "word": "封じる", "reading": "ふうじる", "meaning": "ngăn chặn, phong tỏa" },
-        { "word": "開封", "reading": "かいふう", "meaning": "mở thư, bóc phong bì" },
-        { "word": "封鎖", "reading": "ふうさ", "meaning": "phong tỏa, bao vây" },
-        { "word": "封建的", "reading": "ほうけんてき", "meaning": "tính phong kiến" }
-      ]
+    "examples": [
+      { "word": "寮", "reading": "りょう", "meaning": "ký túc xá (học sinh hoặc nhân viên công ty)" },
+      { "word": "学生寮", "reading": "がくせいりょう", "meaning": "ký túc xá sinh viên" },
+      { "word": "社員寮", "reading": "しゃいんりょう", "meaning": "ký túc xá dành cho nhân viên công ty" },
+      { "word": "寮生", "reading": "りょうせい", "meaning": "học sinh, sinh viên nội trú ở ký túc xá" },
+      { "word": "寮費", "reading": "りょうひ", "meaning": "tiền phòng ký túc xá" },
+      { "word": "独身寮", "reading": "どくしんりょう", "meaning": "ký túc xá dành cho người độc thân" },
+      { "word": "寮長", "reading": "りょうちょう", "meaning": "trưởng nhà, quản lý ký túc xá" }
+    ]
+  },
+  {
+    "kanji": "隣",
+    "amHan": "Lân",
+    "nghia": "Bên cạnh, hàng xóm, lân cận",
+    "onyomi": "リン",
+    "kunyomi": "となり、とな.る",
+    "mnemonic": {
+      "text": "Đi qua BỨC TƯỜNG THÀNH (阝) gặp hai người đang cùng ĐĂNG KÝ (舛) làm HÀNG XÓM của nhau."
     },
-    {
-      "kanji": "法",
-      "amHan": "Pháp",
-      "nghia": "Pháp luật, phương pháp",
-      "onyomi": "ホウ / ハッ / ホッ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "PHÁP luật phải trong suốt như NƯỚC (氵) và khiến cái xấu đi ĐI (去)."
-      },
-      "examples": [
-        { "word": "法律", "reading": "ほうりつ", "meaning": "pháp luật" },
-        { "word": "方法", "reading": "ほうほう", "meaning": "phương pháp" },
-        { "word": "憲法", "reading": "けんぽう", "meaning": "hiến pháp" },
-        { "word": "文法", "reading": "ぶんぽう", "meaning": "ngữ pháp" },
-        { "word": "作法", "reading": "さほう", "meaning": "cách cư xử, lễ nghi" },
-        { "word": "合法", "reading": "ごうほう", "meaning": "hợp pháp" },
-        { "word": "法則", "reading": "ほうそく", "meaning": "quy luật" }
-      ]
+    "examples": [
+      { "word": "隣", "reading": "となり", "meaning": "bên cạnh (vị trí sát vách)" },
+      { "word": "隣人", "reading": "りんじん", "meaning": "người hàng xóm" },
+      { "word": "近隣", "reading": "きんりん", "meaning": "hàng xóm lân cận, khu vực lân cận" },
+      { "word": "隣接する", "reading": "りんせつする", "meaning": "tiếp giáp, sát sạt nhau (hai tỉnh, hai tòa nhà)" },
+      { "word": "隣国", "reading": "りんごく", "meaning": "nước láng giềng, nước bên cạnh" },
+      { "word": "隣の席", "reading": "となりのせき", "meaning": "ghế bên cạnh, bạn cùng bàn" },
+      { "word": "一隣", "reading": "いちりん", "meaning": "một nhà bên cạnh" }
+    ]
+  },
+  {
+    "kanji": "敷",
+    "amHan": "Phu",
+    "nghia": "Trải ra, lắp đặt, sở hữu",
+    "onyomi": "フ",
+    "kunyomi": "し.く",
+    "mnemonic": {
+      "text": "Người PHU dùng TAY (攵) trải thảm ra để bày biện mười chiếc BÁNH CỦ CẢI (敄) cho khách."
     },
-    {
-      "kanji": "各",
-      "amHan": "Các",
-      "nghia": "Mỗi, các",
-      "onyomi": "カク",
-      "kunyomi": "おのおの",
-      "mnemonic": {
-        "text": "Mỗi người có cái MIỆNG (口) và đôi chân (夊 - truy) tự đi theo cách của CÁC nhân."
-      },
-      "examples": [
-        { "word": "各種", "reading": "かくしゅ", "meaning": "các loại" },
-        { "word": "各地", "reading": "かくち", "meaning": "các nơi, mọi miền" },
-        { "word": "各位", "reading": "かくい", "meaning": "kính gửi các vị" },
-        { "word": "各自", "reading": "かくじ", "meaning": "mỗi người, mỗi cá nhân" },
-        { "word": "各家庭", "reading": "かくかてい", "meaning": "mỗi gia đình" }
-      ]
+    "examples": [
+      { "word": "敷く", "reading": "しく", "meaning": "trải ra (trải đệm Futon, trải thảm), thiết lập (thiết lập thế trận)" },
+      { "word": "敷地", "reading": "しきち", "meaning": "khuôn viên, khu đất xây dựng, mặt bằng" },
+      { "word": "敷金", "reading": "しききん", "meaning": "tiền đặt cọc khi thuê nhà ở Nhật" },
+      { "word": "敷布", "reading": "しきふ", "meaning": "ga trải giường, tấm ga" },
+      { "word": "敷物", "reading": "しきもの", "meaning": "tấm thảm, tấm bạt trải ngồi dã ngoại" },
+      { "word": "座布団", "reading": "ざぶとん", "meaning": "đệm ngồi kiểu Nhật (tọa phu đoàn)" },
+      { "word": "敷設する", "reading": "ふせつする", "meaning": "xây dựng, lắp đặt hệ thống (đường ray, đường ống nước)" }
+    ]
+  },
+  {
+    "kanji": "Narrow",
+    "kanji_real": "狭",
+    "amHan": "Hiệp",
+    "nghia": "Chật hẹp, eo hẹp",
+    "onyomi": "キョウ",
+    "kunyomi": "せま.い、せば.める、せば.まる",
+    "mnemonic": {
+      "text": "Con CHÓ (犭) bị kẹp ở giữa CHIẾC KẸP TÓC (夹) nên cảm thấy vô cùng CHẬT HẸP."
     },
-    {
-      "kanji": "位",
-      "amHan": "Vị",
-      "nghia": "Vị trí, địa vị, khoảng",
-      "onyomi": "イ",
-      "kunyomi": "くらい / ぐら.い",
-      "mnemonic": {
-        "text": "CON NGƯỜI (亻) ĐỨNG (立) ở vị trí nào thì thể hiện ĐỊA VỊ đó."
-      },
-      "examples": [
-        { "word": "位置", "reading": "いち", "meaning": "vị trí" },
-        { "word": "単位", "reading": "たんい", "meaning": "đơn vị" },
-        { "word": "地位", "reading": "ちい", "meaning": "địa vị" },
-        { "word": "順位", "reading": "じゅんい", "meaning": "thứ hạng" },
-        { "word": "第一位", "reading": "だいいちい", "meaning": "vị trí thứ nhất" },
-        { "word": "学位", "reading": "がくい", "meaning": "học vị, bằng cấp" }
-      ]
+    "examples": [
+      { "word": "狭い", "reading": "せまい", "meaning": "hẹp, chật chội (phòng hẹp, tấm lòng hẹp hòi)" },
+      { "word": "狭まる", "reading": "せばまる", "meaning": "bị thu hẹp lại, nhỏ lại (phạm vi tìm kiếm co hẹp)" },
+      { "word": "狭める", "reading": "せばめる", "meaning": "làm cho hẹp lại, thu hẹp (thu hẹp khoảng cách)" },
+      { "word": "狭義", "reading": "きょうぎ", "meaning": "nghĩa hẹp (đối nghĩa với nghĩa rộng 広義)" },
+      { "word": "狭心症", "reading": "きょうしんしょう", "meaning": "bệnh đau thắt ngực (y học)" },
+      { "word": "狭量な", "reading": "きょうりょうな", "meaning": "hẹp hòi, ích kỷ, tầm nhìn ngắn" },
+      { "word": "手狭な", "reading": "てぜまな", "meaning": "chật chội, không gian tù túng khó xoay xở" }
+    ]
+  },
+  {
+    "kanji": "荘",
+    "amHan": "Trang",
+    "nghia": "Trang nghiêm, biệt thự, trang viên",
+    "onyomi": "ソウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Cỏ CÂY (艹) mọc xung quanh ngôi nhà TRANG TRỌNG (壮) tạo nên một TRANG VIÊN khoáng đạt."
     },
-    {
-      "kanji": "異",
-      "amHan": "Dị",
-      "nghia": "Khác thường, lạ",
-      "onyomi": "イ",
-      "kunyomi": "こと.なる",
-      "mnemonic": {
-        "text": "Ruộng ĐIỀN (田) mà để CHẤP (共 - hai tay) lên đầu là chuyện dị thường."
-      },
-      "examples": [
-        { "word": "異常", "reading": "いじょう", "meaning": "bất thường" },
-        { "word": "異なる", "reading": "ことなる", "meaning": "khác biệt" },
-        { "word": "異論", "reading": "いろん", "meaning": "ý kiến khác, phản đối" },
-        { "word": "異動", "reading": "いどう", "meaning": "thay đổi nhân sự" },
-        { "word": "異文化", "reading": "いぶんか", "meaning": "văn hóa khác biệt" },
-        { "word": "異議", "reading": "いぎ", "meaning": "kháng nghị, phản đối" }
-      ]
+    "examples": [
+      { "word": "荘厳な", "reading": "そうごんな", "meaning": "trang nghiêm, uy nghi, tráng lệ (nhà thờ, cung điện)" },
+      { "word": "別荘", "reading": "べっそう", "meaning": "biệt thự, villa nghỉ dưỡng ngoại ô" },
+      { "word": "山荘", "reading": "さんそう", "meaning": "biệt thự vùng núi, nhà nghỉ trên núi" },
+      { "word": "荘重な", "reading": "そうちょうな", "meaning": "trang trọng, tôn nghiêm" },
+      { "word": "荘園", "reading": "そうえん", "meaning": "trang viên, đồn điền thời phong kiến" },
+      { "word": "荘子", "reading": "そうし", "meaning": "Trang Tử (triết gia nổi tiếng Trung Quốc)" },
+      { "word": "旅荘", "reading": "りょそう", "meaning": "nhà trọ, lữ quán nhỏ ấm cúng" }
+    ]
+  },
+  {
+    "kanji": "封",
+    "amHan": "Phong",
+    "nghia": "Phong tỏa, bao bọc, bì thư",
+    "onyomi": "フウ、ホウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trồng hai cây THÁP ĐẤT (土+土) canh giữ từng TẤC (寸) biên giới để PHONG TỎA vùng đất lại."
     },
-    {
-      "kanji": "移",
-      "amHan": "Di",
-      "nghia": "Di chuyển, lây lan",
-      "onyomi": "イ",
-      "kunyomi": "うつ.る / うつ.す",
-      "mnemonic": {
-        "text": "Cây LÚA (禾) được trồng NHIỀU (多) rồi di chuyển sang chỗ khác."
-      },
-      "examples": [
-        { "word": "移動", "reading": "いどう", "meaning": "di chuyển" },
-        { "word": "移住", "reading": "いじゅう", "meaning": "di cư" },
-        { "word": "移る", "reading": "うつる", "meaning": "lây sang, dọn đi" },
-        { "word": "移転", "reading": "いてん", "meaning": "di chuyển địa điểm" },
-        { "word": "転移", "reading": "てんい", "meaning": "di căn (bệnh), chuyển dịch" },
-        { "word": "移植", "reading": "いしょく", "meaning": "cấy ghép (nội tạng, cây cối)" }
-      ]
+    "examples": [
+      { "word": "封筒", "reading": "ふうとう", "meaning": "phong bì, bao thư" },
+      { "word": "同封する", "reading": "どうふうする", "meaning": "gửi kèm theo trong thư (gửi kèm ảnh, giấy tờ)" },
+      { "word": "封鎖する", "reading": "ほうさ / ふうさする", "meaning": "phong tỏa, bao vây (phong tỏa tài khoản, phong tỏa biên giới)" },
+      { "word": "開封する", "reading": "かいふうする", "meaning": "bóc thư, mở niêm phong, đập hộp" },
+      { "word": "封建主義", "reading": "ほうけんしゅぎ", "meaning": "chủ nghĩa phong kiến" },
+      { "word": "封じる", "reading": "ふうじる", "meaning": "ngăn chặn, phong tỏa, giấu kín (ngăn đường tấn công, giữ kín miệng)" },
+      { "word": "密封する", "reading": "みっぷうする", "meaning": "bịt kín, hộp kín hút chân không" }
+    ]
+  },
+  {
+    "kanji": "筒",
+    "amHan": "Đồng",
+    "nghia": "Cái ống, ống tròn",
+    "onyomi": "トウ",
+    "kunyomi": "つつ",
+    "mnemonic": {
+      "text": "Lấy thân cây TRE (竹) đục rỗng lỗ để làm ra chiếc ỐNG có hai đầu GIỐNG NHAU (同)."
     },
-    {
-      "kanji": "務",
-      "amHan": "Vụ",
-      "nghia": "Công việc, nhiệm vụ",
-      "onyomi": "ム",
-      "kunyomi": "つと.める",
-      "mnemonic": {
-        "text": "Dùng MÂU (矛) và sức LỰC (力) để hoàn thành công VỤ dưới sự chỉ đạo (攵)."
-      },
-      "examples": [
-        { "word": "任務", "reading": "にんむ", "meaning": "nhiệm vụ" },
-        { "word": "公務員", "reading": "こうむいん", "meaning": "viên chức nhà nước" },
-        { "word": "義務", "reading": "ぎむ", "meaning": "nghĩa vụ" },
-        { "word": "事務", "reading": "じむ", "meaning": "công việc văn phòng" },
-        { "word": "務める", "reading": "つとめる", "meaning": "đảm nhiệm, phục vụ" },
-        { "word": "勤務", "reading": "きんむ", "meaning": "làm việc" }
-      ]
+    "examples": [
+      { "word": "筒", "reading": "つつ", "meaning": "ống tròn, ống xy-lanh" },
+      { "word": "封筒", "reading": "ふうとう", "meaning": "phong bì, phong thư" },
+      { "word": "水筒", "reading": "すいとう", "meaning": "bình đựng nước cầm đi học/đi làm" },
+      { "word": "円筒", "reading": "えんとう", "meaning": "hình trụ vuông tròn" },
+      { "word": "筒抜け", "reading": "つつぬけ", "meaning": "bị lộ hết ra ngoài, nghe tai này lọt tai kia (bí mật bị lộ sạch)" },
+      { "word": "煙突 / 煙筒", "reading": "えんとつ / えんとう", "meaning": "ống khói" },
+      { "word": "筒先", "reading": "つつさき", "meaning": "đầu vòi phun (vòi cứu hỏa)" }
+    ]
+  },
+  {
+    "kanji": "歳",
+    "amHan": "Tuế",
+    "nghia": "Tuổi, năm tháng, thời gian",
+    "onyomi": "サイ、セイ",
+    "kunyomi": "とし、とせ",
+    "mnemonic": {
+      "text": "Cầm ngọn GIÁO (戈) canh giữ ruộng BẬC THANG (歩) qua bao nhiêu NĂM THÁNG tuổi tác lướt qua."
     },
-    {
-      "kanji": "更",
-      "amHan": "Canh",
-      "nghia": "Thay đổi, canh tân, khuya",
-      "onyomi": "コウ",
-      "kunyomi": "さら / ふ.ける",
-      "mnemonic": {
-        "text": "Số MỘT (一) nằm trên cánh đồng (田) nhưng lại bị đè bởi cái cày, cần thay đổi/CANH tân."
-      },
-      "examples": [
-        { "word": "更新", "reading": "こうしん", "meaning": "cập nhật, gia hạn" },
-        { "word": "変更", "reading": "へんこう", "meaning": "thay đổi" },
-        { "word": "夜更かし", "reading": "よふかし", "meaning": "thức khuya" },
-        { "word": "更生", "reading": "こうせい", "meaning": "cải tà quy chính, tái sinh" },
-        { "word": "今更", "reading": "いまさら", "meaning": "đến giờ mới... (muộn rồi)" },
-        { "word": "更地", "reading": "さらち", "meaning": "đất trống" }
-      ]
+    "examples": [
+      { "word": "二十歳", "reading": "はたち / にじゅっさい", "meaning": "20 tuổi (tuổi trưởng thành ở Nhật)" },
+      { "word": "何歳", "reading": "なんさい", "meaning": "mấy tuổi?" },
+      { "word": "歳月", "reading": "さいげつ", "meaning": "tuổi nguyệt, năm tháng thời gian trôi qua" },
+      { "word": "お歳暮", "reading": "おせいぼ", "meaning": "quà tặng cuối năm của người Nhật" },
+      { "word": "万歳", "reading": "ばんざい", "meaning": "vạn tuế, muôn năm! (thể hiện sự vui sướng tột độ)" },
+      { "word": "歳出", "reading": "さいしゅつ", "meaning": "chi tiêu ngân sách hàng năm của nhà nước" },
+      { "word": "歳入", "reading": "さいにゅう", "meaning": "doanh thu ngân sách hàng năm của nhà nước" }
+    ]
+  },
+  {
+    "kanji": "暮",
+    "amHan": "Mộ",
+    "nghia": "Hoàng hôn, cuối năm, sinh sống",
+    "onyomi": "ボ",
+    "kunyomi": "く.らす、く.れる",
+    "mnemonic": {
+      "text": "MẶT TRỜI (日) lặn xuống dưới lớp CỎ LỚN TRÊN CỎ DƯỚI (莫), báo hiệu HOÀNG HÔN buông xuống."
     },
-    {
-      "kanji": "越",
-      "amHan": "Việt",
-      "nghia": "Vượt qua",
-      "onyomi": "エツ",
-      "kunyomi": "こ.す / こ.える",
-      "mnemonic": {
-        "text": "Chạy (走) cầm theo cái RÌU (戉 - việt) để VƯỢT qua biên giới."
-      },
-      "examples": [
-        { "word": "引越し", "reading": "ひっこし", "meaning": "chuyển nhà" },
-        { "word": "乗り越える", "reading": "のりこえる", "meaning": "vượt qua (khó khăn)" },
-        { "word": "追い越す", "reading": "おいこす", "meaning": "vượt qua (xe cộ)" },
-        { "word": "越権", "reading": "えっけん", "meaning": "vượt quyền" },
-        { "word": "年越し", "reading": "としこし", "meaning": "dịp giao thừa" },
-        { "word": "優越感", "reading": "ゆうえつかん", "meaning": "tự cao, cảm giác ưu việt" }
-      ]
+    "examples": [
+      { "word": "暮らす", "reading": "くらす", "meaning": "mưu sinh, sinh sống qua ngày" },
+      { "word": "暮れる", "reading": "くれる", "meaning": "lặn (mặt trời lặn), hết (ngày hết, năm hết tết đến)" },
+      { "word": "一人暮らし", "reading": "ひとりぐらし", "meaning": "sống một mình, tự lập" },
+      { "word": "夕暮れ", "reading": "ゆうぐれ", "meaning": "chiều tà, lúc chạng vạng tối" },
+      { "word": "お歳暮", "reading": "おせいぼ", "meaning": "món quà tri ân cuối năm" },
+      { "word": "日暮れ", "reading": "ひぐれ", "meaning": "lúc hoàng hôn, cuối ngày" },
+      { "word": "暮らし", "reading": "くらし", "meaning": "cuộc sống, sinh hoạt hằng ngày" }
+    ]
+  },
+  {
+    "kanji": "宛",
+    "amHan": "Uyển / Uyển",
+    "nghia": "Địa chỉ gửi đến, hướng tới",
+    "onyomi": "エン",
+    "kunyomi": "あ.てる、あつ.か",
+    "mnemonic": {
+      "text": "Dưới MÁI NHÀ (宀), bẻ cong ĐƯỜNG CONG TƯ LỆNH (夕 + 𠃉) để ghi địa chỉ GỬI ĐẾN chuẩn xác."
     },
-    {
-      "kanji": "郊",
-      "amHan": "Giao",
-      "nghia": "Ngoại ô",
-      "onyomi": "コウ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Nơi GIAO (交) thoa với vùng ĐẤT (阝) bên ngoài chính là ngoại ô."
-      },
-      "examples": [
-        { "word": "郊外", "reading": "こうがい", "meaning": "ngoại ô" },
-        { "word": "近郊", "reading": "きんこう", "meaning": "vùng lân cận" },
-        { "word": "郊野", "reading": "こうや", "meaning": "ngoại dã, đồng quê" }
-      ]
+    "examples": [
+      { "word": "宛て名", "reading": "あてな", "meaning": "tên người nhận thư, người nhận" },
+      { "word": "宛てる", "reading": "あてる", "meaning": "hướng tới, gửi tới cho ai đó" },
+      { "word": "宛先", "reading": "あてさき", "meaning": "địa chỉ người nhận thư" },
+      { "word": "～宛", "reading": "あて", "meaning": "gửi tới... (Ví dụ: Tanaka-san ate = Gửi tới anh Tanaka)" },
+      { "word": "宛然", "reading": "えんぜん", "meaning": "giống hệt như, hoàn toàn giống (văn viết)" },
+      { "word": "宛名シール", "reading": "あてなシール", "meaning": "nhãn dán in địa chỉ người nhận" },
+      { "word": "宛名書き", "reading": "あてながき", "meaning": "việc viết địa chỉ người nhận lên bì thư" }
+    ]
+  },
+  {
+    "kanji": "菓",
+    "amHan": "Quả",
+    "nghia": "Bánh kẹo, hoa quả",
+    "onyomi": "カ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Các loại BÁNH KẸO thời xưa đều được chế biến từ những loại HOA QUẢ (果) hái từ ngọn CỎ (艹)."
     },
-    {
-      "kanji": "周",
-      "amHan": "Chu",
-      "nghia": "Xung quanh, chu kỳ",
-      "onyomi": "シュウ",
-      "kunyomi": "まわ.り",
-      "mnemonic": {
-        "text": "Dùng MIỆNG (口) nói về ruộng ĐIỀN (田 - biến thể) xung quanh một vòng CHU vi."
-      },
-      "examples": [
-        { "word": "周辺", "reading": "しゅうへん", "meaning": "vùng xung quanh" },
-        { "word": "周期", "reading": "しゅうき", "meaning": "chu kỳ" },
-        { "word": "一周", "reading": "いっしゅう", "meaning": "một vòng" },
-        { "word": "周囲", "reading": "しゅうい", "meaning": "chu vi, những người xung quanh" },
-        { "word": "円周", "reading": "えんしゅう", "meaning": "chu vi hình tròn" },
-        { "word": "周年", "reading": "しゅうねん", "meaning": "kỷ niệm (số) năm" }
-      ]
+    "examples": [
+      { "word": "菓子", "reading": "かし", "meaning": "bánh kẹo nói chung" },
+      { "word": "和菓子", "reading": "わがし", "meaning": "bánh kẹo truyền thống kiểu Nhật" },
+      { "word": "洋菓子", "reading": "ようがし", "meaning": "bánh ngọt kiểu Tây (bánh ga-tô, bánh kem)" },
+      { "word": "製菓", "reading": "せいか", "meaning": "sự sản xuất bánh kẹo (công ty bánh kẹo Lotter...)" },
+      { "word": "銘菓", "reading": "めいか", "meaning": "bánh kẹo đặc sản nổi tiếng của một vùng" },
+      { "word": "茶菓子", "reading": "ちゃがし", "meaning": "bánh kẹo ăn kèm khi uống trà" },
+      { "word": "菓子屋", "reading": "かしや", "meaning": "cửa hàng bán bánh kẹo" }
+    ]
+  },
+  {
+    "kanji": "詰",
+    "amHan": "Cật",
+    "nghia": "Nhồi vào, đóng hộp, thẩm vấn gắt gao",
+    "onyomi": "キツ",
+    "kunyomi": "つ.める、つ.まる、つ.む",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (言) ép ai đó đến bước ĐƯỜNG CÙNG CÁT TƯỜNG (吉) để tra CẬT, nhồi nhét thông tin."
     },
-    {
-      "kanji": "畑",
-      "amHan": "Điền/Sào",
-      "nghia": "Cánh đồng, ruộng nương",
-      "onyomi": "None",
-      "kunyomi": "はたけ / はた",
-      "mnemonic": {
-        "text": "Đốt LỬA (火) trên ruộng ĐIỀN (田) để làm nương rẫy."
-      },
-      "examples": [
-        { "word": "畑", "reading": "はたけ", "meaning": "ruộng nương, cánh đồng" },
-        { "word": "田畑", "reading": "たはた", "meaning": "ruộng vườn" },
-        { "word": "花畑", "reading": "はなばたけ", "meaning": "vườn hoa" },
-        { "word": "茶畑", "reading": "ちゃばたけ", "meaning": "cánh đồng chè" },
-        { "word": "麦畑", "reading": "むぎばたけ", "meaning": "cánh đồng lúa mạch" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "詰める", "reading": "つめる", "meaning": "nhồi nhét vào, thu hẹp khoảng cách, tăng tốc tiến độ" },
+      { "word": "詰まる", "reading": "つまる", "meaning": "bị tắc (tắc mũi, tắc đường ống), nghẹn ngào" },
+      { "word": "缶詰", "reading": "かんづめ", "meaning": "đồ hộp, thực phẩm đóng hộp" },
+      { "word": "見詰める", "reading": "みつめる", "meaning": "nhìn chằm chằm, nhìn chăm chú không rời mắt" },
+      { "word": "箱詰め", "reading": "はこづめ", "meaning": "đóng gói vào hộp" },
+      { "word": "大詰め", "reading": "おおづめ", "meaning": "giai đoạn cuối cùng, màn chót (của vở kịch/dự án)" },
+      { "word": "詰問する", "reading": "きつもんする", "meaning": "gặng hỏi, truy vấn, tra hỏi tội lỗi lỗi lầm" }
+    ]
+  },
+  {
+    "kanji": "瓶",
+    "amHan": "Bình",
+    "nghia": "Cái chai, cái lọ, bình gốm",
+    "onyomi": "ビン",
+    "kunyomi": "かめ",
+    "mnemonic": {
+      "text": "Chiếc BÌNH gốm sứ có bề mặt PHẲNG LẶNG (并) được làm từ MẢNH NGÓI (瓦) nung."
+    },
+    "examples": [
+      { "word": "瓶", "reading": "びん", "meaning": "chai, lọ (thủy tinh...)" },
+      { "word": "空き瓶", "reading": "あきびん", "meaning": "vỏ chai trống, chai không" },
+      { "word": "瓶詰", "reading": "びんづめ", "meaning": "thực phẩm đóng chai, ngâm trong lọ thủy tinh" },
+      { "word": "ビール瓶", "reading": "ビールびん", "meaning": "chai bia" },
+      { "word": "花瓶", "reading": "かびん", "meaning": "bình cắm hoa, lọ hoa" },
+      { "word": "魔法瓶", "reading": "まほうびん", "meaning": "bình giữ nhiệt, phích nước nóng" },
+      { "word": "ペット瓶 / 瓶", "reading": "びん", "meaning": "chai lọ thủy tinh nói chung" }
+    ]
+  },
+  {
+    "kanji": "粒",
+    "amHan": "Lạp",
+    "nghia": "Hạt nhỏ, giọt tròn, đơn vị đếm hạt",
+    "onyomi": "リュウ",
+    "kunyomi": "つぶ",
+    "mnemonic": {
+      "text": "Hạt GẠO (米) rơi xuống đất và ĐỨNG THẲNG (立) dậy tạo thành những HẠT nhỏ lấp lánh."
+    },
+    "examples": [
+      { "word": "粒", "reading": "つぶ", "meaning": "hạt, hột (hạt gạo, giọt nước mồ hôi, viên thuốc)" },
+      { "word": "粒子", "reading": "りゅうし", "meaning": "hạt li ti, hạt phân tử nano (vật lý)" },
+      { "word": "一粒", "reading": "ひとつぶ", "meaning": "một hạt, một viên (thuốc/kẹo)" },
+      { "word": "大粒の", "reading": "おおつぶの", "meaning": "hạt to, giọt lớn (mưa nặng hạt, nước mắt giọt lớn)" },
+      { "word": "米粒", "reading": "こめつぶ", "meaning": "hạt cơm, hạt gạo" },
+      { "word": "微粒子", "reading": "びりゅうし", "meaning": "vi hạt, bụi mịn, hạt siêu nhỏ" },
+      { "word": "粒ぞろい", "reading": "つぶぞろい", "meaning": "toàn những nhân tài xuất sắc, chất lượng đồng đều tốt" }
+    ]
+  }
+]

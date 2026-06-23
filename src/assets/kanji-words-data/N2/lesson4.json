@@ -1,249 +1,299 @@
 ﻿[
-    {
-      "kanji": "鉄",
-      "amHan": "Thiết",
-      "nghia": "Sắt, thiết giáp",
-      "onyomi": "テツ",
-      "kunyomi": "くろがね",
-      "mnemonic": {
-        "text": "KIM loại (金) mà MẤT (失) đi độ dẻo thì thành SẮT."
-      },
-      "examples": [
-        { "word": "鉄道", "reading": "てつどう", "meaning": "đường sắt" },
-        { "word": "地下鉄", "reading": "ちかてつ", "meaning": "tàu điện ngầm" },
-        { "word": "鉄鋼", "reading": "てっこう", "meaning": "sắt thép" },
-        { "word": "私鉄", "reading": "してつ", "meaning": "đường sắt tư nhân" },
-        { "word": "鉄分", "reading": "てつぶん", "meaning": "chất sắt (trong máu/đồ ăn)" },
-        { "word": "国鉄", "reading": "こくてつ", "meaning": "đường sắt quốc gia" }
-      ]
+  {
+    "kanji": "標",
+    "amHan": "Tiêu",
+    "nghia": "Mốc, dấu hiệu, mục tiêu",
+    "onyomi": "ヒョウ",
+    "kunyomi": "しるべ",
+    "mnemonic": {
+      "text": "Người ta dán một tấm VÉ (票) lên thân CÂY (木) để làm TIÊU mốc đánh dấu."
     },
-    {
-      "kanji": "窓",
-      "amHan": "Song",
-      "nghia": "Cửa sổ",
-      "onyomi": "ソウ",
-      "kunyomi": "まど",
-      "mnemonic": {
-        "text": "Trong HANG (穴), dùng TÂM (心) nhìn qua cái khung (厶) chính là CỬA SỔ."
-      },
-      "examples": [
-        { "word": "窓口", "reading": "まどぐち", "meaning": "quầy giao dịch" },
-        { "word": "車窓", "reading": "しゃそう", "meaning": "cửa sổ xe (tàu/ô tô)" },
-        { "word": "同窓会", "reading": "どうそうかい", "meaning": "họp lớp (cùng cửa sổ trường học)" },
-        { "word": "窓側", "reading": "まどがわ", "meaning": "phía cửa sổ" },
-        { "word": "防窓", "reading": "ぼうそう", "meaning": "phòng chống trộm qua cửa sổ" }
-      ]
+    "examples": [
+      { "word": "標識", "reading": "ひょうしき", "meaning": "biển báo, dấu hiệu nhận biết" },
+      { "word": "目標", "reading": "もくひょう", "meaning": "mục tiêu" },
+      { "word": "標準", "reading": "ひょうじゅん", "meaning": "tiêu chuẩn, định mức" },
+      { "word": "標本", "reading": "ひょうほん", "meaning": "mẫu vật, tiêu bản" },
+      { "word": "指標", "reading": "しひょう", "meaning": "chỉ số, chỉ tiêu" },
+      { "word": "商標", "reading": "しょうひょう", "meaning": "thương hiệu, nhãn hiệu" },
+      { "word": "座標", "reading": "ざひょう", "meaning": "tọa độ (toán học)" },
+      { "word": "道標", "reading": "みちしるべ", "meaning": "biển chỉ đường, vật dẫn đường" }
+    ]
+  },
+  {
+    "kanji": "普",
+    "amHan": "Phổ",
+    "nghia": "Phổ biến, rộng khắp",
+    "onyomi": "フ",
+    "kunyomi": "あまね.く",
+    "mnemonic": {
+      "text": "MẶT TRỜI (日) chiếu sáng XẾP HÀNG (并) ngang bằng nhau, tỏa rộng khắp một cách PHỔ biến."
     },
-    {
-      "kanji": "符",
-      "amHan": "Phù",
-      "nghia": "Phù hiệu, kí hiệu",
-      "onyomi": "フ",
-      "kunyomi": "しるし",
-      "mnemonic": {
-        "text": "Lấy TRÚC (竹) làm PHÙ hiệu để bàn giao phó THÁC (付) công việc."
-      },
-      "examples": [
-        { "word": "切符", "reading": "きっぷ", "meaning": "vé" },
-        { "word": "符号", "reading": "ふごう", "meaning": "phù hiệu, ký hiệu" },
-        { "word": "音符", "reading": "おんぷ", "meaning": "nốt nhạc" },
-        { "word": "符一致", "reading": "ふいっち", "meaning": "không thống nhất, không khớp" },
-        { "word": "終止符", "reading": "しゅうしふ", "meaning": "dấu chấm hết, dấu kết thúc" }
-      ]
+    "examples": [
+      { "word": "普通", "reading": "ふつう", "meaning": "thông thường, bình thường" },
+      { "word": "普及", "reading": "ふきゅう", "meaning": "phổ cập, phổ biến rộng rãi" },
+      { "word": "普段", "reading": "ふだん", "meaning": "thông thường, ngày thường, lúc thường" },
+      { "word": "普遍的", "reading": "ふへんてき", "meaning": "tính phổ quát, mang tính toàn cầu" },
+      { "word": "普通免許", "reading": "ふつうめんきょ", "meaning": "bằng lái xe hạng thường" },
+      { "word": "普段着", "reading": "ふだんぎ", "meaning": "quần áo mặc thường ngày" },
+      { "word": "普請", "reading": "ふしん", "meaning": "xây dựng, kiến thiết nhà cửa" }
+    ]
+  },
+  {
+    "kanji": "刻",
+    "amHan": "Khắc",
+    "nghia": "Điêu khắc, thời gian, thái mỏng",
+    "onyomi": "コク",
+    "kunyomi": "きざ.む",
+    "mnemonic": {
+      "text": "Dùng con DAO (刂) sắc bén để KHẮC lên lưng con lợn rừng THỜI HỢI (亥)."
     },
-    {
-      "kanji": "精",
-      "amHan": "Tinh",
-      "nghia": "Tinh khiết, tinh nhuệ",
-      "onyomi": "セイ, ショウ",
-      "kunyomi": "しら・げる",
-      "mnemonic": {
-        "text": "GẠO (米) có màu XANH (青) là gạo TINH khiết."
-      },
-      "examples": [
-        { "word": "精神", "reading": "せいしん", "meaning": "tinh thần" },
-        { "word": "精一杯", "reading": "せいいっぱい", "meaning": "với tất cả sức lực" },
-        { "word": "精密", "reading": "せいみつ", "meaning": "chính xác, tỉ mỉ" },
-        { "word": "精進", "reading": "しょうじん", "meaning": "tinh tấn, chuyên tâm" },
-        { "word": "精算", "reading": "せいさん", "meaning": "thanh toán, quyết toán" },
-        { "word": "精力", "reading": "せいりょく", "meaning": "sinh lực, năng lượng" }
-      ]
+    "examples": [
+      { "word": "時刻", "reading": "じこく", "meaning": "thời gian, thời khắc" },
+      { "word": "彫刻", "reading": "ちょうこく", "meaning": "điêu khắc" },
+      { "word": "刻印", "reading": "こくいん", "meaning": "bản khắc dấu, đóng dấu ấn" },
+      { "word": "定刻", "reading": "ていこく", "meaning": "thời gian đã định, đúng giờ quy định" },
+      { "word": "刻む", "reading": "きざむ", "meaning": "thái nhỏ, khắc sâu (kỷ niệm/chữ)" },
+      { "word": "遅刻", "reading": "ちこく", "meaning": "đến muộn, trễ giờ" },
+      { "word": "深刻", "reading": "しんこく", "meaning": "nghiêm trọng, trầm trọng" },
+      { "word": "一刻も早く", "reading": "いっこくもはやく", "meaning": "càng sớm càng tốt" },
+      { "word": "時刻表", "reading": "じこくひょう", "meaning": "bảng giờ tàu chạy" }
+    ]
+  },
+  {
+    "kanji": "違",
+    "amHan": "Vi",
+    "nghia": "Sai khác, vi phạm",
+    "onyomi": "イ",
+    "kunyomi": "ちが.う、ちが.い、ちが.える",
+    "mnemonic": {
+      "text": "Đi bộ trên ĐƯỜNG (辶) mà dẫm lên tấm DA TRÂU (韋) thì VI phạm luật giao thông rồi."
     },
-    {
-      "kanji": "算",
-      "amHan": "Toán",
-      "nghia": "Tính toán",
-      "onyomi": "サン",
-      "kunyomi": "かぞ・える",
-      "mnemonic": {
-        "text": "Dùng dụng cụ bằng TRÚC (竹) để tính toán ĐÔI (具) MẮT (目)."
-      },
-      "examples": [
-        { "word": "計算", "reading": "けいさん", "meaning": "tính toán" },
-        { "word": "予算", "reading": "よさん", "meaning": "ngân sách" },
-        { "word": "暗算", "reading": "あんざん", "meaning": "tính nhẩm" },
-        { "word": "引き算", "reading": "ひきざん", "meaning": "phép trừ" },
-        { "word": "清算", "reading": "せいさん", "meaning": "thanh toán (nợ nần)" },
-        { "word": "算盤", "reading": "そろばん", "meaning": "bàn tính" }
-      ]
+    "examples": [
+      { "word": "違う", "reading": "ちがう", "meaning": "khác biệt, sai lệch" },
+      { "word": "違反", "reading": "いはん", "meaning": "vi phạm (luật pháp, nội quy)" },
+      { "word": "間違い", "reading": "まちがい", "meaning": "lỗi sai, nhầm lẫn" },
+      { "word": "相違", "reading": "そうい", "meaning": "sự khác nhau, bất đồng ý kiến" },
+      { "word": "勘違い", "reading": "かんちがい", "meaning": "hiểu lầm, hiểu sai ý" },
+      { "word": "違法", "reading": "いほう", "meaning": "bất hợp pháp, trái pháp luật" },
+      { "word": "違和感", "reading": "いわかん", "meaning": "cảm giác khó chịu, kỳ lạ, không ăn khớp" },
+      { "word": "すれ違う", "reading": "すれちがう", "meaning": "đi lướt qua nhau, hụt mất nhau" },
+      { "word": "人違い", "reading": "ひとちがい", "meaning": "nhầm người" }
+    ]
+  },
+  {
+    "kanji": "漁",
+    "amHan": "Ngư",
+    "nghia": "Đánh cá, ngư nghiệp",
+    "onyomi": "ギョ、リョウ",
+    "kunyomi": "あさ.る",
+    "mnemonic": {
+      "text": "Bắt con CÁ (魚) ở dưới NƯỚC (水 - 氵) đem đi bán chính là nghề NGƯ nghiệp."
     },
-    {
-      "kanji": "改",
-      "amHan": "Cải",
-      "nghia": "Cải cách, sửa đổi",
-      "onyomi": "カイ",
-      "kunyomi": "あらた・める",
-      "mnemonic": {
-        "text": "BẢN THÂN (己) bị đánh khẽ (攵) nên phải CẢI thiện."
-      },
-      "examples": [
-        { "word": "改正", "reading": "かいせい", "meaning": "cải chính, sửa đổi (luật/quy định)" },
-        { "word": "改善", "reading": "かいぜん", "meaning": "cải thiện" },
-        { "word": "改札", "reading": "かいさつ", "meaning": "soát vé" },
-        { "word": "改める", "reading": "あらためる", "meaning": "sửa đổi, kiểm tra lại" },
-        { "word": "改造", "reading": "かいぞう", "meaning": "cải tạo, tân trang" },
-        { "word": "改めて", "reading": "あらためて", "meaning": "một lần nữa, lúc khác" }
-      ]
+    "examples": [
+      { "word": "漁業", "reading": "ぎょぎょう", "meaning": "ngư nghiệp, ngành đánh bắt cá" },
+      { "word": "漁師", "reading": "りょうし", "meaning": "ngư dân, thợ đánh cá" },
+      { "word": "漁港", "reading": "ぎょこう", "meaning": "cảng cá" },
+      { "word": "密漁", "reading": "みつりょう", "meaning": "đánh bắt cá trộm, đánh bắt bất hợp pháp" },
+      { "word": "大漁", "reading": "たいりょう", "meaning": "trúng đậm mẻ cá lớn" },
+      { "word": "漁船", "reading": "ぎょせん", "meaning": "tàu cá, thuyền đánh cá" },
+      { "word": "漁る", "reading": "あさる", "meaning": "tìm kiếm, lục lọi (thông tin, mồi...)" }
+    ]
+  },
+  {
+    "kanji": "輸",
+    "amHan": "Thâu / Th輸",
+    "nghia": "Vận chuyển, chuyên chở",
+    "onyomi": "シュ、ユ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng XE (車) đưa ĐỒNG THUẬN (俞 - du) hàng hóa đi VẬN CHUYỂN đi khắp nơi."
     },
-    {
-      "kanji": "札",
-      "amHan": "Trát",
-      "nghia": "Tấm thẻ, tiền giấy",
-      "onyomi": "サツ",
-      "kunyomi": "ふだ",
-      "mnemonic": {
-        "text": "Cái CÂY (木) được treo tấm thẻ ghi tên người ẤY (乚)."
-      },
-      "examples": [
-        { "word": "改札口", "reading": "かいさつぐち", "meaning": "cổng soát vé" },
-        { "word": "お札", "reading": "おさつ", "meaning": "tiền giấy" },
-        { "word": "札束", "reading": "さつたば", "meaning": "cuộn tiền, xấp tiền" },
-        { "word": "名札", "reading": "なふだ", "meaning": "thẻ tên" },
-        { "word": "千円札", "reading": "せんえんさつ", "meaning": "tờ tiền 1000 yên" }
-      ]
+    "examples": [
+      { "word": "輸出", "reading": "ゆしゅつ", "meaning": "xuất khẩu" },
+      { "word": "輸入", "reading": "ゆにゅう", "meaning": "nhập khẩu" },
+      { "word": "輸送", "reading": "ゆそう", "meaning": "vận chuyển, chuyên chở hàng hóa" },
+      { "word": "運輸", "reading": "うんゆ", "meaning": "vận tải, vận chuyển (giao thông vận tải)" },
+      { "word": "密輸入", "reading": "みつゆにゅう", "meaning": "buôn lậu, nhập lậu" },
+      { "word": "空輸", "reading": "くうゆ", "meaning": "vận chuyển bằng đường hàng không" },
+      { "word": "輸血", "reading": "ゆけつ", "meaning": "truyền máu" },
+      { "word": "輸入総額", "reading": "ゆにゅうそうがく", "meaning": "tổng kim ngạch nhập khẩu" }
+    ]
+  },
+  {
+    "kanji": "製",
+    "amHan": "Chế",
+    "nghia": "Chế tạo, sản xuất",
+    "onyomi": "セイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Theo QUY CHẾ (制) bắt buộc, thợ CHẾ TẠO phải mặc QUẦN ÁO (衣) bảo hộ lao động."
     },
-    {
-      "kanji": "線",
-      "amHan": "Tuyến",
-      "nghia": "Đường dây, tuyến đường",
-      "onyomi": "セン",
-      "kunyomi": "すじ",
-      "mnemonic": {
-        "text": "Sợi CHỈ (糸) rơi xuống SUỐI (泉) tạo thành đường TUYẾN."
-      },
-      "examples": [
-        { "word": "新幹線", "reading": "しんかんせん", "meaning": "tàu cao tốc" },
-        { "word": "線路", "reading": "せんろ", "meaning": "đường ray" },
-        { "word": "下線", "reading": "かせん", "meaning": "gạch chân" },
-        { "word": "直線", "reading": "ちょくせん", "meaning": "đường thẳng" },
-        { "word": "境界線", "reading": "きょうかいせん", "meaning": "đường biên giới" },
-        { "word": "無線", "reading": "むせん", "meaning": "không dây (wireless)" }
-      ]
+    "examples": [
+      { "word": "製造", "reading": "せいぞう", "meaning": "chế tạo, sản xuất quy mô lớn" },
+      { "word": "製品", "reading": "せいひん", "meaning": "sản phẩm, thành phẩm" },
+      { "word": "鉄製", "reading": "てっせい", "meaning": "làm bằng sắt" },
+      { "word": "日本製", "reading": "にほんせい", "meaning": "hàng sản xuất tại Nhật Bản" },
+      { "word": "製作", "reading": "せいさく", "meaning": "chế tác, làm ra (phim ảnh, nghệ thuật)" },
+      { "word": "製薬会社", "reading": "せいやくがいしゃ", "meaning": "công ty sản xuất thuốc, dược phẩm" },
+      { "word": "製鉄所", "reading": "せいてつじょ", "meaning": "nhà máy luyện kim, luyện thép" },
+      { "word": "既製品", "reading": "きせいひん", "meaning": "quần áo/đồ may sẵn" }
+    ]
+  },
+  {
+    "kanji": "郵",
+    "amHan": "Bưu",
+    "nghia": "Bưu điện, bưu chính",
+    "onyomi": "ユウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Tại VÙNG ĐẤT (阝) biên thùy, người ta cắm CỘT MỐC (垂) để làm trạm BƯU ĐIỆN chuyển thư."
     },
-    {
-      "kanji": "刻",
-      "amHan": "Khắc",
-      "nghia": "Thời khắc, điêu khắc",
-      "onyomi": "コク",
-      "kunyomi": "きざ・む",
-      "mnemonic": {
-        "text": "Dùng ĐAO (刀) KHẮC lên cái lọ có nắp (亥)."
-      },
-      "examples": [
-        { "word": "時刻", "reading": "じこく", "meaning": "thời gian, thời khắc" },
-        { "word": "刻む", "reading": "きざむ", "meaning": "thái nhỏ, khắc ghi" },
-        { "word": "遅刻", "reading": "ちこく", "meaning": "đến muộn" },
-        { "word": "深刻", "reading": "しんこく", "meaning": "nghiêm trọng" },
-        { "word": "彫刻", "reading": "ちょうこく", "meaning": "điêu khắc" }
-      ]
+    "examples": [
+      { "word": "郵便", "reading": "ゆうびん", "meaning": "bưu chính, dịch vụ gửi thư" },
+      { "word": "郵送", "reading": "ゆうそう", "meaning": "gửi bằng đường bưu điện" },
+      { "word": "郵便局", "reading": "ゆうびんきょく", "meaning": "bưu điện" },
+      { "word": "郵送料", "reading": "ゆうそうりょう", "meaning": "cước phí gửi bưu điện" },
+      { "word": "郵便ポスト", "reading": "ゆうびんぽすと", "meaning": "hòm thư công cộng" },
+      { "word": "郵便番号", "reading": "ゆうびんばんごう", "meaning": "mã bưu chính (Zip code)" },
+      { "word": "郵政民営化", "reading": "ゆうせいみんえいか", "meaning": "tư nhân hóa ngành bưu chính" }
+    ]
+  },
+  {
+    "kanji": "航",
+    "amHan": "Hàng",
+    "nghia": "Hàng hải, bay, vượt biển",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Con THUYỀN (舟) đang HIÊN NGANG (亢 - kháng) vượt sóng lớn ra khơi HÀNG hải."
     },
-    {
-      "kanji": "番",
-      "amHan": "Phiên",
-      "nghia": "Số hiệu, lượt",
-      "onyomi": "バン",
-      "kunyomi": "つぎ",
-      "mnemonic": {
-        "text": "Dùng chân (采 - thái/móng) dẫm lên RUỘNG (田) để chia PHIÊN làm việc."
-      },
-      "examples": [
-        { "word": "番号", "reading": "ばんごう", "meaning": "số hiệu" },
-        { "word": "順番", "reading": "じゅんばん", "meaning": "thứ tự" },
-        { "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
-        { "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình truyền hình" },
-        { "word": "留守番", "reading": "るすばん", "meaning": "trông nhà" },
-        { "word": "当番", "reading": "とうばん", "meaning": "đến lượt trực" }
-      ]
+    "examples": [
+      { "word": "航空", "reading": "こうくう", "meaning": "hàng không" },
+      { "word": "航海", "reading": "こうかい", "meaning": "hàng hải, đi biển" },
+      { "word": "航空機", "reading": "こうくうき", "meaning": "máy bay, phi cơ" },
+      { "word": "欠航", "reading": "けっこう", "meaning": "hủy chuyến (bay hoặc chuyến tàu biển)" },
+      { "word": "航路", "reading": "こうろ", "meaning": "tuyến đường bay, đường biển" },
+      { "word": "渡航", "reading": "とこう", "meaning": "việc đi ra nước ngoài bằng đường biển/không" },
+      { "word": "難航", "reading": "なんこう", "meaning": "gặp khó khăn trắc trở, bế tắc (cuộc đàm phán)" },
+      { "word": "就航", "reading": "しゅうこう", "meaning": "bắt đầu đi vào hoạt động (đường bay/tàu)" }
+    ]
+  },
+  {
+    "kanji": "融",
+    "amHan": "Dung",
+    "nghia": "Hòa tan, lưu thông, tài chính",
+    "onyomi": "ユウ",
+    "kunyomi": "と.ける、と.かす",
+    "mnemonic": {
+      "text": "Nấu CON TRÙNG (虫) trong một cái NỒI CỔ CAO (鬲) lớn để nó TAN DUNG dịch ra."
     },
-    {
-      "kanji": "号",
-      "amHan": "Hiệu",
-      "nghia": "Số hiệu, danh hiệu",
-      "onyomi": "ゴウ",
-      "kunyomi": "さけ・ぶ",
-      "mnemonic": {
-        "text": "Dùng MIỆNG (口) hô to (丂 - khảo) để báo HIỆU."
-      },
-      "examples": [
-        { "word": "信号", "reading": "しんごう", "meaning": "đèn giao thông, tín hiệu" },
-        { "word": "記号", "reading": "きごう", "meaning": "ký hiệu" },
-        { "word": "号外", "reading": "ごうがい", "meaning": "số báo đặc biệt" },
-        { "word": "怒号", "reading": "どごう", "meaning": "tiếng quát tháo" },
-        { "word": "年号", "reading": "ねんごう", "meaning": "niên hiệu" }
-      ]
+    "examples": [
+      { "word": "融合", "reading": "ゆうごう", "meaning": "pha trộn, dung hợp, nóng chảy vào nhau" },
+      { "word": "融資", "reading": "ゆうし", "meaning": "cấp vốn, cho vay vốn kinh doanh" },
+      { "word": "金融", "reading": "きんゆう", "meaning": "tài chính, lưu thông tiền tệ" },
+      { "word": "融通", "reading": "ゆうづう", "meaning": "Linh hoạt, nhạy bén (hoặc cho vay tiền ngắn hạn)" },
+      { "word": "融雪", "reading": "ゆうせつ", "meaning": "tuyết tan" },
+      { "word": "融点", "reading": "ゆうてん", "meaning": "điểm nóng chảy (vật lý)" },
+      { "word": "金融機関", "reading": "きんゆうきかん", "meaning": "cơ quan tài chính, ngân hàng" }
+    ]
+  },
+  {
+    "kanji": "戻",
+    "amHan": "Lệ",
+    "nghia": "Quay lại, trở về, trả lại",
+    "onyomi": "レイ",
+    "kunyomi": "もど.る、もど.す",
+    "mnemonic": {
+      "text": "Con chó nhỏ thò chân (攵) qua CỬA (戸) để QUAY TRỞ VỀ nhà."
     },
-    {
-      "kanji": "快",
-      "amHan": "Khoái",
-      "nghia": "Sảng khoái, vui vẻ",
-      "onyomi": "カイ",
-      "kunyomi": "こころよ・い",
-      "mnemonic": {
-        "text": "TÂM (忄) thấy QUYẾT (夬) đoán đúng thì sảng KHOÁI."
-      },
-      "examples": [
-        { "word": "快適", "reading": "かいてき", "meaning": "sảng khoái, dễ chịu" },
-        { "word": "快気祝い", "reading": "かいきいわい", "meaning": "tiệc mừng khỏi bệnh" },
-        { "word": "快い", "reading": "こころよい", "meaning": "sẵn lòng, dễ chịu" },
-        { "word": "快挙", "reading": "かいきょ", "meaning": "thành tích rực rỡ" },
-        { "word": "快晴", "reading": "かいせい", "meaning": "trời cực đẹp, nắng ráo" },
-        { "word": "快速", "reading": "かいそく", "meaning": "tốc độ cao, cực nhanh" }
-      ]
+    "examples": [
+      { "word": "戻る", "reading": "もどる", "meaning": "quay lại, trở về (tự động từ)" },
+      { "word": "戻す", "reading": "もどす", "meaning": "trả lại chỗ cũ, hoàn tác (tha động từ)" },
+      { "word": "払い戻し", "reading": "はらい戻し", "meaning": "hoàn tiền, trả lại tiền vé/thuế" },
+      { "word": "引き戻す", "reading": "ひきもどす", "meaning": "kéo trở lại, dẫn trở lại" },
+      { "word": "後戻り", "reading": "あともどり", "meaning": "quay lui, tụt lùi về phía sau" },
+      { "word": "戻り道", "reading": "もどりみち", "meaning": "đường về, đường quay lại" },
+      { "word": "差し戻す", "reading": "さしもどす", "meaning": "gửi trả lại, bác bỏ đơn" }
+    ]
+  },
+  {
+    "kanji": "換",
+    "amHan": "Hoán",
+    "nghia": "Thay đổi, hoán đổi",
+    "onyomi": "カン",
+    "kunyomi": "か.える、か.わる",
+    "mnemonic": {
+      "text": "Dùng TAY (扌) HOÁN ĐỔI (奐) các đồ vật cho nhau."
     },
-    {
-      "kanji": "速",
-      "amHan": "Tốc",
-      "nghia": "Tốc độ, nhanh",
-      "onyomi": "ソク",
-      "kunyomi": "はや・い",
-      "mnemonic": {
-        "text": "Buộc (束) chân lại mà vẫn BƯỚC ĐI (辶) rất TỐC độ."
-      },
-      "examples": [
-        { "word": "速度", "reading": "そくど", "meaning": "tốc độ" },
-        { "word": "速い", "reading": "はやい", "meaning": "nhanh chóng" },
-        { "word": "速達", "reading": "そくたつ", "meaning": "chuyển phát nhanh" },
-        { "word": "速記", "reading": "そっき", "meaning": "ghi chép nhanh (tốc ký)" },
-        { "word": "加速", "reading": "かそく", "meaning": "gia tốc, tăng tốc" },
-        { "word": "早速", "reading": "さっそく", "meaning": "ngay lập tức" }
-      ]
+    "examples": [
+      { "word": "交換", "reading": "こうかん", "meaning": "đổi chác, trao đổi (quà, tiền)" },
+      { "word": "換気", "reading": "かんき", "meaning": "thông gió, đổi không khí trong phòng" },
+      { "word": "換算", "reading": "かんさん", "meaning": "quy đổi, hoán đổi đơn vị tính toán" },
+      { "word": "変換", "reading": "へんかん", "meaning": "biến đổi, chuyển đổi (font chữ, năng lượng)" },
+      { "word": "換える", "reading": "かえる", "meaning": "thay thế, đổi (tiền lẻ, quần áo)" },
+      { "word": "乗り換える", "reading": "のりかえる", "meaning": "đổi tàu xe, chuyển sang mạng khác" },
+      { "word": "換金", "reading": "かんきん", "meaning": "đổi ra tiền mặt, quy ra tiền" },
+      { "word": "言い換える", "reading": "いいかえる", "meaning": "nói cách khác, diễn đạt lại" }
+    ]
+  },
+  {
+    "kanji": "払",
+    "amHan": "Phất",
+    "nghia": "Trả tiền, quét sạch, phủi",
+    "onyomi": "フツ",
+    "kunyomi": "はら.う",
+    "mnemonic": {
+      "text": "Dùng TAY (扌) để PHỦI ĐI những thứ KHÔNG CẦN THIẾT (弗)."
     },
-    {
-      "kanji": "路",
-      "amHan": "Lộ",
-      "nghia": "Con đường",
-      "onyomi": "ロ",
-      "kunyomi": "じ",
-      "mnemonic": {
-        "text": "Dùng CHÂN (足) đi qua mỗi cái CÁI MIỆNG (口) ở mỗi CÁI (各) ngã rẽ trên LỘ trình."
-      },
-      "examples": [
-        { "word": "道路", "reading": "どうろ", "meaning": "đường sá" },
-        { "word": "通路", "reading": "つうろ", "meaning": "lối đi, hành lang" },
-        { "word": "路線", "reading": "ろせん", "meaning": "tuyến đường" },
-        { "word": "路地", "reading": "ろじ", "meaning": "đường nhỏ, ngõ hẻm" },
-        { "word": "進路", "reading": "しんろ", "meaning": "lộ trình, hướng đi tương lai" },
-        { "word": "迷路", "reading": "めいろ", "meaning": "mê cung" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "支払う", "reading": "しはらう", "meaning": "chi trả, trả tiền" },
+      { "word": "払い戻し", "reading": "はらいもどし", "meaning": "hoàn tiền, hoàn trả" },
+      { "word": "払い込む", "reading": "はらいこむ", "meaning": "nộp tiền, đóng tiền điện/học phí" },
+      { "word": "前払い", "reading": "まえばらい", "meaning": "trả trước, đặt cọc trước" },
+      { "word": "払う", "reading": "はらう", "meaning": "trả tiền / chú ý (chú ý) / phủi bụi" },
+      { "word": "着払い", "reading": "ちゃくばらい", "meaning": "thanh toán khi nhận hàng (COD)" },
+      { "word": "不払", "reading": "ふばらい", "meaning": "quỵt nợ, không thanh toán" },
+      { "word": "泥を払う", "reading": "どろをはらう", "meaning": "phủi bùn đất đất vấy bẩn" }
+    ]
+  },
+  {
+    "kanji": "込",
+    "amHan": "Vào",
+    "nghia": "Gộp vào, nạp vào, chui vào, đông đúc",
+    "onyomi": "",
+    "kunyomi": "こ.む、こ.める",
+    "mnemonic": {
+      "text": "Đi BỘ (辶) để đi VÀO TRONG (入) đám đông nhộn nhịp."
+    },
+    "examples": [
+      { "word": "申し込む", "reading": "もうしこむ", "meaning": "đăng ký, cầu hôn" },
+      { "word": "混み合う", "reading": "こみあう", "meaning": "đông nghịt, chen chúc nhau" },
+      { "word": "読み込み", "reading": "よみこみ", "meaning": "đang tải, loading dữ liệu, đọc dữ liệu" },
+      { "word": "売り込み", "reading": "うりこみ", "meaning": "tiếp thị sản phẩm, chào hàng quảng cáo" },
+      { "word": "人込み", "reading": "ひとごみ", "meaning": "đám đông người" },
+      { "word": "心を込めて", "reading": "こころをこめて", "meaning": "gửi gắm cả tấm lòng, dốc lòng" },
+      { "word": "税込み", "reading": "ぜいこみ", "meaning": "đã bao gồm thuế" },
+      { "word": "思い込む", "reading": "おもいこむ", "meaning": "đinh ninh, tự huyễn hoặc cho là đúng" }
+    ]
+  },
+  {
+    "kanji": "両",
+    "amHan": "Lưỡng",
+    "nghia": "Hai, cả hai, xe cộ",
+    "onyomi": "リョウ",
+    "kunyomi": "てる、ふたつ",
+    "mnemonic": {
+      "text": "Hình ảnh cái CÂN CỔ có LƯỠNG đầu cân bằng, hai bên có hai vật TREO SONG SONG (𠂉+𠂉)."
+    },
+    "examples": [
+      { "word": "両方", "reading": "りょうほう", "meaning": "cả hai hướng, cả hai bên" },
+      { "word": "両替", "reading": "りょうがえ", "meaning": "đổi tiền (ngoại tệ, đổi tiền lẻ)" },
+      { "word": "両親", "reading": "りょうしん", "meaning": "bố mẹ, đấng sinh thành" },
+      { "word": "両側", "reading": "りょうがわ", "meaning": "hai bên, hai rìa bên cạnh" },
+      { "word": "車両", "reading": "しゃりょう", "meaning": "toa tàu, xe cộ toa xe" },
+      { "word": "両立", "reading": "りょうりつ", "meaning": "vẹn cả đôi đường, song hành hoàn hảo cả hai" },
+      { "word": "両極端", "reading": "りょうきょくたん", "meaning": "hai thái cực hoàn toàn đối lập" },
+      { "word": "両手", "reading": "りょうて", "meaning": "cả hai tay" }
+    ]
+  }
+]

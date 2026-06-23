@@ -1,243 +1,382 @@
 ﻿[
-    {
-      "kanji": "傾",
-      "amHan": "Khuynh",
-      "nghia": "Nghiêng, khuynh hướng",
-      "onyomi": "ケイ",
-      "kunyomi": "かたむ・く / かたむ・ける",
-      "mnemonic": {
-        "text": "Một NGƯỜI (亻) có cái ĐẦU (頁) bị lệch sang một bên tạo thành KHUYNH hướng nghiêng."
-      },
-      "examples": [
-        { "word": "傾向", "reading": "けいこう", "meaning": "khuynh hướng, xu hướng" },
-        { "word": "傾く", "reading": "かたむく", "meaning": "nghiêng về, chao đảo" },
-        { "word": "傾聴", "reading": "けいちょう", "meaning": "lắng nghe chăm chú" },
-        { "word": "斜傾", "reading": "しゃけい", "meaning": "độ nghiêng, dốc" },
-        { "word": "傾倒", "reading": "けいとう", "meaning": "ngưỡng mộ, tận tụy" }
-      ]
+  {
+    "kanji": "誤",
+    "amHan": "Ngộ",
+    "nghia": "Sai lầm, lỗi, hiểu lầm",
+    "onyomi": "ゴ",
+    "kunyomi": "あやま.る",
+    "mnemonic": {
+      "text": "Lời NÓI (言) phát ra trong lúc say SƯA (呉) rất dễ dẫn đến SAI LẦM."
     },
-    {
-      "kanji": "横",
-      "amHan": "Hoành",
-      "nghia": "Chiều ngang, bên cạnh",
-      "onyomi": "オウ",
-      "kunyomi": "よこ",
-      "mnemonic": {
-        "text": "Dùng GỖ (木) đặt ngang qua màu VÀNG (黄) của lúa mì tạo thành trục HOÀNH."
-      },
-      "examples": [
-        { "word": "横断", "reading": "おうだん", "meaning": "băng qua (đường)" },
-        { "word": "横", "reading": "よこ", "meaning": "bên cạnh, chiều ngang" },
-        { "word": "横転", "reading": "おうてん", "meaning": "lật nhào (xe)" },
-        { "word": "横暴", "reading": "おうぼう", "meaning": "ngang ngược, bạo ngược" },
-        { "word": "横顔", "reading": "よこがお", "meaning": "khuôn mặt nhìn nghiêng" }
-      ]
+    "examples": [
+      { "word": "誤る", "reading": "あやまる", "meaning": "lỗi, phạm lỗi, mắc sai lầm" },
+      { "word": "誤解する", "reading": "ごかいする", "meaning": "hiểu lầm, hiểu sai" },
+      { "word": "誤字", "reading": "ごじ", "meaning": "chữ viết sai, lỗi chính tả" },
+      { "word": "誤認する", "reading": "ごにんする", "meaning": "nhìn nhận sai, nhận nhầm" },
+      { "word": "誤作動", "reading": "ごさどう", "meaning": "thao tác sai, máy móc chạy lỗi" },
+      { "word": "誤報", "reading": "ごほう", "meaning": "báo cáo sai, tin vịt, báo động giả" },
+      { "word": "試行錯誤", "reading": "しこうさくご", "meaning": "quá trình thử và sai (thử nghiệm nhiều lần)" }
+    ]
+  },
+  {
+    "kanji": "謝",
+    "amHan": "Tạ",
+    "nghia": "Xin lỗi, cảm tạ, từ chối",
+    "onyomi": "シャ",
+    "kunyomi": "あやま.る",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (言) để BẮN (射) đi thông điệp CẢM TẠ hoặc XIN LỖI."
     },
-    {
-      "kanji": "湯",
-      "amHan": "Thang",
-      "nghia": "Nước nóng",
-      "onyomi": "トウ",
-      "kunyomi": "ゆ",
-      "mnemonic": {
-        "text": "NƯỚC (氵) dưới ánh MẶT TRỜI (日) nóng đến mức mọc lông (勿 - biến thể) bốc hơi là nước THANG."
-      },
-      "examples": [
-        { "word": "お湯", "reading": "おゆ", "meaning": "nước nóng" },
-        { "word": "湯気", "reading": "ゆげ", "meaning": "hơi nước" },
-        { "word": "熱湯", "reading": "ねっとう", "meaning": "nước sôi" },
-        { "word": "銭湯", "reading": "せんとう", "meaning": "nhà tắm công cộng" },
-        { "word": "湯飲み", "reading": "ゆのみ", "meaning": "tách trà" }
-      ]
+    "examples": [
+      { "word": "謝る", "reading": "あやまる", "meaning": "xin lỗi" },
+      { "word": "感謝する", "reading": "かんしゃする", "meaning": "cảm tạ, biết ơn" },
+      { "word": "謝罪する", "reading": "しゃざいする", "meaning": "tạ tội, xin lỗi công khai" },
+      { "word": "謝絶する", "reading": "しゃぜつする", "meaning": "từ chối khéo (ví dụ: từ chối vào thăm bệnh 訪面謝絶)" },
+      { "word": "謝礼", "reading": "しゃれい", "meaning": "quà cảm ơn, tiền thù lao cảm tạ" },
+      { "word": "薄謝", "reading": "はくしゃ", "meaning": "chút quà mọn cảm ơn" },
+      { "word": "月謝", "reading": "げっしゃ", "meaning": "học phí hàng tháng" }
+    ]
+  },
+  {
+    "kanji": "励",
+    "amHan": "Lệ",
+    "nghia": "Cố gắng, khích lệ",
+    "onyomi": "レイ",
+    "kunyomi": "はげ.む、はげ.ます",
+    "mnemonic": {
+      "text": "Dùng SỨC LỰC (力) để vượt qua vách ĐÁ (厂) hiểm trở là một sự CỐ GẮNG lớn."
     },
-    {
-      "kanji": "恐",
-      "amHan": "Khủng",
-      "nghia": "Khủng bợ, sợ hãi",
-      "onyomi": "キョウ",
-      "kunyomi": "おそ・れる / おそ・ろしい",
-      "mnemonic": {
-        "text": "Khi PHÀN NÀN (巩) từ trong TÂM (心) nghĩa là đang KHỦNG hoảng sợ hãi."
-      },
-      "examples": [
-        { "word": "恐れる", "reading": "おそれる", "meaning": "lo sợ, sợ hãi" },
-        { "word": "恐ろしい", "reading": "おそろしい", "meaning": "đáng sợ, kinh khủng" },
-        { "word": "恐縮", "reading": "きょうしゅく", "meaning": "thấy ngại, làm phiền (lịch sự)" },
-        { "word": "恐怖", "reading": "きょうふ", "meaning": "khủng bố, sợ hãi" },
-        { "word": "恐慌", "reading": "きょうこう", "meaning": "khủng hoảng (kinh tế)" }
-      ]
+    "examples": [
+      { "word": "励む", "reading": "はげむ", "meaning": "cố gắng, phấn đấu (học tập, công việc)" },
+      { "word": "励ます", "reading": "はげます", "meaning": "khích lệ, động viên (người khác)" },
+      { "word": "激励する", "reading": "げきれいする", "meaning": "kích lệ, cổ vũ nhiệt tình" },
+      { "word": "奨励する", "reading": "しょうれいする", "meaning": "tuyên dương, khen thưởng khuyến khích" },
+      { "word": "励ましの言葉", "reading": "励ましのことば", "meaning": "lời động viên" },
+      { "word": "励精", "reading": "れいせい", "meaning": "sự siêng năng chịu khó" },
+      { "word": "精励する", "reading": "せいれいする", "meaning": "vắt kiệt sức lực để cố gắng công tác" }
+    ]
+  },
+  {
+    "kanji": "冗",
+    "amHan": "Nhũng",
+    "nghia": "Thừa thãi, nhàm chán, bông đùa",
+    "onyomi": "ジョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong MÁI NHÀ (冖) có quá nhiều NGƯỜI (几 -> Con người) nhàn rỗi là sự THỪA THÃI."
     },
-    {
-      "kanji": "原",
-      "amHan": "Nguyên",
-      "nghia": "Nguyên nhân, cánh đồng, nguồn gốc",
-      "onyomi": "ゲン",
-      "kunyomi": "はら",
-      "mnemonic": {
-        "text": "Dưới VÁCH NÚI (厂), NGUỒN NƯỚC (泉) chảy ra là NGUYÊN bản của sự sống."
-      },
-      "examples": [
-        { "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" },
-        { "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
-        { "word": "野原", "reading": "のはら", "meaning": "cánh đồng" },
-        { "word": "原理", "reading": "げんり", "meaning": "nguyên lý" },
-        { "word": "原子", "reading": "げんし", "meaning": "nguyên tử" },
-        { "word": "原本", "reading": "げんぽん", "meaning": "bản gốc" }
-      ]
+    "examples": [
+      { "word": "冗談", "reading": "じょうだん", "meaning": "lời nói đùa, chuyện đùa" },
+      { "word": "冗長な", "reading": "じょうちょうな", "meaning": "dài dòng, rườm rà, thừa thãi (văn phong)" },
+      { "word": "冗費", "reading": "じょうひ", "meaning": "chi phí thừa thãi, lãng phí" },
+      { "word": "冗員", "reading": "じょういん", "meaning": "nhân viên dư thừa" },
+      { "word": "冗句", "reading": "じょうく", "meaning": "câu từ thừa thãi" },
+      { "word": "冗談半分", "reading": "じょうだんはんぶん", "meaning": "vừa đùa vừa thật" },
+      { "word": "冗筆", "reading": "じょうひつ", "meaning": "nét bút, bài viết thừa thãi" }
+    ]
+  },
+  {
+    "kanji": "握",
+    "amHan": "Ác",
+    "nghia": "Nắm, túm lấy",
+    "onyomi": "アク",
+    "kunyomi": "にぎ.る",
+    "mnemonic": {
+      "text": "Dùng CÁI TAY (手 -> 扌) để giữ chặt mọi thứ trong CĂN PHÒNG (屋) của mình."
     },
-    {
-      "kanji": "因",
-      "amHan": "Nhân",
-      "nghia": "Nguyên nhân",
-      "onyomi": "イン",
-      "kunyomi": "よ・る",
-      "mnemonic": {
-        "text": "Một người ĐẠI (大) diện nằm trong KHUNG (囗) để tìm NHÂN quả."
-      },
-      "examples": [
-        { "word": "要因", "reading": "よういん", "meaning": "nhân tố chính" },
-        { "word": "因果関係", "reading": "いんがかんけい", "meaning": "quan hệ nhân quả" },
-        { "word": "因縁", "reading": "いんねん", "meaning": "nhân duyên, số phận" },
-        { "word": "起因", "reading": "きいん", "meaning": "khởi nguồn, nguyên nhân" }
-      ]
+    "examples": [
+      { "word": "握る", "reading": "にぎる", "meaning": "nắm, cầm, nắm giữ (nắm tay / nắm điểm yếu)" },
+      { "word": "握手する", "reading": "あくしゅする", "meaning": "bắt tay" },
+      { "word": "掌握する", "reading": "しょうあくする", "meaning": "nắm lòng, kiểm soát, nắm vững trong tay" },
+      { "word": "一握り", "reading": "ひとにぎり", "meaning": "một nắm / một lượng rất nhỏ (thiểu số)" },
+      { "word": "握力", "reading": "あくりょく", "meaning": "lực nắm của bàn tay" },
+      { "word": "握り寿司", "reading": "にぎりずし", "meaning": "sushi nắm" },
+      { "word": "お握り", "reading": "おにぎり", "meaning": "cơm nắm" }
+    ]
+  },
+  {
+    "kanji": "絶",
+    "amHan": "Tuyệt",
+    "nghia": "Đoạn tuyệt, tuyệt vời, cực kỳ",
+    "onyomi": "ゼツ",
+    "kunyomi": "た.える、た.やす、た.つ",
+    "mnemonic": {
+      "text": "Sợi TƠ (糸) một khi đã bị dính MÀU SẮC (色) hoen ố thì phải CẮT ĐỨT đoạn tuyệt."
     },
-    {
-      "kanji": "置",
-      "amHan": "Trí",
-      "nghia": "Đặt, để, bố trí",
-      "onyomi": "チ",
-      "kunyomi": "お・く",
-      "mnemonic": {
-        "text": "Dùng MẮT (罒) theo dõi việc THẲNG (直) tay ĐẶT đồ vật vào vị TRÍ."
-      },
-      "examples": [
-        { "word": "置く", "reading": "おく", "meaning": "đặt, để" },
-        { "word": "位置", "reading": "いち", "meaning": "vị trí" },
-        { "word": "設置", "reading": "せっち", "meaning": "thiết lập, lắp đặt" },
-        { "word": "放置", "reading": "ほうち", "meaning": "để mặc, bỏ mặc" },
-        { "word": "装置", "reading": "そうち", "meaning": "trang thiết bị" },
-        { "word": "置き忘れる", "reading": "おきわすれる", "meaning": "để quên" }
-      ]
+    "examples": [
+      { "word": "絶えず", "reading": "たえず", "meaning": "liên tục, không ngớt, không đứt đoạn" },
+      { "word": "絶対に", "reading": "ぜったいに", "meaning": "tuyệt đối, nhất định" },
+      { "word": "絶望する", "reading": "ぜつぼうする", "meaning": "tuyệt vọng" },
+      { "word": "気絶する", "reading": "きぜつする", "meaning": "ngất xỉu, ngất đi" },
+      { "word": "絶滅する", "reading": "ぜつめつする", "meaning": "tuyệt chủng" },
+      { "word": "絶好の", "reading": "ぜっこうの", "meaning": "tuyệt vời, lý tưởng (cơ hội tuyệt hảo 絶好の機会)" },
+      { "word": "絶交する", "reading": "ぜっこうする", "meaning": "cắt đứt quan hệ bạn bè, nghỉ chơi" }
+    ]
+  },
+  {
+    "kanji": "宴",
+    "amHan": "Yến",
+    "nghia": "Yến tiệc, tiệc tùng",
+    "onyomi": "エン",
+    "kunyomi": "うたげ",
+    "mnemonic": {
+      "text": "Dưới MÁI NHÀ (宀) vào NGÀY (日) nghỉ, người PHỤ NỮ (女) sửa soạn mở YẾN TIỆC."
     },
-    {
-      "kanji": "寝",
-      "amHan": "Tẩm",
-      "nghia": "Ngủ",
-      "onyomi": "シン",
-      "kunyomi": "ね・る / ね・かす",
-      "mnemonic": {
-        "text": "Trong NHÀ (宀), dùng CHỔI (帚) quét dọn chỗ nằm cho người BỆNH (爿 - biến thể) NGỦ."
-      },
-      "examples": [
-        { "word": "寝る", "reading": "ねる", "meaning": "ngủ" },
-        { "word": "寝室", "reading": "しんしつ", "meaning": "phòng ngủ" },
-        { "word": "昼寝", "reading": "ひるね", "meaning": "ngủ trưa" },
-        { "word": "寝不足", "reading": "ねぶそく", "meaning": "thiếu ngủ" },
-        { "word": "寝坊", "reading": "ねぼう", "meaning": "ngủ nướng, dậy muộn" }
-      ]
+    "examples": [
+      { "word": "宴", "reading": "うたげ", "meaning": "bữa tiệc, yến tiệc (lời cổ)" },
+      { "word": "宴会", "reading": "えんかい", "meaning": "buổi tiệc tùng, liên hoan" },
+      { "word": "酒宴", "reading": "しゅえん", "meaning": "tiệc rượu" },
+      { "word": "宴会場", "reading": "えんかいじょう", "meaning": "phòng tổ chức tiệc" },
+      { "word": "披露宴", "reading": "ひろうえん", "meaning": "tiệc kết hôn, tiệc chiêu đãi báo hỷ" },
+      { "word": "宴楽", "reading": "えんらく", "meaning": "vui chơi tiệc tùng" },
+      { "word": "祝宴", "reading": "しゅくえん", "meaning": "tiệc chúc mừng" }
+    ]
+  },
+  {
+    "kanji": "催",
+    "amHan": "Thôi",
+    "nghia": "Tổ chức, thúc giục, chủ trì",
+    "onyomi": "サイ",
+    "kunyomi": "もよお.す",
+    "mnemonic": {
+      "text": "CON NGƯỜI (亻) trèo lên đỉnh NÚI CAO (崔) để thúc giục, TỔ CHỨC lễ hội."
     },
-    {
-      "kanji": "熱",
-      "amHan": "Nhiệt",
-      "nghia": "Nhiệt độ, nóng, sốt",
-      "onyomi": "ネツ",
-      "kunyomi": "あつ・い",
-      "mnemonic": {
-        "text": "Dùng TAY (丸 - biến thể) cầm cây TRỒNG (執) trên LỬA (灬) thì sinh NHIỆT."
-      },
-      "examples": [
-        { "word": "熱い", "reading": "あつい", "meaning": "nóng (vật)" },
-        { "word": "熱心", "reading": "ねっしん", "meaning": "nhiệt tình" },
-        { "word": "熱中", "reading": "ねっちゅう", "meaning": "mải mê, say mê" },
-        { "word": "加熱", "reading": "かねつ", "meaning": "gia nhiệt, làm nóng" },
-        { "word": "高熱", "reading": "こうねつ", "meaning": "sốt cao" },
-        { "word": "情熱", "reading": "じょうねつ", "meaning": "đam mê, nhiệt huyết" }
-      ]
+    "examples": [
+      { "word": "催す", "reading": "もよおす", "meaning": "tổ chức / có triệu chứng, cảm thấy (buồn nôn 吐き気を催す)" },
+      { "word": "開催する", "reading": "かいさいする", "meaning": "tổ chức, đăng cai (sự kiện, thế vận hội)" },
+      { "word": "催眠", "reading": "さいみん", "meaning": "thôi miên (thuốc ngủ 催眠薬)" },
+      { "word": "催促する", "reading": "さいそくする", "meaning": "thúc giục, giục giã (trả nợ, nộp bài)" },
+      { "word": "主催する", "reading": "しゅさいする", "meaning": "chủ trì, đứng ra tổ chức" },
+      { "word": "催し物", "reading": "催しもの", "meaning": "sự kiện, chương trình giải trí công cộng" },
+      { "word": "催涙ガス", "reading": "さいるいガス", "meaning": "hơi cay, ga rơi lệ" }
+    ]
+  },
+  {
+    "kanji": "渇",
+    "amHan": "Khát",
+    "nghia": "Khát nước, khao khát",
+    "onyomi": "カツ",
+    "kunyomi": "かわ.く",
+    "mnemonic": {
+      "text": "Thiếu NƯỚC (氵) dưới ánh MẶT TRỜI (日) bao vây lấy NGƯỜI (匂 -> Bao quanh) sẽ vô cùng KHÁT."
     },
-    {
-      "kanji": "焼",
-      "amHan": "Thiêu",
-      "nghia": "Đốt, nướng",
-      "onyomi": "ショウ",
-      "kunyomi": "や・く / や・ける",
-      "mnemonic": {
-        "text": "Dùng LỬA (火) THIÊU rụi các đồ vật của người NGHIÊM (尭) khắc."
-      },
-      "examples": [
-        { "word": "焼く", "reading": "やく", "meaning": "nướng, đốt" },
-        { "word": "日焼け", "reading": "ひやけ", "meaning": "cháy nắng" },
-        { "word": "夕焼け", "reading": "ゆうやけ", "meaning": "hoàng hôn, ráng chiều" },
-        { "word": "燃焼", "reading": "ねんしょう", "meaning": "sự đốt cháy" },
-        { "word": "焼き立て", "reading": "やきたて", "meaning": "vừa mới nướng xong" }
-      ]
+    "examples": [
+      { "word": "渇く", "reading": "かわく", "meaning": "khát (khát nước 喉が渇く)" },
+      { "word": "渇望する", "reading": "かつぼうする", "meaning": "khao khát, thèm khát, mong mỏi" },
+      { "word": "飢渇", "reading": "きかつ", "meaning": "đói khát" },
+      { "word": "枯渇する", "reading": "こかつする", "meaning": "cạn kiệt, khô cạn (tài nguyên, ý tưởng)" },
+      { "word": "渇水", "reading": "かっすい", "meaning": "thiếu nước, hạn hán khô nước" },
+      { "word": "解渇", "reading": "かいかつ", "meaning": "giải khát" },
+      { "word": "渇愛", "reading": "かつあい", "meaning": "tình yêu cuồng nhiệt, khát khao yêu thương" }
+    ]
+  },
+  {
+    "kanji": "酌",
+    "amHan": "Chước",
+    "nghia": "Chuốc rượu, múc rượu, xem xét",
+    "onyomi": "シャク",
+    "kunyomi": "く.む",
+    "mnemonic": {
+      "text": "Dùng CÁI THÌA (勺) để múc RƯỢU (酉) ra CHUỐC cho nhau."
     },
-    {
-      "kanji": "触",
-      "amHan": "Xúc",
-      "nghia": "Chạm, tiếp xúc",
-      "onyomi": "ショク",
-      "kunyomi": "ふ・れる / さわ・る",
-      "mnemonic": {
-        "text": "Dùng SỪNG (角) của con SÂU (虫) để tiếp XÚC với thế giới."
-      },
-      "examples": [
-        { "word": "触る", "reading": "さわる", "meaning": "sờ, chạm (có chủ ý)" },
-        { "word": "触れる", "reading": "ふれる", "meaning": "chạm, đề cập đến" },
-        { "word": "感触", "reading": "かんしょく", "meaning": "cảm giác qua tiếp xúc" },
-        { "word": "接触", "reading": "せっしょく", "meaning": "tiếp xúc, va chạm" },
-        { "word": "触覚", "reading": "しょっかく", "meaning": "xúc giác" }
-      ]
+    "examples": [
+      { "word": "酌む", "reading": "くむ", "meaning": "chuốc rượu, rót rượu mời nhau" },
+      { "word": "酌量する", "reading": "しゃくりょうする", "meaning": "châm chước, xem xét giảm nhẹ (hình phạt 情状酌量)" },
+      { "word": "晩酌", "reading": "ばんしゃく", "meaning": "uống rượu giải khát vào bữa tối" },
+      { "word": "独酌", "reading": "どくしゃく", "meaning": "uống rượu một mình, độc ẩm" },
+      { "word": "お酌する", "reading": "おしゃくする", "meaning": "rót rượu (phục vụ người khác ở bàn tiệc)" },
+      { "word": "対酌", "reading": "たいしゃク", "meaning": "hai người uống rượu cùng nhau" },
+      { "word": "媒介酌", "reading": "ばいかいしゃく", "meaning": "người làm mối, mai mối" }
+    ]
+  },
+  {
+    "kanji": "騒",
+    "amHan": "Tào",
+    "nghia": "Ồn ào, huyên náo",
+    "onyomi": "ソウ",
+    "kunyomi": "さわ.ぐ、うれ.える",
+    "mnemonic": {
+      "text": "Con NGỰA (馬) khi nghe thấy tiếng côn trùng kêu râm ran trên CÂY (喿) liền làm ỒN ÀO lên."
     },
-    {
-      "kanji": "灯",
-      "amHan": "Đăng",
-      "nghia": "Đèn",
-      "onyomi": "トウ",
-      "kunyomi": "ひ",
-      "mnemonic": {
-        "text": "LỬA (火) gắn trên ĐINH (丁) thành ngọn ĐÈN."
-      },
-      "examples": [
-        { "word": "灯台", "reading": "とうだい", "meaning": "hải đăng" },
-        { "word": "電灯", "reading": "でんとう", "meaning": "đèn điện" },
-        { "word": "灯油", "reading": "とうゆ", "meaning": "dầu hỏa" },
-        { "word": "消灯", "reading": "しょうとう", "meaning": "tắt đèn" },
-        { "word": "街灯", "reading": "がいとう", "meaning": "đèn đường" }
-      ]
+    "examples": [
+      { "word": "騒ぐ", "reading": "さわぐ", "meaning": "làm ồn, làm loạn, làm rùm bén lên" },
+      { "word": "騒音", "reading": "そうおん", "meaning": "tiếng ồn, ô nhiễm tiếng ồn" },
+      { "word": "騒然", "reading": "そうぜん", "meaning": "huyên náo, hỗn loạn, xôn xao" },
+      { "word": "大騒ぎ", "reading": "おおさわぎ", "meaning": "náo loạn cả lên, làm om sòm" },
+      { "word": "騒々しい", "reading": "そうぞうしい", "meaning": "ồn ào, huyên náo, vô ý thức" },
+      { "word": "物騒な", "reading": "ぶっそうな", "meaning": "nguy hiểm, không an toàn (an ninh kém)" },
+      { "word": "騒乱", "reading": "そうらん", "meaning": "bạo động, cuộc bạo loạn ồn ào" }
+    ]
+  },
+  {
+    "kanji": "延",
+    "amHan": "Duyên",
+    "nghia": "Kéo dài, trì hoãn",
+    "onyomi": "エン",
+    "kunyomi": "の.びる、の.べる、の.ばす",
+    "mnemonic": {
+      "text": "Vừa đi BƯỚC DÀI (廴) vừa CHÍNH TRỰC (正 -> 延) nhìn đường để KÉO DÀI thời gian."
     },
-    {
-      "kanji": "油",
-      "amHan": "Du",
-      "nghia": "Dầu",
-      "onyomi": "ユ",
-      "kunyomi": "あぶら",
-      "mnemonic": {
-        "text": "NƯỚC (氵) lấy từ bình (由) ra là DẦU."
-      },
-      "examples": [
-        { "word": "油断", "reading": "ゆだん", "meaning": "lơ là, chủ quan" },
-        { "word": "しょう油", "reading": "しょうゆ", "meaning": "nước tương" },
-        { "word": "石油", "reading": "せきゆ", "meaning": "dầu mỏ" },
-        { "word": "油っこい", "reading": "あぶらっこい", "meaning": "nhiều dầu mỡ" },
-        { "word": "給油", "reading": "きゅうゆ", "meaning": "tiếp nhiên liệu" }
-      ]
+    "examples": [
+      { "word": "延びる", "reading": "のびる", "meaning": "bị kéo dài ra, bị trì hoãn" },
+      { "word": "延ばす", "reading": "のばす", "meaning": "hoãn lại, kéo dài kỳ hạn" },
+      { "word": "延長する", "reading": "えんちょうする", "meaning": "kéo dài, gia hạn (thời gian đá hiệp phụ 延長戦)" },
+      { "word": "延期する", "reading": "えんきする", "meaning": "hoãn lại, dời lịch sang ngày khác" },
+      { "word": "遅延する", "reading": "ちえんする", "meaning": "trì hoãn, đến muộn (tàu chạy trễ 遅延証明書)" },
+      { "word": "延滞する", "reading": "えんたいする", "meaning": "trả muộn, nợ quá hạn (sách thư viện, tiền nhà)" },
+      { "word": "延べ人数", "reading": "のべにんずう", "meaning": "tổng số người (cộng dồn lượt người)" }
+    ]
+  },
+  {
+    "kanji": "超",
+    "amHan": "Siêu",
+    "nghia": "Vượt qua, siêu phàm",
+    "onyomi": "チョウ",
+    "kunyomi": "こ.える、こ.おす",
+    "mnemonic": {
+      "text": "CHẠY (走) thật nhanh sau tiếng KÊU GỌI (召) để VƯỢT QUA mọi người."
     },
-    {
-      "kanji": "余",
-      "amHan": "Dư",
-      "nghia": "Dư thừa",
-      "onyomi": "ヨ",
-      "kunyomi": "あま・る / あま・す",
-      "mnemonic": {
-        "text": "Tòa NHÀ (亼) có 8 (八) người vào nhưng vẫn DƯ chỗ cho NGƯỜI (个) nữa."
-      },
-      "examples": [
-        { "word": "余る", "reading": "あまる", "meaning": "dư thừa" },
-        { "word": "余分", "reading": "よぶん", "meaning": "phần dư, thừa ra" },
-        { "word": "余裕", "reading": "よゆう", "meaning": "phần dư (thời gian, tiền bạc, tâm trí)" },
-        { "word": "余計", "reading": "よけい", "meaning": "thừa thãi, không cần thiết" },
-        { "word": "余白", "reading": "よはく", "meaning": "lề trắng, khoảng trống" },
-        { "word": "余暇", "reading": "よか", "meaning": "thời gian rảnh rỗi" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "超える", "reading": "こえる", "meaning": "vượt quá, bứt phá (vượt quá 100 người)" },
+      { "word": "超過する", "reading": "ちょうかする", "meaning": "vượt quá (hành lý quá cước, quá giờ)" },
+      { "word": "超越する", "reading": "ちょうえつする", "meaning": "siêu việt, vượt lên trên giới hạn thông thường" },
+      { "word": "超能力", "reading": "ちょうのうりょく", "meaning": "siêu năng lực, khả năng ngoại cảm" },
+      { "word": "超満員", "reading": "ちょうまんいん", "meaning": "quá tải, đông nghịt người" },
+      { "word": "超音速", "reading": "ちょうおんそく", "meaning": "vận tốc siêu thanh" },
+      { "word": "超～", "reading": "ちょう～", "meaning": "siêu... (từ lóng biểu thị mức độ cực kỳ: 超美味しい)" }
+    ]
+  },
+  {
+    "kanji": "更",
+    "amHan": "Canh",
+    "nghia": "Thay đổi, cải cách, canh đêm, hơn nữa",
+    "onyomi": "コウ",
+    "kunyomi": "さら、さら.に、ふ.ける",
+    "mnemonic": {
+      "text": "Cầm roi ĐÁNH (攵) vào cái CỐI (曰) để THAY ĐỔI hình dạng của nó."
+    },
+    "examples": [
+      { "word": "更に", "reading": "さらに", "meaning": "hơn nữa, thêm vào đó" },
+      { "word": "夜が更ける", "reading": "よがふける", "meaning": "đêm đã về khuya" },
+      { "word": "変更する", "reading": "へんこうする", "meaning": "thay đổi, sửa đổi (lịch trình, kế hoạch)" },
+      { "word": "更新する", "reading": "こうしんする", "meaning": "cập nhật (hồ sơ, phần mềm) / gia hạn (visa, hợp đồng)" },
+      { "word": "更生する", "reading": "こうせいする", "meaning": "hoàn lương, làm lại cuộc đời" },
+      { "word": "更衣室", "reading": "こういしつ", "meaning": "phòng thay đồ" },
+      { "word": "更年期", "reading": "こうねんき", "meaning": "giai đoạn tiền mãn kinh, tuổi xế chiều" }
+    ]
+  },
+  {
+    "kanji": "徹",
+    "amHan": "Triệt",
+    "nghia": "Xuyên suốt, triệt để",
+    "onyomi": "テツ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "BƯỚC ĐI (彳) một cách TRIỆT ĐỂ, quản lý ĐỨA TRẺ (育) bằng HÀNH ĐỘNG MẠNH (攵)."
+    },
+    "examples": [
+      { "word": "徹底的な", "reading": "てっていてきな", "meaning": "một cách triệt để, tận gốc, kỹ lưỡng" },
+      { "word": "徹夜する", "reading": "てつやする", "meaning": "thức trắng đêm, cày đêm" },
+      { "word": "貫徹する", "reading": "かんてつする", "meaning": "quán triệt, thực hiện đến cùng (ý chí, mục tiêu)" },
+      { "word": "徹頭徹尾", "reading": "てっとうてつび", "meaning": "từ đầu đến cuối, triệt để toàn diện (thành ngữ)" },
+      { "word": "冷徹な", "reading": "れいてつな", "meaning": "tỉnh táo đến mức lạnh lùng, sáng suốt khách quan" },
+      { "word": "徹する", "reading": "てっする", "meaning": "thấu đáo, đóng vai trò xuyên suốt (giữ vai trò trung lập 厳正中立に徹する)" },
+      { "word": "不徹底", "reading": "ふてってい", "meaning": "không triệt để, nửa vời" }
+    ]
+  },
+  {
+    "kanji": "億",
+    "amHan": "Ức",
+    "nghia": "Trăm triệu (số đếm)",
+    "onyomi": "オク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "CON NGƯỜI (人 -> 亻) có Ý CHÍ (意) lớn lao thì kiếm được hàng TRĂM TRIỆU."
+    },
+    "examples": [
+      { "word": "億", "reading": "おく", "meaning": "100,000,000 (một trăm triệu)" },
+      { "word": "一億", "reading": "いちおく", "meaning": "một trăm triệu" },
+      { "word": "億万長者", "reading": "おくまんちょうじゃ", "meaning": "tỷ phú, triệu phú, người cực giàu" },
+      { "word": "億兆", "reading": "おくちょう", "meaning": "nhân dân, bách tính đại chúng" },
+      { "word": "十億", "reading": "じゅうおく", "meaning": "một tỷ" },
+      { "word": "百億", "reading": "ひゃくおく", "meaning": "mười tỷ" },
+      { "word": "億単位", "reading": "おくたんい", "meaning": "đơn vị hàng trăm triệu" }
+    ]
+  },
+  {
+    "kanji": "僕",
+    "amHan": "Bộc",
+    "nghia": "Tôi (ngôi thứ nhất nam giới), đầy tớ",
+    "onyomi": "ボク",
+    "kunyomi": "しもべ",
+    "mnemonic": {
+      "text": "CON NGƯỜI (亻) làm việc vất vả trong NGÀNH NGHỀ NGHIỆP (菐) thì xưng là ĐẦY TỚ, kẻ BỘC."
+    },
+    "examples": [
+      { "word": "僕", "reading": "ぼく", "meaning": "tôi, tớ (nam giới dùng thân mật)" },
+      { "word": "公僕", "reading": "こうぼく", "meaning": "công bộc, người đầy tớ của nhân dân (chỉ công chức)" },
+      { "word": "下僕", "reading": "げぼく", "meaning": "hạ bộc, đầy tớ, kẻ hầu hạ" },
+      { "word": "主僕", "reading": "しゅぼく", "meaning": "chủ và tớ" },
+      { "word": "忠僕", "reading": "ちゅうぼく", "meaning": "người đầy tớ trung thành" },
+      { "word": "僕等", "reading": "ぼくら", "meaning": "chúng tôi, bọn tớ" },
+      { "word": "老僕", "reading": "ろうぼく", "meaning": "người đầy tớ già" }
+    ]
+  },
+  {
+    "kanji": "僚",
+    "amHan": "Liêu",
+    "nghia": "Quan lại, bạn đồng nghiệp",
+    "onyomi": "リョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "CON NGƯỜI (亻) cùng làm việc dưới ánh LỬA BAN ĐÊM (尞) là ĐỒNG LIÊU."
+    },
+    "examples": [
+      { "word": "同僚", "reading": "どうりょう", "meaning": "đồng nghiệp, người làm chung công ty" },
+      { "word": "官僚", "reading": "かんりょう", "meaning": "quan liêu, giới chức trách, quan chức chính phủ" },
+      { "word": "幕僚", "reading": "ばくりょう", "meaning": "sĩ quan tham mưu, cố vấn cấp cao" },
+      { "word": "閣僚", "reading": "かくりょう", "meaning": "thành viên nội các chính phủ" },
+      { "word": "僚友", "reading": "りょうゆう", "meaning": "bạn đồng nghiệp, bạn đồng liêu" },
+      { "word": "官僚主義", "reading": "かんりょうしゅぎ", "meaning": "chủ nghĩa quan liêu, hách dịch" },
+      { "word": "同僚愛", "reading": "どうりょうあい", "meaning": "tình đồng nghiệp" }
+    ]
+  },
+  {
+    "kanji": "輩",
+    "amHan": "Bối",
+    "nghia": "Thế hệ, hàng ngũ, tiền bối hậu bối",
+    "onyomi": "ハイ",
+    "kunyomi": "ともがら",
+    "mnemonic": {
+      "text": "Hàng loạt XE (車) xếp hàng NGANG NHAU KHÔNG SAI BIỆT (非) phân chia thành từng THẾ HỆ."
+    },
+    "examples": [
+      { "word": "先輩", "reading": "せんぱい", "meaning": "tiền bối, người đi trước, đàn anh đàn chị" },
+      { "word": "後輩", "reading": "こうはい", "meaning": "hậu bối, người đi sau, đàn em" },
+      { "word": "同輩", "reading": "どうはい", "meaning": "người cùng trang lứa, đồng nghiệp ngang hàng" },
+      { "word": "我輩", "reading": "わがはい", "meaning": "bản thân ta, ta đây (cách xưng hô ngạo nghễ, cổ)" },
+      { "word": "輩出する", "reading": "はいしゅつする", "meaning": "sản sinh ra nhiều nhân tài liên tục" },
+      { "word": "若輩", "reading": "じゃくはい", "meaning": "người trẻ tuổi, người non nớt chưa có kinh nghiệm" },
+      { "word": "徒輩", "reading": "とはい", "meaning": "bọn họ, những kẻ cùng giuộc" }
+    ]
+  },
+  {
+    "kanji": "誰",
+    "amHan": "Thùy",
+    "nghia": "Ai (đại từ nghi vấn)",
+    "onyomi": "スイ",
+    "kunyomi": "だれ、たれ",
+    "mnemonic": {
+      "text": "Dùng LỜI NÓI (言) để hỏi xem CON CHIM ĐUÔI NGẮN (隹) kia thuộc về AI."
+    },
+    "examples": [
+      { "word": "誰", "reading": "だれ", "meaning": "ai" },
+      { "word": "誰か", "reading": "だれか", "meaning": "ai đó (có ai đó ở cửa 誰かがいる)" },
+      { "word": "誰でも", "reading": "だれでも", "meaning": "bất kỳ ai, ai cũng" },
+      { "word": "誰彼", "reading": "だれかれ", "meaning": "người này người kia, bất kỳ ai" },
+      { "word": "誰もが", "reading": "だれもが", "meaning": "tất thảy mọi người" },
+      { "word": "誰の", "reading": "だれの", "meaning": "của ai" },
+      { "word": "誰一人として～ない", "reading": "だれひとりとして～ない", "meaning": "không một ai..." }
+    ]
+  }
+]

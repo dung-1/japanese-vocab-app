@@ -1,243 +1,249 @@
 ﻿[
-    {
-      "kanji": "得",
-      "amHan": "Đắc",
-      "nghia": "Đạt được, thu được",
-      "onyomi": "トク",
-      "kunyomi": "え・る / う・る",
-      "mnemonic": {
-        "text": "BƯỚC ĐI (彳) trên đường, dùng MẮT (目) quan sát và TAY (寸) nắm lấy để ĐẮC lợi."
-      },
-      "examples": [
-        { "word": "得る", "reading": "える", "meaning": "thu được, có được" },
-        { "word": "納得", "reading": "なっとく", "meaning": "thuyết phục, hiểu ra" },
-        { "word": "得意", "reading": "とくい", "meaning": "giỏi, tâm đắc" },
-        { "word": "所得", "reading": "しょとく", "meaning": "thu nhập" },
-        { "word": "利得", "reading": "りとく", "meaning": "lợi nhuận, lãi" },
-        { "word": "お買得", "reading": "おかいどく", "meaning": "mua được giá hời" }
-      ]
+  {
+    "kanji": "丁",
+    "amHan": "Đinh / Đương",
+    "nghia": "Anh tráng đinh, khối, miếng, đơn vị đếm đậu phụ/món ăn, khu phố (đơn vị hành chính)",
+    "onyomi": "チョウ、テイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Hình vẽ chiếc ĐINH sắt cắm xuống gỗ, nghĩa gốc chỉ chiếc đinh, sau mượn làm đơn vị đếm bìa đậu phụ hoặc khu phố."
     },
-    {
-      "kanji": "告",
-      "amHan": "Cáo",
-      "nghia": "Thông báo, báo cáo",
-      "onyomi": "コク",
-      "kunyomi": "つ・げる",
-      "mnemonic": {
-        "text": "Dùng MIỆNG (口) để thông báo về con TRÂU (牛 - biến thể) bị lạc."
-      },
-      "examples": [
-        { "word": "報告", "reading": "ほうこく", "meaning": "báo cáo" },
-        { "word": "広告", "reading": "こうこく", "meaning": "quảng cáo" },
-        { "word": "告げる", "reading": "つげる", "meaning": "thông báo, cho biết" },
-        { "word": "告白", "reading": "こくはく", "meaning": "thú nhận, tỏ tình" },
-        { "word": "警告", "reading": "けいこく", "meaning": "cảnh báo" },
-        { "word": "被告", "reading": "ひこく", "meaning": "bị cáo" }
-      ]
+    "examples": [
+      { "word": "丁度", "reading": "ちょうど", "meaning": "vừa vặn, vừa khít, đúng lúc" },
+      { "word": "一丁", "reading": "いっちょう", "meaning": "một bìa (đậu phụ), một đĩa/một bát (món ăn khi gọi ở quán)" },
+      { "word": "一丁目", "reading": "いっちょうめ", "meaning": "Khu phố số 1 (địa chỉ hành chính của Nhật)" },
+      { "word": "丁寧な", "reading": "ていねいな", "meaning": "lịch sự, cẩn thận, chu đáo" },
+      { "word": "包丁", "reading": "ほうちょう", "meaning": "con dao làm bếp" },
+      { "word": "丁半", "reading": "ちょうはん", "meaning": "trò chơi cá cược chẵn lẻ (xúc xắc cổ của Nhật)" },
+      { "word": "丁年", "reading": "ていねん", "meaning": "tuổi trưởng thành, thanh niên trai tráng" }
+    ]
+  },
+  {
+    "kanji": "塚",
+    "amHan": "Trủng",
+    "nghia": "Gò đất, ngôi mộ lớn, nấm mồ",
+    "onyomi": "チョウ",
+    "kunyomi": "つか",
+    "mnemonic": {
+      "text": "Vun ĐẤT (土) lên cao bao bọc như một ngôi nhà (冖) để chôn cất con HEO (豕 -> phần dưới của 冢), tạo thành một GÒ MỘ lớn."
     },
-    {
-      "kanji": "税",
-      "amHan": "Thuế",
-      "nghia": "Thuế phí",
-      "onyomi": "ゼイ",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Nộp LÚA (禾) cho các ANH (兄) quản lý để đóng THUẾ."
-      },
-      "examples": [
-        { "word": "税金", "reading": "ぜいきん", "meaning": "tiền thuế" },
-        { "word": "消費税", "reading": "しょうひぜい", "meaning": "thuế tiêu thụ" },
-        { "word": "免税", "reading": "めんぜい", "meaning": "miễn thuế" },
-        { "word": "関税", "reading": "かんぜい", "meaning": "thuế quan" },
-        { "word": "納税", "reading": "のうぜい", "meaning": "nộp thuế" }
-      ]
+    "examples": [
+      { "word": "塚", "reading": "つか", "meaning": "gò đất, nấm mồ cổ" },
+      { "word": "宝塚", "reading": "たからづか", "meaning": "thành phố Takarazuka (tỉnh Hyogo) / Đoàn kịch nghệ thuật Takarazuka nổi tiếng" },
+      { "word": "一里塚", "reading": "いちりづか", "meaning": "cột mốc gò đất đánh dấu mỗi một dặm (thời cổ)" },
+      { "word": "貝塚", "reading": "かいづか", "meaning": "đống rác vỏ sò (di tích khảo cổ thời Jomon)" },
+      { "word": "古墳(塚)", "reading": "こふん", "meaning": "lăng mộ cổ, gò mộ cổ của tầng lớp vua chúa Nhật xưa" },
+      { "word": "塚穴", "reading": "つかあな", "meaning": "hang mộ, huyệt mộ cổ" },
+      { "word": "大塚", "reading": "おおつか", "meaning": "Ootsuka (địa danh / họ người Nhật rất phổ biến)" }
+    ]
+  },
+  {
+    "kanji": "泡",
+    "amHan": "Bào",
+    "nghia": "Bong bóng, bọt nước",
+    "onyomi": "ホウ",
+    "kunyomi": "あわ",
+    "mnemonic": {
+      "text": "NƯỚC (氵) bị bao BỌC (包) không khí bên trong tạo thành những hạt BONG BÓNG."
     },
-    {
-      "kanji": "価",
-      "amHan": "Giá",
-      "nghia": "Giá trị, giá cả",
-      "onyomi": "カ",
-      "kunyomi": "あたい",
-      "mnemonic": {
-        "text": "NGƯỜI (亻) phương TÂY (西) thường hay thảo luận về GIÁ trị."
-      },
-      "examples": [
-        { "word": "価値", "reading": "かち", "meaning": "giá trị" },
-        { "word": "物価", "reading": "ぶっか", "meaning": "vật giá" },
-        { "word": "価格", "reading": "かかく", "meaning": "giá cả" },
-        { "word": "評価", "reading": "ひょうか", "meaning": "đánh giá" },
-        { "word": "定価", "reading": "ていか", "meaning": "giá cố định" }
-      ]
+    "examples": [
+      { "word": "泡", "reading": "あわ", "meaning": "bọt, bong bóng (bọt xà phòng)" },
+      { "word": "水泡", "reading": "すいほう", "meaning": "bọt nước / tan thành mây khói, công cốc (水泡に帰す)" },
+      { "word": "発泡する", "reading": "はっぽうする", "meaning": "sủi bọt, tạo bọt (rượu vang sủi bọt)" },
+      { "word": "泡立つ", "reading": "あわだつ", "meaning": "nổi bọt lên, sủi bọt đầy lên" },
+      { "word": "泡を食う", "reading": "あわをくう", "meaning": "luống cuống, hốt hoảng trở tay không kịp" },
+      { "word": "気泡", "reading": "きほう", "meaning": "bọt khí (trong chất lỏng hoặc trong kính)" },
+      { "word": "発泡スチロール", "reading": "はっぽうスチロール", "meaning": "thùng xốp, nhựa xốp EPS" }
+    ]
+  },
+  {
+    "kanji": "吐",
+    "amHan": "Thổ",
+    "nghia": "Nôn mửa, nhổ ra, nói ra ra",
+    "onyomi": "ト",
+    "kunyomi": "は.く",
+    "mnemonic": {
+      "text": "MỞ MIỆNG (口) nôn sạch những đồ ăn dính ĐẤT (土) ra ngoài."
     },
-    {
-      "kanji": "格",
-      "amHan": "Cách",
-      "nghia": "Tư cách, tiêu chuẩn",
-      "onyomi": "カク",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Cái CÂY (木) này mọc ở CÁC (各) nơi đều giữ đúng quy CÁCH."
-      },
-      "examples": [
-        { "word": "合格", "reading": "ごうかく", "meaning": "đỗ, vượt qua kỳ thi" },
-        { "word": "資格", "reading": "しかく", "meaning": "tư cách, bằng cấp" },
-        { "word": "性格", "reading": "せいかく", "meaning": "tính cách" },
-        { "word": "格好", "reading": "かっこう", "meaning": "ngoại hình, dáng vẻ" },
-        { "word": "格差", "reading": "かくさ", "meaning": "khoảng cách, chênh lệch" },
-        { "word": "規格", "reading": "きかく", "meaning": "quy cách, tiêu chuẩn" }
-      ]
+    "examples": [
+      { "word": "吐く", "reading": "はく", "meaning": "nôn mửa / nhổ (nước bọt) / thở ra / nói ra (thú nhận, nói lời thật lòng)" },
+      { "word": "吐き気", "reading": "はきけ", "meaning": "cảm giác buồn nôn, nôn nao trong người" },
+      { "word": "吐露する", "reading": "とろする", "meaning": "bày tỏ lòng mình, thổ lộ hết tâm can" },
+      { "word": "意気地吐(意気地なし)", "reading": "いくじなし", "meaning": "kẻ hèn nhát, nhút nhát, không có chí khí" },
+      { "word": "嘔吐する", "reading": "おうとする", "meaning": "nôn mửa, nôn oẹ (thuật ngữ y học)" },
+      { "word": "吐き出す", "reading": "はきだす", "meaning": "nôn ra, khạc ra, xả khói ra bên ngoài" },
+      { "word": "弱音を吐く", "reading": "よわねをはく", "meaning": "than vãn, rên rỉ, thốt ra những lời yếu đuối chịu thua" }
+    ]
+  },
+  {
+    "kanji": "境",
+    "amHan": "Cảnh",
+    "nghia": "Biên giới, hoàn cảnh, cảnh ngộ",
+    "onyomi": "キョウ、ケイ",
+    "kunyomi": "さかい",
+    "mnemonic": {
+      "text": "Vùng ĐẤT (土) mà con người đi ĐẾN CÙNG ĐƯỜNG (竟) không thể đi tiếp chính là BIÊN GIỚI."
     },
-    {
-      "kanji": "超",
-      "amHan": "Siêu",
-      "nghia": "Vượt quá, siêu phàm",
-      "onyomi": "チョウ",
-      "kunyomi": "こ・える / こ・おす",
-      "mnemonic": {
-        "text": "CHẠY (走) để triệu (召) tập mọi người nhằm SIÊU thoát hoặc vượt qua giới hạn."
-      },
-      "examples": [
-        { "word": "超える", "reading": "こえる", "meaning": "vượt quá (số lượng, giới hạn)" },
-        { "word": "超過", "reading": "ちょうか", "meaning": "vượt quá (hạn mức)" },
-        { "word": "超満員", "reading": "ちょうまんいん", "meaning": "quá đông người" },
-        { "word": "超特急", "reading": "ちょうとっきゅう", "meaning": "tàu siêu tốc" },
-        { "word": "超越", "reading": "ちょうえつ", "meaning": "siêu việt" }
-      ]
+    "examples": [
+      { "word": "境", "reading": "さかい", "meaning": "ranh giới, biên giới" },
+      { "word": "国境", "reading": "こっきょう / くにざかい", "meaning": "biên giới quốc gia" },
+      { "word": "環境", "reading": "かんきょう", "meaning": "môi trường (môi trường sống, bảo vệ môi trường)" },
+      { "word": "境遇", "reading": "きょうぐう", "meaning": "cảnh ngộ, hoàn cảnh sống của một người" },
+      { "word": "境界", "reading": "きょうかい", "meaning": "ranh giới, giới hạn, biên giới lĩnh vực" },
+      { "word": "心境", "reading": "しんきょう", "meaning": "tâm trạng, trạng thái cảm xúc trong lòng (tâm cảnh)" },
+      { "word": "境内", "reading": "けいだい", "meaning": "khuôn viên bên trong của đền thờ thần đạo hoặc chùa chiền" }
+    ]
+  },
+  {
+    "kanji": "宇",
+    "amHan": "Vũ",
+    "nghia": "Không gian vô tận, mái nhà lớn, hiên nhà",
+    "onyomi": "ウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dưới MÁI NHÀ (宀), con người luôn khao khát vươn LÊN CAO (于) chạm tới khoảng không VŨ TRỤ."
     },
-    {
-      "kanji": "均",
-      "amHan": "Quân",
-      "nghia": "Bình quân, đồng đều",
-      "onyomi": "キン",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Dưới ĐẤT (土), người ta BAO (勹) quanh 2 (二) vật để chia cho ĐỀU nhau."
-      },
-      "examples": [
-        { "word": "平均", "reading": "へいきん", "meaning": "trung bình" },
-        { "word": "均等", "reading": "きんとう", "meaning": "cân bằng, đồng đều" },
-        { "word": "均一", "reading": "きんいつ", "meaning": "nhất loạt, đồng nhất" },
-        { "word": "均衡", "reading": "きんこう", "meaning": "cán cân, sự thăng bằng" }
-      ]
+    "examples": [
+      { "word": "宇宙", "reading": "うちゅう", "meaning": "vũ trụ, khoảng không gian bên ngoài trái đất" },
+      { "word": "宇宙飛行士", "reading": "うちゅうひこうし", "meaning": "phi hành gia, nhà du hành vũ trụ" },
+      { "word": "宇宙船", "reading": "うちゅうせん", "meaning": "tàu vũ trụ" },
+      { "word": "堂宇", "reading": "どうう", "meaning": "mái nhà lớn, các tòa điện thờ quy mô của nhà chùa" },
+      { "word": "眉宇", "reading": "びう", "meaning": "vầng trán, nét mặt khí chất (vũ trụ biểu lộ trên đôi mày)" },
+      { "word": "気宇壮大", "reading": "きうそうだい", "meaning": "chí hướng vĩ đại, tấm lòng bao la khoáng đạt (thành ngữ)" },
+      { "word": "宇内", "reading": "うだい", "meaning": "khắp thế giới, trong thiên hạ" }
+    ]
+  },
+  {
+    "kanji": "宙",
+    "amHan": "Trụ",
+    "nghia": "Thời gian vô tận, vũ trụ, khoảng không lơ lửng",
+    "onyomi": "チュウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "MÁI NHÀ (宀) bao bọc lấy NGUYÊN DO CỘI RỄ (由) của thời gian tạo nên TRỤ."
     },
-    {
-      "kanji": "靴",
-      "amHan": "Ngoa",
-      "nghia": "Giày",
-      "onyomi": "カ",
-      "kunyomi": "くつ",
-      "mnemonic": {
-        "text": "Lấy DA (革) làm vật để THAY ĐỔI (化) bảo vệ đôi chân thì gọi là GIÀY."
-      },
-      "examples": [
-        { "word": "靴下", "reading": "くつした", "meaning": "tất, vớ" },
-        { "word": "製靴", "reading": "せいか", "meaning": "sản xuất giày" },
-        { "word": "長靴", "reading": "ながぐつ", "meaning": "ủng, giày cao cổ" },
-        { "word": "運動靴", "reading": "うんどうぐつ", "meaning": "giày thể thao" }
-      ]
+    "examples": [
+      { "word": "宇宙", "reading": "うちゅう", "meaning": "vũ trụ" },
+      { "word": "宙返り", "reading": "ちゅうがえり", "meaning": "nhào lộn một vòng trên không trung" },
+      { "word": "宙に浮く", "reading": "ちゅうにうく", "meaning": "lơ lửng giữa chừng / (kế hoạch) bị bỏ lửng, chưa được giải quyết" },
+      { "word": "宙乗り", "reading": "ちゅうのり", "meaning": "kỹ thuật đu dây bay lượn trên không (trong kịch Kabuki)" },
+      { "word": "宙で覚える", "reading": "ちゅうでおぼえる", "meaning": "học thuộc lòng vẹt (không cần nhìn sách)" },
+      { "word": "宙読", "reading": "ちゅうどく", "meaning": "đọc thuộc lòng lòng, đọc vanh vách từ trí nhớ" },
+      { "word": "中宙(空中)", "reading": "くうちゅう", "meaning": "khoảng không, trên không trung" }
+    ]
+  },
+  {
+    "kanji": "害",
+    "amHan": "Hại",
+    "nghia": "Tổn hại, nguy hại, độc hại",
+    "onyomi": "ガイ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Trong NHÀ (宀) mà cây cối mọc ĐÂM TOẠC TRẦN (丰) rồi còn mở MIỆNG (口) kêu ca thì thật là nguy HẠI."
     },
-    {
-      "kanji": "供",
-      "amHan": "Cung",
-      "nghia": "Cung cấp, trẻ con",
-      "onyomi": "キョウ / ク",
-      "kunyomi": "そな・える / とも",
-      "mnemonic": {
-        "text": "NGƯỜI (亻) cùng nhau (共) CUNG cấp lễ vật."
-      },
-      "examples": [
-        { "word": "子供", "reading": "こども", "meaning": "trẻ con" },
-        { "word": "提供", "reading": "ていきょう", "meaning": "cung cấp" },
-        { "word": "供える", "reading": "そなえる", "meaning": "thắp hương, cúng bái" },
-        { "word": "自供", "reading": "じきょう", "meaning": "tự thú" },
-        { "word": "試供品", "reading": "しきょうひん", "meaning": "hàng dùng thử" }
-      ]
+    "examples": [
+      { "word": "公害", "reading": "こうがい", "meaning": "ô nhiễm môi trường công cộng (do công nghiệp phát sinh)" },
+      { "word": "被害", "reading": "ひがい", "meaning": "thiệt hại, gánh chịu tổn thất" },
+      { "word": "害虫", "reading": "がいちゅう", "meaning": "côn trùng có hại, sâu bệnh" },
+      { "word": "有害な", "reading": "ゆうがいな", "meaning": "có hại, độc hại (chất độc hại)" },
+      { "word": "利害", "reading": "りがい", "meaning": "lợi ích và tổn hại, quyền lợi sát sườn (lợi hại)" },
+      { "word": "殺害する", "reading": "さつがいする", "meaning": "sát hại, giết hại" },
+      { "word": "害する", "reading": "がいする", "meaning": "gây tổn hại, làm hư hỏng (làm tổn hại sức khỏe 健康を害する)" }
+    ]
+  },
+  {
+    "kanji": "択",
+    "amHan": "Trạch",
+    "nghia": "Lựa chọn, tuyển chọn",
+    "onyomi": "タク",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Dùng CÁI TAY (扌) đo đạc bằng THƯỚC (尺) cẩn thận để đưa ra lựa CHỌN chuẩn nhất."
     },
-    {
-      "kanji": "象",
-      "amHan": "Tượng",
-      "nghia": "Con voi, hình tượng",
-      "onyomi": "ショウ / ゾウ",
-      "kunyomi": "",
-      "mnemonic": {
-        "text": "Hình vẽ phác họa hình dáng của một con VOI."
-      },
-      "examples": [
-        { "word": "象", "reading": "ぞう", "meaning": "con voi" },
-        { "word": "対象", "reading": "たいしょう", "meaning": "đối tượng" },
-        { "word": "印象", "reading": "いんしょう", "meaning": "ấn tượng" },
-        { "word": "現象", "reading": "げんしょう", "meaning": "hiện tượng" },
-        { "word": "気象", "reading": "きしょう", "meaning": "khí tượng" },
-        { "word": "象徴", "reading": "しょうちょう", "meaning": "biểu tượng" }
-      ]
+    "examples": [
+      { "word": "選択する", "reading": "せんたくする", "meaning": "lựa chọn (chọn đáp án, chọn con đường)" },
+      { "word": "二者択一", "reading": "にしゃたくいつ", "meaning": "chọn một trong hai (tình huống tiến thoái lưỡng nan)" },
+      { "word": "採択する", "reading": "さいたくする", "meaning": "thông qua, chấp nhận áp dụng (thông qua nghị quyết, chọn bộ sách giáo khoa)" },
+      { "word": "択一式", "reading": "たくいつしき", "meaning": "hình thức thi trắc nghiệm chọn một đáp án đúng" },
+      { "word": "選択肢", "reading": "せんたくし", "meaning": "các phương án lựa chọn, các option" },
+      { "word": "二択", "reading": "にたく", "meaning": "hai sự lựa chọn (câu hỏi đúng/sai)" },
+      { "word": "抜択", "reading": "ばったく", "meaning": "tuyển chọn ra những phần ưu tú xuất sắc nhất" }
+    ]
+  },
+  {
+    "kanji": "極",
+    "amHan": "Cực",
+    "nghia": "Cực đoan, tột cùng, đỉnh cực, nam bắc cực",
+    "onyomi": "キョク、ゴク",
+    "kunyomi": "きわ.める、きわ.まる、きわ.めて",
+    "mnemonic": {
+      "text": "Lấy CÁI CÂY (木) làm cột mốc chạy KỊP ĐẾN ĐÍCH (及) ở phần đất VUÔNG VỨC (𠀎) tột cùng của Trái Đất."
     },
-    {
-      "kanji": "組",
-      "amHan": "Tổ",
-      "nghia": "Tổ chức, lắp ráp",
-      "onyomi": "ソ",
-      "kunyomi": "く・む / くみ",
-      "mnemonic": {
-        "text": "Dùng SỢI CHỈ (糸) để gắn kết mọi người trong dòng TỘC (且) thành một TỔ chức."
-      },
-      "examples": [
-        { "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình (TV)" },
-        { "word": "組織", "reading": "そしき", "meaning": "tổ chức" },
-        { "word": "組む", "reading": "くむ", "meaning": "lắp ghép, phối hợp" },
-        { "word": "組み合わせ", "reading": "くみあわせ", "meaning": "sự kết hợp" },
-        { "word": "組合", "reading": "くみあい", "meaning": "nghiệp đoàn, công đoàn" }
-      ]
+    "examples": [
+      { "word": "極めて", "reading": "きわめて", "meaning": "cực kỳ, vô cùng (mức độ rất cao - dùng trong văn viết)" },
+      { "word": "極限", "reading": "きょくげん", "meaning": "giới hạn tột cùng, hạn độ tối đa" },
+      { "word": "南極", "reading": "なんきょく", "meaning": "Nam Cực" },
+      { "word": "積極的な", "reading": "せっきょくてきな", "meaning": "tích cực, chủ động (học tập tích cực)" },
+      { "word": "消極的な", "reading": "しょうきょくてきな", "meaning": "tiêu cực, thụ động, rụt rè" },
+      { "word": "極楽", "reading": "ごくらく", "meaning": "cõi cực lạc, thiên đường dễ chịu sung sướng" },
+      { "word": "見極める", "reading": "みきわめる", "meaning": "nhìn thấu suốt, xem xét kỹ lưỡng bản chất sự việc" }
+    ]
+  },
+  {
+    "kanji": "湾",
+    "amHan": "Vịnh",
+    "nghia": "Bờ biển cong, vịnh biển",
+    "onyomi": "ワン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Vùng NƯỚC (氵) ăn sâu vào bờ tạo thành một đường CONG (弯) mềm mại chính là cái VỊNH."
     },
-    {
-      "kanji": "値",
-      "amHan": "Trị",
-      "nghia": "Giá trị",
-      "onyomi": "チ",
-      "kunyomi": "あたい / ね",
-      "mnemonic": {
-        "text": "NGƯỜI (亻) đứng THẲNG (直) để khẳng định GIÁ TRỊ của mình."
-      },
-      "examples": [
-        { "word": "値段", "reading": "ねだん", "meaning": "giá cả" },
-        { "word": "価値", "reading": "かち", "meaning": "giá trị" },
-        { "word": "数値", "reading": "すうち", "meaning": "giá trị bằng số" },
-        { "word": "値上げ", "reading": "ねあげ", "meaning": "tăng giá" },
-        { "word": "値引き", "reading": "ねびき", "meaning": "giảm giá" }
-      ]
+    "examples": [
+      { "word": "湾", "reading": "わん", "meaning": "vịnh biển" },
+      { "word": "東京湾", "reading": "とうきょうわん", "meaning": "Vịnh Tokyo" },
+      { "word": "湾岸", "reading": "わんがん", "meaning": "bờ vịnh, vùng ven vịnh (đường cao tốc ven vịnh Shuto Wangan)" },
+      { "word": "台湾", "reading": "たいわん", "meaning": "Đài Loan" },
+      { "word": "港湾", "reading": "こうわん", "meaning": "cảng vịnh, hệ thống bến cảng mặt vịnh" },
+      { "word": "湾入する", "reading": "わんにゅうする", "meaning": "uốn cong lượn sâu vào đất liền (địa hình bờ biển)" },
+      { "word": "湾流", "reading": "わんりゅう", "meaning": "hải lưu vùng vịnh (dòng hải lưu ấm Gulf Stream)" }
+    ]
+  },
+  {
+    "kanji": "環",
+    "amHan": "Hoàn",
+    "nghia": "Vòng tròn, ngọc tròn, bao quanh, môi trường",
+    "onyomi": "カン",
+    "kunyomi": "わ",
+    "mnemonic": {
+      "text": "Vị VUA (王) dùng MẮT (目) nhìn chăm chú vào tấm áo choàng (衣 -> viết tách ra thành 𠂉+⺁+口+一) lấp lánh như chiếc VÒNG ngọc."
     },
-    {
-      "kanji": "募",
-      "amHan": "Mộ",
-      "nghia": "Chiêu mộ, quyên góp",
-      "onyomi": "ボ",
-      "kunyomi": "つの・る",
-      "mnemonic": {
-        "text": "Dùng LỰC (力) để chiêu MỘ người làm việc vào buổi CHIỀU TÀ (莫)."
-      },
-      "examples": [
-        { "word": "募集", "reading": "ぼしゅう", "meaning": "tuyển dụng, chiêu mộ" },
-        { "word": "募金", "reading": "ぼきん", "meaning": "quyên góp tiền" },
-        { "word": "応募", "reading": "おうぼ", "meaning": "ứng tuyển" },
-        { "word": "募る", "reading": "つのる", "meaning": "ngày càng dữ dội/chiêu mộ" },
-        { "word": "急募", "reading": "きゅうぼ", "meaning": "tuyển gấp" }
-      ]
+    "examples": [
+      { "word": "環境", "reading": "かんきょう", "meaning": "môi trường" },
+      { "word": "環状線", "reading": "かんじょうせん", "meaning": "tuyến đường chạy vòng tròn (như tuyến JR Yamanote)" },
+      { "word": "循環する", "reading": "じゅんかんする", "meaning": "tuần hoàn (máu tuần hoàn, tái chế tuần hoàn tài nguyên)" },
+      { "word": "一環", "reading": "いっかん", "meaning": "một mắt xích, một phần trong chuỗi hoạt động liên kết (như một phần của dự án)" },
+      { "word": "環境破壊", "reading": "かんきょうはかい", "meaning": "phá hoại môi trường" },
+      { "word": "環視", "reading": "かんし", "meaning": "sự dòm ngó, vây quanh nhìn chằm chằm của đám đông" },
+      { "word": "環海", "reading": "かんかい", "meaning": "biển bao quanh tứ phía (quần đảo bao quanh bởi biển)" }
+    ]
+  },
+  {
+    "kanji": "般",
+    "amHan": "Ban / Bàn",
+    "nghia": "Loại, hạng, thông thường, xoay chuyển",
+    "onyomi": "ハン",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "Người chèo THUYỀN (舟) cầm cây ROI (殳) gõ nhịp điều khiển mọi LOẠI thuyền di chuyển."
     },
-    {
-      "kanji": "無",
-      "amHan": "Vô",
-      "nghia": "Không có",
-      "onyomi": "ム / ブ",
-      "kunyomi": "な・い",
-      "mnemonic": {
-        "text": "LỬA (灬) cháy thiêu rụi cái NHÀ (dưới bộ 卄) khiến mọi thứ trở về con số KHÔNG."
-      },
-      "examples": [
-        { "word": "無理", "reading": "むり", "meaning": "quá sức, không thể" },
-        { "word": "無料", "reading": "むりょう", "meaning": "miễn phí" },
-        { "word": "無い", "reading": "ない", "meaning": "không có" },
-        { "word": "無事", "reading": "ぶじ", "meaning": "bình an vô sự" },
-        { "word": "無視", "reading": "むし", "meaning": "phớt lờ, coi thường" },
-        { "word": "無駄", "reading": "むだ", "meaning": "lãng phí, vô ích" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "一般に", "reading": "いっぱんに", "meaning": "thông thường, nhìn chung, phổ biến (như một lẽ thông thường)" },
+      { "word": "全般", "reading": "ぜんぱん", "meaning": "toàn bộ, tất cả các mặt diện rộng (tiến bộ toàn diện)" },
+      { "word": "一般人", "reading": "いっぱんじん", "meaning": "người bình thường, dân thường (không phải người nổi tiếng)" },
+      { "word": "諸般の事情", "reading": "しょはんのじじょう", "meaning": "do nhiều lý do khác nhau, do hoàn cảnh đưa đẩy (văn phong trang trọng)" },
+      { "word": "百般", "reading": "ひゃっぱん", "meaning": "mọi thứ, bách ban, đủ mọi phương diện" },
+      { "word": "今般", "reading": "こんぱん", "meaning": "lần này, thời gian gần đây (bằng với 今回 nhưng trang trọng hơn)" },
+      { "word": "一般大衆", "reading": "いっぱんたいしゅう", "meaning": "quần chúng nhân dân đại chúng, công chúng bình dân" }
+    ]
+  }
+]

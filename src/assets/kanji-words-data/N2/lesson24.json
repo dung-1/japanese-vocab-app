@@ -1,347 +1,382 @@
 ﻿[
-    {
-      "kanji": "夢",
-      "amHan": "Mộng",
-      "nghia": "Giấc mơ, chiêm bao",
-      "onyomi": "ム",
-      "kunyomi": "ゆめ",
-      "mnemonic": {
-        "text": "Dưới đám CỎ (艹), đôi MẮT (罒) của người nằm trên GIƯỜNG (冖) mơ về buổi TỐI (夕)."
-      },
-      "examples": [
-        { "word": "夢中", "reading": "むちゅう", "meaning": "say mê, miệt mài" },
-        { "word": "夢想", "reading": "むそう", "meaning": "mộng tưởng" },
-        { "word": "悪夢", "reading": "あくむ", "meaning": "ác mộng" },
-        { "word": "正夢", "reading": "まさゆめ", "meaning": "giấc mơ linh ứng" },
-        { "word": "夢見る", "reading": "ゆめみる", "meaning": "mơ mộng" }
-      ]
+  {
+    "kanji": "滝",
+    "amHan": "Lang",
+    "nghia": "Thác nước",
+    "onyomi": "ロウ",
+    "kunyomi": "たき",
+    "mnemonic": {
+      "text": "NƯỚC (氵) chảy từ trên CAO (竜 - rồng/cao) xuống ầm ầm tạo thành dòng THÁC."
     },
-    {
-      "kanji": "専",
-      "amHan": "Chuyên",
-      "nghia": "Chuyên môn, riêng biệt",
-      "onyomi": "セン",
-      "kunyomi": "もっぱ.ら",
-      "mnemonic": {
-        "text": "Mười (十) cái ruộng (田) được một tay (寸) CHUYÊN tâm chăm sóc."
-      },
-      "examples": [
-        { "word": "専門", "reading": "せんもん", "meaning": "chuyên môn" },
-        { "word": "専攻", "reading": "せんこう", "meaning": "chuyên ngành" },
-        { "word": "専用", "reading": "せんよう", "meaning": "chuyên dụng, dành riêng" },
-        { "word": "専念", "reading": "せんねん", "meaning": "chuyên tâm" },
-        { "word": "専務", "reading": "せんむ", "meaning": "giám đốc điều hành" }
-      ]
+    "examples": [
+      { "word": "滝", "reading": "たき", "meaning": "thác nước" },
+      { "word": "滝口", "reading": "たきぐち", "meaning": "đỉnh thác, miệng thác nước" },
+      { "word": "滝壺", "reading": "たきつぼ", "meaning": "hồ nước dưới chân thác" },
+      { "word": "滝登り", "reading": "たきのぼり", "meaning": "cá vượt thác (vượt vũ môn)" },
+      { "word": "白糸の滝", "reading": "しらいとのたき", "meaning": "thác Shiraito (địa danh nổi tiếng ở Nhật)" },
+      { "word": "滝行", "reading": "たきぎょう", "meaning": "ngồi thiền dưới thác nước để tu hành" },
+      { "word": "滝のように流れる", "reading": "たきのようにながれる", "meaning": "chảy xối xả như thác đổ (mồ hôi/nước mắt)" }
+    ]
+  },
+  {
+    "kanji": "沼",
+    "amHan": "Chiểu",
+    "nghia": "Đầm lầy, ao sâu",
+    "onyomi": "ショウ",
+    "kunyomi": "ぬま",
+    "mnemonic": {
+      "text": "Nơi có NƯỚC (氵) mà mọi người hay gọi NHAU (召) đến đánh cá chính là cái ĐẦM LẦY."
     },
-    {
-      "kanji": "史",
-      "amHan": "Sử",
-      "nghia": "Lịch sử",
-      "onyomi": "シ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Cái MIỆNG (口) truyền lại chuyện xưa qua bàn TAY (乂 - biến thể) ghi chép LỊCH SỬ."
-      },
-      "examples": [
-        { "word": "歴史", "reading": "れきし", "meaning": "lịch sử" },
-        { "word": "日本史", "reading": "にほんし", "meaning": "lịch sử Nhật Bản" },
-        { "word": "史上", "reading": "しじょう", "meaning": "trên phương diện lịch sử" },
-        { "word": "史跡", "reading": "しせき", "meaning": "di tích lịch sử" },
-        { "word": "近代史", "reading": "きんだいし", "meaning": "lịch sử cận đại" }
-      ]
+    "examples": [
+      { "word": "沼", "reading": "ぬま", "meaning": "đầm lầy, ao, hồ nhỏ" },
+      { "word": "沼地", "reading": "ぬまち", "meaning": "vùng đất đầm lầy" },
+      { "word": "沼沢", "reading": "しょうたく", "meaning": "đầm lầy và ao hồ" },
+      { "word": "泥沼", "reading": "どろぬま", "meaning": "vũng bùn, sa lầy (nghĩa bóng: mối quan hệ sa lầy 泥沼化)" },
+      { "word": "湖沼", "reading": "こしょう", "meaning": "ao hồ sông ngòi nói chung" },
+      { "word": "沼気", "reading": "しょうき", "meaning": "khí độc đầm lầy (khí metan)" },
+      { "word": "沼エビ", "reading": "ぬまえび", "meaning": "tôm đầm lầy, tôm nước ngọt nhỏ" }
+    ]
+  },
+  {
+    "kanji": "滴",
+    "amHan": "Tích",
+    "nghia": "Giọt nước, nhỏ giọt",
+    "onyomi": "テキ",
+    "kunyomi": "しずく、したた.る",
+    "mnemonic": {
+      "text": "NƯỚC (氵) nhỏ từng giọt ĐỀU ĐẶN, CHÍNH XÁC (啇) xuống đất."
     },
-    {
-      "kanji": "域",
-      "amHan": "Vực",
-      "nghia": "Khu vực, phạm vi",
-      "onyomi": "イキ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Vùng ĐẤT (土) được bao quanh bởi HOẶC (或) là tường thành tạo nên KHU VỰC."
-      },
-      "examples": [
-        { "word": "地域", "reading": "ちいき", "meaning": "vùng, khu vực" },
-        { "word": "領域", "reading": "りょういき", "meaning": "lĩnh vực, lãnh thổ" },
-        { "word": "区域", "reading": "くいき", "meaning": "khu vực, phạm vi" },
-        { "word": "圏域", "reading": "けんいき", "meaning": "vùng bao phủ" },
-        { "word": "流域", "reading": "りゅういき", "meaning": "lưu vực (sông)" }
-      ]
+    "examples": [
+      { "word": "滴", "reading": "しずく", "meaning": "giọt nước" },
+      { "word": "滴る", "reading": "したたる", "meaning": "rỏ xuống, nhỏ giọt, tràn trề (vẻ đẹp tràn trề 滴るような美しさ)" },
+      { "word": "水滴", "reading": "すいてき", "meaning": "giọt nước, giọt sương bám trên kính/lá" },
+      { "word": "点滴", "reading": "てんてき", "meaning": "truyền nước, truyền dịch (trong y tế) / giọt nước nhỏ đều" },
+      { "word": "一滴", "reading": "いってき", "meaning": "một giọt" },
+      { "word": "点滴石を穿つ", "reading": "てんてきいしをうがつ", "meaning": "nước chảy đá mòn (thành ngữ)" },
+      { "word": "雨滴", "reading": "うてき", "meaning": "giọt mưa" }
+    ]
+  },
+  {
+    "kanji": "凍",
+    "amHan": "Đông",
+    "nghia": "Đông cứng, đóng băng",
+    "onyomi": "トウ",
+    "kunyomi": "こお.る、こご.える",
+    "mnemonic": {
+      "text": "Thời tiết BĂNG GIÁ (冫) khiến cho vùng đất phía ĐÔNG (東) bị ĐÔNG CỨNG."
     },
-    {
-      "kanji": "祭",
-      "amHan": "Tế",
-      "nghia": "Lễ hội, cúng tế",
-      "onyomi": "サイ",
-      "kunyomi": "まつ.り / まつ.る",
-      "mnemonic": {
-        "text": "Dùng TAY (又) dâng THỊT (月) lên BÀN THỜ (示) để làm lễ TẾ."
-      },
-      "examples": [
-        { "word": "祭り", "reading": "まつり", "meaning": "lễ hội" },
-        { "word": "文化祭", "reading": "ぶんかさい", "meaning": "lễ hội văn hóa" },
-        { "word": "祭日", "reading": "さいじつ", "meaning": "ngày lễ tết" },
-        { "word": "祭壇", "reading": "さいだん", "meaning": "bàn thờ" },
-        { "word": "司祭", "reading": "しさい", "meaning": "linh mục, người chủ trì tế lễ" }
-      ]
+    "examples": [
+      { "word": "凍る", "reading": "こおる", "meaning": "đóng băng, đông cứng lại" },
+      { "word": "凍える", "reading": "こごえる", "meaning": "lạnh cóng, đóng băng (cơ thể con người)" },
+      { "word": "冷凍", "reading": "れいとう", "meaning": "làm lạnh, đông lạnh (thực phẩm 冷凍食品)" },
+      { "word": "解凍", "reading": "かいとう", "meaning": "rã đông thực phẩm / giải nén file máy tính" },
+      { "word": "凍結", "reading": "とうけつ", "meaning": "đóng băng tài khoản / đình chỉ dự án / đóng băng đường sá" },
+      { "word": "凍傷", "reading": "とうしょう", "meaning": "vết thương do lạnh giá, bỏng lạnh" },
+      { "word": "凍土", "reading": "とうど", "meaning": "đất bị đóng băng vĩnh cửu" }
+    ]
+  },
+  {
+    "kanji": "瀬",
+    "amHan": "Lại",
+    "nghia": "Ghềnh, thác, dòng dòng nông, vị trí",
+    "onyomi": "ライ",
+    "kunyomi": "せ",
+    "mnemonic": {
+      "text": "Dòng NƯỚC (氵) chảy qua nơi có nhiều đá, cần TRẢ TIỀN (頼) thuê người chèo thuyền qua GHỀNH."
     },
-    {
-      "kanji": "査",
-      "amHan": "Tra",
-      "nghia": "Kiểm tra, điều tra",
-      "onyomi": "サ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Đặt lên CÂY (木) một mục tiêu (且 - thả) để kiểm TRA."
-      },
-      "examples": [
-        { "word": "調査", "reading": "ちょうさ", "meaning": "điều tra" },
-        { "word": "検査", "reading": "けんさ", "meaning": "kiểm tra" },
-        { "word": "審査", "reading": "しんさ", "meaning": "thẩm định, xét duyệt" },
-        { "word": "捜査", "reading": "そうさ", "meaning": "điều tra tội phạm" },
-        { "word": "査定", "reading": "さてい", "meaning": "đánh giá, định giá" }
-      ]
+    "examples": [
+      { "word": "瀬", "reading": "せ", "meaning": "ghềnh, chỗ nước nông chảy xiết" },
+      { "word": "瀬戸物", "reading": "せともの", "meaning": "đồ gốm sứ nói chung" },
+      { "word": "瀬戸内海", "reading": "せとないかい", "meaning": "biển nội địa Seto của Nhật" },
+      { "word": "浅瀬", "reading": "あさせ", "meaning": "chỗ lội, bãi cạn, nơi nước nông" },
+      { "word": "立つ瀬がない", "reading": "たつせがない", "meaning": "mất mặt, không còn chỗ đứng, khó xử" },
+      { "word": "瀬際", "reading": "せぎわ", "meaning": "thời điểm quyết định, bờ vực (sự sống và cái chết 生死の瀬際)" },
+      { "word": "早瀬", "reading": "はやせ", "meaning": "khúc sông nước chảy xiết" }
+    ]
+  },
+  {
+    "kanji": "浄",
+    "amHan": "Tịnh",
+    "nghia": "Trong sạch, thanh tịnh",
+    "onyomi": "ジョウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "NƯỚC (氵) được lọc qua nhiều công đoạn bởi TRANH CHẤP (争) để trở nên TRONG SẠCH."
     },
-    {
-      "kanji": "戦",
-      "amHan": "Chiến",
-      "nghia": "Chiến tranh, chiến đấu",
-      "onyomi": "セン",
-      "kunyomi": "たたか.う / いくさ",
-      "mnemonic": {
-        "text": "Dùng ĐƠN (単) thương độc mã cầm QUA (戈 - mác) đi CHIẾN đấu."
-      },
-      "examples": [
-        { "word": "戦争", "reading": "せんそう", "meaning": "chiến tranh" },
-        { "word": "作戦", "reading": "さくせん", "meaning": "tác chiến, chiến lược" },
-        { "word": "戦う", "reading": "たたかう", "meaning": "chiến đấu" },
-        { "word": "挑戦", "reading": "ちょうせん", "meaning": "thử thách, thách thức" },
-        { "word": "苦戦", "reading": "くせん", "meaning": "khổ chiến, trận đấu vất vả" },
-        { "word": "対戦", "reading": "たいせん", "meaning": "đối đầu" }
-      ]
+    "examples": [
+      { "word": "浄化する", "reading": "じょうかする", "meaning": "làm sạch, thanh lọc (không khí, môi trường, tâm hồn)" },
+      { "word": "清浄な", "reading": "せいじょうな", "meaning": "thanh khiết, tinh khiết, trong sạch" },
+      { "word": "空気清浄機", "reading": "くうきせいじょうき", "meaning": "máy lọc không khí" },
+      { "word": "浄水器", "reading": "じょうすいき", "meaning": "máy lọc nước" },
+      { "word": "洗浄する", "reading": "せんじょうする", "meaning": "rửa sạch, vệ sinh sát khuẩn (vết thương, linh kiện)" },
+      { "word": "浄土", "reading": "じょうど", "meaning": "cõi tịnh độ (Phật giáo)" },
+      { "word": "浄財", "reading": "じょうざい", "meaning": "tiền công đức, tiền quyên góp từ thiện" }
+    ]
+  },
+  {
+    "kanji": "掘",
+    "amHan": "Quật",
+    "nghia": "Đào, bới, khai quật",
+    "onyomi": "クツ",
+    "kunyomi": "ほ.る",
+    "mnemonic": {
+      "text": "Dùng CÁI TAY (扌) để ĐÀO cái CÚI ĐẦU, KHOM LƯNG (屈) xuống đất."
     },
-    {
-      "kanji": "争",
-      "amHan": "Tranh",
-      "nghia": "Tranh giành, đấu tranh",
-      "onyomi": "ソウ",
-      "kunyomi": "あらそ.う",
-      "mnemonic": {
-        "text": "Dùng TAY (爫) nắm lấy cái GẬY (亅) để TRANH giành."
-      },
-      "examples": [
-        { "word": "競争", "reading": "きょうそう", "meaning": "cạnh tranh" },
-        { "word": "紛争", "reading": "ふんそう", "meaning": "phân tranh, xung đột" },
-        { "word": "論争", "reading": "ろんそう", "meaning": "tranh luận" },
-        { "word": "争う", "reading": "あらそう", "meaning": "tranh chấp" },
-        { "word": "争点", "reading": "そうてん", "meaning": "điểm tranh chấp" }
-      ]
+    "examples": [
+      { "word": "掘る", "reading": "ほる", "meaning": "đào, bới (đào hố, đào đất)" },
+      { "word": "発掘する", "reading": "ハックツする", "meaning": "khai quật (khảo cổ) / phát hiện (tài năng trẻ)" },
+      { "word": "採掘する", "reading": "さいくつする", "meaning": "khai thác mỏ, đào khoáng sản" },
+      { "word": "掘削する", "reading": "くっさくする", "meaning": "khoan giếng, đào đất công trình" },
+      { "word": "根掘り葉掘り", "reading": "ねほりはほり", "meaning": "gặng hỏi bằng được, vặn vẹo đủ điều, hỏi cặn kẽ" },
+      { "word": "掘り出し物", "reading": "ほりだしもの", "meaning": "hàng tốt giá hời, món đồ may mắn tìm được" },
+      { "word": "芋掘り", "reading": "いもほり", "meaning": "hoạt động đào khoai" }
+    ]
+  },
+  {
+    "kanji": "埋",
+    "amHan": "Mai",
+    "nghia": "Chôn cất, lấp đầy, mai táng",
+    "onyomi": "マイ",
+    "kunyomi": "う.める、う.まる、う.もれる",
+    "mnemonic": {
+      "text": "Đem CHÔN xuống ĐẤT (土) những thứ ở trong LÀNG (里)."
     },
-    {
-      "kanji": "将",
-      "amHan": "Tương/Tướng",
-      "nghia": "Tương lai, tướng quân",
-      "onyomi": "ショウ",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Trên GIƯỜNG (爿), lấy THỊT (月) bằng TAY (寸) đưa cho vị TƯỚNG."
-      },
-      "examples": [
-        { "word": "将来", "reading": "しょうらい", "meaning": "tương lai (gần)" },
-        { "word": "将軍", "reading": "しょうぐん", "meaning": "tướng quân" },
-        { "word": "将棋", "reading": "しょうぎ", "meaning": "cờ Shogi" },
-        { "word": "主将", "reading": "しゅしょう", "meaning": "đội trưởng" },
-        { "word": "将来的", "reading": "しょうらいてき", "meaning": "mang tính tương lai" }
-      ]
+    "examples": [
+      { "word": "埋める", "reading": "うめる", "meaning": "chôn, lấp, lấp đầy (lấp hố / điền vào chỗ trống)" },
+      { "word": "埋まる", "reading": "うまる", "meaning": "bị chôn vùi, được lấp đầy (khán đài được lấp đầy ghế)" },
+      { "word": "埋蔵金", "reading": "まいぞうきん", "meaning": "kho báu được chôn giấu dưới đất" },
+      { "word": "埋立地", "reading": "うめたてち", "meaning": "đất lấn biển, khu đất do san lấp mà có" },
+      { "word": "埋葬する", "reading": "まいそうする", "meaning": "mai táng, chôn cất người chết" },
+      { "word": "埋没する", "reading": "まいぼつする", "meaning": "bị chôn vùi, bị chìm vào quên lãng" },
+      { "word": "穴埋め", "reading": "あなうめ", "meaning": "điền vào chỗ trống / bù đắp lỗ hổng (tài chính)" }
+    ]
+  },
+  {
+    "kanji": "泥",
+    "amHan": "Nê",
+    "nghia": "Bùn, lầy",
+    "onyomi": "デイ",
+    "kunyomi": "どろ",
+    "mnemonic": {
+      "text": "NƯỚC (氵) hòa trộn với đất của các CƯ DÂN (尼) tạo thành BÙN."
     },
-    {
-      "kanji": "橋",
-      "amHan": "Kiều",
-      "nghia": "Cây cầu",
-      "onyomi": "キョウ",
-      "kunyomi": "はし",
-      "mnemonic": {
-        "text": "Cây CẦU làm bằng GỖ (木) rất CAO (高 - biến thể)."
-      },
-      "examples": [
-        { "word": "歩道橋", "reading": "ほどうきょう", "meaning": "cầu vượt đi bộ" },
-        { "word": "鉄橋", "reading": "てっきょう", "meaning": "cầu sắt" },
-        { "word": "架け橋", "reading": "かけはし", "meaning": "cây cầu nối, trung gian" },
-        { "word": "桟橋", "reading": "さんばし", "meaning": "bến tàu, cầu cảng" },
-        { "word": "日本橋", "reading": "にほんばし", "meaning": "cầu Nihonbashi" }
-      ]
+    "examples": [
+      { "word": "泥", "reading": "どろ", "meaning": "bùn" },
+      { "word": "泥棒", "reading": "どろぼう", "meaning": "kẻ trộm" },
+      { "word": "泥足", "reading": "どろあし", "meaning": "chân dính đầy bùn đất" },
+      { "word": "泥水", "reading": "どろみず", "meaning": "nước bùn đục ngầu" },
+      { "word": "泥酔する", "reading": "でいすいする", "meaning": "say bí tỉ, say khướt (như bùn nhão)" },
+      { "word": "泥沼", "reading": "どろぬま", "meaning": "đầm lầy / vũng bùn sa lầy" },
+      { "word": "泥だらけ", "reading": "どろだらけ", "meaning": "lấm lem bùn đất, toàn là bùn" }
+    ]
+  },
+  {
+    "kanji": "炭",
+    "amHan": "Than",
+    "nghia": "Than đá, than củi",
+    "onyomi": "タン",
+    "kunyomi": "すみ",
+    "mnemonic": {
+      "text": "LỬA (火) đốt cháy những thứ dưới sườn NÚI (山) tạo thành THAN."
     },
-    {
-      "kanji": "憎",
-      "amHan": "Tăng",
-      "nghia": "Ghét, căm ghét",
-      "onyomi": "ゾウ",
-      "kunyomi": "にく.む / にく.い",
-      "mnemonic": {
-        "text": "TÂM (忄) thấy TĂNG (曽 - thêm vào) sự căm ghét."
-      },
-      "examples": [
-        { "word": "憎む", "reading": "にくむ", "meaning": "oán ghét" },
-        { "word": "憎らしい", "reading": "にくらしい", "meaning": "đáng ghét" },
-        { "word": "憎しみ", "reading": "にしきみ", "meaning": "sự căm ghét" },
-        { "word": "憎悪", "reading": "ぞうお", "meaning": "hận thù" },
-        { "word": "愛憎", "reading": "あいぞう", "meaning": "yêu và ghét" }
-      ]
+    "examples": [
+      { "word": "炭", "reading": "すみ", "meaning": "than, than củi" },
+      { "word": "炭火", "reading": "すみび", "meaning": "lửa than" },
+      { "word": "炭鉱", "reading": "たんこう", "meaning": "mỏ than" },
+      { "word": "石炭", "reading": "せきたん", "meaning": "than đá" },
+      { "word": "二酸化炭素", "reading": "にさんかたんそ", "meaning": "khí CO2 (Cacbon điôxít)" },
+      { "word": "炭水化物", "reading": "たんすいかぶつ", "meaning": "chất đường bột, Cacbohydrat" },
+      { "word": "木炭", "reading": "もくたん", "meaning": "than củi mỹ thuật / than gỗ" }
+    ]
+  },
+  {
+    "kanji": "鉱",
+    "amHan": "Khoáng",
+    "nghia": "Khoáng sản, quặng",
+    "onyomi": "コウ",
+    "kunyomi": "",
+    "mnemonic": {
+      "text": "KIM LOẠI (金) phân bố RỘNG LỚN (広) trong lòng đất gọi là KHOÁNG SẢN."
     },
-    {
-      "kanji": "殺",
-      "amHan": "Sát",
-      "nghia": "Giết, sát hại",
-      "onyomi": "サツ / サイ",
-      "kunyomi": "ころ.す",
-      "mnemonic": {
-        "text": "Dùng CỌC (乂) đâm vào CÂY (木) bằng sức MẠNH (殳) để SÁT hại."
-      },
-      "examples": [
-        { "word": "殺人", "reading": "さつじん", "meaning": "sát nhân" },
-        { "word": "自殺", "reading": "じさつ", "meaning": "tự sát" },
-        { "word": "殺害", "reading": "さつがい", "meaning": "sát hại" },
-        { "word": "殺す", "reading": "ころす", "meaning": "giết" },
-        { "word": "殺到", "reading": "さっとう", "meaning": "ùa tới, tràn đến" },
-        { "word": "殺気", "reading": "さっき", "meaning": "sát khí" }
-      ]
+    "examples": [
+      { "word": "鉱物", "reading": "こうぶつ", "meaning": "khoáng vật, khoáng sản" },
+      { "word": "鉱山", "reading": "こうざん", "meaning": "mỏ khoáng sản" },
+      { "word": "炭鉱", "reading": "たんこう", "meaning": "mỏ than" },
+      { "word": "鉱石", "reading": "こうせき", "meaning": "quặng đá khoáng" },
+      { "word": "鉱業", "reading": "こうぎょう", "meaning": "ngành công nghiệp khai khoáng" },
+      { "word": "金鉱", "reading": "きんこう", "meaning": "mỏ vàng" },
+      { "word": "鉄鉱石", "reading": "てっこうせき", "meaning": "quặng sắt" }
+    ]
+  },
+  {
+    "kanji": "銅",
+    "amHan": "Đồng",
+    "nghia": "Kim loại đồng",
+    "onyomi": "ドウ",
+    "kunyomi": "あかがね",
+    "mnemonic": {
+      "text": "Loại KIM LOẠI (金) CÙNG (同) màu với huy chương hạng ba là ĐỒNG."
     },
-    {
-      "kanji": "悲",
-      "amHan": "Bi",
-      "nghia": "Buồn bã, bi ai",
-      "onyomi": "ヒ",
-      "kunyomi": "かな.しい / かな.しむ",
-      "mnemonic": {
-        "text": "Khi TÂM (心) cảm thấy SAI (非 - không phải) thì sẽ BI thương."
-      },
-      "examples": [
-        { "word": "悲しい", "reading": "かなしい", "meaning": "buồn" },
-        { "word": "悲鳴", "reading": "ひめい", "meaning": "tiếng hét bi thiết" },
-        { "word": "悲劇", "reading": "ひげき", "meaning": "bi kịch" },
-        { "word": "悲観", "reading": "ひかん", "meaning": "bi quan" },
-        { "word": "悲しむ", "reading": "かなしむ", "meaning": "đau lòng, thương tiếc" }
-      ]
+    "examples": [
+      { "word": "銅", "reading": "どう", "meaning": "đồng (kim loại)" },
+      { "word": "銅メダル", "reading": "どうメダル", "meaning": "huy chương đồng" },
+      { "word": "銅像", "reading": "どうぞう", "meaning": "tượng đồng" },
+      { "word": "銅線", "reading": "どうせん", "meaning": "dây đồng" },
+      { "word": "青銅", "reading": "せいどう", "meaning": "đồng thanh, đồng xanh (thời đại đồ đồng 青銅器時代)" },
+      { "word": "黄銅", "reading": "おうどう", "meaning": "đồng thau" },
+      { "word": "銅板", "reading": "どうばん", "meaning": "tấm đồng, tấm mạ đồng" }
+    ]
+  },
+  {
+    "kanji": "穴",
+    "amHan": "Huyệt",
+    "nghia": "Cái hố, hang trống, lỗ thủng",
+    "onyomi": "ケツ",
+    "kunyomi": "あな",
+    "mnemonic": {
+      "text": "Hình ngôi NHÀ (宀) bên dưới có LỖ TRỐNG (八) tạo thành cái HANG, CÁI HỐ."
     },
-    {
-      "kanji": "恥",
-      "amHan": "Sỉ",
-      "nghia": "Xấu hổ, sỉ nhục",
-      "onyomi": "チ",
-      "kunyomi": "は.じ / はず.かしい",
-      "mnemonic": {
-        "text": "Nghe lời TÂM (心) nói vào TAI (耳) nên thấy xấu hổ (SỈ)."
-      },
-      "examples": [
-        { "word": "恥ずかしい", "reading": "はずかしい", "meaning": "xấu hổ" },
-        { "word": "恥", "reading": "はじ", "meaning": "nỗi nhục" },
-        { "word": "羞恥心", "reading": "しゅうちしん", "meaning": "lòng tự trọng, sự xấu hổ" },
-        { "word": "恥じる", "reading": "はじる", "meaning": "cảm thấy xấu hổ" },
-        { "word": "厚顔無恥", "reading": "こうがんむち", "meaning": "mặt dày không biết xấu hổ" }
-      ]
+    "examples": [
+      { "word": "穴", "reading": "あな", "meaning": "cái lỗ, cái hố / khuyết điểm / thua lỗ" },
+      { "word": "穴場", "reading": "あなば", "meaning": "địa điểm tốt ít người biết (quán ăn ngon, chỗ chơi hay)" },
+      { "word": "墓穴", "reading": "ぼけつ", "meaning": "huyệt mộ (tự đào hố chôn mình 墓穴を掘る)" },
+      { "word": "穴埋め", "reading": "あなうめ", "meaning": "điền vào chỗ trống / bù đắp" },
+      { "word": "落とし穴", "reading": "おとしあな", "meaning": "bẫy sập, hố bẫy / bẫy rập nghĩa bóng" },
+      { "word": "鍵穴", "reading": "かぎあな", "meaning": "lỗ chìa khóa" },
+      { "word": "鼻の穴", "reading": "はなのあな", "meaning": "lỗ mũi" }
+    ]
+  },
+  {
+    "kanji": "洞",
+    "amHan": "Động",
+    "nghia": "Hang động, sâu sắc",
+    "onyomi": "ドウ",
+    "kunyomi": "ほら",
+    "mnemonic": {
+      "text": "NƯỚC (氵) chảy xiết xuyên qua một CÁI HANG (同 -> 洞) sâu thẳm."
     },
-    {
-      "kanji": "感",
-      "amHan": "Cảm",
-      "nghia": "Cảm giác, cảm xúc",
-      "onyomi": "カン",
-      "kunyomi": "None",
-      "mnemonic": {
-        "text": "Dùng TÂM (心) để cảm nhận sức mạnh của quân ĐỘI (咸 - hàm)."
-      },
-      "examples": [
-        { "word": "感心", "reading": "かんしん", "meaning": "ngưỡng mộ" },
-        { "word": "感動", "reading": "かんどう", "meaning": "cảm động" },
-        { "word": "感想", "reading": "かんそう", "meaning": "cảm tưởng" },
-        { "word": "感謝", "reading": "かんしゃ", "meaning": "cảm ơn, tạ ơn" },
-        { "word": "感じる", "reading": "かんじる", "meaning": "cảm thấy" },
-        { "word": "感情", "reading": "かんじょう", "meaning": "tình cảm, cảm xúc" }
-      ]
+    "examples": [
+      { "word": "洞穴", "reading": "ほらあな / どうけつ", "meaning": "hang động, hang đá" },
+      { "word": "洞察力", "reading": "どうさつりょく", "meaning": "năng lực quan sát, khả năng nhìn thấu vấn đề" },
+      { "word": "洞窟", "reading": "どうくつ", "meaning": "hang động lớn" },
+      { "word": "空洞", "reading": "くうどう", "meaning": "bị rỗng tuếch, hang trống rỗng" },
+      { "word": "洞視する", "reading": "どうしする", "meaning": "nhìn thấu suốt vấn đề" },
+      { "word": "風洞", "reading": "ふうどう", "meaning": "hầm gió (để thử nghiệm khí động học)" },
+      { "word": "洞然", "reading": "どうぜん", "meaning": "hiểu rõ ràng, sáng tỏ hết thảy" }
+    ]
+  },
+  {
+    "kanji": "殴",
+    "amHan": "Ẩu",
+    "nghia": "Đấm, đánh nhau, ẩu đả",
+    "onyomi": "オウ",
+    "kunyomi": "殴.る",
+    "mnemonic": {
+      "text": "Dùng tay (殳) cầm THÙNG (区) làm vũ khí để ẨU ĐẢ, ĐẤM nhau."
     },
-    {
-      "kanji": "球",
-      "amHan": "Cầu",
-      "nghia": "Hình cầu, quả bóng",
-      "onyomi": "キュウ",
-      "kunyomi": "たま",
-      "mnemonic": {
-        "text": "Vua (王 - ngọc) tìm kiếm (求) viên NGỌC hình CẦU."
-      },
-      "examples": [
-        { "word": "地球", "reading": "ちきゅう", "meaning": "trái đất" },
-        { "word": "電球", "reading": "でんきゅう", "meaning": "bóng đèn" },
-        { "word": "野球", "reading": "やきゅう", "meaning": "bóng chày" },
-        { "word": "卓球", "reading": "たっきゅう", "meaning": "bóng bàn" },
-        { "word": "気球", "reading": "ききゅう", "meaning": "khinh khí cầu" }
-      ]
+    "examples": [
+      { "word": "殴る", "reading": "なぐる", "meaning": "đấm, đánh" },
+      { "word": "殴り合い", "reading": "なぐりあい", "meaning": "đánh nhau, ẩu đả qua lại" },
+      { "word": "殴打する", "reading": "おうだする", "meaning": "vùi dập, đánh đập dã mạn" },
+      { "word": "殴り書き", "reading": "なぐりがき", "meaning": "viết ngoáy, viết ẩu, viết nguệch ngoạc" },
+      { "word": "殴り込む", "reading": "なぐりこむ", "meaning": "gây chiến, xông vào đánh phá" },
+      { "word": "殴り倒す", "reading": "なぐりたおす", "meaning": "đấm gục, đánh ngã lăn ra" },
+      { "word": "殴殺する", "reading": "おうさつする", "meaning": "đánh chết, đánh đập đến tử vong" }
+    ]
+  },
+  {
+    "kanji": "叫",
+    "amHan": "Khiếu",
+    "nghia": "Kêu gào, hét lên",
+    "onyomi": "キョウ",
+    "kunyomi": "さけ.ぶ",
+    "mnemonic": {
+      "text": "MỞ MIỆNG (口) ra hét lên tiếng lớn vang vọng như con số 4 (丩)."
     },
-    {
-      "kanji": "和",
-      "amHan": "Hòa",
-      "nghia": "Hòa bình, Nhật Bản",
-      "onyomi": "ワ / オ",
-      "kunyomi": "なご.む",
-      "mnemonic": {
-        "text": "Có LÚA (禾) bỏ vào MIỆNG (口) thì thiên hạ HÒA bình."
-      },
-      "examples": [
-        { "word": "平和", "reading": "へいわ", "meaning": "hòa bình" },
-        { "word": "和服", "reading": "わふく", "meaning": "trang phục Nhật" },
-        { "word": "和室", "reading": "わしつ", "meaning": "phòng kiểu Nhật" },
-        { "word": "和む", "reading": "なごむ", "meaning": "thư thái, bình tĩnh" },
-        { "word": "調和", "reading": "ちょうわ", "meaning": "điều hòa, hòa hợp" },
-        { "word": "違和感", "reading": "いわかん", "meaning": "cảm giác khó chịu, lạc lõng" }
-      ]
+    "examples": [
+      { "word": "叫ぶ", "reading": "さけぶ", "meaning": "kêu gào, hét lên, la hét" },
+      { "word": "叫び声", "reading": "さけびごえ", "meaning": "tiếng la hét, tiếng khóc than" },
+      { "word": "絶叫する", "reading": "ぜっきょうする", "meaning": "hét toáng lên, la hét hết cỡ (trò chơi cảm giác mạnh)" },
+      { "word": "大叫喚", "reading": "だいきょうかん", "meaning": "tiếng kêu khóc thảm thiết" },
+      { "word": "叫びをあげる", "reading": "さけびをあげる", "meaning": "cất tiếng hét lớn" },
+      { "word": "心の叫び", "reading": "こころのさけび", "meaning": "tiếng thét từ tận đáy lòng" },
+      { "word": "一叫び", "reading": "ひとさけび", "meaning": "một tiếng la vang" }
+    ]
+  },
+  {
+    "kanji": "怖",
+    "amHan": "Bố",
+    "nghia": "Sợ hãi, khủng bố",
+    "onyomi": "フ、ホ",
+    "kunyomi": "こわ.い",
+    "mnemonic": {
+      "text": "Trong TÂM (忄) lo sợ tấm VẢI (布) này sẽ quấn lấy mình."
     },
-    {
-      "kanji": "愛",
-      "amHan": "Ái",
-      "nghia": "Yêu, yêu thương",
-      "onyomi": "アイ",
-      "kunyomi": "いと.しい",
-      "mnemonic": {
-        "text": "Dùng TÂM (心) và tình cảm đi chậm rãi (夂) để trao yêu thương (ÁI)."
-      },
-      "examples": [
-        { "word": "愛用", "reading": "あいよう", "meaning": "thích dùng" },
-        { "word": "愛情", "reading": "あいじょう", "meaning": "tình yêu thương" },
-        { "word": "愛護", "reading": "あいご", "meaning": "chăm sóc, bảo vệ" },
-        { "word": "愛想", "reading": "あいそ", "meaning": "thái độ hòa nhã" },
-        { "word": "愛弟子", "reading": "まなでし", "meaning": "đệ tử cưng" }
-      ]
+    "examples": [
+      { "word": "怖い", "reading": "こわい", "meaning": "đáng sợ, sợ hãi" },
+      { "word": "恐怖", "reading": "きょうふ", "meaning": "khủng bố, sợ hãi (phim kinh dị 恐怖映画)" },
+      { "word": "怖気", "reading": "おじけ", "meaning": "sự sợ hãi, nao núng (sợ hãi bủn rủn 怖気付く)" },
+      { "word": "怖がる", "reading": "こわがる", "meaning": "sợ sệt, có biểu hiện e dè sợ hãi" },
+      { "word": "高所恐怖症", "reading": "こうしょきょうふしょう", "meaning": "hội chứng sợ độ cao" },
+      { "word": "怖いもの知らず", "reading": "こわいものしらず", "meaning": "liều lĩnh, không sợ trời không sợ đất" },
+      { "word": "恐怖心", "reading": "きょうふしん", "meaning": "lòng sợ hãi, cảm giác khiếp sợ" }
+    ]
+  },
+  {
+    "kanji": "嫌",
+    "amHan": "Hiềm",
+    "nghia": "Ghét, hiềm khích, khó chịu",
+    "onyomi": "ケン、ゲン",
+    "kunyomi": "きら.う、いや",
+    "mnemonic": {
+      "text": "Người PHỤ NỮ (女) có tâm lý KIÊM NHIỆM (兼) quá nhiều thứ sinh ra bực bội, ĐÁNG GHÉT."
     },
-    {
-      "kanji": "仲",
-      "amHan": "Trọng",
-      "nghia": "Quan hệ, ở giữa",
-      "onyomi": "チュウ",
-      "kunyomi": "なか",
-      "mnemonic": {
-        "text": "Người (亻) đứng ở TRUNG (中) tâm để kết nối quan hệ."
-      },
-      "examples": [
-        { "word": "仲", "reading": "なか", "meaning": "quan hệ" },
-        { "word": "仲間", "reading": "なかま", "meaning": "bè bạn, đồng nghiệp" },
-        { "word": "仲直り", "reading": "なかなおり", "meaning": "làm hòa" },
-        { "word": "仲介", "reading": "ちゅうかい", "meaning": "môi giới, trung gian" },
-        { "word": "仲良し", "reading": "なかよし", "meaning": "thân thiết" }
-      ]
+    "examples": [
+      { "word": "嫌いな", "reading": "きらいな", "meaning": "ghét, không thích" },
+      { "word": "機嫌", "reading": "きげん", "meaning": "tâm trạng, sắc mặt (tâm trạng tốt 機嫌がいい)" },
+      { "word": "嫌悪する", "reading": "けんおする", "meaning": "chán ghét, kinh tởm, ghê tởm" },
+      { "word": "嫌な", "reading": "いやな", "meaning": "khó chịu, đáng ghét, không muốn làm" },
+      { "word": "嫌がらせ", "reading": "いやがらせ", "meaning": "sự quấy rối, chơi xấu, làm phiền người khác" },
+      { "word": "自己嫌悪", "reading": "じこけんお", "meaning": "chán ghét bản thân" },
+      { "word": "嫌う", "reading": "きらう", "meaning": "ghét, né tránh, kỳ thị" }
+    ]
+  },
+  {
+    "kanji": "憎",
+    "amHan": "Tăng",
+    "nghia": "Ghét, căm thù, đáng ghét",
+    "onyomi": "ゾウ",
+    "kunyomi": "にく.む、にく.い、にく.らしい",
+    "mnemonic": {
+      "text": "Trong TÂM (忄) luôn CĂM GHÉT những thứ TRƯỚC ĐÂY (曾) làm mình tổn thương."
     },
-    {
-      "kanji": "良",
-      "amHan": "Lương",
-      "nghia": "Tốt lành, lương thiện",
-      "onyomi": "リョウ",
-      "kunyomi": "よ.い",
-      "mnemonic": {
-        "text": "Hình ảnh hạt gạo đã được sàng lọc kỹ nên rất TỐT (LƯƠNG)."
-      },
-      "examples": [
-        { "word": "良い", "reading": "よい", "meaning": "tốt" },
-        { "word": "良心", "reading": "りょうしん", "meaning": "lương tâm" },
-        { "word": "善良", "reading": "ぜんりょう", "meaning": "lương thiện" },
-        { "word": "改良", "reading": "かいりょう", "meaning": "cải thiện, cải tiến" },
-        { "word": "良好", "reading": "りょうこう", "meaning": "tốt đẹp" },
-        { "word": "最良", "reading": "さいりょう", "meaning": "tốt nhất" }
-      ]
-    }
-  ]
+    "examples": [
+      { "word": "憎い", "reading": "にくい", "meaning": "đáng ghét, căm hận (nhưng mang tính thù hằn cao hơn 嫌い)" },
+      { "word": "憎悪する", "reading": "ぞうおする", "meaning": "căm ghét, hận thù sâu sắc" },
+      { "word": "憎しみ", "reading": "にくしみ", "meaning": "sự căm ghét, lòng hận thù" },
+      { "word": "憎む", "reading": "にくむ", "meaning": "ghét, oán hận" },
+      { "word": "憎らしい", "reading": "にくらしい", "meaning": "đáng ghét (nhưng đôi khi mang hàm ý nũng nịu, đáng yêu)" },
+      { "word": "生憎", "reading": "あいにく", "meaning": "thật không may, đáng tiếc" },
+      { "word": "愛憎", "reading": "あいぞう", "meaning": "yêu và ghét (mối quan hệ yêu hận đan xen)" }
+    ]
+  },
+  {
+    "kanji": "恥",
+    "amHan": "Sỉ",
+    "nghia": "Xấu hổ, sỉ nhục",
+    "onyomi": "チ",
+    "kunyomi": "はじ、はず.かしい",
+    "mnemonic": {
+      "text": "Khi xấu hổ, TAI (耳) sẽ đỏ bừng lên và hành động đứng DỪNG (止) lại."
+    },
+    "examples": [
+      { "word": "恥", "reading": "はじ", "meaning": "sự xấu hổ, nỗi nhục nhã" },
+      { "word": "羞恥心", "reading": "しゅうちしん", "meaning": "lòng xấu hổ, sự e thẹn, nhút nhát" },
+      { "word": "破廉恥な", "reading": "はれんちな", "meaning": "trơ trẽn, vô liêm sỉ, không biết xấu hổ" },
+      { "word": "恥ずかしい", "reading": "はずかしい", "meaning": "ngượng phùng, xấu hổ" },
+      { "word": "恥をかく", "reading": "はじをかく", "meaning": "làm trò cười, mất mặt trước đám đông" },
+      { "word": "赤恥", "reading": "あかはじ", "meaning": "mất mặt nặng nề, đại nhục" },
+      { "word": "恥知らず", "reading": "はじしらず", "meaning": "kẻ mặt dày, không biết ngượng" }
+    ]
+  }
+]
