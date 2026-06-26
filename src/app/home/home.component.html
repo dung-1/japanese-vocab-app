@@ -1,32 +1,39 @@
 <div class="home-container">
-    <h1>Chào mừng đến với Japanese Learning</h1>
-    <p>Chọn phương pháp học phù hợp với bạn:</p>
-    
-    <div class="learning-options">
-      <a (click)="navigateTo('/kanji-words')" [class.active]="isActive('/kanji-words')" class="option-card">
-        <h2>Học theo Kanji</h2>
-        <p>Tìm hiểu và luyện tập các chữ Kanji cơ bản đến nâng cao.</p>
-      </a>
-      <a (click)="navigateTo('/vocabulary')" [class.active]="isActive('/vocabulary')" class="option-card">
-        <h2>Học từ vựng</h2>
-        <p>Mở rộng vốn từ vựng tiếng Nhật hàng ngày.</p>
-      </a>
-      
-      <a (click)="navigateTo('/kanji-radicals')" [class.active]="isActive('/kanji-radicals')" class="option-card">
-        <h2>Học theo bộ thủ</h2>
-        <p>Hiểu cấu trúc Kanji qua các bộ thủ cơ bản.</p>
-      </a>
-      <a (click)="navigateTo('/adverb-radicals')" [class.active]="isActive('/adverb-radicals')" class="option-card">
-        <h2>Học phó từ </h2>
-        <p>Hiểu rõ phó từ giúp quá trình sử dụng đơn giản hơn</p>
-      </a>
-      <a (click)="navigateTo('/reduplicative-words')" [class.active]="isActive('/reduplicative-words')" class="option-card">
-        <h2>Học từ láy</h2>
-        <p>Học các từ láy trong tiếng Nhật với flashcard và kiểm tra trắc nghiệm.</p>
-      </a>
-      <a (click)="navigateTo('/number-practice')" [class.active]="isActive('/number-practice')" class="option-card">
-        <h2>🔢 Luyện số</h2>
-        <p>Luyện đọc và nghe số tiếng Nhật từ 2 đến 9 chữ số.</p>
-      </a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <span class="petal petal-1">🌸</span>
+      <span class="petal petal-2">🌸</span>
+      <span class="petal petal-3">🌸</span>
+      <span class="petal petal-4">🌸</span>
+      <span class="petal petal-5">🌸</span>
     </div>
-  </div>
+    <div class="hero-content">
+      <p class="hero-jp">こんにちは</p>
+      <h1 class="hero-title">Japanese Learning</h1>
+      <p class="hero-subtitle">Chọn phương pháp học phù hợp với bạn</p>
+      <div class="hero-divider"></div>
+    </div>
+  </section>
+
+  <!-- Menu Grid -->
+  <section class="menu-grid">
+    <a
+      *ngFor="let item of menuItems"
+      (click)="navigateTo(item.path)"
+      [class.active]="isActive(item.path)"
+      class="menu-card"
+      [style.--card-gradient]="item.gradient"
+    >
+      <div class="card-icon">{{ item.icon }}</div>
+      <h2 class="card-title">{{ item.title }}</h2>
+      <p class="card-desc">{{ item.description }}</p>
+      <div class="card-arrow">→</div>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="home-footer">
+    <p>がんばって！ — Hãy cố gắng nhé!</p>
+  </footer>
+</div>
