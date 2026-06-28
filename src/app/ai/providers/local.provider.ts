@@ -44,6 +44,7 @@ export class LocalProvider implements AiProvider {
       return { abort: () => {} };
     }
 
+    // Thử gọi trực tiếp Ollama local trước
     const url = `${this.endpoint.replace(/\/+$/, '')}/api/generate`;
     const body = {
       model: request.model,
@@ -100,7 +101,64 @@ export class LocalProvider implements AiProvider {
       return { abort: () => controller.abort() };
     } catch (e) {
       const err = e as Error;
+      // Nếu fetch trực tiếp lỗi (CORS, Ollama chưa chạy...) thì fallback qua proxy server
+      if (err.name === 'TypeError' || err.message.includes('Failed to fetch')) {
+        console.warn('[LocalProvider] Direct fetch failed, falling back to /api/chat proxy:', err.message);
+        return this.chatViaProxy(request, controller, onToken, onDone, onError);
+      }
       onError?.(err);
+      return { abort: () => controller.abort() };
+    }
+  }
+
+  /** Fallback: gọi qua proxy /api/chat (same-origin) nếu direct fetch fail */
+  private async chatViaProxy(
+    request: ChatRequest,
+    controller: AbortController,
+    onToken: ChatTokenHandler,
+    onDone?: ChatDoneHandler,
+    onError?: ChatErrorHandler,
+  ): Promise<ChatStreamHandle> {
+    const proxyBody = {
+      provider: 'local',
+      model: request.model,
+      prompt: this.combinePrompt(request),
+      stream: request.stream,
+      temperature: request.temperature ?? 0.3,
+      topK: request.topK ?? 5,
+    };
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(proxyBody),
+        signal: controller.signal,
+      });
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        onError?.(new Error(`Proxy HTTP ${res.status}: ${text.slice(0, 200)}`));
+        return { abort: () => controller.abort() };
+      }
+      if (!res.body) {
+        onError?.(new Error('Proxy response không có body'));
+        return { abort: () => controller.abort() };
+      }
+      (async () => {
+        try {
+          for await (const evt of parseNdjson(res.body as ReadableStream<Uint8Array>, controller.signal)) {
+            const ev = evt as { response?: string; done?: boolean; error?: string };
+            if (ev.error) { onError?.(new Error(ev.error)); return; }
+            if (typeof ev.response === 'string' && ev.response.length > 0) onToken(ev.response);
+            if (ev.done) { onDone?.(); return; }
+          }
+        } catch (e) {
+          if ((e as Error).name === 'AbortError') return;
+          onError?.(e as Error);
+        }
+      })();
+      return { abort: () => controller.abort() };
+    } catch (e) {
+      onError?.(e as Error);
       return { abort: () => controller.abort() };
     }
   }
@@ -163,15 +221,48 @@ export class LocalProvider implements AiProvider {
       };
     } catch (e) {
       const err = e as Error;
-      console.error('[LocalProvider.testConnection] error:', err);
-      // Failed to fetch = network / CORS / Ollama down
+      console.error('[LocalProvider.testConnection] direct fetch error:', err);
+      // Failed to fetch = network / CORS / Ollama down → thử fallback qua proxy
       if (err.message === 'Failed to fetch' || err.name === 'TypeError') {
-        return {
-          ok: false,
-          message: `Failed to fetch ${url}. Kiem tra: (1) Ollama chay? (2) CORS? (3) firewall?`,
-        };
+        console.warn('[LocalProvider.testConnection] Trying fallback via /api/chat proxy...');
+        return this.testConnectionViaProxy(modelName);
       }
       return { ok: false, message: err.message };
+    }
+  }
+
+  /** Fallback testConnection qua proxy /api/chat nếu gọi thẳng localhost lỗi */
+  private async testConnectionViaProxy(
+    model: string,
+  ): Promise<{ ok: boolean; message: string; preview?: string }> {
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          provider: 'local',
+          model,
+          prompt: 'Hello',
+          stream: false,
+        }),
+      });
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        return { ok: false, message: `Proxy HTTP ${res.status}: ${text.slice(0, 200)}` };
+      }
+      const data = await res.json();
+      const preview = (data.response ?? '').slice(0, 200);
+      return {
+        ok: true,
+        message: `Connected to Ollama Local (via proxy, model: ${model})`,
+        preview,
+      };
+    } catch (e) {
+      const err = e as Error;
+      return {
+        ok: false,
+        message: `Cả direct và proxy đều lỗi. Kiểm tra: (1) Ollama đang chạy? (2) ng serve / node server.mjs?. Chi tiết: ${err.message}`,
+      };
     }
   }
 

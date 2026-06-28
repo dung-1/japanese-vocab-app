@@ -40,7 +40,7 @@ export const DEFAULT_AI_SETTINGS: AiSettings = {
   localEndpoint: 'http://localhost:11434',
   cloudApiKey: '',
   cloudModel: 'nemotron-3-super:cloud',
-  model: 'nemotron-3-super:cloud',
+  model: 'qwen3:0.6b',   // model Local an toàn nhất (522 MB, đã xác nhận)
   temperature: 0.3,
   topK: 5,
   language: 'vi',

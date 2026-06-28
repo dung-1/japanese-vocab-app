@@ -9,7 +9,10 @@ import { AiProviderType } from '../../models/ai-chat.model';
 
 /** Endpoint cố định theo provider — không cho user sửa. */
 const LOCAL_ENDPOINT = 'http://localhost:11434';
-const CLOUD_ENDPOINT = 'https://ollama.com/api/generate';
+/** Chỉ để HIỂN THỊ trong UI — không dùng làm proxyUrl. */
+const CLOUD_UPSTREAM_DISPLAY = 'https://ollama.com/api/generate (via /api/chat proxy)';
+/** Proxy endpoint trên cùng origin — CloudProvider gọi cái này. */
+const CLOUD_PROXY_URL = '/api/chat';
 
 @Component({
   selector: 'app-ai-settings',
@@ -28,7 +31,7 @@ export class AiSettingsComponent {
 
   /** Endpoint hiện tại tự động theo provider. */
   readonly currentEndpoint = computed(() =>
-    this.settings().provider === 'cloud' ? CLOUD_ENDPOINT : LOCAL_ENDPOINT,
+    this.settings().provider === 'cloud' ? CLOUD_UPSTREAM_DISPLAY : LOCAL_ENDPOINT,
   );
 
   /** Có đang dùng Cloud? */
@@ -72,8 +75,10 @@ export class AiSettingsComponent {
     const s = this.settings();
 
     // Đồng bộ endpoint + config trước khi test
+    // LOCAL: gọi trực tiếp Ollama local
+    // CLOUD: luôn đi qua proxy /api/chat (same-origin) — tránh CORS
     this.factory.configureLocal(LOCAL_ENDPOINT);
-    this.factory.configureCloud(s.cloudApiKey, s.model, CLOUD_ENDPOINT);
+    this.factory.configureCloud(s.cloudApiKey, s.model, CLOUD_PROXY_URL);
 
     const provider = s.provider === 'cloud' ? this.cloud : this.local;
     console.log('[AI Test] provider=', s.provider, 'endpoint=', this.currentEndpoint(), 'model=', s.model);

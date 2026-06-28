@@ -52,8 +52,16 @@ export class AiSettingsService {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return { ...DEFAULT_AI_SETTINGS };
-      const parsed = JSON.parse(raw);
-      return { ...DEFAULT_AI_SETTINGS, ...parsed };
+      const parsed = JSON.parse(raw) as Partial<AiSettings>;
+      const merged: AiSettings = { ...DEFAULT_AI_SETTINGS, ...parsed };
+      // Migration: nếu dùng Local provider nhưng model là cloud model → reset về local model
+      const CLOUD_MODEL_SUFFIXES = [':cloud', '-cloud'];
+      const isCloudModelName = CLOUD_MODEL_SUFFIXES.some(s => (merged.model ?? '').endsWith(s));
+      if (merged.provider === 'local' && isCloudModelName) {
+        merged.model = DEFAULT_AI_SETTINGS.model; // reset về qwen3:0.6b
+        console.log('[AiSettingsService] Migrated cloud model name to local default:', merged.model);
+      }
+      return merged;
     } catch {
       return { ...DEFAULT_AI_SETTINGS };
     }
