@@ -1,0 +1,57 @@
+<div class="ai-container">
+  <div class="top-bar">
+    <button class="back-btn" (click)="goHome()">← Trang chủ</button>
+    <a routerLink="/ai/settings" class="settings-link">⚙️ Settings</a>
+  </div>
+  <h1>🤖 Trợ lý AI</h1>
+  <p class="subtitle">Hỏi đáp Kanji, Từ vựng, Bộ thủ, Ngữ pháp N2-N4</p>
+
+  <div class="status" *ngIf="loading()">
+    <span class="spinner"></span> {{ knowledge.progress() }}
+  </div>
+
+  <div class="status error" *ngIf="ai.lastError() as err">
+    ⚠️ {{ err }}
+  </div>
+
+  <div class="chat-window" #chatWindow>
+    <div *ngIf="ai.messages().length === 0" class="empty">
+      <p>👋 Xin chào! Hãy đặt câu hỏi về Kanji / Từ vựng / Bộ thủ / Ngữ pháp.</p>
+      <p class="hint">Ví dụ: "Kanji 食 nghĩa là gì?", "Ngữ pháp ～たら là gì?"</p>
+    </div>
+
+    <app-ai-chat-bubble
+      *ngFor="let m of ai.messages(); trackBy: trackById"
+      [message]="m"
+    ></app-ai-chat-bubble>
+
+    <div *ngIf="ai.busy() && lastIsStreaming()" class="typing-indicator">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <form class="input-row" (ngSubmit)="onSubmit()">
+    <input
+      type="text"
+      [(ngModel)]="question"
+      name="question"
+      placeholder="Nhập câu hỏi..."
+      [disabled]="ai.busy() || loading()"
+      autocomplete="off"
+    />
+    <button
+      type="submit"
+      [disabled]="!question.trim() || ai.busy() || loading()"
+    >
+      {{ ai.busy() ? 'Đang gửi...' : 'Gửi' }}
+    </button>
+    <button
+      type="button"
+      *ngIf="ai.busy()"
+      class="abort"
+      (click)="ai.abort()"
+    >
+      Dừng
+    </button>
+  </form>
+</div>

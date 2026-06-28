@@ -38,6 +38,29 @@
       }
     },
     {
+      "name": "ai-data",
+      "urls": [
+        "/assets/kanji-words-data/*.json",
+        "/assets/kanji-radicard-data/*.json",
+        "/assets/reduplicative-words-data/*.json",
+        "/assets/ai/*.json"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 5000000,
+        "maxAge": "30d"
+      }
+    },
+    {
+      "name": "ai-chat",
+      "urls": ["/api/ai/chat"],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 0,
+        "maxAge": "1d"
+      }
+    },
+    {
       "name": "pexels-images",
       "urls": ["https://images.pexels.com/**"],
       "cacheConfig": {

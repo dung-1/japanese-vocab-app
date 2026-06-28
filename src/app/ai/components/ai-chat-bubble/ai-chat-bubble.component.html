@@ -1,0 +1,11 @@
+<div class="bubble" [class.user]="message.role === 'user'" [class.assistant]="message.role === 'assistant'">
+  <div class="role">
+    {{ message.role === 'user' ? '👤 Bạn' : '🤖 Trợ lý AI' }}
+    <span *ngIf="message.streaming" class="streaming-indicator">●</span>
+  </div>
+  <div class="content" [innerHTML]="renderContent()"></div>
+  <div *ngIf="message.contextUsed && message.contextUsed.items.length > 0" class="citations">
+    <small>📚 {{ message.contextUsed.items.length }} nguồn tham khảo</small>
+  </div>
+  <div *ngIf="message.error" class="error">⚠️ {{ message.error }}</div>
+</div>

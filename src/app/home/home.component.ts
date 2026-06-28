@@ -51,6 +51,13 @@ export class HomeComponent {
       description: 'Học các từ láy trong tiếng Nhật với flashcard và kiểm tra trắc nghiệm.',
       icon: '々',
       gradient: 'linear-gradient(135deg, #7209b7 0%, #f72585 100%)'
+    },
+    {
+      path: '/ai',
+      title: 'Trợ lý AI',
+      description: 'Hỏi đáp Kanji, từ vựng, bộ thủ, ngữ pháp bằng AI (RAG + Ollama).',
+      icon: '🤖',
+      gradient: 'linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%)'
     }
   ];
 
