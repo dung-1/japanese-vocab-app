@@ -53,7 +53,7 @@
     },
     {
       "name": "ai-chat",
-      "urls": ["/api/ai/chat"],
+      "urls": ["/api/chat"],
       "cacheConfig": {
         "strategy": "freshness",
         "maxSize": 0,
