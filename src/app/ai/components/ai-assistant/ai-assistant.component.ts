@@ -2,6 +2,7 @@ import { AfterViewChecked, Component, ElementRef, OnInit, ViewChild, inject, sig
 import { Router } from '@angular/router';
 import { AiService } from '../../services/ai.service';
 import { KnowledgeService } from '../../services/knowledge.service';
+import { ConversationMemoryService } from '../../services/conversation-memory.service';
 import { AiChatMessage } from '../../models/ai-chat.model';
 
 @Component({
@@ -13,6 +14,7 @@ import { AiChatMessage } from '../../models/ai-chat.model';
 export class AiAssistantComponent implements OnInit, AfterViewChecked {
   readonly ai = inject(AiService);
   readonly knowledge = inject(KnowledgeService);
+  private readonly conversationMemory = inject(ConversationMemoryService);
   private readonly router = inject(Router);
 
   @ViewChild('chatWindow') chatWindowRef?: ElementRef<HTMLDivElement>;
@@ -49,8 +51,22 @@ export class AiAssistantComponent implements OnInit, AfterViewChecked {
     void this.router.navigate(['/home']);
   }
 
+  clearChat(): void {
+    this.ai.clear();
+  }
+
   trackById(_index: number, m: AiChatMessage): string {
     return m.id;
+  }
+
+  /** Phase 4 PLAN.md: Session indicator — hiển thị trạng thái phiên hội thoại hiện tại */
+  sessionInfo(): { label: string; messageCount: number } | null {
+    const session = this.conversationMemory.getCurrentSession();
+    if (!session) return null;
+    return {
+      label: session.messages.length > 0 ? 'Phiên đang tiếp tục' : 'Phiên mới',
+      messageCount: session.messages.length,
+    };
   }
 
   lastIsStreaming(): boolean {

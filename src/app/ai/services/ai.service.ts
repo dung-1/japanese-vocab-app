@@ -9,6 +9,8 @@ import { AiSettingsService } from './ai-settings.service';
 import { ProviderFactory } from '../providers/provider-factory.service';
 import { AiProvider, ChatStreamHandle } from '../providers/ai-provider.interface';
 import { validateAnswer, ValidationResult } from '../utils/response-validator.util';
+import { ConversationMemoryService } from './conversation-memory.service';
+import { EnhancedPromptBuilderService } from './enhanced-prompt-builder.service';
 
 @Injectable({ providedIn: 'root' })
 export class AiService {
@@ -17,6 +19,8 @@ export class AiService {
   private readonly promptBuilder = inject(PromptBuilderService);
   private readonly settings = inject(AiSettingsService);
   private readonly factory = inject(ProviderFactory);
+  private readonly conversationMemory = inject(ConversationMemoryService);
+  private readonly enhancedPromptBuilder = inject(EnhancedPromptBuilderService);
 
   readonly messages = signal<AiChatMessage[]>([]);
   readonly busy = signal(false);
@@ -36,6 +40,8 @@ export class AiService {
     if (!this.knowledge.loaded()) {
       await this.knowledge.loadAll();
     }
+    // Initialize conversation session
+    this.conversationMemory.initializeSession();
   }
 
   async ask(question: string): Promise<AiChatMessage | null> {
@@ -55,7 +61,13 @@ export class AiService {
       domain,
       hits.map((h) => h.item),
     );
-    const payload = this.promptBuilder.build(domain, context, trimmed);
+    
+    // Use enhanced prompt builder with conversation history
+    const payload = this.enhancedPromptBuilder.buildWithHistory(
+      domain,
+      context,
+      trimmed
+    );
 
     const userMsg: AiChatMessage = {
       id: `u-${Date.now()}`,
@@ -65,6 +77,9 @@ export class AiService {
       contextUsed: context,
     };
     this.messages.update((arr) => [...arr, userMsg]);
+    
+    // Add user message to conversation memory
+    this.conversationMemory.addMessage(userMsg);
 
     const asstMsg: AiChatMessage = {
       id: `a-${Date.now()}`,
@@ -96,7 +111,13 @@ export class AiService {
       domain,
       hits.map((h) => h.item),
     );
-    const payload = this.promptBuilder.build(domain, context, trimmed);
+    
+    // Use enhanced prompt builder with conversation history
+    const payload = this.enhancedPromptBuilder.buildWithHistory(
+      domain,
+      context,
+      trimmed
+    );
 
     const userMsg: AiChatMessage = {
       id: `u-${Date.now()}`,
@@ -106,6 +127,9 @@ export class AiService {
       contextUsed: context,
     };
     this.messages.update((arr) => [...arr, userMsg]);
+    
+    // Add user message to conversation memory
+    this.conversationMemory.addMessage(userMsg);
 
     const asstMsg: AiChatMessage = {
       id: `a-${Date.now()}`,
@@ -131,6 +155,8 @@ export class AiService {
   clear(): void {
     this.abort();
     this.messages.set([]);
+    // Clear conversation memory as well
+    this.conversationMemory.clearCurrentConversation();
   }
 
   prependUser(text: string): void {
@@ -183,6 +209,10 @@ export class AiService {
             this.messages.update((arr) =>
               arr.map((m) => (m.id === asstMsg.id ? finished : m)),
             );
+            
+            // Add assistant message to conversation memory
+            this.conversationMemory.addMessage(finished);
+            
             this.busy.set(false);
             this.currentAbort = null;
             resolve(finished);

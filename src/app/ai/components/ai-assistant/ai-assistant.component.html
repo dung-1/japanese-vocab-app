@@ -1,7 +1,21 @@
 <div class="ai-container">
   <div class="top-bar">
     <button class="back-btn" (click)="goHome()">← Trang chủ</button>
-    <a routerLink="/ai/settings" class="settings-link">⚙️ Settings</a>
+    <div class="top-bar-right">
+      <span class="session-indicator" *ngIf="sessionInfo() as s" [title]="s.label">
+        💬 {{ s.label }} ({{ s.messageCount }})
+      </span>
+      <button
+        class="clear-btn"
+        type="button"
+        (click)="clearChat()"
+        [disabled]="ai.messages().length === 0"
+        title="Xóa lịch sử chat và bắt đầu phiên mới"
+      >
+        🗑️ Xóa chat
+      </button>
+      <a routerLink="/ai/settings" class="settings-link">⚙️ Settings</a>
+    </div>
   </div>
   <h1>🤖 Trợ lý AI</h1>
   <p class="subtitle">Hỏi đáp Kanji, Từ vựng, Bộ thủ, Ngữ pháp N2-N4</p>
