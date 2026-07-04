@@ -1,0 +1,23 @@
+<div class="lesson-selector">
+  <h2 class="selector-title">Chọn trình độ &amp; bài học</h2>
+  <div class="selector-row">
+    <div class="selector-group">
+      <label for="grammar-level">Trình độ</label>
+      <select id="grammar-level" [ngModel]="selectedLevel" (change)="onLevelChange($event)">
+        <option *ngFor="let l of levels" [value]="l.level">{{ l.level }}</option>
+      </select>
+    </div>
+    <div class="selector-group">
+      <label for="grammar-lesson">Bài học</label>
+      <select id="grammar-lesson" [ngModel]="selectedLesson" (change)="onLessonChange($event)">
+        <option value="">-- Chọn bài --</option>
+        <option *ngFor="let n of lessons" [value]="n">
+          Bài {{ n }}
+          <ng-container *ngIf="getLessonScore(n) !== null">
+            ({{ getLessonScore(n) }}%)
+          </ng-container>
+        </option>
+      </select>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,242 @@
+[
+    {
+        "pattern": "あまり～ない",
+        "meaning": "Không... lắm (mức độ/tần suất thấp)",
+        "connection": {
+            "formula": "あまり + V-ない / A-くない / Na-ではない",
+            "note": "Dùng cho mức độ hoặc tần suất không cao."
+        },
+        "core_nuance": "Sự phủ định nhẹ nhàng, không hoàn toàn tuyệt đối.",
+        "mnemonic": {
+            "story": "Quá (A) mức thì không (nai) còn gì nữa, nên chỉ dừng ở mức độ vừa phải thôi."
+        },
+        "examples": [
+            {
+                "japanese": "最近はあまりテレビを見ません。",
+                "vietnamese": "Dạo này tôi không xem tivi nhiều lắm."
+            },
+            {
+                "japanese": "料理が好きです。あまり上手じゃありませんが。",
+                "vietnamese": "Tôi thích nấu ăn, dù không giỏi lắm."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy đóng vai người Nhật trả lời khi được hỏi về sở thích cá nhân, sử dụng cấu trúc 'あまり～ない' để khiêm tốn."
+    },
+    {
+        "pattern": "必ずしも～ない",
+        "meaning": "Không hẳn là... (phủ định một phần)",
+        "connection": {
+            "formula": "必ずしも + [Thể thông thường] + わけではない / わけではない",
+            "note": "Nhấn mạnh có trường hợp ngoại lệ."
+        },
+        "core_nuance": "Không phải lúc nào cũng đúng, thừa nhận sự tồn tại của ngoại lệ.",
+        "mnemonic": {
+            "story": "Luôn luôn (Kanarazu) thì không (nai) hẳn thế, đời luôn có ngoại lệ!"
+        },
+        "examples": [
+            {
+                "japanese": "日本人だからといって、必ずしも敬語が正しく話せるとは限らない。",
+                "vietnamese": "Không phải cứ là người Nhật thì ai cũng nói kính ngữ đúng đâu."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy tạo một tranh luận về chủ đề 'Tiền có mang lại hạnh phúc không' sử dụng '必ずしも～ない'."
+    },
+    {
+        "pattern": "少しも～ない",
+        "meaning": "Một chút cũng không...",
+        "connection": {
+            "formula": "少しも + V-ない / A-くない",
+            "note": "Nhấn mạnh mức độ không có gì cả."
+        },
+        "core_nuance": "Hoàn toàn phủ định, mức độ bằng 0.",
+        "mnemonic": {
+            "story": "Một chút (sukoshi) cũng không còn, bay sạch!"
+        },
+        "examples": [
+            {
+                "japanese": "この町は30年前から少しも変わっていない。",
+                "vietnamese": "Thị trấn này 30 năm nay chẳng thay đổi chút nào."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy viết một câu cảm thán về việc một người kiên quyết không thay đổi quyết định của mình."
+    },
+    {
+        "pattern": "たとえ～ても",
+        "meaning": "Cho dù... thì cũng...",
+        "connection": {
+            "formula": "たとえ + V/A/Na/N (thể て) + も",
+            "note": "Giả định một điều kiện khắc nghiệt."
+        },
+        "core_nuance": "Dù tình huống có khó khăn đến mấy, kết quả phía sau vẫn không đổi.",
+        "mnemonic": {
+            "story": "Cho dù (tatoe) trời có sập (temo) thì tôi vẫn làm."
+        },
+        "examples": [
+            {
+                "japanese": "たとえ給料が安くても、自分の好きな仕事がしたい。",
+                "vietnamese": "Cho dù lương có thấp, tôi vẫn muốn làm công việc mình yêu thích."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy đặt ra một tình huống giả định khó khăn và dùng 'たとえ～ても' để khẳng định ý chí."
+    },
+    {
+        "pattern": "どんなに～ても",
+        "meaning": "Cho dù có... đến mức nào đi nữa",
+        "connection": {
+            "formula": "どんなに + V/A/Na (thể て) + も",
+            "note": "Nhấn mạnh mức độ cực đoan của giả định."
+        },
+        "core_nuance": "Nhấn mạnh sự bất chấp về cường độ, mức độ hoặc tình trạng.",
+        "mnemonic": {
+            "story": "Dù có (donna ni) thế nào đi nữa, (temo) vẫn vậy."
+        },
+        "examples": [
+            {
+                "japanese": "どんなにがんばっても、あした中にレポートを提出するのは無理だ。",
+                "vietnamese": "Cho dù cố gắng đến mấy thì việc nộp báo cáo trong ngày mai là không thể."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một tình huống về một người chăm chỉ nỗ lực bất chấp mọi rào cản."
+    },
+    {
+        "pattern": "もしかすると～かもしれない",
+        "meaning": "Có lẽ là, có khả năng là...",
+        "connection": {
+            "formula": "もしかすると + [Thể thông thường] + かもしれない",
+            "note": "Diễn tả sự phỏng đoán dựa trên linh cảm."
+        },
+        "core_nuance": "Sự phỏng đoán không chắc chắn, mang tính chủ quan của người nói.",
+        "mnemonic": {
+            "story": "Nếu mà (moshikasuruto) có khả năng (kamoshirenai) thì cứ đoán thôi!"
+        },
+        "examples": [
+            {
+                "japanese": "昨日から雨が続いている。もしかするとあしたの試合は中止かもしれない。",
+                "vietnamese": "Mưa đã kéo dài từ hôm qua. Có lẽ trận đấu ngày mai sẽ bị hủy."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy đóng vai người dự báo thời tiết hoặc một người bạn đang đoán về lý do ai đó vắng mặt."
+    },
+    {
+        "pattern": "おそらく～だろう",
+        "meaning": "Có lẽ... (phỏng đoán với độ tin cậy cao)",
+        "connection": {
+            "formula": "おそらく + [Thể thông thường/A-na/N] + だろう",
+            "note": "Thể hiện sự phỏng đoán dựa trên căn cứ, độ chắc chắn cao hơn 'たぶん'."
+        },
+        "core_nuance": "Sự tự tin trong suy đoán, thường đi kèm với những tình huống có logic.",
+        "mnemonic": {
+            "story": "Chữ 'Osoraku' (nghe như 'Ồ! So ra...') -> So sánh các bằng chứng thì khả năng cao là vậy rồi!"
+        },
+        "examples": [
+            {
+                "japanese": "おそらく犯人は武器を川に捨てたのだろう。",
+                "vietnamese": "Có lẽ thủ phạm đã vứt hung khí xuống sông rồi."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một tình huống thám tử đang quan sát hiện trường vụ án và suy luận logic."
+    },
+    {
+        "pattern": "きっと～だろう",
+        "meaning": "Chắc chắn là... (phỏng đoán chủ quan mạnh mẽ)",
+        "connection": {
+            "formula": "きっと + [Thể thông thường/A-na/N] + だろう",
+            "note": "Nhấn mạnh sự tự tin của người nói, cao hơn cả 'たぶん' và 'おそらく'."
+        },
+        "core_nuance": "Sự tin tưởng tuyệt đối vào phỏng đoán cá nhân.",
+        "mnemonic": {
+            "story": "Kitto = 'Khi tớ' (tin tưởng) thì chắc chắn là đúng!"
+        },
+        "examples": [
+            {
+                "japanese": "今夜は星がきれいに見えるから、あしたはきっと晴れるだろう。",
+                "vietnamese": "Vì tối nay nhìn thấy sao rất đẹp, nên chắc chắn ngày mai trời sẽ nắng."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một lời dự đoán lạc quan về thời tiết hoặc kết quả thi cử."
+    },
+    {
+        "pattern": "まるで～みたい",
+        "meaning": "Giống như là, cứ như là",
+        "connection": {
+            "formula": "まるで + [Thể thông thường/N] + みたい / ようだ",
+            "note": "Dùng để so sánh ẩn dụ, thực tế không phải vậy nhưng cảm giác là như vậy."
+        },
+        "core_nuance": "Sự so sánh dựa trên cảm nhận, không phải sự thật hiển nhiên.",
+        "mnemonic": {
+            "story": "Maru-de (Tròn trịa) = Giống hệt như thật!"
+        },
+        "examples": [
+            {
+                "japanese": "11月なのに、今日は暖かいね。まるで春みたいだ。",
+                "vietnamese": "Dù đã tháng 11 nhưng hôm nay ấm áp thật. Cứ như là mùa xuân vậy."
+            },
+            {
+                "japanese": "私と彼は小さいころから仲がよく、まるで兄弟のようだ。",
+                "vietnamese": "Tôi và anh ấy chơi với nhau từ nhỏ, thân thiết cứ như anh em vậy."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy mô tả một cảm giác lạ lẫm hoặc thú vị bằng cách so sánh."
+    },
+    {
+        "pattern": "せっかく",
+        "meaning": "Đã cất công, đã cố gắng (tiếc nuối hoặc muốn tận dụng)",
+        "connection": {
+            "formula": "せっかく + [V/A/N]",
+            "note": "Dùng khi nỗ lực đặc biệt mà kết quả không như mong đợi hoặc để nhấn mạnh cơ hội quý giá."
+        },
+        "core_nuance": "Sự đối lập giữa công sức bỏ ra và kết quả thực tế.",
+        "mnemonic": {
+            "story": "Sết-cắt-cúc: Cất công làm nhưng 'cắt cụt' mất kết quả."
+        },
+        "examples": [
+            {
+                "japanese": "せっかく早起きしてお弁当を作ったのに、家に忘れてきてしまった。",
+                "vietnamese": "Đã cất công dậy sớm làm cơm hộp, vậy mà lại quên ở nhà mất rồi."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một tình huống than thở khi một nỗ lực tốt bị hỏng."
+    },
+    {
+        "pattern": "どうか",
+        "meaning": "Làm ơn, xin hãy (dùng khi nhờ vả điều khó khăn)",
+        "connection": {
+            "formula": "どうか + V-te ください",
+            "note": "Thể hiện sự cầu khẩn chân thành, tha thiết."
+        },
+        "core_nuance": "Sự khẩn khoản khi biết điều yêu cầu là khó khăn với người nghe.",
+        "mnemonic": {
+            "story": "Douka (Độ-ca) = Xin hãy cứu lấy (độ) tôi qua (ca) cơn hoạn nạn này."
+        },
+        "examples": [
+            {
+                "japanese": "先生、難しい手術ですが、どうか父を助けてください。",
+                "vietnamese": "Thưa bác sĩ, đây là ca phẫu thuật khó, nhưng xin hãy cứu lấy cha tôi."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một đoạn thoại trong bệnh viện hoặc tình huống khẩn cấp."
+    },
+    {
+        "pattern": "すっかり",
+        "meaning": "Hoàn toàn, sạch trơn",
+        "connection": {
+            "formula": "すっかり + V (thể hoàn thành)",
+            "note": "Diễn tả sự thay đổi 100%. Không dùng với câu phủ định (~ない)."
+        },
+        "core_nuance": "Không còn sót lại bất cứ thứ gì của trạng thái cũ.",
+        "mnemonic": {
+            "story": "Sút-cà-ri: Ăn hết sạch, bụng trống không, thay đổi hoàn toàn!"
+        },
+        "examples": [
+            {
+                "japanese": "前町はすっかり変わった。",
+                "vietnamese": "Thị trấn trước đây đã thay đổi hoàn toàn rồi."
+            },
+            {
+                "japanese": "旅行に行ったら、貯金がすっかりなくなった。",
+                "vietnamese": "Đi du lịch xong, tiền tiết kiệm sạch trơn luôn."
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu mô tả một người đã quên sạch kiến thức hoặc một ví tiền hết sạch tiền."
+    }
+]

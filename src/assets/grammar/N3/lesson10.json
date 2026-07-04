@@ -1,0 +1,112 @@
+[
+    {
+        "pattern": "～（さ）せていただきます",
+        "meaning": "Xin phép cho tôi được làm gì... (Kính ngữ hạ mình tối cao)",
+        "connection": {
+            "formula": "V Thể sai khiến (使役形) + ていただきます / てください",
+            "note": "Dùng khi bản thân nhận được sự cho phép từ người bề trên hoặc đối tác để làm một việc gì đó."
+        },
+        "core_nuance": "Bày tỏ thái độ vô cùng khiêm nhường, biết ơn khi nhận được đặc quyền, sự cho phép tự do hành động từ phía đối phương.",
+        "mnemonic": {
+            "concept": "Xin ban ơn cho phép",
+            "kanji_link": "させて (Bắt/Cho phép) + いただきます (Nhận lấy).",
+            "story": "Tôi xin khiêm tốn 'nhận lấy' (いただきます) đặc ân khi được ngài 'cho phép làm' (させて) hành động này."
+        },
+        "examples": [
+            {
+                "japanese": "先生のペンを使わせていただきます。",
+                "romaji": "Sensei no pen o tsukawasete itadakimasu.",
+                "vietnamese": "Xin phép thầy cho tôi được sử dụng chiếc bút mực của thầy ạ.",
+                "highlight_keyword": "使わせていただきます"
+            },
+            {
+                "japanese": "本日ガイドをさせていただきます山田と申します。",
+                "romaji": "Honjitsu gaido o sasete itadakimasu Yamada to mōshimasu.",
+                "vietnamese": "Tôi tên là Yamada, xin phép được đảm nhiệm vai trò hướng dẫn viên của ngày hôm nay.",
+                "highlight_keyword": "させていただきます"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Phát biểu trong cuộc họp: Xin phép cho tôi được giải thích về dự án này (させていただきます)."
+    },
+    {
+        "pattern": "～ていただけますか / ～ていただけないでしょうか",
+        "meaning": "Anh/chị có thể làm ơn làm việc này giúp tôi được không? (Nhờ vả lịch sự)",
+        "connection": {
+            "formula": "Vて + いただけますか / ていただけないでしょうか",
+            "note": "Dạng「～ていただけないでしょうか」mang sắc thái dò hỏi, trang trọng và lịch sự cao nhất."
+        },
+        "core_nuance": "Dùng để đưa ra lời yêu cầu, nhờ vả đối phương thực hiện một hành động giúp đỡ mình một cách vô cùng tôn trọng.",
+        "mnemonic": {
+            "concept": "Gõ cửa nhờ vả tôn kính",
+            "kanji_link": "いただく (Nhận) thể khả năng phủ định nghi vấn.",
+            "story": "Liệu tôi có thể nhận được lòng tốt của anh làm việc đó giúp tôi hay không (ていただけないでしょうか)?"
+        },
+        "examples": [
+            {
+                "japanese": "先生、作文を書いたんですが、見ていただけないでしょうか。",
+                "romaji": "Sensei, sakubun o kaita n desu ga, mite itadakenai deshō ka.",
+                "vietnamese": "Thầy ơi, em đã viết xong bài tập làm văn rồi, thầy có thể làm ơn xem giúp em được không ạ?",
+                "highlight_keyword": "見ていただけないでしょうか"
+            },
+            {
+                "japanese": "駅までの道を教えていただけないでしょうか。",
+                "romaji": "Eki made no michi o oshiete itadakenai deshō ka.",
+                "vietnamese": "Anh làm ơn có thể chỉ giúp tôi con đường đi ra nhà ga được không ạ?",
+                "highlight_keyword": "教えていただけないでしょうか"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhờ người lạ chụp ảnh hộ: Anh có thể làm ơn chụp hộ tôi bức ảnh được không (ていただけないでしょうか)?"
+    },
+    {
+        "pattern": "～でいらっしゃる",
+        "meaning": "Là... (Dạng kính ngữ tôn kính của だ / です)",
+        "connection": {
+            "formula": "N + でいらっしゃる / Nでいらっしゃいます",
+            "note": "Chỉ dùng cho hành động, trạng thái thân phận của đối phương (người bề trên), không dùng cho bản thân."
+        },
+        "core_nuance": "Nâng cao vị thế, chức danh, quốc tịch hoặc thân phận của đối phương lên mức tôn kính cao trọng.",
+        "mnemonic": {
+            "concept": "Tấm thảm đỏ thân phận",
+            "kanji_link": "Gốc kính ngữ いらっしゃる.",
+            "story": "Thân phận cao quý của ngài chính là (でいらっしゃる) vị trí trang trọng đó."
+        },
+        "examples": [
+            {
+                "japanese": "コーチは元日本代表でいらっしゃいます。",
+                "romaji": "Kōchi wa moto nihon daihyō de irasshaimasu.",
+                "vietnamese": "Huấn luyện viên chính là cựu tuyển thủ đại diện của đội tuyển Nhật Bản ngày xưa đó ạ.",
+                "highlight_keyword": "でいらっしゃいます"
+            },
+            {
+                "japanese": "先生は本を読んでいらっしゃいます。",
+                "romaji": "Sensei wa hon o yonde irasshaimasu.",
+                "vietnamese": "Thầy giáo đang đọc sách ạ.",
+                "highlight_keyword": "読んでいらっしゃいます"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hỏi thăm khách hàng: Giám đốc có phải là người Mỹ không ạ (でいらっしゃいますか)?"
+    },
+    {
+        "pattern": "～でございます",
+        "meaning": "Là... (Dạng lịch sự, trang trọng của です)",
+        "connection": {
+            "formula": "N / Na + でございます",
+            "note": "Dùng để thông báo thông tin mang tính khách quan hoặc khi nhân viên phục vụ nói chuyện với khách hàng."
+        },
+        "core_nuance": "Hạ thấp sắc thái cá nhân, biến câu nói trở nên vô cùng nhã nhặn, chuyên nghiệp theo quy chuẩn lễ tiết.",
+        "mnemonic": {
+            "concept": "Tiếng nói của người phục vụ",
+            "kanji_link": "ございます (Có/Là).",
+            "story": "Thưa quý khách, vật phẩm/thông tin này chính là (でございます) thứ ngài yêu cầu."
+        },
+        "examples": [
+            {
+                "japanese": "こちらが東京スカイツリーでございます。高さは634mでございます。",
+                "romaji": "Kochira ga tōkyō sukaitsurī de gozaimasu. Takasa wa roppyaku sanzūyon mētaru de gozaimasu.",
+                "vietnamese": "Phía bên này chính là tháp Tokyo Skytree ạ. Chiều cao của tháp là 634 mét thưa quý vị.",
+                "highlight_keyword": "でございます"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhân viên khách sạn trả lời: Đây là chìa khóa phòng của quý khách ạ (でございます)."
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～くせに･･･",
+        "meaning": "Mặc dù... vậy mà... (Thể hiện thái độ phê phán, trách móc, khinh miệt)",
+        "connection": {
+            "formula": "[V / Aい] Thể thông thường + くせに | [Naな] / [Nの] + くせに",
+            "note": "Chủ ngữ của 2 vế phải là một người. Không dùng cho hiện tượng tự nhiên."
+        },
+        "core_nuance": "Dùng khi muốn chỉ trích hay phê phán hành vi, thái độ của ai đó dựa trên thực tế họ là người như vậy nhưng lại làm ngược lại.",
+        "mnemonic": {
+            "concept": "Tật xấu khó chừa",
+            "kanji_link": "Chữ 癖 (Phách) nghĩa là thói hư, tật xấu.",
+            "story": "Đã mang cái 'tật xấu' (くせ) rành rành ra đó rồi mà còn bày đặt tỏ vẻ ngược lại."
+        },
+        "examples": [
+            {
+                "japanese": "父は好き嫌いが激しいくせに、私には残さず食べるように言う。",
+                "romaji": "Chichi wa sukikirai ga hagashii kuse ni, watashi ni wa nokosazu taberu you ni iu.",
+                "vietnamese": "Bố tôi mặc dù cực kỳ kén ăn vậy mà cứ bắt tôi phải ăn không được để thừa.",
+                "highlight_keyword": "激しいくせに"
+            },
+            {
+                "japanese": "弟は歌が下手だ。そのくせ、いつも大きな声で歌っている。",
+                "romaji": "Otouto wa uta ga heta da. Sono kuse, itsumo ookina koe de utatte iru.",
+                "vietnamese": "Em trai tôi hát rất dở. Mặc dù vậy (Thế mà), lúc nào nó cũng gào mồm lên hát rất to.",
+                "highlight_keyword": "そのくせ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một câu trách móc bạn thân: Biết thừa câu trả lời thế mà (くせに) lại không chịu chỉ cho tôi."
+    },
+    {
+        "pattern": "～だけでなく / ～ばかりでなく",
+        "meaning": "Không chỉ... mà còn... / Không những... mà còn...",
+        "connection": {
+            "formula": "N / Thể thông thường (Naな / Nだ・である) + だけでなく・ばかりでなく",
+            "note": "Cụm 「～ばかりでなく」 mang sắc thái trang trọng, văn viết hơn một chút (được ký hiệu bằng chữ 硬 trong sách)."
+        },
+        "core_nuance": "Thể hiện ý định muốn truyền đạt rằng không chỉ dừng lại ở phạm vi đó, mà phạm vi rộng hơn, có thêm cả những thứ khác nữa.",
+        "mnemonic": {
+            "concept": "Cộng thêm giá trị",
+            "kanji_link": "だけ (chỉ) / ばかり (toàn là).",
+            "story": "Không 'chỉ có' (だけ) bấy nhiêu đâu, đằng sau còn có một rổ quyền lợi đi kèm nữa kìa."
+        },
+        "examples": [
+            {
+                "japanese": "彼は道を教えてくれただけでなく、車で駅まで送ってくれた。",
+                "romaji": "Kare wa michi o oshiete kureta dake naku, kuruma de eki made okutte kureta.",
+                "vietnamese": "Anh ấy không chỉ chỉ đường cho tôi mà còn lái xe đưa tôi ra tận nhà ga.",
+                "highlight_keyword": "くれただけでなく"
+            },
+            {
+                "japanese": "その歌手は国内ばかりでなく、世界中で人気がある。",
+                "romaji": "Sono kashu wa kokunai bakari de naku, sekaijuu de ninki ga aru.",
+                "vietnamese": "Người ca sĩ đó không những nổi tiếng trong nước mà còn được yêu thích trên toàn thế giới.",
+                "highlight_keyword": "国内ばかりでなく"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu quảng cáo: Cửa hàng này không những món ăn ngon mà nhân viên còn cực kỳ thân thiện dùng だけでなく."
+    },
+    {
+        "pattern": "～につれ（て）･･･",
+        "meaning": "Cùng với việc.../ Kéo theo... (Vế A thay đổi dẫn đến vế B tự động thay đổi theo)",
+        "connection": {
+            "formula": "Vる / N + につれて",
+            "note": "Thường đi kèm với các động từ chỉ sự biến đổi như 進む, 上がる, 変化する."
+        },
+        "core_nuance": "Dùng khi muốn truyền đạt về sự biến đổi theo tỉ lệ thuận kiểu \"~ tiến triển thì... cũng thay đổi theo\".",
+        "mnemonic": {
+            "concept": "Bạn đồng hành",
+            "kanji_link": "Chữ 連れる (Liên) nghĩa là dắt theo, kéo theo.",
+            "story": "Hành động trước tiến lên kéo theo (につれて) hành động sau cũng lũ lượt biến đổi dắt tay nhau đi."
+        },
+        "examples": [
+            {
+                "japanese": "大人になるにつれて、苦手な食べ物が減ってきた。",
+                "romaji": "Otona ni naru ni tsurete, nigate na tabemono ga hette kita.",
+                "vietnamese": "Càng lớn lên (Cùng với việc trở thành người lớn), những món tôi ghét ăn ngày một giảm đi.",
+                "highlight_keyword": "なるにつれて"
+            },
+            {
+                "japanese": "A国は人口の増加につれて、経済も成長している。",
+                "romaji": "A-koku wa jinkou no zouka ni tsurete, keizai mo seichou shite iru.",
+                "vietnamese": "Nước A cùng với sự gia tăng dân số, nền kinh tế cũng đang tăng trưởng theo.",
+                "highlight_keyword": "増加につれて"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu tỉ lệ thuận: Càng lên cao (につれて) thì nhiệt độ không khí càng giảm xuống."
+    },
+    {
+        "pattern": "～を通して（とおして）",
+        "meaning": "1. Suốt cả giai đoạn... 2. Thông qua phương tiện/cách thức...",
+        "connection": {
+            "formula": "N + を通して",
+            "note": "Ý nghĩa ①: Khoảng thời gian liên tục. Ý nghĩa ②: Phương pháp gián tiếp."
+        },
+        "core_nuance": "① Dùng để diễn tả ý \"trong suốt khoảng thời gian ~\". ② Dùng khi muốn nói \"lấy ~ làm phương tiện/thủ đoạn để đạt được thứ gì đó\".",
+        "mnemonic": {
+            "concept": "Xuyên qua đường hầm",
+            "kanji_link": "Chữ 通る (Thông) đi xuyên qua, thông suốt.",
+            "story": "Đi 'xuyên qua' (を通して) cả một chặng đường thời gian dài hoặc dùng nó làm chiếc cầu trung gian để kết nối."
+        },
+        "examples": [
+            {
+                "japanese": "この島は1年を通して暖かい気候が続く。①",
+                "romaji": "Kono shima wa ichinen o通shite atatakai kikou ga tsuzuku.",
+                "vietnamese": "Hòn đảo này suốt cả một năm trời khí hậu ấm áp luôn tiếp diễn.",
+                "highlight_keyword": "1年を通して"
+            },
+            {
+                "japanese": "インターネットを通して、世界のニュースを知ることができる。②",
+                "romaji": "Intaanetto o touhshite, sekai no nyuusu o shiru koto ga dekiru.",
+                "vietnamese": "Thông qua mạng Internet, chúng ta có thể biết được tin tức của cả thế giới.",
+                "highlight_keyword": "インターネットを通して"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu: Tôi quen biết người yêu hiện tại thông qua (を通して) sự giới thiệu của một người bạn."
+    },
+    {
+        "pattern": "～をもとに（して）",
+        "meaning": "Dựa trên... / Lấy làm căn cứ, nền tảng, nguyên liệu...",
+        "connection": {
+            "formula": "N + をもとに（して）",
+            "note": "Thường đi kèm với các động từ sáng tạo như 作る, デザインする, 書く, 映画化する."
+        },
+        "core_nuance": "Dùng khi muốn nói \"lấy ~ làm tài liệu, căn cứ, nguồn gốc\" để tạo ra một sản phẩm hay một kết quả mới.",
+        "mnemonic": {
+            "concept": "Cội rễ gốc rễ",
+            "kanji_link": "Chữ 元 (Nguyên) nghĩa là gốc rễ, nền tảng ban đầu.",
+            "story": "Bốc lấy cái 'gốc rễ' (元) ban đầu đó để nhào nặn, xây dựng lên thành một tác phẩm mới tinh."
+        },
+        "examples": [
+            {
+                "japanese": "この映画は事実をもとに（して）作られた。",
+                "romaji": "Kono eiga wa jijitsu o moto ni (shite) tsukurareta.",
+                "vietnamese": "Bộ phim này được xây dựng (làm ra) dựa trên một câu chuyện có thật.",
+                "highlight_keyword": "事実をもとに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu: Tôi đã thiết kế logo cho công ty dựa trên (をもとに) ý tưởng của giám đốc."
+    }
+]

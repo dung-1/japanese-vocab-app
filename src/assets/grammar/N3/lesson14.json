@@ -1,0 +1,118 @@
+[
+    {
+        "pattern": "～代わりに（かわりに）",
+        "meaning": "1. Thay vì làm A... làm B 2. Bù lại, đổi lại... (Quan hệ đánh đổi)",
+        "connection": {
+            "formula": "Vる / Nの + 代わりに",
+            "note": "Có thể dùng thay thế cho vị trí của người, đồ vật (①, ③) hoặc thay đổi lựa chọn hành động (②)."
+        },
+        "core_nuance": "Diễn tả sự hoán đổi vị trí, phương án: không dùng phương án này mà lấp đầy bằng phương án tương đương khác, hoặc mang tính chất đền bù lợi ích qua lại.",
+        "mnemonic": {
+            "concept": "Diễn viên đóng thế",
+            "kanji_link": "Chữ 代わり (Đại) mang tính chất đại diện, thay thế.",
+            "story": "Phương án A rút lui ra sân khấu, nhường chỗ cho vị trí 'đóng thế đại diện' (代わりに) của phương án B."
+        },
+        "examples": [
+            {
+                "japanese": "私の代わりに部下がそちらへ伺います。",
+                "romaji": "Watashi no kawari ni buka ga sochira e ukagaimasu.",
+                "vietnamese": "Thay vì đích thân tôi đi, cấp dưới của tôi sẽ đến diện kiến phía bên anh ạ.",
+                "highlight_keyword": "私の代わりに"
+            },
+            {
+                "japanese": "雨が降っているので、ジョギングをする代わりにジムでトレーニングをした。",
+                "romaji": "Ame ga futte iru node, jogingu o suru kawari ni jimu de torēningu o shita.",
+                "vietnamese": "Vì trời đang đổ mưa, nên thay vì đi chạy bộ ngoài trời tôi đã tập luyện ở phòng gym.",
+                "highlight_keyword": "する代わりに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu đánh đổi: Căn phòng này tuy hơi hẹp nhưng đổi lại (代わりに) giá thuê rất rẻ."
+    },
+    {
+        "pattern": "～ことになっている",
+        "meaning": "Theo quy định thì... / Được quyết định là... (Quy tắc, kế hoạch)",
+        "connection": {
+            "formula": "Vる / Vない + ことになっている",
+            "note": "Mang sắc thái trang trọng, khách quan (硬). Thường nói về luật pháp, quy định tập thể hoặc lịch trình định sẵn."
+        },
+        "core_nuance": "Diễn tả một sự việc đã được tổ chức, luật pháp hoặc tập thể đưa ra quyết định thành quy tắc chung, bản thân người nói phải có nghĩa vụ tuân theo.",
+        "mnemonic": {
+            "concept": "Bản hiến pháp quy tắc",
+            "kanji_link": "こと (Việc) + なっている (Đã biến đổi thành trạng thái cố định).",
+            "story": "Cái việc đó đã 'được biến đổi đóng băng thành trạng thái cố định' (ことになっている) thành luật rồi, miễn bàn cãi."
+        },
+        "examples": [
+            {
+                "japanese": "今日は仕事の後病院に行くことになっています。",
+                "romaji": "Kyō wa shigoto no ato byōin ni iku koto ni natte imasu.",
+                "vietnamese": "Theo như kế hoạch định sẵn, hôm nay sau giờ làm việc tôi có lịch phải đi đến bệnh viện.",
+                "highlight_keyword": "行くことになっています"
+            },
+            {
+                "japanese": "このマンションではペットを飼ってはいけないことになっている。",
+                "romaji": "Kono manshon de wa petto o katte wa ikenai koto ni natte iru.",
+                "vietnamese": "Theo quy định của tòa chung cư này, việc nuôi thú cưng là hoàn toàn không được phép.",
+                "highlight_keyword": "いけないことになっている"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về nội quy công ty: Ở công ty tôi, quy định là (ことになっている) phải mặc đồng phục."
+    },
+    {
+        "pattern": "～（さ）せてもらえませんか",
+        "meaning": "Anh/chị có thể cho phép tôi làm việc này được không? (Xin phép lịch sự)",
+        "connection": {
+            "formula": "V Thể sai khiến (使役形) + てもらえませんか / ていただけませんか",
+            "note": "Dạng「～ていただけませんか」mang sắc thái tôn kính và lịch sự cao hơn hẳn dạng もらえませんか."
+        },
+        "core_nuance": "Dùng khi bản thân chủ động xin sự đồng ý, cho phép từ đối phương để bản thân mình thực hiện hành động.",
+        "mnemonic": {
+            "concept": "Xin mở lối đi",
+            "kanji_link": "させ (Cho phép) + もらえませんか (Có thể nhận được không).",
+            "story": "Liệu tôi 'có thể nhận được' (もらえませんか) lòng tốt của ngài 'cho phép tôi làm' (させ) việc này không?"
+        },
+        "examples": [
+            {
+                "japanese": "ちょっとここに座らせてもらえませんか。",
+                "romaji": "Chotto koko ni suwarasete moraemasen ka.",
+                "vietnamese": "Xin lỗi, anh có thể cho phép em được ngồi ở vị trí này một chút được không ạ?",
+                "highlight_keyword": "座らせてもらえませんか"
+            },
+            {
+                "japanese": "この教室を使わせていただけませんか。",
+                "romaji": "Kono kyōshitsu o tsukawasete itadakemasen ka.",
+                "vietnamese": "Dạ thưa thầy, thầy có thể cho phép chúng em được sử dụng phòng học này được không ạ?",
+                "highlight_keyword": "使わせていただけませんか"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Xin nghỉ làm vì ốm: Ngày mai anh có thể cho phép em nghỉ làm được không (休ませてもらえませんか)?"
+    },
+    {
+        "pattern": "～とともに",
+        "meaning": "1. Cùng với... (Đồng hành) 2. Cùng với sự thay đổi của A kéo theo B (Tỷ lệ thuận văn viết)",
+        "connection": {
+            "formula": "N / Vる + とともに",
+            "note": "Mang sắc thái vô cùng trang trọng, thường xuất hiện trong văn viết chính thống (硬)."
+        },
+        "core_nuance": "① Diễn tả ý nghĩa đồng hành tương đương với と一緒に. ② Diễn tả sự biến đổi đồng thời ở hai vế, vế A thay đổi dẫn theo vế B cũng tự động chuyển dịch theo.",
+        "mnemonic": {
+            "concept": "Hình với bóng song hành",
+            "kanji_link": "Chữ 共に (Cộng) cùng nhau, song hành.",
+            "story": "Hai sự vật, sự việc cùng dắt tay nhau 'song hành chung lối' (とともに) bất kể không gian hay mức độ thời gian."
+        },
+        "examples": [
+            {
+                "japanese": "クラスメートとともに毎日歩いた学校までの道が懐かしい。",
+                "romaji": "Kurasumēto to tomo ni mainichi aruita gakkō made no michi ga natsukashii.",
+                "vietnamese": "Tôi cảm thấy vô cùng hoài niệm về con đường đến trường mà tôi đã cùng đi bộ với bạn cùng lớp mỗi ngày.",
+                "highlight_keyword": "クラスメートとともに"
+            },
+            {
+                "japanese": "祖父は年を取るとともに耳が遠くなってきた。",
+                "romaji": "Sofu wa toshi o toru to tomo ni mimi ga tōku natte kita.",
+                "vietnamese": "Ông nội tôi cùng với việc tuổi tác ngày càng cao thì thính lực cũng ngày càng kém đi.",
+                "highlight_keyword": "年を取るとともに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu văn mang tính xã hội: Cùng với sự phát triển của internet (発展するとともに), cuộc sống ngày càng tiện lợi."
+    }
+]

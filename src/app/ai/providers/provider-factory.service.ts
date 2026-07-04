@@ -9,6 +9,8 @@ export class ProviderFactory {
   private readonly local = inject(LocalProvider);
   private readonly cloud = inject(CloudProvider);
 
+  private _activeType: AiProviderType = 'local';
+
   configureLocal(endpoint: string): void {
     this.local.setEndpoint(endpoint);
   }
@@ -17,8 +19,20 @@ export class ProviderFactory {
     this.cloud.configure({ apiKey, model, proxyUrl });
   }
 
+  setActiveType(type: AiProviderType): void {
+    this._activeType = type;
+  }
+
   get(type: AiProviderType): AiProvider {
     if (type === 'cloud') return this.cloud;
     return this.local;
+  }
+
+  /**
+   * Trả về provider đang active.
+   * EmbeddingService gọi getProvider() — cần setActiveType() trước.
+   */
+  getProvider(): AiProvider {
+    return this.get(this._activeType);
   }
 }

@@ -1,0 +1,147 @@
+[
+    {
+        "pattern": "～恐れがある（おそれがある）",
+        "meaning": "E là... / Có nguy cơ... (Lo sợ một kết quả xấu xảy ra)",
+        "connection": {
+            "formula": "Vる / Vない / Nの + 恐れがある",
+            "note": "Dùng nhiều trong các văn bản thông báo chính thức, tin tức thời sự để cảnh báo về hậu quả tiêu cực khách quan."
+        },
+        "core_nuance": "Cảnh báo rủi ro mang tính khoa học, xã hội. Dự đoán một mối hiểm họa có khả năng cao sẽ phát sinh trong tương lai.",
+        "mnemonic": {
+            "concept": "Biển báo vực sâu nguy hiểm",
+            "kanji_link": "Chữ 恐れ (Khủng) nỗi sợ hãi, lo ngại.",
+            "story": "Tình huống này đang chứa đựng đầy 'mầm mống của nỗi sợ hãi rủi ro' (恐れがある) rình rập."
+        },
+        "examples": [
+            {
+                "japanese": "たばこを吸うとかんがんになる恐れがある。",
+                "romaji": "Tabako o suu to kangan ni naru osore ga aru.",
+                "vietnamese": "Hút thuốc lá nhiều thì e là có nguy cơ dẫn tới bệnh ung thư.",
+                "highlight_keyword": "なる恐れがある"
+            },
+            {
+                "japanese": "大雨が続いているので洪水の恐れがある。",
+                "romaji": "Ōame ga tsuzuite iru node kōzui no osore ga aru.",
+                "vietnamese": "Mưa lớn cứ liên tục kéo dài dai dẳng thế này thì e rằng có nguy cơ xảy ra lũ lụt lớn.",
+                "highlight_keyword": "洪水の恐れがある"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tin tức kinh tế: Nếu lạm phát tiếp tục, kinh tế có nguy cơ suy thoái (悪化する恐れがある)."
+    },
+    {
+        "pattern": "～ことはない",
+        "meaning": "Không cần thiết phải... / Không việc gì phải...",
+        "connection": {
+            "formula": "Vる + ことはない",
+            "note": "Dùng để đưa ra lời khuyên, lời khích lệ hoặc nhắc nhở đối phương rằng một hành động nào đó là dư thừa, không cần thiết phải tốn công làm."
+        },
+        "core_nuance": "Giải tỏa áp lực cho người nghe. Thể hiện góc nhìn của người nói rằng tình huống hiện tại chưa đến mức nghiêm trọng để phải lo lắng hay thực hiện hành vi đó.",
+        "mnemonic": {
+            "concept": "Cánh cửa giải tỏa lo âu",
+            "kanji_link": "こと (Việc) + ない (Không có).",
+            "story": "Hoàn toàn 'không có việc/không có lý do' gì mà bạn phải ép bản thân làm điều đó cả, cứ thả lỏng đi."
+        },
+        "examples": [
+            {
+                "japanese": "「～する必要はない」と伝えたいときに使う。",
+                "romaji": "'~suru hitsuyō wa nai' to tsutae tai toki ni tsukau.",
+                "vietnamese": "Được dùng khi người nói muốn truyền tải thông điệp 'hoàn toàn không cần thiết phải làm việc đó'.",
+                "highlight_keyword": "する必要はない"
+            },
+            {
+                "japanese": "時間は十分あるから、急ぐことはない。",
+                "romaji": "Jikan wa jūbun aru kara, isogu koto wa nai.",
+                "vietnamese": "Thời gian vẫn còn dư dả thoải mái lắm, không việc gì phải cuống cuồng vội vã đâu.",
+                "highlight_keyword": "急ぐことはない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu an ủi: Lỗi nhỏ thôi, cậu không cần phải xin lỗi nhiều thế đâu (謝ることはない)."
+    },
+    {
+        "pattern": "～しかない",
+        "meaning": "Không còn cách nào khác ngoài... / Đành phải...",
+        "connection": {
+            "formula": "Vる + しかない",
+            "note": "Khi rơi vào tình thế đường cùng, không còn lựa chọn nào khác khả dĩ, người nói đành chấp nhận thực hiện phương án duy nhất này."
+        },
+        "core_nuance": "Sự lựa chọn duy nhất trong thế bị động. Không phải vì thích, mà vì hoàn cảnh ép buộc cắt cụt mọi lối đi khác.",
+        "mnemonic": {
+            "concept": "Lối đi độc đạo",
+            "kanji_link": "しかない (Chỉ có nước này thôi, ngoài ra không có gì).",
+            "story": "Nhìn quanh bốn phía chặn hết đường rồi, 'chỉ còn duy nhất cái phao này' (しかない) để bấu víu hành động."
+        },
+        "examples": [
+            {
+                "japanese": "この仕事ができるのは私だけだから、やるしかない。",
+                "romaji": "Kono shigoto ga dekiru no wa watashi dake dakara, yaru shikanai.",
+                "vietnamese": "Vì người có thể xử lý được công việc này chỉ có độc nhất mình tôi thôi, nên đành phải bắt tay vào làm chứ chẳng còn cách nào khác.",
+                "highlight_keyword": "やるしかない"
+            },
+            {
+                "japanese": "病気を治すためには手術しかない。",
+                "romaji": "Byōki o naosu tame ni wa shujutsu shikanai.",
+                "vietnamese": "Để chữa trị dứt điểm căn bệnh này thì đành phải tiến hành phẫu thuật chứ không còn con đường nào khác nữa.",
+                "highlight_keyword": "手術しかない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về tình huống nhỡ tàu: Chuyến tàu cuối chạy mất rồi, đành phải đi taxi về (タクシーで帰るしかない) thôi."
+    },
+    {
+        "pattern": "～において",
+        "meaning": "Tại... / Ở... / Trong lĩnh vực... (Chỉ địa điểm, bối cảnh thời gian hoặc lĩnh vực)",
+        "connection": {
+            "formula": "N + において / における + N",
+            "note": "Là dạng văn viết trang trọng của trợ từ で, chuyên dùng trong báo cáo, bài phát biểu hoặc văn bản nghị luận."
+        },
+        "core_nuance": "Xác định không gian vĩ mô. Định vị một sự kiện trọng đại được diễn ra trên một tọa độ không gian hoặc bối cảnh lịch sử, lĩnh vực lớn.",
+        "mnemonic": {
+            "concept": "Kính hiển vi định vị không gian",
+            "kanji_link": "於いて (Ô) tại, ở.",
+            "story": "Đặt tiêu điểm sự kiện định vị neo đậu vào đúng vị trí 'tại vùng không gian bối cảnh' (において) đó."
+        },
+        "examples": [
+            {
+                "japanese": "卒業式は大ホールにおいて行われる。",
+                "romaji": "Sotsugyōshiki wa dai hōru ni oite okonawareru.",
+                "vietnamese": "Lễ tốt nghiệp trang trọng sẽ được tổ chức cử hành ngay tại hội trường lớn.",
+                "highlight_keyword": "大ホールにおいて"
+            },
+            {
+                "japanese": "江戸時代における食生活について研究する。",
+                "romaji": "Edo jidai ni okeru shokuseikatsu ni tsuite kenkyū suru.",
+                "vietnamese": "Tôi tiến hành nghiên cứu sâu về thói quen ăn uống sinh hoạt trong thời kỳ Edo lịch sử.",
+                "highlight_keyword": "江戸時代における"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Văn bản hội nghị: Thế vận hội Olympic sẽ được tổ chức tại Tokyo (東京において)."
+    },
+    {
+        "pattern": "～わけだ",
+        "meaning": "Thảo nào mà... / Hèn chi... / Kết luận là... (Đưa ra kết quả logic tất yếu)",
+        "connection": {
+            "formula": "Thể thông thường (Naな / Nな hoặc Naである / Nである) + わけだ",
+            "note": "Dùng để giải thích một sự việc sau khi đã hiểu rõ nguyên nhân, bản chất phía sau, thấy kết quả đó là hoàn toàn hợp lý."
+        },
+        "core_nuance": "Nút thắt được tháo gỡ. Khi tìm được lý do thỏa đáng, người nói thốt lên ngộ ra chân lý 'À, ra là vậy, hèn chi kết quả hiển nhiên lại như thế'.",
+        "mnemonic": {
+            "concept": "Mảnh ghép logic khít khịt",
+            "kanji_link": "Chữ 訳 (Dịch) lý do, nguyên cớ.",
+            "story": "Mọi sự tình đã được lý giải rõ ràng cái nguyên cớ (わけだ), kết quả hiển lộ ra chuẩn chỉnh."
+        },
+        "examples": [
+            {
+                "japanese": "情報を見て、「～の原因や理由が分かった」と伝えたいときに使う。",
+                "romaji": "Jōhō o mite, '~no gen'in ya riyū ga wakatta' to tsutae tai toki ni tsukau.",
+                "vietnamese": "Được sử dụng khi sau khi xem xét thông tin, người nói muốn bày tỏ rằng 'mình đã thấu hiểu tường tận nguyên nhân và lý do của sự việc'.",
+                "highlight_keyword": "原因や理由が分かった"
+            },
+            {
+                "japanese": "ジョンさんのお母さんは料理研究家なんですか。料理が上手なわけだ。",
+                "romaji": "Jon-san no okāsan wa ryōri kenkyūka nan desu ka. Ryōri ga jōzu na wake da.",
+                "vietnamese": "Hóa ra mẹ của anh John là chuyên gia nghiên cứu ẩm thực cơ à? Thảo nào mà anh ấy nấu ăn đỉnh cao, khéo léo thế!",
+                "highlight_keyword": "上手なわけだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Thấu hiểu hoàn cảnh: Anh ấy sống ở Nhật 10 năm rồi, thảo nào nói tiếng Nhật trôi chảy thế (上手なわけだ)."
+    }
+]

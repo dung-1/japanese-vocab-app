@@ -1,0 +1,129 @@
+[
+    {
+        "pattern": "～うちに",
+        "meaning": "Trong lúc tranh thủ... / Trong khi trạng thái chưa biến đổi",
+        "connection": {
+            "formula": "Vる / Vない / Aい / Naな / Nの + うちに",
+            "note": "Tranh thủ thực hiện một hành động trước khi bối cảnh thời gian xung quanh thay đổi khiến việc đó không làm được nữa."
+        },
+        "core_nuance": "Tận dụng thời cơ vàng. Nếu thời gian trôi qua, cục diện lật chuyển thì cơ hội thực hiện hành vi đó sẽ tiêu biến.",
+        "mnemonic": {
+            "concept": "Đồng hồ cát đang chạy",
+            "kanji_link": "Chữ 内 (Nội) bên trong.",
+            "story": "Phải bao vây bắt lấy cơ hội ngay khi nó còn nằm gom bên 'trong' (うちに) phạm vi thời gian cho phép."
+        },
+        "examples": [
+            {
+                "japanese": "晴れているうちに、洗濯してしまおう。",
+                "romaji": "Harete iru uchi ni, sentaku shite shimaō.",
+                "vietnamese": "Tranh thủ lúc trời còn đang nắng ráo, chúng ta mau giặt giũ đồ đạc cho xong xuôi đi thôi.",
+                "highlight_keyword": "晴れているうちに"
+            },
+            {
+                "japanese": "会わないうちに、友人は痩せていた。",
+                "romaji": "Awanai uchi ni, yūjin wa yasete ita.",
+                "vietnamese": "Bẵng đi một thời gian trong suốt lúc không gặp nhau, cậu bạn thân của tôi nhìn gầy hẳn đi.",
+                "highlight_keyword": "会わないうちに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Khuyên nhủ: Tranh thủ lúc súp còn nóng (熱いうちに), bạn hãy ăn ngay đi."
+    },
+    {
+        "pattern": "～に決まっている",
+        "meaning": "Chắc chắn là... / Không thể khác được (Khẳng định tuyệt đối)",
+        "connection": {
+            "formula": "Thể thông thường (Na / N bỏ だ) + に決まっている",
+            "note": "Thể hiện phán đoán mang tính chủ quan cực kỳ mãnh liệt của người nói dựa trên một niềm tin vững chắc."
+        },
+        "core_nuance": "Bẻ gãy mọi ý kiến phản bác. Người nói cho rằng việc này là hiển nhiên, đóng đinh như một chân lý không cần bàn cãi thêm.",
+        "mnemonic": {
+            "concept": "Tấm bảng đinh đóng cột",
+            "kanji_link": "決まっている (Đã được quyết định sẵn).",
+            "story": "Số phận và kết quả của việc này đã 'được an bài quyết định' (に決まっている) từ lâu rồi, cãi sao được."
+        },
+        "examples": [
+            {
+                "japanese": "毎日遅くまで働いたら体力を壊す（壊す）に決まっている。",
+                "romaji": "Mainichi osoku made hataraitara tairyoku o kowasu ni kimatte iru.",
+                "vietnamese": "Cứ cày cuốc làm việc muộn khốc liệt mỗi ngày như thế thì chắc chắn trăm phần trăm sức khỏe sẽ đổ bệnh phá hủy thôi.",
+                "highlight_keyword": "壊す（壊す）に決まっている"
+            },
+            {
+                "japanese": "あの作家の漫画なら、おもしろいに決まっている。",
+                "romaji": "Ano sakka no manga nara, omoshiroi ni kimatte iru.",
+                "vietnamese": "Nếu đã là truyện tranh của vị tác giả danh tiếng đó vẽ thì chắc chắn là bao hay rồi.",
+                "highlight_keyword": "おもしろいに決まっている"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu cá cược: Nếu không học bài, bạn chắc chắn sẽ trượt (落ちるに決まっている)."
+    },
+    {
+        "pattern": "～さえ",
+        "meaning": "Ngay cả... / Thậm chí đến cả... (Nêu ví dụ cực đoan)",
+        "connection": {
+            "formula": "N / N + Trợ từ + さえ",
+            "note": "Đưa ra một ví dụ ở mức độ tối thiểu hoặc thấp nhất để ám chỉ rằng những mức độ thông thường khác là hiển nhiên."
+        },
+        "core_nuance": "Tạo cú sốc so sánh. Một thứ cơ bản đến thế mà còn không làm được thì đừng nói đến những thứ cao siêu hơn.",
+        "mnemonic": {
+            "concept": "Vạch ranh giới cuối cùng",
+            "kanji_link": "さえ (Thậm chí).",
+            "story": "Đến ngay cả (さえ) cái cột mốc nhỏ nhất này mà còn bị xô đổ thì mọi thứ khác chịu thua."
+        },
+        "examples": [
+            {
+                "japanese": "親は親友にさえ知らせず、仕事を辞めていた。",
+                "romaji": "Oya wa shinyū ni sae shirasezu, shigoto o yamete ita.",
+                "vietnamese": "Bố mẹ thậm chí đến cả người bạn thân thiết nhất cũng không thèm thông báo, cứ thế lẳng lặng nghỉ việc.",
+                "highlight_keyword": "親友にさえ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Mô tả sự mệt mỏi: Tôi mệt đến mức ngay cả việc đứng dậy (起き上がることさえ) cũng không làm nổi."
+    },
+    {
+        "pattern": "～といえば",
+        "meaning": "Nếu nói về... / Nhắc tới vấn đề đó thì... (Gợi ý, bắt chuyện từ từ khóa)",
+        "connection": {
+            "formula": "N + といえば",
+            "note": "Lấy một từ khóa vừa xuất hiện trong cuộc hội thoại để làm bàn đạp khơi gợi liên tưởng sang một thông tin, câu chuyện thú vị có liên quan."
+        },
+        "core_nuance": "Liên tưởng tự do. Chộp lấy chủ đề đối phương vừa ném ra để mở rộng mạch trò chuyện theo dòng ký ức.",
+        "mnemonic": {
+            "concept": "Trạm trung chuyển từ khóa",
+            "kanji_link": "と (Rằng) + いえば (Nếu nói).",
+            "story": "À, 'nếu mà nói về' (といえば) cái chuyện đấy thì đầu tôi nảy số ra ngay câu chuyện này."
+        },
+        "examples": [
+            {
+                "japanese": "日本の夏といえば、花火だろう。",
+                "romaji": "Nihon no natsu to ieba, hanabi darō.",
+                "vietnamese": "Nếu mà nói về mùa hè của Nhật Bản thì thứ hiện lên đầu tiên chắc chắn phải là pháo hoa rồi nhỉ!",
+                "highlight_keyword": "日本の夏といえば"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bắt chuyện du lịch: Nhắc đến phở (フォーといえば), người ta nghĩ ngay tới Việt Nam."
+    },
+    {
+        "pattern": "～わけにはいかない",
+        "meaning": "Không thể... (Vì rào cản đạo đức, lẽ thường xã hội không cho phép)",
+        "connection": {
+            "formula": "Vる + わけにはいかない",
+            "note": "Bản thân có khả năng làm được việc đó về mặt vật lý, nhưng lương tâm, nghĩa vụ hoặc quy tắc chung không cho phép làm."
+        },
+        "core_nuance": "Sức ép của bổn phận. Tránh thực hiện hành vi vì sợ vi phạm chuẩn mực đạo đức hoặc tạo nên một kết cục xấu hổ.",
+        "mnemonic": {
+            "concept": "Sợi dây trói buộc lương tâm",
+            "kanji_link": "わけ (Lý do/Lẽ phải) + にはいかない (Không thể đi theo hướng đó).",
+            "story": "Xét theo đạo lý và 'lẽ phải thông thường' (わけ), bước chân mình 'không thể đi bậy' (にはいかない) được."
+        },
+        "examples": [
+            {
+                "japanese": "試験の日は遅刻するわけにはいかない。",
+                "romaji": "Shiken no hi wa chikoku suru wake ni wa ikanai.",
+                "vietnamese": "Vào ngày thi cử trọng đại thì tuyệt đối không thể có chuyện đi muộn được (vì quy chế và tương lai).",
+                "highlight_keyword": "遅刻するわけにはいかない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết tình huống công việc: Vì ngày mai có cuộc họp quan trọng nên hôm nay tôi không thể nghỉ (休むわけにはいかない)."
+    }
+]

@@ -1,0 +1,70 @@
+<div class="fc-wrapper" *ngIf="items.length > 0; else empty">
+  <!-- Progress -->
+  <div class="fc-progress-bar">
+    <div class="fc-progress-fill" [style.width.%]="progress"></div>
+  </div>
+  <div class="fc-counter">{{ currentIndex + 1 }} / {{ items.length }}</div>
+
+  <!-- Card -->
+  <div class="fc-card" [class.flipped]="isFlipped" (click)="flip()" role="button"
+    [attr.aria-label]="isFlipped ? 'Mặt sau — nhấn để lật' : 'Mặt trước — nhấn để lật'"
+    tabindex="0" (keydown.enter)="flip()">
+
+    <!-- FRONT -->
+    <div class="fc-face fc-front">
+      <span class="fc-badge">Ngữ pháp</span>
+      <div class="fc-pattern">{{ current?.pattern }}</div>
+      <div class="fc-meaning">{{ current?.meaning }}</div>
+      <span class="fc-hint">Nhấn để xem chi tiết ↓</span>
+    </div>
+
+    <!-- BACK -->
+    <div class="fc-face fc-back">
+      <div class="fc-section fc-formula">
+        <div class="fc-section-label">📐 Cấu trúc</div>
+        <div class="fc-formula-text">{{ current?.connection?.formula }}</div>
+        <div class="fc-note" *ngIf="current?.connection?.note">{{ current?.connection?.note }}</div>
+      </div>
+
+      <div class="fc-section fc-nuance">
+        <div class="fc-section-label">💡 Sắc thái</div>
+        <p class="fc-nuance-text">{{ current?.core_nuance }}</p>
+      </div>
+
+      <div class="fc-section fc-mnemonic" *ngIf="current?.mnemonic?.story">
+        <div class="fc-section-label">🧠 Ghi nhớ — {{ current?.mnemonic?.concept }}</div>
+        <p class="fc-mnemonic-text">{{ current?.mnemonic?.story }}</p>
+        <span class="fc-kanji-link" *ngIf="current?.mnemonic?.kanji_link">
+          🔗 {{ current?.mnemonic?.kanji_link }}
+        </span>
+      </div>
+
+      <div class="fc-section fc-examples">
+        <div class="fc-section-label">📝 Ví dụ</div>
+        <div class="fc-example-item" *ngFor="let ex of current?.examples; let i = index">
+          <div class="fc-ex-jp">
+            {{ ex.japanese }}
+            <button class="fc-speak-btn" (click)="speak(ex.japanese, $event)" title="Nghe">🔊</button>
+          </div>
+          <div class="fc-ex-reading" *ngIf="showReading[i]">{{ ex.reading }}</div>
+          <div class="fc-ex-en">{{ ex.english }}</div>
+          <button class="fc-toggle-reading" (click)="toggleReading(i); $event.stopPropagation()">
+            {{ showReading[i] ? '▲ Ẩn furigana' : '▼ Hiện furigana' }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="fc-nav">
+    <button class="fc-nav-btn" (click)="prev()" [disabled]="currentIndex === 0">← Trước</button>
+    <button class="fc-nav-btn fc-nav-flip" (click)="flip()">🔄 Lật</button>
+    <button class="fc-nav-btn" (click)="next()" [disabled]="currentIndex === items.length - 1">Tiếp →</button>
+  </div>
+  <p class="fc-key-hint">Phím tắt: Space (lật) · ← → (chuyển bài)</p>
+</div>
+
+<ng-template #empty>
+  <p class="fc-empty">Vui lòng chọn một bài học để bắt đầu!</p>
+</ng-template>

@@ -1,0 +1,112 @@
+[
+    {
+        "pattern": "～から…にかけて",
+        "meaning": "Từ... đến... (khoảng thời gian hoặc không gian đại khái)",
+        "connection": {
+            "formula": "N (thời gian/địa điểm) + から + N (thời gian/địa điểm) + にかけて",
+            "note": "Không xác định rõ điểm bắt đầu/kết thúc chính xác."
+        },
+        "core_nuance": "Sự trải dài của hành động/sự kiện qua một khoảng rộng.",
+        "mnemonic": {
+            "concept": "Mũi tên kéo dài",
+            "story": "Từ (から) nhà tôi kéo dài (にかけて) đến trường là con đường hoa."
+        },
+        "examples": [
+            {
+                "japanese": "今週から来週にかけて雨が降るでしょう。",
+                "romaji": "Konshu kara raishu ni kakete ame ga furu deshou.",
+                "vietnamese": "Từ tuần này đến tuần sau có lẽ sẽ mưa.",
+                "highlight_keyword": "今週から来週にかけて"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hãy tạo một tình huống dự báo thời tiết dùng cấu trúc 'から...にかけて'."
+    },
+    {
+        "pattern": "～てみたらどう（ですか）",
+        "meaning": "Thử làm... xem sao (đưa ra lời khuyên)",
+        "connection": {
+            "formula": "V-て + みたらどう（ですか）",
+            "note": "Dùng để khuyên bảo nhẹ nhàng."
+        },
+        "core_nuance": "Gợi ý đối phương thực hiện một hành động thử nghiệm.",
+        "mnemonic": {
+            "concept": "Thử một chút",
+            "story": "Thử (みて) làm rồi mới thấy (たら) thế nào (どう)!"
+        },
+        "examples": [
+            {
+                "japanese": "迷っているなら先生に相談してみたらどうですか。",
+                "romaji": "Mayotte iru nara sensei ni soudan shitemitara dou desu ka.",
+                "vietnamese": "Nếu đang phân vân thì thử hỏi ý kiến thầy giáo xem sao?",
+                "highlight_keyword": "相談してみたらどうですか"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo hội thoại đưa ra lời khuyên cho bạn bè đang gặp khó khăn."
+    },
+    {
+        "pattern": "～として",
+        "meaning": "Với tư cách là, với vai trò là",
+        "connection": {
+            "formula": "N + として",
+            "note": "Chỉ lập trường, tư cách, hoặc mục đích."
+        },
+        "core_nuance": "Xác định rõ ràng vị trí hoặc công dụng của đối tượng.",
+        "mnemonic": {
+            "concept": "Chiếc ghế là giường",
+            "story": "Cái ghế này đóng vai trò (として) như một chiếc giường."
+        },
+        "examples": [
+            {
+                "japanese": "私は数学の教師として、高校で働いています。",
+                "romaji": "Watashi wa suugaku no kyoushi toshite, koukou de hataraite imasu.",
+                "vietnamese": "Tôi đang làm việc tại trường cấp 3 với tư cách là giáo viên toán.",
+                "highlight_keyword": "教師として"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giới thiệu bản thân bằng một vai trò cụ thể dùng cấu trúc 'として'."
+    },
+    {
+        "pattern": "～ほど…ない",
+        "meaning": "Không bằng... (so sánh mức độ cao nhất)",
+        "connection": {
+            "formula": "N + ほど + V (phủ định)",
+            "note": "Dùng để nhấn mạnh N là nhất."
+        },
+        "core_nuance": "Không có gì vượt qua được N về mức độ.",
+        "mnemonic": {
+            "concept": "Đỉnh cao",
+            "story": "Không có môn thể thao nào (ほど) thú vị bằng bóng đá (ない)."
+        },
+        "examples": [
+            {
+                "japanese": "サッカーほどおもしろいスポーツはない。",
+                "romaji": "Sakkaa hodo omoshiroi suupotsu wa nai.",
+                "vietnamese": "Không có môn thể thao nào thú vị bằng bóng đá.",
+                "highlight_keyword": "サッカーほど...ない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu khẳng định sở thích cá nhân dùng 'ほど...ない'."
+    },
+    {
+        "pattern": "～ようがない",
+        "meaning": "Không có cách nào để...",
+        "connection": {
+            "formula": "V (bỏ ます) + ようがない",
+            "note": "Nhấn mạnh sự bất khả thi."
+        },
+        "core_nuance": "Dù muốn làm nhưng tình thế không cho phép hoặc thiếu phương tiện.",
+        "mnemonic": {
+            "concept": "Đường cùng",
+            "story": "Mưa lớn đến mức không có cách nào (ようがない) đi làm được."
+        },
+        "examples": [
+            {
+                "japanese": "大雨で電車が動いていないから、会社へ行きようがない。",
+                "romaji": "Ooame de densha ga ugoite inai kara, kaisha e ikiyou ga nai.",
+                "vietnamese": "Vì mưa lớn tàu không chạy nên không có cách nào đến công ty.",
+                "highlight_keyword": "行きようがない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một tình huống khẩn cấp mà nhân vật không thể làm gì được."
+    }
+]

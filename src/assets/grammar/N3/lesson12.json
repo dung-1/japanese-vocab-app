@@ -1,0 +1,118 @@
+[
+    {
+        "pattern": "～ついでに",
+        "meaning": "Nhân tiện làm việc A thì làm luôn việc B (Tiện thể)",
+        "connection": {
+            "formula": "Vる / Vた / Nの + ついでに",
+            "note": "Hành động A là hành động chính có mục đích từ trước, hành động B là hành động phụ tận dụng cơ hội."
+        },
+        "core_nuance": "Mượn cơ hội, thời gian, địa điểm khi thực hiện một mục đích chính ban đầu để làm thêm một việc phụ tiện lợi khác.",
+        "mnemonic": {
+            "concept": "Một công đôi việc",
+            "kanji_link": "Chữ 序でに (Tự) nhân cơ hội, theo thứ tự tiện thể.",
+            "story": "Đằng nào cũng mất công đi theo lộ trình đó rồi, 'nhân tiện' (ついでに) vác theo luôn việc này làm một thể."
+        },
+        "examples": [
+            {
+                "japanese": "買い物に行ったついでに、本屋に寄った。",
+                "romaji": "Kaimono ni itta tsuide ni, honya ni yotta.",
+                "vietnamese": "Nhân tiện đi mua sắm đồ đạc, tôi đã ghé vào tiệm sách luôn.",
+                "highlight_keyword": "行ったついでに"
+            },
+            {
+                "japanese": "姉「ついでに、コンビニでアイスを買ってきて。」",
+                "romaji": "Ane 'Tsuide ni, konbini de aisu o katte kite.'",
+                "vietnamese": "Chị gái bảo: 'Sẵn tiện đường đi thì mua hộ chị cây kem ở cửa hàng tiện lợi luôn nhé.'",
+                "highlight_keyword": "ついでに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhờ bạn đi đổ rác: Nhân tiện đi ra ngoài (行ったついでに), vứt hộ tớ túi rác này đi."
+    },
+    {
+        "pattern": "～ば～ほど",
+        "meaning": "Càng... càng...",
+        "connection": {
+            "formula": "Vば + Vる + ほど | Aければ + Aい + ほど | Naであれば + Naな + ほど",
+            "note": "Cùng một từ ngữ mang tính biến đổi sẽ được lặp lại ở cả hai vế điều kiện và mức độ."
+        },
+        "core_nuance": "Diễn tả quy luật tỷ lệ thuận, khi mức độ của vế điều kiện tăng lên thì kéo theo mức độ của vế sau cũng tăng tiến theo.",
+        "mnemonic": {
+            "concept": "Bậc thang tăng tiến",
+            "kanji_link": "ば (Nếu) + ほど (Mức độ/Giới hạn tăng tiến).",
+            "story": "Cứ hễ 'nếu bước lên' (ば) một bậc, thì cái 'mức độ' (ほど) phía sau lại cao vút lên theo."
+        },
+        "examples": [
+            {
+                "japanese": "勉強すればするほど新しい疑問が出てくる。",
+                "romaji": "Benkyō sureba suru hodo atarashii gimon ga dete kuru.",
+                "vietnamese": "Càng học nhiều thì lại càng nảy sinh ra thêm những thắc mắc, câu hỏi mới.",
+                "highlight_keyword": "すればするほど"
+            },
+            {
+                "japanese": "駅から近ければ近いほど、家賃が高くなる。",
+                "romaji": "Eki kara chikakeba chikai hodo, yachin ga takaku naru.",
+                "vietnamese": "Vị trí nhà càng gần nhà ga bao nhiêu thì giá thuê nhà lại càng đắt đỏ bấy nhiêu.",
+                "highlight_keyword": "近ければ近いほど"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu kinh nghiệm: Ngoại ngữ càng dùng nhiều (使えば使うほど) thì càng giỏi."
+    },
+    {
+        "pattern": "～めったに～ない",
+        "meaning": "Hiếm khi... / Hầu như không... (Tần suất cực kỳ thấp)",
+        "connection": {
+            "formula": "めったに + Vない / Nはめったにない",
+            "note": "Luôn luôn phải đi cùng với thể phủ định ở cuối câu."
+        },
+        "core_nuance": "Nhấn mạnh tần suất diễn ra của một hành động hay sự việc gần như chạm đáy, vô cùng hiếm hoi mới xuất hiện một lần.",
+        "mnemonic": {
+            "concept": "Sinh vật hiếm thấy",
+            "kanji_link": "Chữ 滅多に (Diệt đa) mang tính chất mù quáng, hiếm hoi.",
+            "story": "Sự việc này đã bị 'tiêu diệt gần hết số lượng đa số' (めったに) rồi nên 'không' (ない) mấy khi thấy mặt."
+        },
+        "examples": [
+            {
+                "japanese": "私は魚が苦手で、めったに食べない。",
+                "romaji": "Watashi wa sakana ga nigate de, metta ni tabenai.",
+                "vietnamese": "Tôi rất sợ và ghét ăn cá, cho nên hiếm khi tôi ăn món này lắm.",
+                "highlight_keyword": "めったに食べない"
+            },
+            {
+                "japanese": "この地方は暖かいので雪が降ることはめったにない。",
+                "romaji": "Kono chihō wa atatakai node yuki ga furu koto wa metta ni nai.",
+                "vietnamese": "Vùng này khí hậu rất ấm áp, cho nên việc tuyết rơi là hầu như hiếm khi xảy ra.",
+                "highlight_keyword": "めったにない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về thói quen: Tôi bận lắm nên hiếm khi đi xem phim (めったに見に行かない)."
+    },
+    {
+        "pattern": "～わけではない",
+        "meaning": "Không hẳn là... / Không có nghĩa là... (Phủ định một phần)",
+        "connection": {
+            "formula": "Thể thông thường (Naな / Nの・である) + わけではない",
+            "note": "Dùng để bác bỏ một suy luận mang tính tuyệt đối hoặc định kiến sai lầm từ người khác."
+        },
+        "core_nuance": "Phủ định một phần tính chất toàn cục. Thừa nhận có một phần đúng nhưng không phải 100% trường hợp đều là như vậy.",
+        "mnemonic": {
+            "concept": "Vùng xám lý do",
+            "kanji_link": "わけ (Lý do/Bản chất) + ではない (Không phải).",
+            "story": "Bản chất sự việc 'không phải mang cái lý do' (わけではない) cực đoan, tuyệt đối như bạn nghĩ đâu."
+        },
+        "examples": [
+            {
+                "japanese": "料理は好きではないが、全然できないわけではない。",
+                "romaji": "Ryōri wa suki de wa nai ga, zenzen dekinai wake de wa nai.",
+                "vietnamese": "Tôi không thích nấu ăn cho lắm, nhưng không có nghĩa là tôi hoàn toàn không biết nấu.",
+                "highlight_keyword": "わけではない"
+            },
+            {
+                "japanese": "その画家の絵はすべてが有名首わけではないが、どれも素晴らしい作品だ。",
+                "romaji": "Sono gaka no e wa subete ga yūmei wake de wa nai ga, dore mo subarashii sakuhin da.",
+                "vietnamese": "Tranh của họa sĩ đó không phải tất cả đều nổi tiếng, nhưng bức nào cũng là tác phẩm tuyệt vời.",
+                "highlight_keyword": "わけではない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đính chính thông tin: Ghét thì không ghét, nhưng không hẳn là thích (好きなわけではない)."
+    }
+]

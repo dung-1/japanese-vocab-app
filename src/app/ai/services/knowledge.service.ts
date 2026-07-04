@@ -14,11 +14,12 @@ import {
   VocabRaw,
 } from '../models/knowledge.model';
 import { toKnowledgeItem } from '../utils/item-builder.util';
+import { EmbeddingService } from '../services/embedding.service';
 
 interface ManifestRule {
   domain: KnowledgeDomain;
   level?: 'N2' | 'N3' | 'N4';
-  pathTemplate: string; // e.g. "assets/kanji-words-data/N3/lesson{1-30}.json"
+  pathTemplate: string;
 }
 
 const HARDCODED_RULES: ManifestRule[] = [
@@ -35,6 +36,7 @@ const HARDCODED_RULES: ManifestRule[] = [
 export class KnowledgeService {
   private readonly http = inject(HttpClient);
   private readonly platformId = inject(PLATFORM_ID);
+  private readonly embeddingSvc = inject(EmbeddingService);
 
   readonly index = signal<KnowledgeIndex>(this.emptyIndex());
   readonly loading = signal(false);
@@ -44,13 +46,8 @@ export class KnowledgeService {
 
   private loadPromise: Promise<KnowledgeIndex> | null = null;
 
-  /**
-   * Load toàn bộ JSON một lần. Idempotent.
-   * Trong SSR/prerender sẽ trả về empty index (load diễn ra ở browser).
-   */
   async loadAll(force = false): Promise<KnowledgeIndex> {
     if (!isPlatformBrowser(this.platformId)) {
-      // SSR/prerender: không tải JSON, trả empty index.
       return this.emptyIndex();
     }
     if (!force && this.loadPromise) return this.loadPromise;
@@ -100,7 +97,14 @@ export class KnowledgeService {
     this.loaded.set(true);
     this.loading.set(false);
     this.progress.set(`Hoàn tất. ${this.countItems(index)} mục trong ${errors.length} lỗi.`);
-    if (errors.length > 0) this.loadError.set(errors.join('\n'));
+    if (errors.length > 0) this.loadError.set(errors.join('\\n'));
+
+    try {
+      const allItems = KNOWLEDGE_DOMAINS.reduce((acc: KnowledgeItem[], d) => [...acc, ...index.byDomain[d]], []);
+      await this.embeddingSvc.vectorizeKnowledgeBase(allItems);
+    } catch (e) {
+      console.error('[KnowledgeService] Auto-vectorization failed:', e);
+    }
 
     return index;
   }
@@ -114,15 +118,9 @@ export class KnowledgeService {
     try {
       switch (domain) {
         case 'kanji-word':
-          return toKnowledgeItem('kanji-word', raw as unknown as KanjiWordRaw, {
-            id,
-            level: meta.level,
-          });
+          return toKnowledgeItem('kanji-word', raw as unknown as KanjiWordRaw, { id, level: meta.level });
         case 'vocab':
-          return toKnowledgeItem('vocab', raw as unknown as VocabRaw, {
-            id,
-            level: meta.level,
-          });
+          return toKnowledgeItem('vocab', raw as unknown as VocabRaw, { id, level: meta.level });
         case 'radical':
           return toKnowledgeItem('radical', raw as unknown as KanjiRadicalRaw, { id });
         case 'reduplicative':
@@ -141,35 +139,18 @@ export class KnowledgeService {
 
   private emptyIndex(): KnowledgeIndex {
     const byDomain: Record<KnowledgeDomain, KnowledgeItem[]> = {
-      'kanji-word': [],
-      vocab: [],
-      radical: [],
-      reduplicative: [],
-      grammar: [],
+      'kanji-word': [], vocab: [], radical: [], reduplicative: [], grammar: [],
     };
-    return {
-      byDomain,
-      byToken: new Map(),
-      loaded: false,
-    };
+    return { byDomain, byToken: new Map(), loaded: false };
   }
 
-  /**
-   * Public accessor cho SearchEngineService sử dụng.
-   */
   getItemsByDomain(domain: KnowledgeDomain): KnowledgeItem[] {
     return this.index().byDomain[domain] ?? [];
   }
 
-  /**
-   * Optional: load manifest.json từ assets/ai/manifest.json để dynamic rules (Phase 2).
-   */
   async loadManifest(): Promise<KnowledgeManifest | null> {
     try {
-      const m = await firstValueFrom(
-        this.http.get<KnowledgeManifest>('assets/ai/manifest.json', { responseType: 'json' }),
-      );
-      return m;
+      return await firstValueFrom(this.http.get<KnowledgeManifest>('assets/ai/manifest.json', { responseType: 'json' }));
     } catch {
       return null;
     }
@@ -177,7 +158,7 @@ export class KnowledgeService {
 }
 
 function expandTemplate(template: string): string[] {
-  const match = template.match(/^(.+)\{(\d+)-(\d+)\}(.+)$/);
+  const match = template.match(/^(.+)\\{(\\d+)-(\\d+)\\}(.+)$/);
   if (!match) return [template];
   const [, prefix, startStr, endStr, suffix] = match;
   const start = parseInt(startStr, 10);

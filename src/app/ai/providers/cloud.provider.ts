@@ -49,7 +49,7 @@ export class CloudProvider implements AiProvider {
       return { abort: () => {} };
     }
 
-    const fullPrompt = request.system ? request.system + '\n\n' + request.user : request.user;
+    const fullPrompt = request.system ? request.system + '\\n\\n' + request.user : request.user;
     const body = {
       provider: 'cloud',
       apiKey: this.apiKey,
@@ -57,19 +57,6 @@ export class CloudProvider implements AiProvider {
       prompt: fullPrompt,
       stream: request.stream,
     };
-
-    // AUDIT LOG: trace apiKey from Angular side
-    console.log('[CloudProvider] ===== AUTH AUDIT START =====');
-    console.log('[CloudProvider] this.apiKey length:', this.apiKey.length);
-    console.log('[CloudProvider] this.apiKey first6+last4:', this.apiKey.slice(0, 6) + '***' + this.apiKey.slice(-4));
-    console.log('[CloudProvider] this.proxyUrl:', this.proxyUrl);
-    console.log('[CloudProvider] this.model:', this.model);
-    console.log('[CloudProvider] body.apiKey length:', body.apiKey.length);
-    console.log('[CloudProvider] body.apiKey first6+last4:', body.apiKey.slice(0, 6) + '***' + body.apiKey.slice(-4));
-    console.log('[CloudProvider] body.provider:', body.provider);
-    console.log('[CloudProvider] body.model:', body.model);
-    console.log('[CloudProvider] body JSON size:', JSON.stringify(body).length, 'bytes');
-    console.log('[CloudProvider] --> POST', this.proxyUrl);
 
     const controller = new AbortController();
     try {
@@ -89,7 +76,6 @@ export class CloudProvider implements AiProvider {
         } catch {
           msg = msg + ': ' + (text || res.statusText);
         }
-        console.error('[CloudProvider] proxy error:', msg, text.slice(0, 200));
         onError?.(new Error(msg));
         return { abort: () => controller.abort() };
       }
@@ -126,7 +112,6 @@ export class CloudProvider implements AiProvider {
       return { abort: () => controller.abort() };
     } catch (e) {
       const err = e as Error;
-      console.error('[CloudProvider] fetch error:', err.name, err.message);
       onError?.(err);
       return { abort: () => controller.abort() };
     }
@@ -136,7 +121,6 @@ export class CloudProvider implements AiProvider {
     if (!this.apiKey) {
       return { ok: false, message: 'Chua nhap API Key.' };
     }
-    console.log('[CloudProvider.testConnection] POST /api/chat provider=cloud');
     try {
       const res = await fetch(this.proxyUrl, {
         method: 'POST',
@@ -149,7 +133,6 @@ export class CloudProvider implements AiProvider {
           stream: false,
         }),
       });
-      console.log('[CloudProvider.testConnection] status=', res.status);
       if (!res.ok) {
         const text = await res.text();
         let msg = 'HTTP ' + res.status;
@@ -163,7 +146,6 @@ export class CloudProvider implements AiProvider {
       }
       const data = await res.json();
       const preview = (data.response ?? '').slice(0, 200);
-      console.log('[CloudProvider.testConnection] response preview:', preview);
       return {
         ok: true,
         message: 'Connected to Ollama Cloud (model: ' + this.model + ')',
@@ -171,8 +153,38 @@ export class CloudProvider implements AiProvider {
       };
     } catch (e) {
       const err = e as Error;
-      console.error('[CloudProvider.testConnection] error:', err.name, err.message);
       return { ok: false, message: err.message };
     }
+  }
+
+  async embed(text: string): Promise<number[]> {
+    if (!this.apiKey) {
+      throw new Error('Chua nhap Cloud API Key.');
+    }
+
+    const body = {
+      provider: 'cloud',
+      apiKey: this.apiKey,
+      model: 'nomic-embed-text',
+      prompt: text,
+    };
+
+    const res = await fetch('/api/embeddings', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+
+    if (!res.ok) {
+      const textErr = await res.text().catch(() => '');
+      throw new Error(`Cloud Embedding HTTP ${res.status}: ${textErr || res.statusText}`);
+    }
+
+    const data = await res.json();
+    if (!data.embedding) {
+      throw new Error('Cloud Embedding response không có trường embedding');
+    }
+
+    return data.embedding;
   }
 }

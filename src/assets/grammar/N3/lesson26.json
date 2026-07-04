@@ -1,0 +1,118 @@
+[
+    {
+        "pattern": "～一方（で）",
+        "meaning": "Mặt khác... / Trái lại... (Diễn tả hai mặt đối lập hoặc song hành)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + 一方（で）",
+            "note": "Tính từ -na dùng である hoặc な. Danh từ dùng である hoặc の."
+        },
+        "core_nuance": "Dùng để so sánh song song hai trạng thái, đặc điểm có tính chất tương phản hoặc bổ trợ lẫn nhau của cùng một sự vật, hiện tượng.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 一 (Nhất) là một + 方 (Phương) là phía, hướng.",
+            "story": "Nhìn về 'Một hướng' (一方) thì thấy thế này, nhưng quay sang hướng ngược lại thì lại hoàn toàn khác biệt."
+        },
+        "examples": [
+            {
+                "japanese": "兄は会社に勤める一方で、週末は祖父の店を手伝っている。",
+                "romaji": "Ani wa kaisha ni tsutomeru ippou de, shuumatsu wa sofu no mise o tetsudatte iru.",
+                "vietnamese": "Anh trai tôi một mặt thì làm việc ở công sở, mặt khác vào cuối tuần lại phụ giúp cửa hàng của ông nội.",
+                "highlight_keyword": "勤める一方で"
+            },
+            {
+                "japanese": "あの姉妹は、姉はおとなしい一方、妹は積極的だ。",
+                "romaji": "Ano shimai wa, ane wa otonashii ippou, imouto wa sekkyokuteki da.",
+                "vietnamese": "Cặp chị em đó, cô chị thì vô cùng trầm tính, trái lại cô em lại cực kỳ năng động.",
+                "highlight_keyword": "おとなしい一方"
+            }
+        ],
+        "ai_ollama_prompt_hint": "So sánh ưu và nhược điểm của việc học code online bằng cách ứng dụng cấu trúc 一方で."
+    },
+    {
+        "pattern": "～につき",
+        "meaning": "Cứ mỗi... thì... (Tỷ lệ, đơn vị phân chia) / Vì (Trang trọng dùng trên thông báo)",
+        "connection": {
+            "formula": "N + につき + N",
+            "note": "Trong bài này, nghĩa tập trung vào việc tính toán tỷ lệ phân chia số lượng, chi phí, thời gian."
+        },
+        "core_nuance": "Đưa ra định mức, quy định chính thức về mặt số lượng hoặc giá cả tương ứng với từng đơn vị cụ thể.",
+        "mnemonic": {
+            "concept": "Gắn liền vào đơn vị",
+            "kanji_link": "Chữ 付 (Phó) mang nghĩa gắn vào, đính kèm.",
+            "story": "Cứ ứng 'vào' (に) một đầu mục được 'đính kèm' (つき), ta lại tính ra một lượng tương ứng."
+        },
+        "examples": [
+            {
+                "japanese": "スタンプ5個につきドリンク1杯サービスいたします。",
+                "romaji": "Sutanpu goko ni tsuki dorinku ippai saabisu itashimasu.",
+                "vietnamese": "Cứ tích đủ mỗi 5 con dấu, quý khách sẽ được tặng miễn phí 1 ly đồ uống.",
+                "highlight_keyword": "5個につき"
+            },
+            {
+                "japanese": "この駐車場の料金は、1か月につき1万円です。",
+                "romaji": "Kono chuushajou no ryoukin wa, ikkagetsu ni tsuki ichiman'en desu.",
+                "vietnamese": "Phí của bãi đỗ xe này được tính là 10.000 Yên cho mỗi tháng.",
+                "highlight_keyword": "1か月につき"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một thông báo khuyến mãi cho quán cafe: Cứ mua 2 bánh ngọt được tặng 1 trà dùng につき."
+    },
+    {
+        "pattern": "～に反し（て）",
+        "meaning": "Trái ngược với... (Dự đoán, kỳ vọng, quy định)",
+        "connection": {
+            "formula": "N + に反して / に反する + N",
+            "note": "Danh từ đi trước thường là: 期待 (kỳ vọng), 予想 (dự đoán), 法律 (pháp luật)."
+        },
+        "core_nuance": "Kết quả thực tế xảy ra đi ngược lại hoàn toàn, lật ngược lại những gì con người mong đợi hoặc mong muốn trước đó.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 反 (Phản) trong phản đối, tương phản, lật ngược.",
+            "story": "Hành động thực tế đã đi 'phản' (反) lại hoàn toàn với 'hướng' (に) ý chí ban đầu."
+        },
+        "examples": [
+            {
+                "japanese": "社員たちの期待に反して、その商品はあまり売れなかった。",
+                "romaji": "Shain-tachi no kitai ni hanashite, sono shouhin wa amari urenatta.",
+                "vietnamese": "Trái ngược hoàn toàn với kỳ vọng của toàn thể nhân viên, sản phẩm đó lại bán không chạy mấy.",
+                "highlight_keyword": "期待に反して"
+            },
+            {
+                "japanese": "彼が優勝すると思っていたが、結果は予想に反するものだった。",
+                "romaji": "Kare ga yuushou suru to omotte ita ga, kekka wa yosou ni hansuru mono datta.",
+                "vietnamese": "Tôi cứ đinh ninh anh ấy sẽ vô địch, thế nhưng kết quả chung cuộc lại đi ngược hoàn toàn với dự đoán.",
+                "highlight_keyword": "予想に反するもの"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu bình luận bóng đá: Đội yếu hơn bất ngờ thắng đội mạnh trái với dự đoán bằng に反して."
+    },
+    {
+        "pattern": "～によって",
+        "meaning": "1. Bằng phương pháp/Cách thức. 2. Do nguyên nhân.",
+        "connection": {
+            "formula": "N + によって / による + N",
+            "note": "Đây là ngữ pháp đa năng, hình ảnh chỉ rõ hai nghĩa: ① 手段 (Biện pháp) và ② 原因 (Nguyên nhân)."
+        },
+        "core_nuance": "Biểu thị phương thức trang trọng để thực hiện hành động, hoặc chỉ ra căn nguyên khách quan dẫn đến một hiện tượng, sự cố.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 依 (Y) trong phụ thuộc, dựa vào.",
+            "story": "Dựa 'vào' (に) việc 'phụ thuộc cách làm' (よって) này để tạo ra kết quả."
+        },
+        "examples": [
+            {
+                "japanese": "投票によって、クラスの代表を決めた。",
+                "romaji": "Touhyou ni yotte, kurasu no daihyou o kimeta.",
+                "vietnamese": "Chúng tôi đã quyết định người đại diện cho lớp bằng hình thức bỏ phiếu (Phương pháp).",
+                "highlight_keyword": "投票によって"
+            },
+            {
+                "japanese": "ある映画によって、この町は有名になった。",
+                "romaji": "Aru eiga ni yotte, kono machi wa yuumei ni natta.",
+                "vietnamese": "Nhờ có một bộ phim điện ảnh mà thị trấn này đã trở nên vô cùng nổi tiếng (Nguyên nhân).",
+                "highlight_keyword": "映画によって"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích cách giải quyết một bài toán khó nhờ vào việc đổi thuật toán bằng mẫu によって."
+    }
+]

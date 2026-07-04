@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "決して～ない",
+        "meaning": "Tuyệt đối không... / Dù có chết cũng nhất định không... (Thề, quyết tâm phủ định)",
+        "connection": {
+            "formula": "決して + Vない形 / Aくない / Na・Nでない",
+            "note": "Luôn luôn đi theo cặp sóng đôi bắt buộc với thể phủ định ở cuối câu."
+        },
+        "core_nuance": "Thể hiện một ý chí sắt đá, một lời thề danh dự hoặc một sự khẳng định có mức độ ngăn chặn, cấm đoán tối cao.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 決 (Quyết) trong quyết tâm, quyết tử.",
+            "story": "Một khi đã đem lòng 'Quyết tâm' (決して) cắt đứt thì tương lai tuyệt đối không (ない) bao giờ dính dáng tới nữa."
+        },
+        "examples": [
+            {
+                "japanese": "ここにある美術品には、決して触らないでください。",
+                "romaji": "Koko ni aru bijutsuhin ni wa, kesshite sawaranaide kudasai.",
+                "vietnamese": "Đối với các tác phẩm mỹ thuật quý giá trưng bày ở đây, quý khách tuyệt đối nghiêm cấm không được chạm tay vào.",
+                "highlight_keyword": "決して触らないで"
+            },
+            {
+                "japanese": "決してうそをつくなと昔祖母に言われた。",
+                "romaji": "Kesshite uso o tsuku na to mukashi sobo ni iwareta.",
+                "vietnamese": "Ngày xưa tôi luôn được bà nội răn đe nghiêm khắc rằng: Cả đời này tuyệt đối không được nói dối.",
+                "highlight_keyword": "決してうそをつくな"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một lời hứa bảo mật thông tin khách hàng tuyệt đối không tiết lộ ra ngoài sử dụng 決して...ない."
+    },
+    {
+        "pattern": "～てばかりいる / ～ばかり～ている",
+        "meaning": "Suốt ngày chỉ toàn làm cái việc đó... (Tần suất quá nhiều gây khó chịu, phê phán)",
+        "connection": {
+            "formula": "Vて形 + ばかりいる",
+            "note": "Dùng để phàn nàn về một thói quen xấu của người khác (hoặc tự trách bản thân) lặp đi lặp lại liên tục."
+        },
+        "core_nuance": "Người nói thể hiện thái độ không bằng lòng, bực dọc khi đối tượng không chịu làm việc chính đáng mà suốt ngày chỉ cắm đầu vào một việc vô bổ.",
+        "mnemonic": {
+            "concept": "Lấp đầy khoảng trống",
+            "kanji_link": "Chữ ばかり (Toàn là, chỉ vẹn vẹn).",
+            "story": "Suốt ngày toàn ôm khư khư lấy (Vてばかり) cái hành động đó trong trạng thái kéo dài (いる), nhìn phát bực!"
+        },
+        "examples": [
+            {
+                "japanese": "兄は疲れているようで、休みの日は寝てばかりいる。",
+                "romaji": "Ani wa tsukarete iru you de, yasumi no hi wa nete bakari iru.",
+                "vietnamese": "Anh trai tôi có vẻ kiệt sức rồi, cứ vào ngày nghỉ là anh ấy suốt ngày chỉ toàn cắm đầu vào ngủ nướng thôi.",
+                "highlight_keyword": "寝てばかりいる"
+            },
+            {
+                "japanese": "夏休みに入ってから、息子は遊んでばかりだ。",
+                "romaji": "Natsuyasumi ni haitte kara, musuko wa asonde bakari da.",
+                "vietnamese": "Kể từ cái lúc bắt đầu kỳ nghỉ hè tới giờ, thằng con trai tôi suốt ngày chỉ có độc mỗi việc chơi bời lêu lổng.",
+                "highlight_keyword": "遊んでばかりだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Mẹ cằn nhằn đứa con trai suốt ngày chỉ biết cắm mặt chơi game không chịu học bài bằng てばかりいる."
+    },
+    {
+        "pattern": "～てはじめて",
+        "meaning": "Kể từ sau khi làm gì thì mới nhận ra/ Mới ngộ ra một điều mà trước đó chưa từng hiểu",
+        "connection": {
+            "formula": "Vて形 + はじめて",
+            "note": "Vế sau luôn là một nhận thức mới, một trạng thái mới xuất hiện chứ không phải hành động chủ ý."
+        },
+        "core_nuance": "Nhấn mạnh trải nghiệm thực tế ở vế trước chính là cú hích, điều kiện tiên quyết để đập tan sự vô tri ban đầu, giúp bản thân giác ngộ ra chân lý.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 初めて (Sơ) nghĩa là lần đầu tiên bắt đầu.",
+            "story": "Phải trải qua hành động đau thương/thực tế đó rồi (Vて), thì đây mới là 'lần đầu tiên trong đời' (はじめて) đầu óc mình được khai sáng."
+        },
+        "examples": [
+            {
+                "japanese": "病気になってはじめて、健康に気をつけるようになった。",
+                "romaji": "Byouki ni natte hajimete, kenkou ni ki o tsukeru you ni natta.",
+                "vietnamese": "Chỉ đến khi cơ thể lâm bệnh nặng thì tôi mới bắt đầu biết chú ý chăm sóc đến sức khỏe của mình.",
+                "highlight_keyword": "なってはじめて"
+            },
+            {
+                "japanese": "祭りを見てはじめて、日本文化に興味を持った。",
+                "romaji": "Matsuri o mite hajimete, Nihon bunka ni vkyoumi o motta.",
+                "vietnamese": "Sau khi được tận mắt chứng kiến lễ hội truyền thống, tôi mới bắt đầu nảy sinh niềm đam mê sâu sắc với văn hóa Nhật Bản.",
+                "highlight_keyword": "見てはじめて"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu tâm đắc: Chỉ sau khi tự mình đi làm kiếm tiền mới thấu hiểu nỗi vất vả của cha mẹ dùng てはじめて."
+    },
+    {
+        "pattern": "全く～ない",
+        "meaning": "Hoàn toàn không... một chút nào (Phủ định sạch trơn 0%)",
+        "connection": {
+            "formula": "全く (まったく) + Vない形 / Aくない / Na・Nでない",
+            "note": "Dùng để nhấn mạnh mức độ phủ định tuyệt đối đối với một sự việc, trạng thái."
+        },
+        "core_nuance": "Đưa trạng thái về con số 0 tròn trĩnh, không chấp nhận bất kỳ một ngoại lệ hay một mức độ nhỏ nhặt nào.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 全く (Toàn) nghĩa là toàn bộ, tất tần tật.",
+            "story": "Đã quét sạch 'Toàn bộ' (全く) rồi thì bên trong rổ chắc chắn là 'Không còn gì' (ない) nữa cả."
+        },
+        "examples": [
+            {
+                "japanese": "試験前なのに、兄は全く勉強しない。",
+                "romaji": "Shiken mae na no ni, ani wa mattaku benkyou shinai.",
+                "vietnamese": "Kỳ thi đã sát nút đến nơi rồi thế mà anh trai tôi vẫn hoàn toàn không chịu học hành một chữ nào vào đầu.",
+                "highlight_keyword": "全く勉強しない"
+            },
+            {
+                "japanese": "この映画は、全くおもしろくなかった。",
+                "romaji": "Kono eiga wa, mattaku omoshirokunatta.",
+                "vietnamese": "Bộ phim điện ảnh này thực sự là hoàn toàn tẻ nhạt, không có một chút gì thú vị hết cả.",
+                "highlight_keyword": "全くおもしろくなかった"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Phàn nàn về việc bản thân hoàn toàn không hiểu một chữ nào trong tài liệu tiếng Nhật chuyên ngành dùng 全く...ない."
+    },
+    {
+        "pattern": "～をきっかけに（して） / ～をきっかけとして",
+        "meaning": "Nhờ từ bước ngoặt/ Dịp/ Cơ duyên... mà một sự đổi thay lớn xảy ra",
+        "connection": {
+            "formula": "N + をきっかけに",
+            "note": "Danh từ đứng trước thường là một sự kiện ngẫu nhiên hoặc một mốc thời gian (như kết hôn, nhập học, chuyển nhà, gặp gỡ)."
+        },
+        "core_nuance": "Biểu thị lý do mang tính ngòi nổ, một cơ duyên ban đầu dẫn dắt tới sự khởi đầu của một thói quen hoặc một bước tiến hoàn toàn mới trong cuộc sống.",
+        "mnemonic": {
+            "concept": "Ngòi nổ sự kiện",
+            "kanji_link": "Chữ 切っ掛け (Thiết Khải) nghĩa là khởi đầu, động cơ kích hoạt.",
+            "story": "Lấy cái sự kiện đó làm 'chiếc nút bấm thần kỳ' (をきっかけに) để lật sang một trang mới cho cuộc đời."
+        },
+        "examples": [
+            {
+                "japanese": "結婚をきっかけに、新しい家に引っ越した。",
+                "romaji": "Kekkon o kikkake ni, atarashii ie ni hikkoshita.",
+                "vietnamese": "Nhân cơ duyên từ việc kết hôn, vợ chồng tôi đã quyết định chuyển sang sinh sống tại một căn nhà mới to đẹp hơn.",
+                "highlight_keyword": "結婚をきっかけに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Kể câu chuyện: Nhờ xem một bộ phim Anime mà tôi đã bén duyên quyết tâm học tiếng Nhật sử dụng をきっかけに."
+    }
+]

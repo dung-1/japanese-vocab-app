@@ -13,11 +13,6 @@ import { parseNdjson } from '../utils/abortable-stream.util';
 /**
  * Local Ollama provider - gọi trực tiếp Ollama local server.
  * Endpoint mặc định: http://localhost:11434
- * API: POST /api/generate (payload { model, prompt, stream })
- *      hoặc /api/chat (payload { model, messages, stream })
- *
- * Lưu ý: Trên Vercel / browser ở máy khác, localhost KHÔNG truy cập được.
- *        Provider này dành cho dev local.
  */
 @Injectable({ providedIn: 'root' })
 export class LocalProvider implements AiProvider {
@@ -25,7 +20,6 @@ export class LocalProvider implements AiProvider {
   readonly name = 'Ollama Local';
 
   private readonly platformId = inject(PLATFORM_ID);
-
   private endpoint: string = 'http://localhost:11434';
 
   setEndpoint(endpoint: string): void {
@@ -44,7 +38,6 @@ export class LocalProvider implements AiProvider {
       return { abort: () => {} };
     }
 
-    // Thử gọi trực tiếp Ollama local trước
     const url = `${this.endpoint.replace(/\/+$/, '')}/api/generate`;
     const body = {
       model: request.model,
@@ -101,9 +94,7 @@ export class LocalProvider implements AiProvider {
       return { abort: () => controller.abort() };
     } catch (e) {
       const err = e as Error;
-      // Nếu fetch trực tiếp lỗi (CORS, Ollama chưa chạy...) thì fallback qua proxy server
       if (err.name === 'TypeError' || err.message.includes('Failed to fetch')) {
-        console.warn('[LocalProvider] Direct fetch failed, falling back to /api/chat proxy:', err.message);
         return this.chatViaProxy(request, controller, onToken, onDone, onError);
       }
       onError?.(err);
@@ -111,7 +102,6 @@ export class LocalProvider implements AiProvider {
     }
   }
 
-  /** Fallback: gọi qua proxy /api/chat (same-origin) nếu direct fetch fail */
   private async chatViaProxy(
     request: ChatRequest,
     controller: AbortController,
@@ -167,7 +157,6 @@ export class LocalProvider implements AiProvider {
     const baseUrl = this.endpoint.replace(/\/+$/, '');
     const url = `${baseUrl}/api/generate`;
     const tagsUrl = `${baseUrl}/api/tags`;
-    // Detect first available model from /api/tags
     let modelName = 'qwen3:0.6b';
     try {
       const tagsRes = await fetch(tagsUrl, { method: 'GET' });
@@ -178,19 +167,7 @@ export class LocalProvider implements AiProvider {
         }
       }
     } catch {}
-    console.log('[LocalProvider] ===== testConnection START =====');
-    console.log('[LocalProvider] this.endpoint=', this.endpoint);
-    console.log('[LocalProvider] baseUrl=', baseUrl);
-    console.log('[LocalProvider] url=', url);
-    console.log('[LocalProvider] tagsUrl=', tagsUrl);
-    console.log('[LocalProvider] window.location.origin=', typeof window !== 'undefined' ? window.location.origin : 'SSR');
-    console.log('[LocalProvider] navigator.userAgent=', typeof navigator !== 'undefined' ? navigator.userAgent : 'SSR');
-    console.log('[LocalProvider] --> POST', url);
-    console.log('[LocalProvider]     Headers: Content-Type=application/json');
-    console.log('[LocalProvider]     Body: {model:', modelName, ', prompt:"Hello", stream:false}');
     try {
-      // Already verified /api/tags above; tagsOk always true here
-      // Step 2: send prompt 'Hello' to verify AI inference works
       const res = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -200,10 +177,8 @@ export class LocalProvider implements AiProvider {
           stream: false,
         }),
       });
-      console.log('[LocalProvider.testConnection] /api/generate status=', res.status);
       if (!res.ok) {
         const text = await res.text().catch(() => '');
-        // 404 = model not pulled yet
         if (res.status === 404) {
           return {
             ok: false,
@@ -221,17 +196,13 @@ export class LocalProvider implements AiProvider {
       };
     } catch (e) {
       const err = e as Error;
-      console.error('[LocalProvider.testConnection] direct fetch error:', err);
-      // Failed to fetch = network / CORS / Ollama down → thử fallback qua proxy
       if (err.message === 'Failed to fetch' || err.name === 'TypeError') {
-        console.warn('[LocalProvider.testConnection] Trying fallback via /api/chat proxy...');
         return this.testConnectionViaProxy(modelName);
       }
       return { ok: false, message: err.message };
     }
   }
 
-  /** Fallback testConnection qua proxy /api/chat nếu gọi thẳng localhost lỗi */
   private async testConnectionViaProxy(
     model: string,
   ): Promise<{ ok: boolean; message: string; preview?: string }> {
@@ -259,10 +230,33 @@ export class LocalProvider implements AiProvider {
       };
     } catch (e) {
       const err = e as Error;
-      return {
-        ok: false,
-        message: `Cả direct và proxy đều lỗi. Kiểm tra: (1) Ollama đang chạy? (2) ng serve / node server.mjs?. Chi tiết: ${err.message}`,
-      };
+      return { ok: false, message: `Cả direct và proxy đều lỗi. Chi tiết: ${err.message}` };
+    }
+  }
+
+  async embed(text: string): Promise<number[]> {
+    const url = `${this.endpoint.replace(/\/+$/, '')}/api/embeddings`;
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'nomic-embed-text',
+          prompt: text,
+        }),
+      });
+      if (!res.ok) {
+        const textErr = await res.text().catch(() => '');
+        throw new Error(`Local Embedding HTTP ${res.status}: ${textErr || res.statusText}`);
+      }
+      const data = await res.json();
+      if (!data.embedding) {
+        throw new Error('Local Embedding response không có trường embedding');
+      }
+      return data.embedding;
+    } catch (e) {
+      const err = e as Error;
+      throw err;
     }
   }
 

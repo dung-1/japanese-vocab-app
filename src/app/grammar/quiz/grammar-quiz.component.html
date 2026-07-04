@@ -1,0 +1,81 @@
+<!-- Intro -->
+<div class="quiz-intro" *ngIf="!started && !finished">
+  <h2 class="quiz-title">🎯 Kiểm tra Ngữ pháp</h2>
+  <div class="quiz-settings">
+    <label for="q-count">Số câu hỏi</label>
+    <select id="q-count" [(ngModel)]="totalCount">
+      <option value="5">5 câu</option>
+      <option value="10">10 câu</option>
+      <option value="15">15 câu</option>
+      <option value="20">20 câu</option>
+    </select>
+  </div>
+  <button class="btn-primary" (click)="start()" [disabled]="items.length === 0">
+    {{ items.length === 0 ? 'Chọn bài học trước' : 'Bắt đầu kiểm tra' }}
+  </button>
+</div>
+
+<!-- Question -->
+<div class="quiz-question" *ngIf="started && !finished && current">
+  <div class="quiz-progress-bar">
+    <div class="quiz-progress-fill" [style.width.%]="progress"></div>
+  </div>
+  <div class="quiz-meta">
+    <span class="q-num">Câu {{ currentIndex + 1 }}/{{ questions.length }}</span>
+    <span class="q-type">{{ typeLabel(current.type) }}</span>
+    <span class="q-timer" [class.warning]="timeLeft <= 10">⏱ {{ timeLeft }}s</span>
+  </div>
+
+  <div class="quiz-q-text">{{ current.question }}</div>
+
+  <div class="quiz-options">
+    <div *ngFor="let opt of current.options"
+      class="quiz-option"
+      [class.correct]="isCorrect(opt)"
+      [class.wrong]="isWrong(opt)"
+      [class.disabled]="!!selectedOption"
+      (click)="select(opt)">
+      {{ opt }}
+    </div>
+  </div>
+
+  <div class="quiz-feedback" *ngIf="selectedOption && selectedOption !== '___timeout___'">
+    <p class="feedback-correct" *ngIf="selectedOption === current.correctAnswer">✅ Chính xác!</p>
+    <p class="feedback-wrong" *ngIf="selectedOption !== current.correctAnswer">
+      ❌ Sai! Đáp án: <strong>{{ current.correctAnswer }}</strong>
+    </p>
+  </div>
+
+  <button class="btn-primary" *ngIf="selectedOption && selectedOption !== '___timeout___'" (click)="next()">
+    {{ currentIndex < questions.length - 1 ? 'Câu tiếp →' : 'Xem kết quả' }}
+  </button>
+</div>
+
+<!-- Result -->
+<div class="quiz-result" *ngIf="finished">
+  <h2 class="quiz-title">Kết quả</h2>
+  <div class="score-ring" [class.excellent]="percent >= 80" [class.good]="percent >= 60 && percent < 80" [class.poor]="percent < 60">
+    <span class="score-val">{{ score }}/{{ questions.length }}</span>
+    <span class="score-pct">{{ percent }}%</span>
+  </div>
+  <p class="score-msg">
+    <ng-container *ngIf="percent >= 80">🌟 Xuất sắc! Bạn đã nắm vững các mẫu ngữ pháp.</ng-container>
+    <ng-container *ngIf="percent >= 60 && percent < 80">👏 Tốt! Hãy ôn thêm một chút.</ng-container>
+    <ng-container *ngIf="percent < 60">📚 Hãy xem lại flashcard và thử lại nhé!</ng-container>
+  </p>
+
+  <div class="answer-history">
+    <h3>Chi tiết</h3>
+    <div *ngFor="let r of results; let i = index" class="history-row" [class.ok]="r.isCorrect" [class.err]="!r.isCorrect">
+      <span class="h-num">{{ i + 1 }}</span>
+      <span class="h-q">{{ r.question.question }}</span>
+      <span class="h-badge">{{ r.isCorrect ? '✓' : '✗' }}</span>
+      <span *ngIf="!r.isCorrect" class="h-ans">→ {{ r.question.correctAnswer }}</span>
+    </div>
+  </div>
+
+  <div class="result-actions">
+    <button class="btn-primary" (click)="start()">Làm lại</button>
+    <button class="btn-secondary" (click)="restart()">Đề mới</button>
+  </div>
+</div>

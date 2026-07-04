@@ -1,8 +1,7 @@
 import { RenderMode, ServerRoute } from '@angular/ssr';
 
 export const serverRoutes: ServerRoute[] = [
-  {
-    path: '**',
-    renderMode: RenderMode.Prerender,
-  },
+  // Grammar routes không prerender vì cần localStorage
+  { path: 'grammar', renderMode: RenderMode.Client },
+  { path: '**', renderMode: RenderMode.Prerender },
 ];

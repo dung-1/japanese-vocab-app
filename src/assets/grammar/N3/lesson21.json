@@ -1,0 +1,124 @@
+[
+    {
+        "pattern": "～上に（に）",
+        "meaning": "Không chỉ... mà thêm vào đó còn... / Đã... lại còn... (Cùng hướng tích cực hoặc tiêu cực)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + 上に",
+            "note": "Tính từ -na dùng な hoặc である. Danh từ dùng の hoặc である. Hai vế phải đồng nhất tính chất (cùng tốt hoặc cùng xấu)."
+        },
+        "core_nuance": "Cấu trúc cộng dồn, gia tăng mức độ. Thêm một thông tin có cùng chiều hướng vào để làm nổi bật sự xuất sắc hoặc sự tồi tệ của đối tượng lên gấp đôi.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 上 (Thượng) nghĩa là ở trên, phía trên.",
+            "story": "Đã xếp đầy một tầng bánh ngọt ở dưới rồi, lại còn chồng thêm một tầng kem mọng nước 'ở phía trên' (上に) nữa, ngon hết nấc!"
+        },
+        "examples": [
+            {
+                "japanese": "あの俳優は、ハンサムな上に、おもしろいから人気がある。",
+                "romaji": "Ano haiyuu wa, hansamu na ue ni, omoshiroi kara ninki ga aru.",
+                "vietnamese": "Nam diễn viên tài năng đó không những sở hữu gương mặt điển trai, mà thêm vào đó tính cách còn cực kỳ hài hước nên rất được lòng công chúng.",
+                "highlight_keyword": "ハンサムな上に"
+            },
+            {
+                "japanese": "このホテルは部屋が汚い上に、サービスも悪い。",
+                "romaji": "Kono hoteru wa heya ga kitanai ue ni, saabisu mo warui.",
+                "vietnamese": "Cái khách sạn này phòng ốc vừa bẩn thỉu tồi tàn, đã thế dịch vụ chăm sóc khách hàng lại còn tệ hại vô cùng.",
+                "highlight_keyword": "汚い上に"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu review chê một nhà hàng: Đồ ăn vừa đắt lại còn không tươi ngon bằng mẫu 上に."
+    },
+    {
+        "pattern": "～だらけ",
+        "meaning": "Toàn là... / Chứa đầy... (Toàn những thứ bẩn thỉu, tiêu cực phủ kín bề mặt)",
+        "connection": {
+            "formula": "N + だらけ",
+            "note": "Hầu như chỉ đi kèm danh từ tiêu cực như: 傷 (vết thương), 泥 (bùn), ゴミ (rác), 間違い (lỗi sai)."
+        },
+        "core_nuance": "Diễn tả trạng thái một bề mặt bị bao phủ, lấp đầy bởi vô số những thứ dơ bẩn, tồi tệ khiến người nhìn có cảm giác khó chịu, chán ghét.",
+        "mnemonic": {
+            "concept": "Hình ảnh lấm lem",
+            "kanji_link": "Âm thanh: Darake nghe liên tưởng tới từ 'Dơ dáng, bét nhè'.",
+            "story": "Nhìn khắp cơ thể toàn thấy một màu 'dơ dáng' phủ kín (だらけ) từ đầu đến chân."
+        },
+        "examples": [
+            {
+                "japanese": "英語で手紙を書いたが、間違いだらけだと言われた。",
+                "romaji": "Eigo de tegami o kaita ga, machigai darake da to iwareta.",
+                "vietnamese": "Tôi hí hửng viết một bức thư bằng tiếng Anh nhưng khi nộp lại bị giáo viên phê bình là toàn lỗi sai be bét.",
+                "highlight_keyword": "間違いだらけだ"
+            },
+            {
+                "japanese": "ほこりだらけの部屋で、落ち着かなかった。",
+                "romaji": "Hokori darake no heya de, ochitsukanatta.",
+                "vietnamese": "Căn phòng ngập tràn bụi bẩn bám đầy khắp nơi làm tôi không tài nào ngồi yên ổn nổi.",
+                "highlight_keyword": "ほこりだらけの"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tự phê bình bài code của mình sau khi chạy thử thấy xuất hiện đầy lỗi Bug bằng だらけ."
+    },
+    {
+        "pattern": "～とおり（に） / ～どおり（に）",
+        "meaning": "Đúng y như rằng... / Làm theo đúng như bản mẫu...",
+        "connection": {
+            "formula": "Vる / Vた / N + とおりに (Nếu danh từ đi trực tiếp thì biến âm thành ～どおりに)",
+            "note": "Diễn tả hành động vế sau được thực hiện sao cho không có bất kỳ sai lệch nào so với khuôn mẫu, lời nói hay chỉ dẫn trước đó."
+        },
+        "core_nuance": "Sự trùng khớp hoàn hảo, giữ nguyên hiện trạng căn cứ gốc để làm theo hoặc kết quả xảy ra khớp khít với dự kiến ban đầu.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 通り (Thông) trong thông qua, con đường phẳng.",
+            "story": "Cứ đi dọc theo đúng 'con đường vạch sẵn' (とおり) mà tiến bước, cấm được rẽ ngang lệch hướng."
+        },
+        "examples": [
+            {
+                "japanese": "友達に教えてもらったとおりに浴衣を着てみた。",
+                "romaji": "Tomodachi ni oshiete moratta toori ni yukata o kite mita.",
+                "vietnamese": "Tôi đã thử tự mặc bộ đồ Yukata đúng y theo từng bước như cô bạn thân đã chỉ dẫn.",
+                "highlight_keyword": "もらったとおりに"
+            },
+            {
+                "japanese": "アンケートの調査結果は表のとおりです。",
+                "romaji": "Ankeeto no chousa kekka wa hyou no toori desu.",
+                "vietnamese": "Kết quả thu thập được từ bảng khảo sát hiện thị chính xác đúng như những gì ghi trên biểu đồ.",
+                "highlight_keyword": "表のとおりです"
+            },
+            {
+                "japanese": "説明書どおりに、本棚を作った。",
+                "romaji": "Setsumeisho doori ni, hondana o tsukutta.",
+                "vietnamese": "Tôi đã lắp ráp thành công cái giá sách này theo đúng chuẩn sách hướng dẫn sử dụng.",
+                "highlight_keyword": "説明書どおりに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Yêu cầu AI viết các bước nấu món ăn và cam kết sẽ làm theo đúng công thức hướng dẫn bằng とおりに."
+    },
+    {
+        "pattern": "～のでしょうか / ～んでしょうか",
+        "meaning": "Không biết là... nhỉ? / Liệu rằng có phải là... không? (Câu hỏi nhẹ nhàng, lo lắng)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + のでしょうか",
+            "note": "Tính từ -na và danh từ giữ nguyên な/N khi đi với んだろう. Là dạng lịch sự, bày tỏ nghi vấn tinh tế."
+        },
+        "core_nuance": "Dùng khi người nói tự đặt câu hỏi băn khoăn trong lòng, hoặc muốn hỏi đối phương một cách lịch sự, uyển chuyển, tránh gây cảm giác thô lỗ, chất vấn trực diện.",
+        "mnemonic": {
+            "concept": "Lời tự sự mông lung",
+            "kanji_link": "の (Cái việc đó) + でしょう (Có lẽ là) + か (Nghi vấn).",
+            "story": "Liệu cái sự tình đó (の) có khả năng xảy ra như thế không nhỉ (でしょうか), tâm trí cứ bồn chồn quá."
+        },
+        "examples": [
+            {
+                "japanese": "どうしたら交通事故が減るのでしょうか。",
+                "romaji": "Dou shitara koustuu jiko ga heru no de shou ka.",
+                "vietnamese": "Liệu chúng ta phải làm cách nào thì mới có thể giảm thiểu được tai nạn giao thông bây giờ nhỉ?",
+                "highlight_keyword": "減るのでしょうか"
+            },
+            {
+                "japanese": "山田さん、今日も休みですね。具合が悪いんでしょうか。",
+                "romaji": "Yamada-san, kyou mo yasumi desu ne. Guai ga warui n de shou ka.",
+                "vietnamese": "Anh Yamada hôm nay lại xin nghỉ tiếp nhỉ. Liệu có phải là tình hình sức khỏe của anh ấy đang không tốt hay không?",
+                "highlight_keyword": "悪いんでしょうか"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đặt một câu hỏi tinh tế hỏi sếp xem liệu thời gian hạn chót của dự án có thể kéo dài thêm được không bằng のでしょうか."
+    }
+]

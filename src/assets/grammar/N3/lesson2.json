@@ -1,0 +1,135 @@
+[
+    {
+        "pattern": "～つもりだった",
+        "meaning": "Cứ ngỡ rằng đã... / Đinh ninh là đã... (Nhưng thực tế lại khác biệt)",
+        "connection": {
+            "formula": "Vた / Vない / Aい / Naな / Nの + つもりだった",
+            "note": "Thể hiện việc suy nghĩ chủ quan của người nói khác xa, mâu thuẫn hoàn toàn với thực tế diễn ra."
+        },
+        "core_nuance": "Hối tiếc hoặc ngỡ ngàng. Bản thân tin chắc việc đó là như thế nhưng kết quả thực tế phũ phàng phơi bày ra là không phải.",
+        "mnemonic": {
+            "concept": "Bóng bong chủ quan tan vỡ",
+            "kanji_link": "つもり (Ý định/Ý nghĩ) + だった (Quá khứ đã từng).",
+            "story": "Trong quá khứ đầu óc mình đã từng ghim giữ ý nghĩ đinh ninh (つもりだった) như vậy, giờ mới biết là sai."
+        },
+        "examples": [
+            {
+                "japanese": "財布をかばんに入れたつもりだったが、入っていなかった。",
+                "romaji": "Saifu o kaban ni ireta tsumori datta ga, haitte inakatta.",
+                "vietnamese": "Tôi cứ đinh ninh đứt ruột là đã cất ví vào cặp rồi, thế mà hóa ra lại chẳng có bên trong.",
+                "highlight_keyword": "入れたつもりだったが"
+            },
+            {
+                "japanese": "若い方つもりだったが、前より体力が落ちている。",
+                "romaji": "Wakai tsumori datta ga, mae yori tairyoku ga ochite iru.",
+                "vietnamese": "Tôi cứ ngỡ là mình còn trẻ trung lắm, ai dè thể lực đã giảm sút so với hồi trước rồi.",
+                "highlight_keyword": "若い方つもりだったが"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích lỗi lầm: Tôi cứ tưởng mình đã khóa cửa rồi (閉めたつもりだった) nhưng hóa ra chưa."
+    },
+    {
+        "pattern": "～なあ",
+        "meaning": "Ôi... quá! / Biết bao! (Tiếng lòng cảm thán, tự nói với chính mình)",
+        "connection": {
+            "formula": "Thể thông thường (Na / N bỏ だ) + なあ",
+            "note": "Dùng nhiều khi nói một mình nhằm bộc lộ cảm xúc trào dâng một cách tự nhiên trong lòng hoặc mong muốn, nghi vấn nhẹ nhàng."
+        },
+        "core_nuance": "Giai điệu kéo dài cuối câu thể hiện sự cảm động, ao ước thầm kín hoặc nghi vấn mang tính tự vấn, cảm thán trước một hiện tượng.",
+        "mnemonic": {
+            "concept": "Hơi thở dài cảm xúc",
+            "kanji_link": "Trợ từ đuôi なあ.",
+            "story": "Khi cảm xúc dâng lên đỉnh điểm, lồng ngực tự động thốt ra tiếng thở dài ngân nga (なあ)."
+        },
+        "examples": [
+            {
+                "japanese": "北海道で食べた料理、どれもおいしかったなあ。",
+                "romaji": "Hokkaidō de tabeta ryōri, dore mo oishikatta nā.",
+                "vietnamese": "Mấy món ăn đã ăn ở Hokkaido, món nào món nấy cũng ngon tuyệt cú mèo làm sao!",
+                "highlight_keyword": "おいしかったなあ"
+            },
+            {
+                "japanese": "次の電車は何時に来る（の）かなあ。",
+                "romaji": "Tsugi no densha wa nanji ni kuru (no) ka nā.",
+                "vietnamese": "Không biết chuyến tàu tiếp theo mấy giờ thì tới nơi nhỉ...",
+                "highlight_keyword": "来る（の）かなあ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bộc lộ ước muốn: Ước gì kỳ nghỉ hè nhanh đến nhanh chút nhỉ (早く来ないかなあ)."
+    },
+    {
+        "pattern": "～によると",
+        "meaning": "Theo như... (Dẫn nguồn căn cứ thông tin)",
+        "connection": {
+            "formula": "N + によると",
+            "note": "Danh từ đằng trước phải là nguồn chứa thông tin (báo chí, dự báo thời tiết, lời ai đó). Vế sau luôn kết thúc bằng dạng truyền đạt như ～そうだ / ～らしい."
+        },
+        "core_nuance": "Khách quan hóa thông tin. Tuyên bố bản thân không tự nghĩ ra điều này, mà trích xuất từ một tọa độ uy tín.",
+        "mnemonic": {
+            "concept": "Cột mốc chỉ nguồn gốc",
+            "kanji_link": "依ると (Y) dựa vào.",
+            "story": "Dựa dẫm vịn tay vào đúng vị trí nguồn tin đó (によると) để phát ngôn."
+        },
+        "examples": [
+            {
+                "japanese": "天気予報によると、あしたは台風が関西に近づくらしい。",
+                "romaji": "Tenki yohō ni yoru to, ashita wa taifū ga Kansai ni chikazuku rashii.",
+                "vietnamese": "Theo như dự báo thời tiết thì nghe đâu ngày mai bão sẽ đổ bộ áp sát vào vùng Kansai.",
+                "highlight_keyword": "天気予報によると"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Truyền đạt tin tức: Theo như lời thầy giáo nói (先生の話によると), tuần sau sẽ có bài kiểm tra."
+    },
+    {
+        "pattern": "～のことだから",
+        "meaning": "Ai chứ... thì (Dựa trên tính cách quen thuộc để đưa ra phán đoán)",
+        "connection": {
+            "formula": "N + のことだから",
+            "note": "Danh từ bắt buộc phải là người hoặc tổ chức mà tính cách, đặc điểm của họ người nói đã hiểu rất rõ."
+        },
+        "core_nuance": "Sự tin tưởng hoặc định kiến logic. Vì bản chất đặc trưng của người này xưa nay đều như thế, nên chắc chắn lần này họ cũng sẽ hành động như vậy.",
+        "mnemonic": {
+            "concept": "Hồ sơ lý lịch tính cách",
+            "kanji_link": "のこと (Chuyện của ai đó) + だから (Vì là).",
+            "story": "Chính vì là chuyện thuộc về bản tính xưa nay của cái người đó rồi (のことだから), không lệch đi đâu được."
+        },
+        "examples": [
+            {
+                "japanese": "その人の性格やいつもの行動などから判断して書く。～の近くだから",
+                "romaji": "Sono hito no seikaku ya itsumo no kōdō nado kara handan shite kaku. ~no chikaku dakara",
+                "vietnamese": "Được viết ra dựa trên sự phán đoán từ tính cách hay hành vi thường ngày của người đó.",
+                "highlight_keyword": "性格やいつもの行動などから判断"
+            },
+            {
+                "japanese": "いつも遅刻する彼のことだから、きっと今日も遅れてくるよ。",
+                "romaji": "Itsumo chikoku suru kare no koto dakara, kitto kyō mo okurete kuru yo.",
+                "vietnamese": "Ai chứ cái anh chàng chuyên môn muộn giờ ấy mà (vì tính cách của anh ta), chắc chắn hôm nay lại đến trễ cho mà xem.",
+                "highlight_keyword": "彼のことだから"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đưa ra phán đoán về người chăm chỉ: Ai chứ người chăm học như Lan ( Lanのことだから), chắc chắn sẽ đỗ thôi."
+    },
+    {
+        "pattern": "～始める（はじめる）",
+        "meaning": "Bắt đầu thực hiện hành động gì...",
+        "connection": {
+            "formula": "Vます形 (bỏ ます) + 始める",
+            "note": "Diễn tả khoảnh khắc hoặc giai đoạn một hành động, hiện tượng bắt đầu chuyển trạng thái khởi động phát sinh."
+        },
+        "core_nuance": "Chỉ tính thời điểm khởi điểm của chuỗi hành động lặp lại hoặc một thói quen, một hiện tượng tự nhiên bắt đầu dịch chuyển.",
+        "mnemonic": {
+            "concept": "Phát súng khánh thành",
+            "kanji_link": "Chữ 始める (Thủy) bắt đầu.",
+            "story": "Gắn chặt vào đuôi hành động để đẩy hành động đó bước vào vạch xuất phát khởi động (始める)."
+        },
+        "examples": [
+            {
+                "japanese": "まだ全員集まっていませんが、食べ始めましょう。",
+                "romaji": "Mada zen'in atsumatte imasen ga, tabehajimemashō.",
+                "vietnamese": "Dù mọi người vẫn chưa tập hợp đông đủ đâu nhưng thôi chúng ta cứ bắt đầu dùng bữa trước đi nào.",
+                "highlight_keyword": "食べ始めましょう"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về thời tiết: Trời đã bắt đầu đổ mưa (降り始めた) rồi kìa."
+    }
+]

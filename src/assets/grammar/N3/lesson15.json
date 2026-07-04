@@ -1,0 +1,428 @@
+[
+    {
+        "pattern": "しかし",
+        "meaning": "Nhưng mà / Tuy nhiên (Quan hệ nghịch)",
+        "connection": {
+            "formula": "Vế A. しかし、Vế B.",
+            "note": "Mang tính chất trang trọng, thường dùng trong văn viết (được ký hiệu bằng chữ 硬 trong sách)."
+        },
+        "core_nuance": "Dùng để nối hai câu có nội dung hoàn toàn trái ngược hoặc đối lập nhau về mặt ý nghĩa.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 然し (Nhiên) nghĩa là như vậy, tuy thế.",
+            "story": "Sự việc A diễn ra là 'như vậy', 'tuy thế' (しかし) kết quả B lại đi ngược lại."
+        },
+        "examples": [
+            {
+                "japanese": "大学を辞めたいと家族に言ったら反対された。しかし、気持ちは変わらない。",
+                "romaji": "Daigaku o yametai to kazoku ni ittara hantai sareta. Shikashi, kimochi wa kawaranai.",
+                "vietnamese": "Tôi nói với gia đình là muốn nghỉ học đại học thì bị phản đối. Nhưng mà, ý định của tôi vẫn không thay đổi.",
+                "highlight_keyword": "しかし"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu nói về thời tiết: Dự báo nói trời mưa lớn, tuy nhiên (しかし) ngoài trời vẫn đang nắng."
+    },
+    {
+        "pattern": "けれど（も） / けど",
+        "meaning": "Thế nhưng / Nhưng mà... (Quan hệ nghịch)",
+        "connection": {
+            "formula": "Vế A. けれども／けど、Vế B.",
+            "note": "けれども mang sắc thái lịch sự, còn けど dùng nhiều trong hội thoại thân mật hàng ngày (ký hiệu 会)."
+        },
+        "core_nuance": "Dùng khi một sự việc khác với những gì bản thân dự đoán từ câu trước xảy ra.",
+        "mnemonic": {
+            "concept": "Ranh giới nhưng nhị",
+            "kanji_link": "Gốc từ けれども.",
+            "story": "Chấp nhận vế trước rồi đấy, 'thế nhưng' (けれども) vẫn phải nói thêm vế sau cho rõ ràng."
+        },
+        "examples": [
+            {
+                "japanese": "1時間待った。けれども、彼は待ち合わせ場所に来なかった。",
+                "romaji": "Ichijikan matta. Keredomo, kare wa machiawase basho ni konatta.",
+                "vietnamese": "Tôi đã đợi suốt 1 tiếng đồng hồ. Thế nhưng, anh ấy đã không đến điểm hẹn.",
+                "highlight_keyword": "けれども"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu: Tôi đã học bài rất chăm chỉ thế nhưng (けど) điểm thi vẫn không tốt."
+    },
+    {
+        "pattern": "ところが",
+        "meaning": "Thế mà / Nhưng bất ngờ là... (Quan hệ nghịch)",
+        "connection": {
+            "formula": "Vế A. ところが、Vế B.",
+            "note": "Vế sau thường là một thực tế nằm ngoài dự tính, đem lại sự ngạc nhiên cho người nói."
+        },
+        "core_nuance": "Dùng để biểu thị ① một phát hiện bất ngờ ngoài dự đoán hoặc ② sự đối lập mạnh mẽ giữa thực tế và mong đợi.",
+        "mnemonic": {
+            "concept": "Khúc cua bất ngờ",
+            "kanji_link": "ところ (Thời điểm/Nơi chốn) + が (Nhưng).",
+            "story": "Đang đi đến 'thời điểm' (ところ) đó tưởng êm xuôi, 'nhưng' (が) đùng một cái xảy ra chuyện bất ngờ."
+        },
+        "examples": [
+            {
+                "japanese": "朝は晴れていた。ところが、昼から急に雨が降り出した。",
+                "romaji": "Asa wa harete ita. Tokoroga, hiru kara kuuni ame ga furidashita.",
+                "vietnamese": "Buổi sáng trời rõ ràng là đang nắng. Thế mà từ trưa bỗng nhiên mưa đổ xuống xối xả.",
+                "highlight_keyword": "ところが"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo tình huống: Cứ nghĩ đề thi khó lắm, thế mà (ところが) làm lại dễ bất ngờ."
+    },
+    {
+        "pattern": "それでも",
+        "meaning": "Dẫu vậy / Ngay cả như vậy thì vẫn... (Quan hệ nghịch)",
+        "connection": {
+            "formula": "Vế A. それでも、Vế B.",
+            "note": "Nhấn mạnh bản lĩnh hoặc một sự thật kiên định không bị ảnh hưởng bởi vế A."
+        },
+        "core_nuance": "Dùng khi muốn thể hiện ý 'dù biết rõ tình trạng như đã nói ở vế trước là như thế, vậy mà hành động vế sau vẫn tiếp diễn không đổi'.",
+        "mnemonic": {
+            "concept": "Bức tường kiên định",
+            "kanji_link": "それ (Cái đó) + でも (Ngay cả/Dẫu cho).",
+            "story": "'Dẫu cho' (Change も) tình cảnh có là 'như cái đó' (それ) đi chăng nữa, ta vẫn không bỏ cuộc."
+        },
+        "examples": [
+            {
+                "japanese": "冬の山は危険だ。それでも冬の山に登る人は減らない。",
+                "romaji": "Fuyu no yama wa kiken da. Soredemo fuyu no yama ni noboru hito wa heranai.",
+                "vietnamese": "Núi vào mùa đông rất nguy hiểm. Dẫu vậy, số người leo núi mùa đông vẫn không hề giảm đi.",
+                "highlight_keyword": "それでも"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu: Tiếng Nhật rất khó, dẫu vậy (それでも) tôi vẫn muốn tiếp tục học."
+    },
+    {
+        "pattern": "だから",
+        "meaning": "Vì thế / Do đó / Cho nên (Kết quả, kết luận)",
+        "connection": {
+            "formula": "Vế A (Lý do). だから、Vế B (Kết quả).",
+            "note": "Dùng phổ biến trong hội thoại hàng ngày. Bản trang trọng hơn là ですから."
+        },
+        "core_nuance": "Từ nối thể hiện mối quan hệ nguyên nhân - kết quả trực tiếp, hiển nhiên theo suy luận thông thường.",
+        "mnemonic": {
+            "concept": "Đường thẳng nguyên nhân",
+            "kanji_link": "から (Từ nguyên nhân đó).",
+            "story": "Chính 'từ cái lý do' (から) rõ ràng ở vế trước, nên kết quả sau sinh ra là hiển nhiên."
+        },
+        "examples": [
+            {
+                "japanese": "今年の夏は昨年より暑くなるそうだ。だから、エアコンがよく売れるだろう。",
+                "romaji": "Kotoshi no natsu wa sakunen yori atsuku naru sou da. Dakara, eakon ga yoku ureru darou.",
+                "vietnamese": "Nghe nói mùa hè năm nay sẽ nóng hơn năm ngoái. Vì thế, chắc là máy điều hòa sẽ bán rất chạy.",
+                "highlight_keyword": "だから"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu: Ngày mai có bài kiểm tra quan trọng, vì thế (だから) tối nay tôi phải thức ôn bài."
+    },
+    {
+        "pattern": "それで",
+        "meaning": "Vì vậy / Thế là... (Kết quả, kết luận)",
+        "connection": {
+            "formula": "Vế A. それで、Vế B.",
+            "note": "Thường dùng để giải thích diễn tiến, hoàn cảnh dẫn đến hành động mang tính cá nhân (được ghi chú trong sách)."
+        },
+        "core_nuance": "Kết nối câu chỉ ra nguyên nhân dẫn đến một hành động tự nhiên, hoặc dùng để gợi ý đối phương kể tiếp câu chuyện (\"Thế rồi sao nữa?\").",
+        "mnemonic": {
+            "concept": "Nối tiếp mạch chuyện",
+            "kanji_link": "それ (Cái đó) + で (Bằng cách/Do bởi).",
+            "story": "Do bởi 'chính cái sự tình đó' (それで) mà tôi mới đưa ra quyết định hành động tiếp theo này."
+        },
+        "examples": [
+            {
+                "japanese": "体力には自信があります。それで、この仕事を選びました。",
+                "romaji": "Tairyoku ni wa jishin ga arimasu. Sorede, kono shigoto o erabimashita.",
+                "vietnamese": "Tôi rất tự tin vào thể lực của mình. Vì vậy, tôi đã lựa chọn công việc này.",
+                "highlight_keyword": "それで"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu giải thích lý do mua máy tính mới: Máy cũ bị hỏng, vì vậy (それで) tôi đã mua máy mới."
+    },
+    {
+        "pattern": "そのため",
+        "meaning": "Do đó / Vì lý do đó (Kết quả, kết luận)",
+        "connection": {
+            "formula": "Vế A. そのため、Vế B.",
+            "note": "Mang sắc thái trang trọng, văn viết (硬), thường dùng trong báo cáo, luận văn, giải thích nguyên nhân khách quan."
+        },
+        "core_nuance": "Chỉ ra lý do khách quan khiến cho một trạng thái hoặc hệ quả nào đó xảy ra ở vế sau.",
+        "mnemonic": {
+            "concept": "Vì lợi ích/mục đích của lý do",
+            "kanji_link": "その (Cái đó) + ため (Vì/Do).",
+            "story": "Hoàn toàn là 'vì cái duyên cớ đó' (そのため) nên sự tình phía sau mới thành ra như vậy."
+        },
+        "examples": [
+            {
+                "japanese": "12月は外出する人が多い。そのため車の事故も多い。",
+                "romaji": "Juunigatsu wa gaishutsu suru hito ga ooi. Sono tame kuruma no jiko mo ooi.",
+                "vietnamese": "Tháng 12 là thời điểm có rất nhiều người ra ngoài. Do đó, tai nạn xe cộ xảy ra cũng nhiều.",
+                "highlight_keyword": "そのため"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu văn trang trọng về kinh tế: Giá nguyên vật liệu tăng cao, do đó (そのため) giá thành sản phẩm tăng."
+    },
+    {
+        "pattern": "したがって",
+        "meaning": "Hệ quả là / Do đó / Theo đó (Kết luận logic)",
+        "connection": {
+            "formula": "Vế A. したがって、Vế B.",
+            "note": "Là liên từ cực kỳ trang trọng (硬), xuất hiện nhiều trong toán học, lập luận logic, phán quyết hoặc báo cáo khoa học."
+        },
+        "core_nuance": "Dựa trên các căn cứ xác thực được nêu ra ở câu trước để đưa ra phán đoán, kết luận logic mang tính tất yếu ở câu sau.",
+        "mnemonic": {
+            "concept": "Đi theo kết luận",
+            "kanji_link": "Chữ 従って (Tòng) nghĩa là đi theo, tuân theo.",
+            "story": "Kết luận này hoàn toàn 'đi theo' (したがって) đúng lộ trình logic mà bằng chứng câu trước vạch ra."
+        },
+        "examples": [
+            {
+                "japanese": "事件のあった時間にAさんはアルバイトをしていた。したがって、Aさんは犯人ではない。",
+                "romaji": "Jiken no atta jikan ni A-san wa arubaito o shite ita. Shitagatte, A-san wa hannin de wa nai.",
+                "vietnamese": "Vào đúng thời gian xảy ra vụ án, anh A đang làm thêm ở cửa hàng. Hệ quả là, anh A không thể là hung thủ.",
+                "highlight_keyword": "したがって"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một kết luận logic: Sản phẩm không đạt tiêu chuẩn, do đó (したがって) không thể xuất xưởng."
+    },
+    {
+        "pattern": "そして",
+        "meaning": "Và / Sau đó (Trình tự thời gian hoặc Thêm thông tin)",
+        "connection": {
+            "formula": "Vế A. そして、Vế B.",
+            "note": "Có thể dùng cho cả việc nối tiếp hành động theo thời gian (順序) lẫn việc bổ sung tính chất (添加)."
+        },
+        "core_nuance": "Dùng để kết nối các sự việc xảy ra liên tiếp nhau theo trình tự trước sau hoặc thêm vào thông tin có cùng chiều hướng tốt/xấu.",
+        "mnemonic": {
+            "concept": "Băng chuyền thông tin",
+            "kanji_link": "Gốc từ soshite.",
+            "story": "Hành động trước xong xuôi rồi, 'và thế là' (そして) hành động tiếp theo được đưa lên băng chuyền."
+        },
+        "examples": [
+            {
+                "japanese": "スポーツをした。そして、シャワーを浴びた。",
+                "romaji": "Supootsu o shita. Soshite, shawaa o abita.",
+                "vietnamese": "Tôi đã chơi thể thao. Và sau đó, tôi đi tắm vòi sen.",
+                "highlight_keyword": "そして"
+            },
+            {
+                "japanese": "味噌汁はおいしい。そして、栄養もある。",
+                "romaji": "Misoshiru wa oishii. Soshite, eiyou mo aru.",
+                "vietnamese": "Canh miso rất là ngon. Và hơn thế nữa, nó còn có nhiều chất dinh dưỡng.",
+                "highlight_keyword": "そして"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu dùng soshite để kể chuỗi hành động: Sáng nay tôi thức dậy lúc 6h và sau đó đi chạy bộ."
+    },
+    {
+        "pattern": "それから",
+        "meaning": "Sau đó / Tiếp theo là... (Trình tự thời gian)",
+        "connection": {
+            "formula": "Vế A. それから、Vế B.",
+            "note": "Nhấn mạnh mốc thời gian hành động A kết thúc hoàn toàn rồi mới chuyển sang làm hành động B."
+        },
+        "core_nuance": "Dùng khi liệt kê các hành động xảy ra tuần tự theo trục thời gian tuyến tính.",
+        "mnemonic": {
+            "concept": "Đi lên từ điểm mốc",
+            "kanji_link": "それ (Cái đó) + から (Từ sau khi).",
+            "story": "'Từ sau khi cái việc đó' (それから) hoàn thành xong, tôi mới bước tiếp chặng tiếp theo."
+        },
+        "examples": [
+            {
+                "japanese": "家に帰ってシャワーを浴びた。それから、出張の準備をした。",
+                "romaji": "Ie ni kaette shawaa o abita. Sorekara, shucchou no junbi o shita.",
+                "vietnamese": "Tôi về đến nhà và tắm rửa sạch sẽ. Sau đó, tôi mới bắt tay vào chuẩn bị cho chuyến công tác.",
+                "highlight_keyword": "それから"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Kể lại việc nấu ăn: Tôi nhặt rau, sau đó (それから) rửa sạch rồi cho vào nồi."
+    },
+    {
+        "pattern": "すると",
+        "meaning": "Thế là / Ngay lập tức... (Kết quả bất ngờ, phát hiện)",
+        "connection": {
+            "formula": "Vế A (Hành động chủ động). すると、Vế B (Trạng thái bất ngờ xuất hiện).",
+            "note": "Không dùng vế sau là câu thể hiện ý chí, mệnh lệnh của người nói."
+        },
+        "core_nuance": "Diễn tả việc người nói vừa thực hiện hành động ở câu trước thì ngay lập tức một kết quả hoặc hiện tượng bất ngờ đập vào mắt.",
+        "mnemonic": {
+            "concept": "Hộp quà Pandora",
+            "kanji_link": "Gốc từ suruto (Làm vậy thì liền...).",
+            "story": "Vừa mở nắp 'làm hành động đó' (する) một phát, 'thế là lập tức' (と) điều kỳ lạ xuất hiện ngay."
+        },
+        "examples": [
+            {
+                "japanese": "箱を開けた。すると、中から白い煙が出てきた。",
+                "romaji": "Hako o aketa. Suruto, naka kara shiroi kemuri ga dete kita.",
+                "vietnamese": "Tôi vừa mới mở chiếc hộp ra. Ngay lập tức, từ bên trong khói trắng bốc lên nghi ngút.",
+                "highlight_keyword": "すると"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu: Tôi vừa bấm nút công tắc. Thế là (すると) rèm cửa tự động kéo ra."
+    },
+    {
+        "pattern": "それに",
+        "meaning": "Hơn nữa / Vả lại / Thêm vào đó (Bổ sung thông tin)",
+        "connection": {
+            "formula": "Vế A. それに、Vế B.",
+            "note": "Thường dùng để liệt kê các lý do, ưu điểm hoặc nhược điểm có cùng tính chất để củng cố cho lựa chọn."
+        },
+        "core_nuance": "Dùng khi muốn thêm một thông tin, một lý do nữa vào mạch câu để tăng tính thuyết phục.",
+        "mnemonic": {
+            "concept": "Xếp thêm gạch",
+            "kanji_link": "それ (Cái đó) + に (Vào mục tiêu).",
+            "story": "Chồng thêm thông tin mới 'vào' (に) ngay bên trên 'cái nền đã có' (それ) để câu nói dày dặn hơn."
+        },
+        "examples": [
+            {
+                "japanese": "これにしよう！デザインがいいし、それに安いし。",
+                "romaji": "Kore ni shiyou! Dezain ga ii shi, soreni yasui shi.",
+                "vietnamese": "Chốt mua cái này đi! Thiết kế vừa đẹp, hơn nữa giá lại còn rẻ nữa.",
+                "highlight_keyword": "それに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tìm lý do từ chối đi chơi: Hôm nay tớ nhiều việc phải làm, hơn nữa (それに) trong người cũng hơi mệt."
+    },
+    {
+        "pattern": "実は（じつは）",
+        "meaning": "Thực ra là... / Thực tế thì... (Tiết lộ bí mật, bổ sung bản chất)",
+        "connection": {
+            "formula": "Vế A (Bề nổi). 実は、Vế B (Sự thật ẩn giấu).",
+            "note": "Vế sau thường đưa ra thông tin gây bất ngờ hoặc đính chính lại quan niệm sai lầm ở vế trước."
+        },
+        "core_nuance": "Dùng khi người nói muốn lật mở, truyền đạt một sự thật ẩn giấu phía sau mà người nghe có thể chưa biết hoặc đang hiểu lầm.",
+        "mnemonic": {
+            "concept": "Hạ màn ảo thuật",
+            "kanji_link": "Chữ 実 (Thực) trong thực tế, sự thật.",
+            "story": "Bóc trần cái vỏ ngoài để phơi bày cái 'sự thật cốt lõi' (実) bên trong ra cho mọi người xem."
+        },
+        "examples": [
+            {
+                "japanese": "ネズミはチーズが好きだと思われているが、実はそれは事実ではない。",
+                "romaji": "Nezumi wa chiizu ga suki da to omowarete iru ga, jitsu wa sore wa jijitsu de wa nai.",
+                "vietnamese": "Ai cũng nghĩ rằng loài chuột rất thích ăn phô mai, nhưng thực ra điều đó hoàn toàn không đúng sự thật.",
+                "highlight_keyword": "実は"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Lời tự thú với bạn: Nhìn tớ bình tĩnh vậy thôi chứ thực ra (実は) đang run bần bật đây."
+    },
+    {
+        "pattern": "また",
+        "meaning": "Ngoài ra / Thêm vào đó / Đồng thời (Bổ sung văn viết)",
+        "connection": {
+            "formula": "Vế A. また、Vế B.",
+            "note": "Mang sắc thái trang trọng, văn viết (硬), xuất hiện nhiều trong văn bản hướng dẫn, mô tả sản phẩm."
+        },
+        "core_nuance": "Dùng để liệt kê, bổ sung thêm một thông tin, tính chất cùng loại hoặc một thông báo song hành với vế trước.",
+        "mnemonic": {
+            "concept": "Mở rộng danh mục",
+            "kanji_link": "Chữ 又 (Hựu) nghĩa là lại, lại nữa.",
+            "story": "Bên cạnh các ý cũ, 'lại thêm một lần nữa' (また) liệt kê ra một ưu điểm độc đáo khác."
+        },
+        "examples": [
+            {
+                "japanese": "このかばんは軽くて丈夫です。また、値段もそれほど高くありません。",
+                "romaji": "Kono kaban wa karukute joubu desu. Mata, nedan mo sorehodo takaku arimasen.",
+                "vietnamese": "Chiếc cặp sách này vừa nhẹ lại vừa bền. Ngoài ra, giá thành của nó cũng không quá đắt.",
+                "highlight_keyword": "また"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu giới thiệu tính năng của app: Ứng dụng này dùng miễn phí, ngoài ra (また) giao diện rất dễ nhìn."
+    },
+    {
+        "pattern": "ただ",
+        "meaning": "Tuy nhiên / Có điều là... (Đưa ra điều kiện ngoại lệ, giới hạn)",
+        "connection": {
+            "formula": "Vế A (Tổng quát). ただ、Vế B (Ngoại lệ/Giới hạn).",
+            "note": "Vế B thường làm giảm bớt đi một chút giá trị hoặc thu hẹp phạm vi hoàn hảo của vế A."
+        },
+        "core_nuance": "Dùng khi người nói công nhận ý ở câu trước, nhưng ngay sau đó phải bổ sung thêm một điều kiện giới hạn hoặc một trường hợp ngoại lệ nhỏ.",
+        "mnemonic": {
+            "concept": "Vết tì trên ngọc",
+            "kanji_link": "Chữ 只 (Chỉ) nghĩa là chỉ là, duy chỉ có.",
+            "story": "Mọi thứ đều hoàn hảo tuyệt vời ông mặt trời, 'duy chỉ có' (ただ) một hạt sạn nhỏ này cần lưu ý."
+        },
+        "examples": [
+            {
+                "japanese": "この映画館は毎週水曜日に映画が千円で見られるよ。ただ、女性だけだけど。",
+                "romaji": "Kono eigakan wa maishuu suiyoubi ni eiga ga sen-en de mirareru yo. Tada, josei dake dakedo.",
+                "vietnamese": "Rạp phim này cứ thứ Tư hàng tuần là được xem phim với giá ưu đãi 1000 yên. Tuy nhiên, có điều là chỉ áp dụng cho khách hàng nữ mà thôi.",
+                "highlight_keyword": "ただ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Khen ngợi khách sạn: Phòng ốc ở đây rất sạch sẽ và tiện nghi, tuy nhiên (ただ) giá hơi cao."
+    },
+    {
+        "pattern": "つまり",
+        "meaning": "Nói cách khác / Tóm lại là... (Diễn giải, định nghĩa)",
+        "connection": {
+            "formula": "Vế A. つまり、Vế B (Kết luận tóm gọn).",
+            "note": "Vế B thường là từ ngữ cô đọng, định nghĩa lại một chuỗi thông tin dài dòng hoặc phức tạp ở vế A."
+        },
+        "core_nuance": "Dùng để quy đổi hoặc tóm tắt thông tin câu trước thành một cách nói khác ngắn gọn, súc tích và dễ hiểu hơn.",
+        "mnemonic": {
+            "concept": "Nút thắt thắt nút",
+            "kanji_link": "Chữ 詰まり (Cật) nghĩa là chung cuộc, rốt cuộc.",
+            "story": "Sau khi nói một tràng dài dòng văn tự, 'rốt cuộc chốt lại' (つまり) bản chất câu chuyện là thế này."
+        },
+        "examples": [
+            {
+                "japanese": "N3の試験は100点だった。つまり、合格したということだ。",
+                "romaji": "N3 no shiken wa hyakuten datta. Tsumari, goukaku shita to iu koto da.",
+                "vietnamese": "Kỳ thi N3 vừa rồi tôi đạt 100 điểm. Nói cách khác (Tóm lại), điều đó đồng nghĩa với việc tôi đã đỗ rồi.",
+                "highlight_keyword": "つまり"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích mối quan hệ: Cô ấy là con gái của chị gái mẹ tôi, tóm lại (つまり) cô ấy là chị em họ của tôi."
+    },
+    {
+        "pattern": "では / それでは / じゃ / じゃあ",
+        "meaning": "Thế thì / Vậy thì... (Ngắt ý, chuyển chủ đề)",
+        "connection": {
+            "formula": "Vế A (Kết thúc ý cũ). では／じゃあ、Vế B (Bắt đầu hành động mới).",
+            "note": "では và それでは trang trọng, dùng trong cuộc họp hoặc phát biểu. じゃ và じゃあ dùng thân mật trong hội thoại (会)."
+        },
+        "core_nuance": "Dùng để đánh dấu việc kết thúc một giai đoạn, một nội dung ở câu trước để ngắt ý và chuyển sang một hành động, mệnh lệnh mới ở câu sau.",
+        "mnemonic": {
+            "concept": "Nhát kéo cắt đoạn",
+            "kanji_link": "Liên từ phân đoạn ý.",
+            "story": "Ý trước thế là hòm hòm xong rồi nhé, 'vậy thì' (では) bây giờ chúng ta chuyển sang việc tiếp theo nào."
+        },
+        "examples": [
+            {
+                "japanese": "説明は以上です。では、皆さん試験を始めてください。",
+                "romaji": "Setsumei wa ijou desu. Dewa, minasan shiken o hajmete kudasai.",
+                "vietnamese": "Phần giải thích nội quy đến đây là kết thúc. Sau đây (Vậy thì), mời mọi người bắt đầu làm bài thi.",
+                "highlight_keyword": "では"
+            },
+            {
+                "japanese": "あ、もう行かなきゃ。じゃ、またあした！",
+                "romaji": "A, mou ikanakya. Ja, mata ashita!",
+                "vietnamese": "Ơ chết, tớ phải đi ngay bây giờ rồi. Vậy thì, hẹn gặp lại cậu vào ngày mai nhé!",
+                "highlight_keyword": "じゃ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Dùng trong lớp học: Đã hết giờ thảo luận, vậy thì (では) mời nhóm 1 lên báo cáo."
+    },
+    {
+        "pattern": "そこで",
+        "meaning": "Chính vì thế / Do đó... (Đưa ra biện pháp, giải quyết vấn đề)",
+        "connection": {
+            "formula": "Vế A (Tình huống khó khăn/Sự cố). そこで、Vế B (Hành động giải quyết).",
+            "note": "Vế sau luôn luôn là một hành động có ý chí của con người nhằm mục đích xử lý tình huống ở vế trước."
+        },
+        "core_nuance": "Dùng khi đối mặt với một hoàn cảnh, sự cố phát sinh ở câu trước, người nói lập tức đưa ra giải pháp, hành động đối phó ở câu sau.",
+        "mnemonic": {
+            "concept": "Điểm chốt hành động",
+            "kanji_link": "そこ (Nơi đó/Điểm đó) + で (Tại đấy).",
+            "story": "Đứng trước tình huống 'ở ngay điểm ngặt nghèo đó' (そこ), ta phải 'tại đó' (で) ra tay hành động giải quyết ngay."
+        },
+        "examples": [
+            {
+                "japanese": "パソコンが動かなくなってしまった。そこで、修理センターに問い合わせた。",
+                "romaji": "Pasokon ga ugokanaku natte shimatta. Sokode, shuuri sentaa ni toiawaseda.",
+                "vietnamese": "Chiếc máy tính tự nhiên bị đơ không hoạt động được nữa. Chính vì thế, tôi đã liên hệ ngay với trung tâm sửa chữa để xử lý.",
+                "highlight_keyword": "そこで"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu đối sách: Trời bất ngờ đổ mưa lớn, chính vì thế (そこで) tôi đã bắt taxi để đi làm."
+    }
+]

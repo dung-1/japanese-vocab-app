@@ -1,0 +1,135 @@
+[
+    {
+        "pattern": "～さえ･･･ば",
+        "meaning": "Chỉ cần... thì (là điều kiện duy nhất cần thiết)",
+        "connection": {
+            "formula": "N + さえ ･･･ Vば / Aければ / Naなら / Nなら\nVます形 (bỏ ます) + さえすれば",
+            "note": "Diễn tả ý chỉ cần thỏa mãn được điều kiện tối thiểu này thì những điều khác không còn là vấn đề nữa."
+        },
+        "core_nuance": "Nhấn mạnh vào một điều kiện cốt lõi độc nhất để một kết quả tốt đẹp chắc chắn có thể xảy ra.",
+        "mnemonic": {
+            "concept": "Chìa khóa vạn năng",
+            "kanji_link": "さえ (Ngay cả/Thậm chí) + ば (Nếu).",
+            "story": "Ngay cả (さえ) một điều nhỏ nhoi này nếu (ば) được đáp ứng, mọi thứ phía sau đều suôn sẻ."
+        },
+        "examples": [
+            {
+                "japanese": "時間さえあれば、遠くまで行けるのに。",
+                "romaji": "Jikan sae areba, tōku made ikeru noni.",
+                "vietnamese": "Chỉ cần có thời gian thôi là tôi đã có thể đi đến một nơi thật xa rồi vậy mà...",
+                "highlight_keyword": "時間さえあれば"
+            },
+            {
+                "japanese": "財布さえかえれば、自分で準備できます。",
+                "romaji": "Saifu sae kaereba, jibun de junbi dekimasu.",
+                "vietnamese": "Chỉ cần ví tiền quay trở lại (có tiền) là tự tôi có thể chuẩn bị được.",
+                "highlight_keyword": "財布さえかえれば"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu khích lệ: Chỉ cần bạn không bỏ cuộc (諦めさえしなければ), bạn chắc chắn sẽ thành công."
+    },
+    {
+        "pattern": "～といった",
+        "meaning": "Như là... / Những thứ như... (Liệt kê ví dụ điển hình)",
+        "connection": {
+            "formula": "N1, N2 + といった + N3",
+            "note": "N3 là danh từ bao quát nhóm tổng thể, còn N1, N2 là các đại diện tiêu biểu được nêu ra để làm rõ nghĩa."
+        },
+        "core_nuance": "Dùng để gom nhóm các ví dụ điển hình lại nhằm giúp người nghe dễ dàng hình dung ra thuộc tính chung của tập hợp N3.",
+        "mnemonic": {
+            "concept": "Hộp quà chứa mẫu thử",
+            "kanji_link": "と (Rằng) + 言った (Đã nói).",
+            "story": "Những thứ thuộc nhóm chung mà người ta thường 'gọi tên như là' (といった) loại này, loại kia."
+        },
+        "examples": [
+            {
+                "japanese": "この学校には中国、ベトナムといったアジアからの留学生がたくさんいる。",
+                "romaji": "Kono gakkō ni wa Chūgoku, Betonamu to itta Ajia kara no ryūgakusei ga takusan iru.",
+                "vietnamese": "Ở ngôi trường này có rất nhiều du học sinh đến từ châu Á, ví dụ như từ Trung Quốc hay Việt Nam.",
+                "highlight_keyword": "中国、ベトナムといった"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Liệt kê sở thích: Tôi thích những môn thể thao vận động mạnh như là bóng đá, bóng rổ (サッカー、バスケットボールといった)."
+    },
+    {
+        "pattern": "～のこと",
+        "meaning": "Về... / Liên quan đến... (Chỉ nội dung, chủ đề câu chuyện)",
+        "connection": {
+            "formula": "N + のこと",
+            "note": "Thường đi kèm các động từ biểu thị tư duy, ngôn ngữ, cảm xúc như 話す, 相談する, 考える, 知る."
+        },
+        "core_nuance": "Bao quát toàn bộ thông tin, vấn đề xung quanh đối tượng N chứ không chỉ đích danh riêng bản thân vật thể đó.",
+        "mnemonic": {
+            "concept": "Quả cầu thông tin bao quanh",
+            "kanji_link": "Chữ 事 (Sự) sự việc, chuyện.",
+            "story": "Nói về toàn bộ 'những sự việc, thông tin' (のこと) xoay quanh danh từ đó."
+        },
+        "examples": [
+            {
+                "japanese": "両親に留学のことを相談した。",
+                "romaji": "Ryōshin ni ryūgaku no koto o sōdan shita.",
+                "vietnamese": "Tôi đã bàn bạc với bố mẹ về chuyện đi du học.",
+                "highlight_keyword": "留学のこと"
+            },
+            {
+                "japanese": "あなたのことは一生忘れません。",
+                "romaji": "Anata no koto wa isshō wasuremasen.",
+                "vietnamese": "Những điều về anh (tất cả kỷ niệm về anh) tôi sẽ không bao giờ quên suốt cuộc đời này.",
+                "highlight_keyword": "あなたのこと"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu tâm sự: Tôi luôn suy nghĩ về tương lai của bản thân (将来のこと)."
+    },
+    {
+        "pattern": "～はもちろん",
+        "meaning": "...thì là lẽ đương nhiên rồi, và ngay cả... cũng vậy",
+        "connection": {
+            "formula": "N1 + はもちろん、N2 + も",
+            "note": "Nêu ra N1 là một điều hiển nhiên ai cũng biết, để từ đó nhấn mạnh thêm mức độ bao phủ sang cả N2."
+        },
+        "core_nuance": "Bộc lộ sự đánh giá tăng tiến. Khẳng định chắc chắn một sự thật hiển nhiên ở vế đầu để kéo theo sự đồng điệu ở vế sau.",
+        "mnemonic": {
+            "concept": "Bậc thang nhảy vọt",
+            "kanji_link": "勿論 (Vật luận) không cần bàn cãi.",
+            "story": "Cái này thì 'không cần bàn cãi' (はもちろん) nữa rồi, cái tiếp theo mới là cái đáng nói."
+        },
+        "examples": [
+            {
+                "japanese": "このアニメは、子供はもちろん、大人にも人気がある。",
+                "romaji": "Kono anime wa, kodomo wa mochiron, otona ni mo ninki ga aru.",
+                "vietnamese": "Bộ phim hoạt hình này trẻ con thích thì là lẽ hiển nhiên rồi, nhưng nó còn được cả người lớn yêu thích nữa.",
+                "highlight_keyword": "子供はもちろん"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Khen ngợi một ca sĩ: Cô ấy không chỉ hát hay đương nhiên rồi (歌はもちろん), mà nhảy cũng giỏi."
+    },
+    {
+        "pattern": "～向け（むけ）",
+        "meaning": "Thiết kế dành riêng cho... / Hướng tới đối tượng...",
+        "connection": {
+            "formula": "N + 向けだ / 向けに / 向けの + N",
+            "note": "Dùng khi một sản phẩm, dịch vụ hay kế hoạch được tạo ra một cách có chủ đích nhằm phục vụ đặc biệt cho một nhóm đối tượng cụ thể."
+        },
+        "core_nuance": "Nhấn mạnh vào tính đích danh, mục tiêu sản xuất hoặc thiết kế ban đầu của sự vật nhắm thẳng vào thị trường hay đối tượng đó.",
+        "mnemonic": {
+            "concept": "Mũi tên nhắm trúng đích",
+            "kanji_link": "Chữ 向く (Hướng) quay về phía.",
+            "story": "Món đồ này được bẻ lái, quay mọi công dụng hướng thẳng (向け) vào nhu cầu của bạn."
+        },
+        "examples": [
+            {
+                "japanese": "これは初級の学習者向けの教科書だ。",
+                "romaji": "Kore wa shokyū no gakushūsha muke no kyōkasho da.",
+                "vietnamese": "Đây là sách giáo khoa được thiết kế dành riêng cho người học ở trình độ sơ cấp.",
+                "highlight_keyword": "学習者向けの"
+            },
+            {
+                "japanese": "これは海外向けに作られた自動車だ。",
+                "romaji": "Kore wa kaigai muke ni tsukurareta jidōsha da.",
+                "vietnamese": "Đây là dòng xe ô tô được chế tạo sản xuất chuyên biệt dành cho thị trường nước ngoài.",
+                "highlight_keyword": "海外向けに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về một ứng dụng: Phần mềm này được làm ra dành riêng cho trẻ em (子供向け)."
+    }
+]

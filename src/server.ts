@@ -154,6 +154,99 @@ app.post('/api/chat', (req: Request, res: Response) => {
 });
 
 /**
+ * Proxy /api/embeddings -> Ollama Local OR Ollama Cloud.
+ * Body: { provider, apiKey?, text, model? }
+ * Response: { embedding: number[] }
+ */
+app.post('/api/embeddings', (req: Request, res: Response) => {
+  const body = (req.body ?? {}) as {
+    provider?: string;
+    apiKey?: string;
+    text?: string;
+    model?: string;
+  };
+
+  const provider = body.provider ?? 'local';
+  const text = body.text ?? '';
+  const model = body.model ?? 'nomic-embed-text';
+
+  if (!text) {
+    res.status(400).json({ error: 'missing_text', message: 'text field is required' });
+    return;
+  }
+  if (provider === 'cloud' && !body.apiKey) {
+    res.status(400).json({ error: 'missing_api_key', message: 'Cloud provider requires apiKey' });
+    return;
+  }
+
+  let upstreamUrl: URL;
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+
+  if (provider === 'cloud') {
+    upstreamUrl = new URL('https://ollama.com/api/embeddings');
+    headers['Authorization'] = 'Bearer ' + body.apiKey;
+  } else {
+    upstreamUrl = new URL('/api/embeddings', process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434');
+  }
+
+  console.log(`[api/embeddings] provider=${provider} model=${model} textLen=${text.length}`);
+
+  const upstreamBody = JSON.stringify({ model, prompt: text });
+  const useHttps = upstreamUrl.protocol === 'https:';
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  const lib = useHttps ? require('node:https') : require('node:http');
+
+  const upstreamReq = lib.request(
+    {
+      hostname: upstreamUrl.hostname,
+      port: upstreamUrl.port || (useHttps ? '443' : '80'),
+      path: upstreamUrl.pathname,
+      method: 'POST',
+      headers: { ...headers, 'Content-Length': Buffer.byteLength(upstreamBody).toString() },
+      timeout: 60_000,
+    },
+    (upRes: any) => {
+      const status = upRes.statusCode ?? 502;
+      let data = '';
+      upRes.on('data', (c: Buffer) => (data += c.toString()));
+      upRes.on('end', () => {
+        if (status >= 400) {
+          console.error(`[api/embeddings] upstream ${status}: ${data.slice(0, 200)}`);
+          if (!res.headersSent) {
+            res.status(status).json({ error: 'upstream_error', status, detail: data.slice(0, 300) });
+          }
+          return;
+        }
+        try {
+          const parsed = JSON.parse(data);
+          res.status(200).json({ embedding: parsed.embedding ?? [] });
+        } catch {
+          res.status(502).json({ error: 'parse_error', raw: data.slice(0, 200) });
+        }
+      });
+    },
+  );
+
+  upstreamReq.on('error', (err: Error) => {
+    console.error('[api/embeddings] connect error:', err.message);
+    if (!res.headersSent) {
+      res.status(502).json({
+        error: 'upstream_unreachable',
+        provider,
+        message: `Cannot reach ${upstreamUrl.toString()}`,
+        detail: err.message,
+      });
+    }
+  });
+
+  upstreamReq.on('timeout', () => {
+    upstreamReq.destroy(new Error('Embedding upstream timeout'));
+  });
+
+  upstreamReq.end(upstreamBody);
+});
+
+/**
  * Serve static files from /browser
  */
 app.use(

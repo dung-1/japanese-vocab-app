@@ -1,0 +1,118 @@
+[
+    {
+        "pattern": "～際（に）",
+        "meaning": "Khi... / Vào lúc... (Văn viết trang trọng của とき)",
+        "connection": {
+            "formula": "Vる / Vた / Nの + 際（に）",
+            "note": "Mang tính chất văn viết, thông báo công cộng hoặc hướng dẫn nghi thức trang nghiêm (硬)."
+        },
+        "core_nuance": "Xác định một thời điểm, một dịp đặc biệt hoặc quan trọng mang tính thủ tục hành chính để thực hiện hành động tiếp theo.",
+        "mnemonic": {
+            "concept": "Thời khắc ranh giới",
+            "kanji_link": "Chữ 際 (Tế) trong quốc tế, ranh giới thời khắc.",
+            "story": "Vào đúng cái 'thời khắc ranh giới sự kiện' (際) long trọng này, xin hãy tuân thủ quy tắc."
+        },
+        "examples": [
+            {
+                "japanese": "ご予約の際は、連絡先を必ずご記入ください。",
+                "romaji": "Go-yoyaku no sai wa, renrakusaki o kanarazu go-kinyū kudasai.",
+                "vietnamese": "Vào lúc đặt lịch hẹn trước, xin quý khách vui lòng điền đầy đủ thông tin liên lạc.",
+                "highlight_keyword": "ご予約の際"
+            },
+            {
+                "japanese": "先生が東京にいらっしゃる際にはぜひお会いしたいです。",
+                "romaji": "Sensei ga tōkyō ni irassharu sai ni wa zehi o-ai shitai desu.",
+                "vietnamese": "Vào dịp thầy có dịp ghé chơi Tokyo, em rất mong nhất định sẽ được diện kiến thầy ạ.",
+                "highlight_keyword": "いらっしゃる際"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bảng hướng dẫn máy bay: Khi khẩn cấp (緊急の際), hãy chú ý làm theo chỉ dẫn."
+    },
+    {
+        "pattern": "～ず（に）",
+        "meaning": "Mà không làm... (Dạng văn viết trang trọng của ないで)",
+        "connection": {
+            "formula": "V ます形 (bỏ ます) + ず（に） | Riêng する chuyển thành せずに",
+            "note": "Mang tính chất văn viết hoặc thành ngữ cổ, tạo sắc thái câu trang trọng hơn."
+        },
+        "core_nuance": "Thực hiện hành động ở vế sau trong trạng thái hoàn toàn bỏ qua, không tiến hành hành động ở vế trước.",
+        "mnemonic": {
+            "concept": "Mũi tên băng qua",
+            "kanji_link": "Đuôi phủ định cổ ず.",
+            "story": "Băng thẳng qua hành động trước 'bằng cách không thèm làm nó' (ずに) để lao thẳng tới hành động sau."
+        },
+        "examples": [
+            {
+                "japanese": "諦めず最後までがんばろう。",
+                "romaji": "Akiramezu saigo made ganbarō.",
+                "vietnamese": "Hãy cùng nhau cố gắng đến cùng mà không được từ bỏ nửa chừng!",
+                "highlight_keyword": "諦めず"
+            },
+            {
+                "japanese": "宿題をせずに学校へ行ってしまった。",
+                "romaji": "Shukudai o sezu ni gakkō e itte shimatta.",
+                "vietnamese": "Nó đã tông thẳng đến trường học mà không thèm làm bài tập về nhà.",
+                "highlight_keyword": "せずに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu tự lập: Hãy giải quyết vấn đề mà không cần dựa dẫm (頼らずに) vào người khác."
+    },
+    {
+        "pattern": "～ばよかった",
+        "meaning": "Giá mà... thì tốt biết mấy (Thể hiện sự hối hận, nuối tiếc)",
+        "connection": {
+            "formula": "Vば + よかった / Vなければ + よかった",
+            "note": "Dùng để nói về một việc trong quá khứ đã không làm (hoặc đã làm) dẫn đến kết quả tiếc nuối hiện tại."
+        },
+        "core_nuance": "Bộc lộ tâm trạng dằn vặt, ăn năn, hối hận khôn nguôi về một quyết định sai lầm trái ngược với mong muốn trong quá khứ.",
+        "mnemonic": {
+            "concept": "Cỗ máy thời gian ước ao",
+            "kanji_link": "ば (Nếu) + よかった (Đã tốt rồi).",
+            "story": "Nếu quá khứ mà 'giả sử làm ngược lại' (ば), thì kết quả bây giờ 'đã tốt đẹp biết mấy' (よかった)."
+        },
+        "examples": [
+            {
+                "japanese": "頭が痛くてしょうがない。早く薬を飲めばよかった。",
+                "romaji": "Atama ga itakute shōganai. Hayaku kusuri o nomebaよかった.",
+                "vietnamese": "Đầu tôi đau không chịu nổi. Giá mà lúc nãy uống thuốc sớm thì tốt biết mấy.",
+                "highlight_keyword": "飲めばよかった"
+            },
+            {
+                "japanese": "昨日の夜、遅くまでゲームしなければよかった。",
+                "romaji": "Kinō no yoru, osoku made gēmu shinakerebaよかった.",
+                "vietnamese": "Biết thế đêm qua mình không chơi game đến tận khuya muộn như vậy.",
+                "highlight_keyword": "しなければよかった"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Lời than vãn đi mưa: Biết thế mình mang theo ô (持っていけばよかった)."
+    },
+    {
+        "pattern": "～ように･･･",
+        "meaning": "Để sao cho... / Theo như... (Định hướng mục tiêu hoặc ví von tiêu biểu)",
+        "connection": {
+            "formula": "Nの / Thể thông thường + ように",
+            "note": "Có thể dùng để đưa ra một ví dụ cụ thể, điển hình nhằm làm rõ nghĩa cho vế sau."
+        },
+        "core_nuance": "Lấy hình mẫu, trạng thái hoặc tiêu chuẩn A làm kim chỉ nam để soi chiếu và thực hiện hành động B theo đúng khuôn mẫu đó.",
+        "mnemonic": {
+            "concept": "Khuôn đúc chuẩn mực",
+            "kanji_link": "ように (Giống như/Theo phong cách).",
+            "story": "Hãy đúc khuôn hành động của mình 'sao cho giống y hệt như' (ように) hình mẫu lý tưởng đứng trước."
+        },
+        "examples": [
+            {
+                "japanese": "両親が私を育ててくれたように、私も子供を育てたい。",
+                "romaji": "Ryōshin ga watashi o sotadete kureta yō ni, watashi mo kodomo o sodatetai.",
+                "vietnamese": "Theo đúng như cái cách mà bố mẹ đã nuôi nấng tôi nên người, tôi cũng muốn nuôi dạy con cái mình như vậy.",
+                "highlight_keyword": "育ててくれたように"
+            },
+            {
+                "japanese": "経済学に統計が必要なように、文系でも数学の勉強がいる。",
+                "romaji": "Keizaigaku ni tōkei ga hitsuyō na yō ni, bunkei demo sūgaku no benkyō ga iru.",
+                "vietnamese": "Giống như việc ngành kinh tế học rất cần đến thống kê, dân khối xã hội cũng phải học toán.",
+                "highlight_keyword": "必要なように"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bày tỏ quyết tâm: Tôi muốn nói tiếng Nhật lưu loát giống như (ように) anh Tanaka."
+    }
+]

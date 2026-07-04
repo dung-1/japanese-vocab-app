@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～たところ",
+        "meaning": "Sau khi thử làm gì... thì nhận ra kết quả/phát hiện mới",
+        "connection": {
+            "formula": "Vた形 + ところ",
+            "note": "Vế sau luôn là một sự việc bất ngờ, một kết quả mang tính khách quan, phát hiện ra tại thời điểm đó."
+        },
+        "core_nuance": "Nhấn mạnh khoảnh khắc ngay sau khi thực hiện hành động thử nghiệm thì một thông tin mới xuất hiện (thường nằm ngoài dự tính).",
+        "mnemonic": {
+            "concept": "Ngay tại điểm mốc thời gian",
+            "kanji_link": "Chữ 所 (Sở) chỉ địa điểm, mốc điểm.",
+            "story": "Ngay tại cái 'mốc điểm' vừa làm xong hành động quá khứ (Vた), một sự thật bất ngờ đập vào mắt!"
+        },
+        "examples": [
+            {
+                "japanese": "枕を変えたところ、よく眠れるようになった。",
+                "romaji": "Makura o kaeta tokoro, yoku nemureru you ni natta.",
+                "vietnamese": "Sau khi tôi thử thay cái gối mới, kết quả là đã ngủ ngon giấc hơn hẳn.",
+                "highlight_keyword": "変えたところ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một câu chuyện ngắn: Sau khi thử chạy đoạn code mới viết thì phát hiện ra một lỗi cực kỳ nghiêm trọng bằng cấu trúc たところ."
+    },
+    {
+        "pattern": "～としても / ～としたって",
+        "meaning": "Ngay cả khi... / Dẫu cho giả sử có... đi chăng nữa",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + としても / としたって",
+            "note": "としたって là văn nói thân mật của としても. Thường đi kèm với もし (nếu) hoặc たとえ (dẫu cho)."
+        },
+        "core_nuance": "Đưa ra một giả định có khả năng xảy ra thấp hoặc cực đoan, thể hiện lập trường vế sau hoàn toàn không bị lay chuyển.",
+        "mnemonic": {
+            "concept": "Đứng trên giả định",
+            "kanji_link": "と (Rằng) + して (Coi như là) + も (Cũng).",
+            "story": "Ngay cả khi 'coi như là' (して) cái tình huống tồi tệ đó xảy ra, tôi 'cũng' (も) không sợ."
+        },
+        "examples": [
+            {
+                "japanese": "たとえ試験に落ちたとしても諦めません。",
+                "romaji": "Tatoe shiken ni ochita to shitemo akiramenasen.",
+                "vietnamese": "Dẫu cho giả sử có trượt kỳ thi đi chăng nữa, tôi vẫn nhất định không bỏ cuộc.",
+                "highlight_keyword": "落ちたとしても"
+            },
+            {
+                "japanese": "雨だとしたって試合は時間どおりに開始します。",
+                "romaji": "Ame da toshitatte shiai wa jikan doori ni kaishi shimasu.",
+                "vietnamese": "Ngay cả khi trời có mưa đi nữa, trận đấu vẫn sẽ bắt đầu đúng giờ.",
+                "highlight_keyword": "雨だとしたって"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu khẩu hiệu quyết tâm: Dẫu cho AI có phát triển mạnh thế nào, lập trình viên vẫn có giá trị riêng bằng としても."
+    },
+    {
+        "pattern": "～にしては",
+        "meaning": "So với... thì trái ngược với suy đoán / Thế mà...",
+        "connection": {
+            "formula": "N / VThế thông thường + にしては",
+            "note": "Đối tượng đứng trước にしては phải là một tiêu chuẩn cụ thể, con số cụ thể hoặc một thực tế rõ ràng."
+        },
+        "core_nuance": "Thể hiện sự bất ngờ, đánh giá trái ngược hẳn so với những gì người ta thường kỳ vọng ở tiêu chuẩn đó.",
+        "mnemonic": {
+            "concept": "Nhìn vào tiêu chuẩn",
+            "kanji_link": "に (Vào đối tượng) + しては (Đối với hành động).",
+            "story": "Nếu xét 'vào cái mốc' (に) đối tượng này, hành động hay kết quả của nó lại 'lệch chuẩn' quá mức."
+        },
+        "examples": [
+            {
+                "japanese": "初めて作ったにしてはおいしくできたね。",
+                "romaji": "Hajimete tsukutta ni shite wa oishiku dekita ne.",
+                "vietnamese": "So với việc đây là lần đầu tiên tự tay làm, món này ngon tuyệt vời đấy chứ.",
+                "highlight_keyword": "作ったにしては"
+            },
+            {
+                "japanese": "いつも早く来るリンさんにしては、今日は遅いね。",
+                "romaji": "Itsumo hayaku kuru Rin-san ni shite wa, kyou wa osoi ne.",
+                "vietnamese": "So với một người luôn đến sớm như cô Lin, hôm nay cô ấy lại muộn nhỉ.",
+                "highlight_keyword": "リンさんにしては"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Khen ngợi một người nước ngoài nói tiếng Nhật siêu mượt bằng cách dùng にしては."
+    },
+    {
+        "pattern": "～のは･･･だ",
+        "meaning": "Cấu trúc nhấn mạnh: Cái việc... chính là...",
+        "connection": {
+            "formula": "V/A/N Thể thông thường + のは + [Thành phần nhấn mạnh] + だ",
+            "note": "Tính từ đuôi -na và danh từ cần thêm な khi đi với のは."
+        },
+        "core_nuance": "Đưa một chủ đề cần bàn luận lên đầu câu làm chủ ngữ, sau đó dồn toàn bộ sự chú ý, nhấn mạnh vào thông tin đứng trước 'だ'.",
+        "mnemonic": {
+            "concept": "Mũi tên chỉ đích danh",
+            "kanji_link": "の (Cái việc) + は (Thì là).",
+            "story": "Cái việc (の) tôi muốn nói ở đây (は), chính xác là cái này (だ) đây chứ không đâu khác!"
+        },
+        "examples": [
+            {
+                "japanese": "旅行に行くのは来週だ。",
+                "romaji": "Ryokou ni iku no wa raishuu da.",
+                "vietnamese": "Việc chúng ta đi du lịch chính xác là vào tuần sau.",
+                "highlight_keyword": "行くのは来週だ"
+            },
+            {
+                "japanese": "この喫茶店でいちばん人気なのは、サンドイッチだ。",
+                "romaji": "Kono kissaten de ichiban ninki na no wa, sandoicchi da.",
+                "vietnamese": "Thứ được yêu thích nhất ở quán cà phê này chính là món bánh mì kẹp.",
+                "highlight_keyword": "人気なのは、サンドイッチだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhấn mạnh lý do tại sao bạn thích học tiếng Nhật bằng mẫu cấu trúc のは...だ."
+    },
+    {
+        "pattern": "～わけがない",
+        "meaning": "Tuyệt đối không thể nào... / Làm sao mà... được (Phủ định mạnh mẽ)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + わけがない",
+            "note": "Tính từ -na giữ nguyên な hoặc biến thành である. Danh từ dùng の hoặc である."
+        },
+        "core_nuance": "Dựa trên lý do, logic khách quan rõ ràng để khẳng định 100% sự việc đó hoàn toàn không thể xảy ra. Mang tính chủ quan của người nói dựa trên thực tế.",
+        "mnemonic": {
+            "concept": "Lý do bằng không",
+            "kanji_link": "Chữ 訳 (Dịch) nghĩa là lý do, nguyên nhân căn kẽ.",
+            "story": "Xét về mặt 'lý do lý trấu' (わけ) thì hoàn toàn 'không có cửa' (がない) để chuyện đó xảy ra!"
+        },
+        "examples": [
+            {
+                "japanese": "いつも元気な山田さんが病気なわけがない。",
+                "romaji": "Itsumo genki na Yamada-san ga byouki na wake ga nai.",
+                "vietnamese": "Một người lúc nào cũng tràn đầy năng lượng như anh Yamada thì tuyệt đối không thể nào bị bệnh được.",
+                "highlight_keyword": "病気なわけがない"
+            },
+            {
+                "japanese": "あの監督が作った映画だからおもしろくないわけがない。",
+                "romaji": "Ano kantoku ga tsukutta eiga dakara omoshirokunai wake ga nai.",
+                "vietnamese": "Bộ phim do chính vị đạo diễn lừng danh đó làm thì làm sao mà không hay cho được.",
+                "highlight_keyword": "おもしろくないわけがない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bác bỏ một tin đồn thất thiệt về việc một người bạn thân nghỉ học bằng cách dùng わけがない."
+    }
+]

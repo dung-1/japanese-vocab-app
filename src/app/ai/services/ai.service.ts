@@ -11,6 +11,7 @@ import { AiProvider, ChatStreamHandle } from '../providers/ai-provider.interface
 import { validateAnswer, ValidationResult } from '../utils/response-validator.util';
 import { ConversationMemoryService } from './conversation-memory.service';
 import { EnhancedPromptBuilderService } from './enhanced-prompt-builder.service';
+import { EmbeddingService } from './embedding.service';
 
 @Injectable({ providedIn: 'root' })
 export class AiService {
@@ -21,6 +22,7 @@ export class AiService {
   private readonly factory = inject(ProviderFactory);
   private readonly conversationMemory = inject(ConversationMemoryService);
   private readonly enhancedPromptBuilder = inject(EnhancedPromptBuilderService);
+  private readonly embeddingService = inject(EmbeddingService);
 
   readonly messages = signal<AiChatMessage[]>([]);
   readonly busy = signal(false);
@@ -42,6 +44,22 @@ export class AiService {
     }
     // Initialize conversation session
     this.conversationMemory.initializeSession();
+    // Sync provider type vào factory để EmbeddingService dùng đúng provider
+    const s = this.settings.get();
+    this.factory.setActiveType(s.provider);
+    // Trigger vectorization background nếu chưa ready và embedding model có thể dùng
+    if (!this.embeddingService.embeddingsReady() && !this.embeddingService.isVectorizing()) {
+      const allItems = [
+        ...this.knowledge.getItemsByDomain('kanji-word'),
+        ...this.knowledge.getItemsByDomain('vocab'),
+        ...this.knowledge.getItemsByDomain('radical'),
+        ...this.knowledge.getItemsByDomain('reduplicative'),
+      ];
+      // Không await — chạy background, không block user
+      this.embeddingService.vectorizeKnowledgeBase(allItems).catch((e) =>
+        console.warn('[AiService] Background vectorization error (non-fatal):', e),
+      );
+    }
   }
 
   async ask(question: string): Promise<AiChatMessage | null> {
@@ -56,11 +74,12 @@ export class AiService {
     await this.ensureReady();
 
     const items = this.knowledge.getItemsByDomain(domain);
-    const hits = this.search.search(trimmed, items, 5);
+    const hits = await this.search.search(trimmed, items, 5);
     const context: PromptContext = this.promptBuilder.buildContext(
       domain,
       hits.map((h) => h.item),
     );
+
     
     // Use enhanced prompt builder with conversation history
     const payload = this.enhancedPromptBuilder.buildWithHistory(
@@ -106,11 +125,12 @@ export class AiService {
     await this.ensureReady();
 
     const items = this.knowledge.getItemsByDomain(domain);
-    const hits = this.search.search(trimmed, items, 5);
+    const hits = await this.search.search(trimmed, items, 5);
     const context = this.promptBuilder.buildContext(
       domain,
       hits.map((h) => h.item),
     );
+
     
     // Use enhanced prompt builder with conversation history
     const payload = this.enhancedPromptBuilder.buildWithHistory(

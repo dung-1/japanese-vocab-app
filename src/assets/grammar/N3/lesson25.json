@@ -1,0 +1,135 @@
+[
+    {
+        "pattern": "～ということだ",
+        "meaning": "Nghe nói là... / Thấy bảo là... (Truyền đạt lại thông tin)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + ということだ",
+            "note": "Thường đi kèm với cụm từ chỉ nguồn thông tin như ～によると (theo như...)."
+        },
+        "core_nuance": "Truyền đạt lại nguyên văn hoặc tóm lược bản chất nội dung thông tin nghe được từ người khác hay phương tiện truyền thông mà không thêm thắt ý kiến cá nhân.",
+        "mnemonic": {
+            "concept": "Định nghĩa nội dung lời nói",
+            "kanji_link": "という (Nói rằng) + こと (Việc) + だ (Là).",
+            "story": "Cái 'việc' (こと) người ta 'nói rằng' (という) bản chất chính 'là' (だ) như thế này đây."
+        },
+        "examples": [
+            {
+                "japanese": "A「あれ？山田さんは？」B「あしたから出張だということで、もう帰りました。」",
+                "romaji": "A: Are? Yamada-san wa? B: Ashita kara shucchou da to iu koto de, mou kaerimashita.",
+                "vietnamese": "A: 'Ơ, anh Yamada đâu rồi?' B: 'Nghe bảo là từ ngày mai đi công tác nên anh ấy đã đi về trước rồi'.",
+                "highlight_keyword": "出張だということで"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đóng vai người truyền tin, thông báo lịch họp đột xuất bị hủy dựa theo lời sếp bằng ということだ."
+    },
+    {
+        "pattern": "～と言われている",
+        "meaning": "Người ta nói rằng... / Thiên hạ truyền tai nhau rằng...",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + と言われている",
+            "note": "Dùng để diễn tả một đánh giá, dư luận hoặc một sự thật chung được xã hội công nhận rộng rãi."
+        },
+        "core_nuance": "Thông tin mang tính khách quan cao, không ám chỉ đích danh cá nhân nào nói mà là quan điểm chung của số đông công chúng.",
+        "mnemonic": {
+            "concept": "Thể bị động số đông",
+            "kanji_link": "と (Rằng) + 言われている (Đang được nói).",
+            "story": "Thông tin này 'đang được nói' (言われている) bởi toàn bộ thế giới xung quanh."
+        },
+        "examples": [
+            {
+                "japanese": "日本の電車は時間に正確だと言われている。",
+                "romaji": "Nihon no densha wa jikan ni seikaku da to iわれている.",
+                "vietnamese": "Người ta thường nói rằng hệ thống tàu điện của Nhật Bản cực kỳ chính xác về mặt thời gian.",
+                "highlight_keyword": "正確だと言われている"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về một phong tục truyền thống tốt đẹp của Việt Nam được thế giới công nhận bằng と言われている."
+    },
+    {
+        "pattern": "～ところに / ～ところへ",
+        "meaning": "Đúng vào lúc đang... thì có sự việc khác xen vào",
+        "connection": {
+            "formula": "Vている / Vた / Vる + ところに / ところへ",
+            "note": "Trạng thái hành động vế trước quyết định giới từ. Trợ từ に/へ chỉ hướng sự việc vế sau ập tới lao vào."
+        },
+        "core_nuance": "Nhấn mạnh tính thời điểm mang tính bước ngoặt, căn đúng khoảnh khắc một hành động đang diễn tiến thì một nhân tố bên ngoài bất ngờ xuất hiện làm gián đoạn.",
+        "mnemonic": {
+            "concept": "Căn đúng tọa độ thời gian",
+            "kanji_link": "Chữ 所 (Sở) trong thời điểm, tọa độ.",
+            "story": "Đúng ngay cái 'tọa độ thời gian' (ところ) đó, có một hành động khác đâm sầm 'vào' (に/へ)."
+        },
+        "examples": [
+            {
+                "japanese": "宿題をしているところに、友達が来た。",
+                "romaji": "Shukudai o shite iru tokoro ni, tomodachi ga kita.",
+                "vietnamese": "Đúng vào lúc tôi đang cặm cụi làm bài tập về nhà thì đứa bạn thân lại mò sang chơi.",
+                "highlight_keyword": "しているところに"
+            },
+            {
+                "japanese": "電車で寝ていたところを、先生に見られた。",
+                "romaji": "Densha de nete ita tokoro o, sensei ni mirareta.",
+                "vietnamese": "Đúng cái lúc tôi đang ngủ gật ngon lành trên tàu điện thì bị thầy giáo bắt quả tang nhìn thấy.",
+                "highlight_keyword": "寝ていたところを"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết tình huống: Đang nói xấu sếp với đồng nghiệp thì sếp đứng ngay sau lưng bằng ところに."
+    },
+    {
+        "pattern": "～ないと / ～なきゃ",
+        "meaning": "Phải... (Cách nói rút gọn trong giao tiếp hàng ngày)",
+        "connection": {
+            "formula": "Vない形 (bỏ ない) + ないと / なきゃ",
+            "note": "Là dạng giản lược cực ngắn của ～ないといけない và ～なければならない."
+        },
+        "core_nuance": "Văn nói suồng sã dùng với bạn bè, người thân hoặc tự nói với chính mình để nhắc nhở bản thân bắt buộc phải làm một việc gì đó ngay.",
+        "mnemonic": {
+            "concept": "Nói nửa câu tự hiểu",
+            "kanji_link": "ないと (Nếu không làm thế...) + [đoạn sau tự hiểu là chết chắc].",
+            "story": "Chỉ cần nói 'Nếu không làm' (ないと)... là trong đầu tự hiểu hệ quả xấu, nên phải vắt chân lên cổ mà làm ngay!"
+        },
+        "examples": [
+            {
+                "japanese": "あ、こんな時間だ。もう行かないと。",
+                "romaji": "A, konna jikan da. Mou ikanaito.",
+                "vietnamese": "Chết tiệc, đã muộn thế này rồi cơ à. Mình phải đi ngay thôi.",
+                "highlight_keyword": "行かないと"
+            },
+            {
+                "japanese": "この仕事をするのはあなたじゃなきゃ。",
+                "romaji": "Kono shigoto o suru no wa anata janakya.",
+                "vietnamese": "Người đảm nhận công việc này bắt buộc phải là cậu chứ không thể là ai khác.",
+                "highlight_keyword": "あなたじゃなきゃ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tự thoại nhắc nhở bản thân phải đi ngủ sớm để mai đi học bằng なきゃ."
+    },
+    {
+        "pattern": "～に伴って（にともなって）",
+        "meaning": "Kéo theo... / Cùng với sự thay đổi của A thì B cũng thay đổi theo",
+        "connection": {
+            "formula": "V辞書形 / N + に伴って",
+            "note": "Dùng cho các sự thay đổi có quy mô lớn, mang tính vĩ mô, biến đổi xã hội hoặc tự nhiên."
+        },
+        "core_nuance": "Sự biến đổi của hai vế tỷ lệ thuận với nhau, vế A tiến triển kéo theo vế B đồng hành biến đổi theo như một hệ quả tất yếu.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 伴 (Bạn) trong bạn bè, đồng hành, đi kèm.",
+            "story": "Hai sự việc giống như đôi 'bạn thân' (伴), bước chân A tiến lên một bước thì bước chân B cũng phải 'đồng hành' theo sát."
+        },
+        "examples": [
+            {
+                "japanese": "会社が大きくなるのに伴って、社員も増えた。",
+                "romaji": "Kaisha ga ookiku naru no ni tomonatte, shain mo fueta.",
+                "vietnamese": "Cùng với việc quy mô công ty ngày càng mở rộng kéo theo số lượng nhân sự cũng tăng lên rõ rệt.",
+                "highlight_keyword": "大きくなるのに伴って"
+            },
+            {
+                "japanese": "時代の変化にともない、人々の考え方が変わる。",
+                "romaji": "Jidai no henka ni tomonai, hitobito no kangaekata ga kawaru.",
+                "vietnamese": "Song hành cùng sự biến đổi của thời đại, tư duy và cách suy nghĩ của con người cũng dần thay đổi.",
+                "highlight_keyword": "変化にともない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một câu phân tích kinh tế: Giá xăng tăng kéo theo mọi chi phí sinh hoạt đắt đỏ bằng に伴って."
+    }
+]

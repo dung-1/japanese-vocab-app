@@ -1,0 +1,118 @@
+[
+    {
+        "pattern": "～かけだ / ～かけの",
+        "meaning": "Đang làm dở dang... / Chưa xong...",
+        "connection": {
+            "formula": "V ます形 (bỏ ます) + かけだ / かけの + N",
+            "note": "Thường đi với các động từ diễn tả hành động có thể kéo dài tiến độ như 食べる, 読む, 書く, 作る."
+        },
+        "core_nuance": "Diễn tả một trạng thái hành động đã bắt đầu được thực hiện nhưng mới đi được một nửa chặng đường, vẫn chưa hoàn thành xong xuôi hoàn toàn.",
+        "mnemonic": {
+            "concept": "Vết cắt giữa chừng",
+            "kanji_link": "Chữ 掛ける (Quải) nghĩa là treo lơ lửng, dở dang.",
+            "story": "Hành động đang làm thì bị 'treo lơ lửng giữa chừng' (かけ), bỏ lại một trạng thái dở khóc dở cười."
+        },
+        "examples": [
+            {
+                "japanese": "冷蔵庫の魚が食べかけだ。",
+                "romaji": "Reizōko no sakana ga tabekake da.",
+                "vietnamese": "Con cá ở trong tủ lạnh đang bị ăn dở kìa.",
+                "highlight_keyword": "食べかけだ"
+            },
+            {
+                "japanese": "テーブルの上に編みかけ của マフラーがある。",
+                "romaji": "Tēburu no ue ni amikake no mafurā ga aru.",
+                "vietnamese": "Trên bàn có chiếc khăn len đang đan dở dang.",
+                "highlight_keyword": "編みかけ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về cuốn sách: Cuốn sách đang đọc dở (読みかけ) để trên bàn đâu rồi?"
+    },
+    {
+        "pattern": "～ことに",
+        "meaning": "Thật là... làm sao! (Nhấn mạnh cảm xúc người nói trước một sự việc)",
+        "connection": {
+            "formula": "Vた / Aい / Naな + ことに",
+            "note": "Từ chỉ cảm xúc thường đứng trước là 驚いた, 困った, 嬉しい, 残念な."
+        },
+        "core_nuance": "Đưa tính từ chỉ cảm xúc lên đầu câu làm tiền đề để nhấn mạnh tâm trạng cực độ của người nói đối với sự việc diễn ra ở vế sau.",
+        "mnemonic": {
+            "concept": "Gói gọn cảm xúc",
+            "kanji_link": "こと (Việc/Sự tình).",
+            "story": "Gói trọn cả cái 'sự tình cảm xúc' (ことに) đó lên đầu câu để bộc lộ hết tâm can."
+        },
+        "examples": [
+            {
+                "japanese": "困ったことに、卒業式に着ていく服がない。",
+                "romaji": "Komatta koto ni, sotsugyōshiki ni kite iku fuku ga nai.",
+                "vietnamese": "Thật là khốn khổ quá đi, tôi không có quần áo phù hợp để mặc đi dự lễ tốt nghiệp.",
+                "highlight_keyword": "困ったことに"
+            },
+            {
+                "japanese": "不思議なことに、1年前にいなくなった猫が戻ってきた。",
+                "romaji": "Fushigi na koto ni, ichinen mae ni inaku natta neko ga modotte kita.",
+                "vietnamese": "Thật là kỳ lạ làm sao, chú mèo đã biến mất từ một năm trước tự nhiên lại mò về nhà.",
+                "highlight_keyword": "不思議なことに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bày tỏ niềm vui: Thật là vui sướng làm sao (嬉しいことに), tớ đã đỗ N3 rồi!"
+    },
+    {
+        "pattern": "～てくれと言われる",
+        "meaning": "Được ai đó bảo là hãy làm gì... (Truyền đạt lại lời cầu khiến)",
+        "connection": {
+            "formula": "Vてくれ / Vないでくれ + と言われる / と頼まれる",
+            "note": "Đây là thể truyền đạt gián tiếp của câu cầu khiến mang tính chất nhờ vả hoặc ra lệnh."
+        },
+        "core_nuance": "Thuật lại một lời yêu cầu trực tiếp dạng \"Hãy làm việc này cho tôi\" từ người khác tác động lên bản thân mình.",
+        "mnemonic": {
+            "concept": "Vọng âm lời cầu xin",
+            "kanji_link": "てくれ (Hãy làm cho tôi) + と言われる (Bị/Được nói).",
+            "story": "Tôi 'được người ta nói' (と言われる) câu 'hãy làm giùm đi' (てくれ) lặp đi lặp lại."
+        },
+        "examples": [
+            {
+                "japanese": "母に今日は早く帰ってきてくれと言われた。",
+                "romaji": "Haha ni kyō wa hayaku kaette kite kure to iwareta.",
+                "vietnamese": "Tôi được mẹ bảo là ngày hôm nay hãy cố gắng về nhà sớm nhé.",
+                "highlight_keyword": "帰ってきてくれと言われた"
+            },
+            {
+                "japanese": "友達にケーキを作ってくれと頼まれた。",
+                "romaji": "Tomodachi ni kēki o tsukutte kure to tanomareta.",
+                "vietnamese": "Tôi được người bạn của mình nhờ vả là làm hộ một chiếc bánh ngọt.",
+                "highlight_keyword": "作ってくれと頼まれた"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Thuật lại lời bạn: Bạn tôi nhờ tôi cho vay tiền (貸してくれと頼まれた)."
+    },
+    {
+        "pattern": "～ないことには･･･ない",
+        "meaning": "Nếu không làm... thì không thể...",
+        "connection": {
+            "formula": "Vない / Aくない / Naでない / Nでない + ことには + Phủ định",
+            "note": "Mang cấu trúc ngữ nghĩa tương đồng với cấu trúc ～てからでないと."
+        },
+        "core_nuance": "Khẳng định chắc chắn rằng nếu không có sự tồn tại của yếu tố vế trước, thì vế sau tuyệt đối không có khả năng thành hiện thực.",
+        "mnemonic": {
+            "concept": "Nút thắt phủ định kép",
+            "kanji_link": "ない (Không) + ことには (Nếu không có việc).",
+            "story": "Nếu 'không có cái việc' (こと) biến đổi thành trạng thái 'phủ định' (ない) đó, mọi thứ đóng băng."
+        },
+        "examples": [
+            {
+                "japanese": "妻が「忙しくなかったら手伝うよ。」",
+                "romaji": "Tsuma ga 'Isogashikunakatta ra tetsudau yo.'",
+                "vietnamese": "Vợ tôi bảo: 'Nếu em không bận thì em sẽ phụ một tay nhé.'",
+                "highlight_keyword": "忙しくなかったら"
+            },
+            {
+                "japanese": "カラオケはあまり得意ではないが、行かないことには始まらない。",
+                "romaji": "Karaoke wa amari tokui de wa nai ga, ikanai koto ni wa hajimaranai.",
+                "vietnamese": "Tôi hát karaoke không tốt lắm, nhưng nếu không đi thì câu chuyện chẳng thể bắt đầu được.",
+                "highlight_keyword": "行かないことには"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu khuyên nhủ: Nếu không thử làm ( làm thử làm - しないことには) thì chẳng biết được đâu."
+    }
+]

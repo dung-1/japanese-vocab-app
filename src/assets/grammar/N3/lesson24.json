@@ -1,0 +1,135 @@
+[
+    {
+        "pattern": "～こそ",
+        "meaning": "Chính là... / Nhất định là... (Nhấn mạnh đối tượng cao độ)",
+        "connection": {
+            "formula": "N + こそ",
+            "note": "Tuyệt đối không đi kèm với các từ mang sắc thái tiêu cực. Dùng để khẳng định mạnh mẽ ý chí hoặc tình cảm."
+        },
+        "core_nuance": "Dùng để sàng lọc ra đối tượng duy nhất, loại bỏ hoàn toàn các yếu tố khác để khẳng định: 'Chính cái này mới xứng đáng đứng vị trí số 1'.",
+        "mnemonic": {
+            "concept": "Tâm điểm của sự chú ý",
+            "kanji_link": "Liên tưởng âm thanh: Koso giống như tiếng 'Khẳng định từ cốt lõi'.",
+            "story": "Nhất định phải là cái này, chính là nó (こそ) chứ không thể nhầm sang cái bên cạnh được!"
+        },
+        "examples": [
+            {
+                "japanese": "今年の下こそスキーに行きたい。",
+                "romaji": "Kotoshi no fuyu koso sukii ni ikitai.",
+                "vietnamese": "Chính mùa đông năm nay bằng mọi giá tôi nhất định phải đi trượt tuyết.",
+                "highlight_keyword": "今年の下こそ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đặt mục tiêu quyết tâm: Chính năm nay tôi nhất định sẽ đỗ N3 bằng cấu trúc こそ."
+    },
+    {
+        "pattern": "～ことにしている",
+        "meaning": "Quyết định duy trì thói quen do bản thân chủ động đề ra",
+        "connection": {
+            "formula": "V辞書形 / Vない形 + ことにしている",
+            "note": "Khác với ようにしている (cố gắng hướng tới), mẫu này nhấn mạnh vào 'luật thép', quy tắc do chính mình cam kết."
+        },
+        "core_nuance": "Thể hiện ý chí tự giác cao độ của cá nhân, tự lập ra quy tắc hành vi cho bản thân và nghiêm túc thực hiện nó hàng ngày.",
+        "mnemonic": {
+            "concept": "Biến thành điều luật cá nhân",
+            "kanji_link": "こと (Việc) + にしている (Đang làm cho thành).",
+            "story": "Tự mình 'làm cho cái việc đó' (ことにしている) biến thành quy định bắt buộc đối với cuộc đời mình."
+        },
+        "examples": [
+            {
+                "japanese": "週末は国の家族に電話することにしている。",
+                "romaji": "Shuumatsu wa kuni no kazoku ni denwa suru koto ni shite iru.",
+                "vietnamese": "Tôi tự quy định cho mình thói quen cứ cuối tuần là sẽ gọi điện về cho gia đình ở quê nhà.",
+                "highlight_keyword": "電話することにしている"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một câu cam kết kỷ luật bản thân: Mỗi ngày tự học 10 từ vựng Kanji mới bằng ことにしている."
+    },
+    {
+        "pattern": "～さ",
+        "meaning": "Mức độ / Độ... (Danh từ hóa tính từ đuôi -i và đuôi -na)",
+        "connection": {
+            "formula": "Aい (bỏ い) / Na (bỏ だ) + さ",
+            "note": "Biến đổi một tính từ chỉ trạng thái, tính chất thành một danh từ có thể đo lường, đong đếm cụ thể được."
+        },
+        "core_nuance": "Biểu thị giá trị khách quan, độ lớn của một đặc tính có thể mang ra so sánh bằng các con số thực tế (như chiều cao, độ nặng, độ tiện lợi).",
+        "mnemonic": {
+            "concept": "Cái thước đo",
+            "kanji_link": "Đuôi 'sa' giống như chữ 'Sàng lọc, định lượng'.",
+            "story": "Gắn cái đuôi 'sa' (さ) vào sau tính từ để biến nó thành một vật có thể đặt lên bàn cân đo đếm."
+        },
+        "examples": [
+            {
+                "japanese": "富士山の高さは3776ｍだ。",
+                "romaji": "Fujisan no takasa wa sanzen nana hyaku nana juu roku meetoru da.",
+                "vietnamese": "Độ cao của ngọn núi Phú Sĩ chính xác là 3.776 mét.",
+                "highlight_keyword": "高さ"
+            },
+            {
+                "japanese": "都会の生活の便利さに慣れてしまった。",
+                "romaji": "Tokai no seikatsu no benrisa ni narete shimatta.",
+                "vietnamese": "Tôi đã hoàn toàn bị thích nghi và chìm đắm vào độ tiện lợi của cuộc sống nơi phồn hoa đô thị.",
+                "highlight_keyword": "便利さに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hỏi AI xem làm thế nào để đo lường được 'Độ quan trọng' (大切さ) của một mối quan hệ."
+    },
+    {
+        "pattern": "～といっても",
+        "meaning": "Dẫu nói là... nhưng thực tế thì không đến mức như thế",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + といっても",
+            "note": "Danh từ đôi khi có thể lược bỏ だ khi đi trực tiếp với といっても."
+        },
+        "core_nuance": "Đính chính lại thông tin. Người nói thừa nhận vế trước là đúng sự thật, nhưng ngay lập tức giới hạn lại mức độ ở vế sau để người nghe không tưởng tượng quá đà.",
+        "mnemonic": {
+            "concept": "Rút bớt sự phóng đại",
+            "kanji_link": "と言っても (Dẫu cho có nói là...)",
+            "story": "Thì cứ 'cho là nói như thế' (といっても) đi, nhưng thực tế phũ phàng vế sau nó lại vô cùng nhỏ bé."
+        },
+        "examples": [
+            {
+                "japanese": "会社を作ったといっても、社員は私だけです。",
+                "romaji": "Kaisha o tsukutta to ittemo, shain wa watashi dake desu.",
+                "vietnamese": "Dẫu có nói là tự mình thành lập công ty thật đấy, nhưng thực tế nhân viên cũng chỉ có độc nhất mỗi mình tôi.",
+                "highlight_keyword": "作ったといっても"
+            },
+            {
+                "japanese": "引っ越ししました。といっても、同じ町内ですが。",
+                "romaji": "Hikkoshi shimashita. To ittemo, onaji chounai desu ga.",
+                "vietnamese": "Tôi vừa mới chuyển nhà xong đấy. Nhưng nói thế thôi chứ thực ra vẫn quanh quẩn trong cùng một khu phố hà.",
+                "highlight_keyword": "引っ越ししました。といっても"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu: Tôi biết nấu món ăn Nhật, nhưng nói là biết chứ cũng chỉ dừng lại ở mức luộc mì Udon bằng といっても."
+    },
+    {
+        "pattern": "～ものだ",
+        "meaning": "Thật là... biết bao (Biểu thị cảm thán, xúc động sâu sắc về một sự việc thực tế)",
+        "connection": {
+            "formula": "V / A Thể thông thường + ものだ",
+            "note": "Tính từ -na giữ nguyên な. Thường dùng diễn tả những chân lý, điều đương nhiên hoặc cảm xúc dâng trào khi nhìn thấy một sự việc."
+        },
+        "core_nuance": "Chứa đựng tâm tư, tình cảm mãnh liệt hoặc sự thở dài cảm thán của người nói trước một hiện tượng hiển nhiên hay một sự thay đổi lớn lao.",
+        "mnemonic": {
+            "concept": "Bản chất nguyên sơ của sự vật",
+            "kanji_link": "Chữ 物 (Vật) nghĩa là đồ vật, sự vật, bản chất.",
+            "story": "Cái 'bản chất của sự vật' (もの) đó nó phơi bày ra khiến tâm can mình không khỏi rung động dâng trào cảm xúc (だ)."
+        },
+        "examples": [
+            {
+                "japanese": "こんな小さな子が3か国語もよく話せるものだ。",
+                "romaji": "Kanna chiisana ko ga sankakugo mo yoku hanaseru mono da.",
+                "vietnamese": "Một đứa trẻ nhỏ xíu như thế này mà thật là tài tình biết bao khi có thể nói trôi chảy tới tận 3 thứ tiếng.",
+                "highlight_keyword": "話せるものだ"
+            },
+            {
+                "japanese": "お年寄りに席を譲らない人がいる。困ったものだ。",
+                "romaji": "Otoshiyori ni seki o yuzuranai hito ga iru. Komatta mono da.",
+                "vietnamese": "Có những kẻ chẳng thèm nhường ghế cho người già cả gì hết. Thật là một thực trạng đáng quan ngại sâu sắc.",
+                "highlight_keyword": "困ったものだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu cảm thán về việc thời gian trôi qua nhanh như chó chạy ngoài đồng bằng cấu trúc ものだ."
+    }
+]

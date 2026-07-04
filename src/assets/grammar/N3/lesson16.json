@@ -1,0 +1,118 @@
+[
+    {
+        "pattern": "～といい",
+        "meaning": "Nên... thì tốt đấy (Đưa ra lời khuyên nhẹ nhàng cho đối phương)",
+        "connection": {
+            "formula": "V 辞書形・たら形 + といい",
+            "note": "Dạng「～たらいい」「～ばいい」cũng có ý nghĩa tương tự dùng để khuyên bảo."
+        },
+        "core_nuance": "Dùng khi muốn đưa ra lời khuyên, gợi ý một cách nhẹ nhàng cho người nghe.",
+        "mnemonic": {
+            "concept": "Hướng tới điều tốt",
+            "kanji_link": "いい (Tốt).",
+            "story": "Làm theo hướng này đi (と), kết quả chắc chắn sẽ 'tốt đẹp' (いい) cho bạn đấy."
+        },
+        "examples": [
+            {
+                "japanese": "アイデアが出ないときは一度寝て、起きてから考えるといいよ。",
+                "romaji": "Aidea ga denai toki wa ichido nete, okite kara kangaeru to ii yo.",
+                "vietnamese": "Những lúc không nghĩ ra được ý tưởng gì thì nên đi ngủ một giấc, sau khi thức dậy rồi nghĩ tiếp thì tốt hơn đấy.",
+                "highlight_keyword": "考えるといいよ"
+            },
+            {
+                "japanese": "本当にやりたいなら、ご両親に相談してみたらいいと思います。",
+                "romaji": "Hontou ni yaritai nara, goroushin ni soudan shite mitara ii to omoimasu.",
+                "vietnamese": "Nếu đã thực sự muốn làm thì tôi nghĩ bạn nên thử thảo luận với bố mẹ xem sao.",
+                "highlight_keyword": "相談してみたらいい"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đưa ra lời khuyên cho bạn đang mệt: Cậu nên về nhà nghỉ ngơi sớm đi (といい)."
+    },
+    {
+        "pattern": "～とは限らない（とはかぎらない）",
+        "meaning": "Không hẳn là... / Không chắc chắn 100% là... (Phủ định một phần)",
+        "connection": {
+            "formula": "Thể thông thường + とは限らない",
+            "note": "Thường đi kèm các phó từ mang tính tuyệt đối như 必ずしも (không hẳn), 全部 (tất cả)."
+        },
+        "core_nuance": "Dùng để truyền đạt rằng \"~ không phải lúc nào cũng đúng\", lúc nào cũng có những ngoại lệ tồn tại thực tế.",
+        "mnemonic": {
+            "concept": "Chiếc vòng giới hạn",
+            "kanji_link": "Chữ 限る (Hạn) nghĩa là giới hạn, định mức.",
+            "story": "Sự việc này không chịu nằm yên trong cái vòng 'giới hạn bắt buộc' (限らない) đó đâu, luôn có ngoại lệ thoát ra."
+        },
+        "examples": [
+            {
+                "japanese": "金持ちが幸せだとは限らない。",
+                "romaji": "Kanemochi ga shiawase da to wa kagiranai.",
+                "vietnamese": "Người giàu chưa chắc (không hẳn) đã hạnh phúc đâu.",
+                "highlight_keyword": "幸せだとは限らない"
+            },
+            {
+                "japanese": "体が大きい人が強いとは限らない。",
+                "romaji": "Karada ga ookii hito ga tsuyoi da to wa kagiranai.",
+                "vietnamese": "Người có cơ thể to lớn không hẳn là người mạnh mẽ đâu.",
+                "highlight_keyword": "強いとは限らない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu triết lý: Đồ đắt tiền chưa chắc (とは限らない) đã là đồ tốt."
+    },
+    {
+        "pattern": "～にしたがって",
+        "meaning": "1. Cùng với sự thay đổi của... kéo theo... 2. Theo đúng như (mệnh lệnh, quy định)...",
+        "connection": {
+            "formula": "Vる / N + にしたがって",
+            "note": "Mang tính chất văn viết, trang trọng (được ký hiệu bằng chữ 硬 trong sách)."
+        },
+        "core_nuance": "① Biểu thị sự biến đổi đồng thời kéo theo cùng một lúc. ② Biểu thị hành động tuân thủ nghiêm ngặt, rập khuôn theo quy tắc chỉ dẫn.",
+        "mnemonic": {
+            "concept": "Người lính tuân lệnh",
+            "kanji_link": "Chữ 従う (Tùng) nghĩa là đi theo, phục tùng, phục tòng.",
+            "story": "Cứ ngoan ngoãn 'phục tòng' (したがって) bám sát gót theo những gì vế trước vạch ra."
+        },
+        "examples": [
+            {
+                "japanese": "人は成長するにしたがって、考え方が変わる。①",
+                "romaji": "Hito wa seichou suru ni shitagatte, kangaekata ga kawaru.",
+                "vietnamese": "Con người cùng với quá trình trưởng thành, cách suy nghĩ cũng sẽ thay đổi theo.",
+                "highlight_keyword": "成長するにしたがって"
+            },
+            {
+                "japanese": "矢印にしたがって歩いたら、出口に着いた。②",
+                "romaji": "Yajirushi ni shitagatte aruitara, deguchi ni tsuita.",
+                "vietnamese": "Đi bộ theo đúng như hướng dẫn của hình mũi tên, tôi đã ra đến lối ra.",
+                "highlight_keyword": "矢印にしたがって"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu nội quy: Hãy sơ tán theo đúng (にしたがって) chỉ thị của nhân viên tòa nhà."
+    },
+    {
+        "pattern": "～（よ）うとする",
+        "meaning": "1. Ngay trước khi định làm gì... 2. Đang cố gắng, nỗ lực hết sức để làm gì...",
+        "connection": {
+            "formula": "V Thể ý chí (意向形) + と内部・とする",
+            "note": "Hành động mang tính chất diễn ra trong khoảnh khắc cực ngắn."
+        },
+        "core_nuance": "① Diễn tả khoảnh khắc \"ngay trước khi\" bắt đầu hành động. ② Diễn tả sự cố gắng vất vả, nỗ lực thực hiện một việc gì đó.",
+        "mnemonic": {
+            "concept": "Ranh giới hành động",
+            "kanji_link": "Thể ý chí (Muốn làm) + となる/とする (Cố biến thành hiện thực).",
+            "story": "Ý chí nung nấu đã phát ra ngoài thành hành động, chuẩn bị kích nổ bùng phát ra."
+        },
+        "examples": [
+            {
+                "japanese": "意見を言おうとしたら、会議が終わってしまった。①",
+                "romaji": "Iken o itou to shitara, kaigi ga owatte shimatta.",
+                "vietnamese": "Đúng lúc vừa mới đang định phát biểu ý kiến thì cuộc họp lại kết thúc mất tiêu.",
+                "highlight_keyword": "言おうとしたら"
+            },
+            {
+                "japanese": "溺れている子供を助けようとして、彼は海に飛び込んだ。②",
+                "romaji": "Oborete iru kodomo o tasukeyou to shite, kare wa umi ni tobikonda.",
+                "vietnamese": "Trong nỗ lực cố gắng cứu đứa trẻ đang bị đuối nước, anh ấy đã lao mình xuống biển.",
+                "highlight_keyword": "助けようとして"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu: Đúng lúc đang định bước lên tàu (しようとする) thì cửa tàu đóng sầm lại."
+    }
+]

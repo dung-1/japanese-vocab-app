@@ -1,0 +1,112 @@
+[
+    {
+        "pattern": "～おかげで",
+        "meaning": "Nhờ có... mà (kết quả tốt)",
+        "connection": {
+            "formula": "V・A・N [Thể thông thường (普通形)] + おかげで",
+            "note": "Tính từ -na giữ nguyên な (Na だな). Danh từ thêm の (N だの)."
+        },
+        "core_nuance": "Thể hiện lòng biết ơn sâu sắc. Tuyệt đối KHÔNG dùng cho kết quả xấu/tiêu cực.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 陰 (Âm) trong bóng râm, bóng mát che chở. Đội ơn ai đó đã che chở (cho bóng mát) để mình có kết quả tốt đẹp.",
+            "story": "Nhờ có (おかげで) người ấy che bóng mát cho mà đời mình tươi sáng hẳn lên!"
+        },
+        "examples": [
+            {
+                "japanese": "みんなが手伝ってくれたおかげで、作業が早く終わった。",
+                "romaji": "Minna ga tetdatte kureta okage de, sagyou ga hayaku owatta.",
+                "vietnamese": "Nhờ mọi người phụ giúp một tay mà công việc đã hoàn thành xong sớm.",
+                "highlight_keyword": "手伝ってくれたおかげで"
+            },
+            {
+                "japanese": "試験に合格できたのは、先生のおかげだ。",
+                "romaji": "Shiken ni goukaku dekita no wa, sensei no okage da.",
+                "vietnamese": "Việc tôi có thể đỗ kỳ thi này hoàn toàn là nhờ công ơn của thầy cô.",
+                "highlight_keyword": "先生のおかげだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một tình huống hội thoại ngắn ở quán ăn thể hiện sự biết ơn dùng cấu trúc おかげで."
+    },
+    {
+        "pattern": "～からこそ",
+        "meaning": "Chính vì... nên mới (Nhấn mạnh lý do duy nhất)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + からこそ",
+            "note": "Thường đi kèm với kết quả tích cực, thể hiện ý chí mạnh mẽ."
+        },
+        "core_nuance": "Nhấn mạnh lý do cốt lõi, loại trừ các lý do khác. 'Chính vì lý do này chứ không phải cái gì khác!'",
+        "mnemonic": {
+            "concept": "Gấp đôi sự nhấn mạnh",
+            "kanji_link": "から (Vì) + こそ (Chính là).",
+            "story": "Đã 'vì' (から) lại còn bồi thêm 'chính là' (こそ), muốn người nghe không chú ý vào lý do đó cũng không được!"
+        },
+        "examples": [
+            {
+                "japanese": "彼は努力したからこそ、プロ野球選手になれたのだ。",
+                "romaji": "Kare wa doryoku shita kara koso, puro yakyuu senshu ni nareta no da.",
+                "vietnamese": "Chính vì anh ấy đã nỗ lực hết mình, nên mới có thể trở thành một cầu thủ bóng chày chuyên nghiệp.",
+                "highlight_keyword": "努力したからこそ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích tại sao thất bại lại là mẹ thành công bằng cách dùng からこそ."
+    },
+    {
+        "pattern": "～ことか",
+        "meaning": "Biết bao nhiêu! / Không biết tới nhường nào! (Cảm thán)",
+        "connection": {
+            "formula": "V・A Thể thông thường / Na (giữ nguyên な) + ことか",
+            "note": "Bắt buộc phải đi kèm với các từ nghi vấn mang tính mức độ như: どんなに (đến thế nào), どれほど (biết bao), 何度 (bao nhiêu lần)."
+        },
+        "core_nuance": "Dùng khi muốn truyền đạt một cảm xúc mãnh liệt, thở dài cảm thán trong lòng (vui, buồn, sướng, khổ...).",
+        "mnemonic": {
+            "concept": "Câu hỏi tu từ biến thành cảm thán",
+            "kanji_link": "こと (Việc) + か (Nghi vấn).",
+            "story": "Hỏi 'Cái việc đó thế nào nhỉ (ことか)?' nhưng thực chất là đang hét lên trong lòng: Ôi nó đỉnh/khổ vạt vã ra ấy!"
+        },
+        "examples": [
+            {
+                "japanese": "歌が下手だった彼が歌手になったと聞いて、どんなに驚いたことか。",
+                "romaji": "Uta ga heta datta kare ga kashu ni natta to kiite, donna ni odoroita koto ka.",
+                "vietnamese": "Khi nghe tin một người hát dở tệ như anh ta lại trở thành ca sĩ, tôi đã kinh ngạc biết nhường nào!",
+                "highlight_keyword": "どんなに驚いたことか"
+            },
+            {
+                "japanese": "初めての給料をもらったときは、どれほどうれしかったことか。",
+                "romaji": "Hajimete no kyuuryou o moratta toki wa, dorehodo ureshしかった koto ka.",
+                "vietnamese": "Cái lúc mà nhận được tháng lương đầu tiên trong đời, tôi đã vui sướng biết bao nhiêu!",
+                "highlight_keyword": "どれほどうれしかったことか"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một câu cảm thán dùng どんなに ... ことか nói về nỗi khổ học Kanji tiếng Nhật."
+    },
+    {
+        "pattern": "～にとって",
+        "meaning": "Đối với... (Trên lập trường của ai đó)",
+        "connection": {
+            "formula": "N + にとって",
+            "note": "Vế sau thường là câu đưa ra đánh giá, nhận xét (quan trọng, khó, dễ, có ích...)."
+        },
+        "core_nuance": "Đứng từ vị trí, góc nhìn của đối tượng đó để đưa ra phán đoán. Không dùng để đi với các câu thể hiện hành động, ghét bỏ hay yêu thương.",
+        "mnemonic": {
+            "concept": "Đặt mình vào vị trí đối phương",
+            "kanji_link": "Chữ 取 (Thủ) trong lấy, chọn.",
+            "story": "Hãy 'Lấy' (とって) góc nhìn hướng về 'Đối tượng đó' (に) rồi mới phán xét!"
+        },
+        "examples": [
+            {
+                "japanese": "N1に合格した彼にとって、この問題は簡単だったようだ。",
+                "romaji": "N1 ni goukaku shita kare ni toat_te, kono mondai wa kantan datta youda.",
+                "vietnamese": "Đối với một người đã đỗ N1 như anh ấy thì có vẻ bài tập này dễ ợt.",
+                "highlight_keyword": "彼にとって"
+            },
+            {
+                "japanese": "私にとっての幸せは、家族が健康でいることです。",
+                "romaji": "Watashi ni toat_te no shiawase wa, kazoku ga kenkou de iru koto desu.",
+                "vietnamese": "Đối với tôi, hạnh phúc đơn giản là nhìn thấy gia đình luôn khỏe mạnh.",
+                "highlight_keyword": "私にとっての幸せ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Hỏi AI xem đối với một lập trình viên (エンジニアにとって) thì điều gì là quan trọng nhất."
+    }
+]

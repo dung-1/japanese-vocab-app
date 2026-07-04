@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～がち",
+        "meaning": "Thường có xu hướng... / Hay bị... (Thường là trạng thái tiêu cực không mong muốn)",
+        "connection": {
+            "formula": "Vます形 (bỏ ます) / N + がち",
+            "note": "Diễn tả việc thường xuyên xảy ra một tình trạng không tốt hoặc dễ trở nên như vậy."
+        },
+        "core_nuance": "Dùng cho những hiện tượng tiêu cực mang tính tự nhiên, lặp đi lặp lại hoặc xu hướng xấu của con người/vạn vật.",
+        "mnemonic": {
+            "concept": "Thói quen xấu hay lặp lại",
+            "kanji_link": "Chữ 勝ち (Thắng) nhưng mang nghĩa tiêu cực dễ mắc phải.",
+            "story": "Một thói quen xấu cứ lặp lại mãi thì nó sẽ 'thắng' (がち) ý chí của bạn."
+        },
+        "examples": [
+            {
+                "japanese": "曇りがちになると、運転が不安定になりがちだ。",
+                "romaji": "Kumorigachi ni naru to, unten ga fuantei ni narigachi da.",
+                "vietnamese": "Khi trời chuyển sang xu hướng nhiều mây, việc lái xe cũng thường dễ trở nên bất ổn.",
+                "highlight_keyword": "曇りがち / になりがちだ"
+            },
+            {
+                "japanese": "うちには病気がちの犬がいて、心配だ。",
+                "romaji": "Uchi ni wa byōkigachi no inu ga ite, shinpai da.",
+                "vietnamese": "Nhà tôi có một chú chó hay bị ốm nên tôi lo lắng lắm.",
+                "highlight_keyword": "病気がちの"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu nói về thói quen: Khi bận rộn, người ta thường hay bỏ bữa ( bỏ bữa - 抜きがち)."
+    },
+    {
+        "pattern": "～っぽい",
+        "meaning": "Có vẻ như... / Đậm chất... / Hay... (Cảm giác có nhiều đặc tính của một cái gì đó)",
+        "connection": {
+            "formula": "Vます形 (bỏ ます) / Aい (bỏ い) / N + っぽい",
+            "note": "Chứa đựng nhiều thành phần hoặc xu hướng của tính chất đó, thường mang nghĩa tiêu cực (ngoại trừ màu sắc)."
+        },
+        "core_nuance": "Đánh giá dựa trên cảm giác trực quan của người nói về một đối tượng có vẻ giống một cái gì đó khác, hoặc tính khí con người.",
+        "mnemonic": {
+            "concept": "Lớp vỏ bọc bên ngoài",
+            "kanji_link": "Gốc từ phát âm tựa 'phai' hoặc 'pha trộn'.",
+            "story": "Một cái gì đó bị pha trộn tính chất (っぽい) quá nhiều nên nhìn giống hệt như vật gốc."
+        },
+        "examples": [
+            {
+                "japanese": "祖父は怒りっぽくて、子供のころは怖かった。",
+                "romaji": "Sofu wa okorippokute, kodomo no koro wa kawatta.",
+                "vietnamese": "Ông nội tôi rất hay nổi nóng, hồi nhỏ tôi thấy ông rất đáng sợ.",
+                "highlight_keyword": "怒りっぽくて"
+            },
+            {
+                "japanese": "そんなことで泣くなんて、子供っぽいね。",
+                "romaji": "Sonna koto de naku nante, kodomoppoi ne.",
+                "vietnamese": "Chuyện như thế mà cũng khóc thì trẻ con quá nhỉ.",
+                "highlight_keyword": "子供っぽいね"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhận xét về một món đồ: Chiếc áo này nhìn rẻ tiền (安っぽい) quá."
+    },
+    {
+        "pattern": "～としたら",
+        "meaning": "Nếu giả sử... / Giả định rằng... (Dùng khi đưa ra giả thiết)",
+        "connection": {
+            "formula": "普通形 + としたら",
+            "note": "Thường đi kèm với もし ở đầu câu để nhấn mạnh giả định về một tình huống không có thật hoặc chưa xảy ra."
+        },
+        "core_nuance": "Dùng để thiết lập một trường hợp giả tưởng hoàn toàn dựa trên trí tưởng tượng hoặc giả định, làm tiền đề để đưa ra ý kiến, nguyện vọng hoặc suy luận ở vế sau.",
+        "mnemonic": {
+            "concept": "Cỗ máy thời gian giả định",
+            "kanji_link": "と (Rằng) + する (Coi là) + たら (Nếu thì).",
+            "story": "Nếu chúng ta coi tình huống giả tưởng đó là thật (とする) rồi lật sang hướng xảy ra (たら), vế sau sẽ là kết quả."
+        },
+        "examples": [
+            {
+                "japanese": "もし旅行するとしたら、北海道へ行きたいです。",
+                "romaji": "Moshi ryokō suru to shitara, Hokkaidō e ikitai desu.",
+                "vietnamese": "Nếu giả sử như đi du lịch thì tôi muốn đi Hokkaido.",
+                "highlight_keyword": "旅行するとしたら"
+            },
+            {
+                "japanese": "生まれ変わるとしたら, 次は鳥になりたい。",
+                "romaji": "Umarekawaru to shitara, tsugi wa tori ni naritai.",
+                "vietnamese": "Nếu giả sử được sinh ra một lần nữa, kiếp sau tôi muốn làm một chú chim.",
+                "highlight_keyword": "生まれ変わるとしたら"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đặt một câu hỏi giả định tình huống không có thật: Giả sử nếu bạn có 1 tỷ (あるとしたら), bạn sẽ làm gì đầu tiên?"
+    },
+    {
+        "pattern": "～反面（はんめん）",
+        "meaning": "Mặt khác... / Nhưng ngược lại... (Mặt trái của một vấn đề)",
+        "connection": {
+            "formula": "Thể thông thường (Naな / Naである / Nである) + 反面",
+            "note": "Dùng khi một sự vật, sự việc tồn tại song song hai tính chất hoàn toàn trái ngược nhau."
+        },
+        "core_nuance": "Bộc lộ tính chất hai mặt đồng thời (tốt và xấu, ưu và nhược) của cùng một vấn đề, sự việc cụ thể.",
+        "mnemonic": {
+            "concept": "Đồng xu hai mặt",
+            "kanji_link": "Chữ 反 (Phản) ngược lại + 面 (Diện) bề mặt.",
+            "story": "Lật ngược lại chiếc mặt nạ, 'bề mặt đối lập' (反面) của nó sẽ lộ ra tính chất hoàn toàn trái ngược."
+        },
+        "examples": [
+            {
+                "japanese": "姉が結婚してうれしい反面、寂しさも感じる。",
+                "romaji": "Ane ga kekkon shite ureshii hanmen, sabishisa mo kanjiru.",
+                "vietnamese": "Chị gái kết hôn, một mặt tôi thấy vui nhưng mặt khác cũng cảm thấy đôi chút cô đơn.",
+                "highlight_keyword": "うれしい反面"
+            },
+            {
+                "japanese": "インターネットのニュースは便利な反面、正しくない情報も多い。",
+                "romaji": "Intānetto no nyūsu wa benri na hanmen, tadashikunai jōhō mo ōi.",
+                "vietnamese": "Tin tức trên mạng internet tuy tiện lợi thật đấy nhưng ngược lại thông tin sai lệch cũng rất nhiều.",
+                "highlight_keyword": "便利な反面"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về cuộc sống một mình: Sống một mình rất tự do nhưng mặt khác (反面) lại cô đơn."
+    },
+    {
+        "pattern": "～（よう）うとしない",
+        "meaning": "Hoàn toàn không có ý định muốn làm gì... (Không chịu làm gì)",
+        "connection": {
+            "formula": "V Thể ý chí (意向形) + としない",
+            "note": "Diễn tả việc một người nào đó hoàn toàn không có xu hướng hay ý chí muốn thực hiện hành động đó."
+        },
+        "core_nuance": "Chỉ dùng cho ngôi thứ ba. Thể hiện thái độ bướng bỉnh, cứng đầu hoặc không chịu tiếp thu, hợp tác của đối tượng được nói đến.",
+        "mnemonic": {
+            "concept": "Bức tường bướng bỉnh",
+            "kanji_link": "Thể ý chí (Định làm) + としない (Thì không thèm thực hiện).",
+            "story": "Người đó dù có bảo 'định làm' đi chăng nữa nhưng hành động thực tế thì 'hoàn toàn không' (としない)."
+        },
+        "examples": [
+            {
+                "japanese": "タンさんは体調が悪いのに、病院に行こうとしない。",
+                "romaji": "Tan-san wa taichō ga warui noni, byōin ni ikō to shinai.",
+                "vietnamese": "Anh Tân dù cơ thể không được khỏe chút nào nhưng nhất quyết không chịu đi bệnh viện.",
+                "highlight_keyword": "行こうとしない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về đứa trẻ: Đứa bé không chịu ăn (食べようとしない) rau chút nào cả."
+    }
+]

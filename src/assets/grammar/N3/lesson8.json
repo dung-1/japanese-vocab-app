@@ -1,0 +1,135 @@
+[
+    {
+        "pattern": "～かのように",
+        "meaning": "Cứ như thể là... (Thực tế hoàn toàn không phải như vậy)",
+        "connection": {
+            "formula": "Thể thông thường (Na / N là Thể từ điển + かのような / かのように)",
+            "note": "Thường đi kèm với từ まるで để tăng sức mạnh ví von, ẩn dụ mang tính chất hư cấu."
+        },
+        "core_nuance": "Ví von một sự việc hiện tại bằng cách so sánh với một hiện tượng ảo tưởng, không có thật nhằm tăng độ sinh động cho câu nói.",
+        "mnemonic": {
+            "concept": "Màn kịch lừa dối thị giác",
+            "kanji_link": "か (Nghi vấn/Liệu) + ように (Giống như).",
+            "story": "Hành động ảo diệu đến mức khiến người ta nghi ngờ 'liệu có phải là thật không' (かのように) nhưng thực chất là giả."
+        },
+        "examples": [
+            {
+                "japanese": "大学に合格したとき、先生は自分が合格したかのように喜んでくれた。",
+                "romaji": "Daigaku ni gōkaku shita toki, sensei wa jibun ga gōkaku shita ka no yō ni喜んでくれた.",
+                "vietnamese": "Khi tôi đỗ đại học, thầy giáo đã vui mừng cứ như thể là chính bản thân thầy vừa đỗ vậy.",
+                "highlight_keyword": "合格したかのように"
+            },
+            {
+                "japanese": "今日は暑すぎて、まるで南の島にいるかのようだ。",
+                "romaji": "Kyō wa atsusugete, marude minami no shima ni iru ka no yō da.",
+                "vietnamese": "Hôm nay trời nóng quá thể, cảm giác cứ như thể là mình đang ở trên một hòn đảo phía Nam vậy.",
+                "highlight_keyword": "いるかのようだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Mô tả một người: Anh ấy nói chuyện giống như thể cái gì cũng biết (知っているかのように) ấy."
+    },
+    {
+        "pattern": "～きる",
+        "meaning": "Làm hoàn toàn... / Làm sạch bách... / Làm đến cùng không sót lại gì",
+        "connection": {
+            "formula": "Vます形 (bỏ ます) + きる / きれる / きれない",
+            "note": "Thể khả năng phủ định 「～きれない」 có nghĩa là nhiều quá không thể làm hết sạch được."
+        },
+        "core_nuance": "Diễn tả việc tiêu hao hết toàn bộ năng lượng, số lượng vật chất hoặc thực hiện trọn vẹn hành động tới mức giới hạn cuối cùng.",
+        "mnemonic": {
+            "concept": "Lưỡi dao cắt đứt đoạn đuôi",
+            "kanji_link": "Chữ 切る (Thiết) cắt đứt hoàn toàn.",
+            "story": "Dùng một nhát dao chém đứt sạch (きる), làm xong xuôi chấm dứt không để lại tơ vương, thừa thãi."
+        },
+        "examples": [
+            {
+                "japanese": "母が送ってくれたお金はすべて使いきってしまった。",
+                "romaji": "Haha ga okotte kureta okane wa subete tsukaikitte shimatta.",
+                "vietnamese": "Số tiền mẹ gửi cho tôi, tôi đã tiêu xài sạch bách không còn một xu nào rồi.",
+                "highlight_keyword": "使いきってしまった"
+            },
+            {
+                "japanese": "私は医者になる夢を諦めきれない。",
+                "romaji": "Watashi wa isha ni naru yume o akiramekirenai.",
+                "vietnamese": "Tôi hoàn toàn không thể nào từ bỏ nổi giấc mơ trở thành bác sĩ của mình.",
+                "highlight_keyword": "諦めきれない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về trạng thái mệt mỏi: Sau khi chạy marathon xong, tôi mệt rã rời hoàn toàn (疲れきった)."
+    },
+    {
+        "pattern": "～たて（の）",
+        "meaning": "Vừa mới làm xong... (Trạng thái cực kỳ tươi mới, nóng hổi)",
+        "connection": {
+            "formula": "Vます形 (bỏ ます) + たてだ / たての + N",
+            "note": "Chỉ giới hạn đi với một số động từ nhất định liên quan tới nấu nướng, sản xuất như 焼く, 揚げる, 取る, 出来上がる."
+        },
+        "core_nuance": "Nhấn mạnh giá trị của sự mới mẻ, mang lại cảm giác dễ chịu, chất lượng tốt nhất ngay sau khi hành động vừa kết thúc.",
+        "mnemonic": {
+            "concept": "Bánh mì ra lò nóng hổi",
+            "kanji_link": "Chữ 立て (Lập) vừa mới dựng lên, hình thành.",
+            "story": "Sự vật vừa mới được dựng đứng lên (たて), còn nguyên hơi ấm và độ tươi ngon ban đầu."
+        },
+        "examples": [
+            {
+                "japanese": "焼きたてのパンはいかがですか。",
+                "romaji": "Yakitate no pan wa ikaga desu ka.",
+                "vietnamese": "Quý khách có muốn dùng thử bánh mì vừa mới nướng xong xuôi nóng hổi không ạ?",
+                "highlight_keyword": "焼きたての"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Mời khách ăn đồ ăn: Xin mời ăn món cá vừa mới đánh bắt ( lấy xong - 取れたて) xong."
+    },
+    {
+        "pattern": "～たとたん（に）",
+        "meaning": "Ngay sau khi vừa làm việc A... thì lập tức vế B xảy ra",
+        "connection": {
+            "formula": "Vた + とたん（に）",
+            "note": "Vế sau là một sự việc bất ngờ ngoài dự kiến, không dùng để thể hiện ý chí, mệnh lệnh của người nói."
+        },
+        "core_nuance": "Hai hành động xảy ra gần như đồng thời ở một khoảnh khắc rất ngắn, hành động vế trước kích hoạt hiện tượng bất ngờ ở vế sau.",
+        "mnemonic": {
+            "concept": "Cái bẫy sập bất ngờ",
+            "kanji_link": "Chữ 途端 (Đồ Đoan) đúng vào lúc ranh giới.",
+            "story": "Vừa chạm chân vào đầu ranh giới quá khứ (た) một cái, 'ngay lập tức' (とたん) chiếc bẫy vế sau sập xuống."
+        },
+        "examples": [
+            {
+                "japanese": "音楽が始まったとたんに、子供たちは踊り出した。",
+                "romaji": "Ongaku ga hajimatta totan ni, kodomotachi wa odoridashita.",
+                "vietnamese": "Ngay sau khi tiếng nhạc vừa mới cất lên, lũ trẻ đã lập tức nhảy múa ầm ĩ cả lên.",
+                "highlight_keyword": "始まったとたんに"
+            },
+            {
+                "japanese": "その男は警察官を見たとたん、逃げ出した。",
+                "romaji": "Sono otoko wa keisatsukan o mita totan, nigedashita.",
+                "vietnamese": "Gã đàn ông đó vừa mới nhìn thấy bóng dáng cảnh sát một cái là lập tức cắm đầu bỏ chạy ngay.",
+                "highlight_keyword": "見たとたん"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Mô tả hành động em bé: Đứa trẻ vừa uống sữa xong cái (飲んだとたん) là ngủ thiếp đi ngay."
+    },
+    {
+        "pattern": "～に比べて（にくらべて）",
+        "meaning": "So với... (Mô tả quan hệ so sánh giữa hai đối tượng)",
+        "connection": {
+            "formula": "N + に比べて",
+            "note": "Dùng để đặt lên bàn cân so sánh mức độ, tính chất giữa đối tượng đằng trước và đối tượng ở vế sau."
+        },
+        "core_nuance": "Lấy đối tượng A làm hệ quy chiếu tiêu chuẩn để nêu bật lên sự chênh lệch về tính chất hoặc số lượng của đối tượng B.",
+        "mnemonic": {
+            "concept": "Chiếc cân đối chiếu",
+            "kanji_link": "Chữ 比べる (Tỷ) so sánh đối chiếu.",
+            "story": "Đặt đối tượng A lên bàn cân so sánh (に比べて) để thấy rõ bên nặng bên nhẹ."
+        },
+        "examples": [
+            {
+                "japanese": "この町のお年寄りは若者に比べて活動的だ。",
+                "romaji": "Kono machi no otoshiyori wa wakamono ni kurabete katsudōteki da.",
+                "vietnamese": "Người già ở thị trấn này so với giới trẻ thì năng động và hoạt bát hơn nhiều.",
+                "highlight_keyword": "若者に比べて"
+            }
+        ],
+        "ai_ollama_prompt_hint": "So sánh thời tiết: Năm nay so với năm ngoái (去年に比べて) thì lạnh hơn hẳn."
+    }
+]

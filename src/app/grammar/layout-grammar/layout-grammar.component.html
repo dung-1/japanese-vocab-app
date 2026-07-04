@@ -1,0 +1,49 @@
+<div class="grammar-container">
+  <!-- Header -->
+  <header class="grammar-header">
+    <button class="back-btn" routerLink="/home">← Trang chủ</button>
+    <div class="header-center">
+      <span class="header-icon">📖</span>
+      <h1 class="header-title">Học Ngữ Pháp</h1>
+    </div>
+    <div class="header-stats" *ngIf="overallStats.totalLessons > 0">
+      <span>{{ overallStats.totalLessons }} bài</span>
+      <span>~{{ overallStats.avgScore }}%</span>
+    </div>
+  </header>
+
+  <!-- Mode Tabs -->
+  <div class="mode-tabs">
+    <button class="tab-btn" [class.active]="studyMode === 'flashcard'" (click)="setMode('flashcard')">
+      🃏 Thẻ học
+    </button>
+    <button class="tab-btn" [class.active]="studyMode === 'quiz'" (click)="setMode('quiz')">
+      🎯 Kiểm tra
+    </button>
+  </div>
+
+  <!-- Lesson Selector -->
+  <app-grammar-lesson-selector
+    [stats]="stats"
+    (lessonSelected)="onLessonSelected($event)">
+  </app-grammar-lesson-selector>
+
+  <!-- Loading -->
+  <div class="loading-bar" *ngIf="loading">
+    <div class="loading-fill"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="grammar-content" *ngIf="!loading">
+    <ng-container *ngIf="studyMode === 'flashcard'">
+      <app-grammar-flashcard [items]="selectedItems"></app-grammar-flashcard>
+    </ng-container>
+
+    <ng-container *ngIf="studyMode === 'quiz'">
+      <app-grammar-quiz
+        [items]="selectedItems"
+        (quizDone)="onQuizDone($event)">
+      </app-grammar-quiz>
+    </ng-container>
+  </div>
+</div>

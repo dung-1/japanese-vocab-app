@@ -1,0 +1,135 @@
+[
+    {
+        "pattern": "～一方だ（いっぽうだ）",
+        "meaning": "Càng ngày càng... / Có xu hướng liên tục tiến triển theo một chiều hướng",
+        "connection": {
+            "formula": "Vる + 一方だ",
+            "note": "Thường đi kèm với các động từ thể hiện sự biến đổi như 減る, 増える, 悪くなる. Thường mang xu hướng tiêu cực."
+        },
+        "core_nuance": "Diễn tả một trạng thái liên tục biến đổi không ngừng nghỉ theo một đường thẳng duy nhất, không có dấu hiệu dừng lại.",
+        "mnemonic": {
+            "concept": "Mũi tên một chiều",
+            "kanji_link": "一 (Một) + 方 (Hướng) + だ (Là).",
+            "story": "Mọi sự việc cứ lao thẳng tuột theo 'một hướng duy nhất' (一方だ) mà không quay đầu."
+        },
+        "examples": [
+            {
+                "japanese": "少子化が進んで、この町の人口は減る一方だ。",
+                "romaji": "Shōshika ga susunde, kono machi no jinkō wa heru ippō da.",
+                "vietnamese": "Do tình trạng già hóa và ít con ngày càng trầm trọng, dân số của thị trấn này càng ngày càng giảm mạnh.",
+                "highlight_keyword": "減る一方だ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về tình hình vật giá: Thời gian gần đây vật giá càng ngày càng tăng cao (上がる一方だ)."
+    },
+    {
+        "pattern": "～からには",
+        "meaning": "Một khi đã... thì đương nhiên phải...",
+        "connection": {
+            "formula": "Thể thông thường (Naである / Nである) + からには",
+            "note": "Vế sau thường là câu thể hiện nghĩa vụ, quyết tâm, ý chí hoặc lời khuyên bảo, bắt buộc."
+        },
+        "core_nuance": "Nhấn mạnh tinh thần trách nhiệm. Khi một sự thật đã được thiết lập thì kéo theo một hệ quả mang tính đạo đức hoặc quyết tâm bắt buộc phải thực hiện.",
+        "mnemonic": {
+            "concept": "Điểm xuất phát không khứ hồi",
+            "kanji_link": "から (Từ sau khi tạo ra thực tế) + には (Đối với).",
+            "story": "Một khi bước chân xuất phát đi 'từ cái lý do' (から) đó rồi, thì đương nhiên phía sau phải gánh vác trách nhiệm."
+        },
+        "examples": [
+            {
+                "japanese": "約束したからには、守らなければならない。",
+                "romaji": "Yakusoku shita kara ni wa, mamoranakereba naranai.",
+                "vietnamese": "Một khi đã hứa rồi thì bắt buộc phải giữ lời.",
+                "highlight_keyword": "約束したからには"
+            },
+            {
+                "japanese": "試合に出るからには、絶対勝ちたい。",
+                "romaji": "Shiai ni deru kara ni wa, zettai kachitai.",
+                "vietnamese": "Một khi đã ra sân tham gia thi đấu thì tôi nhất định muốn giành chiến thắng.",
+                "highlight_keyword": "出るからには"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu quyết tâm: Một khi đã học tiếng Nhật ( học tiếng Nhật - 勉強するからには) thì phải đỗ N3."
+    },
+    {
+        "pattern": "～に対して（にたいして）",
+        "meaning": "Đối với... (Hướng tới đối tượng hành động hoặc so sánh trái ngược)",
+        "connection": {
+            "formula": "N + に対して / に対する + N",
+            "note": "Biểu thị thái độ, hành động tác động hướng trực tiếp tới đối tượng được nhắc tới đằng trước."
+        },
+        "core_nuance": "Xác định mục tiêu tiêu điểm mà hành vi, thái độ hoặc sự chất vấn của người nói đang nhắm thẳng vào đối tượng đó.",
+        "mnemonic": {
+            "concept": "Mũi tên hướng tâm",
+            "kanji_link": "Chữ 対 (Đối) đối mặt, hướng về.",
+            "story": "Đối diện mặt đối mặt (に対して) với ai đó để bộc lộ hành động hoặc thái độ cụ thể."
+        },
+        "examples": [
+            {
+                "japanese": "田村先生は学生に対していつも優しい。",
+                "romaji": "Tamura-sensei wa gakusei ni taishite itsumo yasashii.",
+                "vietnamese": "Thầy Tamura đối với học sinh lúc nào cũng rất dịu dàng, ân cần.",
+                "highlight_keyword": "学生に対して"
+            },
+            {
+                "japanese": "これは、子供の疑問に対する答えを集めた本だ。",
+                "romaji": "Kore wa, kodomo no gimon ni taisuru kotae o atsumeta hon da.",
+                "vietnamese": "Đây là cuốn sách tập hợp những câu trả lời đối với những thắc mắc của trẻ con.",
+                "highlight_keyword": "疑問に対する"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết quy định dịch vụ: Luôn phải lịch sự đối với khách hàng (お客様に対して)."
+    },
+    {
+        "pattern": "～べき（だ）",
+        "meaning": "Nên... / Cần phải... (Làm việc đó là lẽ đương nhiên, là nghĩa vụ)",
+        "connection": {
+            "formula": "Vる + べきだ / べき + N | Riêng する chuyển thành するべき / すべき",
+            "note": "Thể phủ định là 「～べきではない」(Không nên làm). Diễn tả quan điểm mang tính đạo đức, lẽ thường."
+        },
+        "core_nuance": "Không dựa trên luật pháp quy định, mà dựa trên lương tâm, lẽ phải thông thường xã hội để phán đoán việc đó là đúng đắn bắt buộc.",
+        "mnemonic": {
+            "concept": "Thước đo đạo lý xã hội",
+            "kanji_link": "Chữ 可き (Khả) nên, cần phải.",
+            "story": "Là con người sống trong xã hội thì 'cần phải' (べきだ) đặt hành vi của mình theo đúng khuôn khổ đạo lý."
+        },
+        "examples": [
+            {
+                "japanese": "教師は学生にわかりやすく教えるべきだ。",
+                "romaji": "Kyōshi wa gakusei ni wakariyasuku oshieru beki da.",
+                "vietnamese": "Giáo viên thì cần phải dạy học sao cho học sinh dễ hiểu nhất.",
+                "highlight_keyword": "教えるべきだ"
+            },
+            {
+                "japanese": "学生がする（る）べきことは勉強だ。",
+                "romaji": "Gakusei ga suru beki koto wa benkyō da.",
+                "vietnamese": "Việc mà học sinh nên làm chính là học tập.",
+                "highlight_keyword": "する（る）べきこと"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đưa ra lời khuyên: Bạn nên nói lời xin lỗi (謝るべきだ) với anh ấy đi."
+    },
+    {
+        "pattern": "～を込めて（をこめて）",
+        "meaning": "Gửi gắm... / Với tất cả... (Tình cảm, tấm lòng)",
+        "connection": {
+            "formula": "N (chỉ tình cảm, tâm tư) + を込めて",
+            "note": "Thường đi với các danh từ như 愛 (yêu thương), 心 (tấm lòng), 感謝 (biết ơn), 祈り (cầu nguyện)."
+        },
+        "core_nuance": "Diễn tả việc dồn nén toàn bộ tâm tư, tình cảm vô hình của mình đổ đầy vào trong một hành động hữu hình (viết thư, làm quà, cầu nguyện).",
+        "mnemonic": {
+            "concept": "Gói trọn tình cảm vào trong",
+            "kanji_link": "Chữ 込める (Vào/Nhồi) gửi gắm vào bên trong.",
+            "story": "Nhồi nhét, đong cho đầy tất cả tấm lòng (を込めて) vào món quà gửi tặng người thương."
+        },
+        "examples": [
+            {
+                "japanese": "感謝の気持ちを込めて、両親に手紙を書いた。",
+                "romaji": "Kansha no kimochi o komete, ryōshin ni tegami o kaita.",
+                "vietnamese": "Gửi gắm tất cả tấm lòng biết ơn sâu sắc, tôi đã viết một bức thư gửi cho bố mẹ của mình.",
+                "highlight_keyword": "感謝の気持ちを込めて"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói về một món quà: Tôi đã làm chiếc bánh này với tất cả tình yêu thương (愛を込めて)."
+    }
+]

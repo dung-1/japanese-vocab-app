@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～最中（に）",
+        "meaning": "Đúng lúc đang... thì... (Một hành động khác xen vào gây bất ngờ/cản trở)",
+        "connection": {
+            "formula": "Vている / Nの + 最中（に）",
+            "note": "Cũng có thể dùng ở cuối câu dạng「～最中だ」."
+        },
+        "core_nuance": "Dùng khi muốn nói \"ngay (vào) lúc đang làm ~\" một việc gì đó thì có một sự việc khác đột ngột xảy ra.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 最 (Tối - nhất, cao trào) + 中 (Trung - ở giữa).",
+            "story": "Đang ở ngay 'chính giữa' (中) thời điểm 'cao trào nhất' (最) của hành động thì bị cắt ngang."
+        },
+        "examples": [
+            {
+                "japanese": "私が話している最中に、他の人が歌い始めた。",
+                "romaji": "Watashi ga hanashite iru saichuu ni, hoka no hito ga utai hajimeta.",
+                "vietnamese": "Đúng lúc tôi đang nói thì người khác lại bắt đầu hát.",
+                "highlight_keyword": "話している最中に"
+            },
+            {
+                "japanese": "試合の最中に、足をけがした。",
+                "romaji": "Shiai no saichuu ni, ashi o kegashita.",
+                "vietnamese": "Đúng lúc đang ở giữa trận đấu thì tôi bị thương ở chân.",
+                "highlight_keyword": "試合の最中に"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu tình huống: Đúng lúc đang làm bài kiểm tra thì máy tính bị sập nguồn bằng 最中に."
+    },
+    {
+        "pattern": "～について",
+        "meaning": "Về... / Liên quan đến...",
+        "connection": {
+            "formula": "N + について",
+            "note": "Khi bổ nghĩa cho danh từ phía sau sẽ dùng dạng「～についての + N」."
+        },
+        "core_nuance": "Mang nghĩa \"liên quan đến ~\". Biểu thị đối tượng của những hoạt động ngôn ngữ như \"kể\", \"viết\", v.v. hoặc hoạt động tư duy, nghiên cứu như \"suy nghĩ\", \"tra cứu\", v.v.",
+        "mnemonic": {
+            "concept": "Hình ảnh tâm điểm",
+            "kanji_link": "Chữ 就 (Tựu) trong đạt được, hướng tới.",
+            "story": "Mọi suy nghĩ, bài viết hay lời nói đều hướng thẳng 'về' (について) mục tiêu danh từ đứng trước."
+        },
+        "examples": [
+            {
+                "japanese": "大学の授業で自然エネルギーについて学んだ。",
+                "romaji": "Daigaku no jugyou de shizen enerugii ni tsuite mananda.",
+                "vietnamese": "Trong giờ học ở đại học, tôi đã học về năng lượng tự nhiên.",
+                "highlight_keyword": "自然エネルギーについて"
+            },
+            {
+                "japanese": "試験日の変更についてのメールが届いた。",
+                "romaji": "Shikenbi no henkou ni tsuite no meeru ga todoita.",
+                "vietnamese": "Email thông báo về việc thay đổi ngày thi đã được gửi đến.",
+                "highlight_keyword": "変更についての"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một câu giới thiệu: Hôm nay tôi muốn thuyết trình về văn hóa trà đạo Nhật Bản bằng について."
+    },
+    {
+        "pattern": "～ば･･･のに",
+        "meaning": "Giá mà... thì đã... rồi (Thể hiện sự nuối tiếc, ân hận)",
+        "connection": {
+            "formula": "[V / Aい / Na / N] Thể điều kiện (条件形) + ･･･普通形 + のに",
+            "note": "Dùng nhiều trong hội thoại thân mật (được ký hiệu bằng chữ 会 trong sách)."
+        },
+        "core_nuance": "Dùng khi thể hiện sự hối hận hay niềm tiếc nuối \"nếu làm ~ thì sẽ / đã có kết quả khác\", nhưng thực tế đã xảy ra trái ngược.",
+        "mnemonic": {
+            "concept": "Quá khứ không thể thay đổi",
+            "kanji_link": "ば (Nếu) + のに (Thế mà).",
+            "story": "Giả định 'nếu' (ば) điều đó xảy ra trong quá khứ, 'thế mà' (のに) thực tế lại đau lòng khép lại."
+        },
+        "examples": [
+            {
+                "japanese": "道を間違えなければ約束の時間に間に合ったのに。",
+                "romaji": "Michi o machigaenakereba yakusoku no jikan ni maniatta noni.",
+                "vietnamese": "Giá mà không nhầm đường thì đã kịp giờ hẹn rồi thế mà lại...",
+                "highlight_keyword": "間違えなければ...間に合ったのに"
+            },
+            {
+                "japanese": "チケットを予約していれば、映画館の前でこんなに並ばなくてよかったのに。",
+                "romaji": "Chiketto o yoyaku shite ireba, eigakan no mae de konna ni narabanakute yokatta noni.",
+                "vietnamese": "Nếu mà đặt vé trước thì đã không phải xếp hàng dài thế này trước rạp chiếu phim rồi.",
+                "highlight_keyword": "予約していれば...よかったのに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu tiếc nuối vì không học bài: Giá mà hôm qua học bài thì nay đã làm được bài thi dùng ば...のに."
+    },
+    {
+        "pattern": "～ほど",
+        "meaning": "Đến mức... / Cỡ như...",
+        "connection": {
+            "formula": "V 辞書形・ない形 / Aい / Aい・くない / N + ほど",
+            "note": "Có thể dùng bổ nghĩa danh từ dạng「～ほどの + N」hoặc đứng cuối câu dạng「～ほどだ」."
+        },
+        "core_nuance": "Dùng khi thể hiện mức độ của hành động tác hay trạng thái qua việc nêu ví dụ cụ thể.",
+        "mnemonic": {
+            "concept": "Thước đo mức độ",
+            "kanji_link": "Chữ 程 (Trình) nghĩa là mức độ, khoảng.",
+            "story": "Đẩy trạng thái lên một 'mức độ' (程) cao đến mức có thể đem ra ví von so sánh cụ thể."
+        },
+        "examples": [
+            {
+                "japanese": "この町は空港ができて、驚くほどにぎやかになった。",
+                "romaji": "Kono machi wa kuukou ga dekite, odoruku hodo nigiyaku ni natta.",
+                "vietnamese": "Thành phố này từ khi có sân bay đã trở nên nhộn nhịp đến mức kinh ngạc.",
+                "highlight_keyword": "驚くほど"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu diễn tả sự mệt mỏi: Hôm nay làm việc mệt đến mức không buồn nhấc chân lên đi bằng ほど."
+    },
+    {
+        "pattern": "～わりに（は）",
+        "meaning": "Dù... nhưng trái với suy nghĩ thông thường / So với... thì...",
+        "connection": {
+            "formula": "Nの / V・A 普通形 (Naな) + わりに（は）",
+            "note": "Dùng nhiều trong hội thoại thân mật (được ký hiệu bằng chữ 会)."
+        },
+        "core_nuance": "Dùng khi so sánh giữa điều được dự đoán từ một tình trạng nào đó với thực tế rồi đánh giá nó (thực tế khác xa, bất ngờ so với tiêu chuẩn thông thường).",
+        "mnemonic": {
+            "concept": "Tỷ lệ không cân xứng",
+            "kanji_link": "Chữ 割 (Cát) trong tỷ lệ, phân chia.",
+            "story": "Phép chia 'tỷ lệ' (割) giữa thực tế nhận được và số tiền/trạng thái ban đầu bỏ ra không hề tương xứng với nhau."
+        },
+        "examples": [
+            {
+                "japanese": "まずいと言っていたわりに、全部食べたね。",
+                "romaji": "Mazui to itte ita wari ni, zenbu tabeta ne.",
+                "vietnamese": "Kêu là dở thế mà (so với câu cửa miệng đó) lại ăn hết sạch sành sanh nhỉ.",
+                "highlight_keyword": "言っていたわりに"
+            },
+            {
+                "japanese": "このセーターは、値段のわりに品質がいいですよ。",
+                "romaji": "Kono seetaa wa, nedan no wari ni hinshitsu ga ii desu yo.",
+                "vietnamese": "Cái áo len này chất lượng tốt so với giá tiền của nó đấy chứ.",
+                "highlight_keyword": "値段のわりに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo câu khen ngợi một người: Anh ấy dù tuổi còn trẻ (わりには) nhưng suy nghĩ rất chín chắn."
+    }
+]

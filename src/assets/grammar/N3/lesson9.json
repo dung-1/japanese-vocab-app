@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～てからでないと･･･ない",
+        "meaning": "Nếu chưa làm A... thì không thể làm B / Phải sau khi làm A thì mới làm B được",
+        "connection": {
+            "formula": "Vて + からでないと / からでなければ + Vない",
+            "note": "Vế sau luôn đi với dạng phủ định hoặc thể hiện trạng thái không thể thực hiện."
+        },
+        "core_nuance": "Nhấn mạnh rằng hành động hoặc trạng thái ở vế A là điều kiện tiên quyết mang tính bắt buộc, nếu không hoàn thành nó thì vế B tuyệt đối không thể xảy ra.",
+        "mnemonic": {
+            "concept": "Cửa kiểm soát điều kiện",
+            "kanji_link": "から (Từ sau khi) + でないと (Nếu không phải là).",
+            "story": "Nếu không phải là từ sau khi (てからでないと) bước qua cửa A, thì đừng hòng đi tiếp được vế B."
+        },
+        "examples": [
+            {
+                "japanese": "ボタンを押してからでないと、ドアは開かない。",
+                "romaji": "Botan o oshite kara deないと、doa wa akanai.",
+                "vietnamese": "Nếu không ấn nút trước thì cửa sẽ không mở đâu.",
+                "highlight_keyword": "押してからでないと"
+            },
+            {
+                "japanese": "荷物を受け取ってからでないと、出かけられない。",
+                "romaji": "Nimotsu o uketotte kara deないと、dekakerarenai.",
+                "vietnamese": "Phải sau khi nhận hành lý thì tôi mới có thể đi ra ngoài được.",
+                "highlight_keyword": "受け取ってからでないと"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu nhắc nhở: Nếu chưa rửa tay (てからでないと) thì không được ăn cơm."
+    },
+    {
+        "pattern": "～てもらいたい",
+        "meaning": "Muốn ai đó làm gì cho mình (Thể hiện nguyện vọng đối với người khác)",
+        "connection": {
+            "formula": "Vて + もらいたい / いただきたい",
+            "note": "～いただきたい là dạng kính ngữ trang trọng hơn của ～てもらいたい."
+        },
+        "core_nuance": "Dùng để truyền đạt mong muốn, nguyện vọng của bản thân rằng muốn người khác thực hiện một hành động nào đó vì lợi ích của mình.",
+        "mnemonic": {
+            "concept": "Lời ước gửi người khác",
+            "kanji_link": "もらう (Nhận được) + たい (Muốn).",
+            "story": "Bản thân rất 'muốn' (たい) được 'nhận nhận lòng tốt' (もらう) từ hành động của bạn."
+        },
+        "examples": [
+            {
+                "japanese": "子供には、できたら私の会社を手伝ってもらいたいと思っている。",
+                "romaji": "Kodomo ni wa, dekitara watashi no kaisha o tetsudatte moraitai to omotte iru.",
+                "vietnamese": "Tôi mong muốn con cái nếu có thể thì sẽ phụ giúp công việc ở công ty của tôi.",
+                "highlight_keyword": "手伝ってもらいたい"
+            },
+            {
+                "japanese": "お時間のある方に、この仕事を手伝っていただきたいんですが。",
+                "romaji": "O-jikan no aru kata ni, kono shigoto o tetsudatte itadakitai n desu ga.",
+                "vietnamese": "Tôi rất mong muốn vị nào có thời gian rảnh rỗi có thể giúp tôi một tay trong công việc này.",
+                "highlight_keyword": "手伝っていただきたい"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một câu nhờ vả đồng nghiệp: Tôi muốn anh kiểm tra giúp (てもらいたい) tài liệu này."
+    },
+    {
+        "pattern": "～というより･･･",
+        "meaning": "Nói là B thì đúng hơn là nói là A",
+        "connection": {
+            "formula": "Thể thông thường / Na / N + というより",
+            "note": "Thường dùng để đính chính cách gọi tên hoặc nhận xét một sự vật, sự việc sao cho chính xác hơn."
+        },
+        "core_nuance": "Dùng khi bạn cảm thấy cách diễn đạt ở vế B phù hợp, chính xác với thực tế hơn là cách gọi ở vế A.",
+        "mnemonic": {
+            "concept": "Cân bàn ngôn từ",
+            "kanji_link": "という (Nói là) + より (Hơn so với).",
+            "story": "So với việc 'nói là' (という) phương án A, thì nói sang phương án B nghe hợp lý hơn hẳn."
+        },
+        "examples": [
+            {
+                "japanese": "夢を諦めるのは、残念というより悔しい。",
+                "romaji": "Yume o akirameru no wa, zannen to iu yori kuyashii.",
+                "vietnamese": "Từ bỏ ước mơ, nói là đáng tiếc thì đúng hơn là cảm thấy cay cú, uất ức.",
+                "highlight_keyword": "残念というより"
+            },
+            {
+                "japanese": "彼は恋inというより、仲の良い友達だ。",
+                "romaji": "Kare wa koibito to iu yori, naka no yoi tomodachi da.",
+                "vietnamese": "Anh ấy nói là người yêu thì đúng hơn là một người bạn có mối quan hệ rất tốt.",
+                "highlight_keyword": "恋人というより"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhận xét về thời tiết: Hôm nay nói là mát mẻ thì đúng hơn là (というより) lạnh."
+    },
+    {
+        "pattern": "～ものですから / ～もんだから",
+        "meaning": "Vì... (Dùng để bào chữa, giải thích lý do hoàn cảnh cá nhân)",
+        "connection": {
+            "formula": "Thể thông thường (Naな / Nな) + ものであるから / もんだから",
+            "note": "Dạng「～もんだから」dùng nhiều trong hội thoại nói chuyện hàng ngày thân mật."
+        },
+        "core_nuance": "Dùng để giải thích một cách khách quan về nguyên nhân, lý do hoặc đưa ra lời biện bạch, phân trần khi làm điều gì đó không phải hoặc gây phiền toái.",
+        "mnemonic": {
+            "concept": "Tấm khiên bào chữa",
+            "kanji_link": "もの (Cái/Thứ/Sự tình) + だから (Vì thế).",
+            "story": "Vì bản chất cái 'sự tình, hoàn cảnh đằng sau' (もの) nó ép buộc như thế nên mới ra nông nỗi này."
+        },
+        "examples": [
+            {
+                "japanese": "携帯電話が壊れたものですから、連絡ができませんでした。",
+                "romaji": "Keitai denwa ga kowareta mono desu kara, renraku ga dekimasen deshita.",
+                "vietnamese": "Tại vì điện thoại của tôi bị hỏng mất nên tôi đã không thể liên lạc được.",
+                "highlight_keyword": "壊れたものですから"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích lý do đi muộn: Vì tàu điện bị trễ (ものですから) nên tôi đã đến muộn."
+    },
+    {
+        "pattern": "～ようなら / ～ようだったら",
+        "meaning": "Nếu như có vẻ... / Nếu trong tình trạng...",
+        "connection": {
+            "formula": "V普通形 / Aい / Naな / Nの + ようなら / ようだったら",
+            "note": "Dùng để đưa ra lời khuyên, đề xuất hoặc hành động ứng phó tương ứng dựa trên tình huống phỏng đoán đối phương đang gặp phải."
+        },
+        "core_nuance": "Xem xét lập trường hoặc tâm trạng, hoàn cảnh của đối phương để đưa ra một lời gợi ý, giải pháp phù hợp.",
+        "mnemonic": {
+            "concept": "Tư vấn theo tình trạng",
+            "kanji_link": "よう (Có vẻ/Trạng thái) + なら (Nếu thì).",
+            "story": "Nếu trạng thái thực tế đúng giống như vẻ bề ngoài (ようなら) đang thấy, thì phương án tiếp theo là đây."
+        },
+        "examples": [
+            {
+                "japanese": "来られないようなら、前の日までに連絡してください。",
+                "romaji": "Korarenai you nara, mae no hi made ni renraku shite kudasai.",
+                "vietnamese": "Nếu như có vẻ không thể đến được, xin hãy liên lạc trước ngày hôm đó nhé.",
+                "highlight_keyword": "来られないようなら"
+            },
+            {
+                "japanese": "忙しいようなら、残りの仕事を手伝いますよ。",
+                "romaji": "Isogashii you nara, nokori no shigoto o tetsudaimasu yo.",
+                "vietnamese": "Nếu như có vẻ bận rộn, tôi sẽ giúp một tay phần công việc còn lại nhé.",
+                "highlight_keyword": "忙しいようなら"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đưa ra lời khuyên cho bạn: Nếu cơ thể có vẻ không khỏe (悪いようなら), hôm nay hãy nghỉ sớm đi."
+    }
+]

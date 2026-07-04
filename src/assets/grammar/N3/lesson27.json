@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～からといって",
+        "meaning": "Không phải cứ vì... là có thể đương nhiên... (Vế sau thường đi với phủ định)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + からといって",
+            "note": "Vế sau hầu như luôn đi kèm các cụm từ phủ định một phần như: ～わけではない, ～とは限らない."
+        },
+        "core_nuance": "Cảnh báo người nghe không nên quy chụp, chỉ dựa vào một lý do đơn lẻ mà đưa ra kết luận mang tính đại khái, vội vã.",
+        "mnemonic": {
+            "concept": "Nghe nói vì thế",
+            "kanji_link": "から (Vì) + と言って (Nói rằng).",
+            "story": "Chỉ 'vì nghe người ta nói rằng' (からと言って) thế thôi, mà đã vội tin vế sau là đúng à? Sai lầm nhé!"
+        },
+        "examples": [
+            {
+                "japanese": "薬を飲んだからといってすぐによくなるわけではない。",
+                "romaji": "Kusuri o nonda kara to itte sugu ni yoku naru wake dewa nai.",
+                "vietnamese": "Không phải cứ vì đã uống thuốc vào là ngay lập tức cơ thể sẽ khỏe lại ngay được đâu.",
+                "highlight_keyword": "飲んだからといって"
+            },
+            {
+                "japanese": "嫌いだからって野菜を食べないのは、体に悪いよ。",
+                "romaji": "Kirai dakaratte yasai o tabenai no wa, karada ni warui yo.",
+                "vietnamese": "Không thể chỉ vì ghét mà không chịu ăn rau, như thế cực kỳ có hại cho sức khỏe đấy.",
+                "highlight_keyword": "嫌いだからって"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Phản biện quan điểm 'Cứ giàu có là sẽ hạnh phúc' bằng cấu trúc からといって."
+    },
+    {
+        "pattern": "～っぱなし",
+        "meaning": "Cứ để nguyên trạng thái cũ mà không làm hành động xử lý tiếp theo (Bừa bãi, phê phán)",
+        "connection": {
+            "formula": "Vます (bỏ ます) + っぱなし",
+            "note": "Thường mang nghĩa tiêu cực, thể hiện sự cẩu thả, bất cẩn của người làm."
+        },
+        "core_nuance": "Hành động đáng nhẽ ra sau khi làm xong phải dọn dẹp hoặc đưa về vị trí cũ, nhưng người làm lại bỏ mặc nguyên như vậy.",
+        "mnemonic": {
+            "concept": "Bỏ mặc trôi nổi",
+            "kanji_link": "Liên tưởng tới chữ 放し (Phóng) trong phóng thích, bỏ mặc, thả rông.",
+            "story": "Làm xong rồi phóng (っぱなし) nó đi luôn, không thèm ngó ngàng dọn dẹp gì cả."
+        },
+        "examples": [
+            {
+                "japanese": "靴を脱いだら、脱ぎっぱなしにしないで、そろえなさい。",
+                "romaji": "Kutsu o nuidara, nugippanashi ni shinaide, soraenasa.",
+                "vietnamese": "Cởi giày ra xong thì đừng có vứt chỏng chơ để nguyên như thế, phải xếp cho gọn gàng lại!",
+                "highlight_keyword": "脱ぎっぱなしにしないで"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Cằn nhằn một người bạn cùng phòng có thói quen bật tivi để nguyên cả đêm rồi đi ngủ dùng っぱなし."
+    },
+    {
+        "pattern": "～に関して（は）/ ～ ở dạng bổ nghĩa N: ～に関するN",
+        "meaning": "Về... / Liên quan đến... (Lĩnh vực, đề tài nghiên cứu, thông tin)",
+        "connection": {
+            "formula": "N + に関して / に関する + N",
+            "note": "Là trang trọng hơn của mẫu ～について. Thường dùng trong báo cáo, tin tức, công việc."
+        },
+        "core_nuance": "Dùng khi nói về một phạm vi nội dung rộng lớn, có mối liên hệ mật thiết bao quanh chủ đề được nhắc tới.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 関 (Quan) trong liên quan, quan hệ.",
+            "story": "Mọi vấn đề nằm trong vòng 'liên quan' (関) đến đối tượng đó sẽ được làm rõ."
+        },
+        "examples": [
+            {
+                "japanese": "薬を作るために、アレルギーに関して調べている。",
+                "romaji": "Kusuri o tsukuru tame ni, arerugii ni kanshite shirabete iru.",
+                "vietnamese": "Để phục vụ cho việc bào chế thuốc, tôi đang tiến hành nghiên cứu sâu liên quan đến dị ứng.",
+                "highlight_keyword": "アレルギーに関して"
+            },
+            {
+                "japanese": "日本でアニメに関する仕事をしたいと思いま。す",
+                "romaji": "Nihon de anime ni kansuru shigoto o shitai to omoimasu.",
+                "vietnamese": "Tôi luôn ao ước được làm một công việc liên quan đến ngành hoạt hình tại Nhật Bản.",
+                "highlight_keyword": "アニメに関する仕事"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết tiêu đề cho một buổi thuyết trình giới thiệu dự án phần mềm liên quan đến công nghệ AI sử dụng に関する."
+    },
+    {
+        "pattern": "～に違いない",
+        "meaning": "Chắc chắn là... / Không thể sai được (Khẳng định mạnh mẽ dựa trên căn cứ)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) / N / Na (bỏ だ) + に違いない",
+            "note": "Mang mức độ chắc chắn cao hơn so với ～と思う hay ～だろう."
+        },
+        "core_nuance": "Người nói dựa vào một bằng chứng trực quan nhìn thấy hoặc phân tích logic để đưa ra kết luận mang tính xác thực tuyệt đối theo cảm quan cá nhân.",
+        "mnemonic": {
+            "concept": "Không có sự khác biệt",
+            "kanji_link": "に (Vào thực tế) + 違い (Sai khác, nhầm lẫn) + ない (Không).",
+            "story": "Nhìn vào sự thật này thì 'không thể có một sự sai khác nào khác' (に違いない), chuẩn 100% rồi."
+        },
+        "examples": [
+            {
+                "japanese": "今年も冬になると、湖が凍るに違いない。",
+                "romaji": "Kotoshi mo fuyu ni naru to, mizuumi ga kooru ni chigai nai.",
+                "vietnamese": "Năm nay đến mùa đông, hồ nước này chắc chắn sẽ đóng băng cho mà xem.",
+                "highlight_keyword": "凍るに違いない"
+            },
+            {
+                "japanese": "電気消えているので、あの店は休みに違いない。",
+                "romaji": "Denki ga kiete iru node, ano mise wa yasumi ni chigai nai.",
+                "vietnamese": "Đèn trong quán đã tắt hết rồi, quán đó chắc chắn hôm nay nghỉ bán rồi.",
+                "highlight_keyword": "休みに違いない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nhìn thấy một người mặt đỏ bừng đi loạng choạng, hãy đưa ra phán đoán chắc chắn bằng に違いない."
+    },
+    {
+        "pattern": "～のは･･･からだ",
+        "meaning": "Cấu trúc đảo ngữ nhấn mạnh lý do: Lý do cho việc... chính là vì...",
+        "connection": {
+            "formula": "[Kết quả] のは + [Lý do] からだ",
+            "note": "Dùng để lật ngược câu, đưa kết quả lên trước để nhấn mạnh nguyên nhân cốt lõi ở vế sau."
+        },
+        "core_nuance": "Thu hút sự tò mò của người nghe vào vế đầu, rồi giải đáp một cách dứt khoát căn nguyên ở vế sau bằng cấu trúc 'からだ'.",
+        "mnemonic": {
+            "concept": "Nguyên nhân đứng sau",
+            "kanji_link": "の (Cái chuyện đó) + は (Thì) + から (Là từ lý do này) + だ (Mà ra).",
+            "story": "Cái chuyện kết quả đó á (のは), căn bản nguồn gốc là xuất phát từ (から) đây này!"
+        },
+        "examples": [
+            {
+                "japanese": "優勝したのはみんなで力を合わせたいからだ。",
+                "romaji": "Yuushou shita no wa minna de chikara o awasetai kara da.",
+                "vietnamese": "Lý do chúng tôi giành được chức vô địch chính là nhờ sự đồng lòng hợp lực của tất cả mọi người.",
+                "highlight_keyword": "優勝したのは･･･からだ"
+            },
+            {
+                "japanese": "この刺身がおいしいのは、魚が新鮮だからだ。",
+                "romaji": "Kono sashimi ga oishii no wa, sakana ga shinsen dakara da.",
+                "vietnamese": "Món sashimi này ngon đến như vậy hoàn toàn là do thịt cá cực kỳ tươi sống.",
+                "highlight_keyword": "おいしいのは･･･からだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu giải thích lý do tại sao trang web học tiếng Nhật của bạn lại hoạt động hiệu quả bằng mẫu のは...からだ."
+    }
+]

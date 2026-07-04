@@ -1,0 +1,114 @@
+[
+    {
+        "pattern": "～てしょうがない / ～てたまらない",
+        "meaning": "Rất... / ...không chịu nổi (Cảm xúc, trạng thái cơ thể trào dâng mãnh liệt)",
+        "connection": {
+            "formula": "Vて / Aくて / Naで + しょうがない / たまらない",
+            "note": "Thường đi kèm với các từ chỉ cảm giác, tâm trạng tự nhiên của con người (bản thân người nói) mà lý trí khó lòng kìm nén được."
+        },
+        "core_nuance": "Sự bùng nổ của cảm xúc cơ thể. Trạng thái dâng trào mạnh mẽ tới mức hệ thống điều khiển của cơ thể không cách nào kiểm soát nổi.",
+        "mnemonic": {
+            "concept": "Nồi áp suất xì hơi",
+            "kanji_link": "仕様がない (Không có cách nào cứu vãn) / 堪らない (Không chịu đựng nổi).",
+            "story": "Cảm xúc dâng cao quá rồi, không có cách nào ngăn lại (しょうがない) và cơ thể cũng chẳng chịu nhiệt nổi nữa (たまらない)."
+        },
+        "examples": [
+            {
+                "japanese": "頭が痛くてしょうがない。",
+                "romaji": "Atama ga itakute shōganai.",
+                "vietnamese": "Ôi giời ơi cái đầu tôi nó đau nhức nhối không thể nào chịu đựng nổi nữa rồi!",
+                "highlight_keyword": "痛くてしょうがない"
+            },
+            {
+                "japanese": "秘密の話だと言われたが、誰かに言いたくてしょうがない。",
+                "romaji": "Himitsu no hanashi da to iwareta ga, dareka ni iitakute shōganai.",
+                "vietnamese": "Dù đã bị người ta dặn đi dặn lại đây là chuyện tuyệt mật rồi đấy, thế mà cái miệng tôi cứ ngứa ngáy muốn buôn dưa lê với ai đó không chịu nổi.",
+                "highlight_keyword": "言いたくてしょうがない"
+            },
+            {
+                "japanese": "生まれたばかりの子猫が、かわいくてしょうがない。",
+                "romaji": "Umareta bakari no koneko ga, kawaikute shōganai.",
+                "vietnamese": "Chú mèo con vừa mới lọt lòng nhìn cưng xỉu, đáng yêu muốn chết đi được!",
+                "highlight_keyword": "かわいくてしょうがない"
+            },
+            {
+                "japanese": "試験の結果が心配でしょうがない。",
+                "romaji": "Shiken no kekka ga shinpai de shōganai.",
+                "vietnamese": "Tôi lo sốt vó, đứng ngồi không yên về kết quả của kỳ thi lần này không chịu nổi.",
+                "highlight_keyword": "心配でしょうがない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bộc lộ cảm xúc khi khát: Đi bộ dưới trời nắng nên tôi khát nước không chịu nổi (喉が渇いてたまらない)."
+    },
+    {
+        "pattern": "～てる / ～とく / ～ちゃう (Bảng thể rút gọn)",
+        "meaning": "Các dạng rút gọn trong hội thoại thân mật hàng ngày",
+        "connection": {
+            "formula": "～ている ➔ ～てる\n～ておく ➔ ～とく\n～てしまう ➔ ～ちゃう / ～でしまう ➔ ～じゃう\n～なければいけない ➔ ～なきゃ\n～なくてはいけない ➔ ～なくちゃ\n～てはいけない ➔ ～ちゃいけない / ～ではいけない ➔ ～じゃいけない\n～のだと言っている / ～のだと言っていた ➔ ～んだって\n～という～ ➔ ～っていう～\nなど ➔ なんか",
+            "note": "Biến đổi âm tiết nhằm tối ưu hóa tốc độ nói, chuyên dùng trong giao tiếp xuồng xã, thân mật giữa những người có mối quan hệ cực kỳ gần gũi."
+        },
+        "core_nuance": "B rút ngắn khoảng cách xã giao. Tạo nên ngữ điệu mềm mại, nhanh gọn tự nhiên đúng chất người bản xứ khi trò chuyện đời thường.",
+        "mnemonic": {
+            "concept": "Chiếc kéo cắt tỉa âm tiết",
+            "kanji_link": "縮約形 (Súc ước hình) thể rút gọn.",
+            "story": "Cắt bớt những âm tiết rườm rà cứng nhắc để câu nói trôi tuột ra nhanh chóng, tăng độ thân thiết."
+        },
+        "examples": [
+            {
+                "japanese": "毎日、仕事がんばってるよ。 (～ている)",
+                "romaji": "Mainichi, shigoto ganbatte ru yo.",
+                "vietnamese": "Ngày nào tôi cũng đang cày cuốc cố gắng hết mình vì công việc đây này.",
+                "highlight_keyword": "がんばってるよ"
+            },
+            {
+                "japanese": "そこ、私が片付けとくから、そのまるでいいよ。 (～ておく)",
+                "romaji": "Soko, watashi ga katazuketoku kara, sono maru de ii yo.",
+                "vietnamese": "Chỗ đó cứ để tôi dọn dẹp sẵn cho, cứ giữ nguyên trạng thái như thế là được rồi.",
+                "highlight_keyword": "片付けとくから"
+            },
+            {
+                "japanese": "ご飯の前に、宿題をやっちゃうよ。 (～てしまう)",
+                "romaji": "Gohan no mae ni, shukudai o yacchau yo.",
+                "vietnamese": "Tranh thủ trước giờ ăn cơm, tôi sẽ xử lý cho xong xuôi đống bài tập về nhà luôn đây.",
+                "highlight_keyword": "やっちゃうよ"
+            },
+            {
+                "japanese": "燃えるごみと燃えないごみを分けなきゃ。 (～なければいけない)",
+                "romaji": "Moeru gomi to moenai gomi o wakenakya.",
+                "vietnamese": "Chết dở, phải phân loại rác cháy được với rác không cháy được ra mới được!",
+                "highlight_keyword": "分けなきゃ"
+            },
+            {
+                "japanese": "テストがあるから、勉強しなくちゃ。 (～なくてはいけない)",
+                "romaji": "Tesuto ga aru kara, benkyō shinakucha.",
+                "vietnamese": "Sắp tới có bài kiểm tra rồi nên bắt buộc phải học hành nghiêm túc thôi!",
+                "highlight_keyword": "勉強しなくちゃ"
+            },
+            {
+                "japanese": "あしたは絶対、寝坊しちゃいけないよ。 (～てはいけない)",
+                "romaji": "Ashita wa zettai, nebō cha ikenai yo.",
+                "vietnamese": "Ngày mai là tuyệt đối không được phép ngủ nướng muộn giờ đâu đấy nhé!",
+                "highlight_keyword": "寝坊しちゃいけないよ"
+            },
+            {
+                "japanese": "チャンさんも、N3の試験を受けるんだって。 (～のだと言っている)",
+                "romaji": "Chan-san mo, N3 no shiken o ukeru n datte.",
+                "vietnamese": "Nghe người ta nói lại là hình như anh Chang cũng sẽ đăng ký tham gia kỳ thi N3 đợt này đấy.",
+                "highlight_keyword": "受けるんだって"
+            },
+            {
+                "japanese": "かまくらっていうお祭り、知ってる？ (～という～)",
+                "romaji": "Kamakura tte iu omatsuri, shitteru?",
+                "vietnamese": "Bạn có biết cái lễ hội mà người ta hay gọi tên là Kamakura không?",
+                "highlight_keyword": "かまくらっていう"
+            },
+            {
+                "japanese": "朝ご飯はパンやおにぎりなんかをよく食べるよ。 (など)",
+                "romaji": "Asagohan wa pan ya onigiri nanka o yoku taberu yo.",
+                "vietnamese": "Bữa sáng tôi thường hay ăn mấy thứ đại loại như bánh mì hay cơm nắm các kiểu.",
+                "highlight_keyword": "おにぎりなんかを"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết câu hội thoại bạn bè: Tớ lỡ quên mất (忘れちゃった) ví tiền ở nhà rồi."
+    }
+]

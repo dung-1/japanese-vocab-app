@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～気味",
+        "meaning": "Có vẻ hơi... / Có cảm giác hơi... (Xu hướng tiêu cực)",
+        "connection": {
+            "formula": "Vます (bỏ ます) / N + 気味 (ぎみ)",
+            "note": "Thường dùng cho trạng thái sức khỏe, tâm lý hoặc tình huống không tốt."
+        },
+        "core_nuance": "Diễn tả một trạng thái thay đổi một chút theo hướng xấu, chưa đến mức nghiêm trọng nhưng bản thân cảm nhận rõ.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 気 (Khí) trong tinh thần, không khí + 味 (Vị) trong mùi vị.",
+            "story": "Cơ thể bắt đầu có 'mùi vị' (味) của một thứ 'khí' (気) lạ bệnh tật, chứng tỏ là 'hơi hơi' mệt rồi đấy."
+        },
+        "examples": [
+            {
+                "japanese": "最近、仕事が忙しくて、疲れ気味だ。",
+                "romaji": "Saikin, shigoto ga isogashikute, tsukare gimi da.",
+                "vietnamese": "Dạo gần đây công việc bận rộn nên tôi cảm thấy hơi mệt mỏi.",
+                "highlight_keyword": "疲れ気味だ"
+            },
+            {
+                "japanese": "風邪気味の息子に、学校を休ませた。",
+                "romaji": "Kaze gimi no musuko ni, gakkou o yasumaseta.",
+                "vietnamese": "Tôi đã cho đứa con trai có triệu chứng hơi cảm cúm nghỉ học.",
+                "highlight_keyword": "風邪気味の"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một đoạn hội thoại xin sếp nghỉ làm vì lý do hơi cảm lạnh sử dụng 風邪気味."
+    },
+    {
+        "pattern": "～ことだ",
+        "meaning": "Nên... / Phải... (Lời khuyên, cảnh báo)",
+        "connection": {
+            "formula": "V辞書形 / Vない形 + ことだ",
+            "note": "Dùng khi người bề trên hoặc người có kinh nghiệm đưa ra lời khuyên cho người dưới."
+        },
+        "core_nuance": "Thể hiện phán đoán lý tưởng, một quy tắc gián tiếp mang tính chất: 'Nếu muốn đạt kết quả đó thì việc làm này là tất yếu'.",
+        "mnemonic": {
+            "concept": "Biến hành động thành chân lý",
+            "kanji_link": "Chữ 事 (Sự) nghĩa là việc, điều.",
+            "story": "Muốn thành công thì làm 'việc này' (こと) là điều đương nhiên phải làm!"
+        },
+        "examples": [
+            {
+                "japanese": "夢を叶えたいなら、一生懸命努力することだ。",
+                "romaji": "Yume o kanaetai nara, isshoukenmei doryoku suru koto da.",
+                "vietnamese": "Nếu muốn hiện thực hóa ước mơ, bạn nên nỗ lực hết sức mình.",
+                "highlight_keyword": "努力することだ"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Đóng vai người đi trước cho lời khuyên dành cho lập trình viên mới vào nghề sử dụng cấu trúc ことだ."
+    },
+    {
+        "pattern": "～せいで",
+        "meaning": "Tại vì... / Do... nên (Kết quả xấu, đổ lỗi)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + せいで",
+            "note": "Tính từ -na giữ nguyên な. Danh từ thêm の. Có thể dùng dạng ～せいにする (đổ lỗi cho)."
+        },
+        "core_nuance": "Dùng khi lý do dẫn tới một kết quả hoàn toàn tiêu cực, mang hàm ý trách móc hoặc biện minh (bao biện).",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 勢 (Thế) trong thế lực, xu hướng xấu.",
+            "story": "Tại cái 'thế lực' (せい) hắc ám đó tạo ra nên mọi chuyện mới be bét như thế này!"
+        },
+        "examples": [
+            {
+                "japanese": "君が失礼なことを言ったせいで、林さんは帰ってしまったよ。",
+                "romaji": "Kimi ga shitsurei na koto o itta sei de, Hayashi-san wa kaette shimatta yo.",
+                "vietnamese": "Chính tại vì cậu nói lời thất lễ nên anh Hayashi đã bỏ về mất rồi đấy.",
+                "highlight_keyword": "言ったせいで"
+            },
+            {
+                "japanese": "彼は試合で負けたのを、天気のせいにした。",
+                "romaji": "Kare wa shiai de maketa no o, tenki no sei ni shita.",
+                "vietnamese": "Anh ta đổ lỗi cho thời tiết về việc mình bị thua trong trận đấu.",
+                "highlight_keyword": "天気のせいにした"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết một lời xin lỗi sếp vì đi muộn và đổ lỗi cho tắc đường sử dụng せいで."
+    },
+    {
+        "pattern": "～たび（に）",
+        "meaning": "Cứ mỗi lần... lại... / Mỗi khi... là luôn...",
+        "connection": {
+            "formula": "V辞書形 / N + の + たび（に）",
+            "note": "Vế sau không dùng để thể hiện các hành động mang tính mục đích hay kết quả tất nhiên của tự nhiên."
+        },
+        "core_nuance": "Nhấn mạnh sự lặp lại, hễ có hành động A xảy ra thì hành động hoặc trạng thái B cũng đồng thời diễn ra theo thói quen.",
+        "mnemonic": {
+            "concept": "Học qua chữ Kanji thành phần",
+            "kanji_link": "Chữ 度 (Độ) nghĩa là lần, mức độ.",
+            "story": "Cứ đến 'mỗi độ' (たび) làm việc đó là y như rằng một chuyện quen thuộc lại tới."
+        },
+        "examples": [
+            {
+                "japanese": "ふるさとに帰るたびに、山に登ることにしている。",
+                "romaji": "Furusato ni kaeru tabi ni, yama ni noboru koto ni shite iru.",
+                "vietnamese": "Cứ mỗi lần về quê, tôi đều quyết định sẽ đi leo núi.",
+                "highlight_keyword": "帰るたびに"
+            },
+            {
+                "japanese": "出張のたびに、その町の名物を食べる。",
+                "romaji": "Shucchou no tabi ni, sono machi no meibutsu o taberu.",
+                "vietnamese": "Mỗi lần đi công tác, tôi đều ăn đặc sản của thành phố đó.",
+                "highlight_keyword": "出張のたびに"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Tạo một câu lãng mạn nói rằng mỗi lần nhìn thấy người ấy thì tim lại đập liên hồi sử dụng たびに."
+    },
+    {
+        "pattern": "～ようにしている",
+        "meaning": "Cố gắng (tạo thói quen) làm/không làm gì...",
+        "connection": {
+            "formula": "V辞書形 / Vない形 + ようにしている",
+            "note": "Thể hiện sự nỗ lực liên tục để biến một hành động thành thói quen lâu dài."
+        },
+        "core_nuance": "Hành động có ý thức, có mục tiêu rõ ràng nhằm duy trì một lối sống hay thói quen tốt cho bản thân.",
+        "mnemonic": {
+            "concept": "Hướng tới mục tiêu",
+            "kanji_link": "ように (Để sao cho) + している (Đang duy trì).",
+            "story": "Đang duy trì hành động (している) hướng về một lối sống lý tưởng (ように) đã vạch sẵn."
+        },
+        "examples": [
+            {
+                "japanese": "体のために、野菜をたくさん食べるようにしている。",
+                "romaji": "Karada no tame ni, yasai o takusan taberu you ni shite iru.",
+                "vietnamese": "Vì sức khỏe, tôi đang cố gắng ăn thật nhiều rau xanh hàng ngày.",
+                "highlight_keyword": "食べるようにしている"
+            },
+            {
+                "japanese": "お酒は好きだが、飲みすぎないようにしている。",
+                "romaji": "Osake wa suki da ga, nomisugina iyou ni shite iru.",
+                "vietnamese": "Tôi rất thích rượu nhưng vẫn luôn cố gắng chú ý không uống quá nhiều.",
+                "highlight_keyword": "飲みすぎないようにしている"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Viết danh sách 3 thói quen tốt của một lập trình viên giỏi bằng cách sử dụng ようにしている."
+    }
+]

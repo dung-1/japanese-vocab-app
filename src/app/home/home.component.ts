@@ -53,6 +53,13 @@ export class HomeComponent {
       gradient: 'linear-gradient(135deg, #7209b7 0%, #f72585 100%)'
     },
     {
+      path: '/grammar',
+      title: 'Học Ngữ Pháp',
+      description: 'Luyện tập các mẫu ngữ pháp N5–N3 với flashcard và kiểm tra trắc nghiệm.',
+      icon: '文',
+      gradient: 'linear-gradient(135deg, #6b46c1 0%, #9f7aea 100%)'
+    },
+    {
       path: '/ai',
       title: 'Trợ lý AI',
       description: 'Hỏi đáp Kanji, từ vựng, bộ thủ, ngữ pháp bằng AI (RAG + Ollama).',

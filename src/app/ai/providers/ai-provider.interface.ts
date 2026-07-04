@@ -29,4 +29,11 @@ export interface AiProvider {
     onError?: ChatErrorHandler,
   ): Promise<ChatStreamHandle>;
   testConnection?(): Promise<{ ok: boolean; message: string }>;
+  /**
+   * Tạo embedding vector cho một đoạn text.
+   * Optional — chỉ implement khi provider hỗ trợ /api/embeddings.
+   * Trả về mảng số thực (thường 768 chiều với nomic-embed-text).
+   * Trả về [] nếu không hỗ trợ hoặc model chưa được pull.
+   */
+  embed?(text: string): Promise<number[]>;
 }

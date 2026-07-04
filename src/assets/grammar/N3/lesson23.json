@@ -1,0 +1,141 @@
+[
+    {
+        "pattern": "～くらい / ～ぐらい",
+        "meaning": "1. Đến mức... 2. Ít nhất thì / Cỡ như... (Hạ thấp mức độ xem nhẹ)",
+        "connection": {
+            "formula": "V / A Thể thông thường / N + くらい",
+            "note": "Tính từ -na giữ nguyên な. Trong bài này tập trung vào nghĩa: Diễn tả mức độ tối thiểu nhẹ nhàng hoặc so sánh đến mức tối đa."
+        },
+        "core_nuance": "Sử dụng một ví dụ điển hình, dễ dàng để biểu thị mức độ cực đoan của sự việc, hoặc thể hiện thái độ coi nhẹ, coi việc đó là cỏn con.",
+        "mnemonic": {
+            "concept": "Vạch ranh giới",
+            "kanji_link": "Chữ 位 (Vị) trong vị trí, ranh giới mức độ.",
+            "story": "Chỉ nằm ở cái 'vị trí ranh giới thấp tịt' (くらい) như thế này mà cũng phải làm ầm lên à?"
+        },
+        "examples": [
+            {
+                "japanese": "ゲームで弟に負けたくらいで泣くなよ。",
+                "romaji": "Geemu de otouto ni maketa kurai de naku na yo.",
+                "vietnamese": "Chỉ vì cái việc cỏn con như thua đứa em trai khi chơi game thôi mà cũng khóc lóc gào lên à, đừng có nín đi.",
+                "highlight_keyword": "負けたくらいで"
+            },
+            {
+                "japanese": "週末くらい、ゆっくり寝させてよ。",
+                "romaji": "Shuumatsu kurai, yukkuri nesasete yo.",
+                "vietnamese": "Ít nhất thì cũng được ngày cuối tuần, hãy để cho tôi yên ổn ngủ một giấc thật sâu đi chứ.",
+                "highlight_keyword": "週末くらい"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Nói một câu an ủi đứa bạn: Chỉ là một lỗi sai chính tả nhỏ nhặt thôi đừng buồn bằng cách dùng くらい."
+    },
+    {
+        "pattern": "～ことから",
+        "meaning": "Căn cứ vào việc... / Xuất phát từ lý do... nên dẫn tới phán đoán/đặt tên",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + ことから",
+            "note": "Tính từ -na dùng である hoặc な. Danh từ dùng である hoặc N+の. Vế sau thường là các từ diễn tả nguồn gốc, phán đoán hoặc việc đặt tên gọi."
+        },
+        "core_nuance": "Chỉ ra manh mối, căn cứ khách quan ban đầu từ đó người ta suy luận ra một kết luận, một cái tên hoặc một sự thật hiển nhiên.",
+        "mnemonic": {
+            "concept": "Điểm khởi nguồn",
+            "kanji_link": "こと (Việc) + から (Từ nguồn gốc).",
+            "story": "Chính xuất phát 'từ cái việc gốc rễ' (ことから) tai nghe mắt thấy đó, ta mới đúc kết ra được kết luận vế sau."
+        },
+        "examples": [
+            {
+                "japanese": "彼女は明るくて優しいことから、みんなに人気がある。",
+                "romaji": "Kanojo wa akarukute yasashii koto kara, minna ni ninki ga aru.",
+                "vietnamese": "Căn cứ từ chính cái việc cô ấy vừa hoạt bát lại tốt bụng, nên cô ấy rất được mọi người xung quanh yêu mến.",
+                "highlight_keyword": "優しいことから"
+            },
+            {
+                "japanese": "その寺はあじさいが美しいことから、あじさい寺と呼ばれている。",
+                "romaji": "Sono tera wa ajisai ga utsukushii koto kara, ajisai-dera to yobarete iru.",
+                "vietnamese": "Xuất phát từ lý do loài hoa cẩm tú cầu ở ngôi chùa đó đẹp mê hồn, nên nó đã được người đời đặt cho cái tên là Chùa Cẩm Tú Cầu.",
+                "highlight_keyword": "美しいことから"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích nguồn gốc tên gọi của một món ăn hay một địa danh nổi tiếng của Việt Nam bằng cấu trúc ことから."
+    },
+    {
+        "pattern": "～というのは",
+        "meaning": "Cái gọi là... nghĩa là... (Dùng để định nghĩa, giải thích từ ngữ)",
+        "connection": {
+            "formula": "N + というのは",
+            "note": "Vế sau thường kết thúc bằng các cụm từ định nghĩa rõ ràng như: ～のことだ, ～という意味だ."
+        },
+        "core_nuance": "Đưa một thuật ngữ, từ vựng mới lạ lên làm chủ đề để giải nghĩa cặn kẽ bản chất của nó cho người nghe hiểu rõ.",
+        "mnemonic": {
+            "concept": "Mở rộng khái niệm",
+            "kanji_link": "という (Nói rằng) + のは (Cái việc đó thì là).",
+            "story": "Cái việc mà người ta cứ hay mở mồm ra 'nói rằng' (tương đương というのは) đó, bản chất của nó là như này này."
+        },
+        "examples": [
+            {
+                "japanese": "「就活」というのは就職活動のことですよ。",
+                "romaji": "Shuukatsu to iu no wa shuushoku katsudou no koto desu yo.",
+                "vietnamese": "Cái cụm từ viết tắt 'Shuukatsu' ấy, thực chất chính là gọi tắt của hoạt động tìm kiếm việc làm đấy bạn ơi.",
+                "highlight_keyword": "就活」というのは"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Giải thích cho một người nước ngoài hiểu ý nghĩa của từ ngữ mạng 'GATO' hay một từ lóng bằng mẫu というのは."
+    },
+    {
+        "pattern": "～なんか / ～なんて",
+        "meaning": "Mấy cái thứ cỡ như... / Cái loại như... (Sự coi thường, xem nhẹ hoặc khiêm tốn cực độ)",
+        "connection": {
+            "formula": "N / V Thể thông thường + なんか / なんて",
+            "note": "Là văn nói suồng sã của trợ từ も or など. Thể hiện cảm xúc ngạc nhiên vô bờ bến hoặc phủ định sạch trơn."
+        },
+        "core_nuance": "Dùng khi muốn biểu thị thái độ xem nhẹ đối tượng, cho rằng nó không có giá trị to tát, hoặc dùng để tự hạ thấp mình khi nhận lời khen ngợi.",
+        "mnemonic": {
+            "concept": "Hạ bệ giá trị",
+            "kanji_link": "Âm thanh: Nanh-ka nghe giống như tiếng xì xào, gạt phắt đi.",
+            "story": "Mấy cái 'thứ vớ vẩn cỡ như thế' (なんか) thì đừng có mang ra đây mà lòe tôi, không thèm chấp nhé!"
+        },
+        "examples": [
+            {
+                "japanese": "他人の悪口なんか、気にしちゃだめですよ。",
+                "romaji": "Tanin no waruguchi nanka, ki ni shicha dame desu yo.",
+                "vietnamese": "Mấy cái thứ lời nói xấu sau lưng của thiên hạ ấy, cậu tuyệt đối đừng thèm bận tâm làm gì cho mệt người.",
+                "highlight_keyword": "悪口なんか"
+            },
+            {
+                "japanese": "7月に雪など降るはずがない。",
+                "romaji": "Shichigatsu ni yuki nado furu hazu ga nai.",
+                "vietnamese": "Cái chuyện đời đời kiếp kiếp hoang đường cỡ như tuyết rơi vào giữa tháng 7 nóng nực thì tuyệt đối không bao giờ có khả năng xảy ra.",
+                "highlight_keyword": "雪など"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Khi được khen nói tiếng Nhật giỏi như người bản xứ, hãy dùng なんて để từ chối một cách khiêm tốn."
+    },
+    {
+        "pattern": "～はずがない",
+        "meaning": "Chắc chắn không thể nào... / Làm sao mà... cho được (Phủ định dựa trên niềm tin lý trí vững chắc)",
+        "connection": {
+            "formula": "Thể thông thường (普通形) + はずがない",
+            "note": "Tính từ -na giữ nguyên な hoặc dùng である. Danh từ dùng の hoặc である. Đồng nghĩa hoàn toàn với わけがない."
+        },
+        "core_nuance": "Người nói dựa vào một niềm tin mạnh mẽ từ kiến thức, kinh nghiệm, quy luật tự nhiên đã biết để khẳng định chắc như đinh đóng cột rằng sự việc vế trước không thể xảy ra.",
+        "mnemonic": {
+            "concept": "Mất đi quỹ đạo chuẩn",
+            "kanji_link": "Chữ 筈 (Hạt) nghĩa là rãnh mũi tên, quỹ đạo bắn.",
+            "story": "Xét theo cái 'quỹ đạo logic thông thường' (はず) thì hoàn toàn 'không có cửa' (がない) để chuyện vô lý đó xảy ra!"
+        },
+        "examples": [
+            {
+                "japanese": "先週帰国したヤンさんが、日本にいるはずがない。",
+                "romaji": "Senshuu kikoku shita Yan-san ga, Nihon ni iru hazu ga nai.",
+                "vietnamese": "Anh Jan đã làm thủ tục bay về nước từ tuần trước rồi, làm sao mà bây giờ vẫn còn có mặt ở Nhật Bản cho được.",
+                "highlight_keyword": "いるはずがない"
+            },
+            {
+                "japanese": "このすしはプロが作ったから、まずいはずがない。",
+                "romaji": "Kono sushi wa puro ga tsukutta kara, mazui hazu ga nai.",
+                "vietnamese": "Món sushi này được làm từ chính đôi bàn tay của một đầu bếp chuyên nghiệp lâu năm, chắc chắn không thể nào dở được.",
+                "highlight_keyword": "まずいはずがない"
+            }
+        ],
+        "ai_ollama_prompt_hint": "Bác bỏ một tin đồn rằng bài kiểm tra ngày mai được hủy bỏ bằng mẫu はずがない."
+    }
+]

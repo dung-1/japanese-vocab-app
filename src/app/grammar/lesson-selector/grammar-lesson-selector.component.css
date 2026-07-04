@@ -1,0 +1,51 @@
+.lesson-selector {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.selector-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 16px;
+}
+
+.selector-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.selector-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #6b46c1;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.selector-group select {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #e9d8fd;
+  background: #fff;
+  color: #2d3748;
+  min-width: 140px;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+.selector-group select:focus {
+  border-color: #9f7aea;
+  box-shadow: 0 0 0 3px rgba(159, 122, 234, 0.18);
+}
