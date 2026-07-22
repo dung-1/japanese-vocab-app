@@ -88,13 +88,11 @@ export class GrammarService {
     type: GrammarQuizQuestion['type'],
     allItems: GrammarItem[]
   ): GrammarQuizQuestion {
-    const distractors = this.getDistractors(item, allItems);
-
     switch (type) {
       case 'meaning-to-pattern': {
-        const options = this.shuffle([item.pattern, ...distractors.map(d => d.pattern)]);
+        const options = this.getOptions(item.pattern, item, allItems, i => i.pattern);
         return {
-          id: `${item.id}-mp`,
+          id: `${item.id ?? item.pattern}-mp`,
           type,
           question: `"${item.meaning}" tương ứng với mẫu ngữ pháp nào?`,
           correctAnswer: item.pattern,
@@ -103,9 +101,9 @@ export class GrammarService {
         };
       }
       case 'pattern-to-meaning': {
-        const options = this.shuffle([item.meaning, ...distractors.map(d => d.meaning)]);
+        const options = this.getOptions(item.meaning, item, allItems, i => i.meaning);
         return {
-          id: `${item.id}-pm`,
+          id: `${item.id ?? item.pattern}-pm`,
           type,
           question: `Mẫu ngữ pháp "${item.pattern}" có nghĩa là gì?`,
           correctAnswer: item.meaning,
@@ -114,9 +112,9 @@ export class GrammarService {
         };
       }
       case 'formula-check': {
-        const options = this.shuffle([item.connection.formula, ...distractors.map(d => d.connection.formula)]);
+        const options = this.getOptions(item.connection.formula, item, allItems, i => i.connection.formula);
         return {
-          id: `${item.id}-fc`,
+          id: `${item.id ?? item.pattern}-fc`,
           type,
           question: `Cách nối "${item.pattern}" vào câu là gì?`,
           correctAnswer: item.connection.formula,
@@ -126,22 +124,22 @@ export class GrammarService {
       }
       case 'example-match': {
         const example = item.examples[0];
-        const options = this.shuffle([item.pattern, ...distractors.map(d => d.pattern)]);
+        const options = this.getOptions(item.pattern, item, allItems, i => i.pattern);
         return {
-          id: `${item.id}-em`,
+          id: `${item.id ?? item.pattern}-em`,
           type,
-          question: `Câu "${example.english}" dùng mẫu ngữ pháp nào?`,
+          question: `Câu "${example.vietnamese}" dùng mẫu ngữ pháp nào?`,
           correctAnswer: item.pattern,
           options,
           grammarItem: item,
         };
       }
       case 'fill-blank': {
-        const example = item.examples[0] ?? { japanese: item.pattern, reading: '', english: '' };
+        const example = item.examples[0] ?? { japanese: item.pattern, romanji: '', vietnamese: '' };
         const blanked = example.japanese.replace(item.pattern, '___');
-        const options = this.shuffle([item.pattern, ...distractors.map(d => d.pattern)]);
+        const options = this.getOptions(item.pattern, item, allItems, i => i.pattern);
         return {
-          id: `${item.id}-fb`,
+          id: `${item.id ?? item.pattern}-fb`,
           type,
           question: `Điền vào chỗ trống: "${blanked}"`,
           correctAnswer: item.pattern,
@@ -152,8 +150,32 @@ export class GrammarService {
     }
   }
 
-  private getDistractors(item: GrammarItem, allItems: GrammarItem[]): GrammarItem[] {
-    return this.shuffle(allItems.filter(i => i.id !== item.id)).slice(0, 3);
+  private getOptions(
+    correctValue: string,
+    currentItem: GrammarItem,
+    allItems: GrammarItem[],
+    selector: (item: GrammarItem) => string
+  ): string[] {
+    const uniqueOptions = new Set<string>([correctValue]);
+    const distractorValues = this.shuffle(
+      allItems
+        .filter(item => !this.isSameItem(item, currentItem))
+        .map(selector)
+        .filter(value => value && value !== correctValue)
+    );
+
+    for (const value of distractorValues) {
+      if (uniqueOptions.size >= 4) break;
+      uniqueOptions.add(value);
+    }
+
+    const result = Array.from(uniqueOptions);
+    return this.shuffle(result);
+  }
+
+  private isSameItem(a: GrammarItem, b: GrammarItem): boolean {
+    if (a.id && b.id) return a.id === b.id;
+    return a.pattern === b.pattern && a.meaning === b.meaning;
   }
 
   // ─── Stats ────────────────────────────────────────────────────────────────

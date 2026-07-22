@@ -1,7 +1,8 @@
 export interface GrammarExample {
   japanese: string;
   reading: string;
-  english: string;
+  vietnamese: string;
+  romaji: string;
 }
 
 export interface GrammarConnection {

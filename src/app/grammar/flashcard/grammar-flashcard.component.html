@@ -42,12 +42,12 @@
       <div class="fc-section fc-examples">
         <div class="fc-section-label">📝 Ví dụ</div>
         <div class="fc-example-item" *ngFor="let ex of current?.examples; let i = index">
+          <div class="fc-ex-reading" *ngIf="showReading[i]">{{ ex.romaji }}</div>
           <div class="fc-ex-jp">
             {{ ex.japanese }}
             <button class="fc-speak-btn" (click)="speak(ex.japanese, $event)" title="Nghe">🔊</button>
           </div>
-          <div class="fc-ex-reading" *ngIf="showReading[i]">{{ ex.reading }}</div>
-          <div class="fc-ex-en">{{ ex.english }}</div>
+          <div class="fc-ex-en">{{ ex.vietnamese }}</div>
           <button class="fc-toggle-reading" (click)="toggleReading(i); $event.stopPropagation()">
             {{ showReading[i] ? '▲ Ẩn furigana' : '▼ Hiện furigana' }}
           </button>

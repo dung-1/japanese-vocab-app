@@ -45,6 +45,7 @@ export class GrammarFlashcardComponent implements OnChanges, OnDestroy {
     if (this.currentIndex < this.items.length - 1) {
       this.currentIndex++;
       this.isFlipped = false;
+      this.initReadingState();
     }
   }
 
@@ -52,10 +53,15 @@ export class GrammarFlashcardComponent implements OnChanges, OnDestroy {
     if (this.currentIndex > 0) {
       this.currentIndex--;
       this.isFlipped = false;
+      this.initReadingState();
     }
   }
 
   toggleReading(i: number): void {
+    if (this.showReading.length !== (this.current?.examples?.length ?? 0)) {
+      this.initReadingState();
+    }
+
     this.showReading[i] = !this.showReading[i];
   }
 
@@ -70,6 +76,10 @@ export class GrammarFlashcardComponent implements OnChanges, OnDestroy {
   private reset(): void {
     this.currentIndex = 0;
     this.isFlipped = false;
-    this.showReading = Array(this.items.length).fill(false);
+    this.initReadingState();
+  }
+
+  private initReadingState(): void {
+    this.showReading = Array(this.current?.examples?.length ?? 0).fill(false);
   }
 }
