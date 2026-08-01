@@ -16,7 +16,7 @@ export function buildSearchTokens(item: KnowledgeItem): string[] {
   const raw = item.raw as Record<string, unknown>;
 
   // Common fields
-  for (const key of ['kanji', 'radical', 'japanese', 'hiragana', 'hanViet', 'amHan', 'nghia', 'meaning', 'romaji', 'vietnamese']) {
+  for (const key of ['kanji', 'radical', 'japanese', 'hiragana', 'hanViet', 'amHan', 'nghia', 'meaning', 'romaji', 'vietnamese', 'pattern', 'core_nuance', 'ai_ollama_prompt_hint']) {
     const v = raw[key];
     if (typeof v === 'string' && v.trim()) {
       tokens.add(normalizeQuery(v));
@@ -45,6 +45,10 @@ export function buildSearchTokens(item: KnowledgeItem): string[] {
         if (typeof e['word'] === 'string') tokens.add(normalizeQuery(e['word'] as string));
         if (typeof e['reading'] === 'string') tokens.add(normalizeQuery(e['reading'] as string));
         if (typeof e['meaning'] === 'string') tokens.add(normalizeVi(e['meaning'] as string));
+        if (typeof e['japanese'] === 'string') tokens.add(normalizeQuery(e['japanese'] as string));
+        if (typeof e['romaji'] === 'string') tokens.add(normalizeQuery(e['romaji'] as string));
+        if (typeof e['vietnamese'] === 'string') tokens.add(normalizeVi(e['vietnamese'] as string));
+        if (typeof e['highlight_keyword'] === 'string') tokens.add(normalizeQuery(e['highlight_keyword'] as string));
       }
     }
   }
@@ -109,6 +113,8 @@ function extractPrimary(
       return String(r['radical'] ?? '');
     case 'reduplicative':
       return String(r['japanese'] ?? '');
+    case 'grammar':
+      return String(r['pattern'] ?? r['meaning'] ?? r['japanese'] ?? '');
     default:
       return String(r['kanji'] ?? r['radical'] ?? r['japanese'] ?? '');
   }

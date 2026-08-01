@@ -105,6 +105,28 @@ export class PromptBuilderService {
           `Loại: ${r['category']}`,
         ].join('\n');
       }
+      case 'grammar': {
+        const conn = r['connection'] as Record<string, unknown> | undefined;
+        const mnem = r['mnemonic'] as Record<string, unknown> | undefined;
+        const exs = Array.isArray(r['examples'])
+          ? (r['examples'] as Array<Record<string, unknown>>)
+              .slice(0, 2)
+              .map((e) => `  - ${e['japanese']} (${e['reading']}): ${e['english']}`)
+              .join('\n')
+          : '';
+        return [
+          `ID: ${item.id} | Bài: ${item.lessonNumber ?? '?'} ${item.level ?? ''}`,
+          `Mẫu câu: ${r['pattern']}`,
+          `Nghĩa: ${r['meaning']}`,
+          conn ? `Cấu trúc: ${conn['formula']}` : '',
+          conn?.['note'] ? `Lưu ý: ${conn['note']}` : '',
+          r['core_nuance'] ? `Sắc thái: ${r['core_nuance']}` : '',
+          mnem?.['story'] ? `Ghi nhớ: ${mnem['story']}` : '',
+          exs ? `Ví dụ:\n${exs}` : '',
+        ]
+          .filter(Boolean)
+          .join('\n');
+      }
       default:
         return `ID: ${item.id}\n` + JSON.stringify(r).slice(0, 300);
     }

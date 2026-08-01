@@ -19,42 +19,57 @@ export class SearchEngineService {
 
   /**
    * Tìm kiếm kết hợp Keyword và Semantic.
-   * Chiến lược: Ưu tiên Keyword Match (Exact) > Semantic Match > Keyword Match (Fuzzy).
+   * Nếu query chỉ rõ bài/level (ví dụ "bài 1 N3"), ưu tiên items đó trước.
    */
   async search(query: string, items: KnowledgeItem[], topK = 5): Promise<SearchHit[]> {
     if (!query || !items || items.length === 0) return [];
-    
-    // 1. Keyword search - Luôn chạy để đảm bảo độ chính xác tuyệt đối
+
+    // Trích xuất lesson/level từ query nếu user chỉ định
+    const lessonHint  = this.extractLessonHint(query);
+    const levelHint   = this.extractLevelHint(query);
+
+    // 1. Keyword search
     const keywordHits = this.keywordSearch(query, items);
 
-    // 2. Semantic search - Hỗ trợ tìm kiếm theo ý nghĩa
+    // 2. Semantic search
     const semanticHits = await this.semanticSearch(query, items);
 
-    // 3. Merge kết quả
-    // Tạo Map để deduplicate dựa trên item.id
+    // 3. Merge
     const finalMap = new Map<string, SearchHit>();
-
-    // Thêm Keyword hits trước
-    for (const hit of keywordHits) {
-      finalMap.set(hit.item.id, hit);
-    }
-
-    // Thêm Semantic hits: chỉ ghi đè nếu score semantic vượt trội 
-    // hoặc nếu keyword chưa tìm thấy (để tránh semantic làm nhiễu exact match)
+    for (const hit of keywordHits)  finalMap.set(hit.item.id, hit);
     for (const sHit of semanticHits) {
       const existing = finalMap.get(sHit.item.id);
-      if (!existing || sHit.score > (existing.score + 1)) { 
-        // Chỉ ghi đè nếu score semantic cao hơn đáng kể hoặc chưa có
+      if (!existing || sHit.score > (existing.score + 1)) {
         finalMap.set(sHit.item.id, sHit);
       }
     }
 
+    // 4. Boost items khớp lesson + level hint
+    if (lessonHint !== null || levelHint !== null) {
+      for (const hit of finalMap.values()) {
+        let boost = 0;
+        if (lessonHint !== null && hit.item.lessonNumber === lessonHint) boost += 3;
+        if (levelHint  !== null && hit.item.level        === levelHint)  boost += 2;
+        if (boost > 0) hit.score += boost;
+      }
+    }
+
     const sorted = Array.from(finalMap.values()).sort((a, b) => b.score - a.score);
-    
-    // Debug log để theo dõi tại sao mất dữ liệu
-    console.log(`[SearchEngine] Query: "${query}" | Keyword Hits: ${keywordHits.length} | Semantic Hits: ${semanticHits.length} | Final: ${sorted.length}`);
-    
+    console.log(`[SearchEngine] "${query}" | kw:${keywordHits.length} sem:${semanticHits.length} final:${sorted.length} lesson:${lessonHint} level:${levelHint}`);
     return sorted.slice(0, topK);
+  }
+
+  /** Đọc số bài từ query, ví dụ "bài 1" -> 1 */
+  private extractLessonHint(query: string): number | null {
+    const m = query.match(/b[aài]+\s*(\d+)/i) ?? query.match(/lesson\s*(\d+)/i);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
+  /** Đọc level từ query, ví dụ "N3" -> 'N3' */
+  private extractLevelHint(query: string): 'N2' | 'N3' | 'N4' | null {
+    const m = query.match(/\bN([234])\b/);
+    if (!m) return null;
+    return `N${m[1]}` as 'N2' | 'N3' | 'N4';
   }
 
   private keywordSearch(query: string, items: KnowledgeItem[]): SearchHit[] {

@@ -26,10 +26,13 @@ const HARDCODED_RULES: ManifestRule[] = [
   { domain: 'kanji-word', level: 'N3', pathTemplate: 'assets/kanji-words-data/N3/lesson{1-30}.json' },
   { domain: 'kanji-word', level: 'N4', pathTemplate: 'assets/kanji-words-data/N4/lesson{1-26}.json' },
   { domain: 'kanji-word', level: 'N2', pathTemplate: 'assets/kanji-words-data/N2/lesson{1-48}.json' },
-  { domain: 'vocab', level: 'N3', pathTemplate: 'assets/vocab-data/N3/lesson{1-22}.json' },
-  { domain: 'vocab', level: 'N4', pathTemplate: 'assets/vocab-data/N4/lesson{1-25}.json' },
-  { domain: 'radical', pathTemplate: 'assets/kanji-radicard-data/lesson{1-17}.json' },
-  { domain: 'reduplicative', pathTemplate: 'assets/reduplicative-words-data/lesson{1-10}.json' },
+  { domain: 'vocab',      level: 'N3', pathTemplate: 'assets/vocab-data/N3/lesson{1-22}.json' },
+  { domain: 'vocab',      level: 'N4', pathTemplate: 'assets/vocab-data/N4/lesson{1-25}.json' },
+  { domain: 'radical',               pathTemplate: 'assets/kanji-radicard-data/lesson{1-17}.json' },
+  { domain: 'reduplicative',         pathTemplate: 'assets/reduplicative-words-data/lesson{1-10}.json' },
+  // Grammar: file format la 'N3-lesson1.json' (flat, khong co subfolder)
+  // Mo rong so bai khi co them JSON data
+  { domain: 'grammar', level: 'N3', pathTemplate: 'assets/grammar/N3-lesson{1-1}.json' },
 ];
 
 @Injectable({ providedIn: 'root' })
@@ -69,12 +72,14 @@ export class KnowledgeService {
         try {
           const data = await firstValueFrom(this.http.get<unknown[]>(url, { responseType: 'json' }));
           if (!Array.isArray(data)) continue;
+          const lessonNumber = parseLessonNumber(url);
           for (let i = 0; i < data.length; i++) {
             const raw = data[i] as Record<string, unknown>;
             const item = this.buildItem(rule.domain, raw as unknown, {
               level: rule.level,
               fileUrl: url,
               index: i,
+              lessonNumber,
             });
             if (item) {
               index.byDomain[rule.domain].push(item);
@@ -112,19 +117,21 @@ export class KnowledgeService {
   private buildItem(
     domain: KnowledgeDomain,
     raw: unknown,
-    meta: { level?: 'N2' | 'N3' | 'N4'; fileUrl: string; index: number },
+    meta: { level?: 'N2' | 'N3' | 'N4'; fileUrl: string; index: number; lessonNumber?: number },
   ): KnowledgeItem | null {
     const id = `${domain}:${meta.level ?? 'x'}:${meta.fileUrl.split('/').pop()}:${meta.index}`;
     try {
       switch (domain) {
         case 'kanji-word':
-          return toKnowledgeItem('kanji-word', raw as unknown as KanjiWordRaw, { id, level: meta.level });
+          return toKnowledgeItem('kanji-word', raw as unknown as KanjiWordRaw, { id, level: meta.level, lessonNumber: meta.lessonNumber });
         case 'vocab':
-          return toKnowledgeItem('vocab', raw as unknown as VocabRaw, { id, level: meta.level });
+          return toKnowledgeItem('vocab', raw as unknown as VocabRaw, { id, level: meta.level, lessonNumber: meta.lessonNumber });
         case 'radical':
-          return toKnowledgeItem('radical', raw as unknown as KanjiRadicalRaw, { id });
+          return toKnowledgeItem('radical', raw as unknown as KanjiRadicalRaw, { id, lessonNumber: meta.lessonNumber });
         case 'reduplicative':
-          return toKnowledgeItem('reduplicative', raw as unknown as ReduplicativeRaw, { id });
+          return toKnowledgeItem('reduplicative', raw as unknown as ReduplicativeRaw, { id, lessonNumber: meta.lessonNumber });
+        case 'grammar':
+          return toKnowledgeItem('grammar', raw as Record<string, unknown>, { id, level: meta.level, lessonNumber: meta.lessonNumber });
         default:
           return null;
       }
@@ -158,14 +165,20 @@ export class KnowledgeService {
 }
 
 function expandTemplate(template: string): string[] {
-  const match = template.match(/^(.+)\\{(\\d+)-(\\d+)\\}(.+)$/);
+  // QUAN TRONG: dung /\{(\d+)-(\d+)\}/ KHONG PHAI /\\{(\\d+)-(\\d+)\\}/
+  // \{ trong regex literal = escaped brace = match dau '{' binh thuong
+  const match = template.match(/^(.+)\{(\d+)-(\d+)\}(.+)$/);
   if (!match) return [template];
   const [, prefix, startStr, endStr, suffix] = match;
   const start = parseInt(startStr, 10);
-  const end = parseInt(endStr, 10);
+  const end   = parseInt(endStr,   10);
   const urls: string[] = [];
   for (let i = start; i <= end; i++) {
     urls.push(`${prefix}${i}${suffix}`);
   }
   return urls;
+}
+function parseLessonNumber(fileUrl: string): number | undefined {
+  const match = fileUrl.match(/lesson(\d+)\.json$/);
+  return match ? Number(match[1]) : undefined;
 }

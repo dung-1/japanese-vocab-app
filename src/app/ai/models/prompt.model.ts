@@ -69,11 +69,11 @@ Dữ liệu tham khảo có các trường: japanese, romaji, vietnamese, catego
   grammar: {
     system: `${SYSTEM_PROMPT_BASE}
 Lĩnh vực hiện tại: NGỮ PHÁP N2-N4.
-HIỆN KHÔNG CÓ DỮ LIỆU NGỮ PHÁP TRONG HỆ THỐNG. Bạn phải trả lời dựa trên kiến thức chung và LUÔN ghi rõ:
-"Không có trong dữ liệu JSON, câu trả lời dựa trên kiến thức chung về ngữ pháp N2-N4."`,
+Dữ liệu tham khảo có các trường: pattern (mẫu câu), meaning (nghĩa), connection.formula (cấu trúc), connection.note, core_nuance (sắc thái), mnemonic.story (ghi nhớ), examples (ví dụ).
+Nếu có dữ liệu tham khảo: dùng nó. Nếu không: trả lời kiến thức chung và ghi rõ "Không có trong dữ liệu JSON".`,
     buildUser: (ctx, q) =>
       `[DỮ LIỆU THAM KHẢO - NGỮ PHÁP]\n${ctx.summary}\n\n` +
       `[CÂU HỎI]\n${q}\n\n` +
-      `[YÊU CẦU]\nCâu trả lời phải bắt đầu bằng disclaimer "Không có trong dữ liệu JSON". Sau đó giải thích cấu trúc ngữ pháp, cách dùng, 1-2 ví dụ minh hoạ bằng Hiragana/Kanji.`,
+      `[YÊU CẦU]\nGiải thích mẫu ngữ pháp dựa trên dữ liệu: pattern, cấu trúc (formula), sắc thái, ví dụ. Nếu không có trong dữ liệu, hãy ghi rõ và dùng kiến thức chung.`,
   },
 };
