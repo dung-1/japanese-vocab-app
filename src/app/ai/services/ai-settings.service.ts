@@ -14,9 +14,26 @@ export class AiSettingsService {
   readonly model = computed(() => this._settings().model);
   readonly streaming = computed(() => this._settings().streaming);
 
+  /** 
+   * Base URL for API requests. 
+   * On Web: uses window.location.origin.
+   * On Android/iOS (APK): uses production server URL.
+   */
+  readonly baseUrl = computed(() => {
+    if (!isPlatformBrowser(this.platformId)) return '';
+    
+    const origin = window.location.origin;
+    // Check if running under capacitor/cordova or file system
+    if (origin.startsWith('capacitor://') || origin.startsWith('file://') || origin.includes('localhost')) {
+      // REPLACE with your actual deployed Vercel domain
+      return 'https://japanese-vocab-app.vercel.app'; 
+    }
+    
+    return origin;
+  });
+
   constructor() {
     if (isPlatformBrowser(this.platformId)) {
-      // Listen for storage events from other tabs
       window.addEventListener('storage', (e) => {
         if (e.key === STORAGE_KEY && e.newValue) {
           try {
@@ -54,11 +71,10 @@ export class AiSettingsService {
       if (!raw) return { ...DEFAULT_AI_SETTINGS };
       const parsed = JSON.parse(raw) as Partial<AiSettings>;
       const merged: AiSettings = { ...DEFAULT_AI_SETTINGS, ...parsed };
-      // Migration: nếu dùng Local provider nhưng model là cloud model → reset về local model
       const CLOUD_MODEL_SUFFIXES = [':cloud', '-cloud'];
       const isCloudModelName = CLOUD_MODEL_SUFFIXES.some(s => (merged.model ?? '').endsWith(s));
       if (merged.provider === 'local' && isCloudModelName) {
-        merged.model = DEFAULT_AI_SETTINGS.model; // reset về qwen3:0.6b
+        merged.model = DEFAULT_AI_SETTINGS.model;
         console.log('[AiSettingsService] Migrated cloud model name to local default:', merged.model);
       }
       return merged;

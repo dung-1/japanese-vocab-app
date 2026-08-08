@@ -9,11 +9,11 @@ import {
   ChatErrorHandler,
 } from './ai-provider.interface';
 import { parseNdjson } from '../utils/abortable-stream.util';
+import { AiSettingsService } from '../services/ai-settings.service';
+import { environment } from '../../../environments/environment';
 
 /**
- * Ollama Cloud provider - goi qua server-side proxy /api/chat.
- * Browser khong the goi truc tiep https://ollama.com/api/generate (no CORS).
- * Server (src/server.ts) forward request toi Ollama Cloud voi Bearer Token.
+ * Ollama Cloud provider - gọi qua server-side proxy /api/chat.
  */
 @Injectable({ providedIn: 'root' })
 export class CloudProvider implements AiProvider {
@@ -21,6 +21,7 @@ export class CloudProvider implements AiProvider {
   readonly name = 'Ollama Cloud (via proxy)';
 
   private readonly platformId = inject(PLATFORM_ID);
+  private readonly settingsSvc = inject(AiSettingsService);
 
   private apiKey = '';
   private model = 'nemotron-3-super:cloud';
@@ -39,17 +40,16 @@ export class CloudProvider implements AiProvider {
     onError?: ChatErrorHandler,
   ): Promise<ChatStreamHandle> {
     if (!isPlatformBrowser(this.platformId)) {
-      onError?.(new Error('Cloud provider chi kha dung tren trinh duyet.'));
-      return { abort: () => {} };
-    }
-    if (!this.apiKey) {
-      onError?.(
-        new Error('Chua nhap Cloud API Key. Vao AI Settings de cau hinh.'),
-      );
+      onError?.(new Error('Cloud provider chỉ khả dụng trên trình duyệt.'));
       return { abort: () => {} };
     }
 
-    const fullPrompt = request.system ? request.system + '\\n\\n' + request.user : request.user;
+    if (!this.apiKey) {
+      onError?.(new Error('Chưa nhập Cloud API Key.'));
+      return { abort: () => {} };
+    }
+
+    const fullPrompt = request.system ? request.system + '\n\n' + request.user : request.user;
     const body = {
       provider: 'cloud',
       apiKey: this.apiKey,
@@ -60,7 +60,8 @@ export class CloudProvider implements AiProvider {
 
     const controller = new AbortController();
     try {
-      const res = await fetch(this.proxyUrl, {
+      const baseUrl = this.settingsSvc.baseUrl();
+      const res = await fetch(`${baseUrl}${this.proxyUrl}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
@@ -69,27 +70,18 @@ export class CloudProvider implements AiProvider {
 
       if (!res.ok) {
         const text = await res.text().catch(() => '');
-        let msg = 'HTTP ' + res.status;
-        try {
-          const parsed = JSON.parse(text);
-          msg = parsed.error ? parsed.error + ': ' + (parsed.message ?? parsed.detail ?? '') : msg;
-        } catch {
-          msg = msg + ': ' + (text || res.statusText);
-        }
-        onError?.(new Error(msg));
+        onError?.(new Error(`HTTP ${res.status}: ${text}`));
         return { abort: () => controller.abort() };
       }
+
       if (!res.body) {
-        onError?.(new Error('Response khong co body stream'));
+        onError?.(new Error('Response không có body stream'));
         return { abort: () => controller.abort() };
       }
 
       (async () => {
         try {
-          for await (const evt of parseNdjson(
-            res.body as ReadableStream<Uint8Array>,
-            controller.signal,
-          )) {
+          for await (const evt of parseNdjson(res.body as ReadableStream<Uint8Array>, controller.signal)) {
             const ev = evt as { response?: string; done?: boolean; error?: string };
             if (ev.error) {
               onError?.(new Error(ev.error));
@@ -111,18 +103,16 @@ export class CloudProvider implements AiProvider {
 
       return { abort: () => controller.abort() };
     } catch (e) {
-      const err = e as Error;
-      onError?.(err);
+      onError?.(e as Error);
       return { abort: () => controller.abort() };
     }
   }
 
   async testConnection(): Promise<{ ok: boolean; message: string; preview?: string }> {
-    if (!this.apiKey) {
-      return { ok: false, message: 'Chua nhap API Key.' };
-    }
+    if (!this.apiKey) return { ok: false, message: 'Chưa nhập Cloud API Key.' };
     try {
-      const res = await fetch(this.proxyUrl, {
+      const baseUrl = this.settingsSvc.baseUrl();
+      const res = await fetch(`${baseUrl}${this.proxyUrl}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -133,58 +123,29 @@ export class CloudProvider implements AiProvider {
           stream: false,
         }),
       });
-      if (!res.ok) {
-        const text = await res.text();
-        let msg = 'HTTP ' + res.status;
-        try {
-          const parsed = JSON.parse(text);
-          msg = parsed.detail ?? parsed.error ?? msg;
-          return { ok: false, message: String(msg).slice(0, 300) };
-        } catch {
-          return { ok: false, message: (msg + ': ' + text).slice(0, 300) };
-        }
-      }
+      if (!res.ok) return { ok: false, message: `HTTP ${res.status}` };
       const data = await res.json();
-      const preview = (data.response ?? '').slice(0, 200);
-      return {
-        ok: true,
-        message: 'Connected to Ollama Cloud (model: ' + this.model + ')',
-        preview,
-      };
+      return { ok: true, message: 'Connected', preview: (data.response ?? '').slice(0, 200) };
     } catch (e) {
-      const err = e as Error;
-      return { ok: false, message: err.message };
+      return { ok: false, message: (e as Error).message };
     }
   }
 
   async embed(text: string): Promise<number[]> {
-    if (!this.apiKey) {
-      throw new Error('Chua nhap Cloud API Key.');
-    }
-
-    const body = {
-      provider: 'cloud',
-      apiKey: this.apiKey,
-      model: 'nomic-embed-text',
-      prompt: text,
-    };
-
-    const res = await fetch('/api/embeddings', {
+    if (!this.apiKey) throw new Error('Chưa nhập Cloud API Key.');
+    const baseUrl = this.settingsSvc.baseUrl();
+    const res = await fetch(`${baseUrl}/api/embeddings`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
+      body: JSON.stringify({
+        provider: 'cloud',
+        apiKey: this.apiKey,
+        model: 'nomic-embed-text',
+        prompt: text,
+      }),
     });
-
-    if (!res.ok) {
-      const textErr = await res.text().catch(() => '');
-      throw new Error(`Cloud Embedding HTTP ${res.status}: ${textErr || res.statusText}`);
-    }
-
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    if (!data.embedding) {
-      throw new Error('Cloud Embedding response không có trường embedding');
-    }
-
     return data.embedding;
   }
 }

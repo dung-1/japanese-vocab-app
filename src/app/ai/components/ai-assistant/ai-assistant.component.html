@@ -1,71 +1,120 @@
-<div class="ai-container">
-  <div class="top-bar">
-    <button class="back-btn" (click)="goHome()">← Trang chủ</button>
-    <div class="top-bar-right">
-      <span class="session-indicator" *ngIf="sessionInfo() as s" [title]="s.label">
-        💬 {{ s.label }} ({{ s.messageCount }})
-      </span>
-      <button
-        class="clear-btn"
-        type="button"
-        (click)="clearChat()"
-        [disabled]="ai.messages().length === 0"
-        title="Xóa lịch sử chat và bắt đầu phiên mới"
-      >
-        🗑️ Xóa chat
-      </button>
-      <a routerLink="/ai/settings" class="settings-link">⚙️ Settings</a>
+<div class="ai-page">
+  <!-- Sidebar -->
+  <app-chat-history-sidebar 
+    *ngIf="sidebarOpen()"
+    [sessions]="sessions()"
+    [currentSessionId]="currentSessionId()"
+    [loading]="sessionsLoading()"
+    (sessionSelected)="onSessionSelected($event)"
+    (newChat)="onNewChat()"
+    (deleteSession)="onDeleteSession($event)"
+    (renameSession)="onRenameSession($event)"
+  ></app-chat-history-sidebar>
+
+  <!-- Main Chat Area -->
+  <div class="chat-area">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <button class="menu-toggle" (click)="toggleSidebar()">
+          {{ sidebarOpen() ? '◀' : '▶' }}
+        </button>
+        <button class="back-btn" (click)="goHome()">← Trang chủ</button>
+      </div>
+      
+      <div class="top-bar-right">
+        <span class="session-indicator" *ngIf="sessionInfo() as s" [title]="s.label">
+          💬 {{ s.label }} ({{ s.messageCount }})
+        </span>
+        <button
+          class="clear-btn"
+          type="button"
+          (click)="clearChat()"
+          [disabled]="ai.messages().length === 0"
+          title="Xóa lịch sử chat và bắt đầu phiên mới"
+        >
+          🗑️ Xóa chat
+        </button>
+        <a routerLink="/ai/settings" class="settings-link">⚙️ Settings</a>
+      </div>
     </div>
-  </div>
-  <h1>🤖 Trợ lý AI</h1>
-  <p class="subtitle">Hỏi đáp Kanji, Từ vựng, Bộ thủ, Ngữ pháp N2-N4</p>
 
-  <div class="status" *ngIf="loading()">
-    <span class="spinner"></span> {{ knowledge.progress() }}
-  </div>
+    <h1 class="page-title">🤖 Trợ lý AI</h1>
+    <p class="subtitle">Hỏi đáp Kanji, Từ vựng, Bộ thủ, Ngữ pháp N2-N4</p>
 
-  <div class="status error" *ngIf="ai.lastError() as err">
-    ⚠️ {{ err }}
-  </div>
-
-  <div class="chat-window" #chatWindow>
-    <div *ngIf="ai.messages().length === 0" class="empty">
-      <p>👋 Xin chào! Hãy đặt câu hỏi về Kanji / Từ vựng / Bộ thủ / Ngữ pháp.</p>
-      <p class="hint">Ví dụ: "Kanji 食 nghĩa là gì?", "Ngữ pháp ～たら là gì?"</p>
+    <div class="status" *ngIf="loading()">
+      <span class="spinner"></span> {{ knowledge.progress() }}
     </div>
 
-    <app-ai-chat-bubble
-      *ngFor="let m of ai.messages(); trackBy: trackById"
-      [message]="m"
-    ></app-ai-chat-bubble>
-
-    <div *ngIf="ai.busy() && lastIsStreaming()" class="typing-indicator">
-      <span></span><span></span><span></span>
+    <div class="status error" *ngIf="ai.lastError() as err">
+      ⚠️ {{ err }}
     </div>
-  </div>
 
-  <form class="input-row" (ngSubmit)="onSubmit()">
-    <input
-      type="text"
-      [(ngModel)]="question"
-      name="question"
-      placeholder="Nhập câu hỏi..."
-      [disabled]="ai.busy() || loading()"
-      autocomplete="off"
-    />
-    <button
-      type="submit"
-      [disabled]="!question.trim() || ai.busy() || loading()"
-    >
-      {{ ai.busy() ? 'Đang gửi...' : 'Gửi' }}
-    </button>
-    <button
-      type="button"
-      *ngIf="ai.busy()"
-      class="abort"
-      (click)="ai.abort()"
-    >
-      Dừng
-    </button>
-  </form>
+    <div class="chat-window" #chatWindow>
+      <div *ngIf="ai.messages().length === 0" class="empty">
+        <p>👋 Xin chào! Hãy đặt câu hỏi hoặc gõ <strong>/</strong> để xem lệnh nhanh.</p>
+        <p class="hint">Ví dụ: "/kanji 食", "/bunpo ～たら", "/quiz Kanji N3"</p>
+      </div>
+
+      <app-ai-chat-bubble
+        *ngFor="let m of ai.messages(); trackBy: trackById"
+        [message]="m"
+        (completed)="onMessagesUpdate()"
+      ></app-ai-chat-bubble>
+
+      <div *ngIf="ai.busy() && lastIsStreaming()" class="typing-indicator">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <form class="input-area" (ngSubmit)="onSubmit()">
+      <div class="input-container">
+        <!-- Active command tag -->
+        <div class="active-command-tag" *ngIf="activeCommand">
+          <span class="tag-icon" [style.background-color]="activeCommand.color">{{ activeCommand.icon }}</span>
+          <span class="tag-label">{{ activeCommand.label }}</span>
+          <button class="tag-remove" type="button" (click)="removeActiveCommand()" title="Xóa lệnh">×</button>
+        </div>
+
+        <!-- Input row -->
+        <div class="input-row">
+          <div class="input-wrapper">
+            <app-slash-command-menu
+              *ngIf="showSlashMenu"
+              [commands]="slashMenuCommands"
+              [activeIndex]="slashMenuIndex"
+              (selected)="selectCommand($event)"
+              (dismissed)="onMenuDismissed()"
+            ></app-slash-command-menu>
+
+            <input
+              #questionInput
+              type="text"
+              [(ngModel)]="question"
+              (ngModelChange)="onInputChange($event)"
+              (keydown)="onKeydown($event)"
+              name="question"
+              placeholder="/kanji — Kanji | /bunpo — Ngữ pháp | /tango — Từ vựng"
+              [disabled]="ai.busy() || loading()"
+              autocomplete="off"
+            />
+          </div>
+
+          <button
+            type="submit"
+            [disabled]="!question.trim() || ai.busy() || loading()"
+          >
+            {{ ai.busy() ? 'Đang gửi...' : 'Gửi' }}
+          </button>
+          <button
+            type="button"
+            *ngIf="ai.busy()"
+            class="abort"
+            (click)="ai.abort()"
+          >
+            Dừng
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
 </div>

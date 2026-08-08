@@ -15,21 +15,8 @@ const browserDistFolder = resolve(serverDistFolder, '../browser');
 const app = express();
 const angularApp = new AngularNodeAppEngine();
 
-/**
- * Body parser phải mount trước route /api để tránh catch tất cả.
- * Giới hạn 4 MB để tránh abuse.
- */
 app.use(express.json({ limit: '4mb' }));
 
-/**
- * Proxy /api/chat -> Ollama Cloud OR Ollama Local.
- * Body: { provider, apiKey?, model, prompt, system?, temperature?, topK?, stream? }
- *
- * - local: forward to OLLAMA_HOST/api/generate (server-to-server, no CORS)
- * - cloud: forward to https://ollama.com/api/generate with Authorization: Bearer <apiKey>
- *
- * Browser gọi /api/chat (same-origin) → không bao giờ có CORS issue.
- */
 app.post('/api/chat', (req: Request, res: Response) => {
   const body = (req.body ?? {}) as {
     provider?: string;
@@ -67,17 +54,6 @@ app.post('/api/chat', (req: Request, res: Response) => {
     upstreamUrl = new URL('/api/generate', process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434');
   }
 
-  const apiKeyReceived = body.apiKey ?? '';
-  console.log(`[api/chat] provider=${provider} model=${model} stream=${stream} promptLen=${prompt.length}`);
-  if (provider === 'cloud') {
-    const masked = apiKeyReceived.length > 10
-      ? apiKeyReceived.slice(0, 6) + '***' + apiKeyReceived.slice(-4)
-      : '(short/empty)';
-    console.log(`[api/chat] --> cloud upstream | apiKey: ${masked}`);
-  } else {
-    console.log(`[api/chat] --> local upstream: ${upstreamUrl.toString()}`);
-  }
-
   const upstreamBody = JSON.stringify({
     model,
     prompt: fullPrompt,
@@ -86,7 +62,6 @@ app.post('/api/chat', (req: Request, res: Response) => {
   });
 
   const useHttps = upstreamUrl.protocol === 'https:';
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const lib = useHttps ? require('node:https') : require('node:http');
 
   const upstreamReq = lib.request(
@@ -104,19 +79,12 @@ app.post('/api/chat', (req: Request, res: Response) => {
         let errBody = '';
         upRes.on('data', (c: Buffer) => (errBody += c.toString()));
         upRes.on('end', () => {
-          console.error(`[api/chat] upstream ${status}: ${errBody.slice(0, 200)}`);
           if (!res.headersSent) {
-            res.status(status).json({
-              error: 'upstream_error',
-              provider,
-              status,
-              detail: errBody.slice(0, 500),
-            });
+            res.status(status).json({ error: 'upstream_error', provider, status, detail: errBody.slice(0, 500) });
           }
         });
         return;
       }
-
       res.status(200);
       res.setHeader('Content-Type', upRes.headers['content-type'] ?? 'application/x-ndjson');
       res.setHeader('Cache-Control', 'no-store');
@@ -127,37 +95,24 @@ app.post('/api/chat', (req: Request, res: Response) => {
         if (!res.writableEnded) res.end();
       });
       upRes.on('error', (err: Error) => {
-        console.error('[api/chat] upstream stream error:', err.message);
         if (!res.writableEnded) res.end();
       });
     },
   );
 
   upstreamReq.on('error', (err: Error) => {
-    console.error('[api/chat] connect error:', err.message);
     if (!res.headersSent) {
-      res.status(502).json({
-        error: 'upstream_unreachable',
-        provider,
-        message: `Cannot reach ${upstreamUrl.toString()}`,
-        detail: err.message,
-      });
+      res.status(502).json({ error: 'upstream_unreachable', provider, message: `Cannot reach ${upstreamUrl.toString()}`, detail: err.message });
     }
   });
 
   upstreamReq.on('timeout', () => {
-    console.error('[api/chat] upstream timeout');
     upstreamReq.destroy(new Error('Upstream timeout'));
   });
 
   upstreamReq.end(upstreamBody);
 });
 
-/**
- * Proxy /api/embeddings -> Ollama Local OR Ollama Cloud.
- * Body: { provider, apiKey?, text, model? }
- * Response: { embedding: number[] }
- */
 app.post('/api/embeddings', (req: Request, res: Response) => {
   const body = (req.body ?? {}) as {
     provider?: string;
@@ -189,11 +144,9 @@ app.post('/api/embeddings', (req: Request, res: Response) => {
     upstreamUrl = new URL('/api/embeddings', process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434');
   }
 
-  console.log(`[api/embeddings] provider=${provider} model=${model} textLen=${text.length}`);
-
-  const upstreamBody = JSON.stringify({ model, prompt: text });
+  // FIX BUG-004: Ollama /api/embeddings expects 'input' field, not 'prompt'
+  const upstreamBody = JSON.stringify({ model, input: text });
   const useHttps = upstreamUrl.protocol === 'https:';
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const lib = useHttps ? require('node:https') : require('node:http');
 
   const upstreamReq = lib.request(
@@ -211,7 +164,6 @@ app.post('/api/embeddings', (req: Request, res: Response) => {
       upRes.on('data', (c: Buffer) => (data += c.toString()));
       upRes.on('end', () => {
         if (status >= 400) {
-          console.error(`[api/embeddings] upstream ${status}: ${data.slice(0, 200)}`);
           if (!res.headersSent) {
             res.status(status).json({ error: 'upstream_error', status, detail: data.slice(0, 300) });
           }
@@ -228,14 +180,8 @@ app.post('/api/embeddings', (req: Request, res: Response) => {
   );
 
   upstreamReq.on('error', (err: Error) => {
-    console.error('[api/embeddings] connect error:', err.message);
     if (!res.headersSent) {
-      res.status(502).json({
-        error: 'upstream_unreachable',
-        provider,
-        message: `Cannot reach ${upstreamUrl.toString()}`,
-        detail: err.message,
-      });
+      res.status(502).json({ error: 'upstream_unreachable', provider, message: `Cannot reach ${upstreamUrl.toString()}`, detail: err.message });
     }
   });
 
@@ -246,33 +192,12 @@ app.post('/api/embeddings', (req: Request, res: Response) => {
   upstreamReq.end(upstreamBody);
 });
 
-/**
- * Serve static files from /browser
- */
-app.use(
-  express.static(browserDistFolder, {
-    maxAge: '1y',
-    index: false,
-    redirect: false,
-  }),
-);
+app.use(express.static(browserDistFolder, { maxAge: '1y', index: false, redirect: false }));
 
-/**
- * Handle all other requests by rendering the Angular application.
- */
 app.use('/**', (req, res, next) => {
-  angularApp
-    .handle(req)
-    .then((response) =>
-      response ? writeResponseToNodeResponse(response, res) : next(),
-    )
-    .catch(next);
+  angularApp.handle(req).then((response) => response ? writeResponseToNodeResponse(response, res) : next()).catch(next);
 });
 
-/**
- * Start the server if this module is the main entry point.
- * The server listens on the port defined by the `PORT` environment variable, or defaults to 4000.
- */
 if (isMainModule(import.meta.url)) {
   const port = process.env['PORT'] || 4000;
   app.listen(port, () => {
@@ -280,7 +205,4 @@ if (isMainModule(import.meta.url)) {
   });
 }
 
-/**
- * The request handler used by the Angular CLI (dev-server and during build).
- */
 export const reqHandler = createNodeRequestHandler(app);

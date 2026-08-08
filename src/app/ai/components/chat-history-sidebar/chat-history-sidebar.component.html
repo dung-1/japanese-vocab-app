@@ -1,0 +1,44 @@
+<div class="sidebar-container">
+  <div class="sidebar-header">
+    <button class="new-chat-btn" (click)="newChat.emit()">
+      <span class="icon">+</span> Chat mới
+    </button>
+  </div>
+
+  <div class="sessions-list">
+    <div *ngIf="loading" class="loading-state">
+      <div class="spinner"></div>
+      <span>Đang tải lịch sử...</span>
+    </div>
+
+    <div *ngIf="!loading && sessions.length === 0" class="empty-state">
+      Chưa có lịch sử chat
+    </div>
+
+    <div *ngFor="let group of groupedSessions" class="session-group">
+      <div class="group-title">{{ group.group }}</div>
+      <div 
+        *ngFor="let s of group.items" 
+        class="session-item" 
+        [class.active]="s.id === currentSessionId"
+        (click)="sessionSelected.emit(s.id)"
+        (dblclick)="onRename(s)"
+      >
+        <div class="item-main">
+          <span class="icon">💬</span>
+          <span class="title">{{ s.title }}</span>
+        </div>
+        <div class="item-actions">
+          <button class="action-btn" (click)="$event.stopPropagation(); deleteSession.emit(s.id)">🗑️</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidebar-footer">
+    <div class="user-profile">
+      <div class="avatar">JD</div>
+      <span class="username">Japanese Learner</span>
+    </div>
+  </div>
+</div>

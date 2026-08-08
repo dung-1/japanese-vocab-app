@@ -37,7 +37,7 @@ Dữ liệu tham khảo có các trường: kanji, amHan (âm Hán Việt), nghi
     buildUser: (ctx, q) =>
       `[DỮ LIỆU THAM KHẢO - KANJI]\n${ctx.summary}\n\n` +
       `[CÂU HỎI]\n${q}\n\n` +
-      `[YÊU CẦU]\nHãy trả lời dựa trên dữ liệu tham khảo. Nếu Kanji trong câu hỏi có trong dữ liệu, hãy trích dẫn đầy đủ onyomi, kunyomi, âm Hán Việt, nghĩa và 1-2 ví dụ.`,
+      `[YÊU CẦU]\nHãy trả lời dựa trên dữ liệu tham khảo. Nếu Kanji trong câu hỏi có trong dữ liệu, hãy trích dẫn đầy đủ onyomi, kunyomi, âm Hán Việt, nghĩa và 5 ví dụ.`,
   },
   vocab: {
     system: `${SYSTEM_PROMPT_BASE}
@@ -77,3 +77,11 @@ Nếu có dữ liệu tham khảo: dùng nó. Nếu không: trả lời kiến t
       `[YÊU CẦU]\nGiải thích mẫu ngữ pháp dựa trên dữ liệu: pattern, cấu trúc (formula), sắc thái, ví dụ. Nếu không có trong dữ liệu, hãy ghi rõ và dùng kiến thức chung.`,
   },
 };
+
+/**
+ * Build system prompt với custom hint từ slash command
+ */
+export function buildSystemWithHint(domain: KnowledgeDomain, hint: string): string {
+  const base = DOMAIN_PROMPTS[domain].system;
+  return `${base}\n\n[YÊU CẦU ĐẶC BIỆT TỪ NGƯỜI DÙNG]\n${hint}`;
+}

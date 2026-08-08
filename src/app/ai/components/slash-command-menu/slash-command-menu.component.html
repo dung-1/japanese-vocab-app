@@ -1,0 +1,31 @@
+<div class="slash-menu-container">
+  <div class="menu-header">
+    <span class="title">LỆNH NHANH</span>
+    <button class="close-btn" (click)="dismiss()" aria-label="Close menu">✕</button>
+  </div>
+
+  <div class="menu-list">
+    <div 
+      *ngFor="let cmd of commands; let i = index" 
+      class="menu-item" 
+      [class.active]="i === activeIndex"
+      (click)="selectCommand(cmd)"
+    >
+      <div class="item-main">
+        <span class="item-icon" [style.background-color]="cmd.color">{{ cmd.icon }}</span>
+        <div class="item-text">
+          <div class="item-label">
+            <span class="trigger">/{{ cmd.trigger }}</span>
+            <span class="name">{{ cmd.label }}</span>
+          </div>
+          <div class="item-desc">{{ cmd.description }}</div>
+        </div>
+      </div>
+      <div class="item-shortcut">{{ cmd.shortcut }}</div>
+    </div>
+  </div>
+
+  <div class="menu-footer">
+    <span>↑↓ di chuyển · Enter chọn · Esc đóng</span>
+  </div>
+</div>

@@ -1,248 +1,255 @@
-import { Injectable, PLATFORM_ID, inject } from '@angular/core';
+import { Injectable, PLATFORM_ID, inject, signal } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
-import { ConversationHistory, ConversationSession, ConversationMessage, DEFAULT_CONVERSATION_HISTORY, createNewSession, convertToConversationMessage } from '../models/conversation.model';
+import {
+  ConversationHistory,
+  ConversationSession,
+  ConversationMessage,
+  DEFAULT_CONVERSATION_HISTORY,
+  createNewSession,
+  convertToConversationMessage,
+} from '../models/conversation.model';
 import { AiChatMessage } from '../models/ai-chat.model';
+import { SupabaseChatService, DbSession } from './supabase-chat.service';
 
-const CONVERSATION_STORAGE_KEY = 'ai_conversation_history_v1';
-const SESSION_TIMEOUT_MS = 30 * 60 * 1000; // 30 minutes
+// ── Constants ──────────────────────────────────────────────────────────────────
+
+const AUTO_TITLE_MAX_CHARS = 40;
+
+// ── Service ────────────────────────────────────────────────────────────────────
 
 @Injectable({ providedIn: 'root' })
 export class ConversationMemoryService {
   private readonly platformId = inject(PLATFORM_ID);
-  
+  private readonly supabase = inject(SupabaseChatService);
+
   private history: ConversationHistory = { ...DEFAULT_CONVERSATION_HISTORY };
-  private isInitialized = false;
 
-  constructor() {
-    if (isPlatformBrowser(this.platformId)) {
-      this.loadFromStorage();
-      // Listen for storage events from other tabs
-      window.addEventListener('storage', (e) => {
-        if (e.key === CONVERSATION_STORAGE_KEY && e.newValue) {
-          try {
-            this.loadFromStorage();
-          } catch {
-            // ignore
-          }
-        }
-      });
-    }
-  }
+  /** Signal: danh sách sessions cho sidebar */
+  readonly sessions = signal<DbSession[]>([]);
+  /** Signal: đang tải sessions */
+  readonly sessionsLoading = signal(false);
+
+  // ── Initialization ─────────────────────────────────────────────────────────
 
   /**
-   * Initialize or resume conversation session
+   * Khởi động: lấy device_id, load sessions từ Supabase,
+   * resume session mới nhất hoặc tạo mới.
+   * Gọi từ ai-assistant.component.ngOnInit()
    */
-  initializeSession(): void {
+  async initializeSession(): Promise<void> {
     if (!isPlatformBrowser(this.platformId)) return;
-    
-    const now = Date.now();
-    
-    // Check if we have an active session that hasn't expired
-    if (this.history.currentSession && this.history.currentSession.isActive) {
-      const timeSinceLastActive = now - this.history.lastActiveAt;
-      if (timeSinceLastActive < SESSION_TIMEOUT_MS) {
-        // Resume existing session
-        console.log('[ConversationMemory] Resuming existing session', this.history.currentSession.id);
-        return;
+
+    this.history.deviceId = this.supabase.getOrCreateDeviceId();
+    this.sessionsLoading.set(true);
+
+    try {
+      const dbSessions = await this.supabase.getSessions(this.history.deviceId);
+      this.sessions.set(dbSessions);
+
+      if (dbSessions.length > 0) {
+        // Resume session mới nhất
+        const latest = dbSessions[0];
+        await this._activateSession(latest.id, latest.title);
       } else {
-        // Session expired, archive it
-        this.archiveCurrentSession();
+        // Tạo session đầu tiên
+        await this._createNewSession();
       }
+    } catch (e) {
+      console.warn('[ConversationMemory] initializeSession error, using local fallback', e);
+      // Fallback: tạo session local (không persist)
+      this.history.currentSession = createNewSession();
+    } finally {
+      this.sessionsLoading.set(false);
     }
-    
-    // Create new session
-    this.history.currentSession = createNewSession();
-    this.history.lastActiveAt = now;
-    this.saveToStorage();
-    console.log('[ConversationMemory] Created new session', this.history.currentSession.id);
   }
 
+  // ── Message ops ───────────────────────────────────────────────────────────
+
   /**
-   * Add a message to current conversation
+   * Thêm message vào session hiện tại + persist vào Supabase.
+   * Gọi từ ai.service.ts sau mỗi user/assistant message.
    */
-  addMessage(message: AiChatMessage): void {
+  async addMessage(message: AiChatMessage): Promise<void> {
     if (!isPlatformBrowser(this.platformId)) return;
     if (!this.history.currentSession) return;
-    
+    // Không lưu messages đang streaming
+    if (message.streaming) return;
+
     const convMessage: ConversationMessage = convertToConversationMessage(message);
     this.history.currentSession.messages.push(convMessage);
     this.history.currentSession.updatedAt = Date.now();
     this.history.lastActiveAt = Date.now();
-    
-    this.saveToStorage();
+
+    // Persist vào Supabase (fire-and-forget, không await để không chặn UI)
+    void this.supabase.saveMessage(this.history.currentSession.id, message);
+    void this.supabase.touchSession(this.history.currentSession.id);
+
+    // Auto-generate title từ tin nhắn user đầu tiên
+    if (
+      message.role === 'user' &&
+      this.history.currentSession.messages.filter((m) => m.role === 'user').length === 1
+    ) {
+      const title = message.content.substring(0, AUTO_TITLE_MAX_CHARS).trim();
+      this.history.currentSession.title = title;
+      void this.supabase.updateSessionTitle(this.history.currentSession.id, title);
+      // Cập nhật signal sessions với title mới
+      this.sessions.update((list) =>
+        list.map((s) =>
+          s.id === this.history.currentSession!.id ? { ...s, title } : s
+        )
+      );
+    }
+  }
+
+  // ── Session ops ───────────────────────────────────────────────────────────
+
+  /**
+   * Lấy toàn bộ sessions của device cho sidebar.
+   */
+  async getAllSessions(): Promise<DbSession[]> {
+    if (!isPlatformBrowser(this.platformId)) return [];
+    return this.supabase.getSessions(this.history.deviceId);
   }
 
   /**
-   * Get recent conversation history
+   * Tải messages của 1 session cụ thể và set làm currentSession.
+   * Gọi khi user click vào session trong sidebar.
+   * Trả về AiChatMessage[] để component set vào ai.messages signal.
    */
-  getRecentHistory(maxMessages: number = 6): ConversationMessage[] {
-    if (!this.history.currentSession) return [];
-    
-    const messages = this.history.currentSession.messages;
-    return messages.slice(-maxMessages);
+  async loadSession(sessionId: string): Promise<AiChatMessage[]> {
+    this.sessionsLoading.set(true);
+    try {
+      const dbMessages = await this.supabase.getMessages(sessionId);
+      const aiMessages = this.supabase.mapToAiMessages(dbMessages);
+
+      // Set currentSession với messages đã load
+      const dbSession = this.sessions().find((s) => s.id === sessionId);
+      this.history.currentSession = {
+        id: sessionId,
+        title: dbSession?.title,
+        createdAt: dbSession ? new Date(dbSession.created_at).getTime() : Date.now(),
+        updatedAt: dbSession ? new Date(dbSession.updated_at).getTime() : Date.now(),
+        isActive: true,
+        messages: dbMessages.map((m) => ({
+          id: m.id,
+          role: m.role as 'user' | 'assistant',
+          content: m.content,
+          timestamp: new Date(m.created_at).getTime(),
+        })),
+      };
+
+      return aiMessages;
+    } catch (e) {
+      console.warn('[ConversationMemory] loadSession error', e);
+      return [];
+    } finally {
+      this.sessionsLoading.set(false);
+    }
   }
 
   /**
-   * Get current session info
+   * Tạo chat mới: tạo session trên Supabase, reset currentSession.
+   * Trả về session id mới (để component clear ai.messages).
    */
+  async startNewChat(): Promise<string | null> {
+    if (!isPlatformBrowser(this.platformId)) return null;
+
+    const dbSession = await this.supabase.createSession(this.history.deviceId, 'Chat mới');
+    if (!dbSession) return null;
+
+    this.history.currentSession = createNewSession(dbSession.id);
+    this.history.currentSession.title = dbSession.title;
+
+    // Thêm vào đầu danh sách sessions
+    this.sessions.update((list) => [dbSession, ...list]);
+
+    return dbSession.id;
+  }
+
+  /**
+   * Xóa session: xóa trên Supabase, remove khỏi signal.
+   */
+  async deleteSession(sessionId: string): Promise<void> {
+    await this.supabase.deleteSession(sessionId);
+    this.sessions.update((list) => list.filter((s) => s.id !== sessionId));
+  }
+
+  /**
+   * Đổi tên session.
+   */
+  async renameSession(sessionId: string, title: string): Promise<void> {
+    await this.supabase.updateSessionTitle(sessionId, title);
+    this.sessions.update((list) =>
+      list.map((s) => (s.id === sessionId ? { ...s, title } : s))
+    );
+    if (this.history.currentSession?.id === sessionId) {
+      this.history.currentSession.title = title;
+    }
+  }
+
+  /**
+   * Xóa chat hiện tại (clear messages, tạo session mới).
+   * Giữ lại session cũ trong Supabase / sidebar.
+   */
+  async clearCurrentConversation(): Promise<string | null> {
+    return this.startNewChat();
+  }
+
+  // ── Prompt helpers ─────────────────────────────────────────────────────────
+
   getCurrentSession(): ConversationSession | null {
     return this.history.currentSession;
   }
 
-  /**
-   * Clear current conversation
-   */
-  clearCurrentConversation(): void {
-    if (!isPlatformBrowser(this.platformId)) return;
-    
-    if (this.history.currentSession) {
-      this.archiveCurrentSession();
-    }
-    
-    this.history.currentSession = createNewSession();
-    this.history.lastActiveAt = Date.now();
-    this.saveToStorage();
+  getRecentHistory(maxMessages = 6): ConversationMessage[] {
+    if (!this.history.currentSession) return [];
+    const messages = this.history.currentSession.messages;
+    return messages.slice(-maxMessages);
   }
 
-  /**
-   * Get conversation history for prompt building
-   */
-  getHistoryForPrompt(maxTokens: number = 1000): ConversationMessage[] {
+  getHistoryForPrompt(maxTokens = 1000): ConversationMessage[] {
     if (!this.history.currentSession) return [];
-    
-    // Simple token estimation: ~4 chars per token
     const charsPerToken = 4;
     let totalChars = 0;
     const result: ConversationMessage[] = [];
-    
-    // Get messages in reverse order (newest first) for truncation
     const messages = [...this.history.currentSession.messages].reverse();
-    
     for (const message of messages) {
-      const messageChars = message.content.length + 50; // +50 for metadata
-      if (totalChars + messageChars > maxTokens * charsPerToken) {
-        break;
-      }
-      result.unshift(message); // Add to beginning to maintain chronological order
-      totalChars += messageChars;
+      const cost = message.content.length + 50;
+      if (totalChars + cost > maxTokens * charsPerToken) break;
+      result.unshift(message);
+      totalChars += cost;
     }
-    
     return result;
   }
 
-  /**
-   * Archive current session and start new one
-   */
-  private archiveCurrentSession(): void {
-    if (!this.history.currentSession) return;
-    
-    // Only archive sessions with actual conversation
-    if (this.history.currentSession.messages.length > 0) {
-      // Set title based on first user message
-      if (!this.history.currentSession.title) {
-        const firstUserMessage = this.history.currentSession.messages.find(m => m.role === 'user');
-        if (firstUserMessage) {
-          this.history.currentSession.title = firstUserMessage.content.substring(0, 50);
-        }
-      }
-      
-      this.history.currentSession.isActive = false;
-      this.history.previousSessions.unshift(this.history.currentSession);
-      
-      // Keep only last 20 sessions
-      if (this.history.previousSessions.length > 20) {
-        this.history.previousSessions = this.history.previousSessions.slice(0, 20);
-      }
-    }
-  }
+  // ── Private helpers ────────────────────────────────────────────────────────
 
-  /**
-   * Load conversation history from localStorage
-   */
-  private loadFromStorage(): void {
-    if (!isPlatformBrowser(this.platformId)) return;
-    
-    try {
-      const raw = localStorage.getItem(CONVERSATION_STORAGE_KEY);
-      if (!raw) {
-        this.history = { ...DEFAULT_CONVERSATION_HISTORY };
-        return;
-      }
-      
-      const parsed = JSON.parse(raw);
-      this.history = {
-        currentSession: parsed.currentSession ? this.validateSession(parsed.currentSession) : null,
-        previousSessions: Array.isArray(parsed.previousSessions) 
-          ? parsed.previousSessions.map((s: any) => this.validateSession(s)).slice(0, 20)
-          : [],
-        lastActiveAt: parsed.lastActiveAt || Date.now()
-      };
-      
-      this.isInitialized = true;
-    } catch (error) {
-      console.warn('[ConversationMemory] Failed to load from storage, using default', error);
-      this.history = { ...DEFAULT_CONVERSATION_HISTORY };
-    }
-  }
+  private async _activateSession(sessionId: string, title?: string): Promise<void> {
+    const dbMessages = await this.supabase.getMessages(sessionId);
+    const dbSession = this.sessions().find((s) => s.id === sessionId);
 
-  /**
-   * Save conversation history to localStorage
-   */
-  private saveToStorage(): void {
-    if (!isPlatformBrowser(this.platformId)) return;
-    
-    try {
-      // Clean up old sessions before saving
-      this.cleanupOldSessions();
-      localStorage.setItem(CONVERSATION_STORAGE_KEY, JSON.stringify(this.history));
-    } catch (error) {
-      console.warn('[ConversationMemory] Failed to save to storage', error);
-      // Ignore quota errors
-    }
-  }
-
-  /**
-   * Validate and clean session data
-   */
-  private validateSession(session: any): ConversationSession {
-    return {
-      id: session.id || `session_${Date.now()}`,
-      createdAt: session.createdAt || Date.now(),
-      updatedAt: session.updatedAt || Date.now(),
-      messages: Array.isArray(session.messages) 
-        ? session.messages.map((m: any) => this.validateMessage(m))
-        : [],
-      title: session.title || undefined,
-      isActive: session.isActive !== undefined ? session.isActive : true
+    this.history.currentSession = {
+      id: sessionId,
+      title,
+      createdAt: dbSession ? new Date(dbSession.created_at).getTime() : Date.now(),
+      updatedAt: dbSession ? new Date(dbSession.updated_at).getTime() : Date.now(),
+      isActive: true,
+      messages: dbMessages.map((m) => ({
+        id: m.id,
+        role: m.role as 'user' | 'assistant',
+        content: m.content,
+        timestamp: new Date(m.created_at).getTime(),
+      })),
     };
   }
 
-  /**
-   * Validate and clean message data
-   */
-  private validateMessage(message: any): ConversationMessage {
-    return {
-      id: message.id || `msg_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-      role: ['user', 'assistant', 'system'].includes(message.role) ? message.role : 'user',
-      content: message.content || '',
-      timestamp: message.timestamp || Date.now(),
-      contextUsed: message.contextUsed ? {
-        domain: message.contextUsed.domain || '',
-        itemsCount: message.contextUsed.itemsCount || 0,
-        summaryPreview: message.contextUsed.summaryPreview || ''
-      } : undefined
-    };
-  }
-
-  /**
-   * Clean up old sessions to manage storage space
-   */
-  private cleanupOldSessions(): void {
-    const maxAge = 7 * 24 * 60 * 60 * 1000; // 7 days
-    const now = Date.now();
-    
-    this.history.previousSessions = this.history.previousSessions.filter(session => {
-      return (now - session.updatedAt) < maxAge;
-    });
+  private async _createNewSession(): Promise<void> {
+    const dbSession = await this.supabase.createSession(this.history.deviceId, 'Chat mới');
+    if (dbSession) {
+      this.history.currentSession = createNewSession(dbSession.id);
+      this.sessions.update((list) => [dbSession, ...list]);
+    } else {
+      this.history.currentSession = createNewSession();
+    }
   }
 }

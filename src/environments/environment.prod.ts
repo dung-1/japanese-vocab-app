@@ -1,5 +1,10 @@
 export const environment = {
-  production: true,
+  production: false,
+  supabase: {
+    url: 'https://gmvoxzysoixvwdvyvkht.supabase.co',   // ← thay bằng Project URL
+    anonKey: 'sb_publishable_XvlZTGo-1AWiI_GkwEy2HQ_NJRxdjgy', 
+                    // ← thay bằng anon/public key
+  },
   ai: {
     ollamaProxy: '/api/chat',
     ollamaLegacyProxy: '/api/ai/chat',

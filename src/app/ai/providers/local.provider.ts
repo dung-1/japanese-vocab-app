@@ -9,10 +9,10 @@ import {
   ChatErrorHandler,
 } from './ai-provider.interface';
 import { parseNdjson } from '../utils/abortable-stream.util';
+import { AiSettingsService } from '../services/ai-settings.service';
 
 /**
  * Local Ollama provider - gọi trực tiếp Ollama local server.
- * Endpoint mặc định: http://localhost:11434
  */
 @Injectable({ providedIn: 'root' })
 export class LocalProvider implements AiProvider {
@@ -20,6 +20,7 @@ export class LocalProvider implements AiProvider {
   readonly name = 'Ollama Local';
 
   private readonly platformId = inject(PLATFORM_ID);
+  private readonly settingsSvc = inject(AiSettingsService);
   private endpoint: string = 'http://localhost:11434';
 
   setEndpoint(endpoint: string): void {
@@ -118,7 +119,8 @@ export class LocalProvider implements AiProvider {
       topK: request.topK ?? 5,
     };
     try {
-      const res = await fetch('/api/chat', {
+      const baseUrl = this.settingsSvc.baseUrl();
+      const res = await fetch(`${baseUrl}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(proxyBody),
@@ -207,7 +209,8 @@ export class LocalProvider implements AiProvider {
     model: string,
   ): Promise<{ ok: boolean; message: string; preview?: string }> {
     try {
-      const res = await fetch('/api/chat', {
+      const baseUrl = this.settingsSvc.baseUrl();
+      const res = await fetch(`${baseUrl}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -235,7 +238,9 @@ export class LocalProvider implements AiProvider {
   }
 
   async embed(text: string): Promise<number[]> {
-    const url = `${this.endpoint.replace(/\/+$/, '')}/api/embeddings`;
+    // BUG-004 FIX: Try dynamic endpoint from settings first, fallback to localhost
+    let url = `${this.endpoint.replace(/\/+$/, '')}/api/embeddings`;
+    
     try {
       const res = await fetch(url, {
         method: 'POST',
@@ -255,8 +260,24 @@ export class LocalProvider implements AiProvider {
       }
       return data.embedding;
     } catch (e) {
-      const err = e as Error;
-      throw err;
+      // Fallback to proxy if local fetch fails (crucial for Android APK)
+      try {
+        const baseUrl = this.settingsSvc.baseUrl();
+        const proxyRes = await fetch(`${baseUrl}/api/embeddings`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            provider: 'local',
+            model: 'nomic-embed-text',
+            prompt: text,
+          }),
+        });
+        if (!proxyRes.ok) throw new Error(`Proxy Embedding HTTP ${proxyRes.status}`);
+        const proxyData = await proxyRes.json();
+        return proxyData.embedding;
+      } catch (proxyErr) {
+        throw e; // Return original error if proxy also fails
+      }
     }
   }
 

@@ -11,7 +11,7 @@ import { AiProvider, ChatStreamHandle } from '../providers/ai-provider.interface
 import { validateAnswer, ValidationResult } from '../utils/response-validator.util';
 import { ConversationMemoryService } from './conversation-memory.service';
 import { EnhancedPromptBuilderService } from './enhanced-prompt-builder.service';
-import { EmbeddingService } from './embedding.service';
+import { buildSystemWithHint } from '../models/prompt.model';
 
 @Injectable({ providedIn: 'root' })
 export class AiService {
@@ -22,7 +22,6 @@ export class AiService {
   private readonly factory = inject(ProviderFactory);
   private readonly conversationMemory = inject(ConversationMemoryService);
   private readonly enhancedPromptBuilder = inject(EnhancedPromptBuilderService);
-  private readonly embeddingService = inject(EmbeddingService);
 
   readonly messages = signal<AiChatMessage[]>([]);
   readonly busy = signal(false);
@@ -32,7 +31,6 @@ export class AiService {
 
   private get provider(): AiProvider {
     const s = this.settings.get();
-    // Always re-configure providers with latest settings
     this.factory.configureLocal('http://localhost:11434');
     this.factory.configureCloud(s.cloudApiKey, s.model);
     return this.factory.get(s.provider);
@@ -42,24 +40,7 @@ export class AiService {
     if (!this.knowledge.loaded()) {
       await this.knowledge.loadAll();
     }
-    // Initialize conversation session
     this.conversationMemory.initializeSession();
-    // Sync provider type vào factory để EmbeddingService dùng đúng provider
-    const s = this.settings.get();
-    this.factory.setActiveType(s.provider);
-    // Trigger vectorization background nếu chưa ready và embedding model có thể dùng
-    if (!this.embeddingService.embeddingsReady() && !this.embeddingService.isVectorizing()) {
-      const allItems = [
-        ...this.knowledge.getItemsByDomain('kanji-word'),
-        ...this.knowledge.getItemsByDomain('vocab'),
-        ...this.knowledge.getItemsByDomain('radical'),
-        ...this.knowledge.getItemsByDomain('reduplicative'),
-      ];
-      // Không await — chạy background, không block user
-      this.embeddingService.vectorizeKnowledgeBase(allItems).catch((e) =>
-        console.warn('[AiService] Background vectorization error (non-fatal):', e),
-      );
-    }
   }
 
   async ask(question: string): Promise<AiChatMessage | null> {
@@ -72,7 +53,6 @@ export class AiService {
 
     const domain: KnowledgeDomain = this.search.detectDomain(trimmed);
     await this.ensureReady();
-
     const items = this.knowledge.getItemsByDomain(domain);
     const hits = await this.search.search(trimmed, items, 5);
     const context: PromptContext = this.promptBuilder.buildContext(
@@ -80,8 +60,6 @@ export class AiService {
       hits.map((h) => h.item),
     );
 
-    
-    // Use enhanced prompt builder with conversation history
     const payload = this.enhancedPromptBuilder.buildWithHistory(
       domain,
       context,
@@ -96,8 +74,6 @@ export class AiService {
       contextUsed: context,
     };
     this.messages.update((arr) => [...arr, userMsg]);
-    
-    // Add user message to conversation memory
     this.conversationMemory.addMessage(userMsg);
 
     const asstMsg: AiChatMessage = {
@@ -113,26 +89,22 @@ export class AiService {
     return this.runChat(payload.system, payload.user, asstMsg, context);
   }
 
-  async askInDomain(
-    question: string,
-    domain: KnowledgeDomain,
-  ): Promise<AiChatMessage | null> {
+  async askInDomain(question: string, domain: KnowledgeDomain): Promise<AiChatMessage | null> {
     const trimmed = (question ?? '').trim();
     if (!trimmed) return null;
     if (this.busy()) return null;
+
     this.lastError.set(null);
     this.busy.set(true);
     await this.ensureReady();
-
+    
     const items = this.knowledge.getItemsByDomain(domain);
     const hits = await this.search.search(trimmed, items, 5);
-    const context = this.promptBuilder.buildContext(
+    const context: PromptContext = this.promptBuilder.buildContext(
       domain,
       hits.map((h) => h.item),
     );
 
-    
-    // Use enhanced prompt builder with conversation history
     const payload = this.enhancedPromptBuilder.buildWithHistory(
       domain,
       context,
@@ -147,8 +119,6 @@ export class AiService {
       contextUsed: context,
     };
     this.messages.update((arr) => [...arr, userMsg]);
-    
-    // Add user message to conversation memory
     this.conversationMemory.addMessage(userMsg);
 
     const asstMsg: AiChatMessage = {
@@ -161,6 +131,54 @@ export class AiService {
     };
     this.messages.update((arr) => [...arr, asstMsg]);
 
+    return this.runChat(payload.system, payload.user, asstMsg, context);
+  }
+
+  async askWithHint(question: string, hint: string): Promise<AiChatMessage | null> {
+    const trimmed = (question ?? '').trim();
+    if (!trimmed) return null;
+    if (this.busy()) return null;
+
+    this.lastError.set(null);
+    this.busy.set(true);
+
+    const domain: KnowledgeDomain = this.search.detectDomain(trimmed);
+    await this.ensureReady();
+    const items = this.knowledge.getItemsByDomain(domain);
+    const hits = await this.search.search(trimmed, items, 5);
+    const context: PromptContext = this.promptBuilder.buildContext(
+      domain,
+      hits.map((h) => h.item),
+    );
+
+    const payload = this.enhancedPromptBuilder.buildWithHistory(
+      domain,
+      context,
+      trimmed
+    );
+    
+    payload.system = buildSystemWithHint(domain, hint);
+    
+    const userMsg: AiChatMessage = {
+      id: `u-${Date.now()}`,
+      role: 'user',
+      content: trimmed,
+      createdAt: Date.now(),
+      contextUsed: context,
+    };
+    this.messages.update((arr) => [...arr, userMsg]);
+    this.conversationMemory.addMessage(userMsg);
+
+    const asstMsg: AiChatMessage = {
+      id: `a-${Date.now()}`,
+      role: 'assistant',
+      content: '',
+      createdAt: Date.now(),
+      contextUsed: context,
+      streaming: true,
+    };
+    this.messages.update((arr) => [...arr, asstMsg]);
+    
     return this.runChat(payload.system, payload.user, asstMsg, context);
   }
 
@@ -168,25 +186,12 @@ export class AiService {
     if (this.currentAbort) {
       this.currentAbort();
       this.currentAbort = null;
-      this.busy.set(false);
     }
   }
 
   clear(): void {
-    this.abort();
     this.messages.set([]);
-    // Clear conversation memory as well
     this.conversationMemory.clearCurrentConversation();
-  }
-
-  prependUser(text: string): void {
-    const m: AiChatMessage = {
-      id: `u-${Date.now()}`,
-      role: 'user',
-      content: text,
-      createdAt: Date.now(),
-    };
-    this.messages.update((arr) => [...arr, m]);
   }
 
   private runChat(
@@ -212,8 +217,7 @@ export class AiService {
             finalContent += token;
             const updated = { ...asstMsg, content: finalContent };
             this.messages.update((arr) =>
-              arr.map((m) => (m.id === asstMsg.id ? updated : m)),
-            );
+            arr.map((m) => (m.id === asstMsg.id ? updated : m)));
           },
           () => {
             const validation: ValidationResult = validateAnswer(
@@ -227,12 +231,8 @@ export class AiService {
               sourceCitations: validation.matchedIds,
             };
             this.messages.update((arr) =>
-              arr.map((m) => (m.id === asstMsg.id ? finished : m)),
-            );
-            
-            // Add assistant message to conversation memory
+            arr.map((m) => (m.id === asstMsg.id ? finished : m)));
             this.conversationMemory.addMessage(finished);
-            
             this.busy.set(false);
             this.currentAbort = null;
             resolve(finished);
@@ -246,8 +246,7 @@ export class AiService {
               error: err.message,
             };
             this.messages.update((arr) =>
-              arr.map((m) => (m.id === asstMsg.id ? errored : m)),
-            );
+            arr.map((m) => (m.id === asstMsg.id ? errored : m)));
             this.busy.set(false);
             this.currentAbort = null;
             resolve(errored);

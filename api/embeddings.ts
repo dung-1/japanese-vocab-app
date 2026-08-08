@@ -1,11 +1,7 @@
 /**
  * api/embeddings.ts — Vercel Serverless Function
- *
+ * 
  * Xử lý POST /api/embeddings — proxy tới Ollama /api/embeddings.
- * Browser không thể gọi Ollama trực tiếp (CORS) → đi qua function này.
- *
- * Body: { provider, apiKey?, text, model? }
- * Response: { embedding: number[] }
  */
 
 import type { VercelRequest, VercelResponse } from '@vercel/node';
@@ -52,7 +48,8 @@ export default function handler(req: VercelRequest, res: VercelResponse): void {
     return;
   }
 
-  const upstreamBody = JSON.stringify({ model, prompt: text });
+  // FIX BUG-004: Ollama /api/embeddings expects 'input' field, not 'prompt'
+  const upstreamBody = JSON.stringify({ model, input: text });
   let upstreamUrl: URL;
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
