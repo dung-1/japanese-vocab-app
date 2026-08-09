@@ -17,19 +17,57 @@
 
     <div *ngFor="let group of groupedSessions" class="session-group">
       <div class="group-title">{{ group.group }}</div>
-      <div 
-        *ngFor="let s of group.items" 
-        class="session-item" 
+
+      <div
+        *ngFor="let s of group.items"
+        class="session-item"
         [class.active]="s.id === currentSessionId"
+        [class.menu-open]="openMenuId === s.id"
         (click)="sessionSelected.emit(s.id)"
         (dblclick)="onRename(s)"
       >
+        <!-- Tiêu đề session — flex:1 + overflow:hidden để ellipsis đúng -->
         <div class="item-main">
-          <span class="icon">💬</span>
           <span class="title">{{ s.title }}</span>
         </div>
-        <div class="item-actions">
-          <button class="action-btn" (click)="$event.stopPropagation(); deleteSession.emit(s.id)">🗑️</button>
+
+        <!-- Nút 3 chấm: ẩn mặc định, hiện khi hover hoặc menu-open -->
+        <button
+          class="item-menu-btn"
+          type="button"
+          (click)="toggleMenu(s.id, $event)"
+          aria-label="Tùy chọn"
+        >
+          ···
+        </button>
+
+        <!-- Dropdown menu: absolute, chỉ render khi mở -->
+        <div
+          class="session-menu"
+          *ngIf="openMenuId === s.id"
+          (click)="$event.stopPropagation()"
+        >
+          <button class="menu-item" type="button" (click)="onRename(s); closeMenu()">
+            <span class="menu-icon">✏️</span>
+            <span>Đổi tên</span>
+          </button>
+
+          <button class="menu-item" type="button" (click)="pinSession(s); closeMenu()">
+            <span class="menu-icon">📌</span>
+            <span>Ghim</span>
+          </button>
+
+          <button class="menu-item" type="button" (click)="archiveSession(s); closeMenu()">
+            <span class="menu-icon">📁</span>
+            <span>Lưu trữ</span>
+          </button>
+
+          <div class="menu-divider"></div>
+
+          <button class="menu-item danger" type="button" (click)="deleteSession.emit(s.id); closeMenu()">
+            <span class="menu-icon">🗑️</span>
+            <span>Xóa</span>
+          </button>
         </div>
       </div>
     </div>
@@ -37,7 +75,7 @@
 
   <div class="sidebar-footer">
     <div class="user-profile">
-      <div class="avatar">JD</div>
+      <div class="avatar">JL</div>
       <span class="username">Japanese Learner</span>
     </div>
   </div>

@@ -209,4 +209,19 @@ export class AiAssistantComponent implements OnInit {
   onMessagesUpdate(): void {
     this.scrollToBottom();
   }
+  autoResize(event: Event): void {
+  const textarea = event.target as HTMLTextAreaElement;
+
+  textarea.style.height = 'auto';
+
+  const maxHeight = 150;
+
+  if (textarea.scrollHeight <= maxHeight) {
+    textarea.style.height = `${textarea.scrollHeight}px`;
+    textarea.style.overflowY = 'hidden';
+  } else {
+    textarea.style.height = `${maxHeight}px`;
+    textarea.style.overflowY = 'auto';
+  }
+}
 }

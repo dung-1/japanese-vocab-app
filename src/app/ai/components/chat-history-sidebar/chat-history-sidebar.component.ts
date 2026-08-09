@@ -1,6 +1,14 @@
-import { Component, EventEmitter, Input, OnInit, OnChanges, Output, SimpleChanges } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  OnChanges,
+  Output,
+  SimpleChanges,
+} from '@angular/core';
 import { DbSession } from '../../services/supabase-chat.service';
-
+import { HostListener } from '@angular/core';
 export interface SessionListItem {
   id: string;
   title: string;
@@ -60,11 +68,11 @@ export class ChatHistorySidebarComponent implements OnInit, OnChanges {
     }
 
     const groups: { [key: string]: SessionListItem[] } = {};
-    
-    this.sessions.forEach(s => {
+
+    this.sessions.forEach((s) => {
       const date = new Date(s.updated_at);
       let groupLabel = 'Cũ hơn';
-      
+
       for (const g of this.groups) {
         if (g.check(date)) {
           groupLabel = g.label;
@@ -82,10 +90,10 @@ export class ChatHistorySidebarComponent implements OnInit, OnChanges {
 
     // Chuyển map sang array theo đúng thứ tự ưu tiên của this.groups
     this.groupedSessions = this.groups
-      .filter(g => groups[g.label])
-      .map(g => ({
+      .filter((g) => groups[g.label])
+      .map((g) => ({
         group: g.label,
-        items: groups[g.label]
+        items: groups[g.label],
       }));
   }
 
@@ -95,7 +103,8 @@ export class ChatHistorySidebarComponent implements OnInit, OnChanges {
       this.renameSession.emit({ id: s.id, title: newTitle.trim() });
     }
   }
-
+  pinSession(s: SessionListItem): void {}
+  archiveSession(s: SessionListItem): void {}
   private isToday(d: Date): boolean {
     const today = new Date();
     return d.toDateString() === today.toDateString();
@@ -117,5 +126,20 @@ export class ChatHistorySidebarComponent implements OnInit, OnChanges {
     const monthAgo = new Date();
     monthAgo.setMonth(monthAgo.getMonth() - 1);
     return d > monthAgo;
+  }
+  openMenuId: string | null = null;
+
+  toggleMenu(id: string, event: Event): void {
+    event.stopPropagation();
+
+    if (this.openMenuId === id) {
+      this.openMenuId = null;
+    } else {
+      this.openMenuId = id;
+    }
+  }
+  @HostListener('document:click')
+  closeMenu(): void {
+    this.openMenuId = null;
   }
 }

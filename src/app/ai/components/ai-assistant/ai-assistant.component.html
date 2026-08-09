@@ -1,62 +1,58 @@
 <div class="ai-page">
-  <!-- Sidebar -->
+  <!-- Backdrop for Mobile Sidebar - Hidden on Desktop via CSS -->
+  <div class="sidebar-backdrop" *ngIf="sidebarOpen()" (click)="toggleSidebar()"></div>
+
+  <!-- Sidebar: No longer using *ngIf to preserve Flexbox layout on Desktop -->
   <app-chat-history-sidebar 
-    *ngIf="sidebarOpen()"
-    [sessions]="sessions()"
+    [class.sidebar-open]="sidebarOpen()"
+    [class.sidebar-collapsed]="!sidebarOpen()"
+    [sessions]="sessions()" 
     [currentSessionId]="currentSessionId()"
-    [loading]="sessionsLoading()"
-    (sessionSelected)="onSessionSelected($event)"
+    [loading]="sessionsLoading()" 
+    (sessionSelected)="onSessionSelected($event)" 
     (newChat)="onNewChat()"
-    (deleteSession)="onDeleteSession($event)"
+    (deleteSession)="onDeleteSession($event)" 
     (renameSession)="onRenameSession($event)"
   ></app-chat-history-sidebar>
 
   <!-- Main Chat Area -->
   <div class="chat-area">
-    <div class="top-bar">
+    <!-- Mobile Header -->
+    <header class="top-bar">
       <div class="top-bar-left">
-        <button class="menu-toggle" (click)="toggleSidebar()">
-          {{ sidebarOpen() ? '◀' : '▶' }}
+        <button class="menu-toggle" (click)="toggleSidebar()" title="Menu">
+          <span class="hamburger">
+            <span></span><span></span><span></span>
+          </span>
         </button>
         <button class="back-btn" (click)="goHome()">← Trang chủ</button>
       </div>
       
-      <div class="top-bar-right">
-        <span class="session-indicator" *ngIf="sessionInfo() as s" [title]="s.label">
-          💬 {{ s.label }} ({{ s.messageCount }})
-        </span>
-        <button
-          class="clear-btn"
-          type="button"
-          (click)="clearChat()"
-          [disabled]="ai.messages().length === 0"
-          title="Xóa lịch sử chat và bắt đầu phiên mới"
-        >
-          🗑️ Xóa chat
-        </button>
-        <a routerLink="/ai/settings" class="settings-link">⚙️ Settings</a>
+      <div class="top-bar-center">
+        <span class="model-name">Trợ lý AI</span>
       </div>
-    </div>
 
-    <h1 class="page-title">🤖 Trợ lý AI</h1>
-    <p class="subtitle">Hỏi đáp Kanji, Từ vựng, Bộ thủ, Ngữ pháp N2-N4</p>
-
-    <div class="status" *ngIf="loading()">
-      <span class="spinner"></span> {{ knowledge.progress() }}
-    </div>
-
-    <div class="status error" *ngIf="ai.lastError() as err">
-      ⚠️ {{ err }}
-    </div>
+      <div class="top-bar-right">
+        <a routerLink="/ai/settings" class="settings-link btn">⚙️</a>
+      </div>
+    </header>
 
     <div class="chat-window" #chatWindow>
-      <div *ngIf="ai.messages().length === 0" class="empty">
-        <p>👋 Xin chào! Hãy đặt câu hỏi hoặc gõ <strong>/</strong> để xem lệnh nhanh.</p>
-        <p class="hint">Ví dụ: "/kanji 食", "/bunpo ～たら", "/quiz Kanji N3"</p>
+      <!-- Welcome screen -->
+      <div *ngIf="ai.messages().length === 0" class="empty-state">
+        <div class="empty-icon">🤖</div>
+        <h1 class="welcome-title">Chào bạn!</h1>
+        <p class="welcome-text">Tôi có thể giúp bạn học Kanji, Từ vựng, Bộ thủ hoặc Ngữ pháp N2-N4.</p>
+        <div class="suggestion-chips">
+          <div class="chip" (click)="onSubmit()">/kanji 食</div>
+          <div class="chip" (click)="onSubmit()">/bunpo ～たら</div>
+          <div class="chip" (click)="onSubmit()">/quiz N3</div>
+        </div>
       </div>
 
-      <app-ai-chat-bubble
-        *ngFor="let m of ai.messages(); trackBy: trackById"
+      <!-- Messages -->
+      <app-ai-chat-bubble 
+        *ngFor="let m of ai.messages(); trackBy: trackById" 
         [message]="m"
         (completed)="onMessagesUpdate()"
       ></app-ai-chat-bubble>
@@ -66,55 +62,50 @@
       </div>
     </div>
 
-    <form class="input-area" (ngSubmit)="onSubmit()">
-      <div class="input-container">
-        <!-- Active command tag -->
-        <div class="active-command-tag" *ngIf="activeCommand">
-          <span class="tag-icon" [style.background-color]="activeCommand.color">{{ activeCommand.icon }}</span>
-          <span class="tag-label">{{ activeCommand.label }}</span>
-          <button class="tag-remove" type="button" (click)="removeActiveCommand()" title="Xóa lệnh">×</button>
-        </div>
-
-        <!-- Input row -->
-        <div class="input-row">
-          <div class="input-wrapper">
-            <app-slash-command-menu
-              *ngIf="showSlashMenu"
-              [commands]="slashMenuCommands"
-              [activeIndex]="slashMenuIndex"
-              (selected)="selectCommand($event)"
-              (dismissed)="onMenuDismissed()"
-            ></app-slash-command-menu>
-
-            <input
-              #questionInput
-              type="text"
-              [(ngModel)]="question"
-              (ngModelChange)="onInputChange($event)"
-              (keydown)="onKeydown($event)"
-              name="question"
-              placeholder="/kanji — Kanji | /bunpo — Ngữ pháp | /tango — Từ vựng"
-              [disabled]="ai.busy() || loading()"
-              autocomplete="off"
-            />
+    <!-- Floating Input Section -->
+    <footer class="input-section">
+      <form class="input-form" (ngSubmit)="onSubmit()">
+        <div class="input-container">
+          <!-- Active command tag -->
+          <div class="active-command-tag" *ngIf="activeCommand">
+            <span class="tag-icon" [style.background-color]="activeCommand.color">{{ activeCommand.icon }}</span>
+            <span class="tag-label">{{ activeCommand.label }}</span>
+            <button class="tag-remove" type="button" (click)="removeActiveCommand()">×</button>
           </div>
 
-          <button
-            type="submit"
-            [disabled]="!question.trim() || ai.busy() || loading()"
-          >
-            {{ ai.busy() ? 'Đang gửi...' : 'Gửi' }}
-          </button>
-          <button
-            type="button"
-            *ngIf="ai.busy()"
-            class="abort"
-            (click)="ai.abort()"
-          >
-            Dừng
-          </button>
+          <div class="input-row">
+            <div class="input-wrapper">
+              <app-slash-command-menu 
+                *ngIf="showSlashMenu" 
+                [commands]="slashMenuCommands" 
+                [activeIndex]="slashMenuIndex"
+                (selected)="selectCommand($event)" 
+                (dismissed)="onMenuDismissed()">
+              </app-slash-command-menu>
+
+              <textarea 
+                #questionInput 
+                [(ngModel)]="question" 
+                (ngModelChange)="onInputChange($event)"
+                (keydown)="onKeydown($event)" 
+                (input)="autoResize($event)" 
+                name="question"
+                placeholder="Nhập câu hỏi hoặc dùng /..." 
+                [disabled]="ai.busy() || loading()"
+                autocomplete="off" 
+                rows="1">
+              </textarea>
+            </div>
+
+            <button type="submit" class="send-btn" [disabled]="!question.trim() || ai.busy() || loading()">
+              {{ ai.busy() ? '...' : '↑' }}
+            </button>
+            <button type="button" *ngIf="ai.busy()" class="abort-btn" (click)="ai.abort()">
+              ✕
+            </button>
+          </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </footer>
   </div>
 </div>
