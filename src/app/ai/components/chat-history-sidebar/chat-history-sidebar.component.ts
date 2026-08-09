@@ -31,6 +31,7 @@ export class ChatHistorySidebarComponent implements OnInit, OnChanges {
   @Output() newChat = new EventEmitter<void>();
   @Output() deleteSession = new EventEmitter<string>();
   @Output() renameSession = new EventEmitter<{ id: string; title: string }>();
+  @Output() settingsClicked = new EventEmitter<void>();
 
   groupedSessions: { group: string; items: SessionListItem[] }[] = [];
 

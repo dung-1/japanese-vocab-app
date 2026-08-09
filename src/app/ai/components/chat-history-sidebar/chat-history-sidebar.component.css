@@ -291,9 +291,35 @@
 }
 
 .user-profile {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 10px;
+  min-width: 0;
+  width: 100%;
+}
+
+.user-profile .username {
+  flex: 1;
+  min-width: 0;
+}
+
+.user-profile-menu-btn {
+  opacity: 1;
+  flex-shrink: 0;
+}
+
+.user-profile:hover .user-profile-menu-btn,
+.user-profile.menu-open .user-profile-menu-btn {
+  opacity: 1;
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.user-profile-menu {
+  top: auto;
+  bottom: calc(100% + 8px);
+  right: 0;
 }
 
 .avatar {

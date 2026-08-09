@@ -134,9 +134,9 @@ app-chat-history-sidebar {
 }
 
 .back-btn {
-  background: none;
-  border: none;
-  display: none; 
+
+  
+  
   cursor: pointer;
   font-size: 14px;
   color: #666;
@@ -367,19 +367,11 @@ app-chat-history-sidebar {
   .top-bar-center {
     display: block;
   }
-
-  .back-btn {
-    display: none;
-  }
 }
 
 @media (min-width: 769px) {
-  .menu-toggle {
-    display: none;
-  }
-  .back-btn {
-    display: block;
-  }
+
+
   .top-bar-center {
     display: none;
   }

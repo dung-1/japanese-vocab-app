@@ -74,9 +74,34 @@
   </div>
 
   <div class="sidebar-footer">
-    <div class="user-profile">
+    <div class="user-profile" [class.menu-open]="openMenuId === 'user-profile'">
       <div class="avatar">JL</div>
       <span class="username">Japanese Learner</span>
+
+      <button
+        class="item-menu-btn user-profile-menu-btn"
+        type="button"
+        (click)="toggleMenu('user-profile', $event)"
+        aria-label="Tùy chọn tài khoản"
+      >
+        ···
+      </button>
+
+      <div
+        class="session-menu user-profile-menu"
+        *ngIf="openMenuId === 'user-profile'"
+        (click)="$event.stopPropagation()"
+      >
+        <button class="menu-item" type="button" (click)="settingsClicked.emit(); closeMenu()">
+          <span class="menu-icon">⚙️</span>
+          <span>Cài đặt</span>
+        </button>
+
+        <button class="menu-item" type="button" (click)="closeMenu()">
+          <span class="menu-icon">👤</span>
+          <span>Hồ sơ</span>
+        </button>
+      </div>
     </div>
   </div>
 </div>

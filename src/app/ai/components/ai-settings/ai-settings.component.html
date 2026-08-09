@@ -2,21 +2,27 @@
   <button class="back-btn" (click)="goBack()">← AI Assistant</button>
   <h1>⚙️ AI Settings</h1>
   <p class="subtitle">Cấu hình nhà cung cấp AI. Lưu vào localStorage.</p>
+
   <!-- Toast -->
   <div *ngIf="savedToast()" class="toast-saved">✅ Cài đặt đã được lưu</div>
+
   <!-- 1. AI Provider -->
   <section class="card">
     <h2>AI Provider</h2>
     <div class="provider-radio">
       <label class="radio-option">
-        <input type="radio" name="provider" value="local" [checked]="settings().provider === 'local'" (change)="setProvider('local')" />
+        <input type="radio" name="provider" value="local"
+          [checked]="settings().provider === 'local'"
+          (change)="setProvider('local')" />
         <div>
           <div class="radio-title">🏠 Ollama Local</div>
           <div class="radio-desc">Chạy trên máy dev (http://localhost:11434)</div>
         </div>
       </label>
       <label class="radio-option">
-        <input type="radio" name="provider" value="cloud" [checked]="settings().provider === 'cloud'" (change)="setProvider('cloud')" />
+        <input type="radio" name="provider" value="cloud"
+          [checked]="settings().provider === 'cloud'"
+          (change)="setProvider('cloud')" />
         <div>
           <div class="radio-title">☁️ Ollama Cloud</div>
           <div class="radio-desc">Cloud API (cần API Key)</div>
@@ -24,61 +30,158 @@
       </label>
     </div>
   </section>
-  <!-- 2. Endpoint (readonly, tự động theo provider) -->
+
+  <!-- 2. Endpoint -->
   <section class="card">
     <h2>Endpoint</h2>
     <input type="text" [value]="currentEndpoint()" readonly />
     <small>Tự động theo provider. Không thể chỉnh sửa.</small>
   </section>
-  <!-- 3. Cloud API Key — chỉ hiện khi Cloud -->
+
+  <!-- 3. Cloud API Key -->
   <section *ngIf="isCloud()" class="card">
     <h2>Cloud API Key</h2>
     <div class="api-key-row">
-      <input [type]="showApiKey() ? 'text' : 'password'" [ngModel]="settings().cloudApiKey" (ngModelChange)="settingsSvc.update({ cloudApiKey: $event })" name="cloudApiKey" placeholder="ollama-..." autocomplete="off" />
-      <button type="button" class="toggle-btn" (click)="toggleShowApiKey()">{{ showApiKey() ? '🙈 Hide' : '👁 Show' }}</button>
+      <input [type]="showApiKey() ? 'text' : 'password'"
+        [ngModel]="settings().cloudApiKey"
+        (ngModelChange)="settingsSvc.update({ cloudApiKey: $event })"
+        name="cloudApiKey" placeholder="ollama-..." autocomplete="off" />
+      <button type="button" class="toggle-btn" (click)="toggleShowApiKey()">
+        {{ showApiKey() ? '🙈 Hide' : '👁 Show' }}
+      </button>
     </div>
     <small>Lấy key tại <a href="https://ollama.com/settings/keys" target="_blank">ollama.com/settings/keys</a></small>
   </section>
-  <!-- 4. Model (gộp) -->
+
+  <!-- 4. Model ─────────────────────────────────────────────────────────────── -->
   <section class="card">
     <h2>Model</h2>
-    <input type="text" [ngModel]="settings().model" (ngModelChange)="settingsSvc.update({ model: $event })" name="model" placeholder="nemotron-3-super:cloud" />
-    <small>Ví dụ: <code>nemotron-3-super:cloud</code>, <code>qwen2.5-coder:7b</code>, <code>qwen3:0.6b</code>. Với Local phải pull model trước (<code>ollama pull qwen3:0.6b</code>).</small>
+
+    <!-- ── CLOUD: Select dropdown ── -->
+    <ng-container *ngIf="isCloud()">
+
+      <!-- Loading state -->
+      <div *ngIf="modelsLoading()" class="model-loading">
+        <span class="spinner-sm"></span>
+        Đang tải danh sách model từ ollama.com...
+      </div>
+
+      <!-- Select (loaded OK) -->
+      <ng-container *ngIf="!modelsLoading() && cloudModels().length > 0">
+        <div class="model-select-row">
+          <select
+            [ngModel]="settings().model"
+            (ngModelChange)="settingsSvc.update({ model: $event })"
+            name="model"
+            class="model-select"
+          >
+            <option *ngFor="let m of cloudModels()" [value]="m.tag">
+              {{ m.name }}{{ m.pulls ? ' · ' + m.pulls + ' pulls' : '' }}
+            </option>
+          </select>
+
+          <!-- Reload button -->
+          <button type="button" class="reload-btn" (click)="loadCloudModels()" title="Tải lại danh sách">
+            🔄
+          </button>
+        </div>
+
+        <!-- Chip tags của model đang chọn -->
+        <div class="model-tags" *ngIf="selectedModelTags().length > 0">
+          <span *ngFor="let t of selectedModelTags()" class="tag-chip tag-{{t}}">{{ t }}</span>
+        </div>
+
+        <!-- Description của model đang chọn -->
+        <p class="model-desc" *ngIf="selectedModelDesc()">{{ selectedModelDesc() }}</p>
+
+        <!-- Source badge -->
+        <small *ngIf="modelsSource() === 'fallback' || modelsSource().startsWith('fallback')">
+          ⚠️ Dùng danh sách dự phòng (không lấy được live từ ollama.com).
+        </small>
+        <small *ngIf="modelsSource() === 'live'">
+          ✅ Danh sách cập nhật trực tiếp từ <a href="https://ollama.com/search?c=cloud" target="_blank">ollama.com</a>
+        </small>
+      </ng-container>
+
+      <!-- Fallback: fetch lỗi hoặc không có model -->
+      <ng-container *ngIf="!modelsLoading() && cloudModels().length === 0">
+        <input type="text"
+          [ngModel]="settings().model"
+          (ngModelChange)="settingsSvc.update({ model: $event })"
+          name="model"
+          placeholder="nemotron-3-super:cloud" />
+        <div class="model-error">
+          ❌ Không tải được danh sách model.
+          <button type="button" class="retry-btn" (click)="loadCloudModels()">Thử lại</button>
+        </div>
+      </ng-container>
+
+      <small>Xem tất cả: <a href="https://ollama.com/search?c=cloud" target="_blank">ollama.com/search?c=cloud</a></small>
+    </ng-container>
+
+    <!-- ── LOCAL: Text input ── -->
+    <ng-container *ngIf="!isCloud()">
+      <input type="text"
+        [ngModel]="settings().model"
+        (ngModelChange)="settingsSvc.update({ model: $event })"
+        name="model"
+        placeholder="qwen3:0.6b" />
+      <small>
+        Ví dụ: <code>qwen2.5-coder:7b</code>, <code>qwen3:0.6b</code>, <code>llama3.2:3b</code>.
+        Phải pull trước: <code>ollama pull {{ settings().model }}</code>
+      </small>
+    </ng-container>
   </section>
+  <!-- ── end Model ── -->
+
   <!-- 5. Temperature -->
   <section class="card">
     <h2>Temperature</h2>
-    <input type="range" min="0" max="2" step="0.1" [ngModel]="settings().temperature" (ngModelChange)="settingsSvc.update({ temperature: +$event })" name="temperature" />
+    <input type="range" min="0" max="2" step="0.1"
+      [ngModel]="settings().temperature"
+      (ngModelChange)="settingsSvc.update({ temperature: +$event })"
+      name="temperature" />
     <div class="range-value">{{ settings().temperature.toFixed(1) }}</div>
     <small>0 = chính xác, 2 = sáng tạo. Mặc định 0.3</small>
   </section>
+
   <!-- 6. Top K -->
   <section class="card">
     <h2>Top K</h2>
-    <input type="number" min="1" max="100" [ngModel]="settings().topK" (ngModelChange)="settingsSvc.update({ topK: +$event })" name="topK" />
+    <input type="number" min="1" max="100"
+      [ngModel]="settings().topK"
+      (ngModelChange)="settingsSvc.update({ topK: +$event })"
+      name="topK" />
     <small>Số kết quả JSON search trả về cho AI. Mặc định 5</small>
   </section>
+
   <!-- 7. Streaming -->
   <section class="card">
     <h2>Streaming</h2>
     <label class="checkbox">
-      <input type="checkbox" [checked]="settings().streaming" (change)="settingsSvc.update({ streaming: $any($event.target).checked })" />
+      <input type="checkbox"
+        [checked]="settings().streaming"
+        (change)="settingsSvc.update({ streaming: $any($event.target).checked })" />
       Bật streaming response (real-time token)
     </label>
   </section>
+
   <!-- 8. Test Connection -->
   <section class="card">
     <h2>Test Connection</h2>
     <button class="test-btn" (click)="testConnection()" [disabled]="testStatus() === 'testing'">
       {{ testStatus() === 'testing' ? '⏳ Testing...' : '🧪 Test Connection' }}
     </button>
-    <div class="test-result" [class.ok]="testStatus() === 'ok'" [class.fail]="testStatus() === 'fail'">
+    <div class="test-result"
+      [class.ok]="testStatus() === 'ok'"
+      [class.fail]="testStatus() === 'fail'">
       {{ testMessage() }}
     </div>
     <div *ngIf="testResponse()" class="test-response">
       <strong>Preview:</strong> {{ testResponse() }}
     </div>
   </section>
+
   <div class="actions">
     <button class="primary" (click)="save()">💾 Save Settings</button>
     <button class="secondary" (click)="resetDefaults()">↺ Reset Defaults</button>

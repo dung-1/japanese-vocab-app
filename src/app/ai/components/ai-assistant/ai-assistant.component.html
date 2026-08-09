@@ -3,17 +3,10 @@
   <div class="sidebar-backdrop" *ngIf="sidebarOpen()" (click)="toggleSidebar()"></div>
 
   <!-- Sidebar: No longer using *ngIf to preserve Flexbox layout on Desktop -->
-  <app-chat-history-sidebar 
-    [class.sidebar-open]="sidebarOpen()"
-    [class.sidebar-collapsed]="!sidebarOpen()"
-    [sessions]="sessions()" 
-    [currentSessionId]="currentSessionId()"
-    [loading]="sessionsLoading()" 
-    (sessionSelected)="onSessionSelected($event)" 
-    (newChat)="onNewChat()"
-    (deleteSession)="onDeleteSession($event)" 
-    (renameSession)="onRenameSession($event)"
-  ></app-chat-history-sidebar>
+  <app-chat-history-sidebar [class.sidebar-open]="sidebarOpen()" [class.sidebar-collapsed]="!sidebarOpen()"
+    [sessions]="sessions()" [currentSessionId]="currentSessionId()" [loading]="sessionsLoading()"
+    (sessionSelected)="onSessionSelected($event)" (newChat)="onNewChat()" (deleteSession)="onDeleteSession($event)"
+    (renameSession)="onRenameSession($event)" (settingsClicked)="goToSettings()"></app-chat-history-sidebar>
 
   <!-- Main Chat Area -->
   <div class="chat-area">
@@ -21,20 +14,16 @@
     <header class="top-bar">
       <div class="top-bar-left">
         <button class="menu-toggle" (click)="toggleSidebar()" title="Menu">
-          <span class="hamburger">
-            <span></span><span></span><span></span>
-          </span>
+          {{ sidebarOpen() ? '◀' : '▶' }}
         </button>
         <button class="back-btn" (click)="goHome()">← Trang chủ</button>
       </div>
-      
+
       <div class="top-bar-center">
         <span class="model-name">Trợ lý AI</span>
       </div>
 
-      <div class="top-bar-right">
-        <a routerLink="/ai/settings" class="settings-link btn">⚙️</a>
-      </div>
+      <div class="top-bar-right"></div>
     </header>
 
     <div class="chat-window" #chatWindow>
@@ -51,11 +40,8 @@
       </div>
 
       <!-- Messages -->
-      <app-ai-chat-bubble 
-        *ngFor="let m of ai.messages(); trackBy: trackById" 
-        [message]="m"
-        (completed)="onMessagesUpdate()"
-      ></app-ai-chat-bubble>
+      <app-ai-chat-bubble *ngFor="let m of ai.messages(); trackBy: trackById" [message]="m"
+        (completed)="onMessagesUpdate()"></app-ai-chat-bubble>
 
       <div *ngIf="ai.busy() && lastIsStreaming()" class="typing-indicator">
         <span></span><span></span><span></span>
@@ -75,24 +61,13 @@
 
           <div class="input-row">
             <div class="input-wrapper">
-              <app-slash-command-menu 
-                *ngIf="showSlashMenu" 
-                [commands]="slashMenuCommands" 
-                [activeIndex]="slashMenuIndex"
-                (selected)="selectCommand($event)" 
-                (dismissed)="onMenuDismissed()">
+              <app-slash-command-menu *ngIf="showSlashMenu" [commands]="slashMenuCommands"
+                [activeIndex]="slashMenuIndex" (selected)="selectCommand($event)" (dismissed)="onMenuDismissed()">
               </app-slash-command-menu>
 
-              <textarea 
-                #questionInput 
-                [(ngModel)]="question" 
-                (ngModelChange)="onInputChange($event)"
-                (keydown)="onKeydown($event)" 
-                (input)="autoResize($event)" 
-                name="question"
-                placeholder="Nhập câu hỏi hoặc dùng /..." 
-                [disabled]="ai.busy() || loading()"
-                autocomplete="off" 
+              <textarea #questionInput [(ngModel)]="question" (ngModelChange)="onInputChange($event)"
+                (keydown)="onKeydown($event)" (input)="autoResize($event)" name="question"
+                placeholder="Nhập câu hỏi hoặc dùng /..." [disabled]="ai.busy() || loading()" autocomplete="off"
                 rows="1">
               </textarea>
             </div>

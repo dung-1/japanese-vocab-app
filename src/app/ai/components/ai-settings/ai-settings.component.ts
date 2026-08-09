@@ -1,17 +1,14 @@
-import { Component, inject, signal, computed } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { Component, OnInit, inject, signal, computed } from '@angular/core';
 import { Router } from '@angular/router';
 import { AiSettingsService } from '../../services/ai-settings.service';
 import { ProviderFactory } from '../../providers/provider-factory.service';
 import { LocalProvider } from '../../providers/local.provider';
 import { CloudProvider } from '../../providers/cloud.provider';
 import { AiProviderType } from '../../models/ai-chat.model';
+import { OllamaCloudModel } from '../../models/ollama-model.model';
 
-/** Endpoint cố định theo provider — không cho user sửa. */
 const LOCAL_ENDPOINT = 'http://localhost:11434';
-/** Chỉ để HIỂN THỊ trong UI — không dùng làm proxyUrl. */
 const CLOUD_UPSTREAM_DISPLAY = 'https://ollama.com/api/generate (via /api/chat proxy)';
-/** Proxy endpoint trên cùng origin — CloudProvider gọi cái này. */
 const CLOUD_PROXY_URL = '/api/chat';
 
 @Component({
@@ -20,7 +17,7 @@ const CLOUD_PROXY_URL = '/api/chat';
   styleUrls: ['./ai-settings.component.css'],
   standalone: false,
 })
-export class AiSettingsComponent {
+export class AiSettingsComponent implements OnInit {
   readonly settingsSvc = inject(AiSettingsService);
   private readonly factory = inject(ProviderFactory);
   private readonly local = inject(LocalProvider);
@@ -29,19 +26,61 @@ export class AiSettingsComponent {
 
   readonly settings = this.settingsSvc.settings;
 
-  /** Endpoint hiện tại tự động theo provider. */
   readonly currentEndpoint = computed(() =>
     this.settings().provider === 'cloud' ? CLOUD_UPSTREAM_DISPLAY : LOCAL_ENDPOINT,
   );
 
-  /** Có đang dùng Cloud? */
   readonly isCloud = computed(() => this.settings().provider === 'cloud');
+
+  // ── Model selector ──────────────────────────────────────────────────────────
+
+  readonly cloudModels = signal<OllamaCloudModel[]>([]);
+  readonly modelsLoading = signal(false);
+  readonly modelsError = signal(false);
+  readonly modelsSource = signal<string>('');
+
+  readonly selectedModelDesc = computed(() =>
+    this.cloudModels().find((m) => m.tag === this.settings().model)?.description ?? ''
+  );
+
+  readonly selectedModelTags = computed(() =>
+    this.cloudModels().find((m) => m.tag === this.settings().model)?.tags ?? []
+  );
+
+  // ── UI state ────────────────────────────────────────────────────────────────
 
   readonly showApiKey = signal(false);
   readonly testStatus = signal<'idle' | 'testing' | 'ok' | 'fail'>('idle');
   readonly testMessage = signal('');
   readonly testResponse = signal('');
   readonly savedToast = signal(false);
+
+  // ── Lifecycle ───────────────────────────────────────────────────────────────
+
+  ngOnInit(): void {
+    void this.loadCloudModels();
+  }
+
+  // ── Cloud model fetch ───────────────────────────────────────────────────────
+
+  async loadCloudModels(): Promise<void> {
+    this.modelsLoading.set(true);
+    this.modelsError.set(false);
+    try {
+      const resp = await fetch('/api/ollama-cloud-models');
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json() as { models: OllamaCloudModel[]; source?: string };
+      this.cloudModels.set(data.models ?? []);
+      this.modelsSource.set(data.source ?? '');
+    } catch (e) {
+      console.warn('[ai-settings] loadCloudModels error', e);
+      this.modelsError.set(true);
+    } finally {
+      this.modelsLoading.set(false);
+    }
+  }
+
+  // ── Settings ops ────────────────────────────────────────────────────────────
 
   setProvider(p: AiProviderType): void {
     this.settingsSvc.update({ provider: p });
@@ -55,8 +94,7 @@ export class AiSettingsComponent {
   }
 
   save(): void {
-    const s = this.settings();
-    this.settingsSvc.update({ ...s });
+    this.settingsSvc.update({ ...this.settings() });
     this.savedToast.set(true);
     setTimeout(() => this.savedToast.set(false), 2500);
   }
@@ -68,28 +106,24 @@ export class AiSettingsComponent {
     this.testResponse.set('');
   }
 
+  // ── Test connection ──────────────────────────────────────────────────────────
+
   async testConnection(): Promise<void> {
     this.testStatus.set('testing');
     this.testMessage.set('Đang kết nối...');
     this.testResponse.set('');
     const s = this.settings();
 
-    // Đồng bộ endpoint + config trước khi test
-    // LOCAL: gọi trực tiếp Ollama local
-    // CLOUD: luôn đi qua proxy /api/chat (same-origin) — tránh CORS
     this.factory.configureLocal(LOCAL_ENDPOINT);
     this.factory.configureCloud(s.cloudApiKey, s.model, CLOUD_PROXY_URL);
 
     const provider = s.provider === 'cloud' ? this.cloud : this.local;
-    console.log('[AI Test] provider=', s.provider, 'endpoint=', this.currentEndpoint(), 'model=', s.model);
 
     try {
-      const result = (await provider.testConnection?.()) as { ok: boolean; message: string; preview?: string } | undefined;
-      if (!result) {
-        this.testStatus.set('ok');
-        this.testMessage.set('OK');
-        return;
-      }
+      const result = (await provider.testConnection?.()) as
+        | { ok: boolean; message: string; preview?: string }
+        | undefined;
+      if (!result) { this.testStatus.set('ok'); this.testMessage.set('OK'); return; }
       if (result.ok) {
         this.testStatus.set('ok');
         this.testMessage.set('✅ ' + result.message);
@@ -99,14 +133,12 @@ export class AiSettingsComponent {
         this.testMessage.set('❌ ' + result.message);
       }
     } catch (e) {
-      const err = e as Error;
-      console.error('[AI Test] error:', err);
       this.testStatus.set('fail');
-      this.testMessage.set('❌ ' + err.message);
+      this.testMessage.set('❌ ' + (e as Error).message);
     }
   }
 
   goBack(): void {
-    this.router.navigate(['/ai']);
+    void this.router.navigate(['/ai']);
   }
 }

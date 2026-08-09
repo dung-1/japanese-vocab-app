@@ -1,7 +1,7 @@
 /**
- * api/embeddings.ts — Vercel Serverless Function
+ * api/embed.ts — Vercel Serverless Function
  * 
- * Xử lý POST /api/embeddings — proxy tới Ollama /api/embeddings.
+ * Xử lý POST /api/embed — proxy tới Ollama /api/embeddings.
  */
 
 import type { VercelRequest, VercelResponse } from '@vercel/node';

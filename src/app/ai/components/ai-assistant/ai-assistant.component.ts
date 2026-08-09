@@ -174,6 +174,10 @@ export class AiAssistantComponent implements OnInit {
     void this.router.navigate(['/home']);
   }
 
+  goToSettings(): void {
+    void this.router.navigate(['/ai/settings']);
+  }
+
   clearChat(): void {
     this.ai.clear();
     void this.onNewChat();
