@@ -1,4 +1,5 @@
-import { Component, OnInit, inject, signal, computed } from '@angular/core';
+import { Component, OnInit, inject, signal, computed, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { Router } from '@angular/router';
 import { AiSettingsService } from '../../services/ai-settings.service';
 import { ProviderFactory } from '../../providers/provider-factory.service';
@@ -18,6 +19,7 @@ const CLOUD_PROXY_URL = '/api/chat';
   standalone: false,
 })
 export class AiSettingsComponent implements OnInit {
+  private readonly platformId = inject(PLATFORM_ID);
   readonly settingsSvc = inject(AiSettingsService);
   private readonly factory = inject(ProviderFactory);
   private readonly local = inject(LocalProvider);
@@ -58,7 +60,9 @@ export class AiSettingsComponent implements OnInit {
   // ── Lifecycle ───────────────────────────────────────────────────────────────
 
   ngOnInit(): void {
-    void this.loadCloudModels();
+    if (isPlatformBrowser(this.platformId)) {
+      void this.loadCloudModels();
+    }
   }
 
   // ── Cloud model fetch ───────────────────────────────────────────────────────
@@ -67,7 +71,8 @@ export class AiSettingsComponent implements OnInit {
     this.modelsLoading.set(true);
     this.modelsError.set(false);
     try {
-      const resp = await fetch('/api/ollama-cloud-models');
+      const baseUrl = this.settingsSvc.baseUrl();
+      const resp = await fetch(`${baseUrl}/api/ollama-cloud-models`);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const data = await resp.json() as { models: OllamaCloudModel[]; source?: string };
       this.cloudModels.set(data.models ?? []);

@@ -30,10 +30,11 @@ export interface AiProvider {
   ): Promise<ChatStreamHandle>;
   testConnection?(): Promise<{ ok: boolean; message: string }>;
   /**
-   * Tạo embedding vector cho một đoạn text.
+   * Tạo embedding vector cho một hoặc nhiều đoạn text.
    * Optional — chỉ implement khi provider hỗ trợ /api/embeddings.
-   * Trả về mảng số thực (thường 768 chiều với nomic-embed-text).
+   * Input có thể là một string hoặc mảng các strings.
+   * Trả về mảng các vectors (mỗi vector là mảng số thực).
    * Trả về [] nếu không hỗ trợ hoặc model chưa được pull.
    */
-  embed?(text: string): Promise<number[]>;
+  embed?(input: string | string[]): Promise<number[][]>;
 }

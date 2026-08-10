@@ -18,7 +18,16 @@ export class EmbeddingService {
     if (!provider || !provider.embed) {
       throw new Error('Current provider does not support embeddings.');
     }
-    return await provider.embed(text);
+    const vectors = await provider.embed(text);
+    return vectors[0] || [];
+  }
+
+  async getEmbeddings(texts: string[]): Promise<EmbeddingVector[]> {
+    const provider = this.providerFactory.getProvider();
+    if (!provider || !provider.embed) {
+      throw new Error('Current provider does not support embeddings.');
+    }
+    return await provider.embed(texts);
   }
 
   async getOrCreateEmbedding(itemId: string, text: string): Promise<EmbeddingVector> {
@@ -35,25 +44,50 @@ export class EmbeddingService {
     this.isInitializing.set(true);
 
     console.log(`[EmbeddingService] Starting vectorization for ${items.length} items...`);
-    
+
     try {
-      const batchSize = 10;
+      const batchSize = 20; // Increased batch size for efficiency
+      let totalProcessed = 0;
+      let totalFailed = 0;
+
       for (let i = 0; i < items.length; i += batchSize) {
         const batch = items.slice(i, i + batchSize);
-        await Promise.all(batch.map(async (item) => {
-          const contentToEmbed = this.prepareContentForEmbedding(item);
-          const vector = await this.getEmbedding(contentToEmbed);
-          this.cache.set(item.id, vector);
-        }));
-        
-        if (i % 50 === 0) {
-          console.log(`[EmbeddingService] Vectorized ${i}/${items.length} items...`);
+        const contents = batch.map(item => this.prepareContentForEmbedding(item));
+
+        try {
+          const vectors = await this.getEmbeddings(contents);
+
+          if (vectors.length !== batch.length) {
+            throw new Error(`Expected ${batch.length} vectors, got ${vectors.length}`);
+          }
+
+          batch.forEach((item, idx) => {
+            this.cache.set(item.id, vectors[idx]);
+          });
+          totalProcessed += batch.length;
+        } catch (e) {
+          console.error(`[EmbeddingService] Batch ${i/batchSize + 1} failed:`, e);
+          totalFailed += batch.length;
+          // Fallback to individual items for this batch to salvage what we can
+          await Promise.allSettled(batch.map(async (item) => {
+            try {
+              const content = this.prepareContentForEmbedding(item);
+              const vector = await this.getEmbedding(content);
+              this.cache.set(item.id, vector);
+            } catch (innerE) {
+              console.error(`[EmbeddingService] Item ${item.id} permanently failed`);
+            }
+          }));
+        }
+
+        if (i % 100 === 0 || i + batchSize >= items.length) {
+          // console.log(`[EmbeddingService] Processed ${Math.min(i + batchSize, items.length)}/${items.length} items...`);
         }
       }
-      console.log('[EmbeddingService] Knowledge base vectorization complete.');
+      console.log(`[EmbeddingService] Vectorization complete. Success: ${totalProcessed}, Failed: ${totalFailed}`);
       this.isReady.set(true);
     } catch (e) {
-      console.error('[EmbeddingService] Vectorization failed:', e);
+      console.error('[EmbeddingService] Vectorization critical failure:', e);
       throw e;
     } finally {
       this.isInitializing.set(false);

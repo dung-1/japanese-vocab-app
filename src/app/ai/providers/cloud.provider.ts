@@ -131,21 +131,26 @@ export class CloudProvider implements AiProvider {
     }
   }
 
-  async embed(text: string): Promise<number[]> {
+  async embed(input: string | string[]): Promise<number[][]> {
     if (!this.apiKey) throw new Error('Chưa nhập Cloud API Key.');
     const baseUrl = this.settingsSvc.baseUrl();
-    const res = await fetch(`${baseUrl}/api/embeddings`, {
+    const res = await fetch(`${baseUrl}/api/embed`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         provider: 'cloud',
         apiKey: this.apiKey,
         model: 'nomic-embed-text',
-        prompt: text,
+        input: input,
       }),
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    return data.embedding;
+    if (Array.isArray(data.embeddings)) {
+      return data.embeddings;
+    } else if (data.embedding) {
+      return [data.embedding];
+    }
+    return [];
   }
 }

@@ -1,7 +1,7 @@
 /**
  * api/embed.ts — Vercel Serverless Function
  * 
- * Xử lý POST /api/embed — proxy tới Ollama /api/embeddings.
+ * Xử lý POST /api/embed — proxy tới Ollama /api/embed.
  */
 
 import type { VercelRequest, VercelResponse } from '@vercel/node';
@@ -21,13 +21,19 @@ type EmbedBody = {
 };
 
 export default function handler(req: VercelRequest, res: VercelResponse): void {
+  const setCorsHeaders = (response: VercelResponse) => {
+    response.setHeader('Access-Control-Allow-Origin', '*');
+    response.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    response.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  };
+
   if (req.method === 'OPTIONS') {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    setCorsHeaders(res);
     res.status(204).end();
     return;
   }
+
+  setCorsHeaders(res);
 
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'method_not_allowed' });
@@ -57,11 +63,11 @@ export default function handler(req: VercelRequest, res: VercelResponse): void {
   };
 
   if (provider === 'cloud') {
-    upstreamUrl = new URL('https://ollama.com/api/embeddings');
+    upstreamUrl = new URL('https://ollama.com/api/embed');
     headers['Authorization'] = 'Bearer ' + body.apiKey;
   } else {
     const ollamaHost = process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434';
-    upstreamUrl = new URL('/api/embeddings', ollamaHost);
+    upstreamUrl = new URL('/api/embed', ollamaHost);
   }
 
   const isHttps = upstreamUrl.protocol === 'https:';
@@ -88,9 +94,8 @@ export default function handler(req: VercelRequest, res: VercelResponse): void {
         return;
       }
       try {
-        const parsed = JSON.parse(data) as { embedding?: number[] };
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        res.status(200).json({ embedding: parsed.embedding ?? [] });
+        const parsed = JSON.parse(data) as { embeddings?: number[][] };
+        res.status(200).json({ embedding: parsed.embeddings?.[0] ?? [] });
       } catch {
         res.status(502).json({ error: 'parse_error', raw: data.slice(0, 200) });
       }

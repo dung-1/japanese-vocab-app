@@ -17,6 +17,13 @@ const angularApp = new AngularNodeAppEngine();
 
 app.use(express.json({ limit: '4mb' }));
 
+app.options('/api/embed', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.status(204).end();
+});
+
 app.post('/api/chat', (req: Request, res: Response) => {
   const body = (req.body ?? {}) as {
     provider?: string;
@@ -113,23 +120,29 @@ app.post('/api/chat', (req: Request, res: Response) => {
   upstreamReq.end(upstreamBody);
 });
 
-app.post('/api/embeddings', (req: Request, res: Response) => {
+app.post('/api/embed', (req: Request, res: Response) => {
   const body = (req.body ?? {}) as {
     provider?: string;
     apiKey?: string;
     text?: string;
+    input?: string | string[];
     model?: string;
   };
 
   const provider = body.provider ?? 'local';
   const text = body.text ?? '';
+  const input = body.input ?? (text ? [text] : []);
   const model = body.model ?? 'nomic-embed-text';
 
-  if (!text) {
-    res.status(400).json({ error: 'missing_text', message: 'text field is required' });
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  if (!text && (!input || (Array.isArray(input) && input.length === 0))) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.status(400).json({ error: 'missing_text', message: 'text or input field is required' });
     return;
   }
   if (provider === 'cloud' && !body.apiKey) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.status(400).json({ error: 'missing_api_key', message: 'Cloud provider requires apiKey' });
     return;
   }
@@ -138,14 +151,13 @@ app.post('/api/embeddings', (req: Request, res: Response) => {
   const headers: Record<string, string> = { 'Content-Type': 'application/json' };
 
   if (provider === 'cloud') {
-    upstreamUrl = new URL('https://ollama.com/api/embeddings');
+    upstreamUrl = new URL('https://ollama.com/api/embed');
     headers['Authorization'] = 'Bearer ' + body.apiKey;
   } else {
-    upstreamUrl = new URL('/api/embeddings', process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434');
+    upstreamUrl = new URL('/api/embed', process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434');
   }
 
-  // FIX BUG-004: Ollama /api/embeddings expects 'input' field, not 'prompt'
-  const upstreamBody = JSON.stringify({ model, input: text });
+  const upstreamBody = JSON.stringify({ model, input });
   const useHttps = upstreamUrl.protocol === 'https:';
   const lib = useHttps ? require('node:https') : require('node:http');
 
@@ -171,7 +183,13 @@ app.post('/api/embeddings', (req: Request, res: Response) => {
         }
         try {
           const parsed = JSON.parse(data);
-          res.status(200).json({ embedding: parsed.embedding ?? [] });
+          if (parsed.embeddings) {
+            res.status(200).json({ embeddings: parsed.embeddings });
+          } else if (parsed.embedding) {
+            res.status(200).json({ embedding: parsed.embedding });
+          } else {
+            res.status(502).json({ error: 'parse_error', detail: 'Unexpected response format' });
+          }
         } catch {
           res.status(502).json({ error: 'parse_error', raw: data.slice(0, 200) });
         }

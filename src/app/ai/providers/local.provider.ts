@@ -237,47 +237,30 @@ export class LocalProvider implements AiProvider {
     }
   }
 
-  async embed(text: string): Promise<number[]> {
-    // BUG-004 FIX: Try dynamic endpoint from settings first, fallback to localhost
-    let url = `${this.endpoint.replace(/\/+$/, '')}/api/embeddings`;
-    
+  async embed(input: string | string[]): Promise<number[][]> {
+    const baseUrl = this.settingsSvc.baseUrl();
     try {
-      const res = await fetch(url, {
+      const res = await fetch(`${baseUrl}/api/embed`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
+          provider: 'local',
           model: 'nomic-embed-text',
-          prompt: text,
+          input: input,
         }),
       });
-      if (!res.ok) {
-        const textErr = await res.text().catch(() => '');
-        throw new Error(`Local Embedding HTTP ${res.status}: ${textErr || res.statusText}`);
-      }
+      if (!res.ok) throw new Error(`Proxy Embedding HTTP ${res.status}`);
       const data = await res.json();
-      if (!data.embedding) {
-        throw new Error('Local Embedding response không có trường embedding');
+      // proxy returns { embedding: number[] } for single, but we want to normalize to number[][]
+      if (Array.isArray(data.embeddings)) {
+        return data.embeddings;
+      } else if (data.embedding) {
+        return [data.embedding];
       }
-      return data.embedding;
+      return [];
     } catch (e) {
-      // Fallback to proxy if local fetch fails (crucial for Android APK)
-      try {
-        const baseUrl = this.settingsSvc.baseUrl();
-        const proxyRes = await fetch(`${baseUrl}/api/embeddings`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            provider: 'local',
-            model: 'nomic-embed-text',
-            prompt: text,
-          }),
-        });
-        if (!proxyRes.ok) throw new Error(`Proxy Embedding HTTP ${proxyRes.status}`);
-        const proxyData = await proxyRes.json();
-        return proxyData.embedding;
-      } catch (proxyErr) {
-        throw e; // Return original error if proxy also fails
-      }
+      console.error('[LocalProvider] embed failed:', e);
+      throw e;
     }
   }
 
