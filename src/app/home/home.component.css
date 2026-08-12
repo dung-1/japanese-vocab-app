@@ -1,280 +1,592 @@
-/* ============== Home Container ============== */
-.home-container {
+/* ==========================================================
+   Colors/typography below are eyeballed from the user-supplied
+   Figma reference screenshots (Desktop 1440.png / Background.png),
+   NOT read from exact Figma values (Figma MCP quota was exhausted
+   for this session — see report.md).
+   ========================================================== */
+
+:host {
+  --ink-maroon: #7a1f2b;
+  --ink-maroon-soft: #8b3a3a;
+  --rose-bg: #fbe4e6;
+  --rose-pill: #f6d9dc;
+  --rose-track: #f3d9db;
+  --rose-fill: #c1495a;
+  --text-dark: #2b2626;
+  --text-gray: #8f8686;
+  --text-gray-soft: #b6a6a6;
+  --page-bg: #f7ead9;
+  --sidebar-width: 220px;
+  --rail-width: 280px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ============== Shell Layout ============== */
+.app-shell {
+  display: flex;
   min-height: 100vh;
-  background: linear-gradient(135deg, #fff5f7 0%, #ffeef5 50%, #f0f4ff 100%);
+  background: var(--page-bg);
   font-family: 'Segoe UI', 'Noto Sans JP', 'Hiragino Sans', sans-serif;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
 }
 
-/* ============== Hero Section ============== */
-.hero {
-  position: relative;
-  text-align: center;
-  padding: 40px 20px 20px;
-  background: linear-gradient(135deg, #e63946 0%, #f72585 50%, #7209b7 100%);
-  color: white;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(230, 57, 70, 0.25);
+/* ============== Left Sidebar ============== */
+.left-sidebar {
+  width: var(--sidebar-width);
+  flex: 0 0 var(--sidebar-width);
+  background: #fffdfb;
+  padding: 28px 20px;
+  box-shadow: 2px 0 12px rgba(122, 31, 43, 0.05);
 }
 
-.hero-bg {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
+.brand {
+  margin-bottom: 32px;
 }
 
-.petal {
-  position: absolute;
-  font-size: 24px;
-  opacity: 0.6;
-  animation: float 8s ease-in-out infinite;
+.brand-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ink-maroon);
+  letter-spacing: 1px;
 }
 
-.petal-1 { top: 10%; left: 10%; animation-delay: 0s; }
-.petal-2 { top: 20%; right: 15%; animation-delay: 1.5s; }
-.petal-3 { top: 60%; left: 8%; animation-delay: 3s; }
-.petal-4 { top: 70%; right: 12%; animation-delay: 4.5s; }
-.petal-5 { top: 40%; left: 50%; animation-delay: 2s; font-size: 18px; }
-
-@keyframes float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-20px) rotate(15deg); }
+.brand-sub {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-gray-soft);
+  letter-spacing: 1.5px;
+  margin-top: 2px;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 1;
-  max-width: 800px;
-  margin: 0 auto;
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.hero-jp {
-  font-size: 1.8rem;
-  margin: 0 0 10px;
-  letter-spacing: 8px;
-  opacity: 0.95;
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  color: var(--text-dark);
+  font-size: 0.95rem;
   font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
-.hero-title {
-  font-size: 3.5rem;
-  margin: 0 0 15px;
-  font-weight: 800;
-  letter-spacing: -1px;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+.nav-icon {
+  color: var(--ink-maroon);
+  font-weight: 700;
+  font-size: 0.85rem;
+  width: 18px;
+  text-align: center;
 }
 
-.hero-subtitle {
-  font-size: 1.15rem;
-  margin: 0 0 25px;
-  opacity: 0.92;
-  font-weight: 400;
+.nav-item:hover {
+  background: #f7f0ee;
 }
 
-.hero-divider {
-  width: 80px;
-  height: 4px;
-  background: white;
+.nav-item.active {
+  background: var(--rose-pill);
+  color: var(--ink-maroon);
+  font-weight: 700;
+}
+
+/* ============== Main Area ============== */
+.main-area {
+  flex: 1;
+  min-width: 0;
+  background-image: url('/assets/figma-reference/Background.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* background-size: cover; */
+  background-color: var(--page-bg);
+}
+
+/* ============== Hero ============== */
+.hero {
+  height: 280px;
+  width: 100%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ============== Content Row (grid + rail) ============== */
+.content-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 1180px;
   margin: 0 auto;
-  border-radius: 2px;
-  opacity: 0.85;
+  padding: 0 32px 24px;
+}
+
+@media (min-width: 1200px) {
+  .content-row {
+    grid-template-columns: 1fr var(--rail-width);
+  }
 }
 
 /* ============== Menu Grid ============== */
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  max-width: 1100px;
-  margin: 0px auto 0;
-  padding: 24px 30px 24px;
-  position: relative;
-  z-index: 2;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-content: start;
 }
 
 .menu-card {
-  --card-gradient: linear-gradient(135deg, #4361ee, #7209b7);
-  position: relative;
-  background: var(--card-gradient);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
   border-radius: 16px;
-  padding: 32px 24px;
-  color: white;
+  padding: 20px;
+  min-height: 118px;
   text-decoration: none;
   cursor: pointer;
-  overflow: hidden;
-  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  display: flex;
-  flex-direction: column;
-  min-height: 220px;
-}
-
-.menu-card::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  right: -50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 60%);
-  transition: opacity 0.4s ease;
-  opacity: 0.5;
+  box-shadow: 0 4px 14px rgba(122, 31, 43, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .menu-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
-}
-
-.menu-card:hover::before {
-  opacity: 1;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(122, 31, 43, 0.12);
 }
 
 .menu-card.active {
-  outline: 3px solid #fff;
-  outline-offset: -3px;
-  transform: translateY(-4px) scale(1.01);
+  outline: 2px solid var(--ink-maroon);
+  outline-offset: -2px;
+}
+
+.menu-card.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.menu-card.disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 14px rgba(122, 31, 43, 0.06);
 }
 
 .card-icon {
-  width: 64px;
-  height: 64px;
-  background: rgba(255, 255, 255, 0.22);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 14px;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--rose-bg);
+  color: var(--ink-maroon);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  position: relative;
-  z-index: 1;
+}
+
+.card-text {
+  min-width: 0;
 }
 
 .card-title {
-  font-size: 1.4rem;
-  margin: 0 0 10px;
+  font-size: 1.05rem;
   font-weight: 700;
-  position: relative;
-  z-index: 1;
+  color: var(--text-dark);
+  margin: 0 0 4px;
 }
 
 .card-desc {
-  font-size: 0.95rem;
+  font-size: 0.82rem;
+  color: var(--text-gray);
   margin: 0;
-  opacity: 0.92;
-  line-height: 1.5;
-  flex-grow: 1;
-  position: relative;
-  z-index: 1;
 }
 
-.card-arrow {
-  position: absolute;
-  bottom: 18px;
-  right: 22px;
-  font-size: 1.5rem;
+/* ============== Right Rail ============== */
+.side-rail {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 4px 14px rgba(122, 31, 43, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: fit-content;
+}
+
+.side-rail-title {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
   font-weight: 700;
-  opacity: 0.7;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  z-index: 1;
+  color: var(--ink-maroon);
 }
 
-.menu-card:hover .card-arrow {
-  transform: translateX(6px);
-  opacity: 1;
+.side-rail-pill {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--rose-pill);
+  color: var(--ink-maroon);
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.side-rail-pill:hover {
+  background: #f0c7cc;
+}
+
+.side-rail-label {
+  margin: 10px 0 2px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-gray-soft);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stats-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stat-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.stat-label {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.stat-value {
+  color: var(--rose-fill);
+  font-weight: 700;
+}
+
+.stat-track {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--rose-track);
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--rose-fill);
 }
 
 /* ============== Footer ============== */
 .home-footer {
   text-align: center;
-  padding: 30px 20px 40px;
-  color: #6b7280;
-  font-size: 0.95rem;
+  color: var(--text-gray);
+  font-size: 0.9rem;
   font-style: italic;
+}
+
+/* ============== Mobile Header (hidden on desktop) ============== */
+.mobile-header {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 14px 16px;
+  box-shadow: 0 2px 8px rgba(122, 31, 43, 0.06);
+}
+
+.mobile-icon-btn {
+  border: none;
+  background: transparent;
+  font-size: 1.3rem;
+  color: var(--ink-maroon);
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 8px;
+}
+
+.mobile-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink-maroon);
+  letter-spacing: 1px;
+}
+
+.mobile-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--rose-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+/* ============== Mobile Drawer (hidden on desktop) ============== */
+.mobile-drawer-backdrop {
+  display: none;
+}
+
+.mobile-drawer {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  background: #fffdfb;
+  padding: 24px 16px;
+  z-index: 30;
+  transform: translateX(-100%);
+  transition: transform 0.25s ease;
+  box-shadow: 4px 0 16px rgba(122, 31, 43, 0.12);
+}
+
+.mobile-drawer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mobile-drawer-item.active {
+  background: var(--rose-pill);
+  color: var(--ink-maroon);
+  font-weight: 700;
+}
+
+/* ============== Mobile Menu Grid (hidden on desktop) ============== */
+.mobile-menu-grid {
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.mobile-menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(122, 31, 43, 0.06);
+}
+
+.mobile-menu-card.active {
+  outline: 2px solid var(--ink-maroon);
+  outline-offset: -2px;
+}
+
+.mobile-menu-card.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.mobile-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--rose-bg);
+  color: var(--ink-maroon);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.mobile-card-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+/* ============== Mobile Progress Card (hidden on desktop) ============== */
+.mobile-progress-card {
+  display: none;
+  flex-direction: column;
+  gap: 18px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(122, 31, 43, 0.06);
+}
+
+/* ============== Bottom Tab Bar (hidden on desktop) ============== */
+.bottom-nav {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  box-shadow: 0 -2px 10px rgba(122, 31, 43, 0.08);
+  padding: 10px 0;
+  z-index: 20;
+}
+
+.bottom-nav-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-gray-soft);
+  cursor: pointer;
+}
+
+.bottom-nav-item.active {
+  color: var(--ink-maroon);
 }
 
 /* ============== Responsive ============== */
 
-/* Tablet */
-@media (max-width: 900px) {
-  .menu-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px;
-    padding: 0 20px 50px;
-  }
-
-  .hero-title {
-    font-size: 2.6rem;
-  }
-
-  .hero-jp {
-    font-size: 1.4rem;
+/* Tablet: sidebar stays, rail drops below grid */
+@media (max-width: 1199px) {
+  .content-row {
+    grid-template-columns: 1fr;
   }
 }
 
-/* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 900px) and (min-width: 768px) {
+  .app-shell {
+    flex-direction: column;
+  }
+
+  .left-sidebar {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 16px 20px;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .hero {
-    padding: 60px 20px 50px;
+    height: 200px;
   }
 
-  .hero-title {
-    font-size: 2rem;
+  .content-row {
+    padding: 0 20px 24px;
+  }
+}
+
+/* Mobile app layout (≤767px) — matches the mobile reference screenshot:
+   top header + drawer instead of the sidebar, a compact 3-col icon grid
+   instead of the 2-col card grid, a single progress card instead of the
+   right rail, and a fixed bottom tab bar. */
+@media (max-width: 767px) {
+  .app-shell {
+    flex-direction: column;
   }
 
-  .hero-jp {
-    font-size: 1.2rem;
-    letter-spacing: 5px;
+  .left-sidebar {
+    display: none;
   }
 
-  .hero-subtitle {
-    font-size: 1rem;
+  .mobile-header {
+    display: flex;
   }
 
-  .menu-grid {
-    grid-template-columns: 1fr;
+  .mobile-drawer-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 25;
+  }
+
+  .mobile-drawer {
+    display: flex;
+  }
+
+  .mobile-drawer.open {
+    transform: translateX(0);
+  }
+
+  .hero {
+    height: 220px;
+  }
+
+  .main-area {
+    background-size: cover;
+  }
+
+  .content-row {
+    padding: 0 16px 24px;
     gap: 16px;
-    padding: 40px 16px 40px;
   }
 
-  .menu-card {
-    min-height: 180px;
-    padding: 24px 20px;
+  .menu-grid,
+  .side-rail {
+    display: none;
   }
 
-  .card-icon {
-    width: 52px;
-    height: 52px;
-    font-size: 1.6rem;
+  .mobile-menu-grid {
+    display: grid;
   }
 
-  .card-title {
-    font-size: 1.2rem;
+  .mobile-progress-card {
+    display: flex;
   }
 
-  .card-desc {
-    font-size: 0.9rem;
+  .bottom-nav {
+    display: flex;
   }
 
-  .petal {
-    font-size: 18px;
+  .home-footer {
+    padding-bottom: 76px;
   }
 }
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .petal,
-  .menu-card,
-  .card-arrow {
-    animation: none !important;
+  .menu-card {
     transition: none !important;
   }
 }

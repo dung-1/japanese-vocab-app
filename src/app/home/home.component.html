@@ -1,39 +1,141 @@
-<div class="home-container">
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-bg">
-      <span class="petal petal-1">🌸</span>
-      <span class="petal petal-2">🌸</span>
-      <span class="petal petal-3">🌸</span>
-      <span class="petal petal-4">🌸</span>
-      <span class="petal petal-5">🌸</span>
-    </div>
-    <div class="hero-content">
-      <p class="hero-jp">こんにちは</p>
-      <h1 class="hero-title">Japanese Learning</h1>
-      <p class="hero-subtitle">Chọn phương pháp học phù hợp với bạn</p>
-      <div class="hero-divider"></div>
-    </div>
-  </section>
+<div class="app-shell">
+  <!-- Mobile-only top header -->
+  <header class="mobile-header">
+    <button type="button" class="mobile-icon-btn" (click)="toggleDrawer()" aria-label="Menu">☰</button>
+    <div class="mobile-title">日本語桜</div>
+    <div class="mobile-avatar" aria-hidden="true">👤</div>
+  </header>
 
-  <!-- Menu Grid -->
-  <section class="menu-grid">
+  <!-- Mobile-only slide-out drawer (reuses the same nav items as the desktop sidebar) -->
+  <div class="mobile-drawer-backdrop" *ngIf="isDrawerOpen" (click)="toggleDrawer()"></div>
+  <nav class="mobile-drawer" [class.open]="isDrawerOpen">
     <a
-      *ngFor="let item of menuItems"
+      *ngFor="let nav of navItems"
+      (click)="closeDrawerAndNavigate(nav.path)"
+      [class.active]="isActive(nav.path)"
+      class="mobile-drawer-item"
+    >
+      <span class="nav-icon" *ngIf="nav.icon">{{ nav.icon }}</span>
+      {{ nav.label }}
+    </a>
+  </nav>
+
+  <!-- Left Sidebar (desktop) -->
+  <aside class="left-sidebar">
+    <div class="brand">
+      <div class="brand-title">日本語桜</div>
+      <div class="brand-sub">NIHONGOSAKURA</div>
+    </div>
+
+    <nav class="nav-list">
+      <a
+        *ngFor="let nav of navItems"
+        (click)="navigateTo(nav.path)"
+        [class.active]="isActive(nav.path)"
+        class="nav-item"
+      >
+        <span class="nav-icon" *ngIf="nav.icon">{{ nav.icon }}</span>
+        {{ nav.label }}
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Area -->
+  <div class="main-area">
+    <!-- Hero banner (background image carries the torii + 日本語桜 branding) -->
+    <section class="hero" role="img" aria-label="日本語桜 - Japanese Learning">
+      <h1 class="sr-only">Japanese Learning</h1>
+    </section>
+
+    <div class="content-row">
+      <!-- Menu Grid -->
+      <section class="menu-grid">
+        <a
+          *ngFor="let item of menuItems"
+          (click)="navigateTo(item.path)"
+          [class.active]="isActive(item.path)"
+          [class.disabled]="item.disabled"
+          class="menu-card"
+        >
+          <div class="card-icon">{{ item.icon }}</div>
+          <div class="card-text">
+            <h2 class="card-title">{{ item.title }}</h2>
+            <p class="card-desc">{{ item.description }}</p>
+          </div>
+        </a>
+      </section>
+
+      <!-- Mobile-only compact 3-column icon grid -->
+      <section class="mobile-menu-grid">
+        <a
+          *ngFor="let item of mobileMenuItems"
+          (click)="navigateTo(item.path)"
+          [class.active]="isActive(item.path)"
+          [class.disabled]="item.disabled"
+          class="mobile-menu-card"
+        >
+          <div class="mobile-card-icon">{{ item.icon }}</div>
+          <span class="mobile-card-title">{{ item.title }}</span>
+        </a>
+      </section>
+
+      <!-- Mobile-only progress card (distinct stats from the desktop right rail) -->
+      <section class="mobile-progress-card">
+        <div class="stat-block" *ngFor="let stat of mobileProgressStats">
+          <div class="stat-row">
+            <span class="stat-label">{{ stat.label }}</span>
+            <span class="stat-value">{{ stat.value }}%</span>
+          </div>
+          <div class="stat-track">
+            <div class="stat-fill" [style.width.%]="stat.value"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Rail (desktop) -->
+      <aside class="side-rail">
+        <h3 class="side-rail-title">{{ sideRailTitle }}</h3>
+
+        <button
+          type="button"
+          *ngFor="let action of quickActions"
+          (click)="scrollToTarget(action.scrollTarget)"
+          class="side-rail-pill"
+        >
+          {{ action.label }}
+        </button>
+
+        <p class="side-rail-label">{{ progressSectionLabel }}</p>
+
+        <div id="progress-stats" class="stats-group">
+          <div class="stat-block" *ngFor="let stat of progressStats">
+            <div class="stat-row">
+              <span class="stat-label">{{ stat.label }}</span>
+              <span class="stat-value">{{ stat.value }}%</span>
+            </div>
+            <div class="stat-track">
+              <div class="stat-fill" [style.width.%]="stat.value"></div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="home-footer">
+      <p>がんばって！ — Hãy cố gắng nhé!</p>
+    </footer>
+  </div>
+
+  <!-- Mobile-only bottom tab bar -->
+  <nav class="bottom-nav">
+    <a
+      *ngFor="let item of bottomNavItems"
       (click)="navigateTo(item.path)"
       [class.active]="isActive(item.path)"
-      class="menu-card"
-      [style.--card-gradient]="item.gradient"
+      class="bottom-nav-item"
     >
-      <div class="card-icon">{{ item.icon }}</div>
-      <h2 class="card-title">{{ item.title }}</h2>
-      <p class="card-desc">{{ item.description }}</p>
-      <div class="card-arrow">→</div>
+      {{ item.icon }}
     </a>
-  </section>
-
-  <!-- Footer -->
-  <footer class="home-footer">
-    <p>がんばって！ — Hãy cố gắng nhé!</p>
-  </footer>
+  </nav>
 </div>
