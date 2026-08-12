@@ -68,6 +68,7 @@ export class AiSettingsComponent implements OnInit {
   // ── Cloud model fetch ───────────────────────────────────────────────────────
 
   async loadCloudModels(): Promise<void> {
+    if (!isPlatformBrowser(this.platformId)) return;
     this.modelsLoading.set(true);
     this.modelsError.set(false);
     try {

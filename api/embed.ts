@@ -40,22 +40,22 @@ export default function handler(req: VercelRequest, res: VercelResponse): void {
     return;
   }
 
-  const body = (req.body ?? {}) as EmbedBody;
+  const body = (req.body ?? {}) as EmbedBody & { input?: string | string[] };
   const provider = body.provider ?? 'local';
-  const text = body.text ?? '';
+  const input = body.input ?? '';
   const model = body.model ?? 'nomic-embed-text';
 
-  if (!text) {
-    res.status(400).json({ error: 'missing_text', message: 'text field is required' });
+  if (!input || (Array.isArray(input) && input.length === 0)) {
+    res.status(400).json({ error: 'missing_input', message: 'input field is required' });
     return;
   }
-  if (provider === 'cloud' && !body.apiKey) {
-    res.status(400).json({ error: 'missing_api_key', message: 'Cloud provider requires apiKey' });
+  if (provider === 'cloud' && !process.env['OLLAMA_API_KEY'] && !body.apiKey) {
+    res.status(400).json({ error: 'missing_api_key', message: 'Cloud provider requires API key' });
     return;
   }
 
-  // FIX BUG-004: Ollama /api/embeddings expects 'input' field, not 'prompt'
-  const upstreamBody = JSON.stringify({ model, input: text });
+  // FIX BUG-004: Ollama /api/embed expects 'input' field
+  const upstreamBody = JSON.stringify({ model, input });
   let upstreamUrl: URL;
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
@@ -64,7 +64,8 @@ export default function handler(req: VercelRequest, res: VercelResponse): void {
 
   if (provider === 'cloud') {
     upstreamUrl = new URL('https://ollama.com/api/embed');
-    headers['Authorization'] = 'Bearer ' + body.apiKey;
+    const key = process.env['OLLAMA_API_KEY'] ?? body.apiKey;
+    if (key) headers['Authorization'] = 'Bearer ' + key;
   } else {
     const ollamaHost = process.env['OLLAMA_HOST'] ?? 'http://127.0.0.1:11434';
     upstreamUrl = new URL('/api/embed', ollamaHost);
@@ -95,7 +96,7 @@ export default function handler(req: VercelRequest, res: VercelResponse): void {
       }
       try {
         const parsed = JSON.parse(data) as { embeddings?: number[][] };
-        res.status(200).json({ embedding: parsed.embeddings?.[0] ?? [] });
+        res.status(200).json({ embeddings: parsed.embeddings ?? [] });
       } catch {
         res.status(502).json({ error: 'parse_error', raw: data.slice(0, 200) });
       }

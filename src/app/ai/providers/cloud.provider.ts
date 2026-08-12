@@ -139,7 +139,6 @@ export class CloudProvider implements AiProvider {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         provider: 'cloud',
-        apiKey: this.apiKey,
         model: 'nomic-embed-text',
         input: input,
       }),
