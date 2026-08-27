@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "question": "Cuốn sách đầu tiên trong bộ Thánh Kinh là sách nào?",
+    "answer": "Sáng thế",
+    "reference": "",
+    "distractors": [
+      "bầu trời",
+      "nhạc phụ",
+      "cái chết"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Thiên Chúa sáng tạo cái gì vào ngày thứ hai?",
+    "answer": "bầu trời",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "nhạc phụ",
+      "cái chết"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Thiên Chúa tạo dựng cái gì vào ngày thứ tư?",
+    "answer": "mặt trời, mặt trăng và các ngôi sao",
+    "reference": "",
+    "distractors": [
+      "các sinh vật dưới biển và chim trời",
+      "ngày tối tăm u ám và mây mù tối đen",
+      "những người đau khổ và bị ruồng bỏ"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Thiên Chúa đã tạo dựng cái gì vào ngày thứ năm?",
+    "answer": "các sinh vật dưới biển và chim trời",
+    "reference": "",
+    "distractors": [
+      "mặt trời, mặt trăng và các ngôi sao",
+      "ngày tối tăm u ám và mây mù tối đen",
+      "những người đau khổ và bị ruồng bỏ"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Thiên Chúa tạo dựng người đàn bà đầu tiên từ cái gì?",
+    "answer": "từ chiếc xương sườn của ông A-đam",
+    "reference": "",
+    "distractors": [
+      "mang đứa em út đến cho ông Giu-se",
+      "ơn cứu độ của Thiên Chúa chúng ta",
+      "phải dẫn chúng về cho người anh em"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Thiên Chúa đã trừng phạt con rắn thế nào vì tội dụ dỗ ông A-đam và bà E-và ăn quả cấm?",
+    "answer": "phải bò bằng bụng, phải ăn bụi đất mọi ngày trong đời",
+    "reference": "",
+    "distractors": [
+      "quạ ở lũng sâu móc mắt, và bị loài diều hâu rỉa thịt",
+      "“Ngươi hãy nhớ ngày Sa-bát, mà coi đó là ngày thánh”",
+      "Ô-va-đi-a Bộ Đề Cương Kiến Thức Công Giáo • 429 câu"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Người nữ đầu tiên được Thiên Chúa tạo dựng tên là gì?",
+    "answer": "E-và",
+    "reference": "",
+    "distractors": [
+      "rượu",
+      "sống",
+      "Lê-a"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Ai may quần áo cho ông A-đam và bà E-và?",
+    "answer": "Thiên Chúa",
+    "reference": "",
+    "distractors": [
+      "tại xứ Nốt",
+      "Da-ca-ri-a",
+      "Kha-ba-cúc"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Theo sách Sáng thế, “Người trục xuất con người, và ở phía đông vườn Ê-đen, Người đặt các thần hộ giá với lưỡi gươm …………, để canh giữ đường đến cây trường sinh”.",
+    "answer": "sáng lóe",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "nhạc phụ",
+      "cái chết"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Thiên Chúa đã trừng phạt ông A-đam và bà E-và ở đâu sau khi Người trục xuất họ khỏi vườn Ê-đen?",
+    "answer": "phía đông vườn Ê-đen",
+    "reference": "",
+    "distractors": [
+      "chạy trốn thánh nhan",
+      "người chưa từng trải",
+      "nơi xét xử cuối cùng"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Theo Thánh Kinh, vụ giết người xảy ra lần đầu tiên là vụ nào?",
+    "answer": "Ca-in giết A-ben",
+    "reference": "",
+    "distractors": [
+      "một ngày tối tăm",
+      "sắc mặt thay đổi",
+      "nổi cơn thịnh nộ"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Ca-in đã ở đâu sau cái chết của A-ben?",
+    "answer": "tại xứ Nốt",
+    "reference": "",
+    "distractors": [
+      "Da-ca-ri-a",
+      "Kha-ba-cúc",
+      "Khải huyền"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Khi cơn Hồng thủy đến, trong tàu ông Nô-ê có bao nhiêu người?",
+    "answer": "8",
+    "reference": "",
+    "distractors": [
+      "75",
+      "117",
+      "119"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Làm sao ông Nô-ê biết là nước đã rút trên mặt đất?",
+    "answer": "con bồ câu mà ông thả ra mang về một nhành là ô-liu tươi",
+    "reference": "",
+    "distractors": [
+      "bị vợ phản bội Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "sự công chính Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "vì ông không kêu cầu Thiên Chúa mà lại kêu cầu thần Ba-an"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Theo sách Sáng thế, ai là người thứ nhất trồng nho?",
+    "answer": "ông Nô-ê",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "nhạc phụ",
+      "cái chết"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Theo sách Sáng thế, ai là người anh hùng đầu tiên trên mặt đất?",
+    "answer": "ông Nim-rốt",
+    "reference": "",
+    "distractors": [
+      "người nghèo",
+      "mái đầu bạc",
+      "nhà Gia-cóp"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Ông Áp-ra-ham ra đi, như Đức Chúa đã phán với ông. Ông Áp-ra-ham được ………… tuổi khi ông rời Kha-ran.",
+    "answer": "75",
+    "reference": "",
+    "distractors": [
+      "8",
+      "117",
+      "119"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Về sự ra đời của họ, I-xa-ác và Sa-mu-en có nét chung nào?",
+    "answer": "họ sinh ra do sự can thiệp của Thiên Chúa",
+    "reference": "",
+    "distractors": [
+      "“Trong tay Ngài, con xin phó thác hồn con”",
+      "vua Sa-un và con trai ông là Gio-na-than",
+      "ăn tiệc và uống rượu tại nhà anh cả của họ"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Trong danh sách dưới đây, ai được sinh ra bởi ông Áp-ra-ham và bà Xa-ra?",
+    "answer": "I-xa-ác",
+    "reference": "",
+    "distractors": [
+      "rắn độc",
+      "hư hỏng",
+      "E-la-da"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Danh xưng “Áp-ra-ham” có nghĩa là gì?",
+    "answer": "cha của vô số dân tộc",
+    "reference": "",
+    "distractors": [
+      "triều thiên vinh hiển",
+      "được một đứa con trai",
+      "Người tỏ lòng oán hận"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Ông nào mơ thấy Thiên Chúa bảo hãy trả bà Xa-ra về cho ông Áp-ra-ham?",
+    "answer": "vua A-bi-mê-léc",
+    "reference": "",
+    "distractors": [
+      "ăn nói dịu dàng",
+      "nam thanh nữ tú",
+      "ngôn sứ Ê-li-a"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Cuối cùng ông Áp-ra-ham đã dâng cho Thiên Chúa vật gì làm lễ toàn thiêu?",
+    "answer": "con cừu đực",
+    "reference": "",
+    "distractors": [
+      "mái đầu bạc",
+      "nhà Gia-cóp",
+      "ông Giô-suê"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Trong hai người con sinh đôi, bà Rê-béc-ca thương Gia-cóp hơn, trong khi ông I-xa-ác lại thích Ê-xau, vì …………",
+    "answer": "ông ăn thịt săn của cậu",
+    "reference": "",
+    "distractors": [
+      "như Thiên Chúa chúng ta",
+      "người xa tránh bất công",
+      "ta cùng nhau tranh luận"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Ông Gia-cóp đã cưới bà nào trước bà Ra-khen?",
+    "answer": "Lê-a",
+    "reference": "",
+    "distractors": [
+      "E-và",
+      "rượu",
+      "giàu"
+    ]
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "id": 49,
+    "question": "Ai đã đứng ra nài xin thay cho dân chúng sau vụ thờ con bê bằng vàng?",
+    "answer": "ông Mô-sê Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "Ô-va-đi-a Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "quạ ở lũng sâu móc mắt, và bị loài diều hâu rỉa thịt",
+      "“Ngươi hãy nhớ ngày Sa-bát, mà coi đó là ngày thánh”"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "Thời Mô-sê, người làm việc ngày Sa-bát bị phạt hình phạt nào?",
+    "answer": "phải chết",
+    "reference": "",
+    "distractors": [
+      "kiên nhẫn",
+      "Sa-lô-mon",
+      "ông Ê-xau"
+    ]
+  },
+  {
+    "id": 51,
+    "question": "Theo sách Lê-vi, ngoài con heo ra, các con vật nào cũng bị coi là ô uế?",
+    "answer": "lạc đà; ngân thử; thỏ rừng",
+    "reference": "",
+    "distractors": [
+      "phục vụ các bậc sinh thành",
+      "danh thánh thiện dường bao",
+      "đưa tay chạm vào miệng ông"
+    ]
+  },
+  {
+    "id": 52,
+    "question": "“Con heo, vì nó có chân chẻ làm hai móng, nhưng không nhai lại : các ngươi phải coi nó là loài ô uế.” Đức Chúa phán với …………",
+    "answer": "ông Mô-sê và ông A-ha-ron",
+    "reference": "",
+    "distractors": [
+      "bị ung nhọt khắp cả người",
+      "các kỳ mục sẽ tập họp lại",
+      "số sót trong dân Ít-ra-en"
+    ]
+  },
+  {
+    "id": 53,
+    "question": "Theo sách Dân số, điều gì xảy ra cho những thường dân khi họ đến gần Nhà Tạm đựng Hòm Bia Giao Ước?",
+    "answer": "người ấy sẽ phải chết",
+    "reference": "",
+    "distractors": [
+      "triều thiên vinh hiển",
+      "sự ghen tỵ của quỷ dữ",
+      "cha của vô số dân tộc"
+    ]
+  },
+  {
+    "id": 54,
+    "question": "Theo sách Dân số, người con trai nào của ông A-ha-ron phải trông coi toàn bộ NhàTạm cùng mọi vật trong đó : các vật thánh và các đồ phụ tùng?",
+    "answer": "E-la-da",
+    "reference": "",
+    "distractors": [
+      "rắn độc",
+      "hư hỏng",
+      "bảy lần"
+    ]
+  },
+  {
+    "id": 55,
+    "question": "Ông Mô-sê cầu nguyện : “Lạy Đức Chúa, xin đứng lên cho địch thù Ngài tán loạn, và cho kẻ ghét Ngài phải …… !”",
+    "answer": "chạy trốn thánh nhan",
+    "reference": "",
+    "distractors": [
+      "người chưa từng trải",
+      "nơi xét xử cuối cùng",
+      "phía đông vườn Ê-đen"
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Theo sách Dân số, điều gì sẽ xảy ra nếu chỉ một chiếc kèn được thổi?",
+    "answer": "các kỳ mục sẽ tập họp lại",
+    "reference": "",
+    "distractors": [
+      "bị ung nhọt khắp cả người",
+      "ông Mô-sê và ông A-ha-ron",
+      "số sót trong dân Ít-ra-en"
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Theo sách Dân số, khi bà Mi-ri-am và ông A-ha-ron phản đối ông Mô-sê vì ông cưới một phụ nữ người Cút, bà Mi-ri-am tức khắc bị ………",
+    "answer": "cùi",
+    "reference": "",
+    "distractors": [
+      "bão",
+      "Lê-a",
+      "dê"
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Trong sa mạc, những người than trách ông Mô-sê bị con gì cắn chết?",
+    "answer": "rắn độc",
+    "reference": "",
+    "distractors": [
+      "thứ sáu",
+      "hư hỏng",
+      "bảy lần"
+    ]
+  },
+  {
+    "id": 59,
+    "question": "Ai đã thay thế ông Mô-sê lãnh đạo dân chúng?",
+    "answer": "ông Giô-suê",
+    "reference": "",
+    "distractors": [
+      "lúc nửa đêm",
+      "mái đầu bạc",
+      "nhà Gia-cóp"
+    ]
+  },
+  {
+    "id": 60,
+    "question": "Theo sách Đệ nhị luật, các loài sống dưới nước bị coi là ô uế là loài …………",
+    "answer": "không có vây và không có vảy",
+    "reference": "",
+    "distractors": [
+      "đừng chờ cho năm tháng qua đi",
+      "họ được Thiên Chúa tạo dựng",
+      "bởi vì ông Mô-sê quá chậm trễ"
+    ]
+  },
+  {
+    "id": 61,
+    "question": "Theo sách Đệ nhị luật, những loài chim nào bị coi là ô uế?",
+    "answer": "đại bàng, ó biển, diều mướp, kền kền và mọi thứ diều hâu; đà điểu, cú, mòng biển, mọi thứ bồ cắt, cú vọ, cú mèo và chim lợn; bồ nông, ó, cốc, cò, diệc, chim đầu rìu, dơi và mọi thứ quạ",
+    "reference": "",
+    "distractors": [
+      "Thiên Chúa đã sai ông Giu-se đi trước với mục đích là để cứu toàn thể gia đình ông",
+      "mang thức ăn cho ba người anh trai là lính và xem họ đánh giặc ra sao",
+      "ăn uống và hưởng những thành quảdo công lao khó nhọc mình làm ra"
+    ]
+  },
+  {
+    "id": 62,
+    "question": "Theo sách Đệ nhị luật, “Anh em không được lấy sữa ……… mẹ mà nấu thịt ……… con.",
+    "answer": "dê",
+    "reference": "",
+    "distractors": [
+      "cùi",
+      "bão",
+      "rượu"
+    ]
+  },
+  {
+    "id": 63,
+    "question": "Theo sách Đệ nhị luật, “Từ giữa anh em, trong số các anh em của anh em, Đức Chúa, Thiên Chúa của anh em, sẽ cho xuất hiện một ngôn sứ như tôi để giúp anh em, anh em ………… vị ấy.”",
+    "answer": "hãy nghe",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "ba tháng",
+      "Ót-ni-ên"
+    ]
+  },
+  {
+    "id": 64,
+    "question": "Theo sách Đệ nhị luật, “Khi anh em thấy bò hay chiên dê của người anh em mình đi lạc, thì đừng bỏ mặc làm ngơ, nhưng …………”",
+    "answer": "phải dẫn chúng về cho người anh em",
+    "reference": "",
+    "distractors": [
+      "những người đau khổ và bị ruồng bỏ",
+      "mặt trời, mặt trăng và các ngôi sao",
+      "các sinh vật dưới biển và chim trời"
+    ]
+  },
+  {
+    "id": 65,
+    "question": "Truyền văn nào không được dùng trong Ngũ kinh?",
+    "answer": "Khải huyền",
+    "reference": "",
+    "distractors": [
+      "Da-ca-ri-a",
+      "Kha-ba-cúc",
+      "Sa-ma-ri-a"
+    ]
+  },
+  {
+    "id": 66,
+    "question": "Các tư tế đã mang theo cái gì khi dân Ít-ra-en lâm chiến?",
+    "answer": "hòm bia giao ước",
+    "reference": "",
+    "distractors": [
+      "“Đùa đấy thôi !”",
+      "Ngôn sứ Sa-mu-en",
+      "Ca-in giết A-ben"
+    ]
+  },
+  {
+    "id": 67,
+    "question": "Vào thời của phần thứ nhất sách ngôn sứ I-sai-a, thế lực nào trổi vượt?",
+    "answer": "Át-sua",
+    "reference": "",
+    "distractors": [
+      "mẹ ông",
+      "bôn ba",
+      "đầu óc"
+    ]
+  },
+  {
+    "id": 68,
+    "question": "Ai là thủ lãnh đầu tiên của Ít-ra-en?",
+    "answer": "Ót-ni-ên",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "ba tháng",
+      "hãy nghe"
+    ]
+  },
+  {
+    "id": 69,
+    "question": "Theo sách Sa-mu-en, bà An-na cầu xin Thiên Chúa ban cho điều gì?",
+    "answer": "được một đứa con trai",
+    "reference": "",
+    "distractors": [
+      "nói những lời nhục mạ",
+      "sự ghen tỵ của quỷ dữ",
+      "tuân giữ các giới răn"
+    ]
+  },
+  {
+    "id": 70,
+    "question": "“Bà hãy đi về bình an. Xin Thiên Chúa của Ít-ra-en ban cho bà điều bà đã xin Người”. Thầy tư tế Ê-li nói với bà",
+    "answer": "An-na",
+    "reference": "",
+    "distractors": [
+      "sư tử",
+      "Ba-tư",
+      "Ê-đom"
+    ]
+  },
+  {
+    "id": 71,
+    "question": "Bà An-na nói: “Chẳng có Đấng thánh nào như Đức Chúa, chẳng một ai khác ngoại trừ Ngài, chẳng có Núi Đá nào”",
+    "answer": "như Thiên Chúa chúng ta",
+    "reference": "",
+    "distractors": [
+      "người xa tránh bất công",
+      "như bầy cừu bị sát sinh",
+      "Người thật là vinh hiển"
+    ]
+  },
+  {
+    "id": 72,
+    "question": "“Bây giờ, đây là vua dẫn đầu anh em. Phần tôi, tôi đã già nua tóc bạc,…” Ai nói câu này ?",
+    "answer": "Ngôn sứ Sa-mu-en",
+    "reference": "",
+    "distractors": [
+      "một ngày tối tăm",
+      "“Đùa đấy thôi !”",
+      "sắc mặt thay đổi"
+    ]
+  }
+]

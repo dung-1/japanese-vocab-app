@@ -1,0 +1,233 @@
+[
+  {
+    "id": 367,
+    "question": "Màu áo Phụng vụ nào được dùng trong Mùa Chay và Mùa Vọng để chỉ sự sám hối và mong chờ?",
+    "answer": "Màu Tím",
+    "reference": "",
+    "distractors": [
+      "Tiệc Ly",
+      "Abraham",
+      "Bà Maria"
+    ]
+  },
+  {
+    "id": 368,
+    "question": "Năm Phụng vụ bắt đầu từ mùa nào?",
+    "answer": "Mùa Vọng",
+    "reference": "",
+    "distractors": [
+      "Bà Maria",
+      "Golgotha",
+      "Mùa Chay"
+    ]
+  },
+  {
+    "id": 369,
+    "question": "\"Hoa Thiêng\" dâng Chúa Giêsu Thánh Thể của thiếu nhi thường bao gồm những việc gì?",
+    "answer": "Dâng ngày, rước lễ, hy sinh, làm việc thiện…",
+    "reference": "",
+    "distractors": [
+      "Những điều cốt lõi mà người Kitô hữu tin kính",
+      "Từ 15 tuổi trọn cho đến khi bắt đầu 60 tuổi",
+      "Thứ Năm Tuần Thánh đến hết Chúa Nhật Phục Sinh"
+    ]
+  },
+  {
+    "id": 370,
+    "question": "Bí tích nào là \"Cửa ngõ\" để đón nhận các Bí tích khác?",
+    "answer": "Bí tích Rửa Tội",
+    "reference": "",
+    "distractors": [
+      "Chúa Nhật Lễ Lá",
+      "Chúa Thánh Thần",
+      "Đức Giáo hoàng"
+    ]
+  },
+  {
+    "id": 371,
+    "question": "Ai là Đấng kế vị Thánh Phêrô để lãnh đạo Giáo hội toàn cầu?",
+    "answer": "Đức Giáo hoàng",
+    "reference": "",
+    "distractors": [
+      "Bí tích Rửa Tội",
+      "Bí tích Rửa Tội",
+      "Chúa Thánh Thần"
+    ]
+  },
+  {
+    "id": 372,
+    "question": "Trong Kinh Mười Bốn Mối, \"Thương xác bảy mối\" thứ nhất là gì?",
+    "answer": "Cho kẻ đói ăn",
+    "reference": "",
+    "distractors": [
+      "Thứ tư Lễ Tro",
+      "Đức Giám mục",
+      "Kinh Lạy Cha"
+    ]
+  },
+  {
+    "id": 373,
+    "question": "\"Mở dạy kẻ mê muội\" thuộc về nhóm việc nào?",
+    "answer": "Thương linh hồn bảy mối",
+    "reference": "",
+    "distractors": [
+      "Mùa Chay kéo dài 40 ngày",
+      "Chúa Nhật IV Mùa Chay",
+      "Tư tế, Ngôn sứ và Vương đế"
+    ]
+  },
+  {
+    "id": 374,
+    "question": "Cao điểm của Năm Phụng vụ là ngày lễ nào?",
+    "answer": "Đại lễ Phục Sinh",
+    "reference": "",
+    "distractors": [
+      "Bí tích Hòa Giải",
+      "Bà Maria Magdala",
+      "Bí tích Rửa Tội"
+    ]
+  },
+  {
+    "id": 375,
+    "question": "Chúa Giêsu đã dùng hình ảnh nào để nói về mối quan hệ giữa Ngài và các môn đệ?",
+    "answer": "Người chăn chiên và đàn chiên; Thầy là cây nho, anh em là cành",
+    "reference": "",
+    "distractors": [
+      "Được hưởng hạnh phúc đời đời cùng Thiên Chúa trên Thiên Đàng",
+      "Xin Chúa sáng soi cho biết việc phải làm và giúp đỡ khi làm",
+      "Là mùa sám hối đặc biệt để chuẩn bị mừng lễ Vượt Qua của Đức Kitô"
+    ]
+  },
+  {
+    "id": 376,
+    "question": "Ý nghĩa của Nước trong Bí tích Rửa tội là gì?",
+    "answer": "Tượng trưng cho sự sống mới và sự tẩy rửa tội lỗi",
+    "reference": "",
+    "distractors": [
+      "Suy tôn; Cảm mến và kính phục; Tri ân và ngưỡng mộ",
+      "Tinh thần trách nhiệm và lòng yêu mến cộng đoàn",
+      "Phục Sinh Bộ Đề Cương Kiến Thức Công Giáo • 429 câu"
+    ]
+  },
+  {
+    "id": 377,
+    "question": "Ba chức vụ của Chúa Giêsu mà người Kitô hữu được tham dự khi lãnh nhận Bí tích Rửa tội là? Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "answer": "Tư tế, Ngôn sứ và Vương đế",
+    "reference": "",
+    "distractors": [
+      "Lễ Đức Mẹ hồn xác lên trời",
+      "Mùa Chay kéo dài 40 ngày",
+      "Kinh Lạy Nữ Vương Thiên Đàng"
+    ]
+  },
+  {
+    "id": 378,
+    "question": "Bí tích Thêm Sức thường do ai là người chủ sự thông thường?",
+    "answer": "Đức Giám mục",
+    "reference": "",
+    "distractors": [
+      "Kinh Lạy Cha",
+      "Lễ vượt qua",
+      "Cho kẻ đói ăn"
+    ]
+  },
+  {
+    "id": 379,
+    "question": "\"Kinh sáng soi\" chúng ta đọc để xin Chúa làm gì?",
+    "answer": "Xin Chúa sáng soi cho biết việc phải làm và giúp đỡ khi làm",
+    "reference": "",
+    "distractors": [
+      "Được hưởng hạnh phúc đời đời cùng Thiên Chúa trên Thiên Đàng",
+      "Người chăn chiên và đàn chiên; Thầy là cây nho, anh em là cành",
+      "Là dấu chỉ ơn Chúa Thánh Thần và việc thuộc về Chúa Kitô"
+    ]
+  },
+  {
+    "id": 380,
+    "question": "Trong Phụng vụ, \"Am-bo\" là nơi dùng để làm gì?",
+    "answer": "Nơi công bố Lời Chúa",
+    "reference": "",
+    "distractors": [
+      "Thánh Gioan Tẩy Giả",
+      "Chúa Nhật IV Mùa Chay",
+      "Hãy ngợi khen Chúa"
+    ]
+  },
+  {
+    "id": 381,
+    "question": "Tuần Thánh bắt đầu từ ngày lễ nào?",
+    "answer": "Chúa Nhật Lễ Lá",
+    "reference": "",
+    "distractors": [
+      "Bí tích Rửa Tội",
+      "Bí tích Rửa Tội",
+      "Chúa Thánh Thần"
+    ]
+  },
+  {
+    "id": 382,
+    "question": "Tam Nhật Vượt Qua bao gồm những ngày nào?",
+    "answer": "Thứ Năm Tuần Thánh đến hết Chúa Nhật Phục Sinh",
+    "reference": "",
+    "distractors": [
+      "Là người trung gian nói lời Thiên Chúa cho dân",
+      "Tinh thần trách nhiệm và lòng yêu mến cộng đoàn",
+      "Những điều cốt lõi mà người Kitô hữu tin kính"
+    ]
+  },
+  {
+    "id": 383,
+    "question": "Ai là người đầu tiên được Thiên Chúa hứa ban dòng dõi đông đúc như sao trên trời, cát dưới biển?",
+    "answer": "Abraham",
+    "reference": "",
+    "distractors": [
+      "Màu Tím",
+      "Màu tím",
+      "Tiệc Ly"
+    ]
+  },
+  {
+    "id": 384,
+    "question": "Các ngôn sứ trong Cựu Ước có vai trò gì?",
+    "answer": "Là người trung gian nói lời Thiên Chúa cho dân",
+    "reference": "",
+    "distractors": [
+      "Thứ Năm Tuần Thánh đến hết Chúa Nhật Phục Sinh",
+      "Tinh thần trách nhiệm và lòng yêu mến cộng đoàn",
+      "Những điều cốt lõi mà người Kitô hữu tin kính"
+    ]
+  },
+  {
+    "id": 385,
+    "question": "Bí tích nào giúp chúng ta giao hòa lại với Thiên Chúa sau khi phạm tội?",
+    "answer": "Bí tích Hòa Giải",
+    "reference": "",
+    "distractors": [
+      "Đại lễ Phục Sinh",
+      "Bà Maria Magdala",
+      "Bí tích Rửa Tội"
+    ]
+  },
+  {
+    "id": 386,
+    "question": "\"Dầu Thánh\" (Chrisma) dùng trong Bí tích Thêm Sức có ý nghĩa gì?",
+    "answer": "Là dấu chỉ ơn Chúa Thánh Thần và việc thuộc về Chúa Kitô",
+    "reference": "",
+    "distractors": [
+      "Là chính Mình và Máu Chúa Giêsu dưới hình bánh và rượu",
+      "Xin Chúa sáng soi cho biết việc phải làm và giúp đỡ khi làm",
+      "Được hưởng hạnh phúc đời đời cùng Thiên Chúa trên Thiên Đàng"
+    ]
+  },
+  {
+    "id": 387,
+    "question": "Hội Thánh có mấy đặc tính căn bản?",
+    "answer": "Duy nhất, Thánh thiện, Công giáo và Tông truyền Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "Đức Giêsu không còn ở đó; Những băng vải; Khăn che đầu Đức Giêsu được cuốn lại, xếp riêng",
+      "Dấu chỉ của sự cứu độ; Dấu chỉ thuộc về Chúa Kitô; Dấu chỉ bày tỏ niềm tin vào Chúa Kitô",
+      "Sự cứng lòng tin của các tông đồ; Ngôi Mộ trống; Các lần hiện ra của Chúa Kitô phục Sinh"
+    ]
+  }
+]

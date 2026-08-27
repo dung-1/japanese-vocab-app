@@ -1,0 +1,233 @@
+[
+  {
+    "id": 325,
+    "question": "Theo thơ của thánh Phao-lô gởi cho ông Ti-tô, ông Ti-tô làm kỳ mục ở đâu?",
+    "answer": "Cơ-rê-ta",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Lời Chúa",
+      "lòng tin"
+    ]
+  },
+  {
+    "id": 326,
+    "question": "Ai là “chủ nhân” trong thơ gởi cho Phi-lê-môn?",
+    "answer": "Phi-lê-môn",
+    "reference": "",
+    "distractors": [
+      "Bết-da-tha",
+      "ông Si-môn",
+      "Đức Giê-su"
+    ]
+  },
+  {
+    "id": 327,
+    "question": "Ai là “người nô lệ” trong thơ gởi cho Phi-lê-môn?",
+    "answer": "Ô-nê-xi-mô",
+    "reference": "",
+    "distractors": [
+      "Bết-da-tha",
+      "Đức Giê-su",
+      "kẻ dối trá"
+    ]
+  },
+  {
+    "id": 328,
+    "question": "Lời Chúa được nói là “sắc bén hơn cả gươm hai lưỡi” trong sách nào?",
+    "answer": "Do-thái",
+    "reference": "",
+    "distractors": [
+      "ba ngày",
+      "Cai-pha",
+      "Đền Thờ"
+    ]
+  },
+  {
+    "id": 329,
+    "question": "Thời xưa, các tư tế dâng máu của con vật để thờ phượng; Đức Giê-su đã dâng gì để làm của lễ hy sinh?",
+    "answer": "chính máu của Người Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "vì được thiên thần báo là vua Hê-rô-đê đang tìm giết hài nhi",
+      "Người đã khóc và nói tiên tri về sự phá hủy của thành",
+      "vì họ sợ các môn đệ Đức Giê-su lấy cắp xác rồi phao tin Người sống lại"
+    ]
+  },
+  {
+    "id": 330,
+    "question": "Theo thơ Do-thái, ơn ban nào làm cho chúng ta nhận ra rằng chúng ta được Thiên Chúa cứu độ ?",
+    "answer": "lòng tin",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Lời Chúa",
+      "Cơ-rê-ta"
+    ]
+  },
+  {
+    "id": 331,
+    "question": "Trong tất cả các thơ của thánh Phao-lô, lá thơ nào ngắn nhất ?",
+    "answer": "Phi-lê-môn",
+    "reference": "",
+    "distractors": [
+      "Bết-da-tha",
+      "ông Si-môn",
+      "Đức Giê-su"
+    ]
+  },
+  {
+    "id": 332,
+    "question": "Thánh Gia-cô-bê nhắc nhở chúng ta phải để ý khi sử dụng chi thể nào ?",
+    "answer": "miệng lưỡi",
+    "reference": "",
+    "distractors": [
+      "Bết-da-tha",
+      "Đức Giê-su",
+      "kẻ dối trá"
+    ]
+  },
+  {
+    "id": 333,
+    "question": "Theo thánh Gia-cô-bê, đức khôn ngoan Chúa ban làm cho con người …………",
+    "answer": "thanh khiết và hiếu hòa; khoan dung, mềm dẻo, đầy từ bi và sinh nhiều hoa thơm trái tốt; không thiên vị và giả hình",
+    "reference": "",
+    "distractors": [
+      "người nông dân làm việc vất vả; vận động viên điền kinh; chiến sĩ của Đức Ki-tô",
+      "vì ông nói khi nào ông đụng chạm vào Đức Giê-su ông mới tin Người sống lại",
+      "vì họ sợ các môn đệ Đức Giê-su lấy cắp xác rồi phao tin Người sống lại"
+    ]
+  },
+  {
+    "id": 334,
+    "question": "Theo thánh Gia-cô-bê, bởi đâu có chiến tranh và xung đột?",
+    "answer": "khoái lạc",
+    "reference": "",
+    "distractors": [
+      "ông Gai-ô",
+      "Xin-va-nô",
+      "ơn cứu độ"
+    ]
+  },
+  {
+    "id": 335,
+    "question": "Theo thư thứ nhất của thánh Phê-rô, gia tài Thiên Chúa ban cho những người tin là gì ?",
+    "answer": "ơn cứu độ",
+    "reference": "",
+    "distractors": [
+      "ông Gai-ô",
+      "Xin-va-nô",
+      "khoái lạc"
+    ]
+  },
+  {
+    "id": 336,
+    "question": "Theo thư thứ nhất của thánh Phê-rô, con người được tái sinh nhờ điều gì ?",
+    "answer": "Lời Chúa",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "lòng tin",
+      "Cơ-rê-ta"
+    ]
+  },
+  {
+    "id": 337,
+    "question": "Theo thư thứ nhất của thánh Phê-rô, người ki-tô hữu được gọi là …………, vì lẽ họ là khách lạ và là khách lữ hành.",
+    "answer": "người tạm trú",
+    "reference": "",
+    "distractors": [
+      "Giê-ru-sa-lem",
+      "các thượng tế",
+      "bốn mươi ngày"
+    ]
+  },
+  {
+    "id": 338,
+    "question": ".. , người được nói đến là đã viết thơ thứ nhất của thánh Phê-rô, có lẽ anh từng là thư ký của thánh Phê-rô.",
+    "answer": "Xin-va-nô",
+    "reference": "",
+    "distractors": [
+      "ông Gai-ô",
+      "ơn cứu độ",
+      "khoái lạc"
+    ]
+  },
+  {
+    "id": 339,
+    "question": "“Điều đã có ngay từ lúc khởi đầu, điều chúng tôi đã nghe, điều chúng tôi đã thấy tận mắt, điều chúng tôi đã chiêm ngưỡng, và tay chúng tôi chạm đến, đó là …………”",
+    "answer": "Lời sự sống",
+    "reference": "",
+    "distractors": [
+      "con mãng xà",
+      "1 Cô-rin-tô",
+      "sự phổ quát"
+    ]
+  },
+  {
+    "id": 340,
+    "question": "Bất cứ ai nói rằng mình không có tội, người ấy …………",
+    "answer": "tự lừa dối mình",
+    "reference": "",
+    "distractors": [
+      "giáo lý sai lạc",
+      "ông Ni-cô-đê-mô",
+      "đang mang thai"
+    ]
+  },
+  {
+    "id": 341,
+    "question": "Những ai chối rằng Đức Giê-su là Đấng Ki-tô đều là …",
+    "answer": "kẻ dối trá",
+    "reference": "",
+    "distractors": [
+      "Bết-da-tha",
+      "Đức Giê-su",
+      "Gôn-gô-tha"
+    ]
+  },
+  {
+    "id": 342,
+    "question": "Thánh Gio-an đã viết lá thơ thứ ba gởi cho ai ?",
+    "answer": "ông Gai-ô",
+    "reference": "",
+    "distractors": [
+      "Xin-va-nô",
+      "ơn cứu độ",
+      "khoái lạc"
+    ]
+  },
+  {
+    "id": 343,
+    "question": "Người phụ nữ xuất hiện trên trời trong sách Khải Huyền có dáng vẻ thế nào?",
+    "answer": "đang mang thai",
+    "reference": "",
+    "distractors": [
+      "tại Bê-ta-ni-a",
+      "họ bị bắt giam",
+      "những giọt máu"
+    ]
+  },
+  {
+    "id": 344,
+    "question": "Con vật nào đe dọa làm hại người Phụ Nữ trong sách Khải Huyền?",
+    "answer": "con mãng xà",
+    "reference": "",
+    "distractors": [
+      "Lời sự sống",
+      "1 Cô-rin-tô",
+      "sự phổ quát"
+    ]
+  },
+  {
+    "id": 345,
+    "question": "Trong sách Khải Huyền, thiên thần hùng mạnh nào đã giao chiến với con thú cũng gọi là Xa- tan?",
+    "answer": "Mi-ca-en",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Ê-páp-ra",
+      "sự thiện"
+    ]
+  }
+]

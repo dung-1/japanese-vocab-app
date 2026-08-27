@@ -1,0 +1,9 @@
+<main class="catholic-page">
+  <a class="home-link" routerLink="/home">← Trang chủ</a>
+  <h1>Kiến thức Công Giáo</h1>
+  <p>429 câu hỏi Kinh Thánh và giáo lý</p>
+  <div class="mode-switch"><button [class.active]="studyMode === 'flashcard'" (click)="setStudyMode('flashcard')">Thẻ học</button><button [class.active]="studyMode === 'quiz'" (click)="setStudyMode('quiz')">Kiểm tra</button></div>
+  <app-catholic-lesson-selector (lessonSelected)="onLessonSelected($event)"></app-catholic-lesson-selector>
+  <app-catholic-flashcard *ngIf="studyMode === 'flashcard'" [questions]="selectedLesson"></app-catholic-flashcard>
+  <app-catholic-quiz *ngIf="studyMode === 'quiz'" [questions]="selectedLesson"></app-catholic-quiz>
+</main>

@@ -8,6 +8,7 @@ import { LayoutkanjiRadicalsModule } from './kanjiRadicals/layoutkanji-radicals/
 import { LayoutReduplicativeWordsModule } from './reduplicativeWords/layout-reduplicative-words/layout-reduplicative-words.component.module';
 import { LayoutKanjiWordsModule } from './kanjiWords/layout-kanji-words/layout-kanji-words.module';
 import { HomeComponent } from './home/home.component';
+import { LayoutCatholicComponentModule } from './catholic/layout-catholic/layout-catholic.component.module';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -19,6 +20,7 @@ const routes: Routes = [
         './vocabulary/layout-vocabulary/layout-vocabulary.component.module'
       ).then((m) => m.LayoutVocabularyComponentModule),
   },
+  { path: 'catholic', loadChildren: () => import('./catholic/layout-catholic/layout-catholic.component.module').then(m => m.LayoutCatholicComponentModule) },
   { path: 'kanji-radicals', loadChildren: () => import('./kanjiRadicals/layoutkanji-radicals/layoutkanji-radicals.module').then(m => m.LayoutkanjiRadicalsModule) },
   { path: 'reduplicative-words', loadChildren: () => import('./reduplicativeWords/layout-reduplicative-words/layout-reduplicative-words.component.module').then(m => m.LayoutReduplicativeWordsModule) },
   { path: 'kanji-words', loadChildren: () => import('./kanjiWords/layout-kanji-words/layout-kanji-words.module').then(m => m.LayoutKanjiWordsModule) },
@@ -37,6 +39,7 @@ const routes: Routes = [
     LayoutkanjiRadicalsModule,
     LayoutReduplicativeWordsModule,
     LayoutKanjiWordsModule,
+    LayoutCatholicComponentModule,
   ],
   exports: [RouterModule],
 })

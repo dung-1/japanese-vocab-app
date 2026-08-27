@@ -1,0 +1,1 @@
+<label class="selector">Chọn bài học<select (change)="select($any($event.target).value)"><option value="">-- Chọn 1 trong 19 bài --</option><option *ngFor="let lesson of lessons" [value]="lesson">{{ label(lesson) }}</option></select></label>

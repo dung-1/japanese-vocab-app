@@ -44,6 +44,7 @@ export class HomeComponent {
     { path: '/kanji-words', label: 'Kanji', icon: '字' },
     { path: '/grammar', label: 'Ngữ pháp', icon: '文' },
     { path: '/vocabulary', label: 'Học Từ vựng', icon: '語' },
+    { path: '/catholic', label: 'Công Giáo', icon: '✝' },
     { path: '/ai', label: 'ChatBot', icon: 'AI' },
     { path: '/kanji-radicals', label: 'Bộ Thủ', icon: '部' }
   ];
@@ -78,6 +79,12 @@ export class HomeComponent {
       title: 'Bộ Thủ',
       description: 'Nghiên cứu: Study',
       icon: '部'
+    },
+    {
+      path: '/catholic',
+      title: 'Kiến thức Công Giáo',
+      description: '429 câu hỏi Kinh Thánh & giáo lý',
+      icon: '✝'
     },
     {
       path: '/adverb-radicals',
@@ -139,6 +146,7 @@ export class HomeComponent {
     { path: '/vocabulary', title: 'Từ vựng', description: '', icon: '語' },
     { path: '/grammar', title: 'Ngữ pháp', description: '', icon: '文' },
     { path: '/kanji-radicals', title: 'Bộ Thủ', description: '', icon: '部' },
+    { path: '/catholic', title: 'Công Giáo', description: '', icon: '✝' },
     { path: '/ai', title: 'Hội thoại AI', description: '', icon: 'AI' },
     { path: null, title: 'Cộng đồng', description: '', icon: '人', disabled: true }
   ];

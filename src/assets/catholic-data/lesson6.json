@@ -1,0 +1,266 @@
+[
+  {
+    "id": 121,
+    "question": "Theo sách Châm ngôn, “Kẻ lừa đảo bạn bè, rồi bảo : …………, thì cũng như người giả vờ điên phóng lửa, bắn tên gây chết chóc”.",
+    "answer": "“Đùa đấy thôi !”",
+    "reference": "",
+    "distractors": [
+      "sắc mặt thay đổi",
+      "nổi cơn thịnh nộ",
+      "một ngày tối tăm"
+    ]
+  },
+  {
+    "id": 122,
+    "question": "Theo sách Châm ngôn, “Thà nghèo mà ăn ở vẹn toàn còn hơn ………… mà sống quanh co.” Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "answer": "giàu",
+    "reference": "",
+    "distractors": [
+      "rượu",
+      "rượu",
+      "E-và"
+    ]
+  },
+  {
+    "id": 123,
+    "question": "Theo sách Châm ngôn, “Kẻ nào giương mắt chế giễu cha, và coi thường chuyện vâng lời mẹ, sẽ bị …………”",
+    "answer": "quạ ở lũng sâu móc mắt, và bị loài diều hâu rỉa thịt",
+    "reference": "",
+    "distractors": [
+      "“Ngươi hãy nhớ ngày Sa-bát, mà coi đó là ngày thánh”",
+      "Ô-va-đi-a Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "phải bò bằng bụng, phải ăn bụi đất mọi ngày trong đời"
+    ]
+  },
+  {
+    "id": 124,
+    "question": "Quyển sách nào trong bộ Thánh Kinh nói về sự phù vân, nhưng thật ra là về giá trị của đời sống con người ?",
+    "answer": "Giảng viên",
+    "reference": "",
+    "distractors": [
+      "Kha-ba-cúc",
+      "Da-ca-ri-a",
+      "Kha-ba-cúc"
+    ]
+  },
+  {
+    "id": 125,
+    "question": "Theo sách Giảng viên, không có gì tốt hơn là ………",
+    "answer": "ăn uống và hưởng những thành quảdo công lao khó nhọc mình làm ra",
+    "reference": "",
+    "distractors": [
+      "vợ chồng ý hợp tâm đầu; láng giềng thân thiết; anh em hòa thuận",
+      "tay người phóng bút Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "mang thức ăn cho ba người anh trai là lính và xem họ đánh giặc ra sao"
+    ]
+  },
+  {
+    "id": 126,
+    "question": "Theo sách Giảng viên, “một thời để khóc lóc, một thời để vui cười, một thời để than van, một thời để …………”",
+    "answer": "múa nhảy",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "nhạc phụ",
+      "ba tháng"
+    ]
+  },
+  {
+    "id": 127,
+    "question": "Theo sách Giảng viên, “một thời để xé rách, một thời để vá khâu, một thời để làm thinh, một thời để …………”",
+    "answer": "lên tiếng",
+    "reference": "",
+    "distractors": [
+      "ông Mô-sê",
+      "hiểu biết",
+      "sẽ làm cỏ"
+    ]
+  },
+  {
+    "id": 128,
+    "question": "Theo sách Giảng viên, “một thời để yêu thương, một thời để thù ghét, một thời để gây chiến, một thời để ………”",
+    "answer": "làm hòa",
+    "reference": "",
+    "distractors": [
+      "kinh sư",
+      "thứ sáu",
+      "rắn độc"
+    ]
+  },
+  {
+    "id": 129,
+    "question": "Theo sách Giảng viên, “Mọi sự đều đi về một nơi, mọi sự đều đến từ bụi đất, mọi sự đều trở về …………”",
+    "answer": "bụi đất",
+    "reference": "",
+    "distractors": [
+      "kinh sư",
+      "thứ sáu",
+      "rắn độc"
+    ]
+  },
+  {
+    "id": 130,
+    "question": "Theo sách Giảng viên, người ta sẽ đến gần nhà của Đức Chúa với …………",
+    "answer": "lòng vâng phục",
+    "reference": "",
+    "distractors": [
+      "ngôn sứ Ê-li-a",
+      "Đức Khôn Ngoan",
+      "được cứu thoát"
+    ]
+  },
+  {
+    "id": 131,
+    "question": "Theo sách Giảng viên, “………… thì hơn dầu quý, và ngày chết hơn ngày sinh.”",
+    "answer": "tiếng tốt danh thơm",
+    "reference": "",
+    "distractors": [
+      "con dòng cháu giống",
+      "bạn sẽ tìm lại được",
+      "sách ngôn sứ Mi-kha"
+    ]
+  },
+  {
+    "id": 132,
+    "question": "Theo sách Giảng viên, sự khôn ngoan hiểu biết thì có lợi hơn, vì nó làm cho người khôn được …………",
+    "answer": "sống",
+    "reference": "",
+    "distractors": [
+      "rượu",
+      "giàu",
+      "E-và"
+    ]
+  },
+  {
+    "id": 133,
+    "question": "Theo sách Giảng viên, “Cơm bánh của bạn, hãy thả trên mặt nước, về lâu về dài, …………”",
+    "answer": "bạn sẽ tìm lại được",
+    "reference": "",
+    "distractors": [
+      "con dòng cháu giống",
+      "tiếng tốt danh thơm",
+      "sách ngôn sứ Mi-kha"
+    ]
+  },
+  {
+    "id": 134,
+    "question": "Theo sách Giảng viên, “Giữa tuổi thanh xuân, bạn hãy tưởng nhớ Đấng đã dựng nên mình. Đừng chờ cho tai ương ập tới, …………”",
+    "answer": "đừng chờ cho năm tháng qua đi",
+    "reference": "",
+    "distractors": [
+      "lời nói ra đúng lúc đúng thời",
+      "bởi vì ông Mô-sê quá chậm trễ",
+      "trở nên bạn hữu với Thiên Chúa"
+    ]
+  },
+  {
+    "id": 135,
+    "question": "Sách Giảng viên có nói : “Sức mạnh là niềm tự hào của giới thanh niên, ………… là vinh dự của hàng bô lão.”",
+    "answer": "mái đầu bạc",
+    "reference": "",
+    "distractors": [
+      "lúc nửa đêm",
+      "Ben-gia-min",
+      "nhà Gia-cóp"
+    ]
+  },
+  {
+    "id": 136,
+    "question": "Theo sách Khôn ngoan, Thiên Chúa không làm ra …",
+    "answer": "cái chết",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "nhạc phụ",
+      "ba tháng"
+    ]
+  },
+  {
+    "id": 137,
+    "question": "Theo sách Khôn Ngoan, vì đâu mà sự chết đột nhập vào thế gian?",
+    "answer": "sự ghen tỵ của quỷ dữ",
+    "reference": "",
+    "distractors": [
+      "được một đứa con trai",
+      "Người tỏ lòng oán hận",
+      "người ấy sẽ phải chết"
+    ]
+  },
+  {
+    "id": 138,
+    "question": "Hình ảnh nào mà sách Khôn ngoan đã dùng để chứng minh một tâm hồn được tinh luyện?",
+    "answer": "vàng trong lò lửa",
+    "reference": "",
+    "distractors": [
+      "sự ăn năn hối cải",
+      "đã thương cứu vớt",
+      "gỗ từ núi Li-băng"
+    ]
+  },
+  {
+    "id": 139,
+    "question": "Bước đầu để đạt tới sự khôn ngoan là gì?",
+    "answer": "thật lòng ham muốn học hỏi",
+    "reference": "",
+    "distractors": [
+      "danh thánh thiện dường bao",
+      "lạc đà; ngân thử; thỏ rừng",
+      "phục vụ các bậc sinh thành"
+    ]
+  },
+  {
+    "id": 140,
+    "question": "Theo sách Khôn ngoan, điều gì làm cho người ta chiếm được sự khôn ngoan?",
+    "answer": "trở nên bạn hữu với Thiên Chúa",
+    "reference": "",
+    "distractors": [
+      "đừng chờ cho năm tháng qua đi",
+      "lời nói ra đúng lúc đúng thời",
+      "bởi vì ông Mô-sê quá chậm trễ"
+    ]
+  },
+  {
+    "id": 141,
+    "question": "“Từ thời trai trẻ, tôi đã yêu quý và tìm kiếm ………, tôi tìm cách cưới ……… làm bạn đời ; và vẻ đẹp của ……… làm tôi say đắm.”",
+    "answer": "Đức Khôn Ngoan",
+    "reference": "",
+    "distractors": [
+      "ngôn sứ Ê-li-a",
+      "lòng vâng phục",
+      "được cứu thoát"
+    ]
+  },
+  {
+    "id": 142,
+    "question": "Theo sách Khôn ngoan, “Ý định làm ra các tượng thần là đầu mối của tội bất trung. Sáng chế ra tượng thần là làm cho cuộc đời …………”",
+    "answer": "hư hỏng",
+    "reference": "",
+    "distractors": [
+      "kinh sư",
+      "thứ sáu",
+      "rắn độc"
+    ]
+  },
+  {
+    "id": 143,
+    "question": "Theo sách Huấn ca, nếu bạn mộ mến khôn ngoan, bạn sẽ làm gì ?",
+    "answer": "tuân giữ các giới răn",
+    "reference": "",
+    "distractors": [
+      "được một đứa con trai",
+      "Người tỏ lòng oán hận",
+      "sự ghen tỵ của quỷ dữ"
+    ]
+  },
+  {
+    "id": 144,
+    "question": "Sách Huấn ca quả quyết mạnh mẽ rằng kẻ làm con phải luôn luôn …………",
+    "answer": "phục vụ các bậc sinh thành",
+    "reference": "",
+    "distractors": [
+      "danh thánh thiện dường bao",
+      "lạc đà; ngân thử; thỏ rừng",
+      "thật lòng ham muốn học hỏi"
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": 346,
+    "question": "Thiên Chúa tạo dựng vũ trụ trong bao nhiêu ngày theo sách Sáng Thế?",
+    "answer": "6 ngày",
+    "reference": "",
+    "distractors": [
+      "Màu Đỏ",
+      "3 ngày",
+      "Môisên"
+    ]
+  },
+  {
+    "id": 347,
+    "question": "Ai là mẹ của Chúa Giêsu?",
+    "answer": "Bà Maria",
+    "reference": "",
+    "distractors": [
+      "Mùa Vọng",
+      "Ngũ Tuần",
+      "Mùa Vọng"
+    ]
+  },
+  {
+    "id": 348,
+    "question": "Chúa Giêsu sinh ra ở đâu?",
+    "answer": "Bêlem",
+    "reference": "",
+    "distractors": [
+      "2 bia",
+      "7 ơn",
+      "Màu Đỏ"
+    ]
+  },
+  {
+    "id": 349,
+    "question": "Chúa Giêsu có bao nhiêu tông đồ?",
+    "answer": "12",
+    "reference": "",
+    "distractors": [
+      "7 ơn",
+      "Bêlem",
+      "2 bia"
+    ]
+  },
+  {
+    "id": 350,
+    "question": "Bí tích nào giúp xóa tội nguyên tổ?",
+    "answer": "Bí tích Rửa Tội",
+    "reference": "",
+    "distractors": [
+      "Chúa Nhật Lễ Lá",
+      "Chúa Thánh Thần",
+      "Đức Giáo hoàng"
+    ]
+  },
+  {
+    "id": 351,
+    "question": "Cuốn sách thánh của Kitô giáo gọi là gì?",
+    "answer": "Kinh Thánh",
+    "reference": "",
+    "distractors": [
+      "Thánh Thần",
+      "40 ngày đêm",
+      "Lễ vượt qua"
+    ]
+  },
+  {
+    "id": 352,
+    "question": "Ai đã rửa tội cho Chúa Giêsu?",
+    "answer": "Thánh Gioan Tẩy Giả",
+    "reference": "",
+    "distractors": [
+      "Hãy ngợi khen Chúa",
+      "Nơi công bố Lời Chúa",
+      "Khoảng 5000 người"
+    ]
+  },
+  {
+    "id": 353,
+    "question": "Lời cầu nguyện mà Chúa Giêsu dạy các môn đệ là gì?",
+    "answer": "Kinh Lạy Cha",
+    "reference": "",
+    "distractors": [
+      "Đức Giám mục",
+      "Cho kẻ đói ăn",
+      "40 ngày đêm"
+    ]
+  },
+  {
+    "id": 354,
+    "question": "Chúa Giêsu làm phép lạ hóa bánh ra nhiều để nuôi bao nhiêu người?",
+    "answer": "Khoảng 5000 người",
+    "reference": "",
+    "distractors": [
+      "Hãy ngợi khen Chúa",
+      "Đại lễ Phục Sinh",
+      "Bà Maria Magdala"
+    ]
+  },
+  {
+    "id": 355,
+    "question": "Ngày lễ mừng Chúa Giêsu sống lại gọi là gì?",
+    "answer": "Phục Sinh Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "Suy tôn; Cảm mến và kính phục; Tri ân và ngưỡng mộ",
+      "Tượng trưng cho sự sống mới và sự tẩy rửa tội lỗi",
+      "Là chính Mình và Máu Chúa Giêsu dưới hình bánh và rượu"
+    ]
+  },
+  {
+    "id": 356,
+    "question": "Ai là vị Giáo hoàng đầu tiên theo truyền thống Công giáo?",
+    "answer": "Thánh Phêrô",
+    "reference": "",
+    "distractors": [
+      "40 ngày đêm",
+      "Vua Salomon",
+      "Lễ vượt qua"
+    ]
+  },
+  {
+    "id": 357,
+    "question": "Chúa Giêsu chịu đóng đinh trên đồi nào?",
+    "answer": "Golgotha",
+    "reference": "",
+    "distractors": [
+      "Bà Maria",
+      "Ngũ Tuần",
+      "Mùa Vọng"
+    ]
+  },
+  {
+    "id": 358,
+    "question": "Bí tích Thánh Thể được Chúa Giêsu thiết lập trong dịp nào?",
+    "answer": "Tiệc Ly",
+    "reference": "",
+    "distractors": [
+      "Màu tím",
+      "Màu Tím",
+      "Abraham"
+    ]
+  },
+  {
+    "id": 359,
+    "question": "Mùa chuẩn bị mừng lễ Giáng Sinh gọi là gì?",
+    "answer": "Mùa Vọng",
+    "reference": "",
+    "distractors": [
+      "Bà Maria",
+      "Golgotha",
+      "Mùa Chay"
+    ]
+  },
+  {
+    "id": 360,
+    "question": "Chúa Thánh Thần hiện xuống trên các tông đồ trong ngày lễ nào?",
+    "answer": "Ngũ Tuần",
+    "reference": "",
+    "distractors": [
+      "Bà Maria",
+      "Mùa Vọng",
+      "Mùa Chay"
+    ]
+  },
+  {
+    "id": 361,
+    "question": "Ai là người đã được Thiên Chúa gọi để dẫn đưa dân Do Thái ra khỏi đất Ai Cập?",
+    "answer": "Môisên",
+    "reference": "",
+    "distractors": [
+      "Màu Đỏ",
+      "Bêlem",
+      "Màu tím"
+    ]
+  },
+  {
+    "id": 362,
+    "question": "Thiên Chúa đã ban cho ông Môisên mấy Bia đá ghi các Điều răn trên núi Sinai?",
+    "answer": "2 bia",
+    "reference": "",
+    "distractors": [
+      "Bêlem",
+      "7 ơn",
+      "Màu Đỏ"
+    ]
+  },
+  {
+    "id": 363,
+    "question": "Trong Cựu Ước, ai là vị vua nổi tiếng với việc xây cất Đền Thờ Giêrusalem đầu tiên?",
+    "answer": "Vua Salomon",
+    "reference": "",
+    "distractors": [
+      "Thánh Phêrô",
+      "40 ngày đêm",
+      "Lễ vượt qua"
+    ]
+  },
+  {
+    "id": 364,
+    "question": "Bí tích Thêm Sức ban cho chúng ta ấn tín không thể tẩy xóa của ai?",
+    "answer": "Chúa Thánh Thần",
+    "reference": "",
+    "distractors": [
+      "Bí tích Rửa Tội",
+      "Chúa Nhật Lễ Lá",
+      "Bí tích Rửa Tội"
+    ]
+  },
+  {
+    "id": 365,
+    "question": "Có mấy ơn Chúa Thánh Thần theo giáo lý Công giáo?",
+    "answer": "7 ơn",
+    "reference": "",
+    "distractors": [
+      "Bêlem",
+      "2 bia",
+      "Màu Đỏ"
+    ]
+  },
+  {
+    "id": 366,
+    "question": "Phụng vụ là gì theo định nghĩa trong giáo lý?",
+    "answer": "Là việc thờ phượng chính thức của toàn thể Hội Thánh Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "Đang ở tình trạng sạch tội trọng; Có hiểu biết về giáo lý căn bản; Có lòng ước muốn lãnh nhận",
+      "Nhắc nhở chúng ta về Chúa Kitô vinh thắng; Nhắc nhở chúng ta là tro bụi; Nhắc nhở chúng ta tội lỗi",
+      "Mùa Chay bắt đầu từ thứ Tư Lễ Tro và kết thúc trước Thánh Lễ Tiệc Ly chiều ngày thứ Năm Tuần Thánh"
+    ]
+  }
+]

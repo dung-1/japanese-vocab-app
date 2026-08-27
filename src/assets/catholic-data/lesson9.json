@@ -1,0 +1,266 @@
+[
+  {
+    "id": 193,
+    "question": "Theo sách ngôn sứ Giô-en, “Ngày của Đức Chúa” như thế nào?",
+    "answer": "ngày tối tăm u ám và mây mù tối đen",
+    "reference": "",
+    "distractors": [
+      "mặt trời, mặt trăng và các ngôi sao",
+      "các sinh vật dưới biển và chim trời",
+      "những người đau khổ và bị ruồng bỏ"
+    ]
+  },
+  {
+    "id": 194,
+    "question": "Qua ngôn sứ Giô-en, Thiên Chúa đã hứa rằng : “Con trai con gái các ngươi sẽ trở thành ngôn sứ, người già được báo mộng, thanh niên …………",
+    "answer": "thấy thị kiến",
+    "reference": "",
+    "distractors": [
+      "dân Ba-by-lon",
+      "Giê-ru-sa-lem",
+      "mầm kiêu ngạo"
+    ]
+  },
+  {
+    "id": 195,
+    "question": "Theo sách ngôn sứ Giô-en, cánh đồng Giê-hô-sa-phát có ý nghĩa gì ? Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "answer": "nơi xét xử cuối cùng",
+    "reference": "",
+    "distractors": [
+      "chạy trốn thánh nhan",
+      "phía đông vườn Ê-đen",
+      "người chưa từng trải"
+    ]
+  },
+  {
+    "id": 196,
+    "question": "Ngôn sứ A-mốt gọi những người đàn bà giàu có ở Ít-ra-en là gì ?",
+    "answer": "mụ bò cái xứ Ba-san",
+    "reference": "",
+    "distractors": [
+      "tiếng tốt danh thơm",
+      "sách ngôn sứ Mi-kha",
+      "bạn sẽ tìm lại được"
+    ]
+  },
+  {
+    "id": 197,
+    "question": "Theo ngôn sứ A-mốt, ngày của Đức Chúa sẽ xảy ra thế nào cho dân Ít-ra-en?",
+    "answer": "một ngày tối tăm",
+    "reference": "",
+    "distractors": [
+      "sắc mặt thay đổi",
+      "nổi cơn thịnh nộ",
+      "hòm bia giao ước"
+    ]
+  },
+  {
+    "id": 198,
+    "question": "Ngôn sứ A-mốt quở trách những nhà cầm quyền là gì?",
+    "answer": "bè lũ quân phè phỡn",
+    "reference": "",
+    "distractors": [
+      "tiếng tốt danh thơm",
+      "sách ngôn sứ Mi-kha",
+      "bạn sẽ tìm lại được"
+    ]
+  },
+  {
+    "id": 199,
+    "question": "Tư tế đền thờ Bết Ên đã đuổi ngôn sứ A-mốt. Tư tế ấy tên là gì?",
+    "answer": "A-mát-gia",
+    "reference": "",
+    "distractors": [
+      "phải chết",
+      "núi Xi-on",
+      "hiểu biết"
+    ]
+  },
+  {
+    "id": 200,
+    "question": "Ngôn sứ A-mốt báo trước hình phạt vào ngày của Chúa: “Ngày ấy, ………… sẽ vì khát mà ngất xỉu.”",
+    "answer": "nam thanh nữ tú",
+    "reference": "",
+    "distractors": [
+      "ăn nói dịu dàng",
+      "vua A-bi-mê-léc",
+      "ngôn sứ Ê-li-a"
+    ]
+  },
+  {
+    "id": 201,
+    "question": "Ngôn sứ A-mốt có năm thị kiến : một là châu chấu ; hai là hạn hán ; ba là dây dọi ; bốn là giỏ trái cây mùa hạ và năm là …………",
+    "answer": "Đền Thờ bị sụp đổ",
+    "reference": "",
+    "distractors": [
+      "đã thương cứu vớt",
+      "vàng trong lò lửa",
+      "sự ăn năn hối cải"
+    ]
+  },
+  {
+    "id": 202,
+    "question": "Ngôn sứ Ô-va-đi-a đã thúc giục dân mình cố gắng trả thù chống lại dân lân bang nào?",
+    "answer": "Ê-đom",
+    "reference": "",
+    "distractors": [
+      "An-na",
+      "Gô-me",
+      "Ba-tư"
+    ]
+  },
+  {
+    "id": 203,
+    "question": "Theo sách Ô-va-đi-a, nhà nào sẽ còn tồn tại? Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "answer": "nhà Gia-cóp",
+    "reference": "",
+    "distractors": [
+      "người nghèo",
+      "mái đầu bạc",
+      "Ben-gia-min"
+    ]
+  },
+  {
+    "id": 204,
+    "question": "Dân thành Ni-ni-vê có phản ứng thế nào đối với lời giảng của ngôn sứ Giô-na?",
+    "answer": "họ đã tin và từ bỏ con đường tội lỗi",
+    "reference": "",
+    "distractors": [
+      "ngày tối tăm u ám và mây mù tối đen",
+      "mặt trời, mặt trăng và các ngôi sao",
+      "các sinh vật dưới biển và chim trời"
+    ]
+  },
+  {
+    "id": 205,
+    "question": "Ngoài thành Giê-ru-sa-lem ra, thành nào mà ngôn sứ Mi-kha kết án sự tội lỗi của nó?",
+    "answer": "Sa-ma-ri-a",
+    "reference": "",
+    "distractors": [
+      "tại xứ Nốt",
+      "Kha-ba-cúc",
+      "Da-ca-ri-a"
+    ]
+  },
+  {
+    "id": 206,
+    "question": "Ai đã tiên báo rằng Xi-on sẽ bị cày xới như thửa ruộng?",
+    "answer": "Mi-kha",
+    "reference": "",
+    "distractors": [
+      "mẹ ông",
+      "làm ơn",
+      "Dim-ri"
+    ]
+  },
+  {
+    "id": 207,
+    "question": "Khi vua Hê-rô-đê hỏi các thượng tế và kinh sư xem Đấng Mê-si-a sinh ra tại đâu, họ đã trả lời tại Be-lem. Họ dựa vào đâu?",
+    "answer": "sách ngôn sứ Mi-kha",
+    "reference": "",
+    "distractors": [
+      "tiếng tốt danh thơm",
+      "bạn sẽ tìm lại được",
+      "con dòng cháu giống"
+    ]
+  },
+  {
+    "id": 208,
+    "question": "Vị đại ngôn sứ nào sống cùng thời với ngôn sứ Mi-kha?",
+    "answer": "I-sai-a",
+    "reference": "",
+    "distractors": [
+      "rắn độc",
+      "thứ sáu",
+      "E-la-da"
+    ]
+  },
+  {
+    "id": 209,
+    "question": "Ngôn sứ Na-khum đã tuyên sấm thành nào sẽ bị tàn phá?",
+    "answer": "Ni-ni-vê",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "Ót-ni-ên",
+      "ông Gióp"
+    ]
+  },
+  {
+    "id": 210,
+    "question": "Theo sách ngôn sứ Na-khum, “Đức Chúa ghen tương và báo oán, Đức Chúa là Đấng báo oán : Người nổi cơn lôi đình, Đức Chúa báo oán những kẻ thù địch, những kẻ thù của Người,…”",
+    "answer": "Người tỏ lòng oán hận",
+    "reference": "",
+    "distractors": [
+      "được một đứa con trai",
+      "tuân giữ các giới răn",
+      "cha của vô số dân tộc"
+    ]
+  },
+  {
+    "id": 211,
+    "question": "Ngôn sứ Na-khum gọi Át-sua là con gì ?",
+    "answer": "sư tử",
+    "reference": "",
+    "distractors": [
+      "An-na",
+      "Gô-me",
+      "Ba-tư"
+    ]
+  },
+  {
+    "id": 212,
+    "question": "Ngôn sứ nào đã kêu cầu Đức Chúa giải thích việc Người cai quản thế giới ?",
+    "answer": "Kha-ba-cúc",
+    "reference": "",
+    "distractors": [
+      "Da-ca-ri-a",
+      "Da-ca-ri-a",
+      "Sa-ma-ri-a"
+    ]
+  },
+  {
+    "id": 213,
+    "question": "Theo sách ngôn sứ Xô-phô-ni-a, ai sẽ thoát khỏi sự tàn phá vào ngày của Đức Chúa ?",
+    "answer": "số sót trong dân Ít-ra-en",
+    "reference": "",
+    "distractors": [
+      "bị ung nhọt khắp cả người",
+      "các kỳ mục sẽ tập họp lại",
+      "ông Mô-sê và ông A-ha-ron"
+    ]
+  },
+  {
+    "id": 214,
+    "question": "“Kìa đức vua của ngươi đang đến với ngươi : Người là Đấng chính trực, Đấng toàn thắng, khiêm tốn ngồi trên lưng lừa, một con lừa con vẫn còn theo mẹ.” Câu này ở trong sách nào?",
+    "answer": "Da-ca-ri-a",
+    "reference": "",
+    "distractors": [
+      "Kha-ba-cúc",
+      "Khải huyền",
+      "Sa-ma-ri-a"
+    ]
+  },
+  {
+    "id": 215,
+    "question": "Ngôn sứ nào tiên báo Đấng Mê-si-a “khiêm tốn ngồi trên lưng lừa, một con lừa con vẫn còn theo mẹ” ?",
+    "answer": "Da-ca-ri-a",
+    "reference": "",
+    "distractors": [
+      "Kha-ba-cúc",
+      "Khải huyền",
+      "Sa-ma-ri-a"
+    ]
+  },
+  {
+    "id": 216,
+    "question": "Theo sách ngôn sứ Ma-la-khi, ai sẽ trở lại trước ngày của Đức Chúa ?",
+    "answer": "ngôn sứ Ê-li-a",
+    "reference": "",
+    "distractors": [
+      "phường ác nhân",
+      "lòng vâng phục",
+      "Đức Khôn Ngoan"
+    ]
+  }
+]

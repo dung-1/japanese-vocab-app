@@ -1,0 +1,266 @@
+[
+  {
+    "id": 169,
+    "question": "Theo sách Huấn ca, Thiên Chúa sẽ trả lại cho sự quảng đại của bạn gấp bao nhiêu lần?",
+    "answer": "bảy lần",
+    "reference": "",
+    "distractors": [
+      "kinh sư",
+      "I-xa-ác",
+      "thứ sáu"
+    ]
+  },
+  {
+    "id": 170,
+    "question": "Theo sách Huấn ca, nghề nghiệp nào làm tăng thêm sự khôn ngoan?",
+    "answer": "kinh sư",
+    "reference": "",
+    "distractors": [
+      "bảy lần",
+      "I-xa-ác",
+      "thứ sáu"
+    ]
+  },
+  {
+    "id": 171,
+    "question": "Thiên Chúa nói với ngôn sứ I-sai-a : “Hãy đến đây, ……”",
+    "answer": "ta cùng nhau tranh luận",
+    "reference": "",
+    "distractors": [
+      "như Thiên Chúa chúng ta",
+      "như bầy cừu bị sát sinh",
+      "Người thật là vinh hiển"
+    ]
+  },
+  {
+    "id": 172,
+    "question": "“Đức Chúa phán : vì các con gái Xi-on kiêu kỳ, chúng vừa đi vừa vênh mặt, liếc mắt, chúng bước đi nhún nhảy, khua kiềng đeo chân, nên Chúa Thượng sẽ làm cho con gái Xi-on ghẻ chốc đầy đầu, …”, được viết trong sách nào?",
+    "answer": "I-sai-a",
+    "reference": "",
+    "distractors": [
+      "rắn độc",
+      "thứ sáu",
+      "E-la-da"
+    ]
+  },
+  {
+    "id": 173,
+    "question": "I-sai-a đã báo trước rằng thành ………… sẽ thành một đống đổ nát.",
+    "answer": "Đa-mát",
+    "reference": "",
+    "distractors": [
+      "đã làm",
+      "Át-sua",
+      "nói ít"
+    ]
+  },
+  {
+    "id": 174,
+    "question": "Làm thế nào Thiên Chúa đặt lời của Người vào miệng ngôn sứ Giê-rê-mi-a?",
+    "answer": "đưa tay chạm vào miệng ông",
+    "reference": "",
+    "distractors": [
+      "danh thánh thiện dường bao",
+      "lạc đà; ngân thử; thỏ rừng",
+      "thật lòng ham muốn học hỏi"
+    ]
+  },
+  {
+    "id": 175,
+    "question": "Ngôn sứ là ai?",
+    "answer": "là phát ngôn viên của Thiên Chúa",
+    "reference": "",
+    "distractors": [
+      "từ chiếc xương sườn của ông A-đam",
+      "ơn cứu độ của Thiên Chúa chúng ta",
+      "mang đứa em út đến cho ông Giu-se"
+    ]
+  },
+  {
+    "id": 176,
+    "question": "Sứ điệp then chốt của tất cả các ngôn sứ là gì?",
+    "answer": "sự ăn năn hối cải",
+    "reference": "",
+    "distractors": [
+      "đã thương cứu vớt",
+      "vàng trong lò lửa",
+      "gỗ từ núi Li-băng"
+    ]
+  },
+  {
+    "id": 177,
+    "question": "Một vị ngôn sứ đích danh phải từ bỏ …………",
+    "answer": "ý riêng",
+    "reference": "",
+    "distractors": [
+      "bảy lần",
+      "I-xa-ác",
+      "thứ sáu"
+    ]
+  },
+  {
+    "id": 178,
+    "question": "Những ai có liên quan đặc biệt tới các ngôn sứ?",
+    "answer": "những người đau khổ và bị ruồng bỏ",
+    "reference": "",
+    "distractors": [
+      "phải dẫn chúng về cho người anh em",
+      "mặt trời, mặt trăng và các ngôi sao",
+      "các sinh vật dưới biển và chim trời"
+    ]
+  },
+  {
+    "id": 179,
+    "question": "Sách ngôn sứ nào ngắn nhất trong Thánh Kinh Cựu Ước?",
+    "answer": "Ô-va-đi-a Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "ông Mô-sê Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "Đức Chúa đã tăng gấp đôi những gì ông có trước kia",
+      "“Ngươi hãy nhớ ngày Sa-bát, mà coi đó là ngày thánh”"
+    ]
+  },
+  {
+    "id": 180,
+    "question": "Ngôn sứ Giê-rê-mi-a cầu xin Chúa : “Lạy Đức Chúa, xin chữa lành con, để con được chữa lành ; xin cứu thoát con, để con …………”",
+    "answer": "được cứu thoát",
+    "reference": "",
+    "distractors": [
+      "ngôn sứ Ê-li-a",
+      "lòng vâng phục",
+      "Đức Khôn Ngoan"
+    ]
+  },
+  {
+    "id": 181,
+    "question": "Giê-rê-mi-a nhắc lại lời Thiên Chúa hứa rằng Giê-ru-sa-lem sẽ bị một nước cai trị trong bảy năm, sau đó nước này sẽ bị tiêu diệt. Đó là nước nào ?",
+    "answer": "Ba-by-lon",
+    "reference": "",
+    "distractors": [
+      "phải chết",
+      "ông Ê-xau",
+      "lên tiếng"
+    ]
+  },
+  {
+    "id": 182,
+    "question": "Sách Ê-dê-ki-en mở đầu nói về vị ngôn sứ bị lưu đày trong xứ Kan-đu, bên sông ………..",
+    "answer": "Cơ-va",
+    "reference": "",
+    "distractors": [
+      "An-na",
+      "Ba-tư",
+      "Ê-đom"
+    ]
+  },
+  {
+    "id": 183,
+    "question": "Thiên Chúa đã hỏi ngôn sứ Ê-dê-ki-en về những bộ xương khô trong thung lũng : “Hỡi con người, liệu các bộ xương này ………… ?”",
+    "answer": "có hồi sinh được không",
+    "reference": "",
+    "distractors": [
+      "tôi còn sợ người nào ?",
+      "máu bôi trên khung cửa",
+      "người kính sợ Đức Chúa"
+    ]
+  },
+  {
+    "id": 184,
+    "question": "Vì lý do nào ngôn sứ Đa-ni-en bị bỏ vào hầm sư tử ?",
+    "answer": "ông giết con rắn lớn mà dân Ba-by-lon sùng bái",
+    "reference": "",
+    "distractors": [
+      "họ đã tàn sát tất cả đàn ông và cướp phá thành",
+      "bên ly rượu, là người đi nếm đủ thứ rượu ngon",
+      "phải giết tất cả mọi trẻ nam Híp-ri vừa mới sinh"
+    ]
+  },
+  {
+    "id": 185,
+    "question": "Ngôn sứ Đa-ni-en đang ở trong hầm sư tử thì Thiên sứ của Đức Chúa sai một người đem thức ăn đến cho ông. Người ấy là ai ?",
+    "answer": "Kha-ba-cúc",
+    "reference": "",
+    "distractors": [
+      "Da-ca-ri-a",
+      "Da-ca-ri-a",
+      "Sa-ma-ri-a"
+    ]
+  },
+  {
+    "id": 186,
+    "question": "Ngôn sứ Hô-sê đã dùng hình ảnh nào để diễn tả mối quan hệ giữa Thiên Chúa và dân Ít-ra- en ?",
+    "answer": "hôn nhân",
+    "reference": "",
+    "distractors": [
+      "Sáng thế",
+      "Ót-ni-ên",
+      "ông Gióp"
+    ]
+  },
+  {
+    "id": 187,
+    "question": "Bi kịch nào ảnh hưởng mạnh mẽ đến đời ngôn sứ của ngôn sứ Hô-sê ?",
+    "answer": "bị vợ phản bội Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "con bồ câu mà ông thả ra mang về một nhành là ô-liu tươi",
+      "vì ông không kêu cầu Thiên Chúa mà lại kêu cầu thần Ba-an",
+      "sự công chính Bộ Đề Cương Kiến Thức Công Giáo • 429 câu"
+    ]
+  },
+  {
+    "id": 188,
+    "question": "Ngôn sứ Hô-sê đã cưới ai làm vợ ?",
+    "answer": "Gô-me",
+    "reference": "",
+    "distractors": [
+      "An-na",
+      "Ba-tư",
+      "Ê-đom"
+    ]
+  },
+  {
+    "id": 189,
+    "question": "Ngôn sứ Hô-sê đã nguyền rủa các tư tế bằng câu nói : “Vì thiếu ………… mà dân Ta bị tiêu vong.”",
+    "answer": "hiểu biết",
+    "reference": "",
+    "distractors": [
+      "phải chết",
+      "núi Xi-on",
+      "sẽ làm cỏ"
+    ]
+  },
+  {
+    "id": 190,
+    "question": "Ngôn sứ Hô-sê đã nhắm vào ai khi ông nói : “Chúng có ăn, nhờ dân Ta phạm tội, chúng thích thú, khi dân Ta lỗi lầm !”",
+    "answer": "hàng tư tế",
+    "reference": "",
+    "distractors": [
+      "tại xứ Nốt",
+      "Kha-ba-cúc",
+      "Da-ca-ri-a"
+    ]
+  },
+  {
+    "id": 191,
+    "question": "Ngôn sứ Hô-sê cảnh cáo : “Chúng gieo gió thì phải gặt …………”",
+    "answer": "bão",
+    "reference": "",
+    "distractors": [
+      "cùi",
+      "dê",
+      "rượu"
+    ]
+  },
+  {
+    "id": 192,
+    "question": "Theo sách ngôn sứ Hô-sê, Đức Chúa sẽ báo oán cho tình yêu bị Ít-ra-en khước từ : “Gươm đao sẽ lại hoành hành trong các thành của nó, ………… và ngốn sạch con cái nó, vì chúng có những ý đồ xấu xa.”",
+    "answer": "sẽ làm cỏ",
+    "reference": "",
+    "distractors": [
+      "phải chết",
+      "núi Xi-on",
+      "hiểu biết"
+    ]
+  }
+]

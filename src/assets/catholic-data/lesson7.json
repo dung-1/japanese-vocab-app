@@ -1,0 +1,266 @@
+[
+  {
+    "id": 145,
+    "question": "Theo sách Huấn ca, cái gì làm tăng thêm tình bạn?",
+    "answer": "ăn nói dịu dàng",
+    "reference": "",
+    "distractors": [
+      "vua A-bi-mê-léc",
+      "nam thanh nữ tú",
+      "ngôn sứ Ê-li-a"
+    ]
+  },
+  {
+    "id": 146,
+    "question": "Sách Huấn ca đã khuyên chúng ta đón nhận điều gì ngay từ độ thanh xuân?",
+    "answer": "lời giáo huấn",
+    "reference": "",
+    "distractors": [
+      "dân Ba-by-lon",
+      "Giê-ru-sa-lem",
+      "mầm kiêu ngạo"
+    ]
+  },
+  {
+    "id": 147,
+    "question": "Theo sách Huấn ca, không được từ chối điều gì ngay cả đối với người đã chết?",
+    "answer": "làm ơn",
+    "reference": "",
+    "distractors": [
+      "bôn ba",
+      "nói ít",
+      "Át-sua"
+    ]
+  },
+  {
+    "id": 148,
+    "question": "Theo sách Huấn ca, đầu mối của tội lỗi là gì ?",
+    "answer": "kiêu căng",
+    "reference": "",
+    "distractors": [
+      "ông Mô-sê",
+      "hiểu biết",
+      "sẽ làm cỏ"
+    ]
+  },
+  {
+    "id": 149,
+    "question": "Theo sách Huấn ca, “đừng khen một người đàn ông vì người ấy đẹp và đừng gớm ghét ai vì …………”",
+    "answer": "vẻ bên ngoài",
+    "reference": "",
+    "distractors": [
+      "ông A-ha-ron",
+      "kẻ tiểu nhân",
+      "lòng kính sợ"
+    ]
+  },
+  {
+    "id": 150,
+    "question": "Sách Huấn ca nói rằng dấu hiệu nhận ra cái tốt cái xấu là gì ?",
+    "answer": "sắc mặt thay đổi",
+    "reference": "",
+    "distractors": [
+      "một ngày tối tăm",
+      "nổi cơn thịnh nộ",
+      "“Đùa đấy thôi !”"
+    ]
+  },
+  {
+    "id": 151,
+    "question": "Theo sách Huấn ca, của cải không cần cho ai?",
+    "answer": "kẻ tiểu nhân",
+    "reference": "",
+    "distractors": [
+      "ông A-ha-ron",
+      "vẻ bên ngoài",
+      "lòng kính sợ"
+    ]
+  },
+  {
+    "id": 152,
+    "question": "Theo Sách Huấn Ca, quy luật muôn đời là gì ?",
+    "answer": "mọi người đều phải chết",
+    "reference": "",
+    "distractors": [
+      "như Thiên Chúa chúng ta",
+      "như bầy cừu bị sát sinh",
+      "Người thật là vinh hiển"
+    ]
+  },
+  {
+    "id": 153,
+    "question": "Theo sách Huấn ca, mỗi người sẽ lãnh nhận điều mà mình …………",
+    "answer": "đã làm",
+    "reference": "",
+    "distractors": [
+      "bôn ba",
+      "nói ít",
+      "Át-sua"
+    ]
+  },
+  {
+    "id": 154,
+    "question": "Theo sách Huấn ca, cái gì là con ngươi mắt Chúa ?",
+    "answer": "ân đức của chúng ta",
+    "reference": "",
+    "distractors": [
+      "tiếng tốt danh thơm",
+      "sách ngôn sứ Mi-kha",
+      "bạn sẽ tìm lại được"
+    ]
+  },
+  {
+    "id": 155,
+    "question": "Sách Huấn ca nói rằng bạn có thể nhận xét về một người qua …………",
+    "answer": "dáng vẻ",
+    "reference": "",
+    "distractors": [
+      "kinh sư",
+      "thứ sáu",
+      "rắn độc"
+    ]
+  },
+  {
+    "id": 156,
+    "question": "Theo sách Huấn ca, làm thế nào mà người ta có thể gây được thiện cảm?",
+    "answer": "nói ít",
+    "reference": "",
+    "distractors": [
+      "đã làm",
+      "Át-sua",
+      "đầu óc"
+    ]
+  },
+  {
+    "id": 157,
+    "question": "Theo sách Huấn ca, lời cầu khẩn của ai được nhận lời ngay lập tức ?",
+    "answer": "người nghèo",
+    "reference": "",
+    "distractors": [
+      "lúc nửa đêm",
+      "mái đầu bạc",
+      "nhà Gia-cóp"
+    ]
+  },
+  {
+    "id": 158,
+    "question": "Theo sách Huấn ca, lời khôn ngoan ở trong ………… con người.",
+    "answer": "đầu óc",
+    "reference": "",
+    "distractors": [
+      "đã làm",
+      "Át-sua",
+      "nói ít"
+    ]
+  },
+  {
+    "id": 159,
+    "question": "Theo sách Huấn ca, người đã quen ………… thì suốt đời không ai sửa dạy nổi.",
+    "answer": "nói những lời nhục mạ",
+    "reference": "",
+    "distractors": [
+      "được một đứa con trai",
+      "tuân giữ các giới răn",
+      "Người tỏ lòng oán hận"
+    ]
+  },
+  {
+    "id": 160,
+    "question": "Đức Chúa lấy làm vui thích khi …………",
+    "answer": "vợ chồng ý hợp tâm đầu; láng giềng thân thiết; anh em hòa thuận",
+    "reference": "",
+    "distractors": [
+      "ăn uống và hưởng những thành quảdo công lao khó nhọc mình làm ra",
+      "tay người phóng bút Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "mang thức ăn cho ba người anh trai là lính và xem họ đánh giặc ra sao"
+    ]
+  },
+  {
+    "id": 161,
+    "question": "Theo sách Châm ngôn, cái gì giống như quả táo vàng trên đĩa bạc chạm trổ?",
+    "answer": "lời nói ra đúng lúc đúng thời",
+    "reference": "",
+    "distractors": [
+      "đừng chờ cho năm tháng qua đi",
+      "bởi vì ông Mô-sê quá chậm trễ",
+      "không có vây và không có vảy"
+    ]
+  },
+  {
+    "id": 162,
+    "question": "Theo sách Huấn ca, cái gì bạn có thể đạt tới nếu bạn cố gắng theo đuổi nó?",
+    "answer": "sự công chính Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "bị vợ phản bội Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+      "con bồ câu mà ông thả ra mang về một nhành là ô-liu tươi",
+      "vì ông không kêu cầu Thiên Chúa mà lại kêu cầu thần Ba-an"
+    ]
+  },
+  {
+    "id": 163,
+    "question": "Sách Huấn ca nói rằng đáng nguyền rủa thay ……… gây chia rẽ giữa bao người đang hòa thuận.",
+    "answer": "kẻ nói xấu, nói hành, kẻ nói lời hai ý",
+    "reference": "",
+    "distractors": [
+      "liên hệ của vua Đa-vít với bà Bát-sê-va",
+      "là nguồn sáng và là ơn cứu độ của tôi",
+      "bởi vì con người sinh ra để mà chịu khổ"
+    ]
+  },
+  {
+    "id": 164,
+    "question": "Theo sách Huấn ca, cái gì đem lại cho con người thêm sức sống nếu biết điều độ ?",
+    "answer": "rượu",
+    "reference": "",
+    "distractors": [
+      "Lê-a",
+      "giàu",
+      "sống"
+    ]
+  },
+  {
+    "id": 165,
+    "question": "Theo sách Huấn ca, cái gì làm cho người ta thêm lanh lợi tháo vát?",
+    "answer": "bôn ba",
+    "reference": "",
+    "distractors": [
+      "đã làm",
+      "Át-sua",
+      "nói ít"
+    ]
+  },
+  {
+    "id": 166,
+    "question": "Theo sách Huấn ca, ai là người hiểu biết nông cạn?",
+    "answer": "người chưa từng trải",
+    "reference": "",
+    "distractors": [
+      "nơi xét xử cuối cùng",
+      "phía đông vườn Ê-đen",
+      "chạy trốn thánh nhan"
+    ]
+  },
+  {
+    "id": 167,
+    "question": "Theo sách Huấn ca, ai không bao giờ sợ hãi?",
+    "answer": "người kính sợ Đức Chúa",
+    "reference": "",
+    "distractors": [
+      "tôi còn sợ người nào ?",
+      "có hồi sinh được không",
+      "máu bôi trên khung cửa"
+    ]
+  },
+  {
+    "id": 168,
+    "question": "Theo sách Huấn ca, ai là người dâng lễ đền tội thực sự?",
+    "answer": "người xa tránh bất công",
+    "reference": "",
+    "distractors": [
+      "như Thiên Chúa chúng ta",
+      "như bầy cừu bị sát sinh",
+      "Người thật là vinh hiển"
+    ]
+  }
+]

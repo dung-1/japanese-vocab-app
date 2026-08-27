@@ -1,0 +1,233 @@
+[
+  {
+    "id": 283,
+    "question": "Sau bài giảng của thánh Phê-rô vào ngày lễ Ngũ Tuần, có bao nhiêu người tin theo Đức Giê- su?",
+    "answer": "3000",
+    "reference": "",
+    "distractors": [
+      "giàu",
+      "hôn",
+      "Gio-an"
+    ]
+  },
+  {
+    "id": 284,
+    "question": "“Vàng bạc thì tôi không có ; nhưng có cái này tôi cho anh đây : nhân danh Đức Giê-su Ki-tô người Na-da-rét, anh đứng dậy mà đi !” Thánh Phê-rô nói với ai?",
+    "answer": "người ăn xin què chân bên ngoài Đền Thờ",
+    "reference": "",
+    "distractors": [
+      "trở nên điên rồ, để được khôn ngoan thật",
+      "“Anh em hãy cầm lấy, đây là Mình Thầy”",
+      "làm cho Người một vương miện bằng gai"
+    ]
+  },
+  {
+    "id": 285,
+    "question": "Thánh Phê-rô đã chữa một người què từ khi lọt lòng mẹ ở Cửa Đẹp Đền Thờ vào giờ thứ mấy?",
+    "answer": "giờ thứ chín",
+    "reference": "",
+    "distractors": [
+      "An-ti-ô-ki-a",
+      "trên mái nhà",
+      "phải đổi mới"
+    ]
+  },
+  {
+    "id": 286,
+    "question": "Điều gì xảy ra cho thánh Phê-rô và thánh Gio-an vì chống lại lệnh cấm rao giảng?",
+    "answer": "họ bị bắt giam",
+    "reference": "",
+    "distractors": [
+      "tại Bê-ta-ni-a",
+      "những giọt máu",
+      "ông bị đắm tàu"
+    ]
+  },
+  {
+    "id": 287,
+    "question": "Ai đã đem tiền biếu các Tông Đồ để xin được quyền đặt tay ban Thánh Thần?",
+    "answer": "ông Si-môn",
+    "reference": "",
+    "distractors": [
+      "Bết-da-tha",
+      "Đức Giê-su",
+      "Đức Giê-su"
+    ]
+  },
+  {
+    "id": 288,
+    "question": "Thánh Phi-líp-phê đã làm phép rửa cho một viên thái giám của nước …………",
+    "answer": "Ê-thi-óp",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Lời Chúa",
+      "lòng tin"
+    ]
+  },
+  {
+    "id": 289,
+    "question": "Thánh Phao-lô được cứu thoát do các môn đệ của ông đã đưa ông ra ngoài tường thành bằng một cái thúng. Đó là thành nào?",
+    "answer": "Đa-mát Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "reference": "",
+    "distractors": [
+      "những ai nghe lời Thiên Chúa và đem ra thực hành",
+      "việc treo con rắn bằng đồng lên cao trong sa mạc",
+      "Thánh Thần của Con Thiên Chúa ngự trong lòng họ"
+    ]
+  },
+  {
+    "id": 290,
+    "question": "Tại Lốt, thánh Phê-rô đã chữa bệnh tê bại cho ai ?",
+    "answer": "anh Ê-nê",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Lời Chúa",
+      "lòng tin"
+    ]
+  },
+  {
+    "id": 291,
+    "question": "Khi từ chỗ ông Co-nê-li-ô, các sứ giả đến tìm ông Si-mon để nói chuyện, họ thấy ông đang cầu nguyện ở đâu ?",
+    "answer": "trên mái nhà",
+    "reference": "",
+    "distractors": [
+      "An-ti-ô-ki-a",
+      "phải đổi mới",
+      "giờ thứ chín"
+    ]
+  },
+  {
+    "id": 292,
+    "question": "Ở nơi nào mà lần đầu tiên các tín hữu được gọi là “ki-tô hữu” ?",
+    "answer": "An-ti-ô-ki-a",
+    "reference": "",
+    "distractors": [
+      "trên mái nhà",
+      "phải đổi mới",
+      "giờ thứ chín"
+    ]
+  },
+  {
+    "id": 293,
+    "question": "Hai thánh Phao-lô và Ba-na-ba đã chuyển qua giảng dạy cho dân ngoại trong khi trước đó họ chỉ giảng dạy cho dân Do-thái. Tại sao ?",
+    "answer": "vì những người Do-thái không tin họ",
+    "reference": "",
+    "distractors": [
+      "hai người đàn ông y phục sáng chói",
+      "làm cho Người một vương miện bằng gai",
+      "“Anh em hãy cầm lấy, đây là Mình Thầy”"
+    ]
+  },
+  {
+    "id": 294,
+    "question": "Ở thành nào mà thánh Phao-lô và Ba-na-ba được coi là thần linh mặc lốt người phàm ?",
+    "answer": "Lýt-ra",
+    "reference": "",
+    "distractors": [
+      "Gio-an",
+      "Phê-rô",
+      "Gio-an"
+    ]
+  },
+  {
+    "id": 295,
+    "question": "Sau khi chia tay nhau, thánh Ba-na-ba đem theo ông Mác-cô, còn thánh Phao-lô đem theo …………",
+    "answer": "ông Xi-la",
+    "reference": "",
+    "distractors": [
+      "bị bắt bớ",
+      "ông Gai-ô",
+      "Xin-va-nô"
+    ]
+  },
+  {
+    "id": 296,
+    "question": "Thánh Phao-lô đã chọn ông Ti-mô-thê làm môn đệ ở đâu?",
+    "answer": "Lýt-ra",
+    "reference": "",
+    "distractors": [
+      "Gio-an",
+      "Phê-rô",
+      "Gio-an"
+    ]
+  },
+  {
+    "id": 297,
+    "question": "Tại sao thánh Phao-lô đến ở với ông bà A-qui-la và Pơ-rít-ki-la ở Cô-rin-tô ? Bộ Đề Cương Kiến Thức Công Giáo • 429 câu",
+    "answer": "vì họ làm nghề dệt lều, nghề mà ông cũng làm",
+    "reference": "",
+    "distractors": [
+      "“Thưa Ngài, tôi chẳng đáng Ngài vào nhà tôi……”",
+      "Thánh Thần của Con Thiên Chúa ngự trong lòng họ",
+      "trở nên điên rồ, để được khôn ngoan thật"
+    ]
+  },
+  {
+    "id": 298,
+    "question": "Thánh Phao-lô đã gọi thượng tế Kha-na-ni-a là cái gì khi ông này sai thuộc hạ đánh vào miệng thánh Phao-lô?",
+    "answer": "“bức tường tô vôi”",
+    "reference": "",
+    "distractors": [
+      "tha tội cho anh ta",
+      "vì Đức Giê-su chết",
+      "tinh thần hiền hòa"
+    ]
+  },
+  {
+    "id": 299,
+    "question": "Vấn đề nào được nêu ra trước Thượng Hội Đồng ở Giê-ru-sa-lem làm cho thánh Phao-lô được giải thoát ?",
+    "answer": "kẻ chết sống lại",
+    "reference": "",
+    "distractors": [
+      "làm cho người ta",
+      "ông Na-tha-na-en",
+      "giáo lý sai lạc"
+    ]
+  },
+  {
+    "id": 300,
+    "question": "Điều gì xảy ra cho thánh Phao-lô khi ông đáp tàu đi Rô-ma ?",
+    "answer": "ông bị đắm tàu",
+    "reference": "",
+    "distractors": [
+      "tại Bê-ta-ni-a",
+      "đang mang thai",
+      "họ bị bắt giam"
+    ]
+  },
+  {
+    "id": 301,
+    "question": "Nhóm người nào được nghe Tin Mừng cứu độ đầu tiên ?",
+    "answer": "người Do-thái",
+    "reference": "",
+    "distractors": [
+      "Giê-ru-sa-lem",
+      "các thượng tế",
+      "bốn mươi ngày"
+    ]
+  },
+  {
+    "id": 302,
+    "question": "Thánh Phao-lô nói người ta được nên công chính bởi …",
+    "answer": "lòng tin",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Lời Chúa",
+      "Cơ-rê-ta"
+    ]
+  },
+  {
+    "id": 303,
+    "question": "Theo thư Rô-ma, “Lương bổng mà tội lỗi trả cho người ta, là …………”",
+    "answer": "cái chết",
+    "reference": "",
+    "distractors": [
+      "Mát-thêu",
+      "Lời Chúa",
+      "lòng tin"
+    ]
+  }
+]
