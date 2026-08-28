@@ -1,0 +1,296 @@
+[
+  {
+    "kanji": "街灯",
+    "hiragana": "がいとう",
+    "hanViet": "NHAI ĐĂNG",
+    "meaning": "đèn đường"
+  },
+  {
+    "kanji": "プリンター",
+    "hiragana": "ぷりんたー",
+    "hanViet": "",
+    "meaning": "máy in"
+  },
+  {
+    "kanji": "チャット（する）",
+    "hiragana": "ちゃっと（する）",
+    "hanViet": "",
+    "meaning": "tán gẫu"
+  },
+  {
+    "kanji": "郊外",
+    "hiragana": "こうがい",
+    "hanViet": "GIAO NGOẠI",
+    "meaning": "ngoại ô"
+  },
+  {
+    "kanji": "騒音",
+    "hiragana": "そうおん",
+    "hanViet": "TAO ÂM",
+    "meaning": "tiếng ồn"
+  },
+  {
+    "kanji": "上級",
+    "hiragana": "じょうきゅう",
+    "hanViet": "THƯỢNG CẤP",
+    "meaning": "cấp cao"
+  },
+  {
+    "kanji": "読解",
+    "hiragana": "どっかい",
+    "hanViet": "ĐỌC GIẢI",
+    "meaning": "đọc hiểu"
+  },
+  {
+    "kanji": "勝負（する）",
+    "hiragana": "しょうぶ（する）",
+    "hanViet": "THẮNG PHỤ",
+    "meaning": "phân thắng bại"
+  },
+  {
+    "kanji": "控えめな",
+    "hiragana": "ひかえめな",
+    "hanViet": "KHỐNG",
+    "meaning": "khiêm tốn, chừng mực"
+  },
+  {
+    "kanji": "狙う",
+    "hiragana": "ねらう",
+    "hanViet": "THƯ",
+    "meaning": "nhắm tới"
+  },
+  {
+    "kanji": "上品な",
+    "hiragana": "じょうひんな",
+    "hanViet": "THƯỢNG PHẨM",
+    "meaning": "thanh lịch"
+  },
+  {
+    "kanji": "とにかく",
+    "hiragana": "とにかく",
+    "hanViet": "",
+    "meaning": "dù sao thì"
+  },
+  {
+    "kanji": "元を取る",
+    "hiragana": "もとをとる",
+    "hanViet": "NGUYÊN THỦ",
+    "meaning": "gỡ vốn"
+  },
+  {
+    "kanji": "ペースを崩す",
+    "hiragana": "ぺーすをくずす",
+    "hanViet": "BĂNG",
+    "meaning": "mất nhịp"
+  },
+  {
+    "kanji": "焼き肉",
+    "hiragana": "やきにく",
+    "hanViet": "THIÊU NHỤC",
+    "meaning": "thịt nướng"
+  },
+  {
+    "kanji": "危うく",
+    "hiragana": "あやうく",
+    "hanViet": "NGUY",
+    "meaning": "suýt chút nữa"
+  },
+  {
+    "kanji": "力をふりしぼる",
+    "hiragana": "ちからをふりしぼる",
+    "hanViet": "LỰC",
+    "meaning": "dồn hết sức lực"
+  },
+  {
+    "kanji": "心強い",
+    "hiragana": "こころづよい",
+    "hanViet": "TÂM CƯỜNG",
+    "meaning": "yên tâm, vững lòng"
+  },
+  {
+    "kanji": "勇気",
+    "hiragana": "ゆうき",
+    "hanViet": "DŨNG KHÍ",
+    "meaning": "dũng cảm"
+  },
+  {
+    "kanji": "偉い",
+    "hiragana": "えらい",
+    "hanViet": "VĨ",
+    "meaning": "vĩ đại, giỏi"
+  },
+  {
+    "kanji": "お嬢様",
+    "hiragana": "おじょうさま",
+    "hanViet": "NƯƠNG DẠNG",
+    "meaning": "tiểu thư"
+  },
+  {
+    "kanji": "けちな",
+    "hiragana": "けちな",
+    "hanViet": "",
+    "meaning": "keo kiệt"
+  },
+  {
+    "kanji": "嫌がる",
+    "hiragana": "いやがる",
+    "hanViet": "HIỀM",
+    "meaning": "ghét, không thích"
+  },
+  {
+    "kanji": "長所",
+    "hiragana": "ちょうしょ",
+    "hanViet": "TRƯỜNG SỞ",
+    "meaning": "ưu điểm"
+  },
+  {
+    "kanji": "換気（する）",
+    "hiragana": "かんき（する）",
+    "hanViet": "HOÁN KHÍ",
+    "meaning": "thông gió"
+  },
+  {
+    "kanji": "森林火災",
+    "hiragana": "しんりんかさい",
+    "hanViet": "SÂM LÂM HỎA HOẠI",
+    "meaning": "cháy rừng"
+  },
+  {
+    "kanji": "独占（する）",
+    "hiragana": "どくせん（する）",
+    "hanViet": "ĐỘC CHIẾM",
+    "meaning": "độc chiếm"
+  },
+  {
+    "kanji": "ロンドン",
+    "hiragana": "ろんどん",
+    "hanViet": "",
+    "meaning": "London"
+  },
+  {
+    "kanji": "地元",
+    "hiragana": "じもと",
+    "hanViet": "ĐỊA NGUYÊN",
+    "meaning": "địa phương"
+  },
+  {
+    "kanji": "（電車を）乗り過ごす",
+    "hiragana": "（でんしゃを）のりすごす",
+    "hanViet": "ĐIỆN XA THỪA QUÁ",
+    "meaning": "đi quá ga"
+  },
+  {
+    "kanji": "（料理が）まずい",
+    "hiragana": "（りょうりが）まずい",
+    "hanViet": "LIỆU LÝ",
+    "meaning": "(món ăn) dở"
+  },
+  {
+    "kanji": "嫌になる",
+    "hiragana": "いやになる",
+    "hanViet": "HIỀM",
+    "meaning": "trở nên chán ghét"
+  },
+  {
+    "kanji": "満員電車",
+    "hiragana": "まんいんでんしゃ",
+    "hanViet": "MÃN NHÂN ĐIỆN XA",
+    "meaning": "tàu đông kín người"
+  },
+  {
+    "kanji": "混雑（する）",
+    "hiragana": "こんざつ（する）",
+    "hanViet": "HỖN TẠP",
+    "meaning": "đông đúc"
+  },
+  {
+    "kanji": "日々",
+    "hiragana": "ひび",
+    "hanViet": "NHẬT",
+    "meaning": "ngày qua ngày"
+  },
+  {
+    "kanji": "耐える",
+    "hiragana": "たえる",
+    "hanViet": "NẠI",
+    "meaning": "chịu đựng"
+  },
+  {
+    "kanji": "乗客",
+    "hiragana": "じょうきゃく",
+    "hanViet": "THỪA KHÁCH",
+    "meaning": "hành khách"
+  },
+  {
+    "kanji": "我慢強い",
+    "hiragana": "がまんづよい",
+    "hanViet": "NGÃ MẠN CƯỜNG",
+    "meaning": "kiên nhẫn"
+  },
+  {
+    "kanji": "訓練（する）",
+    "hiragana": "くんれん（する）",
+    "hanViet": "HUẤN LUYỆN",
+    "meaning": "huấn luyện"
+  },
+  {
+    "kanji": "路線",
+    "hiragana": "ろせん",
+    "hanViet": "LỘ TUYẾN",
+    "meaning": "tuyến đường"
+  },
+  {
+    "kanji": "車両",
+    "hiragana": "しゃりょう",
+    "hanViet": "XA LƯỢNG",
+    "meaning": "toa xe"
+  },
+  {
+    "kanji": "心に響く",
+    "hiragana": "こころにひびく",
+    "hanViet": "TÂM HƯỚNG",
+    "meaning": "chạm đến trái tim"
+  },
+  {
+    "kanji": "好転（する）",
+    "hiragana": "こうてん（する）",
+    "hanViet": "HẢO CHUYỂN",
+    "meaning": "chuyển biến tốt"
+  },
+  {
+    "kanji": "早急に",
+    "hiragana": "そうきゅうに",
+    "hanViet": "TẢO CẤP",
+    "meaning": "khẩn cấp"
+  },
+  {
+    "kanji": "畳",
+    "hiragana": "たたみ",
+    "hanViet": "ĐIỆP",
+    "meaning": "chiếu tatami"
+  },
+  {
+    "kanji": "双方",
+    "hiragana": "そうほう",
+    "hanViet": "SONG PHƯƠNG",
+    "meaning": "đôi bên"
+  },
+  {
+    "kanji": "利害",
+    "hiragana": "りがい",
+    "hanViet": "LỢI HẠI",
+    "meaning": "lợi ích"
+  },
+  {
+    "kanji": "容易に",
+    "hiragana": "よういに",
+    "hanViet": "DUNG DỊ",
+    "meaning": "dễ dàng"
+  },
+  {
+    "kanji": "高まる",
+    "hiragana": "たかまる",
+    "hanViet": "CAO",
+    "meaning": "tăng cao"
+  }
+]

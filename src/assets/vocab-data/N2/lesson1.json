@@ -1,0 +1,302 @@
+[
+  {
+    "kanji": "お知らせ",
+    "hiragana": "おしらせ",
+    "hanViet": "THÔNG BÁO",
+    "meaning": "thông báo"
+  },
+  {
+    "kanji": "人材",
+    "hiragana": "じんざい",
+    "hanViet": "NHÂN TÀI",
+    "meaning": "nhân lực, nhân tài"
+  },
+  {
+    "kanji": "求める",
+    "hiragana": "もとめる",
+    "hanViet": "CẦU",
+    "meaning": "tìm kiếm, yêu cầu"
+  },
+  {
+    "kanji": "開店（する）",
+    "hiragana": "かいてん（する）",
+    "hanViet": "KHAI ĐIẾM",
+    "meaning": "khai trương (mở cửa hàng)"
+  },
+  {
+    "kanji": "閉店（する）",
+    "hiragana": "へいてん（する）",
+    "hanViet": "BẾ ĐIẾM",
+    "meaning": "đóng cửa hàng"
+  },
+  {
+    "kanji": "業務",
+    "hiragana": "ぎょうむ",
+    "hanViet": "NGHIỆP VỤ",
+    "meaning": "nghiệp vụ, công việc"
+  },
+  {
+    "kanji": "販売（する）",
+    "hiragana": "はんばい（する）",
+    "hanViet": "PHIẾN MẠI",
+    "meaning": "bán hàng"
+  },
+  {
+    "kanji": "清掃（する）",
+    "hiragana": "せいそう（する）",
+    "hanViet": "THANH TẢO",
+    "meaning": "dọn dẹp, vệ sinh"
+  },
+  {
+    "kanji": "国籍",
+    "hiragana": "こくせき",
+    "hanViet": "QUỐC TỊCH",
+    "meaning": "quốc tịch"
+  },
+  {
+    "kanji": "やる気がある",
+    "hiragana": "やるきがある",
+    "hanViet": "KHÍ",
+    "meaning": "có động lực, có nhiệt huyết"
+  },
+  {
+    "kanji": "大歓迎",
+    "hiragana": "だいかんげい",
+    "hanViet": "ĐẠI HOAN NGHÊNH",
+    "meaning": "nhiệt liệt chào đón"
+  },
+  {
+    "kanji": "接客（する）",
+    "hiragana": "せっきゃく（する）",
+    "hanViet": "TIẾP KHÁCH",
+    "meaning": "tiếp khách"
+  },
+  {
+    "kanji": "応対（する）",
+    "hiragana": "おうたい（する）",
+    "hanViet": "ỨNG ĐỐI",
+    "meaning": "ứng đối, trả lời"
+  },
+  {
+    "kanji": "給与",
+    "hiragana": "きゅうよ",
+    "hanViet": "CẤP DỮ",
+    "meaning": "lương"
+  },
+  {
+    "kanji": "考慮（する）",
+    "hiragana": "こうりょ（する）",
+    "hanViet": "KHẢO LỰ",
+    "meaning": "cân nhắc, xem xét"
+  },
+  {
+    "kanji": "往復（する）",
+    "hiragana": "おうふく（する）",
+    "hanViet": "VÃNG PHỤC",
+    "meaning": "đi và về, khứ hồi"
+  },
+  {
+    "kanji": "支給（する）",
+    "hiragana": "しきゅう（する）",
+    "hanViet": "CHI CẤP",
+    "meaning": "chi trả, cấp phát"
+  },
+  {
+    "kanji": "所定",
+    "hiragana": "しょてい",
+    "hanViet": "SỞ ĐỊNH",
+    "meaning": "quy định, định sẵn"
+  },
+  {
+    "kanji": "書類審査",
+    "hiragana": "しょるいしんさ",
+    "hanViet": "THƯ LOẠI THẨM TRA",
+    "meaning": "xét duyệt hồ sơ"
+  },
+  {
+    "kanji": "持参（する）",
+    "hiragana": "じさん（する）",
+    "hanViet": "TRÌ THAM",
+    "meaning": "mang theo"
+  },
+  {
+    "kanji": "医師",
+    "hiragana": "いし",
+    "hanViet": "Y SƯ",
+    "meaning": "bác sĩ"
+  },
+  {
+    "kanji": "休診",
+    "hiragana": "きゅうしん",
+    "hanViet": "HƯU CHẨN",
+    "meaning": "nghỉ khám"
+  },
+  {
+    "kanji": "改装工事",
+    "hiragana": "かいそうこうじ",
+    "hanViet": "CẢI TRANG CÔNG SỰ",
+    "meaning": "công trình cải tạo, sửa chữa"
+  },
+  {
+    "kanji": "左記",
+    "hiragana": "さき",
+    "hanViet": "TẢ KÝ",
+    "meaning": "ghi bên trái"
+  },
+  {
+    "kanji": "仮店舗",
+    "hiragana": "かりてんぽ",
+    "hanViet": "GIẢ ĐIẾM PHỐ",
+    "meaning": "cửa hàng tạm thời"
+  },
+  {
+    "kanji": "キャンペーン",
+    "hiragana": "きゃんぺーん",
+    "hanViet": "",
+    "meaning": "chiến dịch quảng cáo"
+  },
+  {
+    "kanji": "生もの",
+    "hiragana": "なまもの",
+    "hanViet": "SINH",
+    "meaning": "đồ tươi sống"
+  },
+  {
+    "kanji": "点検（する）",
+    "hiragana": "てんけん（する）",
+    "hanViet": "ĐIỂM KIỂM",
+    "meaning": "kiểm tra"
+  },
+  {
+    "kanji": "臨時休業",
+    "hiragana": "りんじきゅうぎょう",
+    "hanViet": "LÂM THỜI HƯU NGHIỆP",
+    "meaning": "tạm thời đóng cửa"
+  },
+  {
+    "kanji": "休業（する）",
+    "hiragana": "きゅうぎょう（する）",
+    "hanViet": "HƯU NGHIỆP",
+    "meaning": "nghỉ kinh doanh"
+  },
+  {
+    "kanji": "昼夜",
+    "hiragana": "ちゅうや",
+    "hanViet": "TRÚ DẠ",
+    "meaning": "ngày đêm"
+  },
+  {
+    "kanji": "深夜",
+    "hiragana": "しんや",
+    "hanViet": "THÂM DẠ",
+    "meaning": "đêm khuya"
+  },
+  {
+    "kanji": "有無",
+    "hiragana": "うむ",
+    "hanViet": "HỮU VÔ",
+    "meaning": "có hay không"
+  },
+  {
+    "kanji": "職業",
+    "hiragana": "しょくぎょう",
+    "hanViet": "NGHIỆP VỤ",
+    "meaning": "nghề nghiệp"
+  },
+  {
+    "kanji": "学歴",
+    "hiragana": "がくれき",
+    "hanViet": "HỌC LỊCH",
+    "meaning": "học vấn"
+  },
+  {
+    "kanji": "関心",
+    "hiragana": "かんしん",
+    "hanViet": "QUAN TÂM",
+    "meaning": "quan tâm"
+  },
+  {
+    "kanji": "通常",
+    "hiragana": "つうじょう",
+    "hanViet": "THÔNG THƯỜNG",
+    "meaning": "thông thường"
+  },
+  {
+    "kanji": "提供（する）",
+    "hiragana": "ていきょう（する）",
+    "hanViet": "ĐỀ CUNG",
+    "meaning": "cung cấp"
+  },
+  {
+    "kanji": "コーナー",
+    "hiragana": "こーなー",
+    "hanViet": "",
+    "meaning": "góc, khu vực"
+  },
+  {
+    "kanji": "周囲",
+    "hiragana": "しゅうい",
+    "hanViet": "CHU VI",
+    "meaning": "xung quanh"
+  },
+  {
+    "kanji": "万引き（する）",
+    "hiragana": "まんびき（する）",
+    "hanViet": "VẠN DẪN",
+    "meaning": "ăn trộm đồ trong cửa hàng"
+  },
+  {
+    "kanji": "単純な",
+    "hiragana": "たんじゅんな",
+    "hanViet": "ĐƠN THUẦN",
+    "meaning": "đơn giản"
+  },
+  {
+    "kanji": "にせもの",
+    "hiragana": "にせもの",
+    "hanViet": "GIẢ",
+    "meaning": "đồ giả"
+  },
+  {
+    "kanji": "新年会",
+    "hiragana": "しんねんかい",
+    "hanViet": "TÂN NIÊN HỘI",
+    "meaning": "tiệc năm mới"
+  },
+  {
+    "kanji": "服装",
+    "hiragana": "ふくそう",
+    "hanViet": "PHỤC TRANG",
+    "meaning": "trang phục"
+  },
+  {
+    "kanji": "心がける",
+    "hiragana": "こころがける",
+    "hanViet": "TÂM",
+    "meaning": "ghi nhớ, chú tâm"
+  },
+  {
+    "kanji": "要望",
+    "hiragana": "ようぼう",
+    "hanViet": "YẾU VỌNG",
+    "meaning": "yêu cầu, nguyện vọng"
+  },
+  {
+    "kanji": "手当て",
+    "hiragana": "てあて",
+    "hanViet": "THỦ ĐƯƠNG",
+    "meaning": "phụ cấp"
+  },
+  {
+    "kanji": "返品（する）",
+    "hiragana": "へんぴん（する）",
+    "hanViet": "PHẢN PHẨM",
+    "meaning": "trả lại hàng"
+  },
+  {
+    "kanji": "発言（する）",
+    "hiragana": "はつげん（する）",
+    "hanViet": "PHÁT NGÔN",
+    "meaning": "phát biểu"
+  }
+]

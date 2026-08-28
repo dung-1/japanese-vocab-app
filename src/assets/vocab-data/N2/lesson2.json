@@ -1,0 +1,302 @@
+[
+  {
+    "kanji": "晴雨",
+    "hiragana": "せいう",
+    "hanViet": "TÌNH VŨ",
+    "meaning": "nắng mưa"
+  },
+  {
+    "kanji": "（意見を）まとめる",
+    "hiragana": "（いけんを）まとめる",
+    "hanViet": "Ý KIẾN",
+    "meaning": "tổng hợp (ý kiến)"
+  },
+  {
+    "kanji": "環境汚染",
+    "hiragana": "かんきょうおせん",
+    "hanViet": "HOÀN CẢNH Ô NHIỄM",
+    "meaning": "ô nhiễm môi trường"
+  },
+  {
+    "kanji": "汚染（する）",
+    "hiragana": "おせん（する）",
+    "hanViet": "Ô NHIỄM",
+    "meaning": "gây ô nhiễm"
+  },
+  {
+    "kanji": "幸運",
+    "hiragana": "こううん",
+    "hanViet": "HẠNH VẬN",
+    "meaning": "may mắn"
+  },
+  {
+    "kanji": "風力発電",
+    "hiragana": "ふうりょくはつでん",
+    "hanViet": "PHONG LỰC PHÁT ĐIỆN",
+    "meaning": "phát điện bằng gió"
+  },
+  {
+    "kanji": "自然エネルギー",
+    "hiragana": "しぜんえねるぎー",
+    "hanViet": "TỰ NHIÊN",
+    "meaning": "năng lượng tự nhiên"
+  },
+  {
+    "kanji": "失業（する）",
+    "hiragana": "しつぎょう（する）",
+    "hanViet": "THẤT NGHIỆP",
+    "meaning": "thất nghiệp"
+  },
+  {
+    "kanji": "紛失（する）",
+    "hiragana": "ふんしつ（する）",
+    "hanViet": "PHÂN THẤT",
+    "meaning": "làm mất"
+  },
+  {
+    "kanji": "離着陸",
+    "hiragana": "りちゃくりく",
+    "hanViet": "LY TRƯỚC LỤC",
+    "meaning": "cất cánh và hạ cánh"
+  },
+  {
+    "kanji": "火災",
+    "hiragana": "かさい",
+    "hanViet": "HỎA TAI",
+    "meaning": "hỏa hoạn"
+  },
+  {
+    "kanji": "雨天",
+    "hiragana": "うてん",
+    "hanViet": "VŨ THIÊN",
+    "meaning": "trời mưa"
+  },
+  {
+    "kanji": "屋内",
+    "hiragana": "おくない",
+    "hanViet": "ỐC NỘI",
+    "meaning": "trong nhà"
+  },
+  {
+    "kanji": "パスワード",
+    "hiragana": "ぱすわーど",
+    "hanViet": "",
+    "meaning": "mật khẩu"
+  },
+  {
+    "kanji": "着用（する）",
+    "hiragana": "ちゃくよう（する）",
+    "hanViet": "TRƯỚC DỤNG",
+    "meaning": "mặc, đeo"
+  },
+  {
+    "kanji": "非常ボタン",
+    "hiragana": "ひじょうぼたん",
+    "hanViet": "PHI THƯỜNG",
+    "meaning": "nút khẩn cấp"
+  },
+  {
+    "kanji": "期限",
+    "hiragana": "きげん",
+    "hanViet": "KỲ HẠN",
+    "meaning": "thời hạn"
+  },
+  {
+    "kanji": "厳守（する）",
+    "hiragana": "げんしゅ（する）",
+    "hanViet": "NGHIÊM THỦ",
+    "meaning": "tuân thủ nghiêm ngặt"
+  },
+  {
+    "kanji": "願書",
+    "hiragana": "がんしょ",
+    "hanViet": "NGUYỆN THƯ",
+    "meaning": "đơn xin"
+  },
+  {
+    "kanji": "窓口",
+    "hiragana": "まどぐち",
+    "hanViet": "SONG KHẨU",
+    "meaning": "quầy giao dịch, cửa ngõ"
+  },
+  {
+    "kanji": "筆記用具",
+    "hiragana": "ひっきようぐ",
+    "hanViet": "BÚT KÝ DỤNG CỤ",
+    "meaning": "dụng cụ viết"
+  },
+  {
+    "kanji": "プールサイド",
+    "hiragana": "ぷーるさいど",
+    "hanViet": "",
+    "meaning": "bên cạnh bể bơi"
+  },
+  {
+    "kanji": "転任（する）",
+    "hiragana": "てんにん（する）",
+    "hanViet": "CHUYỂN NHIỆM",
+    "meaning": "chuyển công tác"
+  },
+  {
+    "kanji": "命じる",
+    "hiragana": "めいじる",
+    "hanViet": "MỆNH",
+    "meaning": "ra lệnh, bổ nhiệm"
+  },
+  {
+    "kanji": "遺伝子",
+    "hiragana": "いでんし",
+    "hanViet": "DI TRUYỀN TỬ",
+    "meaning": "gen"
+  },
+  {
+    "kanji": "歓迎会",
+    "hiragana": "かんげいかい",
+    "hanViet": "HOAN NGHÊNH HỘI",
+    "meaning": "tiệc chào mừng"
+  },
+  {
+    "kanji": "見直す",
+    "hiragana": "みなおす",
+    "hanViet": "KIẾN TRỰC",
+    "meaning": "xem xét lại"
+  },
+  {
+    "kanji": "スパイス",
+    "hiragana": "すぱいす",
+    "hanViet": "",
+    "meaning": "gia vị"
+  },
+  {
+    "kanji": "電子レンジ",
+    "hiragana": "でんしれんじ",
+    "hanViet": "ĐIỆN TỬ",
+    "meaning": "lò vi sóng"
+  },
+  {
+    "kanji": "ジャケット",
+    "hiragana": "じゃけっと",
+    "hanViet": "",
+    "meaning": "áo khoác"
+  },
+  {
+    "kanji": "入荷（する）",
+    "hiragana": "にゅうか（する）",
+    "hanViet": "NHẬP HÀ",
+    "meaning": "nhập hàng"
+  },
+  {
+    "kanji": "著名人",
+    "hiragana": "ちょめいじん",
+    "hanViet": "TRỨ DANH NHÂN",
+    "meaning": "người nổi tiếng"
+  },
+  {
+    "kanji": "講師",
+    "hiragana": "こうし",
+    "hanViet": "GIẢNG SƯ",
+    "meaning": "giảng viên"
+  },
+  {
+    "kanji": "東南アジア",
+    "hiragana": "とうなんあじあ",
+    "hanViet": "ĐÔNG NAM",
+    "meaning": "Đông Nam Á"
+  },
+  {
+    "kanji": "合理化",
+    "hiragana": "ごうりか",
+    "hanViet": "HỢP LÝ HÓA",
+    "meaning": "hợp lý hóa"
+  },
+  {
+    "kanji": "多数",
+    "hiragana": "たすう",
+    "hanViet": "ĐA SỐ",
+    "meaning": "đa số"
+  },
+  {
+    "kanji": "従業員",
+    "hiragana": "じゅうぎょういん",
+    "hanViet": "TÙNG NGHIỆP VIÊN",
+    "meaning": "nhân viên"
+  },
+  {
+    "kanji": "解雇（する）",
+    "hiragana": "かいこ（する）",
+    "hanViet": "GIẢI CỐ",
+    "meaning": "sa thải"
+  },
+  {
+    "kanji": "認める",
+    "hiragana": "みとめろ",
+    "hanViet": "NHẬN",
+    "meaning": "công nhận, thừa nhận"
+  },
+  {
+    "kanji": "尊敬（する）",
+    "hiragana": "そんけい（する）",
+    "hanViet": "TÔN KÍNH",
+    "meaning": "tôn trọng"
+  },
+  {
+    "kanji": "海岸",
+    "hiragana": "かいがん",
+    "hanViet": "HẢI NGẠN",
+    "meaning": "bờ biển"
+  },
+  {
+    "kanji": "清掃（する）",
+    "hiragana": "せいそう（する）",
+    "hanViet": "THANH TẢO",
+    "meaning": "dọn dẹp, vệ sinh"
+  },
+  {
+    "kanji": "同意（する）",
+    "hiragana": "どうい（する）",
+    "hanViet": "ĐỒNG Ý",
+    "meaning": "đồng ý"
+  },
+  {
+    "kanji": "祖父母",
+    "hiragana": "そふぼ",
+    "hanViet": "TỔ PHỤ MẪU",
+    "meaning": "ông bà"
+  },
+  {
+    "kanji": "睡眠",
+    "hiragana": "すいみん",
+    "hanViet": "THỤY MIÊN",
+    "meaning": "giấc ngủ"
+  },
+  {
+    "kanji": "人材",
+    "hiragana": "じんざい",
+    "hanViet": "NHÂN TÀI",
+    "meaning": "nhân lực"
+  },
+  {
+    "kanji": "確保（する）",
+    "hiragana": "かくほ（する）",
+    "hanViet": "XÁC BẢO",
+    "meaning": "đảm bảo, giữ chỗ"
+  },
+  {
+    "kanji": "犯罪",
+    "hiragana": "はんざい",
+    "hanViet": "PHẠM TỘI",
+    "meaning": "tội phạm"
+  },
+  {
+    "kanji": "防止（する）",
+    "hiragana": "ぼうし（する）",
+    "hanViet": "PHÒNG CHỈ",
+    "meaning": "phòng chống"
+  },
+  {
+    "kanji": "南米",
+    "hiragana": "なんべい",
+    "hanViet": "NAM MỄ",
+    "meaning": "Nam Mỹ"
+  }
+]

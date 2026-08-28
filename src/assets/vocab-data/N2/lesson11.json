@@ -1,0 +1,296 @@
+[
+  {
+    "kanji": "低迷（する）",
+    "hiragana": "ていめい（する）",
+    "hanViet": "ĐÊ MÊ",
+    "meaning": "trì trệ"
+  },
+  {
+    "kanji": "要因",
+    "hiragana": "よういん",
+    "hanViet": "YẾU NGUYÊN",
+    "meaning": "nguyên nhân"
+  },
+  {
+    "kanji": "手に入る",
+    "hiragana": "てにはいる",
+    "hanViet": "THỦ NHẬP",
+    "meaning": "có được"
+  },
+  {
+    "kanji": "個人情報",
+    "hiragana": "こじんじょうほう",
+    "hanViet": "CÁ NHÂN TÌNH BÁO",
+    "meaning": "thông tin cá nhân"
+  },
+  {
+    "kanji": "流出（する）",
+    "hiragana": "りゅうしゅつ（する）",
+    "hanViet": "LƯU XUẤT",
+    "meaning": "rò rỉ"
+  },
+  {
+    "kanji": "黒字",
+    "hiragana": "くろじ",
+    "hanViet": "HẮC TỰ",
+    "meaning": "lãi, thặng dư"
+  },
+  {
+    "kanji": "赤字",
+    "hiragana": "あかじ",
+    "hanViet": "XÍCH TỰ",
+    "meaning": "lỗ, thâm hụt"
+  },
+  {
+    "kanji": "誘致（する）",
+    "hiragana": "ゆうち（する）",
+    "hanViet": "DỤ TRÍ",
+    "meaning": "thu hút"
+  },
+  {
+    "kanji": "対策（する）",
+    "hiragana": "たいさく（する）",
+    "hanViet": "ĐỐI SÁCH",
+    "meaning": "đối sách"
+  },
+  {
+    "kanji": "検討（する）",
+    "hiragana": "けんとう（する）",
+    "hanViet": "KIỂM THẢO",
+    "meaning": "xem xét"
+  },
+  {
+    "kanji": "注目（する）",
+    "hiragana": "ちゅうもく（する）",
+    "hanViet": "CHÚ MỤC",
+    "meaning": "chú ý"
+  },
+  {
+    "kanji": "慎重な",
+    "hiragana": "しんちょうな",
+    "hanViet": "THẬN TRỌNG",
+    "meaning": "thận trọng"
+  },
+  {
+    "kanji": "得る",
+    "hiragana": "える",
+    "hanViet": "ĐẮC",
+    "meaning": "đạt được"
+  },
+  {
+    "kanji": "伸ばす",
+    "hiragana": "のばす",
+    "hanViet": "THÂN",
+    "meaning": "kéo dài, phát triển"
+  },
+  {
+    "kanji": "サツマイモ",
+    "hiragana": "さつまいも",
+    "hanViet": "TÁT MA THỰ",
+    "meaning": "khoai lang"
+  },
+  {
+    "kanji": "桜並木",
+    "hiragana": "さくらなみき",
+    "hanViet": "ANH TỊNH MỘC",
+    "meaning": "hàng cây anh đào"
+  },
+  {
+    "kanji": "チンパンジー",
+    "hiragana": "ちんぱんじー",
+    "hanViet": "",
+    "meaning": "tinh tinh"
+  },
+  {
+    "kanji": "ブドウ",
+    "hiragana": "ぶどう",
+    "hanViet": "BỒ ĐÀO",
+    "meaning": "nho"
+  },
+  {
+    "kanji": "栽培（する）",
+    "hiragana": "さいばい（する）",
+    "hanViet": "TÀI BỒI",
+    "meaning": "canh tác"
+  },
+  {
+    "kanji": "適する",
+    "hiragana": "てきする",
+    "hanViet": "THÍCH",
+    "meaning": "phù hợp"
+  },
+  {
+    "kanji": "坂道",
+    "hiragana": "さかみち",
+    "hanViet": "PHẢN ĐẠO",
+    "meaning": "đường dốc"
+  },
+  {
+    "kanji": "高齢者",
+    "hiragana": "こうれいしゃ",
+    "hanViet": "CAO TUỔI GIẢ",
+    "meaning": "người cao tuổi"
+  },
+  {
+    "kanji": "困難（な）",
+    "hiragana": "こんなん（な）",
+    "hanViet": "KHỐN NAN",
+    "meaning": "khó khăn"
+  },
+  {
+    "kanji": "送迎（する）",
+    "hiragana": "そうげい（する）",
+    "hanViet": "TỐNG NGHÊNH",
+    "meaning": "đưa đón"
+  },
+  {
+    "kanji": "運行（する）",
+    "hiragana": "うんこう（する）",
+    "hanViet": "VẬN HÀNH",
+    "meaning": "vận hành"
+  },
+  {
+    "kanji": "独立（する）",
+    "hiragana": "どくりつ（する）",
+    "hanViet": "ĐỘC LẬP",
+    "meaning": "độc lập"
+  },
+  {
+    "kanji": "発明（する）",
+    "hiragana": "はつめい（する）",
+    "hanViet": "PHÁT MINH",
+    "meaning": "phát minh"
+  },
+  {
+    "kanji": "侵入（する）",
+    "hiragana": "しんにゅう（する）",
+    "hanViet": "XÂM NHẬP",
+    "meaning": "xâm nhập"
+  },
+  {
+    "kanji": "下町",
+    "hiragana": "したまち",
+    "hanViet": "HẠ ĐINH",
+    "meaning": "khu phố cổ"
+  },
+  {
+    "kanji": "電卓",
+    "hiragana": "でんたく",
+    "hanViet": "ĐIỆN TRÁC",
+    "meaning": "máy tính bỏ túi"
+  },
+  {
+    "kanji": "独自",
+    "hiragana": "どくじ",
+    "hanViet": "ĐỘC TỰ",
+    "meaning": "độc đáo, riêng biệt"
+  },
+  {
+    "kanji": "難民",
+    "hiragana": "なんみん",
+    "hanViet": "NAN DÂN",
+    "meaning": "tị nạn"
+  },
+  {
+    "kanji": "人道的な",
+    "hiragana": "じんどうてきな",
+    "hanViet": "NHÂN ĐẠO TÍNH",
+    "meaning": "nhân đạo"
+  },
+  {
+    "kanji": "近隣諸国",
+    "hiragana": "きんりんしょこく",
+    "hanViet": "CẬN LÂN CHƯ QUỐC",
+    "meaning": "các nước lân cận"
+  },
+  {
+    "kanji": "及ぼす",
+    "hiragana": "およぼす",
+    "hanViet": "CẬP",
+    "meaning": "gây ra"
+  },
+  {
+    "kanji": "側面",
+    "hiragana": "そくめん",
+    "hanViet": "TRẮC DIỆN",
+    "meaning": "khía cạnh"
+  },
+  {
+    "kanji": "優れる",
+    "hiragana": "すぐれる",
+    "hanViet": "ƯU",
+    "meaning": "ưu tú"
+  },
+  {
+    "kanji": "引き取る",
+    "hiragana": "ひきとる",
+    "hanViet": "DẪN THỦ",
+    "meaning": "nhận nuôi, tiếp nhận"
+  },
+  {
+    "kanji": "自立（する）",
+    "hiragana": "じりつ（する）",
+    "hanViet": "TỰ LẬP",
+    "meaning": "tự lập"
+  },
+  {
+    "kanji": "豊富な",
+    "hiragana": "ほうふな",
+    "hanViet": "PHONG PHÚ",
+    "meaning": "phong phú"
+  },
+  {
+    "kanji": "耳を傾ける",
+    "hiragana": "みみをかたむける",
+    "hanViet": "NHĨ KHUYÊNH",
+    "meaning": "lắng nghe"
+  },
+  {
+    "kanji": "シェア",
+    "hiragana": "しぇあ",
+    "hanViet": "",
+    "meaning": "chia sẻ, thị phần"
+  },
+  {
+    "kanji": "独占（する）",
+    "hiragana": "どくせん（する）",
+    "hanViet": "ĐỘC CHIẾM",
+    "meaning": "độc chiếm"
+  },
+  {
+    "kanji": "イメージアップ",
+    "hiragana": "いめーじあっぷ",
+    "hanViet": "",
+    "meaning": "cải thiện hình ảnh"
+  },
+  {
+    "kanji": "貢献（する）",
+    "hiragana": "こうけん（する）",
+    "hanViet": "CỐNG HIẾN",
+    "meaning": "đóng góp"
+  },
+  {
+    "kanji": "被災地",
+    "hiragana": "ひさいち",
+    "hanViet": "BỊ TAI ĐỊA",
+    "meaning": "vùng bị thiên tai"
+  },
+  {
+    "kanji": "支援（する）",
+    "hiragana": "しえん（する）",
+    "hanViet": "CHI VIỆN",
+    "meaning": "hỗ trợ"
+  },
+  {
+    "kanji": "寄せる",
+    "hiragana": "よせる",
+    "hanViet": "KÝ",
+    "meaning": "gửi tới"
+  },
+  {
+    "kanji": "くるみ",
+    "hiragana": "くるみ",
+    "hanViet": "HỒ ĐÀO",
+    "meaning": "quả óc chó"
+  }
+]

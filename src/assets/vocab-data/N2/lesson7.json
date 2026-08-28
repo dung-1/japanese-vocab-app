@@ -1,0 +1,296 @@
+[
+  {
+    "kanji": "増加（する）",
+    "hiragana": "ぞうか（する）",
+    "hanViet": "GIA TĂNG",
+    "meaning": "gia tăng"
+  },
+  {
+    "kanji": "事業活動",
+    "hiragana": "じぎょうかつどう",
+    "hanViet": "SỰ NGHIỆP HOẠT ĐỘNG",
+    "meaning": "hoạt động kinh doanh"
+  },
+  {
+    "kanji": "回収（する）",
+    "hiragana": "かいしゅう（する）",
+    "hanViet": "THU HỒI",
+    "meaning": "thu hồi"
+  },
+  {
+    "kanji": "噴火（する）",
+    "hiragana": "ふんか（する）",
+    "hanViet": "PHÚN HỎA",
+    "meaning": "phun trào"
+  },
+  {
+    "kanji": "避難（する）",
+    "hiragana": "ひなん（する）",
+    "hanViet": "TỊ NẠN",
+    "meaning": "sơ tán"
+  },
+  {
+    "kanji": "引き起こす",
+    "hiragana": "ひきおこす",
+    "hanViet": "DẪN KHỞI",
+    "meaning": "gây ra"
+  },
+  {
+    "kanji": "販売（する）",
+    "hiragana": "はんばい（する）",
+    "hanViet": "PHIẾN MẠI",
+    "meaning": "bán hàng"
+  },
+  {
+    "kanji": "（電話が）つながる",
+    "hiragana": "（でんわが）つながる",
+    "hanViet": "ĐIỆN THOẠI",
+    "meaning": "kết nối (điện thoại)"
+  },
+  {
+    "kanji": "雷",
+    "hiragana": "かみなり",
+    "hanViet": "LÔI",
+    "meaning": "sấm sét"
+  },
+  {
+    "kanji": "発生（する）",
+    "hiragana": "はっせい（する）",
+    "hanViet": "PHÁT SINH",
+    "meaning": "phát sinh, xảy ra"
+  },
+  {
+    "kanji": "整備（する）",
+    "hiragana": "せいび（する）",
+    "hanViet": "CHỈNH BỊ",
+    "meaning": "bảo trì, chuẩn bị"
+  },
+  {
+    "kanji": "大気汚染",
+    "hiragana": "たいきおせん",
+    "hanViet": "ĐẠI KHÍ Ô NHIỄM",
+    "meaning": "ô nhiễm không khí"
+  },
+  {
+    "kanji": "害する",
+    "hiragana": "がいする",
+    "hanViet": "HẠI",
+    "meaning": "gây hại"
+  },
+  {
+    "kanji": "搭乗（する）",
+    "hiragana": "とうじょう（する）",
+    "hanViet": "ĐÁP THỪA",
+    "meaning": "lên máy bay"
+  },
+  {
+    "kanji": "医療",
+    "hiragana": "いりょう",
+    "hanViet": "Y LIỆU",
+    "meaning": "y tế"
+  },
+  {
+    "kanji": "現地",
+    "hiragana": "げんち",
+    "hanViet": "HIỆN ĐỊA",
+    "meaning": "tại chỗ, thực địa"
+  },
+  {
+    "kanji": "日夜",
+    "hiragana": "にちや",
+    "hanViet": "NHẬT DẠ",
+    "meaning": "ngày đêm"
+  },
+  {
+    "kanji": "警報",
+    "hiragana": "けいほう",
+    "hanViet": "CẢNH BÁO",
+    "meaning": "cảnh báo"
+  },
+  {
+    "kanji": "土砂崩れ",
+    "hiragana": "どしゃくずれ",
+    "hanViet": "THỔ SA BĂNG",
+    "meaning": "sạt lở đất"
+  },
+  {
+    "kanji": "宅地開発",
+    "hiragana": "たくちかいはつ",
+    "hanViet": "TRẠCH ĐỊA KHAI PHÁT",
+    "meaning": "phát triển đất ở"
+  },
+  {
+    "kanji": "整える",
+    "hiragana": "ととのえる",
+    "hanViet": "CHỈNH",
+    "meaning": "sắp xếp, chuẩn bị"
+  },
+  {
+    "kanji": "求められる",
+    "hiragana": "もとめられる",
+    "hanViet": "CẦU",
+    "meaning": "được yêu cầu"
+  },
+  {
+    "kanji": "宇宙",
+    "hiragana": "うちゅう",
+    "hanViet": "VŨ TRỤ",
+    "meaning": "vũ trụ"
+  },
+  {
+    "kanji": "謎",
+    "hiragana": "なぞ",
+    "hanViet": "MÊ",
+    "meaning": "bí ẩn"
+  },
+  {
+    "kanji": "都",
+    "hiragana": "みやこ",
+    "hanViet": "ĐÔ",
+    "meaning": "đô thành, thủ đô"
+  },
+  {
+    "kanji": "拡大（する）",
+    "hiragana": "かくだい（する）",
+    "hanViet": "KHUẾCH ĐẠI",
+    "meaning": "mở rộng"
+  },
+  {
+    "kanji": "ネット犯罪",
+    "hiragana": "ねっとはんざい",
+    "hanViet": "PHẠM TỘI",
+    "meaning": "tội phạm mạng"
+  },
+  {
+    "kanji": "（変化が）生じる",
+    "hiragana": "（へんかが）しょうじる",
+    "hanViet": "BIẾN HÓA SINH",
+    "meaning": "phát sinh (thay đổi)"
+  },
+  {
+    "kanji": "入荷（する）",
+    "hiragana": "にゅうか（する）",
+    "hanViet": "NHẬP HÀ",
+    "meaning": "nhập hàng"
+  },
+  {
+    "kanji": "雰囲気",
+    "hiragana": "ふんいき",
+    "hanViet": "PHÂN VI KHÍ",
+    "meaning": "bầu không khí"
+  },
+  {
+    "kanji": "発送（する）",
+    "hiragana": "はっそう（する）",
+    "hanViet": "PHÁT TỐNG",
+    "meaning": "gửi hàng"
+  },
+  {
+    "kanji": "非常ドア",
+    "hiragana": "ひじょうどあ",
+    "hanViet": "PHI THƯỜNG",
+    "meaning": "cửa thoát hiểm"
+  },
+  {
+    "kanji": "時刻",
+    "hiragana": "じこく",
+    "hanViet": "THỜI KHẮC",
+    "meaning": "thời gian, giờ giấc"
+  },
+  {
+    "kanji": "就職先",
+    "hiragana": "しゅうしょくさき",
+    "hanViet": "TỰU CHỨC TIÊN",
+    "meaning": "nơi làm việc"
+  },
+  {
+    "kanji": "若干名",
+    "hiragana": "じゃっかんめい",
+    "hanViet": "NHƯỢC CAN DANH",
+    "meaning": "một vài người"
+  },
+  {
+    "kanji": "求人",
+    "hiragana": "きゅうじん",
+    "hanViet": "CẦU NHÂN",
+    "meaning": "tuyển dụng"
+  },
+  {
+    "kanji": "黙る",
+    "hiragana": "だまる",
+    "hanViet": "MẶC",
+    "meaning": "im lặng"
+  },
+  {
+    "kanji": "健康器具",
+    "hiragana": "けんこうきぐ",
+    "hanViet": "KIỆN KHANG KHÍ CỤ",
+    "meaning": "dụng cụ sức khỏe"
+  },
+  {
+    "kanji": "ステーキ",
+    "hiragana": "すてーき",
+    "hanViet": "",
+    "meaning": "bít tết"
+  },
+  {
+    "kanji": "寝たきり",
+    "hiragana": "ねたきり",
+    "hanViet": "TẨM",
+    "meaning": "nằm liệt giường"
+  },
+  {
+    "kanji": "うっかり",
+    "hiragana": "うっかり",
+    "hanViet": "",
+    "meaning": "vô ý, lơ đãng"
+  },
+  {
+    "kanji": "赤ん坊",
+    "hiragana": "あかんぼう",
+    "hanViet": "XÍCH PHƯỜNG",
+    "meaning": "trẻ sơ sinh"
+  },
+  {
+    "kanji": "夜道",
+    "hiragana": "よみち",
+    "hanViet": "DẠ ĐẠO",
+    "meaning": "đường đêm"
+  },
+  {
+    "kanji": "クリスマス",
+    "hiragana": "くりすます",
+    "hanViet": "",
+    "meaning": "Giáng sinh"
+  },
+  {
+    "kanji": "悔いのないように",
+    "hiragana": "くいのないように",
+    "hanViet": "HỐI",
+    "meaning": "để không phải hối tiếc"
+  },
+  {
+    "kanji": "状況",
+    "hiragana": "じょうきょう",
+    "hanViet": "TRẠNG HUỐNG",
+    "meaning": "tình huống, tình trạng"
+  },
+  {
+    "kanji": "お腹をこわす",
+    "hiragana": "おなかをこわす",
+    "hanViet": "PHÚC",
+    "meaning": "bị đau bụng, tiêu chảy"
+  },
+  {
+    "kanji": "観光（する）",
+    "hiragana": "かんこう（する）",
+    "hanViet": "QUAN QUANG",
+    "meaning": "tham quan"
+  },
+  {
+    "kanji": "実用化",
+    "hiragana": "じつようか",
+    "hanViet": "THỰC DỤNG HÓA",
+    "meaning": "đưa vào thực tế"
+  }
+]

@@ -3,6 +3,7 @@
     { "domain": "kanji-word", "level": "N3", "path": "assets/kanji-words-data/N3/lesson{1-30}.json" },
     { "domain": "kanji-word", "level": "N4", "path": "assets/kanji-words-data/N4/lesson{1-26}.json" },
     { "domain": "kanji-word", "level": "N2", "path": "assets/kanji-words-data/N2/lesson{1-48}.json" },
+    { "domain": "vocab", "level": "N2", "path": "assets/vocab-data/N2/lesson{1-24}.json" },
     { "domain": "vocab", "level": "N3", "path": "assets/vocab-data/N3/lesson{1-22}.json" },
     { "domain": "vocab", "level": "N4", "path": "assets/vocab-data/N4/lesson{1-25}.json" },
     { "domain": "radical", "path": "assets/kanji-radicard-data/lesson{1-17}.json" },

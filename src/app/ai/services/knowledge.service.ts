@@ -26,6 +26,7 @@ const HARDCODED_RULES: ManifestRule[] = [
   { domain: 'kanji-word', level: 'N3', pathTemplate: 'assets/kanji-words-data/N3/lesson{1-30}.json' },
   { domain: 'kanji-word', level: 'N4', pathTemplate: 'assets/kanji-words-data/N4/lesson{1-26}.json' },
   { domain: 'kanji-word', level: 'N2', pathTemplate: 'assets/kanji-words-data/N2/lesson{1-48}.json' },
+  { domain: 'vocab',      level: 'N2', pathTemplate: 'assets/vocab-data/N2/lesson{1-24}.json' },
   { domain: 'vocab',      level: 'N3', pathTemplate: 'assets/vocab-data/N3/lesson{1-22}.json' },
   { domain: 'vocab',      level: 'N4', pathTemplate: 'assets/vocab-data/N4/lesson{1-25}.json' },
   { domain: 'radical',               pathTemplate: 'assets/kanji-radicard-data/lesson{1-17}.json' },

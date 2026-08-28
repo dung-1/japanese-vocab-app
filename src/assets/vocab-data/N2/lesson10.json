@@ -1,0 +1,296 @@
+[
+  {
+    "kanji": "気合を入れる",
+    "hiragana": "きあいをいれる",
+    "hanViet": "KHÍ HỢP NHẬP",
+    "meaning": "tập trung tinh thần, quyết tâm"
+  },
+  {
+    "kanji": "胸を張る",
+    "hiragana": "むねをはる",
+    "hanViet": "HUNG TRƯƠNG",
+    "meaning": "ưỡn ngực tự hào"
+  },
+  {
+    "kanji": "リラックス（する）",
+    "hiragana": "りらっくす（する）",
+    "hanViet": "",
+    "meaning": "thư giãn"
+  },
+  {
+    "kanji": "オオカミ",
+    "hiragana": "おおかみ",
+    "hanViet": "LANG",
+    "meaning": "chó sói"
+  },
+  {
+    "kanji": "生態系",
+    "hiragana": "せいたいけい",
+    "hanViet": "SINH THÁI HỆ",
+    "meaning": "hệ sinh thái"
+  },
+  {
+    "kanji": "立場",
+    "hiragana": "たちば",
+    "hanViet": "LẬP TRƯỜNG",
+    "meaning": "lập trường, vị trí"
+  },
+  {
+    "kanji": "家畜",
+    "hiragana": "かちく",
+    "hanViet": "GIA SÚC",
+    "meaning": "gia súc"
+  },
+  {
+    "kanji": "襲う",
+    "hiragana": "おそう",
+    "hanViet": "TẬP",
+    "meaning": "tấn công"
+  },
+  {
+    "kanji": "敵",
+    "hiragana": "てき",
+    "hanViet": "ĐỊCH",
+    "meaning": "kẻ thù"
+  },
+  {
+    "kanji": "シカ",
+    "hiragana": "しか",
+    "hanViet": "LỘC",
+    "meaning": "con hươu"
+  },
+  {
+    "kanji": "草食動物",
+    "hiragana": "そうしょくどうぶつ",
+    "hanViet": "THẢO THỰC ĐỘNG VẬT",
+    "meaning": "động vật ăn cỏ"
+  },
+  {
+    "kanji": "防ぐ",
+    "hiragana": "ふせぐ",
+    "hanViet": "PHÒNG",
+    "meaning": "phòng ngừa"
+  },
+  {
+    "kanji": "役割",
+    "hiragana": "やくわり",
+    "hanViet": "DỊCH CÁT",
+    "meaning": "vai trò"
+  },
+  {
+    "kanji": "果たす",
+    "hiragana": "はたす",
+    "hanViet": "QUẢ",
+    "meaning": "hoàn thành, thực hiện"
+  },
+  {
+    "kanji": "絶滅（する）",
+    "hiragana": "ぜつめつ（する）",
+    "hanViet": "TUYỆT DIỆT",
+    "meaning": "tuyệt chủng"
+  },
+  {
+    "kanji": "イエローストーン国立公園",
+    "hiragana": "いえろーすとーんこくりつこうえん",
+    "hanViet": "QUỐC LẬP CÔNG VIÊN",
+    "meaning": "Công viên Quốc gia Yellowstone"
+  },
+  {
+    "kanji": "食料",
+    "hiragana": "しょくりょう",
+    "hanViet": "THỰC LIỆU",
+    "meaning": "lương thực"
+  },
+  {
+    "kanji": "ネズミ",
+    "hiragana": "ねずみ",
+    "hanViet": "THỬ",
+    "meaning": "chuột"
+  },
+  {
+    "kanji": "ビーバー",
+    "hiragana": "びーばー",
+    "hanViet": "",
+    "meaning": "hải ly"
+  },
+  {
+    "kanji": "小動物",
+    "hiragana": "しょうどうぶつ",
+    "hanViet": "TIỂU ĐỘNG VẬT",
+    "meaning": "động vật nhỏ"
+  },
+  {
+    "kanji": "減少（する）",
+    "hiragana": "げんしょう（する）",
+    "hanViet": "GIẢM THIỂU",
+    "meaning": "giảm sút"
+  },
+  {
+    "kanji": "第三者",
+    "hiragana": "だいさんしゃ",
+    "hanViet": "ĐỆ TAM GIẢ",
+    "meaning": "bên thứ ba"
+  },
+  {
+    "kanji": "くだらない",
+    "hiragana": "くだらない",
+    "hanViet": "",
+    "meaning": "vô giá trị, tầm thường"
+  },
+  {
+    "kanji": "再建（する）",
+    "hiragana": "さいけん（する）",
+    "hanViet": "TÁI KIẾN",
+    "meaning": "tái thiết"
+  },
+  {
+    "kanji": "人柄",
+    "hiragana": "ひとがら",
+    "hanViet": "NHÂN BÍNH",
+    "meaning": "nhân cách, tính cách"
+  },
+  {
+    "kanji": "適任（な）",
+    "hiragana": "てきにん（な）",
+    "hanViet": "THÍCH NHIỆM",
+    "meaning": "phù hợp, đủ năng lực"
+  },
+  {
+    "kanji": "安全性",
+    "hiragana": "あんぜんせい",
+    "hanViet": "AN TOÀN TÍNH",
+    "meaning": "tính an toàn"
+  },
+  {
+    "kanji": "頼もしい",
+    "hiragana": "たのもしい",
+    "hanViet": "LẠI",
+    "meaning": "đáng tin cậy"
+  },
+  {
+    "kanji": "それなりの",
+    "hiragana": "それなりの",
+    "hanViet": "",
+    "meaning": "tương xứng, vừa phải"
+  },
+  {
+    "kanji": "成果",
+    "hiragana": "せいか",
+    "hanViet": "THÀNH QUẢ",
+    "meaning": "thành quả"
+  },
+  {
+    "kanji": "要求（する）",
+    "hiragana": "ようきゅう（する）",
+    "hanViet": "YÊU CẦU",
+    "meaning": "yêu cầu"
+  },
+  {
+    "kanji": "品質",
+    "hiragana": "ひんしつ",
+    "hanViet": "PHẨM CHẤT",
+    "meaning": "chất lượng"
+  },
+  {
+    "kanji": "リーズナブルな",
+    "hiragana": "りーずなぶるな",
+    "hanViet": "",
+    "meaning": "hợp lý (giá cả)"
+  },
+  {
+    "kanji": "実力",
+    "hiragana": "じつりょく",
+    "hanViet": "THỰC LỰC",
+    "meaning": "thực lực"
+  },
+  {
+    "kanji": "実行（する）",
+    "hiragana": "じっこう（する）",
+    "hanViet": "THỰC HÀNH",
+    "meaning": "thực hiện"
+  },
+  {
+    "kanji": "患者",
+    "hiragana": "かんじゃ",
+    "hanViet": "HOẠN GIẢ",
+    "meaning": "bệnh nhân"
+  },
+  {
+    "kanji": "たいした～じゃない",
+    "hiragana": "たいした～じゃない",
+    "hanViet": "",
+    "meaning": "không có gì to tát"
+  },
+  {
+    "kanji": "病状",
+    "hiragana": "びょうじょう",
+    "hanViet": "BỆNH TRẠNG",
+    "meaning": "tình trạng bệnh"
+  },
+  {
+    "kanji": "目撃者",
+    "hiragana": "もくげきしゃ",
+    "hanViet": "MỤC KÍCH GIẢ",
+    "meaning": "nhân chứng"
+  },
+  {
+    "kanji": "証言（する）",
+    "hiragana": "しょうげん（する）",
+    "hanViet": "CHỨNG NGÔN",
+    "meaning": "làm chứng"
+  },
+  {
+    "kanji": "複数",
+    "hiragana": "ふくすう",
+    "hanViet": "PHỨC SỐ",
+    "meaning": "số nhiều"
+  },
+  {
+    "kanji": "程度",
+    "hiragana": "ていど",
+    "hanViet": "TRÌNH ĐỘ",
+    "meaning": "mức độ"
+  },
+  {
+    "kanji": "買い換える",
+    "hiragana": "かいかえる",
+    "hanViet": "MÃI HOÁN",
+    "meaning": "mua thay thế"
+  },
+  {
+    "kanji": "求める",
+    "hiragana": "もとめる",
+    "hanViet": "CẦU",
+    "meaning": "tìm kiếm, yêu cầu"
+  },
+  {
+    "kanji": "入場者",
+    "hiragana": "にゅうじょうしゃ",
+    "hanViet": "NHẬP TRƯỜNG GIẢ",
+    "meaning": "người vào cửa"
+  },
+  {
+    "kanji": "与える",
+    "hiragana": "あたえる",
+    "hanViet": "DỮ",
+    "meaning": "cho, gây ra"
+  },
+  {
+    "kanji": "円高",
+    "hiragana": "えんだか",
+    "hanViet": "YÊN CAO",
+    "meaning": "đồng Yên tăng giá"
+  },
+  {
+    "kanji": "業者",
+    "hiragana": "ぎょうしゃ",
+    "hanViet": "NGHIỆP GIẢ",
+    "meaning": "nhà thầu, đại lý"
+  },
+  {
+    "kanji": "有利（な）",
+    "hiragana": "ゆうり（な）",
+    "hanViet": "HỮU LỢI",
+    "meaning": "có lợi"
+  }
+]

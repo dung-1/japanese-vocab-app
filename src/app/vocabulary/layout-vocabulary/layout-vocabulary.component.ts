@@ -28,10 +28,15 @@ export class LayoutVocabularyComponent {
     if (!isPlatformBrowser(this.platformId)) {
       return; 
     }
-    const levels = ['N3', 'N4'];
+    const levels = ['N2', 'N3', 'N4'];
     levels.forEach(level => {
-      const maxLessons = level === 'N3' ? 22 : 50;
-      for (let i = level === 'N3' ? 1 : 26; i <= maxLessons; i++) {
+      const range = level === 'N2'
+        ? { start: 1, end: 24 }
+        : level === 'N3'
+          ? { start: 1, end: 22 }
+          : { start: 26, end: 50 };
+
+      for (let i = range.start; i <= range.end; i++) {
         const cacheKey = `${level}-lesson${i}`;
         const cachedData = localStorage.getItem(cacheKey);
         if (!cachedData) {
