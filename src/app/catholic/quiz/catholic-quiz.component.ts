@@ -4,7 +4,7 @@ interface QuizQuestion { item: CatholicQuestion; options: string[]; }
 @Component({ selector: 'app-catholic-quiz', standalone: false, templateUrl: './catholic-quiz.component.html', styleUrl: './catholic-quiz.component.css' })
 export class CatholicQuizComponent implements OnChanges {
   @Input() questions: CatholicQuestion[] = [];
-  total = '5'; started = false; finished = false; quiz: QuizQuestion[] = []; currentIndex = 0; selected: string | null = null; correct = 0;
+  total = '10'; started = false; finished = false; quiz: QuizQuestion[] = []; currentIndex = 0; selected: string | null = null; correct = 0;
   history: { question: string; answer: string; correctAnswer: string; isCorrect: boolean }[] = [];
   ngOnChanges() { this.reset(); }
   get current() { return this.quiz[this.currentIndex]; }
