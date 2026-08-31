@@ -1,0 +1,86 @@
+[
+  {
+    "kanji": "追加",
+    "hiragana": "ついか",
+    "hanViet": "TRUY GIA",
+    "meaning": "thêm vào, bổ sung"
+  },
+  {
+    "kanji": "勝手",
+    "hiragana": "かって",
+    "hanViet": "THẮNG THỦ",
+    "meaning": "tự ý, tùy tiện, ích kỷ"
+  },
+  {
+    "kanji": "個人情報",
+    "hiragana": "こじんじょうほう",
+    "hanViet": "CÁ NHÂN TÌNH BÁO",
+    "meaning": "thông tin cá nhân"
+  },
+  {
+    "kanji": "情報",
+    "hiragana": "じょうほう",
+    "hanViet": "TÌNH BÁO",
+    "meaning": "thông tin"
+  },
+  {
+    "kanji": "送信",
+    "hiragana": "そうしん",
+    "hanViet": "TỐNG TÍN",
+    "meaning": "gửi (tin nhắn, dữ liệu)"
+  },
+  {
+    "kanji": "受信",
+    "hiragana": "じゅしん",
+    "hanViet": "THỤ TÍN",
+    "meaning": "nhận (tin nhắn, dữ liệu)"
+  },
+  {
+    "kanji": "通知",
+    "hiragana": "つうち",
+    "hanViet": "THÔNG TRI",
+    "meaning": "thông báo"
+  },
+  {
+    "kanji": "停止",
+    "hiragana": "ていし",
+    "hanViet": "ĐÌNH CHỈ",
+    "meaning": "đình chỉ, dừng lại"
+  },
+  {
+    "kanji": "長押し",
+    "hiragana": "ながおし",
+    "hanViet": "TRƯỜNG ÁP",
+    "meaning": "nhấn giữ (màn hình, nút)"
+  },
+  {
+    "kanji": "無線",
+    "hiragana": "むせん",
+    "hanViet": "VÔ TUYẾN",
+    "meaning": "vô tuyến, không dây"
+  },
+  {
+    "kanji": "有線",
+    "hiragana": "ゆうせん",
+    "hanViet": "HỮU TUYẾN",
+    "meaning": "hữu tuyến, có dây"
+  },
+  {
+    "kanji": "電池",
+    "hiragana": "でんち",
+    "hanViet": "ĐIỆN TRÌ",
+    "meaning": "pin"
+  },
+  {
+    "kanji": "乾電池",
+    "hiragana": "かんでんち",
+    "hanViet": "CAN ĐIỆN TRÌ",
+    "meaning": "pin tiểu, pin khô"
+  },
+  {
+    "kanji": "交換",
+    "hiragana": "こうかん",
+    "hanViet": "GIAO HOÁN",
+    "meaning": "trao đổi, thay thế"
+  }
+]

@@ -28,7 +28,7 @@ export class LayoutVocabularyComponent {
     if (!isPlatformBrowser(this.platformId)) {
       return; 
     }
-    const levels = ['N2', 'N3', 'N4'];
+    const levels = ['N2', 'N3', 'N4', 'N5'];
     levels.forEach(level => {
       const range = level === 'N2'
         ? { start: 1, end: 24 }

@@ -1,0 +1,80 @@
+[
+  {
+    "kanji": "卓球",
+    "hiragana": "たっきゅう",
+    "hanViet": "TRÁC CẦU",
+    "meaning": "bóng bàn"
+  },
+  {
+    "kanji": "団体",
+    "hiragana": "だんたい",
+    "hanViet": "ĐOÀN THỂ",
+    "meaning": "đoàn thể, tập thể, đội (thi đấu đồng đội)"
+  },
+  {
+    "kanji": "～戦",
+    "hiragana": "～せん",
+    "hanViet": "CHIẾN",
+    "meaning": "trận đấu ~, cuộc chiến ~"
+  },
+  {
+    "kanji": "～対",
+    "hiragana": "～たい",
+    "hanViet": "ĐỐI",
+    "meaning": "đối với, đấu với ~, tỉ số ~"
+  },
+  {
+    "kanji": "開会",
+    "hiragana": "かいかい",
+    "hanViet": "KHAI HỘI",
+    "meaning": "khai mạc, khai hội"
+  },
+  {
+    "kanji": "閉会",
+    "hiragana": "へいかい",
+    "hanViet": "BẾ HỘI",
+    "meaning": "bế mạc, bế hội"
+  },
+  {
+    "kanji": "入場",
+    "hiragana": "にゅうじょう",
+    "hanViet": "NHẬP TRƯỜNG",
+    "meaning": "vào hội trường, vào cửa"
+  },
+  {
+    "kanji": "退場",
+    "hiragana": "たいじょう",
+    "hanViet": "THOÁI TRƯỜNG",
+    "meaning": "rời khỏi hội trường, ra ngoài"
+  },
+  {
+    "kanji": "券",
+    "hiragana": "けん",
+    "hanViet": "KHÓA/QUYỀN",
+    "meaning": "vé, chứng chỉ"
+  },
+  {
+    "kanji": "当たる",
+    "hiragana": "あたる",
+    "hanViet": "ĐƯƠNG",
+    "meaning": "trúng (vé số, giải), trúng đích, va chạm"
+  },
+  {
+    "kanji": "選手",
+    "hiragana": "せんしゅ",
+    "hanViet": "TUYỂN THỦ",
+    "meaning": "tuyển thủ, vận động viên"
+  },
+  {
+    "kanji": "浅い",
+    "hiragana": "あさい",
+    "hanViet": "THIỂN",
+    "meaning": "cạn, nông, ít (kinh nghiệm/thời gian)"
+  },
+  {
+    "kanji": "溺れる",
+    "hiragana": "おぼれる",
+    "hanViet": "NẠC",
+    "meaning": "bị đuối nước, chìm đắm, sa ngã"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "kanji": "姪",
+    "hiragana": "めい",
+    "hanViet": "HIỆT",
+    "meaning": "cháu gái (gọi bằng cô/chú/bác/dì/cậu)"
+  },
+  {
+    "kanji": "甥",
+    "hiragana": "おい",
+    "hanViet": "SANH",
+    "meaning": "cháu trai (gọi bằng cô/chú/bác/dì/cậu)"
+  },
+  {
+    "kanji": "仲",
+    "hiragana": "なか",
+    "hanViet": "TRỌNG",
+    "meaning": "mối quan hệ, quan hệ"
+  },
+  {
+    "kanji": "暮れる",
+    "hiragana": "くれる",
+    "hanViet": "MỘ",
+    "meaning": "lặn (mặt trời), tối dần, hết (ngày/năm)"
+  },
+  {
+    "kanji": "花火",
+    "hiragana": "はなび",
+    "hanViet": "HOA HỎA",
+    "meaning": "pháo hoa"
+  },
+  {
+    "kanji": "切らす",
+    "hiragana": "きらす",
+    "hanViet": "THIẾT",
+    "meaning": "dùng hết, làm cạn kiệt"
+  },
+  {
+    "kanji": "お休みになる",
+    "hiragana": "おやすみになる",
+    "hanViet": "HƯU",
+    "meaning": "nghỉ ngơi, đi ngủ (kính ngữ)"
+  },
+  {
+    "kanji": "伝言",
+    "hiragana": "でんごん",
+    "hanViet": "TRUYỀN NGÔN",
+    "meaning": "lời nhắn, tin nhắn"
+  },
+  {
+    "kanji": "お目にかかる",
+    "hiragana": "おめにかかる",
+    "hanViet": "MỤC",
+    "meaning": "gặp gỡ (khiêm nhường ngữ)"
+  },
+  {
+    "kanji": "拝見",
+    "hiragana": "はいけん",
+    "hanViet": "BÁI KIẾN",
+    "meaning": "xem, nhìn (khiêm nhường ngữ)"
+  },
+  {
+    "kanji": "訪ねて",
+    "hiragana": "たずねて",
+    "hanViet": "PHỎNG",
+    "meaning": "thăm hỏi, ghé thăm"
+  },
+  {
+    "kanji": "氏名",
+    "hiragana": "しめい",
+    "hanViet": "HỊ DANH",
+    "meaning": "họ và tên"
+  }
+]

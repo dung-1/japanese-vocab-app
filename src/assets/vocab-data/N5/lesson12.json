@@ -1,0 +1,74 @@
+[
+  {
+    "kanji": "仲良し",
+    "hiragana": "なかよし",
+    "hanViet": "TRỌNG LƯƠNG",
+    "meaning": "bạn thân, quan hệ tốt"
+  },
+  {
+    "kanji": "戦う",
+    "hiragana": "たたかう",
+    "hanViet": "CHIẾN",
+    "meaning": "chiến đấu, đánh nhau"
+  },
+  {
+    "kanji": "戦い",
+    "hiragana": "たたかい",
+    "hanViet": "CHIẾN",
+    "meaning": "trận chiến, cuộc đấu tranh"
+  },
+  {
+    "kanji": "第",
+    "hiragana": "だい",
+    "hanViet": "ĐỆ",
+    "meaning": "thứ (dùng để cấu tạo số thứ tự như thứ nhất, thứ hai)"
+  },
+  {
+    "kanji": "殺す",
+    "hiragana": "ころす",
+    "hanViet": "SÁT",
+    "meaning": "giết, sát hại"
+  },
+  {
+    "kanji": "前半",
+    "hiragana": "ぜんはん",
+    "hanViet": "TIỀN BÁN",
+    "meaning": "nửa đầu, hiệp một"
+  },
+  {
+    "kanji": "後半",
+    "hiragana": "こうはん",
+    "hanViet": "HẬU BÁN",
+    "meaning": "nửa sau, hiệp hai"
+  },
+  {
+    "kanji": "宇宙",
+    "hiragana": "うちゅう",
+    "hanViet": "VŨ TRỤ",
+    "meaning": "vũ trụ, không gian"
+  },
+  {
+    "kanji": "飛び出す",
+    "hiragana": "とびだす",
+    "hanViet": "PHI XUẤT",
+    "meaning": "bay ra, chạy vụt ra, lao ra"
+  },
+  {
+    "kanji": "少年",
+    "hiragana": "しょうねん",
+    "hanViet": "THIẾU NIÊN",
+    "meaning": "thiếu niên, con trai tuổi dậy thì"
+  },
+  {
+    "kanji": "少女",
+    "hiragana": "しょうじょ",
+    "hanViet": "THIẾU NỮ",
+    "meaning": "thiếu nữ, con gái tuổi dậy thì"
+  },
+  {
+    "kanji": "技",
+    "hiragana": "わざ",
+    "hanViet": "KỸ",
+    "meaning": "kỹ năng, kỹ thuật, ngón đòn"
+  }
+]

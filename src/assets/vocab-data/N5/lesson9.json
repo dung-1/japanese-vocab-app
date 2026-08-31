@@ -1,0 +1,62 @@
+[
+  {
+    "kanji": "件名",
+    "hiragana": "けんめい",
+    "hanViet": "ÁN DANH",
+    "meaning": "tiêu đề, chủ đề (email)"
+  },
+  {
+    "kanji": "返信",
+    "hiragana": "へんしん",
+    "hanViet": "PHẢN TÍN",
+    "meaning": "trả lời, hồi âm"
+  },
+  {
+    "kanji": "転送",
+    "hiragana": "てんそう",
+    "hanViet": "CHUYỂN TỐNG",
+    "meaning": "chuyển tiếp (tin nhắn, email), chuyển đi"
+  },
+  {
+    "kanji": "最大",
+    "hiragana": "さいだい",
+    "hanViet": "TỐI ĐẠI",
+    "meaning": "lớn nhất, tối đa"
+  },
+  {
+    "kanji": "最小",
+    "hiragana": "さいしょう",
+    "hanViet": "TỐI TIỂU",
+    "meaning": "nhỏ nhất, tối thiểu"
+  },
+  {
+    "kanji": "移す",
+    "hiragana": "うつす",
+    "hanViet": "DI",
+    "meaning": "chuyển, dời, di chuyển (cái gì đó)"
+  },
+  {
+    "kanji": "移る",
+    "hiragana": "うつる",
+    "hanViet": "DI",
+    "meaning": "di chuyển, chuyển sang (tự động)"
+  },
+  {
+    "kanji": "者",
+    "hiragana": "もの",
+    "hanViet": "GIẢ",
+    "meaning": "người, kẻ"
+  },
+  {
+    "kanji": "機",
+    "hiragana": "き",
+    "hanViet": "CƠ",
+    "meaning": "máy, thiết bị"
+  },
+  {
+    "kanji": "環境",
+    "hiragana": "かんきょう",
+    "hanViet": "HOÀN CẢNH",
+    "meaning": "môi trường"
+  }
+]

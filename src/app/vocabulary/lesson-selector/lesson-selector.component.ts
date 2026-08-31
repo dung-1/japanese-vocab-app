@@ -7,7 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrl: './lesson-selector.component.css'
 })
 export class LessonSelectorComponent {
-  levels = ['N2', 'N3', 'N4'];
+  levels = ['N2', 'N3', 'N4', 'N5'];
   selectedLevel = 'N2';
   lessons: number[] = [];
   selectedLesson: number | null = null;
@@ -37,6 +37,9 @@ export class LessonSelectorComponent {
       this.lessons = Array.from({ length: 22 }, (_, i) => i + 1);
     } else if (this.selectedLevel === 'N4') {
       this.lessons = Array.from({ length: 25 }, (_, i) => i + 26);
+    } else if (this.selectedLevel === 'N5') {
+      this.lessons = Array.from({ length: 28 }, (_, i) => i + 1
+    );
     }
   }
 }

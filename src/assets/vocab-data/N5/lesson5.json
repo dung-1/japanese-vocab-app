@@ -1,0 +1,57 @@
+[
+  {
+    "kanji": "変える、替える、換える",
+    "kanji_ruby": "かえる",
+    "hiragana": "かえる",
+    "hanViet": "BIẾN, THẾ, HOÁN",
+    "meaning": "đổi, thay đổi"
+  },
+  {
+    "kanji": "違い",
+    "hiragana": "ちがい",
+    "hanViet": "VI",
+    "meaning": "khác biệt, sự khác nhau"
+  },
+  {
+    "kanji": "最新",
+    "hiragana": "さいしん",
+    "hanViet": "TỐI TÂN",
+    "meaning": "mới nhất, hiện đại nhất"
+  },
+  {
+    "kanji": "～型",
+    "hiragana": "～がた",
+    "hanViet": "HÌNH",
+    "meaning": "kiểu, mẫu, dạng ~"
+  },
+  {
+    "kanji": "円",
+    "hiragana": "えん",
+    "hanViet": "VIÊN",
+    "meaning": "Yên (tiền Nhật), hình tròn"
+  },
+  {
+    "kanji": "平均",
+    "hiragana": "へいきん",
+    "hanViet": "BÌNH QUÂN",
+    "meaning": "bình quân, trung bình"
+  },
+  {
+    "kanji": "検索",
+    "hiragana": "けんさく",
+    "hanViet": "KIỂM TÁC",
+    "meaning": "tìm kiếm, tra cứu"
+  },
+  {
+    "kanji": "矢印",
+    "hiragana": "やじるし",
+    "hanViet": "THÌ ẤN",
+    "meaning": "mũi tên, ký hiệu mũi tên"
+  },
+  {
+    "kanji": "ローマ字",
+    "hiragana": "ろーまじ",
+    "hanViet": "MÃ TỰ",
+    "meaning": "chữ Rô-ma, chữ cái Latinh"
+  }
+]
