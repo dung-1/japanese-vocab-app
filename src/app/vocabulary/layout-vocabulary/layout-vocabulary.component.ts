@@ -28,13 +28,15 @@ export class LayoutVocabularyComponent {
     if (!isPlatformBrowser(this.platformId)) {
       return; 
     }
-    const levels = ['N2', 'N3', 'N4', 'N5'];
+    const levels = ['N2', 'N3', 'N4', 'N5', 'N6'];
     levels.forEach(level => {
       const range = level === 'N2'
         ? { start: 1, end: 24 }
         : level === 'N3'
           ? { start: 1, end: 22 }
-          : { start: 26, end: 50 };
+          : level === 'N6'
+            ? { start: 1, end: 28 }
+            : { start: 26, end: 50 };
 
       for (let i = range.start; i <= range.end; i++) {
         const cacheKey = `${level}-lesson${i}`;
