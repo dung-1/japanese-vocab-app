@@ -146,7 +146,7 @@ export class HomeComponent {
     { path: '/vocabulary', title: 'Từ vựng', description: '', icon: '語' },
     { path: '/grammar', title: 'Ngữ pháp', description: '', icon: '文' },
     { path: '/kanji-radicals', title: 'Bộ Thủ', description: '', icon: '部' },
-    { path: '/catholic', title: 'Công Giáo', description: '', icon: '✝' },
+    // { path: '/catholic', title: 'Công Giáo', description: '', icon: '✝' },
     { path: '/ai', title: 'Hội thoại AI', description: '', icon: 'AI' },
     { path: null, title: 'Cộng đồng', description: '', icon: '人', disabled: true }
   ];
