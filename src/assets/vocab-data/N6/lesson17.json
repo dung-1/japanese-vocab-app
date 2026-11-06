@@ -1,0 +1,92 @@
+[
+  {
+    "kanji": "桜",
+    "hiragana": "さくら",
+    "hanViet": "Anh",
+    "meaning": "Hoa anh đào"
+  },
+  {
+    "kanji": "散る",
+    "hiragana": "ちる",
+    "hanViet": "Tán",
+    "meaning": "Rụng; rơi (hoa, lá); tan tác"
+  },
+  {
+    "kanji": "上旬",
+    "hiragana": "じょうじゅん",
+    "hanViet": "Thượng tuần",
+    "meaning": "Mười ngày đầu tháng (ngày 1–10)"
+  },
+  {
+    "kanji": "中旬",
+    "hiragana": "ちゅうじゅん",
+    "hanViet": "Trung tuần",
+    "meaning": "Mười ngày giữa tháng (ngày 11–20)"
+  },
+  {
+    "kanji": "下旬",
+    "hiragana": "げじゅん",
+    "hanViet": "Hạ tuần",
+    "meaning": "Mười ngày cuối tháng (ngày 21 đến cuối tháng)"
+  },
+  {
+    "kanji": "気温",
+    "hiragana": "きおん",
+    "hanViet": "Khí ôn",
+    "meaning": "Nhiệt độ không khí"
+  },
+  {
+    "kanji": "〜度",
+    "hiragana": "〜ど",
+    "hanViet": "Độ",
+    "meaning": "… độ; đơn vị chỉ nhiệt độ hoặc góc"
+  },
+  {
+    "kanji": "汗",
+    "hiragana": "あせ",
+    "hanViet": "Hãn",
+    "meaning": "Mồ hôi"
+  },
+  {
+    "kanji": "旗",
+    "hiragana": "はた",
+    "hanViet": "Kỳ",
+    "meaning": "Lá cờ"
+  },
+  {
+    "kanji": "凍る",
+    "hiragana": "こおる",
+    "hanViet": "Đống",
+    "meaning": "Đóng băng; đông cứng"
+  },
+  {
+    "kanji": "照る",
+    "hiragana": "てる",
+    "hanViet": "Chiếu",
+    "meaning": "Chiếu sáng; nắng chiếu"
+  },
+  {
+    "kanji": "太陽",
+    "hiragana": "たいよう",
+    "hanViet": "Thái dương",
+    "meaning": "Mặt trời"
+  },
+  {
+    "kanji": "昇る",
+    "hiragana": "のぼる",
+    "hanViet": "Thăng",
+    "meaning": "Mọc; lên cao (mặt trời, mặt trăng)"
+  },
+  {
+    "kanji": "沈む",
+    "hiragana": "しずむ",
+    "hanViet": "Trầm",
+    "meaning": "Lặn; chìm; chìm xuống"
+  },
+  {
+    "kanji": "一度に",
+    "hiragana": "いちどに",
+    "hanViet": "Nhất độ",
+    "meaning": "Cùng một lúc; trong một lần"
+  }
+]
