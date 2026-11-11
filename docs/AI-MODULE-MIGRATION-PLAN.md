@@ -993,3 +993,40 @@ Angular:
 1. Add handler-level tests for method validation, malformed request, missing server keys, stream and non-stream NDJSON/JSON, client abort, and provider errors. Consider injecting registry/adapter factory for deterministic tests.
 2. Audit Vercel function runtime support for Node built-ins and stream lifecycle.
 3. Then migrate Angular CloudProvider to call `/api/ai-chat` without browser API key, while retaining separate Ollama Local and embedding behavior. Settings UI must distinguish server-configured cloud providers from user-supplied local endpoint.
+
+
+### 2026-11-11 — Phase 1 / Step 6: Vercel gateway handler tests — IMPLEMENTED
+
+**Files changed/added:**
+- `api/ai-chat.ts`: refactored handler into `createAiChatHandler(dependencies)` with injectable registry factory and environment map; default export still instantiates the production handler. This makes HTTP behavior testable without live provider calls.
+- `api/ai-chat.test.ts`: 8 handler-level tests using mocked Vercel request/response and fake adapters.
+
+**Coverage:**
+- OPTIONS preflight and method rejection.
+- Invalid body rejected before provider invocation.
+- Missing server-side provider key returns safe 503.
+- Streaming NDJSON token and done frames.
+- Non-streaming JSON response.
+- Provider 429 mapping to HTTP 429.
+- In-band NDJSON error after partial output.
+- Local provider rejected on the cloud-only endpoint.
+
+**Test correction:**
+- First run: 31/32 passed. The in-band error test expected no provider field, while the gateway correctly included `provider: gemini`. Updated the assertion to match the stable public error envelope.
+- Final run: 32/32 passed.
+
+**Validation on branch HEAD `153c8e9aab69cd2cc5d88464f1709416a24b388f`:**
+- `node --experimental-strip-types --test api/ai-chat.test.ts api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts api/_lib/ai/groq.adapter.test.ts api/_lib/ai/provider-registry.test.ts`: PASS, 32/32.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing warnings: Node MODULE_TYPELESS_PACKAGE_JSON in TS test mode, punycode deprecation, CommonJS optimization warnings for whatwg-url / @supabase/node-fetch.
+
+**Remaining runtime/release checks:**
+- Tests are mocked; no actual Vercel invocation or live provider request.
+- No authentication, request rate limiting, per-user quota, or restrictive CORS yet. Wildcard CORS is still present and must be restricted/justified before public rollout.
+- No request size enforcement at the Vercel platform boundary beyond field-level validation; verify body size limits.
+- Verify Vercel Hobby/Pro maxDuration and streaming runtime behavior against the actual project plan.
+- Need ensure request close/disconnect behavior works with actual Vercel Node request/response objects.
+- Existing legacy `/api/chat` still accepts browser-provided Ollama Cloud API keys; this migration has not cut over or fixed that legacy behavior.
+
+**Next step:**
+- Audit and implement Angular transport cutover safely: inspect CloudProvider, provider interface/factory, AiSettingsService, settings UI and any consumers. Keep Ollama Local and embeddings separate. Remove browser-side Ollama Cloud credential use only in the same migration step that switches the UI to server-configured Gemini/Groq. Add Angular service/provider tests and local manual smoke-test checklist. Do not deploy.
