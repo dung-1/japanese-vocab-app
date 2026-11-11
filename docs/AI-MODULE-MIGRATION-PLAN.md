@@ -954,3 +954,42 @@ Angular:
 **Next step (Phase 1 / Step 5):**
 - Implement and test a provider-neutral Vercel streaming route (or refactor `api/chat.ts`) that validates body, applies selected provider/fallback policy, reads server environment keys, streams a stable NDJSON/SSE contract, handles request disconnect/abort, and never accepts API keys from browser.
 - Before replacing the current endpoint, verify current Angular CloudProvider NDJSON parser and local provider route contract to preserve compatibility. Keep embedding API separate.
+
+
+### 2026-11-11 — Phase 1 / Step 5: isolated Vercel cloud gateway — IMPLEMENTED (not yet cut over)
+
+**New endpoint:**
+- `api/ai-chat.ts` — POST `/api/ai-chat`, dedicated cloud endpoint. Existing `api/chat.ts`, `api/embed.ts`, Angular providers and settings UI are unchanged.
+- Validates incoming body through `validateAiChatRequest`.
+- Instantiates Gemini/Groq adapters server-side; credentials are read from `GEMINI_API_KEY` and `GROQ_API_KEY`.
+- Optional reciprocal fallback controlled by server env `AI_CLOUD_FALLBACK_ENABLED=true`; disabled by default.
+- NDJSON compatibility events: `{"response":"token"}\n`, `{"done":true}\n`, or normalized `{"error":"...","code":"...","retryable":false}\n`.
+- `stream:false` returns JSON `{response}`.
+- Abort propagation from client disconnect / response close to adapter AbortSignal.
+- Local provider is intentionally rejected on this new endpoint; current Ollama Local stays on legacy `/api/chat` until a separately tested routing strategy is implemented.
+- Embedding remains on legacy `/api/embed`, unchanged.
+
+**Security adjustment:**
+- Gemini API key is sent to Google using the `x-goog-api-key` request header (not URL query string), avoiding credential exposure in URL logs. Adapter test updated to assert this.
+- Browser is not expected to submit provider API keys to `/api/ai-chat`.
+- CORS is currently wildcard for existing mobile-client compatibility. Before public release, restrict to explicit app origins and confirm mobile origin behavior.
+- No real credentials or external provider calls.
+
+**Validation on branch HEAD `eba58bb2573fbe44cdbab90f906dd873f4d6e5a4`:**
+- Contract + Gemini + Groq + fallback suite: PASS, 24/24.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing Node MODULE_TYPELESS_PACKAGE_JSON and punycode deprecation warnings; Angular CommonJS warnings for `whatwg-url` / `@supabase/node-fetch`.
+- No dedicated handler integration tests for `api/ai-chat.ts` have been added yet. Build validates TypeScript integration, not runtime Vercel behavior.
+
+**Not yet done / release blockers:**
+- No frontend transport change; Angular CloudProvider still calls legacy `/api/chat` with browser-stored Ollama Cloud API key.
+- No settings UI/provider/model selection migration.
+- No runtime request against Vercel; no API key configured or real provider smoke test.
+- No security hardening of wildcard CORS / request rate limits / authentication.
+- No Vercel deployment, no production changes.
+- Legacy Ollama embedding API and local provider are untouched.
+
+**Next:**
+1. Add handler-level tests for method validation, malformed request, missing server keys, stream and non-stream NDJSON/JSON, client abort, and provider errors. Consider injecting registry/adapter factory for deterministic tests.
+2. Audit Vercel function runtime support for Node built-ins and stream lifecycle.
+3. Then migrate Angular CloudProvider to call `/api/ai-chat` without browser API key, while retaining separate Ollama Local and embedding behavior. Settings UI must distinguish server-configured cloud providers from user-supplied local endpoint.
