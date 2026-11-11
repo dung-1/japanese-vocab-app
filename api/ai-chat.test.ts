@@ -228,7 +228,7 @@ test('allows configured production origin and echoes only that origin', async ()
     ]),
   });
   const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
-  req.headers = { origin: 'https://app.example.com' };
+  req.headers = { ...req.headers, origin: 'https://app.example.com' };
   const res = mockResponse();
   await handler(req as never, res as never);
   assert.equal(res.statusCode, 200);
@@ -246,7 +246,7 @@ test('rejects untrusted browser origin before calling provider', async () => {
     ]),
   });
   const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
-  req.headers = { origin: 'https://attacker.example' };
+  req.headers = { ...req.headers, origin: 'https://attacker.example' };
   const res = mockResponse();
   await handler(req as never, res as never);
   assert.equal(res.statusCode, 403);
