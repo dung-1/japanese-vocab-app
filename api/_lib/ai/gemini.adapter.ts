@@ -88,7 +88,7 @@ export class GeminiProviderAdapter implements AiProviderAdapter {
     }
 
     const model = encodeURIComponent(request.model);
-    const url = `${GEMINI_API_BASE}/${model}:streamGenerateContent?alt=sse&key=${encodeURIComponent(this.apiKey)}`;
+    const url = `${GEMINI_API_BASE}/${model}:streamGenerateContent?alt=sse`;
     const timeoutSignal = AbortSignal.timeout(this.timeoutMs);
     const combinedSignal = AbortSignal.any([signal, timeoutSignal]);
 
@@ -99,6 +99,7 @@ export class GeminiProviderAdapter implements AiProviderAdapter {
         headers: {
           'Content-Type': 'application/json',
           Accept: 'text/event-stream',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           ...(request.system
