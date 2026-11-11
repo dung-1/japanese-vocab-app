@@ -41,6 +41,22 @@ export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}
     return;
   }
 
+  const contentType = req.headers['content-type'];
+  if (typeof contentType !== 'string' || !contentType.toLowerCase().includes('application/json')) {
+    res.status(415).json({ error: 'unsupported_media_type', message: 'Content-Type must be application/json.' });
+    return;
+  }
+
+  // Vercel parses JSON before invoking the handler; enforce a second application
+  // limit to reject oversized payloads before provider selection/upstream calls.
+  const serializedBody = JSON.stringify(req.body ?? null);
+  const bodyBytes = Buffer.byteLength(serializedBody, 'utf8');
+  const maxBodyBytes = Number(dependencies.env?.['AI_MAX_BODY_BYTES'] ?? process.env['AI_MAX_BODY_BYTES'] ?? 10_000_000);
+  if (!Number.isFinite(maxBodyBytes) || maxBodyBytes < 1 || bodyBytes > maxBodyBytes) {
+    res.status(413).json({ error: 'payload_too_large', message: 'AI request payload exceeds the configured size limit.' });
+    return;
+  }
+
   const validated = validateAiChatRequest(req.body);
   if (!validated.ok) {
     res.status(400).json({ error: validated.error });
