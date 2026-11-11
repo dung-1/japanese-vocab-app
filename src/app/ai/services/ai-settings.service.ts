@@ -26,7 +26,7 @@ export class AiSettingsService {
     // Check if running under capacitor/cordova or file system
     if (origin.startsWith('capacitor://') || origin.startsWith('file://') || origin.includes('localhost')) {
       // REPLACE with your actual deployed Vercel domain
-      return 'https://japanese-vocab-app.vercel.app'; 
+      return 'https://japanese-vocab-app-dungcts.vercel.app'; 
     }
     
     return origin;
