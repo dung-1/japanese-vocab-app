@@ -266,3 +266,30 @@ test('rejects untrusted CORS preflight', async () => {
   assert.equal(res.statusCode, 403);
   assert.equal(res.headers['access-control-allow-origin'], undefined);
 });
+
+
+test('rejects requests with a non-JSON content type', async () => {
+  const handler = createAiChatHandler();
+  const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
+  req.headers['content-type'] = 'text/plain';
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 415);
+});
+
+test('rejects oversized request bodies before provider invocation', async () => {
+  let calls = 0;
+  const handler = createAiChatHandler({
+    env: { AI_MAX_BODY_BYTES: '100' },
+    createRegistry: () => new StaticAiProviderRegistry([
+      makeAdapter([{ type: 'done' }], () => calls++),
+    ]),
+  });
+  const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
+  req.headers['content-type'] = 'application/json';
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 413);
+  assert.equal((res.body as { error: string }).error, 'payload_too_large');
+  assert.equal(calls, 0);
+});
