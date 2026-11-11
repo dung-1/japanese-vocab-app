@@ -15,7 +15,7 @@ export const config = { maxDuration: 60 };
 
 type ClientEvent =
   | { response: string }
-  | { done: true; provider: 'gemini' | 'groq' }
+  | { done: true }
   | { error: string; code: string; retryable: boolean; provider?: string };
 
 export default async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
@@ -67,7 +67,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
   });
 
   let fullText = '';
-  let selectedProvider: 'gemini' | 'groq' = request.provider;
   let streamStarted = false;
 
   try {
@@ -93,14 +92,14 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
         }
       } else if (event.type === 'done') {
         if (request.stream === false) {
-          res.status(200).json({ response: fullText, provider: selectedProvider });
+          res.status(200).json({ response: fullText });
         } else {
           if (!streamStarted) {
             res.status(200);
             res.setHeader('Content-Type', 'application/x-ndjson; charset=utf-8');
             res.setHeader('Cache-Control', 'no-store, no-transform');
           }
-          writeEvent(res, { done: true, provider: selectedProvider });
+          writeEvent(res, { done: true });
           res.end();
         }
         return;
