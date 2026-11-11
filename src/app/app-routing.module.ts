@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeModule } from './home/home.component.module';
-import { LayoutVocabularyComponentModule } from './vocabulary/layout-vocabulary/layout-vocabulary.component.module';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { LayoutkanjiRadicalsModule } from './kanjiRadicals/layoutkanji-radicals/layoutkanji-radicals.module';
@@ -13,34 +12,18 @@ import { LayoutCatholicComponentModule } from './catholic/layout-catholic/layout
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  {
-    path: 'vocabulary',
-    loadChildren: () =>
-      import(
-        './vocabulary/layout-vocabulary/layout-vocabulary.component.module'
-      ).then((m) => m.LayoutVocabularyComponentModule),
-  },
+  { path: 'vocabulary', loadChildren: () => import('./vocabulary/layout-vocabulary/layout-vocabulary.component.module').then(m => m.LayoutVocabularyComponentModule) },
   { path: 'catholic', loadChildren: () => import('./catholic/layout-catholic/layout-catholic.component.module').then(m => m.LayoutCatholicComponentModule) },
   { path: 'kanji-radicals', loadChildren: () => import('./kanjiRadicals/layoutkanji-radicals/layoutkanji-radicals.module').then(m => m.LayoutkanjiRadicalsModule) },
   { path: 'reduplicative-words', loadChildren: () => import('./reduplicativeWords/layout-reduplicative-words/layout-reduplicative-words.component.module').then(m => m.LayoutReduplicativeWordsModule) },
   { path: 'kanji-words', loadChildren: () => import('./kanjiWords/layout-kanji-words/layout-kanji-words.module').then(m => m.LayoutKanjiWordsModule) },
+  { path: 'adverb-radicals', loadChildren: () => import('./adverb/adverb.module').then(m => m.AdverbModule) },
   { path: 'ai', loadChildren: () => import('./ai/ai.module').then(m => m.AiModule) },
   { path: 'grammar', loadChildren: () => import('./grammar/layout-grammar/layout-grammar.module').then(m => m.LayoutGrammarModule) },
   { path: '**', redirectTo: '/home' },
 ];
-
 @NgModule({
-  imports: [
-    CommonModule,
-    BrowserModule,
-    RouterModule.forRoot(routes),
-    HomeModule,
-    LayoutVocabularyComponentModule,
-    LayoutkanjiRadicalsModule,
-    LayoutReduplicativeWordsModule,
-    LayoutKanjiWordsModule,
-    LayoutCatholicComponentModule,
-  ],
+  imports: [CommonModule, BrowserModule, RouterModule.forRoot(routes), HomeModule, LayoutkanjiRadicalsModule, LayoutReduplicativeWordsModule, LayoutKanjiWordsModule, LayoutCatholicComponentModule],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
