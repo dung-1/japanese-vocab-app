@@ -8,6 +8,8 @@ import type {
 } from './_lib/ai/contracts.ts';
 import { StaticAiProviderRegistry } from './_lib/ai/provider-registry.ts';
 
+process.env['AI_DEVICE_TOKEN'] = 'test-device-token';
+
 function makeAdapter(
   events: AiGatewayStreamEvent[],
   onGenerate?: () => void,
@@ -37,7 +39,7 @@ function mockRequest(method = 'POST', body: unknown = {
   req.method = method;
   req.body = body;
   req.aborted = false;
-  req.headers = { 'content-type': 'application/json' };
+  req.headers = { 'content-type': 'application/json', authorization: 'Bearer test-device-token' };
   return req;
 }
 
@@ -74,7 +76,7 @@ function parseLines(res: ReturnType<typeof mockResponse>): unknown[] {
 }
 
 test('answers OPTIONS preflight and rejects unsupported HTTP methods', async () => {
-  const handler = createAiChatHandler();
+  const handler = createAiChatHandler({ env: { AI_DEVICE_TOKEN: 'test-device-token' } });
   const optionsReq = mockRequest('OPTIONS');
   const optionsRes = mockResponse();
   await handler(optionsReq as never, optionsRes as never);
@@ -94,6 +96,7 @@ test('answers OPTIONS preflight and rejects unsupported HTTP methods', async () 
 test('rejects malformed payload before calling any provider', async () => {
   let calls = 0;
   const handler = createAiChatHandler({
+    env: { AI_DEVICE_TOKEN: 'test-device-token' },
     createRegistry: () => new StaticAiProviderRegistry([makeAdapter([{ type: 'done' }], () => calls++)]),
   });
   const req = mockRequest('POST', { provider: 'unknown' });
@@ -116,6 +119,7 @@ test('returns safe 503 when selected cloud provider has no server key', async ()
 
 test('streams NDJSON tokens and completion marker', async () => {
   const handler = createAiChatHandler({
+    env: { AI_DEVICE_TOKEN: 'test-device-token' },
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{ type: 'token', token: 'こんにちは' }, { type: 'token', token: '世界' }, { type: 'done' }]),
     ]),
@@ -136,6 +140,7 @@ test('streams NDJSON tokens and completion marker', async () => {
 
 test('returns JSON when stream is false', async () => {
   const handler = createAiChatHandler({
+    env: { AI_DEVICE_TOKEN: 'test-device-token' },
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{ type: 'token', token: 'answer' }, { type: 'done' }]),
     ]),
@@ -155,6 +160,7 @@ test('returns JSON when stream is false', async () => {
 
 test('maps provider failure to HTTP status without leaking secrets', async () => {
   const handler = createAiChatHandler({
+    env: { AI_DEVICE_TOKEN: 'test-device-token' },
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{
         type: 'error',
@@ -184,6 +190,7 @@ test('maps provider failure to HTTP status without leaking secrets', async () =>
 
 test('emits an in-band NDJSON error after streaming has started', async () => {
   const handler = createAiChatHandler({
+    env: { AI_DEVICE_TOKEN: 'test-device-token' },
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([
         { type: 'token', token: 'partial' },
@@ -207,7 +214,7 @@ test('emits an in-band NDJSON error after streaming has started', async () => {
 });
 
 test('rejects local provider on the cloud gateway', async () => {
-  const handler = createAiChatHandler({ env: {} });
+  const handler = createAiChatHandler({ env: { AI_DEVICE_TOKEN: 'test-device-token' } });
   const req = mockRequest('POST', {
     provider: 'local',
     model: 'qwen-local',
@@ -222,7 +229,7 @@ test('rejects local provider on the cloud gateway', async () => {
 
 test('allows configured production origin and echoes only that origin', async () => {
   const handler = createAiChatHandler({
-    env: { AI_ALLOWED_ORIGINS: 'https://app.example.com,capacitor://localhost' },
+    env: { AI_DEVICE_TOKEN: 'test-device-token', AI_ALLOWED_ORIGINS: 'https://app.example.com,capacitor://localhost' },
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{ type: 'token', token: 'ok' }, { type: 'done' }]),
     ]),
@@ -234,13 +241,13 @@ test('allows configured production origin and echoes only that origin', async ()
   assert.equal(res.statusCode, 200);
   assert.equal(res.headers['access-control-allow-origin'], 'https://app.example.com');
   assert.equal(res.headers['vary'], 'Origin');
-  assert.equal(res.headers['access-control-allow-headers'], 'Content-Type');
+  assert.equal(res.headers['access-control-allow-headers'], 'Content-Type, Authorization');
 });
 
 test('rejects untrusted browser origin before calling provider', async () => {
   let calls = 0;
   const handler = createAiChatHandler({
-    env: { AI_ALLOWED_ORIGINS: 'https://app.example.com' },
+    env: { AI_DEVICE_TOKEN: 'test-device-token', AI_ALLOWED_ORIGINS: 'https://app.example.com' },
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{ type: 'done' }], () => calls++),
     ]),
@@ -257,7 +264,7 @@ test('rejects untrusted browser origin before calling provider', async () => {
 
 test('rejects untrusted CORS preflight', async () => {
   const handler = createAiChatHandler({
-    env: { AI_ALLOWED_ORIGINS: 'https://app.example.com' },
+    env: { AI_DEVICE_TOKEN: 'test-device-token', AI_ALLOWED_ORIGINS: 'https://app.example.com' },
   });
   const req = mockRequest('OPTIONS') as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
   req.headers = { origin: 'https://attacker.example' };
@@ -291,4 +298,26 @@ test('rejects oversized request bodies before provider invocation', async () => 
   assert.equal(res.statusCode, 413);
   assert.equal((res.body as { error: string }).error, 'payload_too_large');
   assert.equal(calls, 0);
+});
+
+test('rejects invalid device token before calling provider', async () => {
+  let calls = 0;
+  const handler = createAiChatHandler({
+    env: { AI_DEVICE_TOKEN: 'expected-token' },
+    createRegistry: () => new StaticAiProviderRegistry([makeAdapter([{ type: 'done' }], () => calls++)]),
+  });
+  const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
+  req.headers.authorization = 'Bearer wrong-token';
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 401);
+  assert.equal(calls, 0);
+});
+
+test('returns 503 when device token is not configured', async () => {
+  const handler = createAiChatHandler({ env: { AI_DEVICE_TOKEN: '' } });
+  const req = mockRequest();
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 503);
 });
