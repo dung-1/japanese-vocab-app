@@ -3,6 +3,7 @@ import { PromptContext } from './prompt.model';
 export type AiRole = 'user' | 'assistant' | 'system';
 
 export type AiProviderType = 'local' | 'cloud';
+export type AiCloudProvider = 'gemini' | 'groq';
 
 export interface AiChatMessage {
   id: string;
@@ -24,7 +25,10 @@ export interface AiChatSession {
 export interface AiSettings {
   provider: AiProviderType;
   localEndpoint: string;
-  cloudApiKey: string;
+  /** Cloud provider is configured on the server; no browser API key. */
+  cloudProvider: AiCloudProvider;
+  /** @deprecated Removed during migration; kept optional for old stored settings only. */
+  cloudApiKey?: string;
   cloudModel: string;
   model: string;
   temperature: number;
@@ -38,7 +42,7 @@ export interface AiSettings {
 export const DEFAULT_AI_SETTINGS: AiSettings = {
   provider: 'local',
   localEndpoint: 'http://localhost:11434',
-  cloudApiKey: '',
+  cloudProvider: 'gemini',
   cloudModel: 'nemotron-3-super:cloud',
   model: 'qwen3:0.6b',   // model Local an toàn nhất (522 MB, đã xác nhận)
   temperature: 0.3,
