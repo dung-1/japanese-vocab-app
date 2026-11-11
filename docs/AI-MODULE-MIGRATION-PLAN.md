@@ -912,3 +912,45 @@ Angular:
 **Next step:**
 - Add a provider registry and deterministic fallback orchestrator. Fallback is allowed only before the first token is emitted and only for retryable errors (rate limit, timeout, provider unavailable); never for missing key, authentication/provider rejection, invalid request, unsupported capability, client abort, or after partial output.
 - Then add a gateway route with server-side credentials and normalized streaming. Do not switch Angular transport until route tests and compatibility are complete.
+
+
+### 2026-11-11 — Phase 1 / Step 4: provider registry and fallback orchestrator — IMPLEMENTED
+
+**Files added:**
+- `api/_lib/ai/provider-registry.ts`: static Gemini/Groq registry and async stream orchestration.
+- `api/_lib/ai/provider-registry.test.ts`: safety tests for fallback conditions.
+
+**Fallback policy implemented:**
+- The selected provider is attempted first.
+- Explicit ordered fallback candidates only; no implicit/unbounded provider switching.
+- Fallback eligible only for normalized `rate_limited`, `provider_unavailable`, and `upstream_timeout`.
+- Fallback is blocked after the first token, after caller abort, or for provider missing/configuration, auth/provider rejection, invalid request and unsupported capability.
+- A fallback adapter must support the requested capabilities.
+- If the selected primary adapter is missing, return a configuration error; do not silently switch to another provider.
+- If a configured fallback is missing or lacks capability, skip it and return the last useful error if no candidate succeeds.
+- No automatic fallback from a selected local provider; local Ollama remains a separate path to wire later.
+
+**Files added earlier in Phase 1 (current gateway package):**
+- `api/_lib/ai/contracts.ts`
+- `api/_lib/ai/contracts.test.ts`
+- `api/_lib/ai/gemini.adapter.ts`
+- `api/_lib/ai/gemini.adapter.test.ts`
+- `api/_lib/ai/groq.adapter.ts`
+- `api/_lib/ai/groq.adapter.test.ts`
+
+**Validation on branch HEAD `45259766cc59ab1e3cfbf285fc68c6af43800320`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts api/_lib/ai/groq.adapter.test.ts api/_lib/ai/provider-registry.test.ts`: PASS, 24/24 tests.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing warnings remain: CommonJS `whatwg-url` and `@supabase/node-fetch`; Node `punycode` deprecation; Node test runner MODULE_TYPELESS_PACKAGE_JSON warning.
+- One test was corrected to abort before execution (rather than abort after completion); rerun passed.
+
+**Security and release status:**
+- No real API key or external provider request.
+- No /api/chat routing cutover yet.
+- No frontend changes.
+- No embedding changes.
+- No billing or production deployment.
+
+**Next step (Phase 1 / Step 5):**
+- Implement and test a provider-neutral Vercel streaming route (or refactor `api/chat.ts`) that validates body, applies selected provider/fallback policy, reads server environment keys, streams a stable NDJSON/SSE contract, handles request disconnect/abort, and never accepts API keys from browser.
+- Before replacing the current endpoint, verify current Angular CloudProvider NDJSON parser and local provider route contract to preserve compatibility. Keep embedding API separate.
