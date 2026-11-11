@@ -36,7 +36,12 @@
       <option value="gemini">Google Gemini</option>
       <option value="groq">Groq</option>
     </select>
-    <small>API key phải được cấu hình trong Vercel Environment Variables: GEMINI_API_KEY hoặc GROQ_API_KEY. Không lưu key trong localStorage.</small>
+    <small>Cloud API keys are stored only on Vercel. Enter the personal device token below.</small>
+    <label for="cloudDeviceToken">Personal device token</label>
+    <input id="cloudDeviceToken" type="password" autocomplete="off" [ngModel]="settings().cloudDeviceToken ?? ''"
+      (ngModelChange)="settingsSvc.update({ cloudDeviceToken: $event })" name="cloudDeviceToken"
+      placeholder="Paste device token" />
+    <small>Keep this token private. It is stored in this browser's local settings.</small>
   </section>
 
   <section class="card">
