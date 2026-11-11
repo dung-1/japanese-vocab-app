@@ -47,8 +47,8 @@ describe('CloudProvider gateway request', () => {
     expect(body.model).toBe('gemini-2.5-flash');
     expect(body.prompt).toBe('test prompt');
     expect(body.system).toBe('test system');
-    expect(body).not.toHaveProperty('apiKey');
-    expect(body).not.toHaveProperty('cloudApiKey');
+    expect(Object.prototype.hasOwnProperty.call(body, 'apiKey')).toBeFalse();
+    expect(Object.prototype.hasOwnProperty.call(body, 'cloudApiKey')).toBeFalse();
     expect(JSON.stringify(body)).not.toContain('secret');
     expect(tokens).toEqual(['hello']);
     expect(completed).toBeTrue();
