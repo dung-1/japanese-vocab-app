@@ -199,7 +199,7 @@ test('emits an in-band NDJSON error after streaming has started', async () => {
   assert.equal(res.statusCode, 200);
   assert.deepEqual(parseLines(res), [
     { response: 'partial' },
-    { error: 'unavailable', code: 'provider_unavailable', retryable: true },
+    { error: 'unavailable', code: 'provider_unavailable', retryable: true, provider: 'gemini' },
   ]);
   assert.equal(res.writableEnded, true);
 });
