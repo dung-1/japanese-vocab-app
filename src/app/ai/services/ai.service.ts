@@ -31,8 +31,8 @@ export class AiService {
 
   private get provider(): AiProvider {
     const s = this.settings.get();
-    this.factory.configureLocal('http://localhost:11434');
-    this.factory.configureCloud(s.cloudApiKey, s.model);
+    this.factory.configureLocal(s.localEndpoint || 'http://localhost:11434');
+    this.factory.configureCloud();
     return this.factory.get(s.provider);
   }
 

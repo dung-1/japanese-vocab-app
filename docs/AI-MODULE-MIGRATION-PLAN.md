@@ -823,3 +823,342 @@ Angular:
 - [ ] Implementation authorization: awaiting explicit go-ahead for source-code changes.
 
 **No source files changed during Phase 0. No provider keys configured. No billing enabled. No deployment performed.**
+
+
+### 2026-11-11 — Phase 1 / Step 1: provider-neutral contract — IMPLEMENTED
+
+**Branch:** `ai-provider-migration` (created from current GitHub master commit `f2f2d92b486056c62a33040442051508eef37413`). Local `master` was not modified.
+
+**Files added:**
+- `api/_lib/ai/contracts.ts`: provider identifiers (`gemini | groq | local`), chat request, image input, normalized gateway error codes, stream events, model capabilities, provider adapter interface, success/error response contracts, runtime request validator.
+- `api/_lib/ai/contracts.test.ts`: Node built-in tests for supported providers, malformed requests, bounded settings, MIME/image size/count checks.
+
+**Validation rules currently encoded:**
+- Request must be an object and provider must be one of the three supported IDs.
+- Model name is required and limited to 160 chars.
+- Prompt is required and limited to 40,000 chars; system prompt limited to 12,000 chars.
+- Temperature 0–2; topK integer 1–100; stream boolean.
+- Up to 4 images, JPEG/PNG/WebP/GIF only, each base64 payload limited to 8,000,000 chars.
+- These image fields are a reserved contract only. No provider currently accepts/processes image data and no image is sent upstream in this step.
+
+**Tests on branch HEAD `2901c2252c6159026768896683cb900211981ae3`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts`: PASS, 5/5 tests.
+- `npm run build`: PASS, 15 routes prerendered.
+- Existing CommonJS optimization warnings and Node punycode deprecation remain.
+- Existing Angular unit-test baseline failure remains unmodified: AdverbComponent missing HttpClient provider.
+
+**Safety / scope:**
+- No provider SDK added; no API keys requested or stored; no billing enabled.
+- No chat, embedding, settings UI or existing provider code changed yet.
+- No production deployment.
+- Tests use synthetic data only.
+
+**Next implementation step:**
+- Add server-side provider registry and a Gemini adapter behind the contract, using `GEMINI_API_KEY` from server environment only.
+- Keep adapter unit tests mocked; no real API call until user explicitly supplies/configures credentials.
+- Before fallback implementation, define which normalized failures are retryable and ensure fallback only happens before any stream token has been emitted.
+
+
+### 2026-11-11 — Phase 1 / Step 2: Gemini server adapter — IMPLEMENTED
+
+**Files added/changed:**
+- `api/_lib/ai/gemini.adapter.ts`: Gemini REST streaming adapter. Reads `GEMINI_API_KEY` only from server environment by default; injectable fetch/timeout for deterministic tests; maps HTTP 429 to retryable rate limit with bounded Retry-After; maps 5xx/network/timeout to retryable provider unavailable/timeout; maps other 4xx to non-retryable provider rejection; consumes SSE text events; propagates AbortSignal; does not log keys or include key in public errors.
+- `api/_lib/ai/gemini.adapter.test.ts`: mocked tests for missing key, SSE token streaming, request payload, rate limit mapping, 5xx mapping, vision-disabled behavior and capabilities.
+
+**Important implementation decision:**
+- Gemini model capabilities currently report text=true, streaming=true, vision=false. Although the request contract has a reserved images property, the adapter rejects image requests before any network call. Vision must not be shown as supported until full end-to-end support and model allowlist are implemented.
+- Uses Gemini REST endpoint `v1beta/models/{model}:streamGenerateContent?alt=sse`; key is server-side only. No real API request made.
+- Does not yet route production `/api/chat` traffic; current Ollama chat endpoint remains unchanged until gateway routing step.
+
+**Validation on branch HEAD `dbe7589e0c3d24952d723b2004c61c0d29e520fe`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts`: PASS, 11/11 tests.
+- `npm run build`: PASS, browser/server bundles and 15 prerendered routes.
+- First adapter test run exposed Node v24 strip-only TypeScript incompatibility with constructor parameter properties. Refactored constructor to explicit fields/assignments and reran; all 11 tests pass.
+- Build warnings unchanged: CommonJS `whatwg-url` / `@supabase/node-fetch` and Node punycode deprecation.
+- Node emits MODULE_TYPELESS_PACKAGE_JSON warning when executing TS tests with `--experimental-strip-types`; this is test-runner mode warning, not test failure.
+
+**Cost/security:**
+- No real key used; mock key only.
+- No live provider request, billing, or deployment.
+- Existing /api/chat still uses old Ollama code and still has browser-supplied key handling; security issue is not fixed until the gateway route replaces it. Do not describe migration as secure/complete yet.
+
+**Next:**
+1. Add provider registry and normalized stream orchestration.
+2. Add mock-tested Groq adapter.
+3. Add gateway route and only then migrate browser transport; remove legacy browser-supplied key flow in the same controlled cutover.
+4. Ensure fallback happens only before the first emitted token and never on auth/invalid-request/capability errors.
+
+
+### 2026-11-11 — Phase 1 / Step 3: Groq server adapter — IMPLEMENTED
+
+**Files added:**
+- `api/_lib/ai/groq.adapter.ts`: Groq Chat Completions adapter using server-only `GROQ_API_KEY`; OpenAI-compatible JSON request; SSE parsing; system/user messages; temperature/top_k; AbortSignal and timeout; normalized error mapping.
+- `api/_lib/ai/groq.adapter.test.ts`: mocked tests for missing key/no upstream call, streaming, server bearer auth, rate limit/retry-after, 5xx, 401, unsupported images and capability declaration.
+
+**Policy and implementation notes:**
+- Groq vision capability remains false. Any image request is rejected before network access.
+- API key is passed as server Authorization header; never sent in JSON body or public error. No logging added.
+- 429 and 5xx are retryable; 401 and other 4xx are non-retryable.
+- Retry-After is bounded to one hour.
+- Adapter does not yet route production traffic; /api/chat remains unchanged.
+- No real Groq request or billing activity.
+
+**Validation on branch HEAD `6beeae5e92e9168f9614fed55a03aeabb60b6cf1`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts api/_lib/ai/groq.adapter.test.ts`: PASS, 17/17.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing CommonJS optimization warnings for `whatwg-url` / `@supabase/node-fetch` and Node `punycode` deprecation remain.
+- Test runner prints Node MODULE_TYPELESS_PACKAGE_JSON warning because TS tests use `--experimental-strip-types`; no failures.
+
+**Next step:**
+- Add a provider registry and deterministic fallback orchestrator. Fallback is allowed only before the first token is emitted and only for retryable errors (rate limit, timeout, provider unavailable); never for missing key, authentication/provider rejection, invalid request, unsupported capability, client abort, or after partial output.
+- Then add a gateway route with server-side credentials and normalized streaming. Do not switch Angular transport until route tests and compatibility are complete.
+
+
+### 2026-11-11 — Phase 1 / Step 4: provider registry and fallback orchestrator — IMPLEMENTED
+
+**Files added:**
+- `api/_lib/ai/provider-registry.ts`: static Gemini/Groq registry and async stream orchestration.
+- `api/_lib/ai/provider-registry.test.ts`: safety tests for fallback conditions.
+
+**Fallback policy implemented:**
+- The selected provider is attempted first.
+- Explicit ordered fallback candidates only; no implicit/unbounded provider switching.
+- Fallback eligible only for normalized `rate_limited`, `provider_unavailable`, and `upstream_timeout`.
+- Fallback is blocked after the first token, after caller abort, or for provider missing/configuration, auth/provider rejection, invalid request and unsupported capability.
+- A fallback adapter must support the requested capabilities.
+- If the selected primary adapter is missing, return a configuration error; do not silently switch to another provider.
+- If a configured fallback is missing or lacks capability, skip it and return the last useful error if no candidate succeeds.
+- No automatic fallback from a selected local provider; local Ollama remains a separate path to wire later.
+
+**Files added earlier in Phase 1 (current gateway package):**
+- `api/_lib/ai/contracts.ts`
+- `api/_lib/ai/contracts.test.ts`
+- `api/_lib/ai/gemini.adapter.ts`
+- `api/_lib/ai/gemini.adapter.test.ts`
+- `api/_lib/ai/groq.adapter.ts`
+- `api/_lib/ai/groq.adapter.test.ts`
+
+**Validation on branch HEAD `45259766cc59ab1e3cfbf285fc68c6af43800320`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts api/_lib/ai/groq.adapter.test.ts api/_lib/ai/provider-registry.test.ts`: PASS, 24/24 tests.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing warnings remain: CommonJS `whatwg-url` and `@supabase/node-fetch`; Node `punycode` deprecation; Node test runner MODULE_TYPELESS_PACKAGE_JSON warning.
+- One test was corrected to abort before execution (rather than abort after completion); rerun passed.
+
+**Security and release status:**
+- No real API key or external provider request.
+- No /api/chat routing cutover yet.
+- No frontend changes.
+- No embedding changes.
+- No billing or production deployment.
+
+**Next step (Phase 1 / Step 5):**
+- Implement and test a provider-neutral Vercel streaming route (or refactor `api/chat.ts`) that validates body, applies selected provider/fallback policy, reads server environment keys, streams a stable NDJSON/SSE contract, handles request disconnect/abort, and never accepts API keys from browser.
+- Before replacing the current endpoint, verify current Angular CloudProvider NDJSON parser and local provider route contract to preserve compatibility. Keep embedding API separate.
+
+
+### 2026-11-11 — Phase 1 / Step 5: isolated Vercel cloud gateway — IMPLEMENTED (not yet cut over)
+
+**New endpoint:**
+- `api/ai-chat.ts` — POST `/api/ai-chat`, dedicated cloud endpoint. Existing `api/chat.ts`, `api/embed.ts`, Angular providers and settings UI are unchanged.
+- Validates incoming body through `validateAiChatRequest`.
+- Instantiates Gemini/Groq adapters server-side; credentials are read from `GEMINI_API_KEY` and `GROQ_API_KEY`.
+- Optional reciprocal fallback controlled by server env `AI_CLOUD_FALLBACK_ENABLED=true`; disabled by default.
+- NDJSON compatibility events: `{"response":"token"}\n`, `{"done":true}\n`, or normalized `{"error":"...","code":"...","retryable":false}\n`.
+- `stream:false` returns JSON `{response}`.
+- Abort propagation from client disconnect / response close to adapter AbortSignal.
+- Local provider is intentionally rejected on this new endpoint; current Ollama Local stays on legacy `/api/chat` until a separately tested routing strategy is implemented.
+- Embedding remains on legacy `/api/embed`, unchanged.
+
+**Security adjustment:**
+- Gemini API key is sent to Google using the `x-goog-api-key` request header (not URL query string), avoiding credential exposure in URL logs. Adapter test updated to assert this.
+- Browser is not expected to submit provider API keys to `/api/ai-chat`.
+- CORS is currently wildcard for existing mobile-client compatibility. Before public release, restrict to explicit app origins and confirm mobile origin behavior.
+- No real credentials or external provider calls.
+
+**Validation on branch HEAD `eba58bb2573fbe44cdbab90f906dd873f4d6e5a4`:**
+- Contract + Gemini + Groq + fallback suite: PASS, 24/24.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing Node MODULE_TYPELESS_PACKAGE_JSON and punycode deprecation warnings; Angular CommonJS warnings for `whatwg-url` / `@supabase/node-fetch`.
+- No dedicated handler integration tests for `api/ai-chat.ts` have been added yet. Build validates TypeScript integration, not runtime Vercel behavior.
+
+**Not yet done / release blockers:**
+- No frontend transport change; Angular CloudProvider still calls legacy `/api/chat` with browser-stored Ollama Cloud API key.
+- No settings UI/provider/model selection migration.
+- No runtime request against Vercel; no API key configured or real provider smoke test.
+- No security hardening of wildcard CORS / request rate limits / authentication.
+- No Vercel deployment, no production changes.
+- Legacy Ollama embedding API and local provider are untouched.
+
+**Next:**
+1. Add handler-level tests for method validation, malformed request, missing server keys, stream and non-stream NDJSON/JSON, client abort, and provider errors. Consider injecting registry/adapter factory for deterministic tests.
+2. Audit Vercel function runtime support for Node built-ins and stream lifecycle.
+3. Then migrate Angular CloudProvider to call `/api/ai-chat` without browser API key, while retaining separate Ollama Local and embedding behavior. Settings UI must distinguish server-configured cloud providers from user-supplied local endpoint.
+
+
+### 2026-11-11 — Phase 1 / Step 6: Vercel gateway handler tests — IMPLEMENTED
+
+**Files changed/added:**
+- `api/ai-chat.ts`: refactored handler into `createAiChatHandler(dependencies)` with injectable registry factory and environment map; default export still instantiates the production handler. This makes HTTP behavior testable without live provider calls.
+- `api/ai-chat.test.ts`: 8 handler-level tests using mocked Vercel request/response and fake adapters.
+
+**Coverage:**
+- OPTIONS preflight and method rejection.
+- Invalid body rejected before provider invocation.
+- Missing server-side provider key returns safe 503.
+- Streaming NDJSON token and done frames.
+- Non-streaming JSON response.
+- Provider 429 mapping to HTTP 429.
+- In-band NDJSON error after partial output.
+- Local provider rejected on the cloud-only endpoint.
+
+**Test correction:**
+- First run: 31/32 passed. The in-band error test expected no provider field, while the gateway correctly included `provider: gemini`. Updated the assertion to match the stable public error envelope.
+- Final run: 32/32 passed.
+
+**Validation on branch HEAD `153c8e9aab69cd2cc5d88464f1709416a24b388f`:**
+- `node --experimental-strip-types --test api/ai-chat.test.ts api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts api/_lib/ai/groq.adapter.test.ts api/_lib/ai/provider-registry.test.ts`: PASS, 32/32.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing warnings: Node MODULE_TYPELESS_PACKAGE_JSON in TS test mode, punycode deprecation, CommonJS optimization warnings for whatwg-url / @supabase/node-fetch.
+
+**Remaining runtime/release checks:**
+- Tests are mocked; no actual Vercel invocation or live provider request.
+- No authentication, request rate limiting, per-user quota, or restrictive CORS yet. Wildcard CORS is still present and must be restricted/justified before public rollout.
+- No request size enforcement at the Vercel platform boundary beyond field-level validation; verify body size limits.
+- Verify Vercel Hobby/Pro maxDuration and streaming runtime behavior against the actual project plan.
+- Need ensure request close/disconnect behavior works with actual Vercel Node request/response objects.
+- Existing legacy `/api/chat` still accepts browser-provided Ollama Cloud API keys; this migration has not cut over or fixed that legacy behavior.
+
+**Next step:**
+- Audit and implement Angular transport cutover safely: inspect CloudProvider, provider interface/factory, AiSettingsService, settings UI and any consumers. Keep Ollama Local and embeddings separate. Remove browser-side Ollama Cloud credential use only in the same migration step that switches the UI to server-configured Gemini/Groq. Add Angular service/provider tests and local manual smoke-test checklist. Do not deploy.
+
+
+### 2026-11-11 — Phase 2 / Step 1: Angular cloud provider/settings migration — IMPLEMENTED, LOCAL VALIDATION ONLY
+
+**Angular files changed:**
+- `src/app/ai/providers/cloud.provider.ts`: cloud chat now calls `POST /api/ai-chat`; sends provider/model/system/prompt/temperature/topK/stream only; no browser credential.
+- `src/app/ai/models/ai-chat.model.ts`: adds `AiCloudProvider = 'gemini' | 'groq'`, adds `cloudProvider` setting, marks legacy `cloudApiKey` optional/deprecated for migration cleanup.
+- `src/app/ai/providers/provider-factory.service.ts`: removes API-key configuration method.
+- `src/app/ai/services/ai.service.ts`: no longer passes cloud API key into provider factory.
+- `src/app/ai/services/ai-settings.service.ts`: sanitizes settings, removes legacy `cloudApiKey` from memory and persisted JSON, rewrites legacy `ai_settings_v2` on load.
+- `src/app/ai/components/ai-settings/ai-settings.component.ts` and `.html`: replaces Ollama Cloud/key/model catalog UI with Gemini/Groq selector, model field, server-side key instructions, and gateway test connection.
+- `src/app/ai/services/embedding.service.ts`: embeddings explicitly use local provider, preserving separate legacy `/api/embed` behavior regardless of selected chat provider.
+
+**Compatibility decisions:**
+- Ollama Local chat and embedding paths remain unchanged.
+- Gemini/Groq keys are never entered into browser settings or sent by Angular.
+- Old `cloudApiKey` is removed when legacy settings load and sanitized back to localStorage.
+- Legacy `/api/chat` endpoint is not deleted or modified.
+- Cloud model defaults: Gemini `gemini-2.5-flash`; Groq `llama-3.3-70b-versatile`. Verify availability against provider accounts before live use.
+
+**Validation:**
+- First build exposed a malformed newline insertion in settings-service sanitizer; corrected immediately.
+- Final `npm run build`: PASS, 15 prerendered routes.
+- AI gateway suite: PASS, 32/32.
+- `npm test -- --watch=false`: NOT RUN TO COMPLETION — Karma could not launch Chrome because host has no X server / DISPLAY. Angular browser tests remain outstanding.
+- Existing warnings: Node punycode deprecation; Angular CommonJS warnings for `whatwg-url` / `@supabase/node-fetch`; Node TS test MODULE_TYPELESS_PACKAGE_JSON warnings.
+
+**Current branch head at validation:** `1615cc6c31b3f897d5dedef011127fde2ed2796d`.
+
+**Not yet done / release blockers:**
+- No real Gemini/Groq key configured; no live request.
+- No deployed Vercel runtime smoke test.
+- No restrictive CORS, auth, per-user rate limiting or quota protection on `/api/ai-chat`.
+- No browser UI test run due missing display.
+- No frontend tests yet for cloud settings migration or key sanitization.
+- Need verify actual model identifiers and provider account access.
+- Need verify mobile/Capacitor base URL points to the correct deployment; existing constant may be stale.
+- No deployment, production cutover, merge to master, or production environment changes.
+
+**Next steps:**
+1. Add unit tests for AiSettingsService legacy-key sanitization and CloudProvider request shape (prove no credential is sent).
+2. Review model selection and mobile base URL; add a documented local manual smoke test.
+3. Harden gateway CORS, authentication/abuse controls, body limits, and request lifecycle; verify actual Vercel runtime limits.
+4. Configure API keys only after user sets them in Vercel environment settings; perform controlled smoke test.
+5. Keep deployment blocked until all checks and user approval.
+
+
+### 2026-11-12 — Phase 2 / Step 2: Embedding isolation, mobile API origin, and credential regression tests
+
+**Audit findings and fixes:**
+1. Found `EmbeddingService.getEmbedding()` used `providerFactory.get('local')`, but batch method `getEmbeddings()` still used `getProvider()` (the active chat provider). Fixed both methods to explicitly use Local Ollama so choosing Gemini/Groq cannot redirect embedding/vectorization.
+2. `AiService` had hardcoded local endpoint `http://localhost:11434` instead of the user's configured `localEndpoint`. It now respects saved `localEndpoint`, with localhost fallback.
+3. `AiSettingsService.baseUrl()` used stale placeholder `https://japanese-vocab-app.vercel.app` for Capacitor/file/localhost contexts. Updated to the known project deployment origin `https://japanese-vocab-app-dungcts.vercel.app`. Must re-verify against Vercel project Domains before a release; no production request was made.
+
+**Regression tests added:**
+- `src/app/ai/services/ai-settings.service.spec.ts`: verifies legacy `cloudApiKey` is removed from memory and localStorage on migration, and cannot be reintroduced through update.
+- `src/app/ai/providers/cloud.provider.spec.ts`: verifies cloud browser request targets `/api/ai-chat`, includes provider/model/prompt/system, and does not include `apiKey` or `cloudApiKey`.
+
+**Validation on branch HEAD `061d10d264df97b4f22efe2587fa794e9c4f98b8`:**
+- `npm run build`: PASS; 15 prerendered routes.
+- AI gateway Node tests: 32/32 PASS.
+- Focused Angular AI browser tests (`npx ng test --watch=false --browsers=ChromeHeadless --include="src/app/ai/**/*.spec.ts"`): 3/3 PASS.
+- Full Angular browser test suite: 3/4 PASS, 1 unrelated existing `AdverbComponent should create` failure because its test module does not provide `HttpClient`. This is not caused by the AI changes; it remains an existing suite issue and should be fixed separately.
+- Initial focused test compile found Jasmine matcher `toHaveProperty` unavailable in this project's Jasmine type setup; replaced with `Object.prototype.hasOwnProperty.call` and reran successfully.
+
+**Important remaining caveats:**
+- The mobile origin was updated to the previously recorded deployed domain, but Vercel Domains still needs a current authoritative verification before release.
+- No real Gemini/Groq credentials or live calls; no deployed runtime smoke test.
+- CORS is still wildcard; authentication, abuse/rate limiting, quota protection and request lifecycle hardening remain incomplete.
+- No merge to master and no deployment.
+
+**Next:** inspect Vercel project configuration/domain and function runtime limits; design authentication/abuse control compatible with the app's current user/session model; tighten CORS; add request body/timeout safeguards and runtime smoke tests. Then prepare user-facing local test steps. Do not deploy until explicit approval.
+
+
+### 2026-11-12 — Phase 2 / Step 3: AI Gateway CORS restriction and Vercel inspection
+
+**Security issue confirmed:** `POST /api/ai-chat` had wildcard `Access-Control-Allow-Origin: *` in both the handler and `vercel.json`. The endpoint has no user authentication yet, so this must not be described as production-secure.
+
+**Changes made:**
+- `api/ai-chat.ts`: replaced wildcard CORS with exact-origin allowlist. `AI_ALLOWED_ORIGINS` server environment variable may override the default comma-separated list. Defaults currently include the known production app origin, Angular local dev origins, and Capacitor/Ionic local origins. Requests with a non-allowlisted Origin return HTTP 403 before validation/provider invocation. Preflight for a non-allowlisted Origin returns 403. `Vary: Origin` is set; only `Content-Type` is allowed as request header; no credentials are allowed.
+- `vercel.json`: removed its `/api/(.*)` wildcard CORS headers so it cannot override/contradict handler-level policy.
+- `api/ai-chat.test.ts`: added allowed origin, denied origin/no provider invocation, and denied preflight tests; request mocks now include headers.
+
+**Validation:**
+- Initial test run found old mock requests lacked `headers`; fixed mock and reran.
+- AI gateway Node suite: 35/35 PASS.
+- Angular production build: PASS; 15 prerendered routes.
+- Existing TypeScript module-mode warnings remain; no functional test failure.
+
+**Vercel inspection attempt:**
+- Attempted to read Vercel project `japanese-vocab-app` and attached domains to confirm domain and runtime settings.
+- Vercel API returned HTTP 403 for team scope `dungcts` (team ID `team_Mv7P2NCj3jzlojzf0hsc4BFH`), requiring team authorization/re-authentication. Therefore domain and function runtime settings remain UNVERIFIED; the mobile origin is based on prior known deployment information only.
+
+**Security limitations (not solved by CORS):**
+- CORS is a browser-origin policy, not authentication. Non-browser clients can forge/remove Origin.
+- Gateway still has no authenticated user identity, durable per-user/device quota, or distributed rate limit. Public API key consumption remains possible if endpoint is discovered.
+- Request body size is validated by prompt/image field limits but there is not yet a complete total-body/early payload limit at the HTTP ingress layer.
+- Do not enable real provider keys or release publicly until authentication and quota/abuse controls are designed and tested.
+
+**Next:** inspect Supabase project auth configuration and determine whether the app has real user sessions. Current chat persistence uses Supabase anon key and `x-device-id` only, which is not a trusted identity. Choose a server-verifiable auth model (Supabase Auth JWT if real accounts exist, otherwise an explicit secure device-token design plus shared durable rate limiting). Do not treat the public anon key/device ID as a secret. Need team authorization to inspect Vercel domain/runtime configuration.
+
+
+### 2026-11-12 — Phase 2 / Step 4: Gateway request ingress safeguards
+
+**Authentication discovery (read-only audit):**
+- `SupabaseChatService` creates Supabase client with `auth.persistSession: false` and no sign-in/sign-up/session restore flow.
+- Chat history access is based on browser-generated `jv_device_id` sent as `x-device-id`; project analysis documents RLS based on that custom header.
+- No Supabase Auth JWT identity/session is currently established by the AI module. Public anon/publishable key and `x-device-id` are not suitable as gateway authentication secrets.
+- Therefore Supabase JWT enforcement cannot be added without introducing and migrating an actual sign-in/session strategy. Do not trust the current device ID as an authenticated identity.
+
+**Implemented in this step:**
+- `api/ai-chat.ts`: requires `Content-Type: application/json`; rejects other media types with HTTP 415.
+- Adds server-side application payload byte cap, configurable via `AI_MAX_BODY_BYTES`, default 10,000,000 bytes; over-limit returns HTTP 413 before provider invocation.
+- `api/ai-chat.test.ts`: added tests for non-JSON content type and oversized body rejection. Fixed request mocks to set JSON content type and corrected allowed-origin test header fixture.
+
+**Validation:**
+- Initial test runs identified fixture issues (missing JSON content-type and oversized fixture too small); corrected and reran.
+- Final AI Gateway Node suite: 37/37 PASS.
+- `npm run build`: PASS; 15 prerendered routes.
+- Build still emits known CommonJS optimization warnings for `whatwg-url` / `@supabase/node-fetch` and Node punycode deprecation; not introduced by this step.
+
+**Still not secure for public release:**
+- No authenticated user/device token on `/api/ai-chat`.
+- No durable distributed rate limiter or per-user/device quota.
+- `AI_MAX_BODY_BYTES` is an application-level check after Vercel has parsed the body; it does not replace ingress-level request-size controls.
+- CORS does not prevent direct non-browser calls.
+- Vercel project domain/runtime remains unverified due team-scope HTTP 403.
+- No Gemini/Groq keys configured and no live provider test.
+
+**Decision / next step:** before implementing authentication, user must choose between (A) introduce Supabase Auth accounts (recommended if multi-device/multi-user access is expected), or (B) single-user private app with a server-issued device enrollment token and rotation/revocation, paired with shared durable rate limiting. A static token embedded in Angular is not acceptable. Do not add a new auth system or external database integration without confirming desired access model and cost.
+
+**Current status:** branch-only changes, no master merge, no deployment, no production env mutation.
