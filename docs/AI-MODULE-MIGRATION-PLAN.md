@@ -1130,3 +1130,35 @@ Angular:
 - Do not enable real provider keys or release publicly until authentication and quota/abuse controls are designed and tested.
 
 **Next:** inspect Supabase project auth configuration and determine whether the app has real user sessions. Current chat persistence uses Supabase anon key and `x-device-id` only, which is not a trusted identity. Choose a server-verifiable auth model (Supabase Auth JWT if real accounts exist, otherwise an explicit secure device-token design plus shared durable rate limiting). Do not treat the public anon key/device ID as a secret. Need team authorization to inspect Vercel domain/runtime configuration.
+
+
+### 2026-11-12 — Phase 2 / Step 4: Gateway request ingress safeguards
+
+**Authentication discovery (read-only audit):**
+- `SupabaseChatService` creates Supabase client with `auth.persistSession: false` and no sign-in/sign-up/session restore flow.
+- Chat history access is based on browser-generated `jv_device_id` sent as `x-device-id`; project analysis documents RLS based on that custom header.
+- No Supabase Auth JWT identity/session is currently established by the AI module. Public anon/publishable key and `x-device-id` are not suitable as gateway authentication secrets.
+- Therefore Supabase JWT enforcement cannot be added without introducing and migrating an actual sign-in/session strategy. Do not trust the current device ID as an authenticated identity.
+
+**Implemented in this step:**
+- `api/ai-chat.ts`: requires `Content-Type: application/json`; rejects other media types with HTTP 415.
+- Adds server-side application payload byte cap, configurable via `AI_MAX_BODY_BYTES`, default 10,000,000 bytes; over-limit returns HTTP 413 before provider invocation.
+- `api/ai-chat.test.ts`: added tests for non-JSON content type and oversized body rejection. Fixed request mocks to set JSON content type and corrected allowed-origin test header fixture.
+
+**Validation:**
+- Initial test runs identified fixture issues (missing JSON content-type and oversized fixture too small); corrected and reran.
+- Final AI Gateway Node suite: 37/37 PASS.
+- `npm run build`: PASS; 15 prerendered routes.
+- Build still emits known CommonJS optimization warnings for `whatwg-url` / `@supabase/node-fetch` and Node punycode deprecation; not introduced by this step.
+
+**Still not secure for public release:**
+- No authenticated user/device token on `/api/ai-chat`.
+- No durable distributed rate limiter or per-user/device quota.
+- `AI_MAX_BODY_BYTES` is an application-level check after Vercel has parsed the body; it does not replace ingress-level request-size controls.
+- CORS does not prevent direct non-browser calls.
+- Vercel project domain/runtime remains unverified due team-scope HTTP 403.
+- No Gemini/Groq keys configured and no live provider test.
+
+**Decision / next step:** before implementing authentication, user must choose between (A) introduce Supabase Auth accounts (recommended if multi-device/multi-user access is expected), or (B) single-user private app with a server-issued device enrollment token and rotation/revocation, paired with shared durable rate limiting. A static token embedded in Angular is not acceptable. Do not add a new auth system or external database integration without confirming desired access model and cost.
+
+**Current status:** branch-only changes, no master merge, no deployment, no production env mutation.
