@@ -32,10 +32,12 @@ function mockRequest(method = 'POST', body: unknown = {
     method: string;
     body: unknown;
     aborted: boolean;
+    headers: Record<string, string>;
   };
   req.method = method;
   req.body = body;
   req.aborted = false;
+  req.headers = {};
   return req;
 }
 
