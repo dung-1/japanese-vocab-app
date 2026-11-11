@@ -43,9 +43,11 @@ test('returns a safe configuration error when server key is missing', async () =
 test('streams text tokens from Gemini SSE frames', async () => {
   let capturedUrl = '';
   let capturedBody = '';
+  let capturedApiKey = '';
   const adapter = new GeminiProviderAdapter('fake-test-key', async (input, init) => {
     capturedUrl = String(input);
     capturedBody = String(init?.body);
+    capturedApiKey = new Headers(init?.headers).get('x-goog-api-key') ?? '';
     return sseResponse([
       'data: {"candidates":[{"content":{"parts":[{"text":"こんにちは"}]}}]}\n\n',
       'data: {"candidates":[{"content":{"parts":[{"text":"世界"}]}}]}\n\n',
@@ -67,7 +69,8 @@ test('streams text tokens from Gemini SSE frames', async () => {
     { type: 'done' },
   ]);
   assert.match(capturedUrl, /streamGenerateContent/);
-  assert.match(capturedUrl, /key=fake-test-key/);
+  assert.doesNotMatch(capturedUrl, /key=/);
+  assert.equal(capturedApiKey, 'fake-test-key');
   assert.doesNotMatch(capturedBody, /fake-test-key/);
   const body = JSON.parse(capturedBody);
   assert.equal(body.systemInstruction.parts[0].text, 'Answer in Vietnamese.');
