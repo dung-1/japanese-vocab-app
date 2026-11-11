@@ -761,3 +761,65 @@ Khi hoàn thành, bổ sung báo cáo theo mẫu:
 **Important source-snapshot discrepancy:** GitHub master received the documentation commit created in this session, while local working copy is at an older/different HEAD. Baseline build/test results apply to local HEAD, and source review applies to GitHub master. Reconcile these snapshots before code changes.
 
 **Next:** refresh remote refs safely, inspect unpushed/local-only commits, reconcile local and remote source snapshots, complete remaining call-site inventory and expand tests. Phase 0 is not complete yet.
+
+
+### 2026-11-11 — Phase 0 completed — VERIFIED (inspection only)
+
+**Remote synchronization audit:**
+- A fresh, separate audit clone was created under `/tmp/jva-audit-DtGT1s/repo` and checked out at the exact GitHub master HEAD `f25faa3a912245709369859273a8e66c1d4c0eac`. The user's working repository was not reset, rebased, pulled or modified.
+- Fresh fetch in the user's working repository failed because some Git object directories/files under `.git/objects` are owned by the SentinelX service account and not writable by user `dung`. This is a local Git permission inconsistency.
+- Cached local-only commits are exactly two vocabulary commits: lesson 6 and lesson 7. Their file blob SHAs are identical to the corresponding files on current remote master. Thus their content is already present upstream; they are duplicate commits, not unique source changes.
+- Remote master has 15 commits not present in the old local branch cache, including N6 lessons 6–20, the adverb module, mobile vocabulary fixes and this migration document. The fresh audit clone is now the reliable baseline snapshot.
+- Do not reset/rebase the user's local working copy as part of AI migration. Use the fresh remote snapshot or a separately created migration branch/worktree after agreeing on a safe workflow.
+
+**Fresh remote baseline validation (exact commit `f25faa3a912245709369859273a8e66c1d4c0eac`):**
+- Node v24.21.0 / npm 11.19.0.
+- `npm ci`: PASS; installed 1,109 packages. npm reported 72 dependency vulnerabilities (1 low, 33 moderate, 33 high, 5 critical). This requires a separate dependency triage; do not run `npm audit fix --force` as part of this migration without review.
+- `npm run build`: PASS; browser and server bundles generated; 15 static routes prerendered. Existing CommonJS optimization warnings for `whatwg-url` and `@supabase/node-fetch`; Node punycode deprecation warning.
+- `npm test -- --watch=false --browsers=ChromeHeadless`: FAIL; only one spec executed. `AdverbComponent should create` fails with `NullInjectorError: No provider for HttpClient!`. This is a pre-existing test setup defect on current remote master. The earlier PASS result came from the stale local branch and must not be used as current-master baseline.
+- Current remote has only one `.spec.ts` file found under `src`; AI module has no dedicated unit tests in the inspected tree.
+- npm install emitted deprecated-package and install-script approval warnings; record for dependency maintenance, not a reason to change package versions during AI migration.
+
+**Phase 0 deliverable — verified file-level implementation scope:**
+
+Backend:
+- Add a provider-neutral AI gateway module (contract, registry, adapters, normalized errors/stream).
+- Refactor `api/chat.ts` to route only to server-configured providers and never accept/log a provider API key from request body.
+- Keep `api/embed.ts` separate from chat provider selection; remove browser-supplied cloud secret. Do not change embedding model/vector dimensions in first migration.
+- Retire or retain `api/ollama-cloud-models.ts` only for an explicitly supported Ollama Cloud option; it is not needed for Gemini/Groq model registry.
+- Revisit `vercel.json` CORS only after confirming browser and Capacitor origins.
+- Add mock-based tests for adapters, validation, stream, abort, errors and fallback.
+
+Angular:
+- Update `src/app/ai/models/ai-chat.model.ts` to represent provider/model/capabilities without a cloud API key.
+- Update `src/app/ai/providers/ai-provider.interface.ts` and `provider-factory.service.ts` for provider-neutral routing or backend gateway transport.
+- Replace/refactor `cloud.provider.ts` as the remote gateway provider; preserve `local.provider.ts` direct local Ollama and local proxy fallback behavior.
+- Update `ai-settings.service.ts` to migrate old `ai_settings_v2` safely and strip `cloudApiKey` from persisted settings.
+- Update AI settings component TS/HTML/CSS to show Gemini/Groq/Local, model availability, capabilities and safe configuration status; do not expose secrets.
+- Update `ai.service.ts` only as needed to preserve prompts, history, streaming, cancellation and error state.
+- Update `embedding.service.ts` to use an independent embedding provider/configuration rather than the active chat provider.
+- Keep `knowledge.service.ts`, prompt builders, `response-validator.util.ts`, conversation memory, Supabase history and slash-command services functionally unchanged unless contract changes require small adaptations.
+- Update `stream-event.model.ts` and `abortable-stream.util.ts` if the normalized gateway stream requires it.
+- Update `scripts/test-fixes.mjs` because current assertions require Ollama cloud key behavior.
+- Add AI-specific unit/integration tests; fix the existing AdverbComponent HttpClient test setup as a separate baseline repair or record it as an existing blocker.
+
+**Proposed implementation order after approval:**
+1. Create/choose a clean migration branch from exact current master. Do not reuse stale local master.
+2. Add AI gateway contracts, fake adapters and automated tests (no real API keys).
+3. Add Gemini adapter and server environment key lookup.
+4. Add Groq adapter and explicit pre-stream fallback policy.
+5. Migrate Angular settings/provider transport; remove browser secret persistence and requests.
+6. Separate embedding config while preserving current embedding model.
+7. Add vision capability contract as a separately testable scope; only enable models confirmed to accept image input.
+8. Regression, security checks, local/mobile test and report.
+9. Commit in small phase-specific commits. Preview/production deployment requires explicit user approval; billing must remain disabled.
+
+**Phase 0 exit decision:**
+- [x] Existing architecture and relevant code paths mapped.
+- [x] Main security risks and coupling identified.
+- [x] Current remote master build/test baseline recorded.
+- [x] Local/remote divergence investigated without destructive changes.
+- [x] Proposed implementation file scope and sequence documented.
+- [ ] Implementation authorization: awaiting explicit go-ahead for source-code changes.
+
+**No source files changed during Phase 0. No provider keys configured. No billing enabled. No deployment performed.**
