@@ -27,6 +27,7 @@ export interface AiSettings {
   localEndpoint: string;
   /** Cloud provider is configured on the server; no browser API key. */
   cloudProvider: AiCloudProvider;
+  cloudDeviceToken?: string;
   /** @deprecated Removed during migration; kept optional for old stored settings only. */
   cloudApiKey?: string;
   cloudModel: string;
