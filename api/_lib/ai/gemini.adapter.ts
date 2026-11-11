@@ -37,11 +37,19 @@ const DEFAULT_TIMEOUT_MS = 55_000;
 export class GeminiProviderAdapter implements AiProviderAdapter {
   readonly id = 'gemini' as const;
 
+  private readonly apiKey: string | undefined;
+  private readonly fetchImpl: FetchLike;
+  private readonly timeoutMs: number;
+
   constructor(
-    private readonly apiKey: string | undefined = process.env['GEMINI_API_KEY'],
-    private readonly fetchImpl: FetchLike = fetch,
-    private readonly timeoutMs = DEFAULT_TIMEOUT_MS,
-  ) {}
+    apiKey: string | undefined = process.env['GEMINI_API_KEY'],
+    fetchImpl: FetchLike = fetch,
+    timeoutMs = DEFAULT_TIMEOUT_MS,
+  ) {
+    this.apiKey = apiKey;
+    this.fetchImpl = fetchImpl;
+    this.timeoutMs = timeoutMs;
+  }
 
   getCapabilities(_model: string): AiModelCapabilities {
     // Vision remains disabled until image forwarding and payload limits have
