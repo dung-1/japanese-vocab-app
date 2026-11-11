@@ -1,0 +1,132 @@
+[
+  {
+    "word": "とうとう",
+    "hiragana": "とうとう",
+    "meaning": "cuối cùng, rốt cuộc",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "とうとう試験の日が来た。",
+        "reading": "",
+        "meaning": "Cuối cùng ngày thi cũng đến."
+      }
+    ]
+  },
+  {
+    "word": "ついに",
+    "hiragana": "ついに",
+    "meaning": "cuối cùng, rốt cuộc (đạt kết quả)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "ついに夢がかなった。",
+        "reading": "",
+        "meaning": "Cuối cùng ước mơ đã thành hiện thực."
+      }
+    ]
+  },
+  {
+    "word": "いつの間にか",
+    "hiragana": "いつの間にか",
+    "meaning": "từ lúc nào không hay",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "いつの間にか外が暗くなった。",
+        "reading": "",
+        "meaning": "Ngoài trời tối lúc nào không hay."
+      }
+    ]
+  },
+  {
+    "word": "しばらく",
+    "hiragana": "しばらく",
+    "meaning": "một lúc, một thời gian",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "ここでしばらく待ってください。",
+        "reading": "",
+        "meaning": "Hãy đợi ở đây một lát."
+      }
+    ]
+  },
+  {
+    "word": "相変わらず",
+    "hiragana": "相変わらず",
+    "meaning": "vẫn như mọi khi",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "彼は相変わらず元気だ。",
+        "reading": "",
+        "meaning": "Anh ấy vẫn khỏe như mọi khi."
+      }
+    ]
+  },
+  {
+    "word": "次々に",
+    "hiragana": "次々に",
+    "meaning": "lần lượt, liên tiếp",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "新しい店が次々に開店した。",
+        "reading": "",
+        "meaning": "Các cửa hàng mới lần lượt khai trương."
+      }
+    ]
+  },
+  {
+    "word": "どんどん",
+    "hiragana": "どんどん",
+    "meaning": "nhanh chóng, liên tục",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "質問があればどんどん聞いてください。",
+        "reading": "",
+        "meaning": "Có câu hỏi thì cứ hỏi liên tục nhé."
+      }
+    ]
+  },
+  {
+    "word": "突然",
+    "hiragana": "突然",
+    "meaning": "đột nhiên",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "突然、雨が降り始めた。",
+        "reading": "",
+        "meaning": "Đột nhiên trời bắt đầu mưa."
+      }
+    ]
+  },
+  {
+    "word": "すぐに",
+    "hiragana": "すぐに",
+    "meaning": "ngay lập tức",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "駅に着いたらすぐに電話します。",
+        "reading": "",
+        "meaning": "Đến ga tôi sẽ gọi ngay."
+      }
+    ]
+  },
+  {
+    "word": "同時に",
+    "hiragana": "同時に",
+    "meaning": "đồng thời, cùng lúc",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "二つのことを同時にする。",
+        "reading": "",
+        "meaning": "Làm hai việc cùng lúc."
+      }
+    ]
+  }
+]

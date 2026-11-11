@@ -1,0 +1,132 @@
+[
+  {
+    "word": "うっかり",
+    "hiragana": "うっかり",
+    "meaning": "lỡ, sơ ý",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "うっかり財布を忘れた。",
+        "reading": "",
+        "meaning": "Tôi sơ ý quên ví."
+      }
+    ]
+  },
+  {
+    "word": "思わず",
+    "hiragana": "思わず",
+    "meaning": "bất giác, không kìm được",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "その話を聞いて思わず笑った。",
+        "reading": "",
+        "meaning": "Nghe chuyện đó tôi bất giác bật cười."
+      }
+    ]
+  },
+  {
+    "word": "はっきり",
+    "hiragana": "はっきり",
+    "meaning": "rõ ràng",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "自分の意見をはっきり言う。",
+        "reading": "",
+        "meaning": "Nói rõ ý kiến của mình."
+      }
+    ]
+  },
+  {
+    "word": "じっと",
+    "hiragana": "じっと",
+    "meaning": "chăm chú, bất động",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "彼は窓の外をじっと見ていた。",
+        "reading": "",
+        "meaning": "Anh ấy chăm chú nhìn ra ngoài cửa sổ."
+      }
+    ]
+  },
+  {
+    "word": "そっと",
+    "hiragana": "そっと",
+    "meaning": "nhẹ nhàng, khẽ khàng",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "赤ちゃんをそっと寝かせた。",
+        "reading": "",
+        "meaning": "Nhẹ nhàng đặt em bé nằm xuống."
+      }
+    ]
+  },
+  {
+    "word": "きっちり",
+    "hiragana": "きっちり",
+    "meaning": "chính xác, nghiêm chỉnh",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "時間をきっちり守る。",
+        "reading": "",
+        "meaning": "Tuân thủ thời gian chính xác."
+      }
+    ]
+  },
+  {
+    "word": "しっかり",
+    "hiragana": "しっかり",
+    "meaning": "chắc chắn, cẩn thận",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "しっかり勉強してください。",
+        "reading": "",
+        "meaning": "Hãy học hành nghiêm túc."
+      }
+    ]
+  },
+  {
+    "word": "きちんと",
+    "hiragana": "きちんと",
+    "meaning": "đàng hoàng, ngăn nắp, đúng cách",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "部屋をきちんと片付けた。",
+        "reading": "",
+        "meaning": "Tôi đã dọn phòng gọn gàng."
+      }
+    ]
+  },
+  {
+    "word": "ぎりぎり",
+    "hiragana": "ぎりぎり",
+    "meaning": "sát nút, vừa kịp",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "ぎりぎりで電車に間に合った。",
+        "reading": "",
+        "meaning": "Tôi vừa kịp chuyến tàu."
+      }
+    ]
+  },
+  {
+    "word": "ぴったり",
+    "hiragana": "ぴったり",
+    "meaning": "vừa khít, chính xác",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "この靴は足にぴったりだ。",
+        "reading": "",
+        "meaning": "Đôi giày này vừa khít chân."
+      }
+    ]
+  }
+]

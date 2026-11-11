@@ -1,0 +1,132 @@
+[
+  {
+    "word": "ただ",
+    "hiragana": "ただ",
+    "meaning": "chỉ, đơn thuần; miễn phí (tùy ngữ cảnh)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "ただ見ているだけです。",
+        "reading": "",
+        "meaning": "Tôi chỉ đang xem thôi."
+      }
+    ]
+  },
+  {
+    "word": "ちょっとも",
+    "hiragana": "ちょっとも",
+    "meaning": "một chút cũng không (thường đi với phủ định)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "今日はちょっとも寒くない。",
+        "reading": "",
+        "meaning": "Hôm nay không lạnh chút nào."
+      }
+    ]
+  },
+  {
+    "word": "少しも",
+    "hiragana": "少しも",
+    "meaning": "một chút cũng không (đi với phủ định)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "少しも疲れていない。",
+        "reading": "",
+        "meaning": "Tôi không mệt chút nào."
+      }
+    ]
+  },
+  {
+    "word": "たった",
+    "hiragana": "たった",
+    "meaning": "chỉ vỏn vẹn",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "たった一人で来た。",
+        "reading": "",
+        "meaning": "Tôi đến chỉ một mình."
+      }
+    ]
+  },
+  {
+    "word": "ほんの",
+    "hiragana": "ほんの",
+    "meaning": "chỉ, vỏn vẹn (bổ nghĩa danh từ)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "ほんの少しだけください。",
+        "reading": "",
+        "meaning": "Cho tôi chỉ một chút thôi."
+      }
+    ]
+  },
+  {
+    "word": "一杯",
+    "hiragana": "一杯",
+    "meaning": "đầy; một cốc; rất nhiều (tùy ngữ cảnh)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "コップに水が一杯入っている。",
+        "reading": "",
+        "meaning": "Trong cốc có đầy nước."
+      }
+    ]
+  },
+  {
+    "word": "別に",
+    "hiragana": "別に",
+    "meaning": "không đặc biệt; không hẳn (thường đi với phủ định)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "別に気にしていません。",
+        "reading": "",
+        "meaning": "Tôi cũng không bận tâm gì đặc biệt."
+      }
+    ]
+  },
+  {
+    "word": "また",
+    "hiragana": "また",
+    "meaning": "lại, thêm lần nữa; cũng",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "また明日会いましょう。",
+        "reading": "",
+        "meaning": "Ngày mai lại gặp nhé."
+      }
+    ]
+  },
+  {
+    "word": "それぞれ",
+    "hiragana": "それぞれ",
+    "meaning": "mỗi người/mỗi thứ, riêng từng",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "学生はそれぞれ意見を発表した。",
+        "reading": "",
+        "meaning": "Mỗi học sinh trình bày ý kiến riêng."
+      }
+    ]
+  },
+  {
+    "word": "互いに",
+    "hiragana": "互いに",
+    "meaning": "lẫn nhau, với nhau",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "互いに助け合いましょう。",
+        "reading": "",
+        "meaning": "Chúng ta hãy giúp đỡ lẫn nhau."
+      }
+    ]
+  }
+]

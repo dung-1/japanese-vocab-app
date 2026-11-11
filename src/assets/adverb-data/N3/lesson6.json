@@ -1,0 +1,94 @@
+[
+  {
+    "word": "それで",
+    "hiragana": "それで",
+    "meaning": "vì vậy, do đó (nối câu)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "雨が降った。それで、試合は中止になった。",
+        "reading": "",
+        "meaning": "Trời mưa. Vì vậy trận đấu bị hủy."
+      }
+    ]
+  },
+  {
+    "word": "そこで",
+    "hiragana": "そこで",
+    "meaning": "vì thế; tại đó (chuyển sang hành động/địa điểm)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "道に迷った。そこで、警察に聞いた。",
+        "reading": "",
+        "meaning": "Tôi bị lạc đường. Vì thế tôi hỏi cảnh sát."
+      }
+    ]
+  },
+  {
+    "word": "そのうえ",
+    "hiragana": "そのうえ",
+    "meaning": "hơn nữa, thêm vào đó",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "彼は親切だ。そのうえ、仕事も速い。",
+        "reading": "",
+        "meaning": "Anh ấy tốt bụng. Hơn nữa, làm việc còn nhanh."
+      }
+    ]
+  },
+  {
+    "word": "それとも",
+    "hiragana": "それとも",
+    "meaning": "hay là (nối lựa chọn)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "コーヒーにしますか。それとも紅茶にしますか。",
+        "reading": "",
+        "meaning": "Bạn chọn cà phê hay trà?"
+      }
+    ]
+  },
+  {
+    "word": "つまり",
+    "hiragana": "つまり",
+    "meaning": "nói cách khác, tức là",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "彼は私の兄の友達、つまり私の知り合いだ。",
+        "reading": "",
+        "meaning": "Anh ấy là bạn của anh trai tôi, nói cách khác là người quen của tôi."
+      }
+    ]
+  },
+  {
+    "word": "だって",
+    "hiragana": "だって",
+    "meaning": "bởi vì; nhưng mà (khẩu ngữ, tùy ngữ cảnh)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "だって、時間がなかったんです。",
+        "reading": "",
+        "meaning": "Bởi vì lúc đó tôi không có thời gian."
+      }
+    ]
+  },
+  {
+    "word": "こい",
+    "hiragana": "こい",
+    "meaning": "chưa xác định nghĩa/từ gốc; giữ nguyên theo danh sách người học cung cấp",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "「こい」の意味を確認する必要がある。",
+        "reading": "",
+        "meaning": "Cần xác nhận nghĩa của từ “こい”."
+      }
+    ],
+    "note": "Tạm giữ nguyên dạng こい theo yêu cầu; chưa tự đoán kanji/nghĩa. Cần bổ sung hoặc xác nhận sau."
+  }
+]
