@@ -25,12 +25,17 @@ export interface AiChatHandlerDependencies {
 
 export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}) {
   return async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
-  setCors(res);
+  const corsAllowed = setCors(req, res, dependencies.env ?? process.env);
 
   if (req.method === 'OPTIONS') {
-    res.status(204).end();
+    res.status(corsAllowed ? 204 : 403).end();
     return;
   }
+  if (!corsAllowed) {
+    res.status(403).json({ error: 'origin_not_allowed', message: 'This origin is not allowed to call the AI gateway.' });
+    return;
+  }
+
   if (req.method !== 'POST') {
     res.status(405).json({ error: 'method_not_allowed', message: 'Only POST is supported' });
     return;
@@ -162,10 +167,28 @@ function statusForError(code: string): number {
   }
 }
 
-function setCors(res: VercelResponse): void {
-  // Same-origin browser calls are expected. Wildcard retained for current
-  // mobile clients; tighten to the deployed origin before public rollout.
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+function setCors(
+  req: VercelRequest,
+  res: VercelResponse,
+  env: Record<string, string | undefined>,
+): boolean {
+  const origin = req.headers.origin;
+  const configured = (env['AI_ALLOWED_ORIGINS'] ?? [
+    'https://japanese-vocab-app-dungcts.vercel.app',
+    'http://localhost:4200',
+    'http://127.0.0.1:4200',
+    'capacitor://localhost',
+    'ionic://localhost',
+  ].join(',')).split(',').map(value => value.trim()).filter(Boolean);
+  // Requests without Origin include same-origin/non-browser clients. CORS is
+  // a browser boundary only and is NOT authentication or abuse protection.
+  const allowed = !origin || configured.includes(origin);
+  res.setHeader('Vary', 'Origin');
+  if (origin && allowed) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.setHeader('Access-Control-Max-Age', '600');
+  }
+  return allowed;
 }
