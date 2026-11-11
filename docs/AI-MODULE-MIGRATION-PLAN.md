@@ -1075,3 +1075,30 @@ Angular:
 3. Harden gateway CORS, authentication/abuse controls, body limits, and request lifecycle; verify actual Vercel runtime limits.
 4. Configure API keys only after user sets them in Vercel environment settings; perform controlled smoke test.
 5. Keep deployment blocked until all checks and user approval.
+
+
+### 2026-11-12 — Phase 2 / Step 2: Embedding isolation, mobile API origin, and credential regression tests
+
+**Audit findings and fixes:**
+1. Found `EmbeddingService.getEmbedding()` used `providerFactory.get('local')`, but batch method `getEmbeddings()` still used `getProvider()` (the active chat provider). Fixed both methods to explicitly use Local Ollama so choosing Gemini/Groq cannot redirect embedding/vectorization.
+2. `AiService` had hardcoded local endpoint `http://localhost:11434` instead of the user's configured `localEndpoint`. It now respects saved `localEndpoint`, with localhost fallback.
+3. `AiSettingsService.baseUrl()` used stale placeholder `https://japanese-vocab-app.vercel.app` for Capacitor/file/localhost contexts. Updated to the known project deployment origin `https://japanese-vocab-app-dungcts.vercel.app`. Must re-verify against Vercel project Domains before a release; no production request was made.
+
+**Regression tests added:**
+- `src/app/ai/services/ai-settings.service.spec.ts`: verifies legacy `cloudApiKey` is removed from memory and localStorage on migration, and cannot be reintroduced through update.
+- `src/app/ai/providers/cloud.provider.spec.ts`: verifies cloud browser request targets `/api/ai-chat`, includes provider/model/prompt/system, and does not include `apiKey` or `cloudApiKey`.
+
+**Validation on branch HEAD `061d10d264df97b4f22efe2587fa794e9c4f98b8`:**
+- `npm run build`: PASS; 15 prerendered routes.
+- AI gateway Node tests: 32/32 PASS.
+- Focused Angular AI browser tests (`npx ng test --watch=false --browsers=ChromeHeadless --include="src/app/ai/**/*.spec.ts"`): 3/3 PASS.
+- Full Angular browser test suite: 3/4 PASS, 1 unrelated existing `AdverbComponent should create` failure because its test module does not provide `HttpClient`. This is not caused by the AI changes; it remains an existing suite issue and should be fixed separately.
+- Initial focused test compile found Jasmine matcher `toHaveProperty` unavailable in this project's Jasmine type setup; replaced with `Object.prototype.hasOwnProperty.call` and reran successfully.
+
+**Important remaining caveats:**
+- The mobile origin was updated to the previously recorded deployed domain, but Vercel Domains still needs a current authoritative verification before release.
+- No real Gemini/Groq credentials or live calls; no deployed runtime smoke test.
+- CORS is still wildcard; authentication, abuse/rate limiting, quota protection and request lifecycle hardening remain incomplete.
+- No merge to master and no deployment.
+
+**Next:** inspect Vercel project configuration/domain and function runtime limits; design authentication/abuse control compatible with the app's current user/session model; tighten CORS; add request body/timeout safeguards and runtime smoke tests. Then prepare user-facing local test steps. Do not deploy until explicit approval.
