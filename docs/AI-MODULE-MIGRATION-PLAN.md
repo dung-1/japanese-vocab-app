@@ -1030,3 +1030,48 @@ Angular:
 
 **Next step:**
 - Audit and implement Angular transport cutover safely: inspect CloudProvider, provider interface/factory, AiSettingsService, settings UI and any consumers. Keep Ollama Local and embeddings separate. Remove browser-side Ollama Cloud credential use only in the same migration step that switches the UI to server-configured Gemini/Groq. Add Angular service/provider tests and local manual smoke-test checklist. Do not deploy.
+
+
+### 2026-11-11 — Phase 2 / Step 1: Angular cloud provider/settings migration — IMPLEMENTED, LOCAL VALIDATION ONLY
+
+**Angular files changed:**
+- `src/app/ai/providers/cloud.provider.ts`: cloud chat now calls `POST /api/ai-chat`; sends provider/model/system/prompt/temperature/topK/stream only; no browser credential.
+- `src/app/ai/models/ai-chat.model.ts`: adds `AiCloudProvider = 'gemini' | 'groq'`, adds `cloudProvider` setting, marks legacy `cloudApiKey` optional/deprecated for migration cleanup.
+- `src/app/ai/providers/provider-factory.service.ts`: removes API-key configuration method.
+- `src/app/ai/services/ai.service.ts`: no longer passes cloud API key into provider factory.
+- `src/app/ai/services/ai-settings.service.ts`: sanitizes settings, removes legacy `cloudApiKey` from memory and persisted JSON, rewrites legacy `ai_settings_v2` on load.
+- `src/app/ai/components/ai-settings/ai-settings.component.ts` and `.html`: replaces Ollama Cloud/key/model catalog UI with Gemini/Groq selector, model field, server-side key instructions, and gateway test connection.
+- `src/app/ai/services/embedding.service.ts`: embeddings explicitly use local provider, preserving separate legacy `/api/embed` behavior regardless of selected chat provider.
+
+**Compatibility decisions:**
+- Ollama Local chat and embedding paths remain unchanged.
+- Gemini/Groq keys are never entered into browser settings or sent by Angular.
+- Old `cloudApiKey` is removed when legacy settings load and sanitized back to localStorage.
+- Legacy `/api/chat` endpoint is not deleted or modified.
+- Cloud model defaults: Gemini `gemini-2.5-flash`; Groq `llama-3.3-70b-versatile`. Verify availability against provider accounts before live use.
+
+**Validation:**
+- First build exposed a malformed newline insertion in settings-service sanitizer; corrected immediately.
+- Final `npm run build`: PASS, 15 prerendered routes.
+- AI gateway suite: PASS, 32/32.
+- `npm test -- --watch=false`: NOT RUN TO COMPLETION — Karma could not launch Chrome because host has no X server / DISPLAY. Angular browser tests remain outstanding.
+- Existing warnings: Node punycode deprecation; Angular CommonJS warnings for `whatwg-url` / `@supabase/node-fetch`; Node TS test MODULE_TYPELESS_PACKAGE_JSON warnings.
+
+**Current branch head at validation:** `1615cc6c31b3f897d5dedef011127fde2ed2796d`.
+
+**Not yet done / release blockers:**
+- No real Gemini/Groq key configured; no live request.
+- No deployed Vercel runtime smoke test.
+- No restrictive CORS, auth, per-user rate limiting or quota protection on `/api/ai-chat`.
+- No browser UI test run due missing display.
+- No frontend tests yet for cloud settings migration or key sanitization.
+- Need verify actual model identifiers and provider account access.
+- Need verify mobile/Capacitor base URL points to the correct deployment; existing constant may be stale.
+- No deployment, production cutover, merge to master, or production environment changes.
+
+**Next steps:**
+1. Add unit tests for AiSettingsService legacy-key sanitization and CloudProvider request shape (prove no credential is sent).
+2. Review model selection and mobile base URL; add a documented local manual smoke test.
+3. Harden gateway CORS, authentication/abuse controls, body limits, and request lifecycle; verify actual Vercel runtime limits.
+4. Configure API keys only after user sets them in Vercel environment settings; perform controlled smoke test.
+5. Keep deployment blocked until all checks and user approval.
