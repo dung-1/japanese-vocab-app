@@ -857,3 +857,33 @@ Angular:
 - Add server-side provider registry and a Gemini adapter behind the contract, using `GEMINI_API_KEY` from server environment only.
 - Keep adapter unit tests mocked; no real API call until user explicitly supplies/configures credentials.
 - Before fallback implementation, define which normalized failures are retryable and ensure fallback only happens before any stream token has been emitted.
+
+
+### 2026-11-11 — Phase 1 / Step 2: Gemini server adapter — IMPLEMENTED
+
+**Files added/changed:**
+- `api/_lib/ai/gemini.adapter.ts`: Gemini REST streaming adapter. Reads `GEMINI_API_KEY` only from server environment by default; injectable fetch/timeout for deterministic tests; maps HTTP 429 to retryable rate limit with bounded Retry-After; maps 5xx/network/timeout to retryable provider unavailable/timeout; maps other 4xx to non-retryable provider rejection; consumes SSE text events; propagates AbortSignal; does not log keys or include key in public errors.
+- `api/_lib/ai/gemini.adapter.test.ts`: mocked tests for missing key, SSE token streaming, request payload, rate limit mapping, 5xx mapping, vision-disabled behavior and capabilities.
+
+**Important implementation decision:**
+- Gemini model capabilities currently report text=true, streaming=true, vision=false. Although the request contract has a reserved images property, the adapter rejects image requests before any network call. Vision must not be shown as supported until full end-to-end support and model allowlist are implemented.
+- Uses Gemini REST endpoint `v1beta/models/{model}:streamGenerateContent?alt=sse`; key is server-side only. No real API request made.
+- Does not yet route production `/api/chat` traffic; current Ollama chat endpoint remains unchanged until gateway routing step.
+
+**Validation on branch HEAD `dbe7589e0c3d24952d723b2004c61c0d29e520fe`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts`: PASS, 11/11 tests.
+- `npm run build`: PASS, browser/server bundles and 15 prerendered routes.
+- First adapter test run exposed Node v24 strip-only TypeScript incompatibility with constructor parameter properties. Refactored constructor to explicit fields/assignments and reran; all 11 tests pass.
+- Build warnings unchanged: CommonJS `whatwg-url` / `@supabase/node-fetch` and Node punycode deprecation.
+- Node emits MODULE_TYPELESS_PACKAGE_JSON warning when executing TS tests with `--experimental-strip-types`; this is test-runner mode warning, not test failure.
+
+**Cost/security:**
+- No real key used; mock key only.
+- No live provider request, billing, or deployment.
+- Existing /api/chat still uses old Ollama code and still has browser-supplied key handling; security issue is not fixed until the gateway route replaces it. Do not describe migration as secure/complete yet.
+
+**Next:**
+1. Add provider registry and normalized stream orchestration.
+2. Add mock-tested Groq adapter.
+3. Add gateway route and only then migrate browser transport; remove legacy browser-supplied key flow in the same controlled cutover.
+4. Ensure fallback happens only before the first emitted token and never on auth/invalid-request/capability errors.
