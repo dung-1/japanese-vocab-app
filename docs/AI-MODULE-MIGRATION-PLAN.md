@@ -823,3 +823,37 @@ Angular:
 - [ ] Implementation authorization: awaiting explicit go-ahead for source-code changes.
 
 **No source files changed during Phase 0. No provider keys configured. No billing enabled. No deployment performed.**
+
+
+### 2026-11-11 — Phase 1 / Step 1: provider-neutral contract — IMPLEMENTED
+
+**Branch:** `ai-provider-migration` (created from current GitHub master commit `f2f2d92b486056c62a33040442051508eef37413`). Local `master` was not modified.
+
+**Files added:**
+- `api/_lib/ai/contracts.ts`: provider identifiers (`gemini | groq | local`), chat request, image input, normalized gateway error codes, stream events, model capabilities, provider adapter interface, success/error response contracts, runtime request validator.
+- `api/_lib/ai/contracts.test.ts`: Node built-in tests for supported providers, malformed requests, bounded settings, MIME/image size/count checks.
+
+**Validation rules currently encoded:**
+- Request must be an object and provider must be one of the three supported IDs.
+- Model name is required and limited to 160 chars.
+- Prompt is required and limited to 40,000 chars; system prompt limited to 12,000 chars.
+- Temperature 0–2; topK integer 1–100; stream boolean.
+- Up to 4 images, JPEG/PNG/WebP/GIF only, each base64 payload limited to 8,000,000 chars.
+- These image fields are a reserved contract only. No provider currently accepts/processes image data and no image is sent upstream in this step.
+
+**Tests on branch HEAD `2901c2252c6159026768896683cb900211981ae3`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts`: PASS, 5/5 tests.
+- `npm run build`: PASS, 15 routes prerendered.
+- Existing CommonJS optimization warnings and Node punycode deprecation remain.
+- Existing Angular unit-test baseline failure remains unmodified: AdverbComponent missing HttpClient provider.
+
+**Safety / scope:**
+- No provider SDK added; no API keys requested or stored; no billing enabled.
+- No chat, embedding, settings UI or existing provider code changed yet.
+- No production deployment.
+- Tests use synthetic data only.
+
+**Next implementation step:**
+- Add server-side provider registry and a Gemini adapter behind the contract, using `GEMINI_API_KEY` from server environment only.
+- Keep adapter unit tests mocked; no real API call until user explicitly supplies/configures credentials.
+- Before fallback implementation, define which normalized failures are retryable and ensure fallback only happens before any stream token has been emitted.
