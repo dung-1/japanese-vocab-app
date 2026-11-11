@@ -5,7 +5,7 @@ import { LayoutVocabularyComponent } from './layout-vocabulary.component';
 
 const routes: Routes = [
   {
-    path: 'vocabulary',
+    path: '',
     component: LayoutVocabularyComponent,
   },
 ];
