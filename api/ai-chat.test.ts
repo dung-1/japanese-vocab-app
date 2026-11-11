@@ -37,7 +37,7 @@ function mockRequest(method = 'POST', body: unknown = {
   req.method = method;
   req.body = body;
   req.aborted = false;
-  req.headers = {};
+  req.headers = { 'content-type': 'application/json' };
   return req;
 }
 
@@ -285,8 +285,7 @@ test('rejects oversized request bodies before provider invocation', async () => 
       makeAdapter([{ type: 'done' }], () => calls++),
     ]),
   });
-  const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
-  req.headers['content-type'] = 'application/json';
+  const req = mockRequest('POST', { provider: 'gemini', model: 'test', prompt: 'x'.repeat(500) }) as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
   const res = mockResponse();
   await handler(req as never, res as never);
   assert.equal(res.statusCode, 413);
