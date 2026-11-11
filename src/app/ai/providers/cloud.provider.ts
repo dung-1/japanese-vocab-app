@@ -32,7 +32,7 @@ export class CloudProvider implements AiProvider {
       const provider = this.settings.get().cloudProvider ?? 'gemini';
       const res = await fetch(`${this.settings.baseUrl()}${this.proxyUrl}`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${this.settings.get().cloudDeviceToken ?? ''}` },
         body: JSON.stringify({
           provider,
           model: request.model,
@@ -98,7 +98,7 @@ export class CloudProvider implements AiProvider {
     try {
       const res = await fetch(`${this.settings.baseUrl()}${this.proxyUrl}`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${this.settings.get().cloudDeviceToken ?? ''}` },
         body: JSON.stringify({
           provider, model: this.settings.get().model,
           prompt: 'Reply with a short greeting.', stream: false,
