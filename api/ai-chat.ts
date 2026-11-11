@@ -6,6 +6,7 @@
  * Cloud credentials are read only from server environment variables.
  */
 import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { timingSafeEqual } from 'node:crypto';
 import { validateAiChatRequest } from './_lib/ai/contracts.ts';
 import { GeminiProviderAdapter } from './_lib/ai/gemini.adapter.ts';
 import { GroqProviderAdapter } from './_lib/ai/groq.adapter.ts';
@@ -25,7 +26,8 @@ export interface AiChatHandlerDependencies {
 
 export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}) {
   return async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
-  const corsAllowed = setCors(req, res, dependencies.env ?? process.env);
+  const env = { ...process.env, ...(dependencies.env ?? {}) };
+  const corsAllowed = setCors(req, res, env);
 
   if (req.method === 'OPTIONS') {
     res.status(corsAllowed ? 204 : 403).end();
@@ -41,6 +43,19 @@ export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}
     return;
   }
 
+  const expectedToken = env['AI_DEVICE_TOKEN'];
+  const authHeader = req.headers.authorization;
+  const suppliedToken = typeof authHeader === 'string' && authHeader.startsWith('Bearer ')
+    ? authHeader.slice(7) : '';
+  if (!expectedToken || !suppliedToken || !safeTokenEqual(suppliedToken, expectedToken)) {
+    res.status(expectedToken ? 401 : 503).json({
+      error: { code: expectedToken ? 'unauthorized' : 'gateway_not_configured',
+        message: expectedToken ? 'Device is not authorized for the AI gateway.' : 'AI gateway authentication is not configured.',
+        retryable: false },
+    });
+    return;
+  }
+
   const contentType = req.headers['content-type'];
   if (typeof contentType !== 'string' || !contentType.toLowerCase().includes('application/json')) {
     res.status(415).json({ error: 'unsupported_media_type', message: 'Content-Type must be application/json.' });
@@ -51,7 +66,7 @@ export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}
   // limit to reject oversized payloads before provider selection/upstream calls.
   const serializedBody = JSON.stringify(req.body ?? null);
   const bodyBytes = Buffer.byteLength(serializedBody, 'utf8');
-  const maxBodyBytes = Number(dependencies.env?.['AI_MAX_BODY_BYTES'] ?? process.env['AI_MAX_BODY_BYTES'] ?? 10_000_000);
+  const maxBodyBytes = Number(env['AI_MAX_BODY_BYTES'] ?? 10_000_000);
   if (!Number.isFinite(maxBodyBytes) || maxBodyBytes < 1 || bodyBytes > maxBodyBytes) {
     res.status(413).json({ error: 'payload_too_large', message: 'AI request payload exceeds the configured size limit.' });
     return;
@@ -79,7 +94,6 @@ export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}
     new GeminiProviderAdapter(),
     new GroqProviderAdapter(),
   ]);
-  const env = dependencies.env ?? process.env;
   const fallbackEnabled = env['AI_CLOUD_FALLBACK_ENABLED'] === 'true';
   const fallbackOrder = fallbackEnabled
     ? { gemini: ['groq'] as Array<'gemini' | 'groq'>, groq: ['gemini'] as Array<'gemini' | 'groq'> }
@@ -203,8 +217,14 @@ function setCors(
   if (origin && allowed) {
     res.setHeader('Access-Control-Allow-Origin', origin);
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     res.setHeader('Access-Control-Max-Age', '600');
   }
   return allowed;
+}
+
+function safeTokenEqual(a: string, b: string): boolean {
+  const left = Buffer.from(a);
+  const right = Buffer.from(b);
+  return left.length === right.length && timingSafeEqual(left, right);
 }
