@@ -127,18 +127,21 @@ test('skips unavailable fallback adapter after retryable primary error and repor
 
 test('does not fallback after caller aborts', async () => {
   const controller = new AbortController();
+  controller.abort();
+  let geminiCalls = 0;
   let groqCalls = 0;
   const events = await collect(
     request(),
-    [adapter('gemini', [{ type: 'error', error: temporaryError }]) ,
-     adapter('groq', [{ type: 'done' }], () => groqCalls++)],
+    [
+      adapter('gemini', [{ type: 'error', error: temporaryError }], () => geminiCalls++),
+      adapter('groq', [{ type: 'done' }], () => groqCalls++),
+    ],
     { gemini: ['groq'] },
     controller.signal,
   );
-  // Abort before execution must prevent all upstream calls.
+  assert.equal(geminiCalls, 0);
   assert.equal(groqCalls, 0);
   assert.deepEqual(events, []);
-  controller.abort();
 });
 
 test('does not use a fallback lacking the requested capability', async () => {
