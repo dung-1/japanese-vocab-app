@@ -216,3 +216,51 @@ test('rejects local provider on the cloud gateway', async () => {
   assert.equal(res.statusCode, 400);
   assert.equal((res.body as { error: { code: string } }).error.code, 'unsupported_capability');
 });
+
+
+test('allows configured production origin and echoes only that origin', async () => {
+  const handler = createAiChatHandler({
+    env: { AI_ALLOWED_ORIGINS: 'https://app.example.com,capacitor://localhost' },
+    createRegistry: () => new StaticAiProviderRegistry([
+      makeAdapter([{ type: 'token', token: 'ok' }, { type: 'done' }]),
+    ]),
+  });
+  const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
+  req.headers = { origin: 'https://app.example.com' };
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 200);
+  assert.equal(res.headers['access-control-allow-origin'], 'https://app.example.com');
+  assert.equal(res.headers['vary'], 'Origin');
+  assert.equal(res.headers['access-control-allow-headers'], 'Content-Type');
+});
+
+test('rejects untrusted browser origin before calling provider', async () => {
+  let calls = 0;
+  const handler = createAiChatHandler({
+    env: { AI_ALLOWED_ORIGINS: 'https://app.example.com' },
+    createRegistry: () => new StaticAiProviderRegistry([
+      makeAdapter([{ type: 'done' }], () => calls++),
+    ]),
+  });
+  const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
+  req.headers = { origin: 'https://attacker.example' };
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 403);
+  assert.equal((res.body as { error: string }).error, 'origin_not_allowed');
+  assert.equal(res.headers['access-control-allow-origin'], undefined);
+  assert.equal(calls, 0);
+});
+
+test('rejects untrusted CORS preflight', async () => {
+  const handler = createAiChatHandler({
+    env: { AI_ALLOWED_ORIGINS: 'https://app.example.com' },
+  });
+  const req = mockRequest('OPTIONS') as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
+  req.headers = { origin: 'https://attacker.example' };
+  const res = mockResponse();
+  await handler(req as never, res as never);
+  assert.equal(res.statusCode, 403);
+  assert.equal(res.headers['access-control-allow-origin'], undefined);
+});
