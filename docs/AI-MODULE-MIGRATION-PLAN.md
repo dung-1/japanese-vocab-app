@@ -1102,3 +1102,31 @@ Angular:
 - No merge to master and no deployment.
 
 **Next:** inspect Vercel project configuration/domain and function runtime limits; design authentication/abuse control compatible with the app's current user/session model; tighten CORS; add request body/timeout safeguards and runtime smoke tests. Then prepare user-facing local test steps. Do not deploy until explicit approval.
+
+
+### 2026-11-12 — Phase 2 / Step 3: AI Gateway CORS restriction and Vercel inspection
+
+**Security issue confirmed:** `POST /api/ai-chat` had wildcard `Access-Control-Allow-Origin: *` in both the handler and `vercel.json`. The endpoint has no user authentication yet, so this must not be described as production-secure.
+
+**Changes made:**
+- `api/ai-chat.ts`: replaced wildcard CORS with exact-origin allowlist. `AI_ALLOWED_ORIGINS` server environment variable may override the default comma-separated list. Defaults currently include the known production app origin, Angular local dev origins, and Capacitor/Ionic local origins. Requests with a non-allowlisted Origin return HTTP 403 before validation/provider invocation. Preflight for a non-allowlisted Origin returns 403. `Vary: Origin` is set; only `Content-Type` is allowed as request header; no credentials are allowed.
+- `vercel.json`: removed its `/api/(.*)` wildcard CORS headers so it cannot override/contradict handler-level policy.
+- `api/ai-chat.test.ts`: added allowed origin, denied origin/no provider invocation, and denied preflight tests; request mocks now include headers.
+
+**Validation:**
+- Initial test run found old mock requests lacked `headers`; fixed mock and reran.
+- AI gateway Node suite: 35/35 PASS.
+- Angular production build: PASS; 15 prerendered routes.
+- Existing TypeScript module-mode warnings remain; no functional test failure.
+
+**Vercel inspection attempt:**
+- Attempted to read Vercel project `japanese-vocab-app` and attached domains to confirm domain and runtime settings.
+- Vercel API returned HTTP 403 for team scope `dungcts` (team ID `team_Mv7P2NCj3jzlojzf0hsc4BFH`), requiring team authorization/re-authentication. Therefore domain and function runtime settings remain UNVERIFIED; the mobile origin is based on prior known deployment information only.
+
+**Security limitations (not solved by CORS):**
+- CORS is a browser-origin policy, not authentication. Non-browser clients can forge/remove Origin.
+- Gateway still has no authenticated user identity, durable per-user/device quota, or distributed rate limit. Public API key consumption remains possible if endpoint is discovered.
+- Request body size is validated by prompt/image field limits but there is not yet a complete total-body/early payload limit at the HTTP ingress layer.
+- Do not enable real provider keys or release publicly until authentication and quota/abuse controls are designed and tested.
+
+**Next:** inspect Supabase project auth configuration and determine whether the app has real user sessions. Current chat persistence uses Supabase anon key and `x-device-id` only, which is not a trusted identity. Choose a server-verifiable auth model (Supabase Auth JWT if real accounts exist, otherwise an explicit secure device-token design plus shared durable rate limiting). Do not treat the public anon key/device ID as a secret. Need team authorization to inspect Vercel domain/runtime configuration.
