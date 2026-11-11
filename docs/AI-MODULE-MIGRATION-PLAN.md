@@ -734,3 +734,30 @@ Khi hoàn thành, bổ sung báo cáo theo mẫu:
 **Tiếp tục Phase 0 בלבד:** đọc phần provider còn thiếu, AI settings component, API embed, conversation memory, slash command, streaming/cancellation và test scripts; chạy baseline build/test nếu môi trường cho phép; cập nhật kết quả vào Engineering log.
 
 **Chưa được phép ở bước này:** sửa source code, thêm API key, thay đổi Supabase, bật billing hoặc deploy production. Cần trình bày kết quả Phase 0 và danh sách file thay đổi cụ thể để người dùng duyệt trước khi bắt đầu implementation.
+
+
+### 2026-11-11 — Phase 0 baseline — IN PROGRESS
+
+**Source inspection:** reviewed provider interface/factory, local and cloud providers, AI settings service/model/component, chat and embedding API routes, embedding and knowledge services, conversation memory/Supabase persistence, assistant component, slash-command service/model, NDJSON abortable stream parser, package.json, vercel.json and existing smoke-test script.
+
+**Confirmed findings:**
+- Cloud credential is part of AiSettings, persisted in localStorage and sent by the browser to both chat and embedding endpoints.
+- Chat endpoint logs a masked fragment of the credential; remove all credential logging in the future implementation.
+- Chat and embedding currently share the active ProviderFactory; separate their provider configuration before migration.
+- Existing chat contract is text-only; no image or capability contract was found.
+- Existing smoke tests are Ollama-specific and must be deliberately migrated.
+- Slash commands and Supabase conversation history are separate application concerns and should be preserved.
+- Wildcard CORS exists in API code and vercel.json; validate required web/Capacitor origins before tightening.
+
+**Local baseline (host dung-Vostro-14-5410):**
+- Local branch master HEAD: `3168a5f5ca8c0c5c821c1ace0b2b2dce1c222136`; working tree clean.
+- Cached tracking metadata says local master is ahead 2 / behind 15 relative to cached origin/master. This is not yet refreshed; do not pull, reset or rebase until local-only commits are reviewed.
+- Node v24.21.0; npm 11.19.0.
+- `npm run build`: PASS when run with elevated permissions. Browser/server bundles built; 15 routes prerendered. Warnings: CommonJS optimization bailout for whatwg-url and @supabase/node-fetch; Node punycode deprecation.
+- `npm test -- --watch=false --browsers=ChromeHeadless`: PASS when run as app user; 1 spec passed. Root-run attempt failed because Chrome blocks root without --no-sandbox.
+- First user-level build attempt compiled bundles but failed deleting a dist artifact because dist was owned by the SentinelX service account. This is a local permissions issue; do not change ownership without review.
+- No provider keys accessed, no billing enabled, no source files changed, no deployment.
+
+**Important source-snapshot discrepancy:** GitHub master received the documentation commit created in this session, while local working copy is at an older/different HEAD. Baseline build/test results apply to local HEAD, and source review applies to GitHub master. Reconcile these snapshots before code changes.
+
+**Next:** refresh remote refs safely, inspect unpushed/local-only commits, reconcile local and remote source snapshots, complete remaining call-site inventory and expand tests. Phase 0 is not complete yet.
