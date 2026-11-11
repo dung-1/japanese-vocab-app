@@ -18,7 +18,13 @@ type ClientEvent =
   | { done: true }
   | { error: string; code: string; retryable: boolean; provider?: string };
 
-export default async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
+export interface AiChatHandlerDependencies {
+  createRegistry?: () => StaticAiProviderRegistry;
+  env?: Record<string, string | undefined>;
+}
+
+export function createAiChatHandler(dependencies: AiChatHandlerDependencies = {}) {
+  return async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
   setCors(res);
 
   if (req.method === 'OPTIONS') {
@@ -48,11 +54,12 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
     return;
   }
 
-  const registry = new StaticAiProviderRegistry([
+  const registry = dependencies.createRegistry?.() ?? new StaticAiProviderRegistry([
     new GeminiProviderAdapter(),
     new GroqProviderAdapter(),
   ]);
-  const fallbackEnabled = process.env['AI_CLOUD_FALLBACK_ENABLED'] === 'true';
+  const env = dependencies.env ?? process.env;
+  const fallbackEnabled = env['AI_CLOUD_FALLBACK_ENABLED'] === 'true';
   const fallbackOrder = fallbackEnabled
     ? { gemini: ['groq'] as Array<'gemini' | 'groq'>, groq: ['gemini'] as Array<'gemini' | 'groq'> }
     : {};
@@ -133,7 +140,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
       }
     }
   }
+  };
 }
+
+export default createAiChatHandler();
 
 function writeEvent(res: VercelResponse, event: ClientEvent): void {
   if (!res.writableEnded && !res.destroyed) res.write(JSON.stringify(event) + '\n');
