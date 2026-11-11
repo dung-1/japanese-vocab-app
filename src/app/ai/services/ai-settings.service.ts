@@ -77,13 +77,21 @@ export class AiSettingsService {
         merged.model = DEFAULT_AI_SETTINGS.model;
         console.log('[AiSettingsService] Migrated cloud model name to local default:', merged.model);
       }
-      this.persist(merged); // rewrite legacy settings without any browser-held cloud key\n      return merged;
+      this.persist(merged); // rewrite legacy settings without any browser-held cloud key
+      return merged;
     } catch {
       return { ...DEFAULT_AI_SETTINGS };
     }
   }
 
-  private sanitize(settings: Partial<AiSettings>): AiSettings {\n    const clean = { ...DEFAULT_AI_SETTINGS, ...settings };\n    // Remove the legacy Ollama Cloud credential from memory and localStorage.\n    delete clean.cloudApiKey;\n    return clean;\n  }\n\n  private persist(s: AiSettings): void {
+  private sanitize(settings: Partial<AiSettings>): AiSettings {
+    const clean = { ...DEFAULT_AI_SETTINGS, ...settings };
+    // Remove the legacy Ollama Cloud credential from memory and localStorage.
+    delete clean.cloudApiKey;
+    return clean;
+  }
+
+  private persist(s: AiSettings): void {
     if (!isPlatformBrowser(this.platformId)) return;
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(this.sanitize(s)));
