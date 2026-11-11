@@ -15,8 +15,8 @@ export class ProviderFactory {
     this.local.setEndpoint(endpoint);
   }
 
-  configureCloud(apiKey: string, model: string, proxyUrl?: string): void {
-    this.cloud.configure({ apiKey, model, proxyUrl });
+  configureCloud(): void {
+    // Cloud credentials are server-side; the browser sends provider/model only.
   }
 
   setActiveType(type: AiProviderType): void {
