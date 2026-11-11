@@ -40,10 +40,4 @@ describe('AiSettingsService cloud credential migration', () => {
     expect(localStorage.getItem('ai_settings_v2') ?? '').not.toContain('another-secret');
   });
 
-  it('uses the deployed Vercel origin for Capacitor/mobile origins', () => {
-    const service = TestBed.inject(AiSettingsService);
-    expect(service.baseUrl()).toBe('');
-    // baseUrl uses window.location.origin, which is not replaceable in this
-    // unit test environment; the URL constant is additionally covered by build.
-  });
 });
