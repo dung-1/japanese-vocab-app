@@ -887,3 +887,28 @@ Angular:
 2. Add mock-tested Groq adapter.
 3. Add gateway route and only then migrate browser transport; remove legacy browser-supplied key flow in the same controlled cutover.
 4. Ensure fallback happens only before the first emitted token and never on auth/invalid-request/capability errors.
+
+
+### 2026-11-11 — Phase 1 / Step 3: Groq server adapter — IMPLEMENTED
+
+**Files added:**
+- `api/_lib/ai/groq.adapter.ts`: Groq Chat Completions adapter using server-only `GROQ_API_KEY`; OpenAI-compatible JSON request; SSE parsing; system/user messages; temperature/top_k; AbortSignal and timeout; normalized error mapping.
+- `api/_lib/ai/groq.adapter.test.ts`: mocked tests for missing key/no upstream call, streaming, server bearer auth, rate limit/retry-after, 5xx, 401, unsupported images and capability declaration.
+
+**Policy and implementation notes:**
+- Groq vision capability remains false. Any image request is rejected before network access.
+- API key is passed as server Authorization header; never sent in JSON body or public error. No logging added.
+- 429 and 5xx are retryable; 401 and other 4xx are non-retryable.
+- Retry-After is bounded to one hour.
+- Adapter does not yet route production traffic; /api/chat remains unchanged.
+- No real Groq request or billing activity.
+
+**Validation on branch HEAD `6beeae5e92e9168f9614fed55a03aeabb60b6cf1`:**
+- `node --experimental-strip-types --test api/_lib/ai/contracts.test.ts api/_lib/ai/gemini.adapter.test.ts api/_lib/ai/groq.adapter.test.ts`: PASS, 17/17.
+- `npm run build`: PASS, 15 prerendered routes.
+- Existing CommonJS optimization warnings for `whatwg-url` / `@supabase/node-fetch` and Node `punycode` deprecation remain.
+- Test runner prints Node MODULE_TYPELESS_PACKAGE_JSON warning because TS tests use `--experimental-strip-types`; no failures.
+
+**Next step:**
+- Add a provider registry and deterministic fallback orchestrator. Fallback is allowed only before the first token is emitted and only for retryable errors (rate limit, timeout, provider unavailable); never for missing key, authentication/provider rejection, invalid request, unsupported capability, client abort, or after partial output.
+- Then add a gateway route with server-side credentials and normalized streaming. Do not switch Angular transport until route tests and compatibility are complete.
