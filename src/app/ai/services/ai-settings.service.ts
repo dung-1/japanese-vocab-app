@@ -77,6 +77,11 @@ export class AiSettingsService {
         merged.model = DEFAULT_AI_SETTINGS.model;
         console.log('[AiSettingsService] Migrated cloud model name to local default:', merged.model);
       }
+      // Replace obsolete/stale Gemini model selections saved by earlier app versions.
+      if (merged.provider === 'cloud' && merged.cloudProvider === 'gemini' &&
+          ['gemini-2.5-flash', 'mistral-large-4:cloud'].includes(merged.model)) {
+        merged.model = 'gemini-3.8-flash';
+      }
       this.persist(merged); // rewrite legacy settings without any browser-held cloud key
       return merged;
     } catch {
