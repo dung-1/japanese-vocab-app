@@ -4,7 +4,7 @@ import type {
   AiGatewayStreamEvent,
   AiModelCapabilities,
   AiProviderAdapter,
-} from './contracts.ts';
+} from './contracts.js';
 
 type FetchLike = typeof fetch;
 
