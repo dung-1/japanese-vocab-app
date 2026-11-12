@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { EventEmitter } from 'node:events';
-import { createAiChatHandler } from './ai-chat.ts';
+import { createAiChatHandler } from './ai-chat';
 import type {
   AiGatewayStreamEvent,
   AiProviderAdapter,
 } from './_lib/ai/contracts.ts';
-import { StaticAiProviderRegistry } from './_lib/ai/provider-registry.ts';
+import { StaticAiProviderRegistry } from './_lib/ai/provider-registry';
 
 process.env['AI_DEVICE_TOKEN'] = 'test-device-token';
 
@@ -123,7 +123,6 @@ test('streams NDJSON tokens and completion marker', async () => {
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{ type: 'token', token: 'こんにちは' }, { type: 'token', token: '世界' }, { type: 'done' }]),
     ]),
-    env: {},
   });
   const req = mockRequest();
   const res = mockResponse();
@@ -144,7 +143,6 @@ test('returns JSON when stream is false', async () => {
     createRegistry: () => new StaticAiProviderRegistry([
       makeAdapter([{ type: 'token', token: 'answer' }, { type: 'done' }]),
     ]),
-    env: {},
   });
   const req = mockRequest('POST', {
     provider: 'gemini',
@@ -172,7 +170,6 @@ test('maps provider failure to HTTP status without leaking secrets', async () =>
         },
       }]),
     ]),
-    env: {},
   });
   const req = mockRequest();
   const res = mockResponse();
@@ -200,7 +197,6 @@ test('emits an in-band NDJSON error after streaming has started', async () => {
         },
       ]),
     ]),
-    env: {},
   });
   const req = mockRequest();
   const res = mockResponse();
@@ -307,7 +303,7 @@ test('rejects invalid device token before calling provider', async () => {
     createRegistry: () => new StaticAiProviderRegistry([makeAdapter([{ type: 'done' }], () => calls++)]),
   });
   const req = mockRequest() as ReturnType<typeof mockRequest> & { headers: Record<string, string> };
-  req.headers.authorization = 'Bearer wrong-token';
+  req.headers['authorization'] = 'Bearer wrong-token';
   const res = mockResponse();
   await handler(req as never, res as never);
   assert.equal(res.statusCode, 401);

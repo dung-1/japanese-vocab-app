@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { GeminiProviderAdapter } from './gemini.adapter.ts';
+import { GeminiProviderAdapter } from './gemini.adapter';
 import type { AiChatGatewayRequest } from './contracts.ts';
 
 function makeRequest(overrides: Partial<AiChatGatewayRequest> = {}): AiChatGatewayRequest {

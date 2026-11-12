@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { GroqProviderAdapter } from './groq.adapter.ts';
+import { GroqProviderAdapter } from './groq.adapter';
 import type { AiChatGatewayRequest } from './contracts.ts';
 
 function request(overrides: Partial<AiChatGatewayRequest> = {}): AiChatGatewayRequest {

@@ -3,7 +3,7 @@ import test from 'node:test';
 import {
   validateAiChatRequest,
   type AiGatewayErrorCode,
-} from './contracts.ts';
+} from './contracts';
 
 test('accepts a minimal Gemini text request and applies safe defaults later', () => {
   const result = validateAiChatRequest({

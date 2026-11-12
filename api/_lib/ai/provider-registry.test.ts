@@ -9,7 +9,7 @@ import type {
 import {
   generateWithFallback,
   StaticAiProviderRegistry,
-} from './provider-registry.ts';
+} from './provider-registry';
 
 function request(provider: 'gemini' | 'groq' = 'gemini'): AiChatGatewayRequest {
   return { provider, model: 'test-model', prompt: 'hello', stream: true };
