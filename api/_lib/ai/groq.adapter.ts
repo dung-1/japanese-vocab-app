@@ -94,7 +94,6 @@ export class GroqProviderAdapter implements AiProviderAdapter {
           ],
           stream: true,
           ...(request.temperature !== undefined ? { temperature: request.temperature } : {}),
-          ...(request.topK !== undefined ? { top_k: request.topK } : {}),
         }),
         signal: combinedSignal,
       });
