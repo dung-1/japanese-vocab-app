@@ -20,7 +20,7 @@ describe('AiSettingsService cloud credential migration', () => {
       provider: 'cloud',
       cloudProvider: 'gemini',
       cloudApiKey: 'legacy-secret-must-not-survive',
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
     }));
 
     const service = TestBed.inject(AiSettingsService);
@@ -30,6 +30,15 @@ describe('AiSettingsService cloud credential migration', () => {
     expect(persisted).not.toContain('legacy-secret-must-not-survive');
     expect(persisted).not.toContain('cloudApiKey');
     expect(JSON.parse(persisted).cloudProvider).toBe('gemini');
+  });
+
+  it('migrates obsolete saved Gemini models to gemini-3.8-flash', () => {
+    localStorage.setItem('ai_settings_v2', JSON.stringify({
+      provider: 'cloud', cloudProvider: 'gemini', model: 'gemini-2.5-flash',
+    }));
+    const service = TestBed.inject(AiSettingsService);
+    expect(service.get().model).toBe('gemini-3.8-flash');
+    expect(JSON.parse(localStorage.getItem('ai_settings_v2') ?? '{}').model).toBe('gemini-3.8-flash');
   });
 
   it('does not reintroduce cloudApiKey through update()', () => {

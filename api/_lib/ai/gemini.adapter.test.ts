@@ -40,7 +40,7 @@ test('returns a safe configuration error when server key is missing', async () =
   }
 });
 
-test('streams text tokens from Gemini SSE frames', async () => {
+test('calls the Interactions API and extracts generated text', async () => {
   let capturedUrl = '';
   let capturedBody = '';
   let capturedApiKey = '';
@@ -48,34 +48,29 @@ test('streams text tokens from Gemini SSE frames', async () => {
     capturedUrl = String(input);
     capturedBody = String(init?.body);
     capturedApiKey = new Headers(init?.headers).get('x-goog-api-key') ?? '';
-    return sseResponse([
-      'data: {"candidates":[{"content":{"parts":[{"text":"こんにちは"}]}}]}\n\n',
-      'data: {"candidates":[{"content":{"parts":[{"text":"世界"}]}}]}\n\n',
-    ], 200, { 'Content-Type': 'text/event-stream' });
+    return new Response(JSON.stringify({ output_text: 'こんにちは世界' }), { status: 200 });
   });
-
   const events = [];
-  for await (const event of adapter.generate(makeRequest({
-    system: 'Answer in Vietnamese.',
-    temperature: 0.4,
-    topK: 8,
-  }), new AbortController().signal)) {
-    events.push(event);
-  }
-
-  assert.deepEqual(events, [
-    { type: 'token', token: 'こんにちは' },
-    { type: 'token', token: '世界' },
-    { type: 'done' },
-  ]);
-  assert.match(capturedUrl, /streamGenerateContent/);
-  assert.doesNotMatch(capturedUrl, /key=/);
+  for await (const event of adapter.generate(makeRequest({ system: 'Answer in Vietnamese.', model: 'gemini-3.8-flash' }), new AbortController().signal)) events.push(event);
+  assert.deepEqual(events, [{ type: 'token', token: 'こんにちは世界' }, { type: 'done' }]);
+  assert.equal(capturedUrl, 'https://generativelanguage.googleapis.com/v1beta/interactions');
   assert.equal(capturedApiKey, 'fake-test-key');
-  assert.doesNotMatch(capturedBody, /fake-test-key/);
   const body = JSON.parse(capturedBody);
-  assert.equal(body.systemInstruction.parts[0].text, 'Answer in Vietnamese.');
-  assert.equal(body.generationConfig.temperature, 0.4);
-  assert.equal(body.generationConfig.topK, 8);
+  assert.equal(body.model, 'gemini-3.8-flash');
+  assert.equal(body.input, 'Answer in Vietnamese.\n\nExplain a Japanese grammar point.');
+  assert.equal(body.generation_config.thinking_level, 'low');
+  assert.doesNotMatch(capturedBody, /fake-test-key/);
+});
+
+test('returns a bounded timeout error when Gemini does not respond', async () => {
+  const adapter = new GeminiProviderAdapter('fake', async (_input, init) => new Promise((_resolve, reject) => {
+    const signal = init?.signal as AbortSignal;
+    signal.addEventListener('abort', () => reject(new Error('aborted')), { once: true });
+  }), 5);
+  const events = [];
+  for await (const event of adapter.generate(makeRequest(), new AbortController().signal)) events.push(event);
+  assert.equal(events[0].type, 'error');
+  if (events[0].type === 'error') assert.equal(events[0].error.code, 'upstream_timeout');
 });
 
 test('maps rate limiting and retry-after without exposing credentials', async () => {

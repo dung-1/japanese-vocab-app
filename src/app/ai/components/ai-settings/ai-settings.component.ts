@@ -9,7 +9,7 @@ import { AiCloudProvider, AiProviderType } from '../../models/ai-chat.model';
 const LOCAL_ENDPOINT = 'http://localhost:11434';
 const CLOUD_GATEWAY_DISPLAY = '/api/ai-chat (Gemini / Groq server gateway)';
 const CLOUD_MODELS: Record<AiCloudProvider, string> = {
-  gemini: 'gemini-2.5-flash',
+  gemini: 'gemini-3.8-flash',
   groq: 'llama-3.3-70b-versatile',
 };
 
