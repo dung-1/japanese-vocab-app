@@ -204,6 +204,7 @@ function setCors(
 ): boolean {
   const origin = req.headers.origin;
   const configured = (env['AI_ALLOWED_ORIGINS'] ?? [
+    'https://japanese-vocab-app.vercel.app',
     'https://japanese-vocab-app-dungcts.vercel.app',
     'http://localhost:4200',
     'http://127.0.0.1:4200',
