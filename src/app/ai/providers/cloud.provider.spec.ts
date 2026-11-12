@@ -18,7 +18,7 @@ describe('CloudProvider gateway request', () => {
     });
     provider = TestBed.inject(CloudProvider);
     settings = TestBed.inject(AiSettingsService);
-    settings.update({ provider: 'cloud', cloudProvider: 'gemini', model: 'gemini-2.5-flash' });
+    settings.update({ provider: 'cloud', cloudProvider: 'gemini', model: 'gemini-3.8-flash' });
     fetchSpy = spyOn(window, 'fetch').and.returnValue(Promise.resolve(
       new Response(JSON.stringify({ response: 'hello' }), {
         status: 200,
@@ -32,7 +32,7 @@ describe('CloudProvider gateway request', () => {
     let completed = false;
 
     await provider.chat({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
       user: 'test prompt',
       system: 'test system',
       temperature: 0.3,
@@ -44,7 +44,7 @@ describe('CloudProvider gateway request', () => {
     const body = JSON.parse(String(init.body));
     expect(url).toContain('/api/ai-chat');
     expect(body.provider).toBe('gemini');
-    expect(body.model).toBe('gemini-2.5-flash');
+    expect(body.model).toBe('gemini-3.8-flash');
     expect(body.prompt).toBe('test prompt');
     expect(body.system).toBe('test system');
     expect(Object.prototype.hasOwnProperty.call(body, 'apiKey')).toBeFalse();
