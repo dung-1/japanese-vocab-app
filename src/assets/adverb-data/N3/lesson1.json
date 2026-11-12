@@ -1,0 +1,132 @@
+[
+  {
+    "word": "まずまず",
+    "hiragana": "まずまず",
+    "meaning": "tạm ổn, khá ổn",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "結果はまずまずだった。",
+        "reading": "",
+        "meaning": "Kết quả khá ổn."
+      }
+    ]
+  },
+  {
+    "word": "大変に",
+    "hiragana": "大変に",
+    "meaning": "rất, vô cùng",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "今日は大変に忙しい。",
+        "reading": "",
+        "meaning": "Hôm nay vô cùng bận."
+      }
+    ]
+  },
+  {
+    "word": "もちろん",
+    "hiragana": "もちろん",
+    "meaning": "đương nhiên, tất nhiên",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "もちろん、手伝います。",
+        "reading": "",
+        "meaning": "Tất nhiên, tôi sẽ giúp."
+      }
+    ]
+  },
+  {
+    "word": "必ず",
+    "hiragana": "必ず",
+    "meaning": "nhất định, chắc chắn",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "明日必ず来てください。",
+        "reading": "",
+        "meaning": "Ngày mai nhất định hãy đến."
+      }
+    ]
+  },
+  {
+    "word": "絶対に",
+    "hiragana": "絶対に",
+    "meaning": "tuyệt đối, nhất định",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "絶対に忘れない。",
+        "reading": "",
+        "meaning": "Tuyệt đối không quên."
+      }
+    ]
+  },
+  {
+    "word": "特に",
+    "hiragana": "特に",
+    "meaning": "đặc biệt là",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "特に問題はありません。",
+        "reading": "",
+        "meaning": "Đặc biệt thì không có vấn đề gì."
+      }
+    ]
+  },
+  {
+    "word": "ほとんど",
+    "hiragana": "ほとんど",
+    "meaning": "hầu hết, gần như",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "宿題はほとんど終わった。",
+        "reading": "",
+        "meaning": "Bài tập gần như đã xong."
+      }
+    ]
+  },
+  {
+    "word": "少なくとも",
+    "hiragana": "少なくとも",
+    "meaning": "ít nhất",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "少なくとも一時間はかかる。",
+        "reading": "",
+        "meaning": "Ít nhất sẽ mất một tiếng."
+      }
+    ]
+  },
+  {
+    "word": "決して",
+    "hiragana": "決して",
+    "meaning": "không bao giờ (đi với phủ định)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "このことを決して忘れない。",
+        "reading": "",
+        "meaning": "Tôi sẽ không bao giờ quên chuyện này."
+      }
+    ]
+  },
+  {
+    "word": "全く",
+    "hiragana": "全く",
+    "meaning": "hoàn toàn; chẳng… chút nào",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "彼の話は全く分からない。",
+        "reading": "",
+        "meaning": "Tôi hoàn toàn không hiểu lời anh ấy."
+      }
+    ]
+  }
+]

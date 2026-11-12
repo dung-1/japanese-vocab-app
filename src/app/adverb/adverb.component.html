@@ -1,1 +1,31 @@
-<p>adverb works!</p>
+<main class="adverb-page">
+  <a class="home-link" routerLink="/home">← Trang chủ</a>
+  <header class="page-heading"><span class="eyebrow">日本語桜 · JLPT</span><h1>副詞 — Phó từ tiếng Nhật</h1><p>Học phó từ theo cấp độ N5 đến N1, ghi nhớ qua ví dụ và tự kiểm tra.</p></header>
+  <section class="selector-panel">
+    <label>Cấp độ JLPT<select [value]="selectedLevel" (change)="changeLevel($any($event.target).value)"><option *ngFor="let level of levels" [value]="level">{{level}}</option></select></label>
+    <label>Lesson<select [value]="selectedLesson ?? ''" (change)="selectLesson($any($event.target).value)"><option value="">Chọn bài học</option><option *ngFor="let lesson of lessons" [value]="lesson">Lesson {{lesson}}</option></select></label>
+  </section>
+  <p class="notice" *ngIf="!lessons.length && !loading">Chưa có dữ liệu {{selectedLevel}}. Khi bạn gửi danh sách phó từ, tôi sẽ phân loại N5–N1 và gom đúng 10 từ vào mỗi Lesson. Các từ dư sẽ chuyển sang Lesson kế tiếp.</p>
+  <p class="error" *ngIf="error">{{error}}</p><p *ngIf="loading">Đang tải dữ liệu...</p>
+  <ng-container *ngIf="entries.length">
+    <nav class="mode-tabs"><button [class.active]="mode==='flashcard'" (click)="setMode('flashcard')">Thẻ học</button><button [class.active]="mode==='quiz'" (click)="setMode('quiz')">Kiểm tra</button></nav>
+    <section *ngIf="mode==='flashcard' && current as item" class="study-card">
+      <div class="card-meta">{{selectedLevel}} · Lesson {{selectedLesson}} · {{index+1}} / {{entries.length}}</div>
+      <button class="flip-area" (click)="flipped=!flipped" [attr.aria-label]="flipped ? 'Hiện từ' : 'Hiện nghĩa'">
+        <ng-container *ngIf="!flipped"><span class="word">{{item.word}}</span><span class="reading">{{item.hiragana}}</span><small>Chạm để xem nghĩa</small></ng-container>
+        <ng-container *ngIf="flipped"><span class="meaning">{{item.meaning}}</span><span *ngIf="item.hanViet" class="reading">Hán Việt: {{item.hanViet}}</span><span *ngIf="item.note" class="note">{{item.note}}</span></ng-container>
+      </button>
+      <div class="examples" *ngIf="flipped"><h3>Ví dụ</h3><article *ngFor="let ex of item.examples"><p class="jp">{{ex.sentence}}</p><p class="reading">{{ex.reading}}</p><p>{{ex.meaning}}</p></article></div>
+      <div class="card-actions"><button (click)="previous()">← Trước</button><button (click)="shuffle()">Trộn thẻ</button><button (click)="next()">Tiếp →</button></div>
+    </section>
+    <section *ngIf="mode==='quiz'" class="quiz-panel">
+      <ng-container *ngIf="!quizFinished && quizQuestions.length">
+        <div class="card-meta">Câu {{questionIndex+1}} / {{quizQuestions.length}}</div><h2>「{{quizQuestions[questionIndex].entry.word}}」 có nghĩa là gì?</h2>
+        <button class="answer" *ngFor="let option of quizQuestions[questionIndex].options" [class.correct]="selectedAnswer!==null && option===quizQuestions[questionIndex].entry.meaning" [class.wrong]="selectedAnswer===option && option!==quizQuestions[questionIndex].entry.meaning" [disabled]="selectedAnswer!==null" (click)="choose(option)">{{option}}</button>
+        <button class="primary" [disabled]="selectedAnswer===null" (click)="nextQuestion()">{{questionIndex+1===quizQuestions.length ? 'Xem kết quả' : 'Câu tiếp theo'}}</button>
+      </ng-container>
+      <div *ngIf="quizFinished" class="result"><h2>Hoàn thành bài kiểm tra!</h2><p class="score">{{score}} / {{answers.length}} câu đúng</p><article *ngFor="let answer of answers"><strong>{{answer.word}}</strong> — {{answer.correct}} <span [class.good]="answer.ok" [class.bad]="!answer.ok">{{answer.ok ? '✓' : '✗ Bạn chọn: '+answer.selected}}</span></article><button class="primary" (click)="startQuiz()">Làm lại</button></div>
+      <button *ngIf="!quizQuestions.length" class="primary" (click)="startQuiz()">Bắt đầu kiểm tra</button>
+    </section>
+  </ng-container>
+</main>

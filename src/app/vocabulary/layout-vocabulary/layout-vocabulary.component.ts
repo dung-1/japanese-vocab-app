@@ -1,6 +1,7 @@
-import { Component ,Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { isPlatformBrowser } from '@angular/common';
+
 @Component({
   selector: 'app-layout-vocabulary',
   standalone: false,
@@ -10,69 +11,59 @@ import { isPlatformBrowser } from '@angular/common';
 export class LayoutVocabularyComponent {
   selectedLessonVocab: any[] = [];
   studyMode: 'flashcard' | 'quiz' = 'flashcard';
+  private lessonRequestId = 0;
 
   constructor(
     private http: HttpClient,
-    @Inject(PLATFORM_ID) private platformId: Object 
-  ) {
-    if (isPlatformBrowser(this.platformId)) {
-      this.preloadVocabData(); 
-    }
-  }
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   setStudyMode(mode: 'flashcard' | 'quiz'): void {
     this.studyMode = mode;
   }
 
-  preloadVocabData() {
+  onLessonSelected(selection: { level: string; lesson: number }): void {
     if (!isPlatformBrowser(this.platformId)) {
-      return; 
+      this.selectedLessonVocab = [];
+      return;
     }
-    const levels = ['N2', 'N3', 'N4', 'N5', 'N6'];
-    levels.forEach(level => {
-      const range = level === 'N2'
-        ? { start: 1, end: 24 }
-        : level === 'N3'
-          ? { start: 1, end: 22 }
-          : level === 'N6'
-            ? { start: 1, end: 28 }
-            : { start: 26, end: 50 };
 
-      for (let i = range.start; i <= range.end; i++) {
-        const cacheKey = `${level}-lesson${i}`;
-        const cachedData = localStorage.getItem(cacheKey);
-        if (!cachedData) {
-          this.http.get<any[]>(`assets/vocab-data/${level}/lesson${i}.json`).subscribe({
-            next: (data) => {
-              localStorage.setItem(cacheKey, JSON.stringify(data));
-            },
-            error: (err) => console.error(`Lỗi tải ${level} lesson${i}:`, err)
-          });
-        }
-      }
-    });
-  }
+    const requestId = ++this.lessonRequestId;
+    const cacheKey = `${selection.level}-lesson${selection.lesson}`;
 
-  onLessonSelected(selection: {level: string, lesson: number}) {
-    if (isPlatformBrowser(this.platformId)) {
-      const cacheKey = `${selection.level}-lesson${selection.lesson}`;
+    // localStorage can be unavailable or full in private/restricted browsing modes.
+    try {
       const cachedData = localStorage.getItem(cacheKey);
       if (cachedData) {
         this.selectedLessonVocab = this.shuffleArray(JSON.parse(cachedData));
-      } else {
-        this.http.get<any[]>(`assets/vocab-data/${selection.level}/lesson${selection.lesson}.json`).subscribe({
-          next: (data) => {
-            this.selectedLessonVocab = this.shuffleArray([...data]);
-            localStorage.setItem(cacheKey, JSON.stringify(data));
-          },
-          error: () => {
-            this.selectedLessonVocab = []; 
-          }
-        });
+        return;
       }
-    } else {
-      this.selectedLessonVocab = []; 
+    } catch (error) {
+      console.warn('Không thể đọc cache từ vựng; sẽ tải dữ liệu trực tiếp.', error);
     }
+
+    this.http.get<any[]>(`assets/vocab-data/${selection.level}/lesson${selection.lesson}.json`).subscribe({
+      next: (data) => {
+        // Ignore an older response if the user selected another lesson meanwhile.
+        if (requestId !== this.lessonRequestId) {
+          return;
+        }
+
+        this.selectedLessonVocab = this.shuffleArray([...data]);
+
+        try {
+          localStorage.setItem(cacheKey, JSON.stringify(data));
+        } catch (error) {
+          console.warn('Không thể lưu cache từ vựng trên thiết bị này.', error);
+        }
+      },
+      error: (error) => {
+        if (requestId === this.lessonRequestId) {
+          console.error('Không thể tải bài từ vựng:', error);
+          this.selectedLessonVocab = [];
+        }
+      }
+    });
   }
 
   private shuffleArray(array: any[]): any[] {

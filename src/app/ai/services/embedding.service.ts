@@ -14,7 +14,7 @@ export class EmbeddingService {
   readonly embeddingsReady = this.isReady.asReadonly();
 
   async getEmbedding(text: string): Promise<EmbeddingVector> {
-    const provider = this.providerFactory.getProvider();
+    const provider = this.providerFactory.get('local');
     if (!provider || !provider.embed) {
       throw new Error('Current provider does not support embeddings.');
     }
@@ -23,7 +23,7 @@ export class EmbeddingService {
   }
 
   async getEmbeddings(texts: string[]): Promise<EmbeddingVector[]> {
-    const provider = this.providerFactory.getProvider();
+    const provider = this.providerFactory.get('local');
     if (!provider || !provider.embed) {
       throw new Error('Current provider does not support embeddings.');
     }

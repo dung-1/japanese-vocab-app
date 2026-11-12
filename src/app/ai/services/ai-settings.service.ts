@@ -26,7 +26,7 @@ export class AiSettingsService {
     // Check if running under capacitor/cordova or file system
     if (origin.startsWith('capacitor://') || origin.startsWith('file://') || origin.includes('localhost')) {
       // REPLACE with your actual deployed Vercel domain
-      return 'https://japanese-vocab-app.vercel.app'; 
+      return 'https://japanese-vocab-app-dungcts.vercel.app'; 
     }
     
     return origin;
@@ -38,7 +38,7 @@ export class AiSettingsService {
         if (e.key === STORAGE_KEY && e.newValue) {
           try {
             const parsed = JSON.parse(e.newValue);
-            this._settings.set({ ...DEFAULT_AI_SETTINGS, ...parsed });
+            this._settings.set(this.sanitize(parsed));
           } catch {
             // ignore
           }
@@ -48,7 +48,7 @@ export class AiSettingsService {
   }
 
   update(patch: Partial<AiSettings>): void {
-    const next = { ...this._settings(), ...patch };
+    const next = this.sanitize({ ...this._settings(), ...patch });
     this._settings.set(next);
     this.persist(next);
   }
@@ -70,23 +70,36 @@ export class AiSettingsService {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return { ...DEFAULT_AI_SETTINGS };
       const parsed = JSON.parse(raw) as Partial<AiSettings>;
-      const merged: AiSettings = { ...DEFAULT_AI_SETTINGS, ...parsed };
+      const merged = this.sanitize({ ...DEFAULT_AI_SETTINGS, ...parsed });
       const CLOUD_MODEL_SUFFIXES = [':cloud', '-cloud'];
       const isCloudModelName = CLOUD_MODEL_SUFFIXES.some(s => (merged.model ?? '').endsWith(s));
       if (merged.provider === 'local' && isCloudModelName) {
         merged.model = DEFAULT_AI_SETTINGS.model;
         console.log('[AiSettingsService] Migrated cloud model name to local default:', merged.model);
       }
+      // Replace obsolete/stale Gemini model selections saved by earlier app versions.
+      if (merged.provider === 'cloud' && merged.cloudProvider === 'gemini' &&
+          ['gemini-2.5-flash', 'mistral-large-4:cloud'].includes(merged.model)) {
+        merged.model = 'gemini-3.8-flash';
+      }
+      this.persist(merged); // rewrite legacy settings without any browser-held cloud key
       return merged;
     } catch {
       return { ...DEFAULT_AI_SETTINGS };
     }
   }
 
+  private sanitize(settings: Partial<AiSettings>): AiSettings {
+    const clean = { ...DEFAULT_AI_SETTINGS, ...settings };
+    // Remove the legacy Ollama Cloud credential from memory and localStorage.
+    delete clean.cloudApiKey;
+    return clean;
+  }
+
   private persist(s: AiSettings): void {
     if (!isPlatformBrowser(this.platformId)) return;
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(s));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(this.sanitize(s)));
     } catch {
       // ignore quota errors
     }

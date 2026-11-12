@@ -1,0 +1,132 @@
+[
+  {
+    "word": "ほっと",
+    "hiragana": "ほっと",
+    "meaning": "nhẹ nhõm",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "試験が終わってほっとした。",
+        "reading": "",
+        "meaning": "Thi xong tôi thấy nhẹ nhõm."
+      }
+    ]
+  },
+  {
+    "word": "いらいら",
+    "hiragana": "いらいら",
+    "meaning": "bực bội, cáu kỉnh",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "返事が遅くていらいらした。",
+        "reading": "",
+        "meaning": "Tôi bực bội vì trả lời chậm."
+      }
+    ]
+  },
+  {
+    "word": "のんびり",
+    "hiragana": "のんびり",
+    "meaning": "thong thả, thư thả",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "休日は家でのんびり過ごす。",
+        "reading": "",
+        "meaning": "Ngày nghỉ tôi thư thả ở nhà."
+      }
+    ]
+  },
+  {
+    "word": "ぐっすり",
+    "hiragana": "ぐっすり",
+    "meaning": "ngủ say",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "昨夜はぐっすり眠れた。",
+        "reading": "",
+        "meaning": "Đêm qua tôi đã ngủ rất say."
+      }
+    ]
+  },
+  {
+    "word": "すっかり",
+    "hiragana": "すっかり",
+    "meaning": "hoàn toàn, hẳn",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "町の様子がすっかり変わった。",
+        "reading": "",
+        "meaning": "Bộ mặt thị trấn đã thay đổi hoàn toàn."
+      }
+    ]
+  },
+  {
+    "word": "非常に",
+    "hiragana": "非常に",
+    "meaning": "rất, cực kỳ",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "この問題は非常に難しい。",
+        "reading": "",
+        "meaning": "Vấn đề này cực kỳ khó."
+      }
+    ]
+  },
+  {
+    "word": "まさに",
+    "hiragana": "まさに",
+    "meaning": "đúng là, chính là",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "これはまさに私が探していた本だ。",
+        "reading": "",
+        "meaning": "Đây đúng là cuốn sách tôi đang tìm."
+      }
+    ]
+  },
+  {
+    "word": "まるで",
+    "hiragana": "まるで",
+    "meaning": "cứ như là, hệt như",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "彼はまるで子どものようだ。",
+        "reading": "",
+        "meaning": "Anh ấy cứ như một đứa trẻ."
+      }
+    ]
+  },
+  {
+    "word": "一体",
+    "hiragana": "一体",
+    "meaning": "rốt cuộc, thật sự (nhấn mạnh nghi vấn)",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "一体何があったのですか。",
+        "reading": "",
+        "meaning": "Rốt cuộc đã xảy ra chuyện gì?"
+      }
+    ]
+  },
+  {
+    "word": "どうしても",
+    "hiragana": "どうしても",
+    "meaning": "dù thế nào cũng, nhất định",
+    "level": "N3",
+    "examples": [
+      {
+        "sentence": "どうしても日本へ行きたい。",
+        "reading": "",
+        "meaning": "Dù thế nào tôi cũng muốn đi Nhật."
+      }
+    ]
+  }
+]
