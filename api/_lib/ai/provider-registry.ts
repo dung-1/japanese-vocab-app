@@ -3,7 +3,7 @@ import type {
   AiGatewayError,
   AiGatewayStreamEvent,
   AiProviderAdapter,
-} from './contracts.ts';
+} from './contracts.js';
 
 export interface AiFallbackPolicy {
   /** Explicit ordered candidates. The requested provider is always attempted first. */
