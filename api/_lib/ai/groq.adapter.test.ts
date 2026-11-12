@@ -71,7 +71,7 @@ test('streams content and sends system/user messages with server bearer auth', a
   assert.equal(body.messages[0].role, 'system');
   assert.equal(body.messages[1].role, 'user');
   assert.equal(body.temperature, 0.3);
-  assert.equal(body.top_k, 10);
+  assert.equal(Object.hasOwn(body, 'top_k'), false);
   assert.equal(body.stream, true);
 });
 
