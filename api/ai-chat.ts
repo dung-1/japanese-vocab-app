@@ -7,10 +7,10 @@
  */
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { timingSafeEqual } from 'node:crypto';
-import { validateAiChatRequest } from './_lib/ai/contracts.ts';
-import { GeminiProviderAdapter } from './_lib/ai/gemini.adapter.ts';
-import { GroqProviderAdapter } from './_lib/ai/groq.adapter.ts';
-import { generateWithFallback, StaticAiProviderRegistry } from './_lib/ai/provider-registry.ts';
+import { validateAiChatRequest } from './_lib/ai/contracts.js';
+import { GeminiProviderAdapter } from './_lib/ai/gemini.adapter.js';
+import { GroqProviderAdapter } from './_lib/ai/groq.adapter.js';
+import { generateWithFallback, StaticAiProviderRegistry } from './_lib/ai/provider-registry.js';
 
 export const config = { maxDuration: 60 };
 
