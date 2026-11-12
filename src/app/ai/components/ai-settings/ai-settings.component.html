@@ -48,8 +48,8 @@
     <h2>Model</h2>
     <input type="text" [ngModel]="settings().model"
       (ngModelChange)="setModel($event)" name="model"
-      [placeholder]="isCloud() ? 'gemini-2.5-flash' : 'qwen3:0.6b'" />
-    <small *ngIf="isCloud()">Gemini: gemini-2.5-flash · Groq: llama-3.3-70b-versatile. Model cần được provider hỗ trợ.</small>
+      [placeholder]="isCloud() ? 'gemini-3.8-flash' : 'qwen3:0.6b'" />
+    <small *ngIf="isCloud()">Gemini: gemini-3.8-flash · Groq: llama-3.3-70b-versatile. Model cần được provider hỗ trợ.</small>
     <small *ngIf="!isCloud()">Ví dụ: qwen2.5-coder:7b, qwen3:0.6b. Phải pull trước: <code>ollama pull {{ settings().model }}</code></small>
   </section>
 
