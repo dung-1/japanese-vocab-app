@@ -1,0 +1,80 @@
+[
+  {
+    "kanji": "理科",
+    "hiragana": "りか",
+    "hanViet": "LÝ KHOA",
+    "meaning": "Môn khoa học tự nhiên trong chương trình học phổ thông"
+  },
+  {
+    "kanji": "学ぶ",
+    "hiragana": "まなぶ",
+    "hanViet": "HỌC",
+    "meaning": "Học, học hỏi; tiếp thu kiến thức hoặc kỹ năng"
+  },
+  {
+    "kanji": "物理",
+    "hiragana": "ぶつり",
+    "hanViet": "VẬT LÝ",
+    "meaning": "Vật lý; môn khoa học nghiên cứu vật chất, năng lượng và các quy luật tự nhiên"
+  },
+  {
+    "kanji": "地理",
+    "hiragana": "ちり",
+    "hanViet": "ĐỊA LÝ",
+    "meaning": "Địa lý; môn học nghiên cứu về Trái Đất, địa hình, khí hậu và các vùng"
+  },
+  {
+    "kanji": "足し算",
+    "hiragana": "たしざん",
+    "hanViet": "TÚC TOÁN",
+    "meaning": "Phép tính cộng"
+  },
+  {
+    "kanji": "引き算",
+    "hiragana": "ひきざん",
+    "hanViet": "DẪN TOÁN",
+    "meaning": "Phép tính trừ"
+  },
+  {
+    "kanji": "算数",
+    "hiragana": "さんすう",
+    "hanViet": "TOÁN SỐ",
+    "meaning": "Môn toán ở bậc tiểu học; phép tính số học cơ bản"
+  },
+  {
+    "kanji": "かけ算",
+    "hiragana": "かけざん",
+    "hanViet": "—",
+    "meaning": "Phép tính nhân"
+  },
+  {
+    "kanji": "割り算",
+    "hiragana": "わりざん",
+    "hanViet": "CÁT TOÁN",
+    "meaning": "Phép tính chia"
+  },
+  {
+    "kanji": "早退",
+    "hiragana": "そうたい",
+    "hanViet": "TẢO THOÁI",
+    "meaning": "Về sớm; rời trường học hoặc nơi làm việc trước giờ kết thúc"
+  },
+  {
+    "kanji": "欠席",
+    "hiragana": "けっせき",
+    "hanViet": "KHIẾM TỊCH",
+    "meaning": "Vắng mặt; nghỉ học hoặc không tham dự buổi họp, sự kiện"
+  },
+  {
+    "kanji": "〜帳",
+    "hiragana": "〜ちょう",
+    "hanViet": "TRƯỚNG",
+    "meaning": "Sổ ~; hậu tố chỉ loại sổ dùng để ghi chép hoặc quản lý thông tin, ví dụ 手帳（てちょう）: sổ tay"
+  },
+  {
+    "kanji": "〜届",
+    "hiragana": "〜とどけ",
+    "hanViet": "—",
+    "meaning": "Giấy thông báo hoặc đơn khai báo ~; hậu tố thường dùng trong tên các loại giấy tờ cần nộp, ví dụ 欠席届（けっせきとどけ）: đơn xin phép vắng mặt"
+  }
+]
